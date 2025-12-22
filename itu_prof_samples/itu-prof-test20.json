@@ -1,0 +1,854 @@
+{
+    "id": 1,
+    "title": "Proficiency Practice Test 22",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: Pigeon Racing",
+                    "passage": {
+                        "title": "Pigeon Racing",
+                        "text": "Pigeon racing is a big sport that dates back almost 2,000 years. All over the world, there are people with the hobby of training and racing a special kind of homing pigeon. They take their caged pigeons to a spot that is a carefully measured distance from their home. Then they open the cages (1)_____ how long it takes for the pigeons to fly home. The pigeon with the shortest time gets the prize, (2)_____ its owner gets the prize. The pigeon just gets tired since it has flown as fast as it could for many miles. How do the pigeons know where home is? It has taken a lot of scientific study to figure it out, and there are still questions. One thing that seems certain (3)_____ the pigeons can detect Earth's magnetic field lines. Earth is like a big magnet, with lines of magnetic force that (4)_____ around Earth from one magnetic pole to the other. A compass needle will line up along the magnetic lines of force. That's how humans can know which way is north. The pigeons seem to have a compass too, but it is 'built in,' (5)_____ they always know in which direction they are flying. We know they are not navigating by the position of the Sun in the sky, because they fly straight home even at night or in cloudy conditions when they can't see the Sun. While the pigeons don't use the Sun for navigation, the Sun (6)_____ their ability to navigate. When the Sun is in a stormy mood, it (7)_____ charged particles into space at high speeds. If the blast of particles hits Earth, it shakes up Earth's protective magnetic field. When this happens, the magnetic field that the pigeons use for navigation will change direction and the pigeon's navigation system will get confused and send the pigeon the wrong way. The anxious owner may never see his expensive champion racing pigeon again. (8)_____, some pigeon racers call up the Space Weather Prediction Center before a big race. The scientists who work there keep an eye (9)_____ the Sun using satellites that have special instruments that monitor the Sun's x-rays and ultraviolet light output. They can detect the beginnings of a storm that might send bad space weather toward Earth. If bad space weather is on the way, the pigeon race is (10)_____. No one wants to lose a prized pigeon."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "on time",
+                                "and time",
+                                "time of",
+                                "time in"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"and time\" doğru çünkü cümlede iki eylem var: 1. Kafesleri açmak (open the cages), 2. Süre tutmak (time). Bu iki eylemi bağlamak için 've' anlamına gelen \"and\" bağlacı gerekiyor. Burada 'time' kelimesi fiil olarak 'süre tutmak/zamanlamak' anlamında kullanılmış.",
+                                "wrong": {
+                                    "0": "\"on time\" (zamanında) bir zarftır, burada ise bir eylem (fiil) gerekiyor.",
+                                    "2": "\"time of\" isim tamlaması başlatır, cümle akışını bozar.",
+                                    "3": "\"time in\" anlamsız bir yapı oluşturur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "or rather",
+                                "but for",
+                                "as of",
+                                "in return"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"or rather\" (daha doğrusu) doğru. Yazar önce 'ödülü güvercin alır' diyor, sonra kendini düzelterek 'daha doğrusu ödülü sahibi alır' diyor. Bir düzeltme veya açıklama ifadesi gerekli.",
+                                "wrong": {
+                                    "1": "\"but for\" (olmasaydı) koşul bildirir, burada düzeltme var.",
+                                    "2": "\"as of\" (...itibarıyla) zaman belirtir.",
+                                    "3": "\"in return\" (karşılığında) anlam olarak buraya uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "is what",
+                                "what is",
+                                "is that",
+                                "that is"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"is that\" doğru. Cümle \"One thing... is...\" (Bir şey şudur ki...) yapısında. Özneyi (One thing that seems certain) bir açıklama cümlesine bağlamak için \"is that\" kullanılır.",
+                                "wrong": {
+                                    "0": "\"is what\" soru veya noun clause yapar ama burada yargı bildiren bir cümle (\"pigeons can detect\") geliyor.",
+                                    "1": "\"what is\" devrik bir yapı veya soru başlangıcıdır.",
+                                    "3": "\"that is\" (yani) anlamındadır ama burada ana fiil (is) eksik kalır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "loop",
+                                "defy",
+                                "inhibit",
+                                "alleviate"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"loop\" (döngü yapmak/dolanmak) doğru. Manyetik alan çizgilerinin Dünya'nın etrafını sarmasını/dolanmasını anlatıyor.",
+                                "wrong": {
+                                    "1": "\"defy\" (karşı gelmek) fiziksel bir hareketi tanımlamıyor.",
+                                    "2": "\"inhibit\" (engellemek) anlamca uyumsuz.",
+                                    "3": "\"alleviate\" (hafifletmek/dindirmek) genellikle ağrı veya sorunlar için kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "which is why",
+                                "as well as",
+                                "on behalf of",
+                                "as for"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"which is why\" (işte bu yüzden) doğru. Güvercinlerin 'içsel bir pusulaya' sahip olması (sebep), onların yönlerini hep bilmelerini (sonuç) sağlıyor. Neden-sonuç ilişkisi kuruyor.",
+                                "wrong": {
+                                    "1": "\"as well as\" (yanı sıra) ekleme yapar, neden belirtmez.",
+                                    "2": "\"on behalf of\" (...adına) birini temsil ederken kullanılır.",
+                                    "3": "\"as for\" (...e gelince) konu değiştirirken kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "affect",
+                                "does affect",
+                                "effect",
+                                "effect is"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"does affect\" doğru. Cümlenin başında \"Don't use\" (kullanmazlar) denmiş, ikinci kısımda ise zıtlık vurgulanarak \"AMA etkiler\" denmek isteniyor. İngilizcede olumlu cümlede vurgu yapmak için yardımcı fiil (does) ana fiilden önce kullanılır.",
+                                "wrong": {
+                                    "0": "\"affect\" gramer olarak doğru olabilir ama şıklarda vurgulu yapı (does affect) daha güçlü bir çeldiricidir ve 'effect' (isim) ile karıştırılmaması gerekir. Ancak burada vurgu (emphasis) yapılıyor.",
+                                    "2": "\"effect\" bir isimdir (etki), fiil (etkilemek) değildir.",
+                                    "3": "\"effect is\" gramer olarak yanlıştır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "intimidates",
+                                "attains",
+                                "blasts",
+                                "inclines"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"blasts\" (püskürtmek/fırlatmak) doğru. Güneşin parçacıkları uzaya güçlü bir şekilde fırlatmasını anlatıyor. \"Blast\" kelimesi patlama veya güçlü atış anlamına gelir.",
+                                "wrong": {
+                                    "0": "\"intimidates\" (gözdağı vermek) insanlara yapılır.",
+                                    "1": "\"attains\" (elde etmek) buraya uymaz.",
+                                    "3": "\"inclines\" (eğilimi olmak) fiziksel fırlatma eylemini karşılamaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "Inasmuch as",
+                                "Hence",
+                                "Notwithstanding",
+                                "Prior to"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Hence\" (bu yüzden/dolayısıyla) doğru. Önceki cümlelerde güneşin manyetik alanı bozup kuşları kaybettirebileceği anlatıldı. Bu tehlike yüzünden yarışçılar hava durumunu kontrol ediyor. Sonuç bildiriyor.",
+                                "wrong": {
+                                    "0": "\"Inasmuch as\" (...dığı için) sebep bildirir ama cümle yapısı buna uygun değil.",
+                                    "2": "\"Notwithstanding\" (buna rağmen) zıtlık bildirir.",
+                                    "3": "\"Prior to\" (öncesinde) zaman bildirir, burada mantıksal sonuç gerekiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "to",
+                                "of",
+                                "for",
+                                "on"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"on\" doğru. \"Keep an eye on\" (göz kulak olmak/izlemek) kalıplaşmış bir deyimdir (idiom).",
+                                "wrong": {
+                                    "0": "\"to\", \"of\", \"for\" edatları \"keep an eye\" deyimiyle kullanılmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "embraced",
+                                "suffocated",
+                                "choked",
+                                "postponed"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"postponed\" (ertelendi) doğru. Eğer hava kötüyse ve kuşları kaybetme riski varsa, yarış iptal edilir veya ertelenir. Bağlama en uygun eylem budur.",
+                                "wrong": {
+                                    "0": "\"embraced\" (kucaklandı) anlamsız.",
+                                    "1": "\"suffocated\" (boğuldu) anlamsız.",
+                                    "2": "\"choked\" (tıkanmak/boğulmak) anlamsız."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 22,
+                            "statement": "You seem to have high hopes for the future of the company that has hired you.",
+                            "options": [
+                                "It seems that you hope to be employed by that promising company.",
+                                "Apparently, you are very optimistic about the firm you have been hired by.",
+                                "It is likely that the firm you work for will take over its biggest rival.",
+                                "I hope the business you have set up will do much better than you hope."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'seem to' ifadesi 'apparently' (görünüşe göre) ile, 'have high hopes' ifadesi 'optimistic' (iyimser) ile ve 'company that has hired you' ifadesi 'firm you have been hired by' ile birebir eşleşiyor.",
+                                "wrong": {
+                                    "0": "A şıkkı işe alınmayı umduğunuzu söylüyor, oysa orijinal cümlede zaten işe alınmışsınız.",
+                                    "2": "C şıkkı rakip firmayı satın almaktan bahsediyor, orijinalde bu yok.",
+                                    "3": "D şıkkı kendi kurduğunuz işten bahsediyor, oysa orijinalde sizi işe alan bir şirket var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "statement": "It is a paranoid obsession to think that we are surrounded by enemies.",
+                            "options": [
+                                "Assuming that there are enemies all around us is a fearful mania.",
+                                "Our enemies are clever enough to make us think that they don't exist.",
+                                "We must bear in mind the fact that there are enemies everywhere.",
+                                "Only a naive person could believe what our enemies are saying."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'surrounded by enemies' (etrafımız düşmanla çevrili) ifadesi 'enemies all around us' ile, 'paranoid obsession' (paranoyak takıntı) ifadesi 'fearful mania' (korku dolu mani/delilik) ile anlamca örtüşüyor.",
+                                "wrong": {
+                                    "1": "B şıkkı düşmanların zekasından bahsediyor, orijinal cümle bizim düşüncemizle ilgili.",
+                                    "2": "C şıkkı bunun bir gerçek (fact) olduğunu söylüyor, orijinal cümle bunun bir takıntı olduğunu söylüyor.",
+                                    "3": "D şıkkı düşmanların söylediklerine inanmaktan bahsediyor, konuyla ilgisiz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "statement": "Children should be taught to be team players early because it helps them function in a free society.",
+                            "options": [
+                                "Teachers are responsible for making sure that children learn to be part of a big team.",
+                                "Teamwork helps children appreciate the significance of living in a free society.",
+                                "In a free society, it shouldn't be difficult for children to take part in activities that teach team spirit.",
+                                "Young children who are taught to be team players can function more easily in a free society."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu şık doğru. Orijinal cümledeki 'team player' (takım oyuncusu) ve 'function in a free society' (özgür toplumda işlev görmek) kavramları korunmuş. Neden-sonuç ilişkisi de doğru aktarılmış.",
+                                "wrong": {
+                                    "0": "A şıkkı öğretmenlerin sorumluluğundan bahsediyor, orijinal cümlede 'kimin' öğreteceği belirtilmemiş.",
+                                    "1": "B şıkkı toplumun önemini 'takdir etmekten' bahsediyor, orijinalde toplumda 'işlev görmek' var.",
+                                    "2": "C şıkkı 'zor olmamalı' diyor, orijinalde zorluktan bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "statement": "The actions of men are the best example of their thoughts.",
+                            "options": [
+                                "Men should be able to do whatever they think is right.",
+                                "It's not possible to comment on every single thing that people do.",
+                                "What humans do is the greatest indicator of what they think.",
+                                "People's actions may give you an idea of their understanding of the world."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'actions of men' (insanların eylemleri) ifadesi 'what humans do' ile, 'best example' (en iyi örnek) ifadesi 'greatest indicator' (en büyük gösterge) ile tam olarak karşılanmış.",
+                                "wrong": {
+                                    "0": "A şıkkı ne yapmaları gerektiği hakkında bir tavsiye veriyor, orijinal cümle bir tespittir.",
+                                    "1": "B şıkkı yorum yapmanın imkansızlığından bahsediyor, alakasız.",
+                                    "3": "D şıkkı 'may give an idea' (fikir verebilir) diyerek olasılık katıyor, orijinal cümle 'best example' diyerek kesinlik belirtiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "statement": "You're spending money as if you were a rich man.",
+                            "options": [
+                                "Owing to the fact that you come from a prosperous family, you can spend as much money as you want.",
+                                "As you have become a wealthy man now, you can spend as much money as you want.",
+                                "Although you are not a wealthy man, you're spending like one.",
+                                "I'd rather you stopped spending money as though you were a rich person."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru. İngilizcede 'as if' (sanki ...mış gibi) yapısı genellikle gerçek olmayan durumları anlatır. Yani 'zenginmişsin gibi harcıyorsun' demek 'zengin değilsin ama öyle harcıyorsun' demektir. C şıkkı bunu 'Although you are not...' (olmamana rağmen) diyerek netleştiriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı gerçekten zengin bir aileden geldiğini söylüyor.",
+                                    "1": "B şıkkı gerçekten zengin olduğunu söylüyor.",
+                                    "3": "D şıkkı 'keşke harcamasan' diyerek bir istek belirtiyor, orijinal cümle sadece durum tespiti yapıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 27,
+                            "statement": "It took me more time than I expected to get back home.",
+                            "options": [
+                                "I have to take this back before I leave for home.",
+                                "I expect to be informed about the time of your return.",
+                                "I returned home later than I thought.",
+                                "I had to spend more time than I expected to discover his time of arrival."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'It took me more time' (daha fazla zamanımı aldı) demek, eve varmam 'daha geç oldu' (returned later) demektir. 'Expected' (beklediğimden) ile 'Thought' (düşündüğümden) eşleşiyor.",
+                                "wrong": {
+                                    "0": "A şıkkı bir şeyi 'geri götürmek' (take back) anlamında kullanılmış.",
+                                    "1": "B şıkkı bilgilendirilmeyi beklemekten bahsediyor.",
+                                    "3": "D şıkkı başka birinin varış zamanını öğrenmekten bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "I reckon that she doesn't care about you as much as you care about her.",
+                            "options": [
+                                "I'm afraid she believes you don't care about her as much as she cares about you.",
+                                "If you cared about her, you wouldn't let her go without asking why.",
+                                "It seems to me that you care about her more than she cares about you.",
+                                "The problem is that she has no idea how much you care about her."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'I reckon' (sanırım/bana öyle geliyor ki) ifadesi 'It seems to me' ile eşleşiyor. Cümledeki karşılaştırma (sen ona daha çok değer veriyorsun = o sana senin kadar değer vermiyor) doğru şekilde ters çevrilerek anlatılmış.",
+                                "wrong": {
+                                    "0": "A şıkkı özneyi değiştirmiş, 'kız senin ona değer vermediğine inanıyor' diyor.",
+                                    "1": "B şıkkı bir koşul cümlesi (If clause), orijinalde durum tespiti var.",
+                                    "3": "D şıkkı kızın 'haberi yok' diyor, orijinalde 'önemsemiyor' deniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "statement": "Getting a job nearer home saves fuel, and it also gives you more time with your family.",
+                            "options": [
+                                "A workplace that is close to your home saves gas as well as providing you with more time to spend with your family.",
+                                "Only if you get a job near your home will you be able to spend enough time with your family and friends.",
+                                "Those who choose to live far away from their workplace will see that they can't possibly spend enough time with their families.",
+                                "If you want to save gas in addition to having more time with your family, you shouldn't accept the offer they have made."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'Nearer home' = 'close to your home'. 'Saves fuel' = 'saves gas'. 'And also' = 'as well as'. Tüm parçalar anlam kaybı olmadan birleştirilmiş.",
+                                "wrong": {
+                                    "1": "B şıkkı 'Only if' (sadece eğer) diyerek şart koşuyor, orijinalde genel bir doğrudan bahsediliyor.",
+                                    "2": "C şıkkı uzak yaşayanlardan bahsediyor, olumsuz taraftan bakmış.",
+                                    "3": "D şıkkı 'teklifi kabul etmemelisin' gibi orijinalde olmayan bir tavsiye içeriyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "statement": "People feel drawn to places and things associated with their childhood.",
+                            "options": [
+                                "People have trouble going to places about which they have bad childhood memories.",
+                                "Childhood memories are easier to remember in places that are related to that period.",
+                                "People are attracted to places and things that are connected to their childhood.",
+                                "Most people I know want to talk about places and things linked with their childhood."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'Feel drawn to' (çekim hissetmek) = 'are attracted to' (cezbedilmek/çekilmek). 'Associated with' (ile ilişkili) = 'connected to' (ile bağlantılı). Anlam birebir aynı.",
+                                "wrong": {
+                                    "0": "A şıkkı 'kötü anılardan' bahsediyor, orijinalde nötr bir ifade var.",
+                                    "1": "B şıkkı anıların 'hatırlanmasından' bahsediyor, orijinalde yerlere duyulan çekim var.",
+                                    "3": "D şıkkı 'konuşmak istemekten' bahsediyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Beyond Blockbusters",
+                            "paragraphs": [
+                                "The late film director Richard Brooks once said, \"The images come first, and with images, like with music, the primary reaction is emotional.\" The popularity of Hollywood movies among audiences throughout the world for more than a hundred years confirms this. In an age of globalization, the emotional power of pictures travels easily across cultures, and makes Hollywood films one of America's major exports to other countries.",
+                                "Movies are much more than a simple form of entertainment. An obvious but often overlooked truth is that a film succeeds or fails first in the white heat of the marketplace. Will people pay to see it? That's the bottom-line question movie producers ask themselves when considering a potential film project, and it's the key to understanding American movies. But filmmaking is not only a business. It's also a highly collaborative art form that employs hundreds on a single film-from the high-priced actors, directors, and scriptwriters to the skilled craftspeople who build the sets, light the scenes, and apply make-up to the stars. Like all forms of popular culture, a film contains certain larger values that its creators inevitably embed as a result of the hundreds of choices required to make a movie. Rarely do these values take the form of direct messages; they are more often a subconscious result of what all filmmakers try to do-hold the audience's attention.",
+                                "What is American about American movies? There is a well-known and somewhat stereotypical answer: the blockbuster, a smash hit that sells tickets around the world and makes a large profit. This term usually suggests an action movie or a thriller, with a $100-millon-plus budget and a star that promises box office records. The star plays an athletic, clever, and resolute hero who against long odds must overcome some extremely evil villains who have a plan that threatens much of civilization. Viewers can count on a blockbuster to deliver sudden plot reversals, elaborate chase scenes, and big, big explosions. On the other hand, the blockbuster is not likely to provide much depth of character or social background or realistic depiction of the lives of ordinary people.",
+                                "At the 2007 Academy Awards, actor Will Smith offered a different view: \"The only common thread that you will find in American movies, that make them distinct as American, is that there is none. Each is as different as America itself. Some stand up and cheer for us, some make fun of us, some sing for us, some cry for us, but each tells the world who we are as a people: a country that evolves through social, political and religious differences.\" Here, Smith emphasizes several values commonly associated with the United States. The first is the idea that this nation is a work-in-progress, one whose political system allows it to move in the direction of its ideals. And the second is diversity, the celebration of the multiplicity of the American people. Looking at the Hollywood film industry, it is easy to spot some others: innovation, entrepreneurship, optimism, creativity, and an openness to other cultures that often takes the form of immigration."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "What is the main idea of paragraph 1?",
+                                    "options": [
+                                        "Hollywood movies are successful because of their emotional power.",
+                                        "What makes Hollywood movies successful is the carefully selected soundtracks.",
+                                        "Richard Brooks is one of the most respectable directors of Hollywood.",
+                                        "Music and movies are alike in terms of the political messages they deliver."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap 1. paragrafın şu kısmında geçiyor: 'The popularity of Hollywood movies... confirms this... the emotional power of pictures travels easily across cultures'. Yani filmlerin başarısı ve yayılması duygusal güçlerine bağlanıyor.",
+                                        "wrong": {
+                                            "1": "Müzikten sadece bir benzetme olarak bahsedilmiş (like with music), ana başarı sebebi soundtrack değil.",
+                                            "2": "Richard Brooks'tan sadece bir alıntı yapılmış, paragraf onun hayatı veya saygınlığı hakkında değil.",
+                                            "3": "Politik mesajlardan 1. paragrafta bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "The word 'this' in paragraph 1 refers to ----.",
+                                    "options": [
+                                        "the fact that Hollywood films are popular",
+                                        "when the first American movie was made",
+                                        "the claim that American movies are losing popularity",
+                                        "what Richard Brooks once said"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cevap 1. paragrafın ilk iki cümlesinde gizli. İlk cümle Richard Brooks'un bir sözü ('The images come first... reaction is emotional'). İkinci cümle: 'The popularity... confirms THIS.' Yani popülerlik, BU sözü/iddia'yı doğruluyor. 'This' zamiri hemen öncesindeki alıntıya (said) referans veriyor.",
+                                        "wrong": {
+                                            "0": "Popülerlik zaten cümlenin öznesi, kendi kendini doğrulamaz.",
+                                            "1": "İlk filmin ne zaman yapıldığı metinde yok.",
+                                            "2": "Popülarite kaybından değil, tam tersi başarısından bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "As learned from paragraph 2, film producers ---",
+                                    "options": [
+                                        "have difficulty understanding American movies",
+                                        "evaluate projects according to their estimated popularity",
+                                        "see movies as a simple form of entertainment",
+                                        "prefer to put across their messages directly"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cevap 2. paragrafta şu cümlede geçiyor: 'Will people pay to see it? That's the bottom-line question movie producers ask themselves'. Yani yapımcılar için en önemli kriter insanların para verip izlemesi (popülarite/kâr).",
+                                        "wrong": {
+                                            "0": "Anlamakta zorlandıkları söylenmiyor, 'key to understanding' (anlamanın anahtarı) deniyor.",
+                                            "2": "Tam tersi: 'Movies are much more than a simple form of entertainment' deniyor.",
+                                            "3": "Doğrudan mesaj vermek yerine 'subconscious' (bilinçaltı) mesajlardan bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "As stated in paragraph 2, creators of movies have to make certain choices ----.",
+                                    "options": [
+                                        "to make their work grab people's interest",
+                                        "but these are often criticized by skilled craftspeople",
+                                        "so that they can build the sets and light the scenes",
+                                        "in order to explain an overlooked truth"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap 2. paragrafın sonunda: '...subconscious result of what all filmmakers try to do-hold the audience's attention.' Yani yapılan seçimlerin amacı seyircinin dikkatini tutmak (ilgisini çekmek).",
+                                        "wrong": {
+                                            "1": "Zanaatkarların eleştirdiğinden bahsedilmiyor, işbirliği yaptıklarından (collaborative) bahsediliyor.",
+                                            "2": "Set kurmak zaten yapılan işin bir parçası, seçimlerin amacı değil.",
+                                            "3": "Gözden kaçan gerçek (overlooked truth) pazar başarısıdır, seçimlerin amacı bu gerçeği açıklamak değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "According to paragraph 3, a blockbuster ----.",
+                                    "options": [
+                                        "earns its producer at least a hundred million dollars",
+                                        "can turn an ordinary person into a world hero",
+                                        "rarely focuses on realistic description of the lives of ordinary people",
+                                        "avoids dangerous chase and explosion scenes"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap 3. paragrafın son cümlesinde: 'blockbuster is not likely to provide... realistic depiction of the lives of ordinary people.' Yani sıradan insanların hayatlarını gerçekçi anlatmaz.",
+                                        "wrong": {
+                                            "0": "100 milyon dolar kazancı değil, 'budget'ı (bütçesi) ifade ediyor.",
+                                            "1": "Sıradan birini kahramana çevirmekten değil, zaten atletik ve zeki bir kahramandan bahsediyor.",
+                                            "3": "Tam tersi: 'deliver... elaborate chase scenes, and big, big explosions' (kovalamaca ve patlama sahneleri sunar)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "The word 'thread' in paragraph 4 is closest in meaning to -----",
+                                    "options": [
+                                        "connection",
+                                        "threat",
+                                        "rope",
+                                        "trouble"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "'Common thread' yaygın bir deyimdir ve 'ortak nokta/bağ' anlamına gelir. Metinde 'The only common thread... that make them distinct' diyerek filmleri birbirine bağlayan şeyden bahsediliyor.",
+                                        "wrong": {
+                                            "1": "\"Threat\" tehdit demektir, anlamca uymaz.",
+                                            "2": "\"Rope\" ip demektir, thread kelimesinin sözlük anlamı iplik olsa da burada mecazi anlam (bağlantı) kullanılmıştır.",
+                                            "3": "\"Trouble\" sorun demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "The word 'others' in paragraph 4 refers to ----.",
+                                    "options": [
+                                        "movies",
+                                        "people",
+                                        "differences",
+                                        "values"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafta Will Smith'in 'emphasizes several values' (bazı değerleri vurguladığı) söyleniyor. Son cümlede 'it is easy to spot some OTHERS' derken, 'diğer DEĞERLERİ' kastediyor. Ardından sayılan 'innovation, optimism' birer değerdir.",
+                                        "wrong": {
+                                            "0": "Diğer filmleri değil, değerleri kastediyor.",
+                                            "1": "Diğer insanları değil.",
+                                            "2": "Diğer farklılıkları değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "question": "Which of the following sentences are TRUE according to the text?",
+                                    "options": [
+                                        "Art forms targeted for the popular culture contain no indirect messages.",
+                                        "Make-up artists are the cheapest source of labor in the movie industry.",
+                                        "Movies are among America's most important foreign trade items.",
+                                        "Actor Will Smith believes that good American films make people cry."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "1. Paragrafın son cümlesinde geçiyor: 'makes Hollywood films one of America's major exports'. 'Export' (ihraç ürünü) = 'foreign trade item' (dış ticaret ürünü).",
+                                        "wrong": {
+                                            "0": "Tam tersi, 2. paragrafta 'Rarely do these values take the form of direct messages' (nadiren doğrudan mesaj verirler) deniyor, yani dolaylı mesaj verirler.",
+                                            "1": "Makyaj sanatçılarının en ucuz işgücü olduğu bilgisi metinde yok.",
+                                            "3": "Will Smith bazı filmlerin ağlattığını söylüyor ama 'iyi filmler ağlatır' gibi bir genelleme yapmıyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Telemarketing Fraud",
+                            "paragraphs": [
+                                "One Ohio widow was scammed out of some $240,000 by 50 different telemarketers. A 92-year-old woman in California lost $180,000, and then she paid another $5,000 trying to get some of it back. An elderly lady gave away $60,000 from her family's retirement money to a telemarketer, only to turn around and agree to take out a costly loan. These sad stories were just the tip of the iceberg in the 1990s, when telemarketing fraud was in its criminal heyday, mostly preying on the elderly and stealing an estimated $40 billion from the pockets of American consumers.",
+                                "The following were the most common types of tactics, some of which are still used today. Telemarketers asked for money for a charity, but in reality, less than 10 percent of the funds went to the charity. Callers were told they had won a prize, but needed to send a fee or purchase another product in order to collect their winnings. A product purchased from a telemarketer was worth less than claimed, had an added cost when delivered, or was never delivered at all. Previous fraud victims were told they could recover their money by paying a fee. Scammers took the money and ran, collecting as much through fraud as possible and leaving town before they could be identified.",
+                                "But the police fought back through a series of major investigations, and they managed to reduce the operations of telemarketing fraudsters considerably. One of the most important of these cases was about twenty years ago. Called Operation Senior Sentinel, it was as novel as it was successful. It was successful because it ultimately resulted in some 1,200 arrests and hundreds of convictions across the nation. And it was novel because for the first time, it put victims themselves in an undercover role to help current and retired police agents catch fraudsters. The case was a spin-off of two earlier investigations that targeted telemarketing \"boiler rooms\". They were so named because they typically involved a crowded room full of salespeople using high-pressure, often illegal sales tactics, on innocent victims over the phone. The first investigation began in 1991 in Salt Lake City, then expanded nationwide and culminated in a wave of 240 arrests in 1993. The second was launched in the summer of 1993. It used an innovative technique for a telemarketing case: retired police agents and informants posing as victims. The police added another effective investigative technique and a first in law enforcement. In addition to using retired agents, they asked citizen volunteers to aid the investigation by acting as victims. These individuals, some of whom actually were victims, were trained by police agents, who secretly recorded the conversations.",
+                                "These investigations have reduced telemarketing fraud. A senior police agent says the days of massive telemarketing boiler room operations are essentially over. \"We came down so hard on the boiler room criminals and sent so many to jail that it discouraged them from going back into the business,\" he said. \"We sent a psychological message as well as a criminal message.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "As pointed out in paragraph 1, in the 1990s telemarketers ---",
+                                    "options": [
+                                        "deceived a lot of senior citizens",
+                                        "caused a forty-billion-dollar decrease in retail sales",
+                                        "took special care not to disturb the elderly",
+                                        "concentrated their efforts on people living in Ohio"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap 1. paragrafta geçiyor: 'mostly preying on the elderly' (çoğunlukla yaşlıları avlıyorlardı). Metindeki örnekler de hep yaşlı insanlar (widow, 92-year-old woman, elderly lady) üzerinden verilmiş.",
+                                        "wrong": {
+                                            "1": "40 milyar dolar perakende satış kaybı değil, dolandırılan para miktarı.",
+                                            "2": "Rahatsız etmemek değil, tam tersi onları hedef alıyorlardı.",
+                                            "3": "Sadece Ohio değil, California örneği de var ve tüm Amerika genelinden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "The word 'heyday' in paragraph 1 is closest in meaning to ----.",
+                                    "options": [
+                                        "jail",
+                                        "peak",
+                                        "failure",
+                                        "rape"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Heyday\" kelimesi 'zirve noktası, en parlak dönem' demektir. Dolandırıcılığın en yaygın olduğu ve en çok paranın çalındığı dönemi (1990'lar) anlatıyor.",
+                                        "wrong": {
+                                            "0": "\"Jail\" hapishane demek.",
+                                            "2": "\"Failure\" başarısızlık demek.",
+                                            "3": "\"Rape\" tecavüz demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "All of the following are mentioned in the text as tactics used by telemarketing cheaters EXCEPT",
+                                    "options": [
+                                        "running away with the money they collected through a variety of promises",
+                                        "asking for money for a charity but actually using very little of it for charity",
+                                        "selling things at a very low price and asking for credit card information",
+                                        "not delivering the product purchased over the phone at all"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkındaki 'çok düşük fiyata satıp kredi kartı bilgisi istemek' taktiği metinde açıkça sayılan taktikler arasında yok. Metinde ürünün değerinin düşük olması veya hiç gönderilmemesi var ama 'kredi kartı bilgisini çalmak için ucuz ürün satmak' spesifik olarak geçmiyor.",
+                                        "wrong": {
+                                            "0": "Paragraf 2: 'Scammers took the money and ran' (Parayı alıp kaçtılar) ifadesi var.",
+                                            "1": "Paragraf 2: 'asked for money for a charity... less than 10 percent went to charity' ifadesi var.",
+                                            "3": "Paragraf 2: 'was never delivered at all' ifadesi var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "According to paragraph 3, Operation Senior Sentinel ----.",
+                                    "options": [
+                                        "has brought out little success since it was started about twenty years ago",
+                                        "caused some of the police agents to be murdered while trying to catch the fraudsters",
+                                        "enabled all telemarketing fraud victims to get back the money they had lost",
+                                        "was special due to its novelty and level of success"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cevap 3. paragrafta geçiyor: 'it was as novel as it was successful.' (Başarılı olduğu kadar yenilikçiydi de). Bu operasyonun özel olmasının sebebi bu iki özelliği.",
+                                        "wrong": {
+                                            "0": "Az başarı değil, 'successful... 1,200 arrests' (1200 tutuklama) diyor.",
+                                            "1": "Polislerin öldürüldüğüne dair bilgi yok.",
+                                            "2": "Mağdurların paralarını geri aldığına dair bilgi yok, sadece suçluların yakalandığı söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "The phrase 'the second' in paragraph 3 refers to ----.",
+                                    "options": [
+                                        "victim",
+                                        "tactic",
+                                        "investigation",
+                                        "person"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragrafta 'The first investigation began in 1991... The second was launched in 1993' deniliyor. Burada 'The second' (ikincisi) diyerek kastedilen 'investigation' (soruşturma) dır.",
+                                        "wrong": {
+                                            "0": "Kurbandan bahsedilmiyor.",
+                                            "1": "Taktikten bahsedilmiyor.",
+                                            "3": "Kişiden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "In paragraph 4, a senior police officer states that the telemarketing fraud investigations ----.",
+                                    "options": [
+                                        "were prevented by boiler room operations",
+                                        "have had a lasting effect",
+                                        "should have arrested more criminals",
+                                        "were funded by retired police agents"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Polis memuru 'it discouraged them from going back into the business' (onları bu işe geri dönmekten vazgeçirdi) diyor. Bu, operasyonların kalıcı bir caydırıcı etkisi olduğunu gösterir ('lasting effect').",
+                                        "wrong": {
+                                            "0": "Engellenmedi, tam tersi operasyonlar boiler room'ları bitirdi.",
+                                            "2": "Daha fazla tutuklamalıydı demiyor, zaten 'sent so many to jail' (pek çoğunu hapse attık) diyor.",
+                                            "3": "Emekli polisler tarafından finanse edildiği (funded) değil, onların yardım ettiği yazıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "Which of the following sentences is TRUE according to the text?",
+                                    "options": [
+                                        "Some of the popular telemarketing fraud tactics are still in use today.",
+                                        "Sales persons in boiler rooms hardly ever used illegal sales tactics.",
+                                        "Operation Senior Sentinel hired 1,200 retired police agents.",
+                                        "Telemarketing companies used elderly people in their sales teams to look more reliable."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "2. Paragrafın ilk cümlesinde geçiyor: 'some of which are still used today' (bazıları bugün hala kullanılmaktadır).",
+                                        "wrong": {
+                                            "1": "Tam tersi, 'often illegal sales tactics' (sıklıkla yasadışı taktikler) deniliyor.",
+                                            "2": "1200 tane ajan kiralanmadı, 1200 tane tutuklama (arrests) yapıldı.",
+                                            "3": "Yaşlıları satış ekibinde kullanmadılar, yaşlıları dolandırdılar (preying on the elderly)."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "AD/HD",
+                            "paragraphs": [
+                                "Attention-Deficit/Hyperactivity Disorder (AD/HD) is a neurobiological condition that affects 3-7 percent of the population. In most cases, AD/HD is inherited, and tends to run in some families more than others. AD/HD is a lifespan condition that affects children, adolescents, and adults of all ages. It affects both males and females, and people of all races and cultural backgrounds. Common symptoms are poor attention, physical restlessness, saying or doing things without thinking, and excessive forgetfulness. AD/HD is thought to be a biological condition, most often inherited, that affects brain functioning. There is no cure for AD/HD. When properly diagnosed and treated, AD/HD can be well managed, leading to increased satisfaction in life and significant improvements in daily functioning. Many individuals with AD/HD lead highly successful and happy lives. An accurate diagnosis is the first step in learning to effectively manage AD/HD.",
+                                "There is no single medical, physical, or genetic test for AD/HD. However, a diagnostic evaluation can be provided by gathering information from multiple sources. These include AD/HD symptom checklists, standardized behavior rating scales, a detailed history of past and current functioning, and information obtained from family members or significant others who know the person well. AD/HD cannot be diagnosed accurately just from brief office observations, or just by talking to the person. The person may not always exhibit the symptoms of AD/HD in the office, and the doctor needs to take a thorough history of the individual's life. A diagnosis of AD/HD must include consideration of the possible presence of co-occurring conditions. It is important to note that the presence of significant problems that interfere with an individual's life in at least two major settings of the person's life is central to the diagnosis of AD/HD. Examples include losing a job because of AD/HD symptoms, experiencing excessive conflict and distress in a marriage, getting into financial trouble because of impulsive spending or failure to pay bills in a timely manner, or getting failing grades in college. If the individual manifests a number of AD/HD symptoms but does not demonstrate significant difficulties, he may not meet the criteria for AD/HD as a clinical disorder.",
+                                "There are many Internet sites about AD/HD that offer various types of questionnaires and lists of symptoms. These questionnaires are not standardized or scientifically unacceptable and should never be used to self-diagnose or to diagnose others with AD/HD. A valid diagnosis can only be provided by a qualified, licensed professional. Most people who have any type of condition such as AD/HD are a little apprehensive about being evaluated. This is normal and should not stop anyone from seeking an evaluation if he is having significant problems in life and AD/HD is suspected. Unfortunately, some of the common misunderstandings about AD/HD make many people unwilling to look for help.",
+                                "Many professionals find it helpful to review old school records, dating back to kindergarten or even the preschool years. If these are available, they should be brought to the first appointment. Copies of reports from any previous psychological testing should also be brought to the appointment. For adults who experience problems in the workplace, job evaluations should be brought for review if available. Many professionals will ask the individual to complete and return questionnaires before the evaluation. If the individual being evaluated has not had a recent physical exam (within 6-12 months), a medical examination is recommended to exclude the possibility of medical causes for symptoms. Some medical conditions like thyroid problems and seizure disorders can cause symptoms that resemble AD/HD symptoms."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "It can be understood from the text that.",
+                                    "options": [
+                                        "thyroid problems and seizure disorders may lead to AD/HD",
+                                        "adults experiencing problems in the workplace should avoid job evaluations",
+                                        "medicine used for AD/HD may lead to excessive forgetfulness",
+                                        "there is yet no final solution to the problem of AD/HD"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cevap 1. paragrafta geçiyor: 'There is no cure for AD/HD.' (AD/HD'nin bir tedavisi/çaresi yoktur). Yani kesin bir çözümü yoktur.",
+                                        "wrong": {
+                                            "0": "Son paragraf tiroid problemlerinin AD/HD'ye *benzer* semptomlara neden olabileceğini söylüyor, AD/HD'ye yol açtığını değil.",
+                                            "1": "Son paragraf iş değerlendirmelerinin (job evaluations) doktora *getirilmesini* tavsiye ediyor, kaçınılmasını değil.",
+                                            "2": "Unutkanlık ilacın yan etkisi değil, AD/HD'nin kendi semptomudur."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "According to the text, which of the following statements is TRUE?",
+                                    "options": [
+                                        "AD/HD is a disorder that is confined to adolescents only.",
+                                        "Lack of ability to remember things is one of the symptoms of AD/HD.",
+                                        "People having problems in their relationships are thought to have mild AD/HD.",
+                                        "Neurobiological conditions result from poor attention and physical restlessness."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "1. Paragrafta semptomlar sayılırken 'excessive forgetfulness' (aşırı unutkanlık) ifadesi geçiyor. Bu da 'Lack of ability to remember' ile aynı anlama gelir.",
+                                        "wrong": {
+                                            "0": "Yanlış, 'affects children, adolescents, and adults' (her yaştan insanı etkiler) deniyor.",
+                                            "2": "İlişki problemleri tanı için önemlidir ama bunun 'hafif' (mild) olduğu söylenmiyor.",
+                                            "3": "AD/HD nörobiyolojik bir durumdur; dikkatsizlik bunun sonucudur (semptomudur), nedeni değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "As stated in the text, ---- is NOT considered one of the valid tools for the diagnosis of AD/HD.",
+                                    "options": [
+                                        "a standardized behavior rating scale",
+                                        "information received from family members",
+                                        "a record dating back to preschool years",
+                                        "a self-diagnosis test on a website"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "3. Paragrafta internetteki anketlerin 'should never be used to self-diagnose' (asla kendi kendine tanı koymak için kullanılmamalı) olduğu belirtiliyor.",
+                                        "wrong": {
+                                            "0": "2. Paragrafta 'standardized behavior rating scales' geçerli bir araç olarak sayılıyor.",
+                                            "1": "2. Paragrafta 'information obtained from family members' geçerli bir araç olarak sayılıyor.",
+                                            "2": "Son paragrafta 'records... preschool years' geçerli bir araç olarak sayılıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "According to the text, it's a good idea to have a general medical examination before the diagnosis of AD/HD-",
+                                    "options": [
+                                        "so that the patient can concentrate on one specific illness",
+                                        "to avoid a mistaken diagnosis caused by confusion about the symptoms",
+                                        "because an invalid diagnosis is made by an unqualified professional",
+                                        "although it affects both males and females, and people of all races"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Son paragrafın son cümlesinde, tıbbi muayenenin 'to exclude the possibility of medical causes for symptoms' (semptomların tıbbi nedenlerini elemek için) yapılması gerektiği söyleniyor. Bazı hastalıklar (tiroid gibi) AD/HD'ye benzediği için yanlış tanıyı önlemek gerekir.",
+                                        "wrong": {
+                                            "0": "Belirli bir hastalığa odaklanmak için değil, diğer olasılıkları elemek için.",
+                                            "2": "Niteliksiz profesyonellerle ilgili değil.",
+                                            "3": "Cinsiyet ve ırk ile ilgili değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "The text mainly discusses the ---- AD/HD",
+                                    "options": [
+                                        "diagnosis of",
+                                        "cures for",
+                                        "causes of",
+                                        "worries about"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metnin büyük çoğunluğu (2., 3. ve 4. paragraflar tamamen) AD/HD'nin nasıl teşhis edildiği, hangi testlerin kullanıldığı ve nelere dikkat edilmesi gerektiği üzerinedir.",
+                                        "wrong": {
+                                            "1": "Tedavisi olmadığı (no cure) söyleniyor, tedavi yöntemleri tartışılmıyor.",
+                                            "2": "Sebebi (inherited) sadece kısaca geçiliyor.",
+                                            "3": "Endişeler sadece bir paragrafta küçük bir detay."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "The word 'thorough' in paragraph 2 is closest in meaning to ----.",
+                                    "options": [
+                                        "detailed",
+                                        "restless",
+                                        "careless",
+                                        "attractive"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Thorough\" kelimesi 'kapsamlı, detaylı' anlamına gelir. Doktorun hastanın geçmişini 'detaylı' (detailed) bir şekilde incelemesi gerekir.",
+                                        "wrong": {
+                                            "1": "\"Restless\" huzursuz demek.",
+                                            "2": "\"Careless\" dikkatsiz demek.",
+                                            "3": "\"Attractive\" çekici demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "The word 'apprehensive' in paragraph 3 is closest in meaning to ----.",
+                                    "options": [
+                                        "peaceful",
+                                        "composed",
+                                        "worried",
+                                        "confident"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Apprehensive\" kelimesi 'endişeli, kaygılı' demektir. İnsanların değerlendirilmekten 'korkmaları/çekinmeleri' anlatılıyor.",
+                                        "wrong": {
+                                            "0": "\"Peaceful\" huzurlu demek.",
+                                            "1": "\"Composed\" sakin/kendine hakim demek.",
+                                            "3": "\"Confident\" kendine güvenen demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "question": "The word 'these' in paragraph 4 refers to ----.",
+                                    "options": [
+                                        "preschool years",
+                                        "appointments",
+                                        "professionals",
+                                        "school records"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümle şöyle: 'review old school records... If THESE are available'. Eğer BUNLAR mevcutsa getirin. 'Bunlar' kelimesi bir önceki cümlede geçen 'school records' (okul kayıtları) ifadesine referans verir.",
+                                        "wrong": {
+                                            "0": "Okul yıllarını değil, o yıllara ait kayıtları kastediyor.",
+                                            "1": "Randevuları getiremezsiniz.",
+                                            "2": "Profesyonelleri getiremezsiniz."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

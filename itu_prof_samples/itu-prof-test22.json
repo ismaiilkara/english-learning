@@ -1,0 +1,875 @@
+{
+    "id": 1,
+    "title": "PROF Practice Test 1",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: Earthquakes and Tsunamis",
+                    "passage": {
+                        "title": "Earth's Crust and Tsunamis",
+                        "text": "Earth's crust is made up of pieces called tectonic plates. An earthquake happens when these plates push against each other so hard that one of them slips or breaks. Imagine (1)_____ against a friend. If you push against each other harder and harder, one or (2)_____ of you will fall over. When Earth's plates push against each other, they can move a lot. If an earthquake happens in the ocean, a large (3)_____ of Earth's crust can be pushed upward or slip from side to side. The movement of a large part of Earth displaces the water above it; it takes up the space where the water (4)_____. So where does the water go? It ripples out from the earthquake in waves. This can also happen if a volcano erupts in the ocean. The lava flowing out of the volcano displaces the water around it. That water can turn into a large wave. If the earthquake or volcano is very big, then the wave can be very big, too. Big tsunamis usually begin in the deep ocean, (5)_____ a large volume of water can be displaced. As the wave moves closer to the shore, it grows taller as the ocean becomes shallower. If the water (6)_____ after an earthquake, a big tsunami may be on its way. Tsunamis can be hundreds of feet tall, and they travel very fast, which means they can be dangerous even for people who aren't on the beach. Tsunamis can be extremely destructive and can knock down whole buildings. But not all earthquakes or volcanic eruptions cause tsunamis. (7)_____ a tsunami forms can depend on a lot of things. The shape of the ocean floor can determine if a tsunami happens... (8)_____ can the distance and direction of the earthquake. How can we tell if a tsunami is coming? We use satellites. MISR is a satellite that watches for tsunamis from space. It has nine cameras, all pointed in slightly different directions. As the satellite passes overhead, it takes nine pictures of the same (9)_____ from different angles. These images help scientists understand how tsunamis work. The more we learn about tsunamis, (10)_____ we can predict where, when and how strong a tsunami will be."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "deducting",
+                                "leaning",
+                                "adjusting",
+                                "fluctuating"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Leaning\" (yaslanmak) doğru çünkü cümlenin devamında birbirini itmekten bahsediyor. Bir arkadaşına sırtını verip yaslanarak itişmeyi hayal etmeni istiyor.",
+                                "wrong": {
+                                    "0": "\"Deducting\" çıkarmak (sayısal) demektir, buraya uymaz.",
+                                    "2": "\"Adjusting\" ayarlamak demektir.",
+                                    "3": "\"Fluctuating\" dalgalanmak demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "either",
+                                "none",
+                                "all",
+                                "both"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Both\" (her ikisi de) doğru. İki kişi birbirini iterse ya biri düşer ya da 'ikisi birden' düşer.",
+                                "wrong": {
+                                    "0": "\"Either\" (ya o ya o) zaten 'one' kelimesiyle kısmen karşılanmış, burada 'ikisi de' anlamı lazım.",
+                                    "1": "\"None\" (hiçbiri) düşerse itişmenin sonucu olmaz.",
+                                    "2": "\"All\" (hepsi) ikiden fazla kişi için kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "chunk",
+                                "habitat",
+                                "residence",
+                                "altitude"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Chunk\" (büyük parça/kütle) doğru. Yerkabuğunun büyük bir 'parçası' yukarı itilir.",
+                                "wrong": {
+                                    "1": "\"Habitat\" yaşam alanı demektir.",
+                                    "2": "\"Residence\" konut/ev demektir.",
+                                    "3": "\"Altitude\" yükseklik/rakım demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "was used to being",
+                                "is used to being",
+                                "used to be",
+                                "has used to be"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Used to be\" (eskiden olduğu/bulunduğu) doğru. Toprak yukarı kalkınca, eskiden suyun olduğu yeri kaplar.",
+                                "wrong": {
+                                    "0": "\"Was used to being\" bir şeye alışkın olmak demektir.",
+                                    "1": "\"Is used to being\" şu an alışkın olmak demektir.",
+                                    "3": "\"Has used to be\" diye bir gramer yapısı yoktur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "which",
+                                "of which",
+                                "in that",
+                                "where"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Where\" doğru çünkü 'deep ocean' (derin okyanus) bir yerdir ve orada ne olduğunu açıklıyoruz.",
+                                "wrong": {
+                                    "0": "\"Which\" tek başına yer bildiren 'in' edatı olmadan kullanılamaz.",
+                                    "1": "\"Of which\" sahiplik bildirir.",
+                                    "2": "\"In that\" -mesi bakımından demektir, yer belirtmez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "recedes",
+                                "submerges",
+                                "dives",
+                                "rejects"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Recedes\" (geri çekilmek) doğru. Tsunami gelmeden önce kıyıdaki sular genellikle geri çekilir.",
+                                "wrong": {
+                                    "1": "\"Submerges\" suya batmak demektir.",
+                                    "2": "\"Dives\" dalmak demektir.",
+                                    "3": "\"Rejects\" reddetmek demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "If",
+                                "Whether",
+                                "The fact that",
+                                "That"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Whether\" (olup olmayacağı) doğru. Cümle, bir tsunaminin oluşup oluşmayacağının birçok şeye bağlı olduğunu söylüyor.",
+                                "wrong": {
+                                    "0": "\"If\" özne konumundaki noun clause (isim cümleciği) başlatırken genellikle kullanılmaz.",
+                                    "2": "\"The fact that\" kesinlik bildirir ama burada bir belirsizlik/olasılık var.",
+                                    "3": "\"That\" kesinlik bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "Thereby",
+                                "So",
+                                "Yet",
+                                "Hardly"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"So\" doğru. Burada 'So can X' (X de yapabilir) yapısı var. 'Okyanus tabanının şekli belirleyebilir... depremin mesafesi ve yönü DE belirleyebilir.'",
+                                "wrong": {
+                                    "0": "\"Thereby\" dolayısıyla demektir, devrik yapı kurmaz.",
+                                    "2": "\"Yet\" ama/fakat demektir.",
+                                    "3": "\"Hardly\" neredeyse hiç demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "spot",
+                                "notice",
+                                "alienation",
+                                "supply"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Spot\" (nokta/yer) doğru. Uydu aynı 'bölgenin/noktanın' fotoğraflarını çekiyor.",
+                                "wrong": {
+                                    "1": "\"Notice\" duyuru/fark etme demektir.",
+                                    "2": "\"Alienation\" yabancılaşma demektir.",
+                                    "3": "\"Supply\" tedarik demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "better",
+                                "better than",
+                                "the better",
+                                "the best"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"The better\" doğru. 'The more..., the better...' (Ne kadar çok..., o kadar iyi...) kalıbı kullanılmış.",
+                                "wrong": {
+                                    "0": "\"Better\" tek başına bu kalıbı tamamlamaz, başında 'the' olmalı.",
+                                    "1": "\"Better than\" karşılaştırma yapar.",
+                                    "3": "\"The best\" en iyi demektir, kalıba uymaz."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "Poor diet and physical inactivity are the most important factors contributing to the epidemic of people being overweight and obese.",
+                            "options": [
+                                "The wave of overweight and obesity can only be eliminated if the diets of poor people can be improved through serious effort.",
+                                "The epidemic of being overweight and obese is at least as important as the problems of poor diet and physical inactivity.",
+                                "No other factors are as important as poor diet and physical inactivity in expanding the scope of the wide-ranging overweight and obesity.",
+                                "Unless you want to become obese, you must improve your diet and increase the amount of physical exercise you do on a daily basis."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru çünkü orijinal cümlede 'en önemli faktörlerdir' deniyor. C şıkkı da 'Başka hiçbir faktör bunlar kadar önemli değildir' diyerek aynı anlamı veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'poor people' (fakir insanlar) demiş, oysa orijinal cümle 'poor diet' (kötü beslenme) diyor.",
+                                    "1": "B şıkkı 'en az onlar kadar önemli' diyerek eşitlik kuruyor, oysa orijinalde 'sebebidir' ilişkisi var.",
+                                    "3": "D şıkkı kişisel bir tavsiye veriyor ('yapmalısın'), orijinal cümle ise genel bir durum tespiti."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Adequate nutrition and regular participation in physical activity are important factors in achieving optimal bone mass.",
+                            "options": [
+                                "Even if you eat nutritious food and take part in physical activity as often as possible, your bone mass may not reach ideal levels.",
+                                "An active person who is also careful about eating nutritious food should know that the relationship between bone mass and diet is not very strong.",
+                                "In order to make sure that your bone mass is around ideal levels, you must keep in mind the fact that physical activity can help your bones only if it is done regularly.",
+                                "Eating nutritious food and doing physical activity on a regular basis are two significant factors that increase the likelihood of having ideal bone mass."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru çünkü orijinaldeki 'adequate nutrition' (yeterli beslenme) ve 'regular participation' (düzenli katılım) ifadelerini koruyarak bunların kemik kütlesi için önemli olduğunu söylüyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'ulaşamayabilir' diyerek olumsuz bir ihtimalden bahsediyor.",
+                                    "1": "B şıkkı ilişkinin 'güçlü olmadığını' söylüyor, tam tersi.",
+                                    "2": "C şıkkı sadece fiziksel aktiviteye odaklanmış ve 'sadece düzenli yapılırsa' gibi bir kısıtlama getirmiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Nutrient-dense foods and beverages provide vitamins and minerals, which have positive health effects with relatively few calories.",
+                            "options": [
+                                "Nutrient-dense foods and beverages make it possible to take in vitamins and minerals, affecting health positively but contain comparatively few calories.",
+                                "Nutrient-dense foods and beverages may prevent people from taking in vitamins and minerals, which are known to affect health positively due to their low calories.",
+                                "By consuming nutrient-dense foods and beverages, you get enough vitamins and minerals, as a result of which you may be more hopeful about living a long life.",
+                                "Vitamins and minerals, which obviously have positive health effects with comparatively few calories, can only be found in nutrient-dense foods and beverages."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Orijinal cümledeki üç ana fikri de kapsıyor: 1) Vitamin/mineral sağlarlar, 2) Sağlığı olumlu etkilerler, 3) Kalorileri azdır.",
+                                "wrong": {
+                                    "1": "B şıkkı 'prevent' (engellemek) diyerek anlamı tamamen bozmuş.",
+                                    "2": "C şıkkı 'uzun yaşama umudu' eklemiş, orijinalde bu yok.",
+                                    "3": "D şıkkı 'sadece bu gıdalarda bulunur' (can only be found) diyerek orijinalde olmayan bir kısıtlama getirmiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Because our people's consumption of vegetables, fruits, seafood, and dairy products is lower than recommended, we are worried about public health.",
+                            "options": [
+                                "Since our people do not have a chance to consume as many vegetables, fruits, milk, and seafood as they want, they are concerned about their health.",
+                                "As our people do not consume as many dairy products, vegetables, fruits, and seafood as they should, we have concerns regarding public health.",
+                                "Due to the fact that our people cannot afford to purchase as many vegetables, fruits, milk, and seafood as they wish, they are rather pessimistic about their health conditions in the future.",
+                                "As a result of the fact that our people are concerned about their health, they tend to consume as many vegetables, fruits, milk by-products, and seafood as they are recommended."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinaldeki 'lower than recommended' (önerilenden az) ifadesini 'not as many... as they should' (yapmaları gerektiği kadar çok değil) ile tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'şansları yok' ve 'halk endişeli' diyor. Oysa orijinalde 'biz endişeliyiz' (yetkililer/yazarlar) deniyor.",
+                                    "2": "C şıkkı 'satın almaya güçleri yetmiyor' (cannot afford) diyor, bu sebep orijinalde yok.",
+                                    "3": "D şıkkı neden-sonuç ilişkisini tersine çevirmiş: Endişeli oldukları için tüketiyorlar diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "If you don't drive your business, you will be driven out of business.",
+                            "options": [
+                                "If you are not in control of the business that you are doing, you will find yourself pushed out of it.",
+                                "Your job as a driver seems to be rather simple but it is obvious that it has its special difficulties.",
+                                "If you don't want to work as a driver, you will be disregarded by your fellow drivers.",
+                                "You seem to have been pushed out of business because you failed to control it."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'Drive' kelimesi burada 'yönetmek/kontrol etmek' mecaz anlamında kullanılmış. Şık bunu 'in control of' ile karşılıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı kelimeyi gerçek anlamıyla 'şoför' olarak almış.",
+                                    "2": "C şıkkı da 'şoför' anlamında almış.",
+                                    "3": "D şıkkı geçmiş zamandan bahsediyor ('pushed out'), oysa orijinal cümle bir uyarı/koşul cümlesi ('If')."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Poverty is not only about being hungry but also about being unwanted, which is the greatest poverty of all.",
+                            "options": [
+                                "Poverty is usually described as lacking the ability to meet your basic needs like food, but it's more than that.",
+                                "Both people who are poor and those who feel unwanted feel that they are victims of poverty.",
+                                "The greatest poverty that a human being can experience is lack of friends because not having friends is almost as important as not having delicious food.",
+                                "If you are poor, you feel unwanted as well as hungry, and feeling unwanted is the greatest poverty."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Orijinal cümledeki iki unsuru (açlık ve istenmemek) birleştiriyor ve 'istenmemenin' en büyük yoksulluk olduğunu vurguluyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'istenmemek' kısmını ve bunun en büyük yoksulluk olduğu vurgusunu eksik bırakmış.",
+                                    "1": "B şıkkı fakirleri ve istenmeyenleri iki ayrı grup gibi ele almış.",
+                                    "2": "C şıkkı 'lezzetli yemek' gibi orijinalde olmayan detaylar eklemiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "It is exhausting for him to know that whenever his phone rings, someone wants something from him.",
+                            "options": [
+                                "Every time he is called, they want something from him, and knowing this makes him feel exhausted.",
+                                "He doesn't want to accept the fact that being phoned all the time shows that you are needed, and this is not a bad thing.",
+                                "He is extremely tired of receiving phone calls for requests that he no longer wants to hear.",
+                                "Feeling exhausted because of phone calls from people asking for favors, he wants someone else to answer his phone."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'Whenever his phone rings' = 'Every time he is called'. 'Exhausting' = 'Feel exhausted'. Anlam birebir örtüşüyor.",
+                                "wrong": {
+                                    "1": "B şıkkı tamamen farklı bir yorum katmış ('buna ihtiyaç duyulmak denir' gibi).",
+                                    "2": "C şıkkı 'artık duymak istemediği istekler' diyor, orijinalde sadece istekte bulundukları yazıyor.",
+                                    "3": "D şıkkı 'başkası baksın istiyor' diyor, bu bilgi orijinalde yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Mobile banking is a service provided by a bank that allows its customers to conduct a range of financial transactions remotely using a mobile device.",
+                            "options": [
+                                "The majority of banks offer a variety of mobile banking services that make it possible for their customers to use their mobile devices more effectively.",
+                                "If bank customers are willing to use their mobile devices for online transactions, there are a large variety of mobile banking applications available for use.",
+                                "The service given by banks to enable their customers to perform various transactions from far away with a mobile device is called mobile banking.",
+                                "Allowing their customers to use their mobile devices to perform a variety of transactions remotely has reduced the operational costs of all the banks."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümle bir tanımdır ('X is Y'). C şıkkı da aynı tanımı tersten yaparak ('Y is called X') anlamı koruyor. 'Remotely' = 'from far away'.",
+                                "wrong": {
+                                    "0": "A şıkkı 'çoğu banka' ve 'daha etkili kullanmak' gibi eklemeler yapmış.",
+                                    "1": "B şıkkı bir koşul cümlesi, tanım değil.",
+                                    "3": "D şıkkı 'bankaların maliyetini düşürdü' diyor, bu bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "Most of our clients are small business owners who face difficulties in obtaining financial support from other banks.",
+                            "options": [
+                                "The majority of our clients prefer to work with us because they know it will be difficult for them to receive financial support for their local business.",
+                                "Many clients of ours are local investors whose chances of receiving financial support from other banks are almost zero,",
+                                "Small entrepreneurs having difficulty in receiving financial support from other banks make up the majority of our clients.",
+                                "Obtaining financial support from other banks is more difficult than receiving it from us, which is why most of our clients continue to work with us."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. 'Most of our clients' = 'Make up the majority of our clients'. 'Small business owners' = 'Small entrepreneurs'. Anlam korunmuş.",
+                                "wrong": {
+                                    "0": "A şıkkı 'bizi tercih ediyorlar çünkü biliyorlar...' gibi bir sebep-sonuç eklemiş.",
+                                    "1": "B şıkkı 'şansları neredeyse sıfır' diyerek durumu abartmış, orijinalde sadece 'zorluk yaşıyorlar' deniyor.",
+                                    "3": "D şıkkı bizden almanın daha kolay olduğu karşılaştırmasını yapmış, orijinalde sadece diğerlerinden almanın zor olduğu var."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Food Problem",
+                            "paragraphs": [
+                                "Obesity and being overweight generally have spread worldwide, in industrialized as well as developing countries. But no matter where overweight people live, the cause is the same: eating more calories than one expends.",
+                                "In the United States, obesity levels began to rise in the early 1980s. Abundant evidence suggests calorie consumption began to increase at that time, though little evidence demonstrates physical activity declined. What changed? An overabundance of food in the United States is a key reason that many Americans are overweight. In the 1970s, US farm policies shifted from paying farmers not to grow excess food to paying them to grow as much food as possible. The result was a sharp rise in the calories available in the food supply: from 3,200 per person per day in 1980 to 3,900 in 2000. This increase of 700 available calories per day for every person made the food industry exceptionally competitive. Companies had to find new ways to sell their food products in a market that provided more calories than the population needed. To sell their products in an overabundant food economy, companies invented new ways to sell more food. In doing so, they changed society in ways that promoted eating more food, more frequently, in more places, and in larger amounts. Food began to be sold in places that had never been sold previously: business supply stores, clothing stores and bookstores. Vending machines were installed in schools, selling high-calorie snack foods and drinks to students. Americans also began eating out more often, and restaurants' portion sizes increased.",
+                                "As the economies of developing countries grow, their populations want to eat more expensive foods, such as meat and processed products rich in calories, and to eat them more frequently than in the past. These newly prosperous countries have provided new markets for food companies to sell their products. So thanks to rising wealth and an abundance of available food, the rest of the world is catching up with US levels of obesity and the health problems it causes.",
+                                "To prevent obesity, people need to eat fewer calories. But for perhaps the first time in history, growing numbers of people around the world have more calories available for consumption than they need. In the United States and other countries that have an overabundance of food, individuals must cope with a food system designed to encourage them to eat more than they need. So what is needed now is policies that will make it easier for us to make healthier food choices."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 20,
+                                    "question": "According to the text, calorie consumption ----.",
+                                    "options": [
+                                        "has decreased more in the United States than in other countries",
+                                        "began to go down in the early 1980s",
+                                        "should be increased if there is a rise in physical activity",
+                                        "has increased both in developing and industrialized countries"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Paragraf 1'de obezitenin 'worldwide' (dünya çapında) yayıldığı söyleniyor. Paragraf 2 ABD'deki artışı, Paragraf 3 ise gelişmekte olan ülkelerdeki ('developing countries') artışı anlatıyor.",
+                                        "wrong": {
+                                            "0": "ABD'de azaldığı değil, arttığı söyleniyor.",
+                                            "1": "1980'lerde düşmeye değil, artmaya ('began to rise') başladı.",
+                                            "2": "Fiziksel aktivite artarsa kalori artmalı diye bir öneri yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "The word expends in paragraph I is could best be replaced by ----.",
+                                    "options": [
+                                        "uses",
+                                        "calculates",
+                                        "purchases",
+                                        "measures"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Uses\" (kullanmak/harcamak) doğru. Metinde 'eating more calories than one expends' (harcadığından fazla kalori yemek) deniyor. Kalori harcamak, enerjiyi kullanmak demektir.",
+                                        "wrong": {
+                                            "1": "Hesaplamak demek.",
+                                            "2": "Satın almak demek.",
+                                            "3": "Ölçmek demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "As we understand from the passage, before the 1970s----",
+                                    "options": [
+                                        "the United States donated a lot of food to African countries",
+                                        "American farmers were encouraged to grow less food",
+                                        "the US government urged farmers to grow as much food as possible",
+                                        "people in developing countries consumed more food than today"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Paragraf 2'de: 'policies shifted from paying farmers NOT to grow excess food' (çiftçilere fazla gıda üretmemeleri için ödeme yapmaktan vazgeçildi) deniyor. Yani 1970 öncesi az üretmeleri teşvik ediliyordu.",
+                                        "wrong": {
+                                            "0": "Afrika'ya bağıştan bahsedilmiyor.",
+                                            "2": "Tam tersi, 1970'lerden SONRA çok üretmeleri istendi.",
+                                            "3": "Eskiden daha çok değil, daha az tüketiyorlardı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "As stated in paragraph I (Section II), as a result of the boost in the food supply, ----.",
+                                    "options": [
+                                        "the food industry became less and less competitive",
+                                        "food companies had to find new ways to sell more food",
+                                        "the amount of food available on the market decreased sharply",
+                                        "American people learnt to share their food with those in need"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Paragraf 2'de: 'Companies had to find new ways to sell their food products' (Şirketler ürünlerini satmak için yeni yollar bulmak zorunda kaldı) ifadesi geçiyor.",
+                                        "wrong": {
+                                            "0": "Metinde 'exceptionally competitive' (aşırı rekabetçi) olduğu yazıyor, az değil.",
+                                            "2": "Gıda miktarı azalmadı, arttı.",
+                                            "3": "Paylaşmaktan bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "Which of the following is NOT mentioned in the text as something changed by the food industry after the 1970s?",
+                                    "options": [
+                                        "Size of restaurant portions",
+                                        "Places where food was available",
+                                        "Frequency of eating",
+                                        "Prices of restaurant foods"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Metinde restoranların porsiyon boyutlarının ('portion sizes') arttığı söyleniyor ama fiyatlarının ('prices') değiştiğinden bahsedilmiyor.",
+                                        "wrong": {
+                                            "0": "Porsiyon boyutları metinde var.",
+                                            "1": "Satış yerleri (giyim mağazaları vb.) metinde var.",
+                                            "2": "Yeme sıklığı ('more frequently') metinde var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "The word prosperous in paragraph II (Section III) is closest in meaning to",
+                                    "options": [
+                                        "rich",
+                                        "hungry",
+                                        "young",
+                                        "peaceful"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Rich\" (zengin) doğru. 'Rising wealth' (artan zenginlik) ve ekonomilerin büyümesi bağlamında 'prosperous countries' (refah seviyesi yüksek ülkeler) deniyor.",
+                                        "wrong": {
+                                            "1": "Aç demek.",
+                                            "2": "Genç demek.",
+                                            "3": "Barışçıl demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "What is the main idea of paragraph III (specifically the Conclusion section marked IV)?",
+                                    "options": [
+                                        "People have learnt to eat fewer calories.",
+                                        "The United States produces more food than it needs.",
+                                        "Obesity can be avoided with healthier food choices.",
+                                        "Politicians have made it easier for us to make healthier food choices."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Son bölümde (IV. Bölüm) 'policies that will make it easier for us to make healthier food choices' (daha sağlıklı seçimler yapmamızı kolaylaştıracak politikalar) gerektiği ve bunun obeziteyi önleyeceği ana fikirdir.",
+                                        "wrong": {
+                                            "0": "İnsanların az yemeyi öğrendiği değil, yemesi gerektiği ('need to eat') söyleniyor.",
+                                            "1": "ABD'nin fazla üretmesi II. bölümün konusudur.",
+                                            "3": "Politikacılar bunu yaptı demiyor, yapmalı ('what is needed now') diyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "Which of the following sentences is TRUE according to the text?",
+                                    "options": [
+                                        "The US is not the only country that has to fight obesity.",
+                                        "Vending machines have begun to sell vegetarian foods.",
+                                        "An average American consumes 3,200 calories per day.",
+                                        "Snack foods are not as harmful as many people think."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. III. Bölümde 'rest of the world is catching up' (dünyanın geri kalanı yetişiyor) deniyor, yani sorun sadece ABD'de değil.",
+                                        "wrong": {
+                                            "1": "Vejetaryen değil, 'high-calorie snack foods' sattıkları yazıyor.",
+                                            "2": "Eskiden 3,200 idi, şimdi 3,900 olduğu yazıyor.",
+                                            "3": "Zararlı olmadıkları söylenmiyor, yüksek kalorili oldukları söyleniyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Cell Phone Technology and Poverty",
+                            "paragraphs": [
+                                "Global cellular phone coverage has improved faster than other essential services such as water and electricity, as well as access to financial services. For this reason, mobile money is seen as a means to transform the notion of banking around the world, and broaden access to credit, insurance and secure savings that are desperately needed in the developing world as individuals seek to enhance their well-being and emerge from poverty. Through their phone connections, small business owners, farmers and others either living in rural areas or at the bottom end of the socio-economic pyramid are obtaining the ability to communicate instantly and transfer funds to individuals and institutions. The service provides a quick, secure and transparent means of performing money transfers. The widespread availability of cellular phones also means that the relative few without a phone will probably have a close friend or relative they could turn to for the same purposes.",
+                                "However, 1.7 billion low-income cell phone users do not have a bank account. In effect, they remain outside of the realm of new economic opportunities. While 5 billion of the world's 6.6 billion people have mobile phones, only about 1.6 billion have bank accounts. Of those, only 1 billion are fully served by traditional banks. But financial opportunity shouldn't be limited to those with traditional assets or credit histories that a bank can respect. Previous efforts such as microcredit in India have shown that the poor are credit-worthy and pay back their loans despite not having possessions or working capital. They have demonstrated both entrepreneurship and motivation to succeed. When low-income men and women are given the opportunity to manage a business, they build their business and make better economic decisions for their families.",
+                                "Shainoor Khoja of Afghanistan's Roshan cellular service provider highlights the importance of mobile transactions in her country, where she said there are only 17 banks and 34 automated teller machines (ATMs), which serve only 3 percent of the population. At the same time, an estimated 23 percent of Afghanistan's annual income is given away in bribes. \"The alternative to mobile money in Afghanistan is cash,\" she said. \"People must carry around large amounts, sometimes in safes, and when employees are paid, they get shaken down by whoever wants to shake them down. In Afghanistan, 59 percent of the population complains that corruption is a bigger problem than jobs and security.\" Along with enabling secure and transparent transactions to reduce theft and corruption, mobile money also potentially could serve the illiterate in Afghanistan and elsewhere through voice recognition systems and programs that can read text messages out loud.",
+                                "In Kenya, where 70 percent of the population relies on agriculture for income, the Syngenta Foundation has been using mobile technology to insure small farmers against drought and other conditions. When the harvests are damaged or lost, subscribers automatically begin receiving insurance payments through their phones."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 28,
+                                    "question": "According to paragraph I, the expansion in global cellular phone coverage ----.",
+                                    "options": [
+                                        "owes a lot to other essential services like water and electricity",
+                                        "has made it harder to reach financial services",
+                                        "could change the idea of banking around the world",
+                                        "has reduced the importance of credit cards dramatically"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Metinde 'mobile money is seen as a means to transform the notion of banking' (bankacılık kavramını dönüştürecek bir araç olarak görülüyor) deniyor.",
+                                        "wrong": {
+                                            "0": "Metinde su ve elektriğe borçlu olduğu değil, onlardan 'daha hızlı geliştiği' yazıyor.",
+                                            "1": "Zorlaştırdığı değil, 'broaden access' (erişimi genişlettiği) yazıyor.",
+                                            "3": "Kredi kartlarından bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "The phrase emerge from in paragraph I is closest in meaning to ----.",
+                                    "options": [
+                                        "come out of",
+                                        "get in touch with",
+                                        "get along with",
+                                        "come down with"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Come out of\" (çıkmak/kurtulmak) doğru. 'Emerge from poverty' yoksulluktan çıkmak demektir.",
+                                        "wrong": {
+                                            "1": "İletişime geçmek.",
+                                            "2": "İyi geçinmek.",
+                                            "3": "Hastalanmak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "As stated in paragraph I, with the help of their mobile phones, poor people can ---",
+                                    "options": [
+                                        "disturb business owners",
+                                        "set up a good relationship with wealthy farmers",
+                                        "send money to other individuals",
+                                        "organize trips to rural areas more easily"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Metinde 'transfer funds to individuals and institutions' (bireylere ve kurumlara para transfer etmek) ifadesi geçiyor.",
+                                        "wrong": {
+                                            "0": "Rahatsız etmekten bahsedilmiyor.",
+                                            "1": "Zengin çiftçilerle ilişki kurmaktan bahsedilmiyor.",
+                                            "3": "Gezi organize etmekten bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "The phrase turn to in paragraph I could best be replaced by ----.",
+                                    "options": [
+                                        "let down",
+                                        "give up",
+                                        "get away",
+                                        "rely on"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Rely on\" (güvenmek/başvurmak) doğru. 'Turn to a friend' bir arkadaşına (yardım için) başvurmak demektir.",
+                                        "wrong": {
+                                            "0": "Hayal kırıklığına uğratmak.",
+                                            "1": "Vazgeçmek.",
+                                            "2": "Kaçmak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "According to the author of the text, poor mobile phone users who lack a bank account ----.",
+                                    "options": [
+                                        "should be able to benefit from new economic opportunities",
+                                        "ought to have limited access to international bank accounts",
+                                        "have extreme difficulty paying back their loans",
+                                        "also lack the entrepreneurship and motivation to succeed"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Yazar, 'financial opportunity shouldn't be limited' (finansal fırsatlar sınırlı olmamalı) diyerek onların da fırsatlardan yararlanması gerektiğini savunuyor.",
+                                        "wrong": {
+                                            "1": "Sınırlı erişimleri olmalı demiyor, olmamalı diyor.",
+                                            "2": "Metinde kredilerini geri ödedikleri ('pay back their loans') yazıyor.",
+                                            "3": "Girişimcilik ve motivasyonları olduğu ('demonstrated both entrepreneurship...') yazıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 33,
+                                    "question": "The word those in paragraph II refers to ----.",
+                                    "options": [
+                                        "1.7 cell phone users",
+                                        "5 billion mobile phones",
+                                        "6.6 billion bank accounts",
+                                        "1.6 billion people"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Cümle: 'only about 1.6 billion have bank accounts. Of THOSE...' (Sadece 1.6 milyarın hesabı var. BUNLARIN içinden...). Yani banka hesabı olan 1.6 milyar insanı kastediyor.",
+                                        "wrong": {
+                                            "0": "1.7 milyar hesabı olmayanlar.",
+                                            "1": "5 milyar telefonu olanlar.",
+                                            "2": "Böyle bir rakam yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "According to paragraph III, in Afghanistan ----",
+                                    "options": [
+                                        "life expectancy is incredibly low",
+                                        "bribery is extremely common",
+                                        "there are more banks than ATMs",
+                                        "annual income has increased by 59%"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metinde '23 percent of Afghanistan's annual income is given away in bribes' (Yıllık gelirin %23'ü rüşvete gidiyor) deniyor, bu da rüşvetin çok yaygın olduğunu gösterir.",
+                                        "wrong": {
+                                            "0": "Yaşam süresinden bahsedilmiyor.",
+                                            "2": "17 banka, 34 ATM var, yani ATM daha çok.",
+                                            "3": "%59 gelirin arttığı oran değil, yolsuzluktan şikayet edenlerin oranı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "Which of the following sentences is TRUE according to the text?",
+                                    "options": [
+                                        "The majority of people living in Kenya earn a living through agriculture.",
+                                        "People at the bottom end of the socio-economic pyramid are wealthy.",
+                                        "Low-income men and women cannot make sound economic decisions.",
+                                        "Seventy percent of Afghans receive insurance payments through their phones."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Metinde 'Kenya, where 70 percent of the population relies on agriculture' (Nüfusun %70'inin tarıma dayandığı Kenya) ifadesi geçiyor. %70 çoğunluk demektir.",
+                                        "wrong": {
+                                            "1": "Piramidin altındakiler fakirdir, zengin değil.",
+                                            "2": "Tam tersi, 'make better economic decisions' (daha iyi kararlar alırlar) deniyor.",
+                                            "3": "Afganlar değil, Kenyalı çiftçiler sigorta ödemesi alıyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Life after Espionage",
+                            "paragraphs": [
+                                "The worlds of spying and showbiz may seem to be mutually exclusive. But Anna Chapman, Russia's flame-haired former agent, is making a career of both. She has risen from a foreign agent of little talent to a sensational magazine figure enjoying friendly relations with a fellow former spy, Prime Minister Vladimir Putin. Chapman, who last year was thrown out of the United States along with several other Russian spies working secretly in the US, has made her television debut on a program which promises to feature its young star doing what she does best: solving mysteries. The program is part of a new documentary series on Russia's government-friendly REN-TV. In addition to her television show, the 28-year-old Chapman has taken on a post at a Russian bank, posed for the Russian edition of \"Maxim\" magazine, and starred in a New Year's parody of an old television series. Chapman has added a political dimension to her career as well, joining the leadership of Molodaya Gvardia (Young Guard), the youth wing of Putin's all-powerful United Russia Party. The group has been widely criticized for its aggressive tactics in targeting illegal immigrants and foreign critics of the regime.",
+                                "Chapman, who was born Anna Kushchenko in the Russian city of Volgograd, spent much of her life abroad as her father was a diplomat. In 2000, she moved to London, where she found short-term work in the financial and aviation industries, and an equally short-term husband, Briton Alex Chapman, who gave her now-notorious surname and a British passport. They divorced four years later. Chapman relocated to New York in 2006, where she continued to pursue an entrepreneurial career while allegedly operating within a network of agents planted by Russia's foreign intelligence service. At the time of the agents' arrest in the summer of 2010, it was not clear that any had been particularly successful in uncovering strategically useful military or technical information. But Chapman's behavior at the time -- telephoning her father at the first sign of trouble -- was considered particularly frivolous and un-spylike.",
+                                "Music critic Artyom Troitsky, a pointed observer of the current political regime, says that for most Russians, Chapman holds no particular allure on the physical front and should not be celebrated as a national hero after failing to turn up any useful information during her brief career as a spy. \"I wouldn't say she's especially popular,\" Troitsky says. \"I think most people, including myself, have a very ironic opinion of her. Our perception is that she's like a new favorite toy of Putin. Because of this, all kinds of people try to shower her with all kinds of favors, because they think that she's Putin's toy girl.\"",
+                                "Edward Lucas, a senior editor at \"The Economist\" who is currently writing a book on Russian spies, says that there's nothing in Chapman's performance as a spy to suggest she was an important or even well-trained -- intelligence officer, and that her rise to fame may be due to a simple mix of personal ambition, family connections, and good timing. Still, he says, Chapman has proved useful to Russia. Even as the country's roads fall to pieces and hospitals sag with mildew, the Russian and Soviet spy machines have always been a source of massive pride. \"And I think in a way it's quite good for the image of Russia to have this multilingual, talented, cosmopolitan, reasonably good-looking, versatile woman as a representative of the new Russia. I think if I was a national brand-making consultant, I would say to get out there and use her.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 36,
+                                    "question": "According to paragraph I, Anna Chapman ---",
+                                    "options": [
+                                        "believed a former spy should not appear on TV",
+                                        "has a close relationship with Vladimir Putin",
+                                        "is a successful Russian spy living in the US",
+                                        "caught several American spies in Russia"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metinde 'enjoying friendly relations with a fellow former spy, Prime Minister Vladimir Putin' (Putin ile dostane ilişkileri olduğu) yazıyor.",
+                                        "wrong": {
+                                            "0": "TV'ye çıkmamalı demedi, aksine TV programı yapıyor.",
+                                            "2": "ABD'de yaşamıyor, 'thrown out of the US' (ABD'den atıldı) deniyor.",
+                                            "3": "Amerikan casuslarını yakalamadı, kendisi yakalanan bir Rus casusuydu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "The word figure in paragraph I could best be replaced by ----.",
+                                    "options": [
+                                        "character",
+                                        "shape",
+                                        "number",
+                                        "form"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Character\" (kişi/karakter) doğru. 'Sensational magazine figure' derken magazinsel bir kişilikten bahsediliyor.",
+                                        "wrong": {
+                                            "1": "Şekil demek.",
+                                            "2": "Sayı demek.",
+                                            "3": "Biçim demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 38,
+                                    "question": "The word post in paragraph I is closest in meaning to ----.",
+                                    "options": [
+                                        "account",
+                                        "money",
+                                        "debt",
+                                        "job"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Job\" (iş/pozisyon) doğru. 'Taken on a post at a Russian bank' bir bankada işe/göreve başlamak demektir.",
+                                        "wrong": {
+                                            "0": "Hesap.",
+                                            "1": "Para.",
+                                            "2": "Borç."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "According to the text, Anna Chapman has done all of the following EXCEPT --",
+                                    "options": [
+                                        "modeling",
+                                        "marketing",
+                                        "banking",
+                                        "acting"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metinde modellik (Maxim dergisi), bankacılık (Rus bankasında) ve oyunculuk (TV parodisi) yaptığı yazıyor ama 'marketing' (pazarlama) yaptığı geçmiyor.",
+                                        "wrong": {
+                                            "0": "Modellik yaptı.",
+                                            "2": "Bankada çalıştı.",
+                                            "3": "Rol yaptı/oynadı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "As stated in the text, Anna Chapman married a British man, ----.",
+                                    "options": [
+                                        "after which they moved to the Russian city of Volgograd",
+                                        "because her father wanted her to be a diplomat, too",
+                                        "but their marriage did not last very long",
+                                        "so they had to relocate to London in 2000"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Metinde 'an equally short-term husband... They divorced four years later' (kısa süreli koca... 4 yıl sonra boşandılar) deniyor, yani evlilik uzun sürmedi.",
+                                        "wrong": {
+                                            "0": "Volgograd'a taşınmadılar, orada doğmuştu.",
+                                            "1": "Diplomat olmak istediği yazmıyor.",
+                                            "3": "London'a taşındıktan SONRA evlendi, evlendiği için taşınmadı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "The word any in paragraph II refers to",
+                                    "options": [
+                                        "intelligence service",
+                                        "Russian agent",
+                                        "the agents' arrest",
+                                        "the summer of 2010"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Cümle: 'it was not clear that ANY had been particularly successful' (HİÇBİRİNİN başarılı olup olmadığı belli değildi). Burada kastedilen 'casuslar' (Russian agents).",
+                                        "wrong": {
+                                            "0": "İstihbarat servisine atıfta bulunmuyor.",
+                                            "2": "Tutuklamaya atıfta bulunmuyor.",
+                                            "3": "Zamana atıfta bulunmuyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "As learned from the text, music critic Artyom Troitsky ----.",
+                                    "options": [
+                                        "is currently writing a book on Russian spies and their love affairs",
+                                        "says Anna Chapman should be used as a national brand name",
+                                        "and Edward Lucas have a similar opinion of Anna Chapman's spying skills",
+                                        "is celebrated as a national hero because of his fight against the current political regime"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Troitsky 'failing to turn up useful information' (işe yarar bilgi bulamadı) diyor. Lucas da 'nothing to suggest she was important' (önemli olduğunu gösteren bir şey yok) diyor. İkisi de casusluk becerilerinin düşük olduğu konusunda hemfikir.",
+                                        "wrong": {
+                                            "0": "Kitabı yazan Lucas, Troitsky değil.",
+                                            "1": "Marka olarak kullanılmasını öneren Lucas.",
+                                            "3": "Kendisi kahraman olarak kutlanmıyor, Chapman'ın kutlanmaması gerektiğini söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "Which of the following sentences is FALSE according to the text?",
+                                    "options": [
+                                        "REN-TV has good relations with the Russian government.",
+                                        "Edward Lucas thinks Russia's roads and hospitals are not in a good condition.",
+                                        "Artyom Troitsky believes Anna Chapman is Putin's toy girl.",
+                                        "Anna Chapman has no intention of getting involved in politics."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı (YANLIŞ olan). Metinde 'Chapman has added a political dimension to her career... joining the leadership of Molodaya Gvardia' (Politik bir boyut ekledi... liderliğe katıldı) deniyor. Yani politikaya girme niyeti var ve girmiş.",
+                                        "wrong": {
+                                            "0": "DOĞRU: 'government-friendly REN-TV' yazıyor.",
+                                            "1": "DOĞRU: 'roads fall to pieces and hospitals sag' yazıyor.",
+                                            "2": "DOĞRU: 'she's Putin's toy girl' ifadesini kullanıyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

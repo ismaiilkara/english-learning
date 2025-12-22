@@ -1,0 +1,1005 @@
+    {
+        "id": 1,
+        "title": "ITU Proficiency Exam",
+        "sections": {
+            "reading": {
+                "parts": [
+                    {
+                        "type": "cloze",
+                        "title": "Cloze Test: Antarctica",
+                        "passage": {
+                            "title": "Antarctica: The Frozen Continent",
+                            "text": "Antarctica, the southernmost continent, is the coldest, windiest, and driest place on Earth. (1)_____ completely with ice, it holds about 70% of the world's fresh water. Because the conditions are so harsh, there are no permanent human residents, (2)_____ various research stations (3)_____ by scientists from around the globe. These scientists study everything from climate change to meteorite impacts. The continent is protected by the Antarctic Treaty, (4)_____ prohibits military activity and mineral mining. (5)_____ the extreme cold, life does exist there; penguins, seals, and whales are commonly (6)_____ in the surrounding waters. If the ice sheets (7)_____ to melt entirely, global sea levels (8)_____ by about 60 meters, causing a global catastrophe. Therefore, understanding Antarctica is key (9)_____ our planet's future climate. (10)_____ visited by tourists each year, it remains one of the most untouched regions in the world."
+                        },
+                        "questions": [
+                            {
+                                "id": 1,
+                                "options": [
+                                    "Covered",
+                                    "Covering",
+                                    "To cover",
+                                    "It is covered"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"Covered\" (kaplanmış) doğru çünkü burada pasif bir kısaltma (reduced relative clause) var. Uzun hali 'Which is covered with ice' şeklindedir, 'which is' atılınca geriye fiilin 3. hali kalır.",
+                                    "wrong": {
+                                        "1": "\"Covering\" (kaplayan) aktif bir eylemdir, buz Antarktika'yı kaplar ama burada özne Antarktika olduğu için 'kaplanmış' demeliyiz.",
+                                        "2": "\"To cover\" amaç bildirir (kaplamak için), burada durum anlatılıyor.",
+                                        "3": "\"It is covered\" yeni bir cümle başlatır ama bağlaç yok, virgülden sonra doğrudan ana cümleye bağlanamaz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "options": [
+                                    "unlike",
+                                    "despite",
+                                    "although",
+                                    "whereas"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "\"Whereas\" (oysaki/halbuki) doğru çünkü iki zıt durumu kıyaslıyoruz: Kalıcı insan yok, 'halbuki' araştırma istasyonları bilim insanlarıyla dolu.",
+                                    "wrong": {
+                                        "0": "\"Unlike\" (aksine) kendisinden sonra isim alır, cümle almaz.",
+                                        "1": "\"Despite\" (rağmen) kendisinden sonra isim veya V-ing alır, cümle almaz.",
+                                        "2": "\"Although\" (rağmen) anlam olarak uyabilir ama 'whereas' bu tür doğrudan zıtlık (contrast) cümlelerinde virgülden sonra daha yaygındır."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "options": [
+                                    "inhabit",
+                                    "are inhabited",
+                                    "inhabiting",
+                                    "inhabited"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"Are inhabited\" doğru çünkü 'research stations' (araştırma istasyonları) insanlar tarafından ikamet 'edilir' (passive voice).",
+                                    "wrong": {
+                                        "0": "\"Inhabit\" aktiftir, istasyonlar ikamet etmez, orada ikamet edilir.",
+                                        "2": "\"Inhabiting\" fiilin -ing hali tek başına yüklem olamaz.",
+                                        "3": "\"Inhabited\" geçmiş zaman gibi duruyor ama genel bir durumdan (present simple) bahsediyoruz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "options": [
+                                    "who",
+                                    "what",
+                                    "which",
+                                    "where"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"Which\" doğru çünkü cansız bir varlığı (Antarctic Treaty - Antlaşma) niteliyoruz ve virgülden sonra ekstra bilgi veriyoruz.",
+                                    "wrong": {
+                                        "0": "\"Who\" insanlar için kullanılır.",
+                                        "1": "\"What\" ilgi zamiri (relative clause) olarak isimden sonra gelmez.",
+                                        "3": "\"Where\" yer bildirir, burada antlaşmanın kendisini tanımlıyoruz, içindeki bir yeri değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "options": [
+                                    "Although",
+                                    "In spite of",
+                                    "Even",
+                                    "However"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"In spite of\" (rağmen) doğru çünkü kendisinden sonra bir isim öbeği (the extreme cold) gelmiş.",
+                                    "wrong": {
+                                        "0": "\"Although\" kendisinden sonra tam cümle (özne + yüklem) ister.",
+                                        "2": "\"Even\" tek başına 'bile' demektir, bağlaç olarak yetersiz kalır (Even if/though gerekir).",
+                                        "3": "\"However\" iki cümleyi bağlar ve genellikle noktalama işaretleriyle ayrılır, isimden önce gelmez."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "options": [
+                                    "found",
+                                    "finding",
+                                    "founded",
+                                    "find"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"Found\" (bulunur) doğru çünkü 'are commonly found' yapısı pasiftir. Penguenler ve balinalar sularda 'bulunur'.",
+                                    "wrong": {
+                                        "1": "\"Finding\" aktif yapı olurdu (bulan).",
+                                        "2": "\"Founded\" 'kurmak' (establish) fiilinin geçmiş zamanıdır, bulmak (find) ile ilgisi yoktur.",
+                                        "3": "\"Find\" aktif fiildir ve 'are' yardımcı fiilinden sonra yalın halde gelemez."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "options": [
+                                    "were",
+                                    "have",
+                                    "are",
+                                    "had"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"Were\" doğru çünkü 'If... to' yapısı (If the ice sheets were to melt) gelecekteki düşük ihtimalli senaryoları anlatmak için kullanılan özel bir Type 2 Conditional yapısıdır.",
+                                    "wrong": {
+                                        "1": "\"Have\" yapısı 'if' ile bu anlamda kullanılmaz.",
+                                        "2": "\"Are\" present tense olurdu ama cümlenin devamında 'would' var, yani hayali bir durum (unreal) anlatılıyor.",
+                                        "3": "\"Had\" past perfect (Type 3) olurdu, geçmişte kalmış olaylar için kullanılır."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "options": [
+                                    "will rise",
+                                    "rose",
+                                    "would rise",
+                                    "had risen"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"Would rise\" doğru çünkü 'If clause' kısmında 'were to melt' (Type 2) kullanıldığı için ana cümlede 'would + fiil' gerekir.",
+                                    "wrong": {
+                                        "0": "\"Will rise\" Type 1 (gerçekleşebilir durumlar) için kullanılır.",
+                                        "1": "\"Rose\" geçmiş zaman, conditional yapısına uymaz.",
+                                        "3": "\"Had risen\" geçmişin geçmişi, burada varsayımsal bir gelecek sonuç anlatılıyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "options": [
+                                    "predict",
+                                    "predicting",
+                                    "to predicting",
+                                    "predicted"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"To predicting\" doğru çünkü İngilizcede 'key to' (bir şeyin anahtarı) kalıbından sonra gelen fiil -ing takısı alır (gerund).",
+                                    "wrong": {
+                                        "0": "\"Predict\" yalın hal, 'key to' dan sonra gelmez.",
+                                        "1": "\"Predicting\" başında 'to' edatı eksik. 'Key predicting' denmez.",
+                                        "3": "\"Predicted\" sıfat veya geçmiş zaman halidir, buraya uymaz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 10,
+                                "options": [
+                                    "Since",
+                                    "As",
+                                    "Because",
+                                    "Though"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "\"Though\" (rağmen) doğru çünkü zıtlık var: Turistler tarafından ziyaret edilmesine RAĞMEN el değmemiş kalıyor. 'Though visited' kısaltılmış bir yapıdır.",
+                                    "wrong": {
+                                        "0": "\"Since\" (çünkü/-den beri) anlam olarak uymaz.",
+                                        "1": "\"As\" (için/olarak) sebep bildirir, zıtlık değil.",
+                                        "2": "\"Because\" sebep bildirir, ziyaret edildiği için el değmemiş kalması mantıksız olurdu."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "restatement",
+                        "title": "Restatement Questions",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "statement": "Up to a short time ago, it was believed that there was little life in the deep sea, which covers more than half the world’s surface.",
+                                "options": [
+                                    "Until recently, the deep sea, an area including over half the Earth, was thought to have a limited number of creatures.",
+                                    "Even recently the deep sea was said to have conditions incapable of supporting any type of life despite covering over 50% of the world.",
+                                    "There was a recent claim stating that the few creatures in the deep sea traveled long distances and were spread over a vast area.",
+                                    "In short, the lack of species in the deep sea was said to stem from the harsh conditions in this place which is spread over half the Earth."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'Up to a short time ago' ifadesini 'Until recently' ile, 'little life' ifadesini 'limited number of creatures' ile tam karşılıyor.",
+                                    "wrong": {
+                                        "1": "'Incapable of supporting ANY type of life' (hiçbir yaşamı destekleyemez) ifadesi orijinal cümlede yok, orijinalde 'az yaşam' (little life) deniyor.",
+                                        "2": "Orijinal cümlede canlıların uzun mesafe seyahat ettiğine dair bir bilgi yok.",
+                                        "3": "Orijinal cümlede canlı azlığının sebebinin 'zorlu koşullar' (harsh conditions) olduğu söylenmiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "statement": "Deep-sea species are slow growing and low in reproductive capacity, yet they tend to have very long life spans, even up to 150 years.",
+                                "options": [
+                                    "While deep-sea species both grow slowly and are unable to reproduce quickly, they can have an extended life span of up to 150 years.",
+                                    "Due to the advanced age of deep-sea species, as high as 150 years, they can’t move quickly or produce many babies.",
+                                    "Although the life span of deep-sea species typically approaches 150 years, they stop growing and producing young long before then.",
+                                    "Despite maturing at a late age and only having limited numbers of offspring, deep-sea species live for a 150 years and sometimes considerably longer."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü orijinaldeki zıtlığı (yet -> despite) veriyor. 'Slow growing' -> 'maturing at a late age', 'low reproductive capacity' -> 'limited numbers of offspring' olarak çevrilmiş.",
+                                    "wrong": {
+                                        "0": "'While' ile başlayan cümle iyi bir aday olsa da, D şıkkı 'yet' (ama/rağmen) zıtlığını 'Despite' ile daha güçlü veriyor. Ayrıca A şıkkı biraz düz bir anlatım.",
+                                        "1": "Neden-sonuç ilişkisi yanlış kurulmuş. 150 yıl yaşadıkları için yavaş üremiyorlar; yavaş ürüyolar ama 150 yıl yaşıyorlar.",
+                                        "2": "Orijinal cümlede 'büyümeyi durdururlar' (stop growing) gibi bir bilgi yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "statement": "Hiking may not seem intense since it appears to be just walking, but it can be exhausting over a period of time.",
+                                "options": [
+                                    "Hiking only consists of walking for some time, but it is very tiring for people who do it infrequently.",
+                                    "If you are looking for an easier workout, consider hiking, which only exhausts you if you do it for too much time.",
+                                    "Despite appearing to be a gentle activity just involving walking, hiking may really tire you if you do it for a long time.",
+                                    "Hiking is hard on your body when done for an extended period of time, but keeping your hike short seems healthier."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'appearing to be a gentle activity' (hafif görünmesine rağmen) kısmı 'may not seem intense'i, 'tire you' kısmı ise 'exhausting'i tam karşılıyor.",
+                                    "wrong": {
+                                        "0": "Orijinal cümlede 'seyrek yapan insanlar' (infrequently) detayı yok.",
+                                        "1": "Orijinal cümlede 'daha kolay bir egzersiz arıyorsanız' gibi bir tavsiye yok.",
+                                        "3": "Orijinal cümlede 'kısa tutmak daha sağlıklıdır' gibi bir yorum yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "statement": "Children mustn’t be made to carry more than 20% of their body weight while hiking, so a child weighing 25 kilos should carry a backpack that weighs a maximum of 5 kilos.",
+                                "options": [
+                                    "A 25-kilo child certainly ought not to be forced to carry over 5 kilos, that is, 20% of their body weight, when hiking.",
+                                    "You don’t have to ask kids to carry a backpack, but if you do, limit their load to 5 kilos or 20% of total body weight.",
+                                    "Kids never have to carry more than one-fifth of their body weight, that is, 5 kilos for a 25-kilo child, if they go hiking.",
+                                    "It is unhealthy for children 25 kilos or under to carry backpacks, and you especially need to avoid giving them more than 20% of body weight."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'mustn't be made' (zorlanmamalı/yaptırılmamalı) ifadesini 'ought not to be forced' ile, sayısal değerleri de birebir koruyarak veriyor.",
+                                    "wrong": {
+                                        "1": "'You don't have to' (yapmak zorunda değilsin) ifadesi orijinaldeki yasaklama/uyarı tonunu (mustn't) karşılamıyor.",
+                                        "2": "'Never have to' (asla zorunda değiller) ifadesi anlamı değiştiriyor.",
+                                        "3": "Orijinal cümlede '25 kilonun altındaki çocuklar için sağlıksızdır' denmiyor, sadece bir ağırlık limiti veriliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "statement": "If people are not accustomed to hiking regularly, they might want to start on a hiking path with few hills so that they can enjoy their walk while getting an appropriate workout for their fitness level.",
+                                "options": [
+                                    "To get the most enjoyment from a hike and avoid an exhausting workout, people are told to hike on a path that only has a couple of hills.",
+                                    "It’s a good idea for beginning hikers to start with paths which don’t have many hills, as this enables them to have pleasurable walks and get a workout at the proper level of intensity.",
+                                    "Hikers used to start hiking anywhere, but they have learned to start where the hills are not very big because that increases their pleasure and gives a lighter workout.",
+                                    "For people who have not been hiking regularly, it is best to go where there aren’t many hills because this will provide the right level of workout, but it may affect the quality of their hiking experience."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'beginning hikers' (yeni başlayanlar) ifadesi 'not accustomed'ı karşılar. 'Pleasurable walks' -> 'enjoy their walk', 'workout at proper level' -> 'appropriate workout' eşleşmeleri tamdır.",
+                                    "wrong": {
+                                        "0": "Orijinal cümlede 'insanlara söylenir' (people are told) gibi bir ifade yok, bir öneri var.",
+                                        "2": "Orijinal cümlede 'eskiden her yerde başlarlardı' (used to start anywhere) gibi bir geçmiş alışkanlık karşılaştırması yok.",
+                                        "3": "Bu şık 'yürüyüş deneyiminin kalitesini etkileyebilir' diyerek olumsuz bir anlam katmış, oysa orijinalde 'keyif almaları için' (enjoy) deniyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "statement": "While people losing their hearing from too much noise is permanent, it is also generally preventable, so most countries regulate maximum noise levels in the workplace.",
+                                "options": [
+                                    "A treatment for hearing loss is expected soon, but for now most countries try to decrease the number of cases through legislation.",
+                                    "A majority of nations have created laws about how much noise is allowed when working because they want to end hearing loss forever.",
+                                    "Laws to reduce loud noises at work have greatly reduced hearing loss, so almost all countries are taking long-term measures in this area.",
+                                    "Most countries have laws regarding maximum noise level at work because, although most cases of hearing loss cannot be reversed, they can be prevented."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'permanent' (kalıcı) kelimesini 'cannot be reversed' (geri döndürülemez) ile, 'preventable' kelimesini de aynen kullanarak tam anlamı veriyor.",
+                                    "wrong": {
+                                        "0": "Orijinal cümlede yakında bir tedavi beklendiğine dair bilgi yok.",
+                                        "1": "'End hearing loss forever' (sonsuza dek bitirmek) çok iddialı bir ifade, orijinalde sadece 'düzenlemekten' bahsediliyor.",
+                                        "2": "Orijinal cümlede yasaların işitme kaybını 'büyük ölçüde azalttığına' (have greatly reduced) dair bir sonuç bilgisi yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "statement": "Many people believe that higher stress levels bring about greater productivity, but this is far from the truth.",
+                                "options": [
+                                    "A majority of people are quite certain that high levels of stress really enable people to work productively.",
+                                    "The common belief that the more stress people experience the more productive they are is simply untrue.",
+                                    "For a lot of people, it might be true that if they were not under great pressure, they would fail to produce as much.",
+                                    "Although many people think it’s true, it cannot be definitely proven that more creative work comes from more stress."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'Many people believe' -> 'Common belief' ve 'far from the truth' -> 'simply untrue' eşleşmesi tamdır.",
+                                    "wrong": {
+                                        "0": "Bu şık sadece inancı anlatıyor, ama orijinal cümlenin ikinci kısmı olan 'bu doğrudan uzaktır' (gerçek değildir) kısmını atlıyor.",
+                                        "2": "Bu şık inancın doğru olabileceğini söylüyor, oysa orijinal cümle bunun yanlış olduğunu belirtiyor.",
+                                        "3": "Orijinal cümlede 'yaratıcı iş' (creative work) veya 'kanıtlanamaz' (cannot be proven) gibi ifadeler yok, kesinlikle doğru olmadığı söyleniyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "statement": "Although students mainly focus on the number of words rather than quality, the best essays not only achieve a word limit but also give evidence of careful thinking.",
+                                "options": [
+                                    "Essays need to be a specific length as well as be well written, so students need to make sure that they write a sufficient number of words.",
+                                    "Quality essays result from students’ choosing each word carefully; however, this usually leads to essays which do not reach the minimum word limit.",
+                                    "In writing, excellence is much more important than length, so students should take a careful look at the quality of their essays and not waste time counting words.",
+                                    "In excellent essays, it is clear that students consider a topic carefully as well as write a certain number of words, but students mostly think about word count."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü orijinaldeki 'students mainly focus on number of words' kısmını 'students mostly think about word count' ile, 'best essays... careful thinking' kısmını da 'excellent essays... consider a topic carefully' ile karşılıyor.",
+                                    "wrong": {
+                                        "0": "Öğrencilerin odak noktasıyla ilgili zıtlığı (although) vermiyor.",
+                                        "1": "Orijinal cümlede kaliteli makalelerin kelime sınırına ulaşmadığı söylenmiyor.",
+                                        "2": "Orijinal cümlede 'kelime sayarak vakit kaybetmeyin' gibi bir tavsiye yok, durum tespiti var."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "statement": "Although stress can increase levels of stomach acid and affect digestion negatively, it's not the main cause of stomach ulcers.",
+                                "options": [
+                                    "Stomach ulcers are not related to stress despite the connection between stomach acid caused by stress and the inability to digest food.",
+                                    "Stress is only one of the causes of stomach ulcers, but it is a major source of stomach pain because it produces so much acid in the stomach.",
+                                    "While high amounts of stomach acid and poor digestion may be a result of stress, stomach ulcers are not primarily caused by stress.",
+                                    "Difficulties in digestion are a result of too much stomach acid, which results from unresolved stress; on the other hand, stomach ulcers may affect digestion, too."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Bu seçenek doğru çünkü 'Although' yapısını 'While' ile karşılıyor. 'Not the main cause' -> 'not primarily caused by' eşleşmesi tamdır.",
+                                    "wrong": {
+                                        "0": "Bu şık 'alakalı değildir' (not related) diyor, orijinal cümle ise 'ana sebep değildir' diyor. Arada fark var.",
+                                        "1": "Orijinal cümlede mide ağrısından (stomach pain) bahsedilmiyor.",
+                                        "3": "Orijinal cümlede ülserin sindirimi etkilemesinden bahsedilmiyor."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reading",
+                        "title": "Reading Comprehension",
+                        "texts": [
+                            {
+                                "id": 1,
+                                "title": "Tracking the Sea's Gentle Giants",
+                                "paragraphs": [
+                                    "Surprisingly little is known about whale sharks, the biggest fish in the sea. That’s why conservation biologist Brad Norman, one of the world's leading whale shark experts, is on a mission to recruit thousands of students, tourists, and divers to photograph and report encounters with these gentle giants. When spotted, the whale shark is hard to miss. It can grow to 13 meters (the length of a bus), filter-feed plankton through a nearly two-meter-wide mouth, and weigh 20 tons or more.",
+                                    "It has been given status as an endangered species, but actually the exact number of whale sharks is as murky as scientists’ knowledge about them. Not discovered until 1828 when one was spotted off South Africa's coast, whale sharks were seen just 320 times over the next 160 years. Over the last 25 years, research has increased to some degree, resulting in an increase of sightings. “However, we still don’t know how many there are, where they meet to mate, and why they prefer to gather in some places,” Norman says. “They're also difficult to track because they can stay down deep for months at a time. As a result, there's still a lot of mystery surrounding them.” Based on assessments of commercial fishermen, Norman says their global population may have declined by over 50 percent in the past 75 years, yet no one knows for sure.",
+                                    "Norman helped greatly expand whale shark research beginning in the 1990s. His marine research organization, ECOCEAN, pioneered the photo identification of whale sharks. At present, more than 7,000 whale sharks have been recorded, primarily through 60,000 photographs and 36,000 “encounter reports” submitted by citizen scientists on the online photo identification database Wildbook for Whale Sharks. This information helps with the identification of whale sharks as each one has a unique pattern of white spots, much like humans have unique fingerprints. The growing collection of photos from 54 countries act as visual tags for identifying every individual, as well as aiding researchers in piecing together migration patterns and territory. “Having thousands of citizen scientists around the world generates information about these fish and a lot of public interest in conserving them,'' Norman says. \"The beauty of this is anyone can assist in whale shark research and help protect this species.\"",
+                                    "Norman also places temporary cameras on whale shark fins, providing a fish-eye view of their slow, graceful movements and interactions with humans. During more than two decades of research off Western Australia's Ningaloo Reef, he’s had several encounters with Zorro—nicknamed for the Z-shaped scar on the upper edge of his tail—and Stumpy, another mature whale shark with a stump-shaped fin. “Swimming with them is like seeing old friends,’’ Norman says. “Knowing they've matured and they keep coming back gives me a warm feeling.”",
+                                    "Norman encourages the next generation of whale shark researchers through events such as the 2015 Race Around the World, which placed satellite tags on a dozen whale sharks and encouraged students to track them. He hopes more students will participate just as enthusiastically in the study of whale sharks in upcoming publicity campaigns. \"We're still in the early days when it comes to understanding the whale shark's history and behavior,'' Norman says. \"We're lucky more and more people are getting to see them and collaborating with us.\""
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 1,
+                                        "question": "The text mainly discusses ----.",
+                                        "options": [
+                                            "efforts to increase knowledge about and protection of whale sharks",
+                                            "studies which give conflicting information about the current state of whale sharks",
+                                            "how schools have played an important part in the conservation of whale sharks",
+                                            "how human behavior is leading to a decrease in numbers of whale sharks"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Metnin genelinde Brad Norman'ın 'Wildbook' veritabanı, vatandaş bilim insanları ve öğrencileri kullanarak balina köpekbalıkları hakkında bilgi toplama ve koruma çabaları anlatılıyor. Paragraf 1: 'mission to recruit thousands... to photograph and report'.",
+                                            "wrong": {
+                                                "1": "Çelişkili bilgilerden çok bilgi eksikliğinden (mystery) bahsediliyor.",
+                                                "2": "Okullar sadece son paragrafta bir etkinlik bağlamında geçiyor, metnin tamamı bu değil.",
+                                                "3": "İnsan davranışının azalmaya yol açtığı kesin değil, sadece balıkçı tahminlerine dayalı bir düşüş ihtimali var."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "question": "The word murky in paragraph 2 is closest in meaning to ----.",
+                                        "options": [
+                                            "unbelievable",
+                                            "unclear",
+                                            "unsafe",
+                                            "unexpected"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "\"Murky\" kelimesi bulanık/belirsiz demektir. Cümlede 'exact number... is as murky as scientists’ knowledge' deniyor, yani sayı da bilgimiz kadar belirsiz/net değil.",
+                                            "wrong": {
+                                                "0": "\"Unbelievable\" inanılmaz demektir.",
+                                                "2": "\"Unsafe\" güvensiz demektir.",
+                                                "3": "\"Unexpected\" beklenmedik demektir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "question": "Which statement about whale sharks is TRUE according to paragraphs 1 and 2?",
+                                        "options": [
+                                            "One adult whale shark can weigh about as much as 13 buses.",
+                                            "Sightings of whale sharks decreased significantly in the early 1900s.",
+                                            "Conservation efforts in the last 25 years have led to a rise in whale shark population.",
+                                            "Tracking them is hard as they remain in deep water for long periods of time."
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 2'de açıkça belirtiliyor: 'They're also difficult to track because they can stay down deep for months at a time.' (Takip etmesi zor çünkü aylarca derinlerde kalabilirler.)",
+                                            "wrong": {
+                                                "0": "Paragraf 1'de 'length of a bus' (bir otobüs uzunluğunda) diyor, ağırlığı değil. 13 otobüs ağırlığı değil, 13 metre uzunluğu.",
+                                                "1": "Paragraf 2'de görülme sayısının arttığı (research has increased... resulting in an increase of sightings) söyleniyor.",
+                                                "2": "Popülasyonun arttığı değil, %50 azalmış olabileceği söyleniyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 4,
+                                        "question": "The phrase every individual in paragraph 3 refers to every individual ----.",
+                                        "options": [
+                                            "country",
+                                            "photo",
+                                            "human",
+                                            "whale shark"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'visual tags for identifying every individual' ifadesi, her bir 'balina köpekbalığını' (whale shark) desenlerine göre tanımak anlamına geliyor.",
+                                            "wrong": {
+                                                "0": "Ülkeleri değil, balıkları tanıyoruz.",
+                                                "1": "Fotoğraflar tanıma aracıdır, tanınan şey değildir.",
+                                                "2": "İnsanların parmak izine benzetme yapılmış ama tanınan insan değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 5,
+                                        "question": "The main idea of paragraph 3 is that ----.",
+                                        "options": [
+                                            "the whale shark is an extremely beautiful fish, so conservation efforts to protect it must be increased",
+                                            "the database about whale sharks is increasing knowledge about them and helping conserve them",
+                                            "the Wildbook for Whale Sharks has become a popular online site in a short period of time",
+                                            "ECOCEAN is one of the most effective organizations at protecting species which are endangered"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 3, Wildbook veritabanının nasıl bilgi (migration patterns, territory) sağladığını ve koruma bilinci (public interest in conserving) oluşturduğunu anlatıyor.",
+                                            "wrong": {
+                                                "0": "Balığın güzelliğinden ziyade veritabanının işlevi anlatılıyor.",
+                                                "2": "Sitenin popülerliğinden ziyade bilimsel katkısı vurgulanıyor.",
+                                                "3": "Sadece ECOCEAN değil, vatandaş bilim insanlarının katkısı öne çıkıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 6,
+                                        "question": "In paragraph 4, the writer mentions Zorro and Stumpy to ----.",
+                                        "options": [
+                                            "explain the dangers that whale sharks face and the many injuries they receive",
+                                            "introduce two of the most beautiful whale sharks that have ever been discovered",
+                                            "show the personal connection that Norman has developed with whale sharks",
+                                            "prove that whale sharks have a long life span"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Norman bu balıkları 'old friends' (eski dostlar) olarak tanımlıyor. Paragraf 4: 'Swimming with them is like seeing old friends... gives me a warm feeling.' Bu kişisel bağı gösterir.",
+                                            "wrong": {
+                                                "0": "Yaralarından bahsediliyor ama amaç tehlikeleri anlatmak değil, onları nasıl tanıdığını ve bağını anlatmak.",
+                                                "1": "Güzelliklerinden bahsedilmiyor.",
+                                                "3": "Uzun ömürlerinden değil, tekrar tekrar karşılaşmaktan (keep coming back) bahsediliyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 7,
+                                        "question": "From paragraph 5, the reader can understand that ----.",
+                                        "options": [
+                                            "Norman’s 2015 event managed to gain the interest of students",
+                                            "Norman believes that he has gained a large amount of knowledge about whale sharks",
+                                            "Norman is disappointed with the number of people who have taken an interest in whale sharks",
+                                            "Norman is concerned that whale sharks may be bothered by all the people viewing them"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Cevap paragrafın şu kısmında: 'He hopes more students will participate just as enthusiastically...' (Umarım daha fazla öğrenci aynı hevesle katılır). Bu, önceki etkinliğin (2015) öğrencilerin ilgisini çektiğini ve hevesli olduklarını gösterir.",
+                                            "wrong": {
+                                                "1": "Tam tersine, 'We're still in the early days...' (Hala yolun başındayız) diyor.",
+                                                "2": "Hayal kırıklığı değil, 'lucky' (şanslı) hissettiğini söylüyor.",
+                                                "3": "Rahatsız edilmelerinden endişe ettiğine dair bir ifade yok."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 2,
+                                "title": "Hiking and Your Brain",
+                                "paragraphs": [
+                                    "The great outdoors might be even greater than you think. We are all aware that hiking is healthy for the body, but few of us consider how hiking benefits our mental health. It turns out that walking renews the brain when done in any natural environment.",
+                                    "Recent studies about the effects of hiking have aimed to understand how this activity affects our brains. One reason for this research is that we’re spending much less time outdoors. The average child now spends half as much time outside compared to only 20 years ago. Only 6% of children play outside on their own in a typical week. Conversely, time kids spend watching television, playing video games, and using a computer, tablet or phone for recreational purposes has jumped to eight hours per day. Overall, people now spend 93% of their time inside a building or vehicle. No one really knows what these changes do to our brains.",
+                                    "Some studies regarding hiking have focused on its significant effects on emotions. One study found that just a 90-minute walk through a natural environment had an impact on participant mood. In a survey taken afterwards, those who took the hike showed lower levels of worry. A control group which spent 90 minutes walking through a city reported no such difference. Scientists did brain scans on subjects and found that the hikers had decreased blood flow to the subgenual prefrontal cortex. Increased blood flow to this region of the brain is associated with bad moods and increased worrying. Hiking in a natural environment, however, reduces it. Even getting out into nature for five minutes alters mood positively. Spending the entire day outdoors results in a much larger and longer-lasting change. Walking near water has the most significant effect, so for your next hike, find a location near a river, lake, or any other body of water.",
+                                    "Other studies point out how hiking invigorates the brain. Psychologist Ruth Ann Atchley found that after a four-day-long hike in the wilderness with no access to technology, participants scored 50% higher on the RAT, or Remote Associates Test, which measures creative potential in people. This test gives a series of three words, such as “cream, skate, water.” The test-taker then has to find a fourth word that connects the series. In this case, the answer is “ice”. This huge improvement in creativity seems to result from the area of the brain which we use for selective attention and threat detection. Atchley believes this area of the brain gets too much information in the constant stress of indoor urban living, but time outdoors refreshes it and enables it to focus again. Hiking is also being used as a way to help the elderly fight dementia, because it both increases the ability to store new information and reduces loss of older memories. Due to improving memory, intense hiking also has been shown to help students improve grades.",
+                                    "Although hiking is not the solution to all of life’s troubles, it makes our lives a lot better with relatively little effort. If you already hike, keep doing it. If you’d like to start, all you need is a comfortable pair of shoes or boots. All hikers can go to a website like “EveryTrail”, which can help you find many trails at a level appropriate for you whatever your skill level and wherever you live."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 8,
+                                        "question": "The statistics mentioned in paragraph 2 show that ----.",
+                                        "options": [
+                                            "children are not doing as badly as adults at spending time in a natural environment",
+                                            "adults are not including children in their outdoor activities",
+                                            "the trend to spend less time outside began several generations ago",
+                                            "time spent outdoors is decreasing rapidly for all age groups"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 2, çocukların dışarıda geçirdiği zamanın yarı yarıya azaldığını söylüyor ve genel olarak 'people now spend 93% of their time inside' (insanlar zamanlarının %93'ünü içeride geçiriyor) diyerek bu düşüşün genel olduğunu belirtiyor.",
+                                            "wrong": {
+                                                "0": "Çocukların yetişkinlerden daha iyi durumda olduğu söylenmiyor.",
+                                                "1": "Yetişkinlerin çocukları dahil etmediği bilgisi yok.",
+                                                "2": "Birkaç nesil önce başladığı değil, 20 yıl öncesine kıyasla durum anlatılıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 9,
+                                        "question": "According to paragraph 3, which of the following people had decreased blood flow to the subgenual prefrontal cortex?",
+                                        "options": [
+                                            "People who took a 90-minute walk through a natural environment",
+                                            "People who spent 90 minutes walking through the city",
+                                            "People in both groups of the study",
+                                            "People whose emotions are affected easily"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'hikers had decreased blood flow to the subgenual prefrontal cortex'. Burada 'hikers' (yürüyüşçüler), doğada 90 dakika yürüyen gruptur.",
+                                            "wrong": {
+                                                "1": "Şehirde yürüyen grupta (control group) fark görülmediği belirtiliyor.",
+                                                "2": "Her iki grupta değil, sadece doğa grubunda görüldü.",
+                                                "3": "Duygusal hassasiyetten bahsedilmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 10,
+                                        "question": "Which of the following statements is NOT supported in paragraph 3?",
+                                        "options": [
+                                            "90 minutes is the ideal amount of time to spend outdoors.",
+                                            "Spending even a few minutes outdoors can be beneficial.",
+                                            "A full day outside will significantly impact the way you feel.",
+                                            "Hiking near a place like the sea has added benefits."
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 3'te 90 dakikalık bir çalışmadan bahsediliyor ama 90 dakikanın 'ideal süre' (ideal amount of time) olduğu söylenmiyor. Aksine tam günün daha büyük etkisi olduğu söyleniyor.",
+                                            "wrong": {
+                                                "1": "DESTEKLENİYOR: 'Even getting out into nature for five minutes alters mood positively.'",
+                                                "2": "DESTEKLENİYOR: 'Spending the entire day outdoors results in a much larger... change.'",
+                                                "3": "DESTEKLENİYOR: 'Walking near water has the most significant effect.'"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 11,
+                                        "question": "The word invigorates in paragraph 4 is closest in meaning to ----.",
+                                        "options": [
+                                            "confuses",
+                                            "organizes",
+                                            "refreshes",
+                                            "tires"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "\"Invigorate\" canlandırmak, güçlendirmek demektir. Paragrafın devamında 'refreshes it and enables it to focus again' (tazeler ve odaklanmayı sağlar) deniyor. Bu yüzden 'refreshes' en yakın anlamlıdır.",
+                                            "wrong": {
+                                                "0": "\"Confuses\" kafa karıştırır demek.",
+                                                "1": "\"Organizes\" düzenler demek.",
+                                                "3": "\"Tires\" yorar demek."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 12,
+                                        "question": "From paragraph 4, the reader can infer that ----.",
+                                        "options": [
+                                            "stress from daily life sometimes leads to an increase in creativity",
+                                            "modern life provides more distractions than our brains can handle",
+                                            "older people’s main memory problem is remembering new information",
+                                            "although hiking enhances memory, students should be aware that it is physically exhausting"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Cevap paragrafın şu cümlesinden çıkarılabilir: 'Atchley believes this area of the brain gets too much information in the constant stress of indoor urban living' (Şehir yaşamında beyin çok fazla bilgiye maruz kalıyor). Bu, beynimizin baş edebileceğinden fazla dikkat dağıtıcı olduğunu ima eder.",
+                                            "wrong": {
+                                                "0": "Stres yaratıcılığı artırmıyor, doğa yürüyüşü stresi azaltarak yaratıcılığı artırıyor.",
+                                                "2": "Yaşlıların sorunu sadece yeni bilgi değil, eski hafızayı kaybetmemek.",
+                                                "3": "Öğrenciler için yorucu olduğu uyarısı yapılmıyor, notları artırdığı söyleniyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 13,
+                                        "question": "Why does the writer recommend the “EveryTrail” website in paragraph 5?",
+                                        "options": [
+                                            "It specializes in trails for serious hikers.",
+                                            "It provides tips about how to hike which are very helpful for beginning hikers.",
+                                            "It offers sporting equipment as well as suggestions about where to hike.",
+                                            "It gives information about a wide choice of trails in many locations."
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 5: 'help you find many trails at a level appropriate for you... wherever you live.' (Nerede yaşarsanız yaşayın uygun parkur bulmanıza yardım eder.)",
+                                            "wrong": {
+                                                "0": "Sadece ciddi yürüyüşçüler için değil, her seviye için.",
+                                                "1": "İpuçlarından ziyade yer bulma (find trails) özelliği vurgulanıyor.",
+                                                "2": "Ekipman sattığı söylenmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 14,
+                                        "question": "Which of the following is NOT mentioned in the text?",
+                                        "options": [
+                                            "Which activities are replacing time spent outdoors for children",
+                                            "How walking around a small city affects the brain differently than walking around a large city",
+                                            "How much time the people who increased their scores on the RAT spent outdoors",
+                                            "Why people are able to improve their creative ability after they spend time outdoors"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Metinde şehirde yürümenin doğada yürümekten farkı anlatılıyor (Para 3), ancak 'küçük şehir' ile 'büyük şehir' arasında bir karşılaştırma yapılmıyor.",
+                                            "wrong": {
+                                                "0": "BAHSEDİLMİŞ: TV, video oyunları, tablet vb.",
+                                                "2": "BAHSEDİLMİŞ: 'four-day-long hike' (4 günlük yürüyüş).",
+                                                "3": "BAHSEDİLMİŞ: 'area of the brain... for selective attention... refreshes it' (seçici dikkat bölgesinin tazelenmesi)."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 3,
+                                "title": "Silence: The Best Music for Productivity",
+                                "paragraphs": [
+                                    "Like most modern office workers, I spend my days in an open office, which means I am in the middle of ringing phones, conversations of co-workers, and sounds of cleaners and repairmen. My boss still expects me to meet deadlines, so I wear headphones and listen to music. Wondering if I was replacing one distracting noise with another, I read all that I could about background noise while working. What I read contained bad news for anyone who believes background music is innocuous. It turns out the best thing to listen to for most office workers is nothing.",
+                                    "An early study called “Music—An Aid to Productivity” found that music could be just that, but the participants in that experiment were doing factory work. The boost in productivity the researchers noticed happened because the music made the task less boring and kept the workers alert. This also helps explain studies finding that music helps brain surgeons perform better. “Most of what a brain surgeon does is opening a hole in the skull bone,” said Daniel Levitin, a neuroscientist. “Actually, the work of a brain surgeon and a long-distance truck driver are quite similar. If nothing goes wrong, the task themselves are somewhat boring and repetitive, so you need something that will keep your brain active.” However, when silence and music were compared in more complex tasks, people did better in silence. In one study , researchers gave subjects the option to listen to fast music, slow music or nothing while counting backward. The people who listened to fast tunes did worst of all, and those who heard silence did best.",
+                                    "Some studies showed slightly positive effects of background noise on task performance for some when classical music was used. Although it’s true that classical music is less distracting, people whose performance improved probably found ways to avoid getting distracted by the music. The reason this doesn’t work for most people is they can’t pay attention to too much at once. Both lyrics and engaging music use up our limited supply of attention, just as flashing lights or a bad smell does. \"You've got words that you're trying to understand when you're reading a book, and you've got words from the lyrics,\" said Nick Perham, a psychologist at the University of Wales. \"If you are listening closely enough to understand the lyrics of a song, your reading comprehension declines. If you attend to classical music closely, you get the same negative result.\"",
+                                    "The effect of music on concentration seems to be worse for older people and those who naturally prefer quiet. One experiment had extroverts and introverts listen to classical music, and memorizing images or reading a passage was more difficult for introverts but less so for extroverts while listening to the music. Conversely, another recent study found that background noise helped children with ADHD, a concentration disorder, to focus. The authors concluded their improved performance was due to stochastic resonance, the idea that lower-than-average dopamine levels in the brains of people with ADHD means they might need a bit more noise from the external environment in order to maintain their concentration.",
+                                    "If listening to music while working is so bad, why do so many of us do it? Probably because we like it and ignore its true effect. As one recent study found, people prefer listening to music over office noise or silence, even though it didn’t help them think any better. Levitin advises taking a break every two hours and listening to music for 15 minutes as listening to music between tasks boosts performance. Then go back to your silent area and ask your noisy colleagues to be more considerate."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 15,
+                                        "question": "The main idea of the text is that ----.",
+                                        "options": [
+                                            "research about music and productivity has produced conflicting results, so more study is needed",
+                                            "although there are a few exceptions, listening to music generally has a negative effect on productivity",
+                                            "office workers need more training so that they know how music can be used to increase their productivity",
+                                            "the writer prefers silence while working, but he has not been able to convince many people of his point of view"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Metin genel olarak müziğin ofis çalışanları için kötü olduğunu savunuyor. Para 1: 'contained bad news... best thing to listen to... is nothing'. İstisnalar (fabrika işçileri, DEHB'li çocuklar) olsa da genel mesaj sessizliğin daha iyi olduğu yönünde.",
+                                            "wrong": {
+                                                "0": "Çelişkili sonuçlardan ziyade, farklı durumlar için farklı sonuçlar olduğu açıklanıyor.",
+                                                "2": "Eğitim ihtiyacından bahsedilmiyor.",
+                                                "3": "Yazarın ikna etme çabasından ziyade bilimsel bulgular anlatılıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 16,
+                                        "question": "The word innocuous in paragraph 1 could best be replaced by ----.",
+                                        "options": [
+                                            "unbearable",
+                                            "unclear",
+                                            "debatable",
+                                            "harmless"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Yazar, 'müziğin zararsız olduğunu düşünenler için kötü haberlerim var' diyor. Dolayısıyla 'innocuous' zararsız (harmless) demektir.",
+                                            "wrong": {
+                                                "0": "\"Unbearable\" dayanılmaz demektir.",
+                                                "1": "\"Unclear\" belirsiz demektir.",
+                                                "2": "\"Debatable\" tartışmalı demektir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 17,
+                                        "question": "According to paragraph 1, what led the writer of the article to do some research?",
+                                        "options": [
+                                            "Anger at his boss due to his high expectations",
+                                            "Curiosity about the impact of listening to music on his work",
+                                            "Frustration with cleaners and repairmen for being unnecessarily noisy",
+                                            "News articles about employees who could not finish their tasks on time"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 1: 'Wondering if I was replacing one distracting noise with another, I read all that I could...' (Bir dikkat dağıtıcıyı diğeriyle değiştirip değiştirmediğimi merak ederek...). Bu merak (curiosity) onu araştırmaya itti.",
+                                            "wrong": {
+                                                "0": "Patronuna kızgınlığından bahsedilmiyor.",
+                                                "2": "Gürültüden şikayetçi ama araştırma sebebi merak.",
+                                                "3": "Haber makaleleri okuduğu için değil, kendi durumu için araştırma yaptı."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 18,
+                                        "question": "According to paragraph 2, music helps factory workers perform better, ----.",
+                                        "options": [
+                                            "and it’s been found to have a positive effect on truck drivers and brain surgeons",
+                                            "but some workers found it distracting",
+                                            "but fast music was not as helpful as slow music was",
+                                            "which shows that more workplaces should make use of it"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 2'de fabrika işçileri ile kamyon şoförleri ve beyin cerrahları arasında benzerlik kuruluyor (repetitive tasks) ve müziğin bu gruplara iyi geldiği söyleniyor.",
+                                            "wrong": {
+                                                "1": "Fabrika işçilerinin dikkatini dağıttığı söylenmiyor, tam tersine 'kept workers alert' (uyanık tuttu) deniyor.",
+                                                "2": "Hızlı/yavaş müzik karşılaştırması fabrika işçileri için değil, 'counting backward' (geriye sayma) deneyi için yapıldı.",
+                                                "3": "Tüm işyerlerinin kullanması gerektiği sonucu çıkarılmıyor, sadece basit işlerde yararlı olduğu söyleniyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 19,
+                                        "question": "The phrase attend to in paragraph 3 is closest in meaning to ----.",
+                                        "options": [
+                                            "dislike",
+                                            "compose",
+                                            "focus on",
+                                            "prepare for"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'If you attend to classical music closely...' Burada 'attend to', 'dikkatini vermek/odaklanmak' (focus on) anlamındadır.",
+                                            "wrong": {
+                                                "0": "\"Dislike\" sevmemek demek.",
+                                                "1": "\"Compose\" bestelemek demek.",
+                                                "3": "\"Prepare for\" hazırlanmak demek."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 20,
+                                        "question": "From paragraph 3, the reader can understand that ----.",
+                                        "options": [
+                                            "if people practice paying attention to more than one thing at a time, they can improve at doing this",
+                                            "attention is similar to flashing lights or a bad smell because it changes quickly just like these things do",
+                                            "if you don’t pay attention to the lyrics of a song played while you are reading, the music may not affect your understanding",
+                                            "although some people believe that background noise does not affect them, actually it decreases everyone’s performance"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Metin, sorunun 'dikkat kapasitesi' olduğunu söylüyor. 'If you are listening closely enough to understand... comprehension declines.' (Eğer anlayacak kadar dikkatli dinlerseniz anlama azalır). Bu, eğer sözlere dikkat etmezseniz (don't pay attention), anlamanın etkilenmeyebileceğini ima eder.",
+                                            "wrong": {
+                                                "0": "Pratikle gelişeceğinden bahsedilmiyor, dikkat kapasitesinin sınırlı olduğu söyleniyor.",
+                                                "1": "Benzerlik 'hızlı değişmeleri' değil, 'dikkat tüketmeleri' (use up limited supply of attention) üzerine.",
+                                                "3": "Metin herkesin performansını düşürdüğünü söylemiyor, klasik müziğin bazılarına iyi geldiğini veya dikkat etmeyenlerin etkilenmeyebileceğini belirtiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 21,
+                                        "question": "Which of the following statements related to stochastic resonance is TRUE based on paragraph 4?",
+                                        "options": [
+                                            "People with low dopamine levels actually focus better when there is more external noise.",
+                                            "The same treatment that helped children with ADHD would probably also help elderly people.",
+                                            "Children with ADHD benefit more from external noise than adults with ADHD.",
+                                            "Researchers are using their findings about this concept to improve the concentration of a wide range of people."
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 4: 'lower-than-average dopamine levels... might need a bit more noise from the external environment in order to maintain their concentration.' (Düşük dopamin seviyesi olanlar odaklanmak için dış gürültüye ihtiyaç duyabilir.)",
+                                            "wrong": {
+                                                "1": "Yaşlılarda durumun tam tersi olduğu (noise is worse) söyleniyor.",
+                                                "2": "Yetişkin DEHB'lilerle çocuk DEHB'liler kıyaslanmıyor.",
+                                                "3": "Geniş bir kitle için kullanıldığına dair bilgi yok, sadece DEHB bağlamında geçiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 22,
+                                        "question": "Paragraph 5 explains that employees become more productive when ----.",
+                                        "options": [
+                                            "their employers help them identify types of music that increase performance",
+                                            "they are given freedom to choose the music that they enjoy most",
+                                            "they listen to music during breaks rather than while working",
+                                            "they come to an agreement with their colleagues about how much noise there should be in their work area"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 5: 'Levitin advises taking a break every two hours and listening to music for 15 minutes... boosts performance.' (Mola verip müzik dinlemek performansı artırır.)",
+                                            "wrong": {
+                                                "0": "İşveren yardımından bahsedilmiyor.",
+                                                "1": "Sevilen müziğin bile çalışırken işe yaramadığı söyleniyor.",
+                                                "3": "Meslektaşlarla anlaşmaktan değil, onlardan sessizlik istemekten bahsediliyor."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4,
+                                "title": "The World’s Toughest Exam",
+                                "paragraphs": [
+                                    "For two days in early June every year, life in China stops as high school students who are about to graduate take their college entrance exams. The gaokao, or “higher examination”, is a national event similar to a public holiday but much less fun. Construction work is halted near examination halls so as not to disturb the students. Ambulances are on call in case of nervous breakdowns, and police cars patrol to keep the streets quiet. The score on the exam is the culmination of years of schooling, memorisation and constant stress, and it goes on to strongly influence life opportunities and earning potential. It is the most important number of any Chinese child’s life.",
+                                    "In the West, the gaokao and the Chinese education system in general have been thought to be too memorisation focused, and many say that Chinese schools produce students who are not able to think critically. How can Chinese students possibly learn to analyze when they have so much to memorize? On the other hand, the system’s high standards are gaining increasing admiration in Europe and the US. For example, Thomas Friedman, a New York Times columnist, highly praises Shanghai’s schools. Also, in the documentary Are Our Kids Tough Enough? two Chinese teachers replaced two British teachers, taking over a class of British sixth-form students. The documentary concluded they weren’t tough enough, nor were their teachers.",
+                                    "The tradition of a single exam that decides a person’s future goes back to ancient China. The royal examination, or keju, started testing applicants for government office during the Han dynasty (206BC to AD220). Exam takers sat a three-day exam locked inside a single cell, where they also slept and ate. The pass rate was less than 5%. Nervous breakdowns were routine. First used in 1952 under the new Communist government, the gaokao certainly is related to the keju. The exam was canceled for a few years during China’s Cultural Revolution but resumed in 1977. That year 5.7 million people enrolled, but just enough students to fill the 220,000 places at university were allowed to pass. Since then, it has been held every summer, and each year only a small percentage of test takers gain a place at university.",
+                                    "The gaokao is made up of four three-hour exam papers: Chinese, English, maths and a choice of either sciences (biology, chemistry, physics) or humanities (geography, history, politics). The questions are mostly multiple-choice or fill-in-the-gap, and are extremely hard. The most difficult section is the essay part in the Chinese exam. Students have one hour to write essays about questions which are nearly impossible to answer, such as “Do butterfly wings have colours?” It is possible to retake the exam one year later, but if a student fails a second time, there is no alternative path to university. Tragically, suicides are a regular feature of every exam season: A 2014 study found exam stress was a factor in 93% of cases in which students took their own lives.",
+                                    "There has been talk of reforming the gaokao for years, but few revisions have taken place. This year, top universities interviewed students with high potential at school, but successful students were awarded just a few bonus points. Many want the English paper, difficult for those who do not have access to private education, to be made optional, yet it continues. Education experts in China generally believe that any major change would be too easily manipulated by the rich. Parents already give cash-filled “red packages” to teachers in return for special attention for their children in classes. If regular school marks were taken into account with exam grades, bribery would be even more rampant than it already is. Thus, for years to come, students’ futures will probably continue to be decided by how well each child performs in a closed room for two days in early June."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 23,
+                                        "question": "The word culmination in paragraph 1 is closest in meaning to ----.",
+                                        "options": [
+                                            "complaint",
+                                            "opportunity",
+                                            "result",
+                                            "tradition"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "\"Culmination\" zirve, sonuç, doruk noktası demektir. Cümlede 'years of schooling... and constant stress' ifadesinden sonra gelerek, tüm bu sürecin 'sonucu/zirvesi' olduğunu anlatır.",
+                                            "wrong": {
+                                                "0": "\"Complaint\" şikayet demektir.",
+                                                "1": "\"Opportunity\" fırsat demektir.",
+                                                "3": "\"Tradition\" gelenek demektir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 24,
+                                        "question": "According to paragraph 1, the gaokao ----.",
+                                        "options": [
+                                            "is taken by both high school and university students",
+                                            "brings about extra work for construction workers and ambulance drivers",
+                                            "has a significant effect on what a person earns and achieves throughout their life",
+                                            "is one of a number of challenging exams that Chinese students have to take"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 1: 'it goes on to strongly influence life opportunities and earning potential.' (Hayat fırsatlarını ve kazanç potansiyelini güçlü şekilde etkiler.)",
+                                            "wrong": {
+                                                "0": "Sadece lise mezunları (students about to graduate) alır.",
+                                                "1": "İnşaat durdurulur (halted), ekstra iş çıkmaz. Ambulanslar bekler ama bu 'extra work' olarak tanımlanmaz.",
+                                                "3": "En önemli sınav olduğu söyleniyor, 'birçoğundan biri' değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 25,
+                                        "question": "The word they in paragraph 2 refers to ----.",
+                                        "options": [
+                                            "Shanghai’s schools",
+                                            "two Chinese teachers",
+                                            "two British teachers",
+                                            "students from a British sixth-form class"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Cümle: 'taking over a class of British sixth-form students. The documentary concluded they weren’t tough enough...' Burada 'tough enough' (yeterince sert/dayanıklı) olmayanlar, test edilen İngiliz öğrencilerdir.",
+                                            "wrong": {
+                                                "0": "Okullardan değil öğrencilerden bahsediliyor.",
+                                                "1": "Çinli öğretmenler 'sert' olan taraf.",
+                                                "2": "İngiliz öğretmenlerin yerine geçildi, belgeselin sonucu öğrenciler üzerine."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 26,
+                                        "question": "Paragraph 2 focuses on ----.",
+                                        "options": [
+                                            "differing opinions about Chinese education in Western countries",
+                                            "changes in opinion about Western education within China",
+                                            "the advantages of a Western education",
+                                            "the disadvantages of a Chinese education"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 2, Batı'nın Çin eğitimine bakışındaki zıtlığı anlatıyor: Bir yandan 'ezberci' diye eleştiriliyor, diğer yandan 'yüksek standartları' (high standards) övülüyor.",
+                                            "wrong": {
+                                                "1": "Çin'in Batı'ya bakışı değil, Batı'nın Çin'e bakışı anlatılıyor.",
+                                                "2": "Batı eğitiminin avantajları konu değil.",
+                                                "3": "Dezavantajlar (ezber) var ama övgüler de var, odak sadece dezavantaj değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 27,
+                                        "question": "A similarity between the keju and gaokao mentioned in paragraph 3 is ----.",
+                                        "options": [
+                                            "the number of years each exam has been held",
+                                            "the security during the exam",
+                                            "the physical conditions for exam takers",
+                                            "the low pass rate"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: Keju için 'pass rate was less than 5%', Gaokao için 'only a small percentage... gain a place'. İkisinde de geçme oranı çok düşük.",
+                                            "wrong": {
+                                                "0": "Süreler farklı (Keju yüzyıllarca, Gaokao 1952'den beri).",
+                                                "1": "Güvenlikten bahsedilmiyor.",
+                                                "2": "Keju'da hücrede kilitli kalıyorlardı, Gaokao'da bu kadar aşırı bir fiziksel durum anlatılmıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 28,
+                                        "question": "Regarding the content of and rules related to the gaokao, paragraph 4 mentions ----.",
+                                        "options": [
+                                            "how long the essay in the Chinese section needs to be",
+                                            "how many essays a student needs to write",
+                                            "how the questions in the science and humanities sections differ",
+                                            "how often a student can enter the exam"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 4: 'It is possible to retake the exam one year later, but if a student fails a second time...' (Bir yıl sonra tekrar girmek mümkün ama ikinci kez kalırsa...). Bu, sınava giriş sıklığı/hakkı ile ilgilidir.",
+                                            "wrong": {
+                                                "0": "Kompozisyon süresi (1 saat) var ama uzunluğu (kelime sayısı) yok.",
+                                                "1": "Kaç tane kompozisyon yazılacağı belirtilmemiş.",
+                                                "2": "Soruların farkı değil, alan seçimi (choice of) belirtilmiş."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 29,
+                                        "question": "The word rampant in paragraph 5 is closest in meaning to ----.",
+                                        "options": [
+                                            "careful",
+                                            "widespread",
+                                            "helpful",
+                                            "ineffective"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "\"Rampant\" alıp yürümüş, yaygın, kontrolsüz demektir. Cümlede rüşvetin (bribery) daha da artacağı/yaygınlaşacağı anlatılıyor.",
+                                            "wrong": {
+                                                "0": "\"Careful\" dikkatli demek.",
+                                                "2": "\"Helpful\" yardımsever demek.",
+                                                "3": "\"Ineffective\" etkisiz demek."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 30,
+                                        "question": "The main idea of paragraph 5 is that ----.",
+                                        "options": [
+                                            "it is not easy to make changes to the gaokao",
+                                            "the gaokao gives an unfair advantage to wealthy families",
+                                            "the gaokao has helped reduce bribery in Chinese high schools",
+                                            "the gaokao is finally being significantly revised"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 5, reform konuşmalarının yıllardır olduğunu ama az değişiklik yapıldığını (few revisions), çünkü uzmanların zenginlerin sistemi manipüle edeceğinden korktuğunu anlatıyor. Yani değiştirmek zor.",
+                                            "wrong": {
+                                                "1": "Zenginlerin avantajı reform olursa artar deniyor, şu anki sınavın tek başına zenginlere avantaj sağladığı ana fikir değil.",
+                                                "2": "Rüşveti azalttığı değil, okul puanları eklenirse rüşvetin artacağı söyleniyor.",
+                                                "3": "Tam tersine, 'few revisions have taken place' (az değişiklik oldu) deniyor."
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }

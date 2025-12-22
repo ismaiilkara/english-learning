@@ -1,0 +1,176 @@
+{
+    "topics": [
+        {
+            "id": 1,
+            "title": "Present Simple Tense",
+            "icon": "📘",
+            "video": "",
+            "description": "Learn how to use Present Simple tense for habits, routines and facts.",
+            "exercises": [
+                {
+                    "type": "multiple",
+                    "question": "She ___ to school every day.",
+                    "options": [
+                        "go",
+                        "goes",
+                        "going",
+                        "gone"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "type": "multiple",
+                    "question": "They ___ coffee in the morning.",
+                    "options": [
+                        "drinks",
+                        "drink",
+                        "drinking",
+                        "drank"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Ben her gün okula giderim.",
+                    "answer": "I go to school every day."
+                },
+                {
+                    "type": "translation",
+                    "turkish": "O futbol oynar.",
+                    "answer": "He plays football."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Past Simple Tense",
+            "icon": "📗",
+            "video": "",
+            "description": "Learn how to talk about completed actions in the past.",
+            "exercises": [
+                {
+                    "type": "multiple",
+                    "question": "I ___ to the cinema yesterday.",
+                    "options": [
+                        "go",
+                        "goes",
+                        "went",
+                        "going"
+                    ],
+                    "answer": 2
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Dün sinemaya gittim.",
+                    "answer": "I went to the cinema yesterday."
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Geçen hafta lezzetli bir kek yaptı.",
+                    "answer": "She made a delicious cake last week."
+                },
+                {
+                    "type": "multiple",
+                    "question": "They ___ in Paris for two years.",
+                    "options": [
+                        "live",
+                        "lives",
+                        "lived",
+                        "living"
+                    ],
+                    "answer": 2
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Future Tense (Will)",
+            "icon": "📙",
+            "video": "",
+            "description": "Learn how to express future plans and predictions.",
+            "exercises": [
+                {
+                    "type": "multiple",
+                    "question": "I ___ help you tomorrow.",
+                    "options": [
+                        "will",
+                        "would",
+                        "am",
+                        "was"
+                    ],
+                    "answer": 0
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Yarın sana yardım edeceğim.",
+                    "answer": "I will help you tomorrow."
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Gelecek yıl Japonya'ya seyahat edecekler.",
+                    "answer": "They will travel to Japan next year."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Common Vocabulary",
+            "icon": "📕",
+            "video": "",
+            "description": "Learn the most common English words and phrases.",
+            "exercises": [
+                {
+                    "type": "multiple",
+                    "question": "What is the opposite of 'big'?",
+                    "options": [
+                        "large",
+                        "small",
+                        "huge",
+                        "tall"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Bu çok güzel bir ev.",
+                    "answer": "This is a very beautiful house."
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Kitap okumayı severim.",
+                    "answer": "I like reading books."
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Articles (A, An, The)",
+            "icon": "📒",
+            "video": "",
+            "description": "Learn when to use a, an, and the in English.",
+            "exercises": [
+                {
+                    "type": "multiple",
+                    "question": "I saw ___ elephant at the zoo.",
+                    "options": [
+                        "a",
+                        "an",
+                        "the",
+                        "-"
+                    ],
+                    "answer": 1
+                },
+                {
+                    "type": "translation",
+                    "turkish": "O bir doktor.",
+                    "answer": "She is a doctor."
+                },
+                {
+                    "type": "translation",
+                    "turkish": "Güneş doğudan doğar.",
+                    "answer": "The sun rises in the east."
+                }
+            ]
+        }
+    ]
+}

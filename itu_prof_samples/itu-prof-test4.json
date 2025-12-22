@@ -1,0 +1,877 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test",
+                    "passage": {
+                        "title": "The World Wide Web",
+                        "text": "The World Wide Web, (1)_____ by Sir Tim Berners-Lee in 1989, is arguably the most influential invention of the modern era. Before the Web, computers could connect to each other, but sharing information was difficult and (2)_____ specific technical skills. Berners-Lee envisioned a system (3)_____ people could share documents and information universally. Crucially, he insisted that the Web (4)_____ free for everyone to use, without any patent fees. If he (5)_____ to monetize his invention, the internet as we know it today (6)_____ existed. Today, billions of people rely on the Web for everything from education to entertainment. (7)_____ its vast benefits, the Web has also introduced new challenges, such as cybercrime and the spread of misinformation. Experts suggest that we must work together (8)_____ that the digital world remains safe and accessible. The future of the Web depends on (9)_____ we manage these growing ethical concerns (10)_____ advancing technology."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "inventing",
+                                "invented",
+                                "was invented",
+                                "having invented"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Burada 'invented' doğru çünkü cümle aslında 'which was invented' (icat edilen) ifadesinin kısaltılmış halidir. Web kendi kendine icat etmez, icat edilir (pasif), bu yüzden fiilin 3. hali kullanılır.",
+                                "wrong": {
+                                    "0": "'Inventing' (icat eden) aktif bir anlam taşır, Web icat etmez, edilir.",
+                                    "2": "'Was invented' ana fiil olurdu, ama cümlede zaten 'is' diye bir ana fiil var.",
+                                    "3": "'Having invented' geçmişte yapan özne için kullanılır, burada yapılan nesne (Web) anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "required",
+                                "was requiring",
+                                "has required",
+                                "requires"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Required' (gerektirdi) doğru çünkü cümlenin başında 'Before the Web' (Web'den önce) denilerek geçmiş zamandan bahsediliyor.",
+                                "wrong": {
+                                    "1": "'Was requiring' (gerektiriyordu) süregelen bir eylem değil, genel bir durum anlatılıyor.",
+                                    "2": "'Has required' (Present Perfect) geçmişten bugüne gelen durumlar içindir, ama burada 'önce' diyerek olay bitmiş.",
+                                    "3": "'Requires' şimdiki/geniş zaman, ama olay geçmişte kalmış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "which",
+                                "that",
+                                "where",
+                                "whose"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Where' doğru çünkü 'a system' (bir sistem) içinde insanların bir şeyler yapabildiği sanal bir 'yer' olarak düşünülüyor. 'In which' anlamındadır.",
+                                "wrong": {
+                                    "0": "'Which' kullanmak için 'sistemi' nitelememiz gerekirdi (örn: sistemi kurdu), ama burada 'sistemin içinde' paylaşım yapılıyor.",
+                                    "1": "'That' burada 'where' yerine kullanılamaz çünkü yer/ortam bildiriyor.",
+                                    "3": "'Whose' sahiplik bildirir (sistemin...si), burada öyle bir anlam yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "remain",
+                                "remained",
+                                "remains",
+                                "to remain"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Remain' doğru çünkü 'insist that' (ısrar etmek) yapısından sonra 'Subjunctive' kuralı gereği fiil yalın halde (ek almadan) gelir. 'Should remain' gibi düşünülebilir.",
+                                "wrong": {
+                                    "1": "'Remained' geçmiş zaman, ama bu kalıpta fiil çekimlenmez.",
+                                    "2": "'Remains' geniş zaman eki (-s) almış, bu kalıpta kullanılmaz.",
+                                    "3": "'To remain' fiilden önce gelmez, 'that' cümlesi içinde özne + yalın fiil gerekir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "decided",
+                                "has decided",
+                                "had decided",
+                                "was deciding"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Had decided' doğru çünkü geçmişte olmamış bir şeyi 'Eğer olsaydı...' diye hayal ediyoruz (Type 3 Conditional). Bu yapıda 'If' kısmında Past Perfect kullanılır.",
+                                "wrong": {
+                                    "0": "'Decided' (Past Simple) Type 2 olurdu (şu anki hayali durum), ama olay geçmişte.",
+                                    "1": "'Has decided' Present Perfect, 'If' ile geçmiş hayali durumlarda kullanılmaz.",
+                                    "3": "'Was deciding' geçmişte süreklilik bildirir, 'karar vermiş olsaydı' anlamını vermez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "might not have",
+                                "will not have",
+                                "did not",
+                                "cannot have"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Might not have' doğru çünkü Type 3 Conditional'ın sonuç kısmındayız. Geçmişte gerçekleşmemiş bir sonucun ihtimalini (var olmayabilirdi) anlatıyor.",
+                                "wrong": {
+                                    "1": "'Will not have' gelecek zamanla ilgili, olay geçmişte.",
+                                    "2": "'Did not' basit geçmiş zaman, 'olsaydı... olmazdı' yapısını karşılamıyor.",
+                                    "3": "'Cannot have' geçmişe yönelik güçlü bir çıkarım (yapmış olamaz) bildirir, koşul sonucu değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "Although",
+                                "Despite",
+                                "However",
+                                "Because"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'Despite' (rağmen) doğru çünkü arkasından bir cümle değil, bir isim tamlaması (its vast benefits) gelmiş. Faydalarına rağmen zorluklar getirdi.",
+                                "wrong": {
+                                    "0": "'Although'dan sonra tam cümle (Özne + Yüklem) gelmesi gerekirdi.",
+                                    "2": "'However' iki cümleyi bağlar ve genellikle noktalama ile ayrılır.",
+                                    "3": "'Because' sebep bildirir, ama burada zıtlık var (fayda vs zorluk)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "ensuring",
+                                "to ensure",
+                                "for ensuring",
+                                "ensure"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'To ensure' (sağlamak için) doğru çünkü bir amaç bildiriyoruz. 'Work together' (birlikte çalışmak) eyleminin amacı açıklanıyor.",
+                                "wrong": {
+                                    "0": "'Ensuring' fiilimsi olarak burada amaç bildirmez.",
+                                    "2": "'For ensuring' kalıbı amaç bildirmek için 'to' kadar yaygın ve doğal değildir.",
+                                    "3": "'Ensure' ana fiildir, cümlede zaten 'work' fiili var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "what",
+                                "that",
+                                "how",
+                                "which"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'How' (nasıl) doğru çünkü geleceğin, bu sorunları 'nasıl' yöneteceğimize bağlı olduğu anlatılıyor.",
+                                "wrong": {
+                                    "0": "'What' (ne) anlamı burada uymaz (ne yönettiğimize bağlı değil, yönetme şeklimize bağlı).",
+                                    "1": "'That' kesinlik bildirir, burada bir soru/belirsizlik (nasıl yapacağımız) var.",
+                                    "3": "'Which' (hangi) seçim bildirir, burada bir seçim yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "while",
+                                "during",
+                                "despite",
+                                "because"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'While' (iken) doğru çünkü iki eylemin aynı anda yapıldığını gösteriyor: etik kaygıları yönetirken teknolojiyi de ilerlettirmek.",
+                                "wrong": {
+                                    "1": "'During' edattır, arkasından isim gelir ama burada fiil geliyor (advancing).",
+                                    "2": "'Despite' (rağmen) zıtlık bildirir, burada eşzamanlılık var.",
+                                    "3": "'Because' (çünkü) sebep bildirir, burada iki paralel eylem anlatılıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatements",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "Of the 50,000 characters in the Chinese language, you need to learn just 2,000 to comfortably understand a newspaper.",
+                            "options": [
+                                "Chinese contains 50,000 characters, but only 2,000 are used in newspapers, so studying the others isn’t necessary.",
+                                "You don’t have to learn all 50,000 Chinese characters to understand a newspaper clearly; in fact, learning 2,000 of them is sufficient.",
+                                "You needn’t learn over 2,000 of the 50,000 Chinese characters unless you want to read a newspaper well.",
+                                "If you learn only 2,000 more of the 50,000 Chinese characters, your ability to understand a newspaper may improve."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü orijinal cümledeki 'gazeteyi anlamak için 50 binin hepsine değil, sadece 2 bine ihtiyacın var' fikrini 'hepsini öğrenmek zorunda değilsin, 2 bin tanesi yeterli' diyerek tam veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'gazetelerde sadece 2.000 tane kullanılır' diyor, ama orijinal cümle 'anlamak için 2.000 bilmek yeter' diyor, gazetede diğerleri hiç kullanılmaz demiyor.",
+                                    "2": "C şıkkı 'gazeteyi iyi okumak istemiyorsan' gibi ters bir koşul kuruyor.",
+                                    "3": "D şıkkı '2.000 tane daha öğrenirsen gelişebilir' diyor, kesinlik yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Christopher Columbus has traditionally been thought of as the one who discovered America, but the Vikings had arrived there earlier.",
+                            "options": [
+                                "Christopher Columbus has often been considered to be the explorer who first arrived in America despite the Vikings finding it at an earlier date.",
+                                "In spite of Christopher Columbus’ claims that he was the first to travel to America, it has become known that the Vikings had arrived before him.",
+                                "The Vikings, who actually had explored America before Christopher Columbus ever did, have been getting more recognition for the discovery they made.",
+                                "The Vikings’ discovery of America must have been known to historians; nevertheless, they have usually said that Christopher Columbus discovered the Americas."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru çünkü 'Vikinglerin daha önce bulmasına rağmen Columbus'un keşfeden kişi olduğu düşünülür' diyerek orijinal cümledeki zıtlığı (but -> despite) koruyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'Columbus'un iddialarına rağmen' diyor, orijinalde Columbus'un iddiası değil, genel düşünce (traditionally thought) var.",
+                                    "2": "C şıkkı Vikinglerin 'daha fazla tanınmaya başladığını' söylüyor, orijinalde bu bilgi yok.",
+                                    "3": "D şıkkı tarihçilerin bunu 'bilmiş olması gerektiğini' söylüyor, bu bir yorum."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Marco Polo may have exaggerated some details when writing about paper currency, coal, and other phenomena unknown in Europe, but overall he gave an accurate account of his travels to China.",
+                            "options": [
+                                "Marco Polo traveled to China and carefully wrote about some amazing developments that had not yet come to Europe such as paper currency and coal.",
+                                "The highly debatable writings of Marco Polo on subjects such as paper currency, coal and other developments that had not yet come to Europe include exaggerated as well as trustworthy parts.",
+                                "Writings of his travels to China by Marco Polo about paper currency, coal and other things not yet common in Europe are considered to be more accurate than the writings of other authors of his day.",
+                                "Marco Polo’s writings about China, which included information about paper currency, coal and other things that were not yet heard of in Europe, were generally correct although small parts were possibly exaggerated."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru çünkü orijinaldeki 'bazı detayları abartmış olabilir ama genel olarak doğruydu' yapısını 'genellikle doğruydu, gerçi küçük kısımlar muhtemelen abartılıydı' şeklinde tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı abartı kısmını atlamış, sadece 'dikkatlice yazdı' demiş.",
+                                    "1": "B şıkkı yazıların 'son derece tartışmalı' (highly debatable) olduğunu söylüyor, orijinalde sadece 'abartı olabilir' deniyor.",
+                                    "2": "C şıkkı diğer yazarlarla kıyaslama yapıyor, orijinalde kıyaslama yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "In the past, it was generally believed that teaching children another language at an early age would delay their language skills and limit their intellectual growth.",
+                            "options": [
+                                "Young children who studied too much were thought to be unable to learn their own language properly or to reach their full potential.",
+                                "At one time, people became aware that learning another language too early made children learn their mother tongue poorly and fail to progress in other areas.",
+                                "The common view used to be that when young children learned a second language, it prevented the development of their language skills and reduced their learning in other areas, too.",
+                                "People often thought that either young children’s ability to express their own language or their capability to learn other subjects was harmed if they started learning a second language too early."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru çünkü 'eskiden yaygın görüş şuydu' (common view used to be) diyerek 'past... generally believed' kısmını; 'gelişimi engeller ve öğrenmeyi azaltır' diyerek de 'delay skills... limit growth' kısmını karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'çok fazla çalışmak'tan bahsediyor, dil öğrenmekten değil.",
+                                    "1": "B şıkkı insanların bunun 'farkına vardığını' (gerçekmiş gibi) söylüyor, oysa bu sadece bir inançtı.",
+                                    "3": "D şıkkı 'ya o ya o' (either...or) yapısını kullanmış, orijinalde her ikisi de (and) etkileniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Spoken around the Pyrenees Mountains in France and Spain, Basque is the only language in Europe which is not known to be related to any other language.",
+                            "options": [
+                                "The Basque language, which is used by people living in the Pyrenees Mountains in France and Spain, is unique among European languages because no other language similar to it has been found.",
+                                "Researchers have been trying to find the connection between Basque, the language used in the Pyrenees Mountains in France and Spain, and the other European languages.",
+                                "People are talking about Basque, a language which is common in the Pyrenees Mountains in France and Spain and has no connection to other languages.",
+                                "It is unclear whether Basque, a language used in the Pyrenees Mountains in France and Spain, has similarities to some other language, like many other European languages do."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru çünkü Baskçanın 'tek' (unique) olduğunu ve başka benzerinin bulunamadığını söyleyerek 'not known to be related' (akraba olduğu bilinmeyen) ifadesini karşılıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı araştırmacıların çabasından bahsediyor, orijinalde bu yok.",
+                                    "2": "C şıkkı 'insanlar Baskça hakkında konuşuyor' diyor, orijinalde 'konuşulur' (spoken) yani dil olarak kullanılır diyor.",
+                                    "3": "D şıkkı 'belirsizdir' (unclear) diyor, orijinalde ise ilişkisi olmadığı biliniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Modern structures are so complex that they have to be worked on by a team of architects working collaboratively.",
+                            "options": [
+                                "Since most modern architects work together so well, they must be able to construct amazing buildings.",
+                                "By working as a team, architects have succeeded in designing increasingly more complicated buildings.",
+                                "The challenges involved in making today’s complex buildings may force architects to cooperate more closely.",
+                                "Due to the complexity of modern construction, projects must be done through the cooperation of a group of architects."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru çünkü neden (karmaşıklık) ve sonuç (ekip çalışması zorunluluğu) ilişkisini aynen koruyor.",
+                                "wrong": {
+                                    "0": "A şıkkı iyi çalıştıkları için bina yapabiliyorlar diyor, orijinalde bina karmaşık olduğu için iyi çalışmak zorundalar deniyor.",
+                                    "1": "B şıkkı 'başardılar' vurgusu yapıyor, zorunluluk (have to) vurgusu eksik.",
+                                    "2": "C şıkkı 'zorlayabilir' (may force) diyerek ihtimal katıyor, orijinalde kesinlik (have to) var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "In the 19th century, people traveling by carriage suffered greatly on poor roads, often made impassable by bad weather.",
+                            "options": [
+                                "Carriages of the 1800s were unstable and could not keep going in bad weather, so travel was extremely difficult.",
+                                "Travelers in the 1800s took carriages, which were uncomfortable and unreliable whenever the weather was awful.",
+                                "Poor roads and unpredictable weather were the factors that kept travelers from enjoying carriage rides in the 1800s.",
+                                "Travel by carriage in the 1800s was very uncomfortable due to terrible roads, which were frequently unusable in bad weather."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru çünkü 'çok acı çektiler' ifadesini 'çok rahatsızdı' ile, 'geçit vermeyen yollar' ifadesini 'kullanılamaz yollar' ile tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı arabaların 'dengesiz' (unstable) olduğunu söylüyor, sorun araba değil yoldu.",
+                                    "1": "B şıkkı sadece hava kötüyken sorun olduğunu söylüyor, ama yollar hep kötüydü.",
+                                    "2": "C şıkkı 'zevk almalarını engelledi' diyor, orijinalde fiziksel acı (suffered) vurgusu var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Security is an important factor for the selection of a holiday destination as people want to feel that they are in a safe environment.",
+                            "options": [
+                                "Tourists spending holidays in places with few safety issues often say that they are more satisfied with their holidays.",
+                                "Tourists wishing to avoid dangerous surroundings should look for a place that has a reputation for being a safe place.",
+                                "Hoping to feel secure during their holiday, tourists carefully consider the safety of the place they will go to when making their choice.",
+                                "A desire to spend time in places where they do not need to consider personal safety may lead a large number of tourists to cancel their holidays."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru çünkü insanların 'güvende hissetmek istedikleri için' (hoping to feel secure) seçim yaparken güvenliği dikkate aldıklarını söylüyor.",
+                                "wrong": {
+                                    "0": "A şıkkı tatil sonrası memnuniyetten bahsediyor.",
+                                    "1": "B şıkkı turistlere bir tavsiye (should) veriyor, durum tespiti yapmıyor.",
+                                    "3": "D şıkkı tatil iptalinden bahsediyor, orijinalde seçim kriteri anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "Tourism began to include the middle class only after railways and steamships made travel much less costly.",
+                            "options": [
+                                "When the wages of the middle class rose significantly, they started to be able to afford the high price of railway and steamship tickets.",
+                                "The drop in travel cost following the introduction of railways and steamships enabled middle-class people to participate in tourism.",
+                                "Railways and steamships greatly reduced the cost of travel for middle-income travelers, who were participating in the growing tourism industry.",
+                                "The price of travel has been decreasing since railways and steamships came out, and more and more middle-income people have been taking part in it."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru çünkü orta sınıfın turizme katılımını, seyahat maliyetlerinin düşmesine (drop in travel cost) bağlıyor, aynen orijinal cümledeki gibi.",
+                                "wrong": {
+                                    "0": "A şıkkı 'maaşları arttığı için' diyor, orijinalde maaş artışı değil maliyet düşüşü var.",
+                                    "2": "C şıkkı zaten katılıyorlardı (were participating) diyor, orijinalde 'ancak ondan sonra dahil oldular' deniyor.",
+                                    "3": "D şıkkı sürecin devam ettiğini (has been decreasing) vurguluyor, orijinalde belirli bir başlangıç noktası anlatılıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Text 1: Swiss Adventurers Hope to 'Fly Forever'",
+                            "paragraphs": [
+                                "The plane climbs slowly, but as it gains height, it speeds up a bit. Seen from above, every upper surface, from wingtips to tail, reflects sunlight due to blue-black photovoltaic cells. The plane is called the Solar Impulse 2, and the Swiss adventurers who built it, Bertrand Piccard and André Borschberg, intend to be the first to fly around the world using just the power of light. Heading first from Africa to India, next to China, and then on to the United States, their journey will last five months and finally end up where it started. During the longest parts of their flight, over the Pacific and Atlantic Oceans, the men will remain in the air for a few days, beyond the reach of islands or easy rescue. They will face dangerous weather over wide-open water just like earlier adventurers, many of whom never returned.",
+                                "Piccard certainly has the spirit of past adventurers. In his teens, he launched himself from hilltops in hang gliders; in his 20s, he began flying light aircraft. Later, while studying to be a doctor, Piccard took up hot-air ballooning and loved it just as his grandfather had many years earlier. Piccard decided to try to become the first to go around the world in a gas balloon without stopping. Twice he failed, but on his third attempt in 1999 he and co-pilot Brian Jones floated around the globe in 19 days on the balloon they had made themselves, called the Breitling Orbiter 3. Though the men had started with nearly four tons of gas, it almost wasn't enough. During the final hours of their flight, all but one of the gas tanks were empty, and that tank was dangerously low. Piccard was stressed and tired, his previous failures constantly came to mind, and he feared he would not succeed again. Although he was able to complete the flight, he has been obsessed with fuel ever since that time. \"Fuel is an impediment which gets in the way of my goal of being able to fly forever,\" he says.",
+                                "During his balloon flight, Piccard decided on his next adventure: He would circle the globe again in a solar-powered craft. He could use clean, fuel-free technology that hadn't been available to his father or his grandfather. He says, \"Climate change is presented as a battle between business and comfort. Ecologists often put nature before humankind, and that's a big mistake. We can change the way the world works, not by making people's lives smaller, but by making them bigger.\"",
+                                "However, making that change is no easy task. Pilot comfort during long, exhausting flights is one of the challenges of flying Solar Impulse 2. During flights, the pilot isn’t able to stand up due to lack of space, though he can push back the seat, which also doubles as a toilet. He sits there for days, often very cold, never getting up. \"What if you crash?\" someone asked Piccard, thinking of the waste storage tank below the seat. \"I hope we don't,\" he replied. The history of adventure shows that comfort often gets lost while solving practical concerns, but, like many explorers who’ve suffered before them, Piccard is happy to give it up to reach his goal."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 20,
+                                    "question": "The main purpose of the text is to ----.",
+                                    "options": [
+                                        "describe the technical specifications of Solar Impulse 2",
+                                        "narrate Bertrand Piccard's history as an adventurer and his current project",
+                                        "argue for the use of clean energy in aviation",
+                                        "compare modern and past adventurers"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metnin geneline baktığımızda 1. paragraf mevcut projeyi (Solar Impulse 2), 2. paragraf Piccard'ın geçmiş maceralarını, 3. ve 4. paragraflar ise projenin felsefesini ve zorluklarını anlatıyor. Yani Piccard'ın geçmişi ve bugünü ana konu.",
+                                        "wrong": {
+                                            "0": "Sadece 1. paragrafta biraz teknik bilgi var, metnin tamamı bu değil.",
+                                            "2": "Temiz enerji savunuluyor ama metin biyografik bir anlatım üzerine kurulu.",
+                                            "3": "Geçmiş maceralara değiniliyor ama amaç sadece karşılaştırma yapmak değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "According to paragraph 1, which of the following statements about Piccard and Borschberg’s flight is FALSE?",
+                                    "options": [
+                                        "There is no other source of power for their flight other than solar power.",
+                                        "The United States is the last stop on their five-month journey.",
+                                        "During some parts of the flight, the period between stops will be at least two days.",
+                                        "The flight could end in disaster just like the journeys of earlier adventurers."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Bu şık YANLIŞTIR çünkü paragrafta 'next to China, and then on to the United States... and finally end up where it started' (en sonunda başladığı yerde biter) diyor. Başlangıç Afrika/Hindistan rotası olduğuna göre, ABD son durak değil, ara duraktır.",
+                                        "wrong": {
+                                            "0": "DOĞRU: 'using just the power of light' (sadece ışık gücüyle) deniyor.",
+                                            "2": "DOĞRU: 'remain in the air for a few days' (birkaç gün havada kalacaklar) deniyor.",
+                                            "3": "DOĞRU: 'face dangerous weather... like earlier adventurers, many of whom never returned' (dönemeyenler gibi tehlikeyle yüzleşecekler) deniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "The word impediment in paragraph 2 is closest in meaning to ----.",
+                                    "options": [
+                                        "alternative",
+                                        "development",
+                                        "preparation",
+                                        "limitation"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde 'Fuel is an impediment which gets in the way of my goal' (Yakıt hedefimin önüne çıkan bir engeldir) diyor. 'Limitation' (kısıtlama/engel) en yakın anlamdır.",
+                                        "wrong": {
+                                            "0": "'Alternative' seçenek demek, engel değil.",
+                                            "1": "'Development' gelişme demek.",
+                                            "2": "'Preparation' hazırlık demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "Paragraph 2 states that ----.",
+                                    "options": [
+                                        "Piccard’s love for hot air ballooning developed because of the time he spent in a balloon with his grandfather",
+                                        "all three of Piccard’s attempts to go around the world in a hot air balloon were unsuccessful",
+                                        "Piccard took part in both the building and the piloting of the Breitling Orbiter 3",
+                                        "despite a fear of flying, Piccard keeps attempting new challenges in flight"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragraf 2'de 'on the balloon they had made themselves' (kendi yaptıkları balonda) ve 'Piccard and co-pilot Brian Jones floated' (uçtular) deniyor. Yani hem yapmış hem de kullanmış.",
+                                        "wrong": {
+                                            "0": "Büyükbabasıyla uçtuğu için değil, büyükbabası gibi sevdiği için ('just as his grandfather had') başladı.",
+                                            "1": "Üç denemenin hepsi değil, sadece ilk ikisi başarısızdı ('Twice he failed'). Üçüncüde başardı.",
+                                            "3": "Uçmaktan korktuğu söylenmiyor, başarısız olmaktan korktuğu ('feared he would not succeed again') söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "In paragraph 3, the reader can infer that Piccard ----.",
+                                    "options": [
+                                        "thinks the belief that climate is changing is mistaken",
+                                        "would probably advise people to get used to having fewer luxuries",
+                                        "realizes that once the ecology of the earth has been damaged, it is impossible to repair",
+                                        "believes that advancing clean technologies may enable us to have more comfortable lives"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Piccard, 'We can change the way the world works, not by making people's lives smaller, but by making them bigger' (Hayatları küçülterek değil, büyüterek dünyayı değiştirebiliriz) diyor. Yani konfordan ödün vermeden teknolojiyle çözüm bulunabileceğine inanıyor.",
+                                        "wrong": {
+                                            "0": "İklim değişikliğini inkar etmiyor, çözüm yolunu tartışıyor.",
+                                            "1": "Tam tersine, lükslerden vazgeçmek (lives smaller) yerine teknoloji öneriyor.",
+                                            "2": "Tamir edilemez olduğunu söylemiyor, çözüm öneriyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "The word it in paragraph 4 refers to ----.",
+                                    "options": [
+                                        "the history of adventure",
+                                        "comfort",
+                                        "solving practical problems",
+                                        "the suffering of many explorers"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cümle: 'Piccard is happy to give IT up'. Bir önceki cümlede 'comfort often gets lost' (konfor genelde kaybolur) deniyor. Piccard'ın vazgeçmeye razı olduğu şey konfordur.",
+                                        "wrong": {
+                                            "0": "Tarihten vazgeçemez.",
+                                            "2": "Problemleri çözmekten vazgeçmiyor, çözmek için konfordan vazgeçiyor.",
+                                            "3": "Acıdan vazgeçmiyor, acı çekiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "In paragraph 4, the text mentions that ----.",
+                                    "options": [
+                                        "despite its small size, the Solar Impulse 2 is surprisingly comfortable for the pilot",
+                                        "very limited space and cold temperatures reduce pilot comfort on the Solar Impulse 2",
+                                        "the method the Solar Impulse 2 uses to store human waste is neither hygienic nor safe",
+                                        "the small size of the Solar Impulse 2 makes it more likely to have a crash"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 4'te 'isn’t able to stand up due to lack of space' (yer darlığından ayağa kalkamaz) ve 'often very cold' (genelde çok soğuk) deniyor. Bu da konforu azaltıyor.",
+                                        "wrong": {
+                                            "0": "Tam tersi, konforsuz olduğu anlatılıyor.",
+                                            "2": "Tuvalet sistemi anlatılıyor ama hijyenik olmadığı söylenmiyor.",
+                                            "3": "Küçük olduğu için kaza yapacağı söylenmiyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Text 2: What lies ahead for languages?",
+                            "paragraphs": [
+                                "In 1880, a Bavarian priest created a language that he hoped the whole world could use. He mixed words from French, German and English and gave his creation the name Volapük. It was hard to use because it included complicated Latin case endings and letter combinations that were very difficult to pronounce. It made a splash for a few years, but soon it lost its popularity to another invented language, Esperanto, which was much easier to learn. However, by the time Esperanto got out of the gate, another language was already emerging as an international language: English. Two thousand years earlier, English had been the unwritten tongue of Iron Age tribes in Denmark. No one living then dreamed that English would be spoken today by almost two billion people and on its way to being spoken by one out of every three people on the planet.",
+                                "Science fiction often presents us with whole planets that speak a single language, but that fantasy seems more threatening here in real life where some worry that English might eradicate every other language. That humans can express themselves in several thousand languages is a delight in many ways; few people want the loss of this variety. Thankfully, fears that English will become the world’s only language are premature. The spread of English just means that people will tend to use a local language in their own environment and English for communication beyond.",
+                                "Nonetheless, the days when English shared the planet with thousands of other languages are ending. A traveler to the future, a century from now, is likely to notice three things about the languages on Earth. First, there will be far fewer languages. By 2115, it’s possible that only about 600 languages will be left on the planet as opposed to today’s 6,000. Japanese will be fine, but languages spoken by smaller groups will have a hard time. Second, languages will be less complicated than they are today in how they are spoken, even though their written forms will not change as much. Also, French just might be the language of the future. The language is growing fast, and growing in the fastest-growing areas of the world, particularly in Africa. The latest projection is that French will be spoken by 750 million people by 2050.",
+                                "Some may protest that it is not English or French but Chinese that will eventually become the world’s language, because of the size of the Chinese population and the increasing economic power of their nation. However, that’s actually unlikely. First, English happens to have become popular first. It is now so deeply integrated in education and media that switching to any other language would take an enormous effort. Also, the tones of Chinese are extremely difficult to learn after childhood, and mastering the writing system is very hard unless you have been educated in it from childhood. In the past, of course, extremely challenging languages such as Greek, Arabic, and Russian were spoken by many people. But now that English has gained popularity, Chinese is unlikely to replace it. Many world powers have ruled without spreading their language. For example, the Mongols once ruled China while letting the local people speak Chinese. Similarly, if the Chinese rule the world, they will likely do so in English.",
+                                "We may regret the loss of a world where 6,000 different languages are spoken instead of just 600. Nevertheless, there is a silver lining in the fact that ever more people will be able to communicate in one language that they use together with their native one, so fewer languages may not turn out to be bad at all. The future still promises both a good amount of language diversity and ever more mutual comprehension."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 27,
+                                    "question": "The article is mainly about ----.",
+                                    "options": [
+                                        "reasons why English is a universal language",
+                                        "how past events will affect future languages",
+                                        "predictions for the future of the world’s languages",
+                                        "problems of having great linguistic diversity"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metin, 2115'te kaç dil kalacağı, hangi dillerin (İngilizce, Fransızca, Çince) ne durumda olacağı gibi geleceğe yönelik tahminleri içeriyor.",
+                                        "wrong": {
+                                            "0": "Sadece İngilizce değil, Fransızca ve Çince de tartışılıyor.",
+                                            "1": "Geçmişten çok geleceğe odaklanıyor.",
+                                            "3": "Çeşitliliğin problem olduğu değil, aksine azalmasının üzücü olduğu ama bir 'iyi yan' (silver lining) olduğu tartışılıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "Which of the following statements is TRUE according to paragraph 1?",
+                                    "options": [
+                                        "Learning Esperanto was more difficult than learning English.",
+                                        "Although Volapük received a lot of public attention, it was eventually overtaken by Esperanto.",
+                                        "English originated in Denmark, but it is not related to Danish.",
+                                        "Volapük and Esperanto are two constructed languages that are still popular today."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 1: 'It (Volapük) made a splash for a few years, but soon it lost its popularity to... Esperanto'. Yani Volapük ilgi gördü ama sonra yerini Esperanto'ya kaptırdı.",
+                                        "wrong": {
+                                            "0": "Esperanto'nun İngilizce'den zor olduğu söylenmiyor, Volapük'ten kolay olduğu söyleniyor.",
+                                            "2": "Paragrafta Danca ile ilişkisi olup olmadığı yazmıyor, sadece kökeninin o bölgedeki kabileler olduğu yazıyor.",
+                                            "3": "Bugün hala popüler oldukları söylenmiyor, 19. yüzyıl bağlamında anlatılıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "The word eradicate in paragraph 2 could best be replaced by ----.",
+                                    "options": [
+                                        "avoid",
+                                        "resemble",
+                                        "recover",
+                                        "destroy"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümle: 'English might eradicate every other language' (İngilizce diğer tüm dilleri yok edebilir). Eradicate, kökünü kazımak/yok etmek demektir. 'Destroy' en yakın anlamlıdır.",
+                                        "wrong": {
+                                            "0": "'Avoid' kaçınmak demek.",
+                                            "1": "'Resemble' benzemek demek.",
+                                            "2": "'Recover' iyileşmek/geri kazanmak demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "According to paragraph 2, we can understand that the author believes ----.",
+                                    "options": [
+                                        "the spread of English usually improves local languages",
+                                        "societies whose native languages are disappearing are pleased with English",
+                                        "science fiction has changed the way people use language",
+                                        "it is too soon to worry about the possibility that English will become the only language"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Yazar, 'fears that English will become the world’s only language are premature' (İngilizcenin tek dil olacağı korkuları erken/yersizdir) diyor. Yani henüz endişelenmeye gerek yok.",
+                                        "wrong": {
+                                            "0": "Yerel dilleri geliştirdiğini değil, onlarla birlikte kullanıldığını söylüyor.",
+                                            "1": "Toplumların memnuniyetinden bahsedilmiyor.",
+                                            "2": "Bilim kurgunun dili değiştirdiğini söylemiyor, sadece bir örnek veriyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "Paragraph 3 states that ----.",
+                                    "options": [
+                                        "languages are likely to become easier in their spoken versions",
+                                        "Japanese is likely to be endangered unlike languages spoken by small populations",
+                                        "French has become the official language in many African countries",
+                                        "a majority of the world's languages will survive until 2115 but have a lot fewer speakers"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 3: 'languages will be less complicated than they are today in how they are spoken' (dillerin konuşulma biçimi bugüne göre daha az karmaşık olacak) diyor.",
+                                        "wrong": {
+                                            "1": "Tam tersi: 'Japanese will be fine' (Japonca iyi durumda olacak) deniyor.",
+                                            "2": "Resmi dil olduğu söylenmiyor, hızla büyüdüğü söyleniyor.",
+                                            "3": "Çoğunluğu hayatta kalmayacak; 6.000'den 600'e düşecek, yani %90'ı yok olacak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "It can be inferred from paragraph 4 that ----.",
+                                    "options": [
+                                        "while English is still the dominant language of technology, Chinese is catching up fast",
+                                        "there is increased interest in English in China, where it is the primary language of education and media",
+                                        "although some languages were complex, they were still widely spoken in the past",
+                                        "Chinese is a very difficult language to learn to speak even for native Chinese speakers"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragraf 4: 'In the past... challenging languages such as Greek, Arabic... were spoken by many people'. Yani diller zor olsa bile geçmişte yaygın konuşulabiliyordu (şimdiki durumun aksine).",
+                                        "wrong": {
+                                            "0": "Çince'nin yetiştiği değil, İngilizce'nin yerini almasının 'unlikely' (olasılık dışı) olduğu söyleniyor.",
+                                            "1": "Çin'de İngilizcenin ana eğitim dili olduğu söylenmiyor, İngilizcenin dünyada (global) entegre olduğu söyleniyor.",
+                                            "3": "Ana dili Çince olanlar için zor demiyor, çocukluktan öğrenilmezse (sonradan öğrenenler için) zor diyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 33,
+                                    "question": "The phrase silver lining in paragraph 5 is closest in meaning to ----.",
+                                    "options": [
+                                        "positive result",
+                                        "great emphasis",
+                                        "worrying situation",
+                                        "surprising reason"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "'Silver lining', kötü bir durumun içindeki 'iyi/umut verici yan' anlamına gelen bir deyimdir. Metinde dil sayısının azalması kötü olsa da, insanların daha iyi anlaşabilmesi 'positive result' (olumlu sonuç) olarak gösteriliyor.",
+                                        "wrong": {
+                                            "1": "Vurgu demek değildir.",
+                                            "2": "Endişe verici durum demek değildir (tam tersi).",
+                                            "3": "Şaşırtıcı neden demek değildir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "Which of the following statements is TRUE according to the article?",
+                                    "options": [
+                                        "Volapük eliminated sounds that would be difficult for speakers of other languages to pronounce.",
+                                        "English is expected to be spoken by more than 30% of the world’s population.",
+                                        "Mongols forced Chinese people to adopt Mongolian when they ruled China.",
+                                        "More mutual comprehension is likely in the future because all languages will have similar features."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 1'in sonunda 'spoken by one out of every three people' (her üç kişiden biri tarafından konuşulacak) deniyor. 1/3 oranı %33 yapar, bu da %30'dan fazladır.",
+                                        "wrong": {
+                                            "0": "Tam tersi, Volapük'ün telaffuzu zordu ('difficult to pronounce').",
+                                            "2": "Moğollar yerel halkın Çince konuşmasına izin verdi ('letting the local people speak Chinese').",
+                                            "3": "Anlaşma dillerin benzerliğinden değil, ortak bir dilin (İngilizce) kullanımından kaynaklanacak."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Text 3: Liquid Engineering for Building Houses",
+                            "paragraphs": [
+                                "Not many people have tried building a house out of liquid water. However, Hungarian architect Matyas Gutai believes it is the perfect material for keeping a house at a comfortable temperature. Although he cannot get rid of traditional materials like bricks, cement, and plaster, he is using a new approach to engineering. Gutai built a prototype house in his hometown of Kecskemet, south of Budapest, Hungary, after years of research and development. The house was built with EU support and is an example of the \"liquid engineering\" concepts Gutai has been developing.",
+                                "Panels, some of steel and some of glass, make up the structure of the house, and a layer of water is trapped between them. This equalizes the temperature throughout the building. The house is able to reheat itself because its excess heat is stored either in its foundation or in an external storage unit. It can be brought back to the walls when the temperature drops. As a result, indoor temperature can be increased using a system similar to central heating. Moreover, the house produces solar energy, too, making it fully independent of energy suppliers. \"Actually, our panel system can heat and cool the building since the water inside the panels is able to perform both jobs,\" says Gutai. \"The house saves energy while reducing pollution in the environment, making it a clean and sustainable solution.\"",
+                                "While studying sustainable architecture at the University of Tokyo in 2003, Gutai got the idea for his water house during his first visit to the open air hot baths. Despite the falling snow, Gutai remained comfortably warm while swimming. That was when he realized the importance of water's ability to hold heat and its potential use in architecture. \"Architecture is really changing in our time. Since we've reached our limits when it comes to solid architecture, we need to look for new ways to improve systems,\" Gutai says.",
+                                "After Gutai designed his first water house, colleagues made comments about some possible problems such as what happens if it is so cold outside that the water freezes and what happens if one panel breaks. To deal with the first issue, Gutai started mixing the water with natural solvents that lower the freezing temperature but do not cause pollution. This means that even when it gets cold outside, the water has some protection against freezing. When building his houses in a cold climate like Hungary, Gutai also adds external insulation to the structure to protect it from freezing. Gutai came up with a solution to deal with a panel that breaks, too. \"I designed special joint units which allow slow liquid flows but block faster ones,\" he explains. Thus, if one panel breaks, it is plugged by these joints, so liquid cannot leak out. This precaution is based on fluid dynamics, not on computers or a monitoring system, so it minimizes the chance of problems.",
+                                "Gutai’s prototype house is small (8m2 in total), but this little building demonstrates the potential of this new technology for saving energy on a greater scale. \"Our goal as architects and engineers should be to use less energy and fewer materials to make people independent of power supply systems. A water house is one way to do that,\" said Gutai. Constructing houses in this way is more expensive than traditional designs, but this design will slash a home’s energy costs, so in the long term, the house will actually be more economical than a traditional home. Gutai hopes companies across Europe will want to make use of his new design and make water the building material of a greener future."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 35,
+                                    "question": "In paragraph 1, the reader learns that ----",
+                                    "options": [
+                                        "other than Gutai, few people have attempted making water an important component in construction",
+                                        "soon Gutai will not have a need for materials that are typically used in construction",
+                                        "homes designed by Gutai using “liquid engineering” principles have become popular in Hungary",
+                                        "Gutai first learned about “liquid engineering” when he participated in a project financed by the EU"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 1: 'Not many people have tried building a house out of liquid water.' (Çok az insan denedi). Bu cümle A şıkkını (Gutai dışında az kişi denedi) doğrular.",
+                                        "wrong": {
+                                            "1": "Paragrafta 'he cannot get rid of traditional materials' (geleneksel malzemelerden kurtulamaz) deniyor.",
+                                            "2": "Popüler olduğu söylenmiyor, sadece bir prototip yapıldığı söyleniyor.",
+                                            "3": "AB tarafından desteklendiği yazıyor ama fikri orada öğrendiği yazmıyor (fikir Tokyo'da çıktı)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 36,
+                                    "question": "In paragraph 2, the writer mentions all of the following advantages of Gutai’s house EXCEPT ----.",
+                                    "options": [
+                                        "the ability to maintain a constant temperature",
+                                        "integration with the power supply system",
+                                        "the capacity to increase its temperature after it cools off outside",
+                                        "a reduction in contamination to the environment"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragrafta evin enerji tedarikçilerinden 'bağımsız' (fully independent) olduğu söyleniyor. B şıkkı ise 'entegrasyon' (uyum/bağlantı) olduğunu iddia ediyor. Bu bilgi yanlıştır, dolayısıyla cevap budur.",
+                                        "wrong": {
+                                            "0": "DOĞRU: 'equalizes the temperature' (sıcaklığı eşitler).",
+                                            "2": "DOĞRU: 'indoor temperature can be increased' (sıcaklık artırılabilir).",
+                                            "3": "DOĞRU: 'reducing pollution' (kirliliği azaltma)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "According to paragraph 3, Gutai ----.",
+                                    "options": [
+                                        "was inspired to build his house by a guest who talked about open air hot baths",
+                                        "had not considered water as a construction material before experiencing open air baths",
+                                        "believes architects need to create innovative new solids as well as make use of liquids",
+                                        "thinks architects have made so many improvements that architecture cannot advance any further"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 3: 'That was when he realized... its potential use in architecture' (O anda potansiyelini fark etti). Demek ki o ana kadar düşünmemişti.",
+                                        "wrong": {
+                                            "0": "Bir misafirden değil, kendi deneyiminden ('during his first visit') ilham aldı.",
+                                            "2": "Katı mimaride sınıra gelindiğini ('reached our limits... solid'), yeni yollar (sıvı gibi) aramak gerektiğini söylüyor.",
+                                            "3": "Tam tersine, ilerlemek için yeni yollar bulmamız gerektiğini söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 38,
+                                    "question": "The word plugged in paragraph 4 could best be replaced by ----.",
+                                    "options": [
+                                        "used up",
+                                        "cooled off",
+                                        "heated up",
+                                        "closed off"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümle: 'if one panel breaks, it is plugged... so liquid cannot leak out' (kırılırsa tıkanır/kapanır, böylece sıvı sızmaz). 'Closed off' (kapatmak/tıkamak) en yakın anlamdır.",
+                                        "wrong": {
+                                            "0": "'Used up' tüketmek demek.",
+                                            "1": "'Cooled off' soğumak demek.",
+                                            "2": "'Heated up' ısınmak demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "Paragraph 4 mainly discusses ----.",
+                                    "options": [
+                                        "two problems that Gutai has come up with solutions for",
+                                        "a number of issues with Gutai’s house that he hopes to begin dealing with soon",
+                                        "how new technology has been used to overcome problems in Gutai’s house",
+                                        "why Gutai’s house has a positive effect on the environment"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragrafta iş arkadaşları iki sorun öne sürüyor: donma ve kırılma. Gutai bu iki soruna bulduğu çözümleri (doğal çözücüler ve özel eklem yerleri) anlatıyor.",
+                                        "wrong": {
+                                            "1": "Umarım yakında çözer değil, zaten çözmüş ('Gutai came up with a solution').",
+                                            "2": "Yeni teknoloji değil, sıvı dinamiği ('fluid dynamics') kullandığını vurguluyor.",
+                                            "3": "Çevre etkisi yan konu, ana konu sorunlar ve çözümler."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "The word slash in paragraph 5 is closest in meaning to ----.",
+                                    "options": [
+                                        "design",
+                                        "identify",
+                                        "reduce",
+                                        "review"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cümle: 'this design will slash a home’s energy costs'. Bağlamda evin ekonomik olacağından bahsediliyor, yani maliyetleri 'kesmek/azaltmak' (reduce) anlamındadır.",
+                                        "wrong": {
+                                            "0": "'Design' tasarlamak.",
+                                            "1": "'Identify' tanımlamak.",
+                                            "3": "'Review' gözden geçirmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "Paragraph 5 implies that ----.",
+                                    "options": [
+                                        "homes using water in their construction do not need to be small in size to reduce energy use",
+                                        "Gutai does not think materials other than water can make homes independent of power suppliers",
+                                        "because water is inexpensive, it reduces the cost of constructing a new building",
+                                        "Gutai has many offers from European companies to use his new approach in building projects"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Gutai'nin prototipi küçük olsa da, bunun 'potential... on a greater scale' (daha büyük ölçekte potansiyelini) gösterdiği söyleniyor. Yani enerji tasarrufu için evin küçük olması şart değil, teknoloji büyük evde de çalışır.",
+                                        "wrong": {
+                                            "1": "Tek yolun bu olduğunu söylemiyor, 'one way' (bir yolu) diyor.",
+                                            "2": "Tam tersine, inşaatın daha pahalı olduğunu ('more expensive than traditional designs') söylüyor.",
+                                            "3": "Şirketlerin istemesini 'umduğunu' söylüyor ('Gutai hopes'), teklif aldığını değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "From the text, the reader can infer that ----.",
+                                    "options": [
+                                        "many research projects sponsored by the EU are taking place in and around Budapest",
+                                        "Gutai wants to settle in Japan due to his positive experiences at the university of Tokyo",
+                                        "colleagues’ comments led to significant improvements in Gutai’s home design",
+                                        "the natural solvents that lower water’s freezing temperature completely eliminated the freezing problem"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragraf 4'te meslektaşları sorunları belirttikten sonra ('colleagues made comments'), Gutai'nin bunlara çözümler (solvents, special joints) geliştirdiği anlatılıyor. Yani eleştiriler geliştirmeyi sağladı.",
+                                        "wrong": {
+                                            "0": "Sadece bu projenin AB destekli olduğu yazıyor, diğer projelerden bahsedilmiyor.",
+                                            "1": "Japonya'ya yerleşmek istediği yazmıyor.",
+                                            "3": "Tamamen yok etti demiyor, koruma sağladığını ('some protection') söylüyor, ayrıca ekstra yalıtım da ekliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "The MAIN purpose of the text is to ----.",
+                                    "options": [
+                                        "argue that traditional architecture is no longer viable",
+                                        "compare different methods of sustainable building",
+                                        "describe an innovative architectural concept and its development",
+                                        "promote investment in Hungarian engineering firms"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metin baştan sona Gutai'nin 'su ev' fikrini, nasıl ortaya çıktığını, nasıl çalıştığını ve avantajlarını anlatıyor. Yenilikçi bir konseptin tanımı yapılıyor.",
+                                        "wrong": {
+                                            "0": "Geleneksel mimarinin bittiğini söylemiyor, geleneksel malzemelerden kurtulamadığını ('cannot get rid of') belirtiyor.",
+                                            "1": "Başka yöntemlerle kıyaslama yapılmıyor.",
+                                            "3": "Yatırım reklamı değil, bilgilendirici bir metin."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,1115 @@
+        {
+            "id": 2,
+            "title": "ITU Proficiency Exam",
+            "sections": {
+                "reading": {
+                    "parts": [
+                        {
+                            "type": "cloze",
+                            "title": "Cloze Test: The James Webb Space Telescope",
+                            "passage": {
+                                "title": "The James Webb Space Telescope",
+                                "text": "The James Webb Space Telescope (JWST) is a marvel of modern engineering, (1)_____ to observe the first galaxies that formed after the Big Bang. (2)_____ its predecessor, the Hubble Space Telescope, JWST primarily orbits the Sun, not the Earth. This distant position allows it to stay extremely cool, (3)_____ is essential for detecting faint infrared light. The project (4)_____ by massive delays and cost overruns; in fact, if engineers (5)_____ the complex, five-layer sunshield design, the mission might have been canceled. (6)_____ its successful launch in 2021, the telescope has delivered breathtaking images that are astonishing scientists. Researchers are using the data to understand (7)_____ stars are born and to (8)_____ in the search for habitable exoplanets. (9)_____ the telescope's primary mission was planned for ten years, its highly efficient launch means it likely has (10)_____ more fuel than expected, extending its operational life."
+                            },
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "options": [
+                                        "designed",
+                                        "designing",
+                                        "was designed",
+                                        "by designing"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Designed\" doğru çünkü burada kısaltılmış bir sıfat cümlesi (reduced relative clause) var. Cümlenin aslı \"which is designed\" (tasarlanan) şeklindedir; \"which is\" atılınca geriye sadece fiilin 3. hali (V3) kalır.",
+                                        "wrong": {
+                                            "1": "\"Designing\" (tasarlayan) anlamına gelir, teleskop kendini tasarlayamaz.",
+                                            "2": "\"Was designed\" ana fiil olurdu, ama cümlede zaten \"is\" ana fiili var.",
+                                            "3": "\"By designing\" (tasarlayarak) demektir ve buradaki anlamı karşılamaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "options": [
+                                        "As",
+                                        "Despite",
+                                        "Whereas",
+                                        "Unlike"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Unlike\" (aksine) doğru çünkü bir karşılaştırma yapılıyor. Hubble Dünya'nın yörüngesindeyken, JWST Güneş'in yörüngesinde. İki farklı durum var.",
+                                        "wrong": {
+                                            "0": "\"As\" (gibi/olarak) benzerlik bildirir ama burada zıtlık var.",
+                                            "1": "\"Despite\" (rağmen) genellikle bir olay veya durum için kullanılır, doğrudan bir nesne karşılaştırması için \"unlike\" daha uygundur.",
+                                            "2": "\"Whereas\" (oysa) bağlaçtır ve tam cümle ister, burada sadece bir isim öbeği (its predecessor) var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "options": [
+                                        "what",
+                                        "which",
+                                        "that",
+                                        "it"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Which\" doğru çünkü virgülden sonra gelerek önceki cümlenin tamamını (soğuk kalmasını) niteleyen bir açıklama yapıyor.",
+                                        "wrong": {
+                                            "0": "\"What\" bu şekilde sıfat cümlesi (relative clause) başlatmaz.",
+                                            "2": "\"That\" virgülden sonra kullanılmaz.",
+                                            "3": "\"It\" yeni bir cümle başlatırdı ama burada iki cümleyi bağlayan bir yapıya ihtiyaç var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "options": [
+                                        "was plaguing",
+                                        "plagued",
+                                        "has been plagued",
+                                        "had plagued"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Has been plagued\" doğru çünkü proje gecikmeler tarafından 'etkilendi' (passive voice gerekli). Ayrıca projenin etkisi günümüze kadar geldiği veya yakın geçmişte olduğu için present perfect passive uygundur.",
+                                        "wrong": {
+                                            "0": "\"Was plaguing\" active (etken) yapıdır, proje başkasını etkilemedi, etkilendi.",
+                                            "1": "\"Plagued\" active yapıdır.",
+                                            "3": "\"Had plagued\" active yapıdır."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "options": [
+                                        "didn't perfect",
+                                        "wouldn't perfect",
+                                        "weren't perfecting",
+                                        "hadn't perfected"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Hadn't perfected\" doğru çünkü geçmişte gerçekleşmemiş bir hayali durumdan (Type 3 Conditional) bahsediliyor. Eğer mühendisler tasarımı mükemmelleştirmeseydi (ama yaptılar), görev iptal edilebilirdi.",
+                                        "wrong": {
+                                            "0": "\"Didn't perfect\" Type 2 (genel/şimdiki hayali durum) içindir.",
+                                            "1": "\"Wouldn't perfect\" if cümlesinin içinde kullanılmaz.",
+                                            "2": "\"Weren't perfecting\" geçmişte süren eylem bildirir, tamamlanmış başarıyı değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "options": [
+                                        "During",
+                                        "After",
+                                        "Since",
+                                        "While"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Since\" doğru çünkü ana cümlede \"has delivered\" (present perfect) kullanılmış. \"2021'deki fırlatılışından bu yana\" anlamını veriyor.",
+                                        "wrong": {
+                                            "0": "\"During\" (sırasında) anlamca uymaz ve usually past tense ile kullanılır.",
+                                            "1": "\"After\" (sonra) kullanılabilirdi ama ana cümlenin perfect tense olması \"Since\"i daha güçlü kılar.",
+                                            "3": "\"While\" (iken) kendisinden sonra cümle veya V-ing ister."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "options": [
+                                        "that",
+                                        "what",
+                                        "how",
+                                        "why"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"How\" (nasıl) doğru çünkü yıldızların \"nasıl\" doğduğunu, yani o süreci anlamaya çalışıyorlar.",
+                                        "wrong": {
+                                            "0": "\"That\" sadece bilgiyi tanımlar, süreci değil.",
+                                            "1": "\"What\" (ne) anlamlı değil; yıldızların ne doğduğunu değil, nasıl doğduğunu araştırıyorlar.",
+                                            "3": "\"Why\" (neden) da olabilir ama bilimsel bağlamda süreç (how) daha ön plandadır."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "options": [
+                                        "aiding",
+                                        "aid",
+                                        "to be aided",
+                                        "aided"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Aid\" doğru çünkü \"to understand\" yapısına paralel olarak \"to aid\" (yardım etmek için) şeklinde mastar (infinitive) kullanımı gerekiyor.",
+                                        "wrong": {
+                                            "0": "\"Aiding\" (-ing hali) paralel yapıyı bozar.",
+                                            "2": "\"To be aided\" edilgen (yardım edilmek için) olur, anlamı bozar.",
+                                            "3": "\"Aided\" geçmiş zaman veya sıfat olur, buraya uymaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "options": [
+                                        "Despite",
+                                        "Because",
+                                        "However",
+                                        "Although"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Although\" (olmasına rağmen) doğru çünkü iki cümle arasında zıtlık var: Planlanan ömür 10 yıldı, AMA yakıtı fazla olduğu için daha uzun sürecek. \"Although\" tam cümle ile kullanılır.",
+                                        "wrong": {
+                                            "0": "\"Despite\" isim öbeği ile kullanılır, cümle ile değil.",
+                                            "1": "\"Because\" neden-sonuç bildirir, zıtlık değil.",
+                                            "2": "\"However\" iki cümleyi bağlarken noktalama işaretleriyle (nokta veya noktalı virgül) ayrılması gerekir, cümle başında bu şekilde bağlaç olmaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "options": [
+                                        "much",
+                                        "many",
+                                        "very",
+                                        "far"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Far\" doğru çünkü karşılaştırma bildiren \"more\" kelimesini güçlendirmek (çok daha fazla) için kullanılır. \"Much more\" da doğrudur ancak ileri seviye sınavlarda \"far\" güçlü bir çeldirici veya beklenen cevaptır.",
+                                        "wrong": {
+                                            "1": "\"Many\" sayılabilenler içindir, \"fuel\" sayılamaz.",
+                                            "2": "\"Very\" karşılaştırma yapılarıyla (more) kullanılmaz."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "restatement",
+                            "title": "Restatement",
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "statement": "Tipping is not required in Japanese restaurants even if the staff have provided excellent service.",
+                                    "options": [
+                                        "Japanese restaurant workers consistently provide great service despite not expecting tips.",
+                                        "The staff in Japanese restaurants appreciate receiving tips, so they offer the best possible service.",
+                                        "The amount of money for a tip in a Japanese restaurant is only slightly related to the quality of the service.",
+                                        "Although the service of staff in a Japanese restaurant may be of high quality, it is not necessary to leave a tip."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı orijinal anlamı tam karşılıyor: Hizmet kalitesi yüksek olsa bile (excellent service), bahşiş bırakmak gerekli değildir (not necessary/not required).",
+                                        "wrong": {
+                                            "0": "A şıkkı çalışanların beklentisine odaklanıyor, zorunluluk durumuna değil.",
+                                            "1": "B şıkkı çalışanların bahşişi takdir ettiğini söylüyor, orijinalde bu yok.",
+                                            "2": "C şıkkı bahşiş miktarından bahsediyor, gereklilikten değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "statement": "In a traditional Japanese restaurant, you may be asked to take off your shoes when entering.",
+                                    "options": [
+                                        "You looked surprise when it was suggested that you take off your shoes when coming into a Japanese restaurant.",
+                                        "It’s possible someone will ask you to take off your shoes at the entrance if you go to a traditional Japanese restaurant.",
+                                        "You could have agreed to remove your shoes as the Japanese restaurant owner asked you to do so when you came in.",
+                                        "Leaving your shoes at the door is a sign of respect at traditional Japanese restaurants, so encourage your friends to follow this tradition."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı 'may be asked' (istenilebilir) ifadesini 'It's possible someone will ask' (birinin sorması mümkün) ile doğru şekilde eşleştiriyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı şaşırmaktan bahsediyor, orijinalde duygu yok.",
+                                            "2": "C şıkkı geçmiş zaman (could have agreed) kullanıyor, orijinal genel bir durum.",
+                                            "3": "D şıkkı saygıdan ve tavsiyeden bahsediyor, orijinalde sadece ihtimal var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "statement": "In Japanese restaurants, an excellent method to save waiters' and customers' time is having a small button on your table that you press to get the staff's attention.",
+                                    "options": [
+                                        "A small button on tables in Japanese restaurants that is pressed to alert restaurant staff is a great time-saving device for both waiters and customers.",
+                                        "The Japanese are extremely time-conscious, so restaurants provide buttons on tables that customers can use to warn staff when the service is not fast enough.",
+                                        "Due to the difficulty of attracting staff’s attention in crowded Japanese restaurants, tables have a button which can be pushed and which quickly notifies staff of a need.",
+                                        "Waiters and customers in Japanese restaurants are always in a hurry, so a button has been put on tables so that customers can inform staff when they have a need."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı orijinaldeki 'time-saving' (zaman kazandıran) vurgusunu ve düğmenin işlevini tam olarak aktarıyor.",
+                                        "wrong": {
+                                            "1": "B şıkkı hizmet yavaş olduğunda uyarmak için diyor, orijinalde sadece dikkat çekmek var.",
+                                            "2": "C şıkkı kalabalıktan dolayı zorluk yaşandığını ekliyor, orijinalde sebep bu değil.",
+                                            "3": "D şıkkı herkesin acelesi olduğunu söylüyor, bu bir yorum."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "statement": "Most foreigners feel that the waiter should have asked them before serving them otoshi, a side dish, but it is a common practice to serve this without asking in Japanese restaurants.",
+                                    "options": [
+                                        "The waiter in a Japanese restaurant rarely asks foreign guests if they want the side dish otoshi, but it would be a good idea to offer this popular dish to them.",
+                                        "Although foreigners eating in a Japanese restaurant are not usually asked whether they want otoshi, a side dish, or not, they could refuse it when it is served.",
+                                        "Foreigners typically wish they had been asked before being served the side dish otoshi in Japanese restaurants, yet this dish is generally served to all customers.",
+                                        "The side dish otoshi may be served to foreigners eating in a Japanese restaurant despite the fact that they did not order it, but nothing is being done to prevent this widespread practice."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı 'Most foreigners feel that the waiter should have asked' kısmını 'typically wish they had been asked' ile; 'common practice' kısmını ise 'generally served' ile karşılıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı bunun 'iyi bir fikir' olduğunu söylüyor, orijinalde yabancıların rahatsızlığı var.",
+                                            "1": "B şıkkı reddedebileceklerini söylüyor, orijinalde bu yok.",
+                                            "3": "D şıkkı bunu engellemek için bir şey yapılmadığını söylüyor, orijinalde bu detay yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "statement": "The less qualified teachers are, the more likely they are to be placed in schools with low-performing students.",
+                                    "options": [
+                                        "Schools in some places are not able to attract either good students or well-qualified teachers.",
+                                        "Teachers with lower qualifications are generally put in schools where students are achieving at lower levels.",
+                                        "Teachers who do not have good qualities frequently reduce the achievement level of students in their schools.",
+                                        "When poorly qualified teachers are made to work in schools with weak students, it has serious effects on student achievement."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı orijinal cümleyi birebir karşılıyor: Düşük nitelikli öğretmenler genellikle düşük başarı gösteren öğrencilerin olduğu okullara veriliyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı okulların öğrenci çekememesinden bahsediyor.",
+                                            "2": "C şıkkı öğretmenlerin başarıyı düşürdüğünü söylüyor (neden-sonuç), orijinalde sadece yerleştirme durumu var.",
+                                            "3": "D şıkkı bunun etkilerinden bahsediyor, orijinalde etki yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "statement": "Teacher influence on student achievement has shown to be greater than any other factor including class size.",
+                                    "options": [
+                                        "The size of a class has almost as large an impact on student performance as factors like the impact of a teacher.",
+                                        "Teachers determine how well students perform, whereas class size and other factors do not have a significant impact.",
+                                        "Student performance is most affected by the teacher, who has a larger effect than class size or any other factor.",
+                                        "Teachers really affect how well their students do on tests, and the number of students in a class is also a critical factor."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı 'greater than any other factor' ifadesini 'larger effect than class size or any other factor' ile tam karşılıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı sınıf mevcudunun neredeyse öğretmen kadar etkili olduğunu söylüyor, oysa öğretmen daha etkili.",
+                                            "1": "B şıkkı diğer faktörlerin önemli etkisi olmadığını söylüyor, orijinalde karşılaştırma var.",
+                                            "3": "D şıkkı sınıf mevcudunun da kritik olduğunu söylüyor ama karşılaştırmayı eksik bırakıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "statement": "You should never give much importance to a single test score as a child's test performance on one exam can be influenced by both physical and emotional factors.",
+                                    "options": [
+                                        "The way a child feels physically and emotionally affects test performance, so you ought not to focus on the score of one test too much.",
+                                        "The day and the place that a test is given affect the results, so you ought to consider how these factors impact students’ health and emotions.",
+                                        "Scores on tests are impacted by the environment and feelings, so they cannot accurately measure children’s abilities and should be abandoned.",
+                                        "The main causes of low performance on a test are a student’s physical and emotional condition, but it is not possible for you to control these factors."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı 'never give much importance' ifadesini 'ought not to focus... too much' ile; sebepleri de 'physically and emotionally' ile karşılıyor.",
+                                        "wrong": {
+                                            "1": "B şıkkı testin yeri ve zamanından bahsediyor.",
+                                            "2": "C şıkkı testlerin terk edilmesi gerektiğini söylüyor.",
+                                            "3": "D şıkkı düşük performansın ana nedenlerinden ve kontrol edilememesinden bahsediyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "statement": "In a study that looked at classroom design, only increased natural light showed a strong relationship to improved learning.",
+                                    "options": [
+                                        "A small change like adding more natural light had an amazing effect on the learning environment, according to a study.",
+                                        "It was just recently that researchers discovered a clear link between better natural light in the classroom and better learning.",
+                                        "While studying classroom design, researchers found that students learned much better when their classroom contained only natural light.",
+                                        "A study found that more natural light in a classroom was the single factor in classroom design that was clearly connected to increased learning."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı 'only increased natural light' ifadesini 'single factor' ile; 'strong relationship' ifadesini 'clearly connected' ile karşılıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'küçük bir değişiklik' yorumunu katıyor.",
+                                            "1": "B şıkkı 'henüz yeni keşfedildi' diyor.",
+                                            "2": "C şıkkı sınıfın 'sadece doğal ışık içermesi' gerektiğini söylüyor (only natural light vs. only increased natural light showed...). Anlam kaymış."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "statement": "The brain is far more easily influenced by experiences in early life than in maturity.",
+                                    "options": [
+                                        "Events have a much greater effect on the brain at a young age compared to adulthood.",
+                                        "There are a smaller number of experiences that disturb the brain of an adult than the brain of a child.",
+                                        "It is a great deal easier to overcome an experience you had as a child than one you had later in life.",
+                                        "The brain of an older person is often deeply impacted by childhood experiences that are not clearly remembered."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı 'more easily influenced... early life' ifadesini 'greater effect... at a young age' ile tam karşılıyor.",
+                                        "wrong": {
+                                            "1": "B şıkkı deneyimlerin sayısından bahsediyor.",
+                                            "2": "C şıkkı deneyimlerin üstesinden gelmekten (overcome) bahsediyor.",
+                                            "3": "D şıkkı yaşlıların çocukluk anılarından bahsediyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "statement": "Babies whose parents frequently talk to them know 300 more words by their second birthday than babies whose parents rarely speak to them.",
+                                    "options": [
+                                        "Parents can increase their two year old’s vocabulary by over 300 words through spending a greater amount of time with them.",
+                                        "To make a 300-word increase in a baby’s vocabulary, simply speak to the baby much more often beginning at age two.",
+                                        "Parents who speak to their baby often rather than infrequently bring about a 300-word increase in their baby’s vocabulary by age two.",
+                                        "Babies with parents that talk to them a lot will have a vocabulary of nearly 300 words at age two, which is much greater than that of babies whose parents talk less."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı, çok konuşan ebeveynlerin bebeklerinde '300 kelimelik bir artışa' (farka) sebep olduğunu belirterek orijinal cümledeki karşılaştırmayı (know 300 more words) doğru yansıtıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'daha fazla zaman harcayarak' diyor, orijinalde 'konuşarak' deniyor.",
+                                            "1": "B şıkkı 'iki yaşından başlayarak' diyor, orijinalde iki yaşına gelindiğinde (by their second birthday) deniyor.",
+                                            "3": "D şıkkı bebeğin toplam kelime hazinesinin 300 olduğunu söylüyor ('vocabulary of nearly 300 words'). Oysa orijinalde diğer gruba göre 300 kelime *fazlası* olduğu söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 11,
+                                    "statement": "People used to think that although the cuts to the skin and broken bones could heal, damage to the brain was permanent.",
+                                    "options": [
+                                        "The brain was thought to be unable to heal injuries to either the skin or bones if it had received a long-term injury.",
+                                        "It was once thought that brain damage was permanent and not like injuries to the skin and bones that the body could repair.",
+                                        "At one time, injuries such as cut skin or broken bones were considered to be more crucial to treat than an injury to the brain.",
+                                        "People who realized that cut skin and broken bones could be cured would not have thought that brain injuries were permanent."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı 'used to think' -> 'It was once thought'; 'damage to the brain was permanent' kısmını birebir karşılıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı beynin deri veya kemikleri iyileştiremediğini söylüyor.",
+                                            "2": "C şıkkı tedavinin öneminden bahsediyor.",
+                                            "3": "D şıkkı insanların ne düşünebileceği hakkında bir varsayım yapıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 12,
+                                    "statement": "Although pain is communicated to the brain, the brain itself feels no pain, which explains why brain surgery can be performed with no discomfort while the patient is awake.",
+                                    "options": [
+                                        "Brain surgery may need to be performed on a person whose body fails to transmit a pain message to the brain after part of the body has been hurt.",
+                                        "One reason for doing brain surgery is that pain is not being transmitted to the brain even when a person is awake despite the fact that the body is injured.",
+                                        "It is possible to do brain surgery on a conscious person without making the person experience pain because the brain processes pain in the body yet does not feel pain.",
+                                        "Being in constant contact with the body, the brain has an awareness of pain, so people may undergo surgery if they do not sense any discomfort in their brain when they are awake."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı 'brain surgery can be performed... while patient is awake' -> 'possible to do... on a conscious person'; 'brain itself feels no pain' -> 'does not feel pain' eşleşmesi tamdır.",
+                                        "wrong": {
+                                            "0": "A şıkkı ağrı mesajını iletemeyen vücutlardan bahsediyor.",
+                                            "1": "B şıkkı beyin ameliyatının nedenini yanlış açıklıyor.",
+                                            "3": "D şıkkı insanlar beyinlerinde rahatsızlık hissetmezlerse ameliyat olabilirler diyor, anlam kaymış."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 13,
+                                    "statement": "The Hippocratic Oath, written in the 5th century BC, provides the earliest protocol for ethical behavior that a physician needed to follow in treating patients.",
+                                    "options": [
+                                        "The 5th century BC Hippocratic Oath is the first document to describe how physicians behaved toward patients.",
+                                        "Already in the 5th century BC, physicians were treating patients well according to the Hippocratic Oath, an early document about medical ethics.",
+                                        "Physicians in the 5th century BC who treated their patients ethically wrote the Hippocratic Oath, the oldest medical document that we have today.",
+                                        "The earliest rules about ethics which a physician was required to follow when treating patients is the Hippocratic Oath from the 5th century BC."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı 'earliest protocol' -> 'earliest rules'; 'written in 5th century BC' -> 'from the 5th century BC' eşleşmeleriyle anlamı koruyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı doktorların 'nasıl davrandığını' (gerçekleşen eylem) anlattığını söylüyor, orijinalde 'nasıl davranması gerektiği' (kural) var.",
+                                            "1": "B şıkkı doktorların zaten iyi davrandığını söylüyor.",
+                                            "2": "C şıkkı Yemini doktorların yazdığını vurguluyor, orijinalde kimin yazdığı değil, ne zaman yazıldığı vurgulanmış."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 14,
+                                    "statement": "How much education a surgeon requires is dependent on both local regulations and national laws.",
+                                    "options": [
+                                        "According to both local and national laws, a surgeon needs to receive a high-quality education.",
+                                        "Not only national laws but also local ones may affect the quality of the courses a surgeon receives during training.",
+                                        "The amount of education that a surgeon must have depends on a country’s laws as well as local requirements.",
+                                        "The number of years that surgeons spend in school is determined by local laws in countries all over the world."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı 'How much education' -> 'amount of education'; 'national laws' -> 'country's laws' ile tam eşleşiyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı eğitimin kalitesinden (high-quality) bahsediyor, orijinalde miktar (how much) var.",
+                                            "1": "B şıkkı derslerin kalitesinden bahsediyor.",
+                                            "3": "D şıkkı ulusal yasaları atlayıp sadece yerel yasalara odaklanıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 15,
+                                    "statement": "Patients who believe that their surgeon treats them with respect are more likely to follow their post-surgery treatment plan.",
+                                    "options": [
+                                        "Respecting one’s surgeon most of the time makes patients follow the post-surgery guidelines of the surgeon.",
+                                        "If patients think that their surgeon was respectful, they generally feel better after surgery and recover more quickly.",
+                                        "A belief that their surgeon has acted respectfully toward them contributes to patients carrying out their post-surgery plan for treatment.",
+                                        "Respecting their patients’ rights, surgeons suggest a treatment plan for after surgery, and most patients follow their doctor’s instructions."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı 'believe surgeon treats with respect' -> 'belief that surgeon acted respectfully'; 'more likely to follow' -> 'contributes to patients carrying out' ile anlamı koruyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı hastanın cerraha saygı duymasından bahsediyor, orijinalde cerrahın hastaya saygısı var.",
+                                            "1": "B şıkkı daha hızlı iyileşmekten bahsediyor.",
+                                            "3": "D şıkkı cerrahların tedavi planı önermesinden bahsediyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "reading",
+                            "title": "Reading Comprehension",
+                            "texts": [
+                                {
+                                    "id": 1,
+                                    "title": "A Lost Recipe",
+                                    "paragraphs": [
+                                        "As a child, Tanaka adored the Japanese street food known as kushikatsu, and her father, an office worker, spent endless hours working at home to make it taste just right. Kushikatsu is made by coating meat and vegetables with a bread-like substance, then frying them in hot oil, and finally dipping them in sauce. This food is a cheap, filling meal often eaten by workers. As a child, whenever Tanaka was asked what food she wanted to eat, she’d always say kushikatsu. Her father, she says, realized what others didn’t: That cooking is an art. The oil, coating, and sauce all have to be just right. Then, in 1992, when Tanaka was just 21, her dad passed away.",
+                                        "Tanaka went on with her life, continuing to work as a part-time secretary at an advertising agency. Then, she decided not to finish a university degree in literature. Rather, she kept trying, without success, to copy her father’s kushikatsu. In the late 1990s, she took a job at a restaurant because she wanted to focus on making kushikatsu. Eventually, Tanaka moved from her hometown to Tokyo so that she could work at a high-end restaurant where her manager allowed her to cook kushikatsu, but she couldn’t get it right, even with the help of professional chefs. Consequently, she came to believe that her father’s kushikatsu had died with him.",
+                                        "Then, things got worse. When the global financial crisis hit in 2008, it decimated the number of customers willing to spend money at expensive restaurants. Tanaka’s manager told her the restaurant would soon be closing. Tanaka realized she needed to pack up, thinking she could move back to her hometown. While preparing for the move, she looked in the back corner of a closet and found a recipe which seemed to be in her dad’s handwriting. Had he left her his amazing recipe for kushikatsu after all? Tanaka brought the recipe to work, but neither she nor her manager had high expectations for the hand-written instructions. They were hard to read and had been corrected over and over, so they looked like a work in progress rather than the final version. However, the moment they tried it, Tanaka says, “I knew it was definitely the taste of the kushikatsu my father used to cook.”",
+                                        "Her manager, who’d been making plans to leave the restaurant sector, decided to try opening a small place in a quiet residential area outside central Tokyo because that was all the rent he could afford. “A lot of people told me not to do it because there were few other shops nearby and not many people were going out to eat anyways,” he says, “but I was confident.” Soon, people were lined up to get in even at 1 a.m. They even had to set up extra tables outside. The number of bicycles parked outside the shop drew complaints from neighbors. Passengers on buses stared with curiosity at the long lines.",
+                                        "Now, just seven years later, there is a large chain of “Kushikatsu Tanaka” restaurants. Once just a part-time secretary, Tanaka now owns 4 percent of the company, a percentage worth more than $3 million. As for the recipe, she says only herself and her manager have seen it, and it’s going to stay that way. “Kushikatsu is life to me,” Tanaka says. “I don’t know what I would do without it.”"
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 16,
+                                            "question": "From paragraph 1 it is clear that Tanaka’s father ----.",
+                                            "options": [
+                                                "had a good reputation for the kushikatsu that he sold on the street",
+                                                "did not follow the traditional order of coating, frying and dipping when he made kushikatsu",
+                                                "paid careful attention to the oil, the coating, and the sauce when he made kushikatsu",
+                                                "died before he was able to perfect his kushikatsu recipe"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cevap 1. paragrafta geçiyor: 'The oil, coating, and sauce all have to be just right.' Babası bu detaylara çok dikkat ediyordu.",
+                                                "wrong": {
+                                                    "0": "Babası sokakta satmıyordu, ofis çalışanıydı ve evde yapıyordu ('her father, an office worker, spent endless hours working at home').",
+                                                    "1": "Geleneksel sırayı takip etmediği söylenmiyor.",
+                                                    "3": "Ölmeden önce mükemmelleştiremediği söylenmiyor, kızı sonradan tarifi buluyor ve mükemmel olduğunu görüyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 17,
+                                            "question": "According to paragraph 2, which of the following events in Tanaka’s life was NOT related to her father’s kushikatsu?",
+                                            "options": [
+                                                "Getting a job in an advertising agency",
+                                                "Not completing her university degree",
+                                                "Getting a job at a restaurant in her hometown",
+                                                "Getting a job at a restaurant in Tokyo"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Reklam ajansındaki işi babasının vefatından sonra hayatına devam ederken yaptığı bir işti, kushikatsu ile ilgili değildi: 'Tanaka went on with her life, continuing to work as a part-time secretary at an advertising agency.'",
+                                                "wrong": {
+                                                    "1": "Üniversiteyi bırakıp tarifi kopyalamaya çalıştı.",
+                                                    "2": "Kushikatsu yapmaya odaklanmak için restoranda işe girdi.",
+                                                    "3": "Daha iyi öğrenmek için Tokyo'ya gitti."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 18,
+                                            "question": "The word decimated in paragraph 3 could best be replaced by ----.",
+                                            "options": [
+                                                "emotionally impacted",
+                                                "greatly decreased",
+                                                "definitely reorganized",
+                                                "physically harmed"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "\"Decimated\" büyük ölçüde azaltmak/yok etmek demektir. Kriz müşteri sayısını azalttı.",
+                                                "wrong": {
+                                                    "0": "Duygusal etki değil, sayısal azalma.",
+                                                    "2": "Yeniden organize etmek değil.",
+                                                    "3": "Fiziksel zarar değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 19,
+                                            "question": "According to paragraph 3, Tanaka was sure she had found her dad’s delicious kushikatsu recipe as soon as ----.",
+                                            "options": [
+                                                "the global financial crisis began",
+                                                "she started to pack her things for her possible move to her hometown",
+                                                "she found the handwritten kushikatsu recipe in her closet",
+                                                "she tasted the kushikatsu made from her dad’s recipe"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "3. paragrafın sonunda: 'However, the moment they tried it, Tanaka says, I knew it was definitely the taste...'. Tadına baktığı an anladı.",
+                                                "wrong": {
+                                                    "1": "Taşınmak için toparlanırken kağıdı buldu ama o an emin değildi.",
+                                                    "2": "Bulduğunda beklentileri düşüktü ('neither she nor her manager had high expectations')."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 20,
+                                            "question": "The phrase “do it” in paragraph 4 refers to ----.",
+                                            "options": [
+                                                "affording the rent",
+                                                "trying opening a small place",
+                                                "leaving the restaurant business",
+                                                "making plans"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Cümle: 'Her manager... decided to try opening a small place... A lot of people told me not to do it'. Yani o küçük dükkanı açmamasını söylediler.",
+                                                "wrong": {
+                                                    "0": "Kirayı ödemek değil.",
+                                                    "2": "İşi bırakmak değil, tam tersi yeni yer açmak.",
+                                                    "3": "Plan yapmak değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 21,
+                                            "question": "Which of the following statements can be inferred from paragraphs 4 and 5?",
+                                            "options": [
+                                                "People living near the restaurant were happy to have a popular kushikatsu restaurant in their neighborhood.",
+                                                "There were not long lines at other businesses in the neighborhood of the first kushikatsu restaurant.",
+                                                "The value of the “Kushikatsu Tanaka” restaurant chain may soon reach $5 million.",
+                                                "Tanaka is considering selling her father’s original recipe because of the large profit it would bring."
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "4. paragrafta 'not many people were going out to eat anyways' (zaten pek kimse yemeğe çıkmıyordu) deniyor. Bu, diğer yerlerin kalabalık olmadığını gösterir.",
+                                                "wrong": {
+                                                    "0": "Komşular mutlu değildi, şikayet ettiler ('drew complaints from neighbors').",
+                                                    "2": "Değerinin 5 milyona ulaşacağı metinde yok.",
+                                                    "3": "Tarifi satmayı düşünmüyor, 'only herself and her manager have seen it, and it’s going to stay that way' diyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 22,
+                                            "question": "Which statement is TRUE according to the text?",
+                                            "options": [
+                                                "There is one step in making kushikatsu which is more important than the others.",
+                                                "The recipe that Tanaka’s father used to make kushikatsu had been in his family for generations.",
+                                                "Tanaka’s finding her father’s recipe is what prevented her manager from leaving the restaurant industry.",
+                                                "Tanaka and her manager moved to a large restaurant as they were expecting their new kushikatsu recipe to be popular."
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Müdür sektörü bırakmayı planlıyordu ('making plans to leave the restaurant sector') ama tarifi denedikten sonra dükkan açmaya karar verdi.",
+                                                "wrong": {
+                                                    "0": "Tüm adımlar önemli: 'oil, coating, and sauce all have to be just right'.",
+                                                    "1": "Babası tarifi kendi çalışarak buldu, aileden kalma değil.",
+                                                    "3": "Büyük restorana değil, 'small place' (küçük bir yere) geçtiler çünkü bütçeleri kısıtlıydı."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Plan First",
+                                    "paragraphs": [
+                                        "Teachers and parents are always trying to find new ways to improve student performance. Teachers accept a new teaching method but then reject it for another one, and parents keep trying to get their kids to study more. However, an often-ignored simple solution is to get students to think about how they think—metacognition—and have them make strategies for how they study. This sounds obvious, but it is frequently forgotten. “All too often, students just jump mindlessly into studying before thinking about why they are using each resource and how to use the resource effectively,” says Patricia Chen, a researcher at Stanford University. “I find this very unfortunate because research shows it undermines their potential to learn well.” However, students can be taught to think strategically about thinking and studying, says Chen, the author of a recently published study about metacognition.",
+                                        "In the study, researchers conducted an experiment in which university students were given a questionnaire asking a variety of questions to help them think about studying effectively for the first exam in an introductory statistics class. The other students—the control group—simply received a reminder that their exam was coming up and they should prepare. Those who thought about what they needed to do before the exam outperformed those who did not by an average of about 5%. “The key insight of this study is the importance of having clear goals and being thoughtful about how one chooses and uses resources for learning,” Chen said.",
+                                        "The approach used in the study is so simple that any student, teacher or parent can use it. A week to 10 days before a test, a student takes a 15-minute survey about the test. The survey asks students to reflect on what kinds of questions the exam might include and to identify useful resources such as lecture notes, practice exam questions, textbook readings, instructor office hours, and peer discussions. They are asked to write down why each resource might be helpful and how they can use it, effectively mapping out a study plan. In addition to improving their grades, students who completed the survey reported less stress during the exam compared with their peers.",
+                                        "One key benefit of metacognition strategies is that not only teachers but also parents can teach them. For example, parents, who often play the role of academic guides, can help kids think about how they make use of their study resources. Chen says, “They can model this method by discussing which resources to use and can ask questions that nudge children to exercise this strategic thinking for themselves.” One specific question she suggested is, “What you are doing doesn’t seem to be working; is there something else you can do that would be more effective?” As adults, we have seen the benefits of more planning when a careful plan helped us get through a difficult conversation with a colleague or enabled us to create an effective presentation for an important meeting. Whether teacher or parent, we can pass this skill on to kids."
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 23,
+                                            "question": "The text mainly discusses ----.",
+                                            "options": [
+                                                "how learning to use metacognition will benefit students throughout their academic and work lives",
+                                                "studies showing the advantages and disadvantages of a new study technique called metacognition",
+                                                "why parents should make use of the metacognition approach and practical tips for how they make use of this method",
+                                                "a study supporting the effectiveness of metacognition and how parents and teachers can use it to help students"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Metin, 'metacognition' üzerine yapılan bir çalışmayı (study supporting effectiveness) ve ebeveyn/öğretmenlerin bunu nasıl kullanabileceğini (how parents and teachers can use it) anlatıyor.",
+                                                "wrong": {
+                                                    "0": "İş hayatına etkisi ana konu değil.",
+                                                    "1": "Dezavantajlarından bahsedilmiyor.",
+                                                    "2": "Sadece ebeveynlere değil, öğretmenlere ve öğrencilere de odaklanıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 24,
+                                            "question": "The word undermines in paragraph 1 could best be replaced by ----.",
+                                            "options": [
+                                                "maintains",
+                                                "persuades",
+                                                "reduces",
+                                                "improves"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "\"Undermines\" zayıflatmak, baltalamak demektir. Öğrenme potansiyelini azaltır (reduces).",
+                                                "wrong": {
+                                                    "0": "Maintains: sürdürmek.",
+                                                    "1": "Persuades: ikna etmek.",
+                                                    "3": "Improves: geliştirmek (tam zıttı)."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 25,
+                                            "question": "Paragraph 1 focuses on how metacognition can improve the achievement of ----.",
+                                            "options": [
+                                                "parents and teachers",
+                                                "students",
+                                                "researchers",
+                                                "all of these groups"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Metin öğrenci başarısını artırmaktan bahsediyor: 'improve student performance', 'get students to think'.",
+                                                "wrong": {
+                                                    "0": "Öğretmen ve ebeveynler yardımcı olan kişiler, başarısı artanlar değil.",
+                                                    "2": "Araştırmacılar konuyu inceleyen kişiler."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 26,
+                                            "question": "The study which is mentioned in paragraph 2 ----.",
+                                            "options": [
+                                                "looked at how a survey encouraging students to think about studying effectively affected scores on one exam",
+                                                "found positive effects on both students answering the survey and those in the control group",
+                                                "found that the difference in grades between students who studied and did not study was about 5%",
+                                                "showed that studying hard was more important than worrying about which materials to study"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Çalışma, öğrencilere çalışma stratejileri hakkında düşündüren bir anketin sınav notlarına etkisini inceledi.",
+                                                "wrong": {
+                                                    "1": "Sadece anket grubunda pozitif etki görüldü, kontrol grubunda değil.",
+                                                    "2": "Fark çalışanlar ve çalışmayanlar arasında değil, stratejik düşünenler (anketi yapanlar) ve yapmayanlar arasındaydı.",
+                                                    "3": "Tam tersi, 'thinking about... using each resource' (materyaller üzerine düşünmek) önemli bulundu."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 27,
+                                            "question": "Which statement is TRUE according to paragraph 3?",
+                                            "options": [
+                                                "Not only teachers but also parents should take the survey about studying when students have an exam.",
+                                                "In the survey, students were told to consider which types of questions could be on an exam and how each study resource might be useful.",
+                                                "Lecture notes and questions from previous exams were found to be the two most effective kinds of study materials.",
+                                                "The most effective study plan is to find a large variety of materials and then study each one of these resources in detail."
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Paragraf 3: 'The survey asks students to reflect on what kinds of questions the exam might include and to identify useful resources'.",
+                                                "wrong": {
+                                                    "0": "Anketi öğrenciler yapıyor, ebeveynler değil.",
+                                                    "2": "En etkili materyaller olduğu söylenmiyor, sadece örnek olarak listeleniyor.",
+                                                    "3": "Çok çeşitlilikten değil, doğru kaynağı seçmekten bahsediliyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 28,
+                                            "question": "The word nudge is paragraph 4 is closest in meaning to ----.",
+                                            "options": [
+                                                "encourage",
+                                                "observe",
+                                                "command",
+                                                "prevent"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "\"Nudge\" dürtmek, yönlendirmek, teşvik etmek demektir. Burada çocukları düşünmeye teşvik etmek (encourage) anlamında.",
+                                                "wrong": {
+                                                    "1": "Observe: gözlemlemek.",
+                                                    "2": "Command: emretmek.",
+                                                    "3": "Prevent: engellemek."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 29,
+                                            "question": "In paragraph 4, the writer of the article implies that ----.",
+                                            "options": [
+                                                "the key to helping kids succeed in school is to provide them the best possible study resources",
+                                                "parents should wait for their children to come to them with questions before showing them the metacognitive technique",
+                                                "parents can help their children learn to study using the metacognitive approach without teaching it directly",
+                                                "it is helpful for students to role play situations like having a difficult colleague or needing to make a presentation"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Paragraf 4'te ebeveynlerin doğru soruları sorarak ('ask questions that nudge children') çocuklara bu düşünce yapısını kazandırabileceği ima ediliyor, doğrudan ders verir gibi değil.",
+                                                "wrong": {
+                                                    "0": "Kaynak sağlamak değil, kaynağı nasıl kullanacağını düşündürmek önemli.",
+                                                    "1": "Beklemeleri gerektiği söylenmiyor.",
+                                                    "3": "İş arkadaşı örneği yetişkinler için verildi, öğrenciler rol yapsın diye değil."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Is technology harming my baby's brain?",
+                                    "paragraphs": [
+                                        "I kept my word for almost three months, until the day that my son, Oliver, wouldn’t stop crying. I rocked him, fed him, and changed his diaper, but nothing helped. Finally, I opened up the Comics app on my iPhone. As soon as I started going through the panels, my son’s crying stopped. I took his hand and moved it across the screen. When a new image appeared, he smiled happily. However, my mother asked with horror, \"Don't you know how bad that is for his brain?\" Then my wife yelled, \"You're going to damage his development.\" \"You're both crazy,\" I shouted back but put the phone back in my pocket. Oliver started crying again.",
+                                        "All new technologies are feared upon arrival. Parents complained that the radio was so addictive that children were skipping meals. Next, the film was said to transform viewers into sexually deviant criminals, and television to destroy brain cells. Then, video games were supposed to create violent killers. Thus, I viewed my mother’s suspicions about screens as part of this fear of new gadgets. A few days later, however, she sent me an e-mail with links to various scientific studies about how computers affect young children’s brains. Too much screen time is reported to lead to poor concentration and emotional instability. By the age of five, children who spend more than three hours a day in front of a screen are said to be more likely to participate in antisocial behaviors such as fighting with peers and stealing . Although I didn’t want to agree, they contained evidence I just couldn’t ignore. It appeared that my being a high-tech dad might actually hurt my son.",
+                                        "During the first two years of a baby’s life, its brain triples in weight. It’s a period of growth that will never be matched again in its life. Those early years are a crucial time for mental development. Synapses, the connections between neurons in the brain, multiply in number. We’re born with about 2,500 synapses per neuron, but already by age three we have around 15,000. From that point the number of neural connections actually begins to decrease. I feel facts like these could corroborate allowing access to technology for Oliver because playing interactive games will prepare his brain to build great digital tools.",
+                                        "Dr. Dimitri Christakis, director of the Seattle Children's Research Institute, agrees with this approach. “Screens are only a delivery mechanism. What parents should focus on is content,” he says. He argues that a complete ban on screens doesn’t make sense. What matters is distinguishing between passive and active consumption. In a study he conducted, groups of kids either did a passive activity like watching TV or an active one like playing with blocks. The group participating in the active block play scored significantly better on subsequent language acquisition tests. Christakis is now doing a follow-up study about language development in which he compares the impact of television to a different interactive activity: playing iPad games. He is expecting that the effects of these two activities on language acquisition will also differ greatly.",
+                                        "It is silly for me to worry that Oliver won’t become comfortable with technology unless he always uses my iPad. However, it is just as foolish to think that brief exposure to gadgets and screens is toxic for his brain. As long as I expose him to many different activities, things will sort themselves out. Besides, whatever technology I’m preparing him for or protecting him from today will likely be as outdated to a teenage Oliver as my collection of 1990s CDs."
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 30,
+                                            "question": "From paragraph 1, the reader understands that the writer of the article had promised that he would not ----.",
+                                            "options": [
+                                                "tell a lie to his wife or mother",
+                                                "let his baby cry for a long period of time",
+                                                "allow his baby to play with his iPhone",
+                                                "lose an argument with his wife"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "\"I kept my word for almost three months, until the day that my son... wouldn’t stop crying... Finally, I opened up the Comics app on my iPhone.\" Yazar 3 ay boyunca sözünü tutmuş ama sonunda dayanamayıp telefonu açmış. Demek ki telefonu kullandırmamaya söz vermişti.",
+                                                "wrong": {
+                                                    "0": "Yalan söylemekten bahsedilmiyor.",
+                                                    "1": "Ağlamasına izin vermeyeceğine dair değil, telefon kullanmayacağına dair söz.",
+                                                    "3": "Tartışmayı kaybetmekle ilgili değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 31,
+                                            "question": "The word they in paragraph 2 refers to",
+                                            "options": [
+                                                "anti-social behaviors",
+                                                "various scientific studies",
+                                                "his mother’s suspicions about screens",
+                                                "all new technologies"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Cümle: 'Although I didn’t want to agree, they contained evidence'. Kanıt içeren şey 'scientific studies' (bilimsel çalışmalar) dır.",
+                                                "wrong": {
+                                                    "0": "Davranışlar kanıt içermez.",
+                                                    "2": "Şüpheler kanıt içermez.",
+                                                    "3": "Teknolojiler değil, çalışmalar kanıt sundu."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 32,
+                                            "question": "Which of the following sentences best summarizes paragraph 2?",
+                                            "options": [
+                                                "There is a general fear of new technology, and there are studies that indicate screen time harms young children.",
+                                                "Although the writer’s mother was afraid of technology, the writer understood it did not have negative effects.",
+                                                "Technology leads to a decrease in appetite, a mixed-up view of sex, and violence in young children.",
+                                                "Screen time has short-term as well as long-term negative effects on young children."
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Paragraf önce tarihsel olarak yeni teknolojilerden korkulduğunu (radio, TV fear) anlatıyor, sonra da ekran süresinin zararlarını gösteren çalışmalara (studies lead to poor concentration) değiniyor.",
+                                                "wrong": {
+                                                    "1": "Yazar olumsuz etkileri anladı ve kabul etti ('contained evidence I just couldn’t ignore').",
+                                                    "2": "Bu şık sadece geçmişteki korkuları listeliyor, bilimsel çalışmaları atlıyor.",
+                                                    "3": "Sadece zararlara odaklanıyor, teknoloji korkusu bağlamını kaçırıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 33,
+                                            "question": "Which of the following negative effects of technology on young children is NOT mentioned in paragraph 2?",
+                                            "options": [
+                                                "Poor physical development",
+                                                "Inability to focus",
+                                                "Quickly changing feelings",
+                                                "Arguments with other children"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Paragrafta odaklanma sorunu (poor concentration), duygusal dengesizlik (emotional instability) ve kavga (fighting) geçiyor ama fiziksel gelişimden (poor physical development) bahsedilmiyor.",
+                                                "wrong": {
+                                                    "1": "Poor concentration metinde var.",
+                                                    "2": "Emotional instability metinde var.",
+                                                    "3": "Fighting with peers metinde var."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 34,
+                                            "question": "The word corroborate in paragraph 3 is closest in meaning to ----.",
+                                            "options": [
+                                                "design",
+                                                "distribute",
+                                                "prevent",
+                                                "support"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "\"Corroborate\" desteklemek, doğrulamak demektir. Yazar bu gerçeklerin teknoloji kullanımını destekleyebileceğini (support) düşünüyor.",
+                                                "wrong": {
+                                                    "0": "Design: tasarlamak.",
+                                                    "1": "Distribute: dağıtmak.",
+                                                    "2": "Prevent: önlemek."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 35,
+                                            "question": "In paragraph 3, one point that the writer makes is ----.",
+                                            "options": [
+                                                "that a newborn baby’s brain is surprisingly large",
+                                                "that a young child’s brain develops amazingly quickly",
+                                                "the importance of understanding how the latest technology works",
+                                                "the great amount of damage screens can cause to a baby’s brain"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Paragraf 3: 'During the first two years... brain triples in weight... Synapses... multiply in number'. Beynin çok hızlı geliştiğini anlatıyor.",
+                                                "wrong": {
+                                                    "0": "Büyük olduğundan değil, ağırlığının üç katına çıktığından bahsediliyor.",
+                                                    "2": "Teknolojinin nasıl çalıştığı anlatılmıyor.",
+                                                    "3": "Bu paragraf gelişime odaklanıyor, zarara değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 36,
+                                            "question": "In paragraph 4, it is clear that Dr. Dimitri Christakis thinks that ----.",
+                                            "options": [
+                                                "positive content on TV or in an interactive iPad game will lead to similar language gains",
+                                                "although screens are harmful for children, it is acceptable to allow them to use them for short periods of time",
+                                                "it is extremely difficult to make screen time interactive on either a TV or an iPad",
+                                                "both iPad games and blocks may influence language acquisition positively"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Doktor, aktif/etkileşimli aktivitelerin (bloklarla oynamak) iyi olduğunu bulmuş ve iPad oyunlarının da (interaktif olduğu için) TV'den (pasif) farklı ve olumlu sonuç vermesini bekliyor.",
+                                                "wrong": {
+                                                    "0": "TV pasif olduğu için benzer kazanım beklemiyor, farklı olmasını bekliyor.",
+                                                    "1": "Kısa süre kullanım değil, içerik (aktif/pasif) önemli diyor.",
+                                                    "2": "Zor olduğunu söylemiyor, ayrım yapılması gerektiğini söylüyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 37,
+                                            "question": "In paragraph 5, the writer reaches the conclusion that ----.",
+                                            "options": [
+                                                "he needs to find many more opportunities for his child to interact with technology",
+                                                "a child’s brain is very sensitive, so he needs to protect his son from harmful exposure to technology",
+                                                "if he provides his son with a variety of experiences, his brain will develop in a healthy way",
+                                                "he needs to buy the latest technological tools for his son today so that his son will be successful in his teens"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Paragraf 5: 'As long as I expose him to many different activities, things will sort themselves out.' Farklı aktivitelere maruz bıraktığı sürece her şeyin yoluna gireceğini düşünüyor.",
+                                                "wrong": {
+                                                    "0": "Daha fazla teknoloji değil, çeşitlilik arıyor.",
+                                                    "1": "Korumacı bir tavırdan vazgeçip dengeyi savunuyor ('just as foolish to think brief exposure is toxic').",
+                                                    "3": "Bugünkü teknolojinin gelecekte eskiyeceğini söylüyor."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 4,
+                                    "title": "Surgery with Eyes Wide Open",
+                                    "paragraphs": [
+                                        "While doing the surgery on Esther Voynow’s wrist, Dr. Asif Ilyas, a hand and wrist surgeon, asked his patient, “Do you want to see your tendons?” Voynow accepted the offer to inspect the tendons which had been the source of so much pain in her wrist, but she could only bear a quick look and manage to say, “That’s pretty neat,” before turning away. The operation Dr. Ilyas performed is usually done with the patient under anesthesia, but Voynow had chosen to remain awake and use only a local anesthetic.",
+                                        "More surgical patients are keeping their eyes open during surgery, but doctor-patient protocol has not always kept pace with the new practice. Patients often become anxious during any silence which seems too long, so doctors need to make comments sometimes. Patients can also get stressed by what the doctor thinks is a harmless joke like, “I’m going to get a sharper knife.” Doctors are also beginning to realize that when a patient is alert, it is not acceptable to say, “I wasn’t expecting that,” when a problem comes up during surgery. As a heads-up to hospital staff to be more sensitive, many hospitals now post signs on the surgery door: AWAKE PATIENT.",
+                                        "Patients’ choosing to watch their own surgeries is a result of many factors. Many simply want to involve themselves more deeply in their own medical treatment. Patients also wonder what is being done to them while they are asleep. In choosing to stay awake, they can satisfy their curiosity. In addition, many patients feel less anxious about staying awake during surgery, despite what they might see, than they do about receiving anesthesia. Also, local anesthesia causes fewer problems after surgery than general anesthesia and is less expensive. However, Dr. Alexander Langerman, a head and neck surgeon on the faculty of Vanderbilt University Medical Center, said that deciding to remain awake during an operation also shows a distrust of authority. Noting how pedestrians pull out smartphones to document police activity, he said, “There’s some of that for patients, too, so they want to watch because they can’t take pictures.”",
+                                        "After awake surgery, patient satisfaction tends to be higher. As nurses took Voynow out of the operating room, she looked pleasantly surprised. “I’ve had dental work that was much worse,” she said. Just a half-hour after the surgery, she drove herself home, using her right hand, which had just been operated on. In contrast, if she had been given general anesthesia, she would have needed several hours to recover, had side effects like dizziness and nausea, and required someone to drive her home. Her bill also would have been quite a bit higher.",
+                                        "Whether the patient is offered the option of staying awake depends on many factors such as the type of surgery, the willingness of the surgeon, and the ability of a busy hospital to work with patient preferences. Typically patients meet and make decisions with an anesthesiologist moments before an operation, but awake surgery requires meeting with patients earlier to let them know what to expect. Patients are also evaluated for whether they are likely to succumb to stress while awake, and patients who seem overly anxious are discouraged from trying awake surgery. Moreover, patients are informed about the possibility of full anesthesia if awake surgery is not going well. While a satisfying personal experience is the ideal, patients are told the most important factor is safety, including the ability of the surgeon to focus and communicate with other medical staff members without interruption.",
+                                        "Awake surgery is not for everyone. Despite encouraging many to remain awake during surgery, when Dr. Ilyas needed surgery, he chose the old-fashioned way. “In a recent surgery I received, I had the option to be awake, but I said I’d rather be asleep!”"
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 38,
+                                            "question": "From paragraph 1, it is clear that ----.",
+                                            "options": [
+                                                "Dr. Ilyas is uncomfortable operating on patients who are awake",
+                                                "the surgery on Voynow’s wrist was the first awake surgery Dr. Ilyas performed",
+                                                "Voynow experienced a lot of pain during her awake surgery",
+                                                "Voynow actually saw the tendons in her wrist during surgery"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Doktor sordu: 'Do you want to see...?' Voynow kabul etti: 'Voynow accepted the offer... but she could only bear a quick look'. Yani kısa bir süre de olsa tendonlarını gördü.",
+                                                "wrong": {
+                                                    "0": "Rahatsız değil, aksine teklif ediyor.",
+                                                    "1": "İlk ameliyatı olduğu söylenmiyor.",
+                                                    "2": "Acı çektiği söylenmiyor, 'source of so much pain' (acı kaynağı olan tendonlar) ameliyat öncesi durumu anlatıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 39,
+                                            "question": "The word heads-up in paragraph 2 is closest in meaning to ----.",
+                                            "options": [
+                                                "caution",
+                                                "danger",
+                                                "example",
+                                                "possibility"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "\"Heads-up\" uyarı, ikaz demektir. Kapıya asılan tabela personeli uyarmak (caution) içindir.",
+                                                "wrong": {
+                                                    "1": "Danger: tehlike.",
+                                                    "2": "Example: örnek.",
+                                                    "3": "Possibility: olasılık."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 40,
+                                            "question": "In paragraph 2, which of the following actions does the writer suggest for doctors during an awake surgery?",
+                                            "options": [
+                                                "Remaining silent throughout the surgery",
+                                                "Making occasional conversation",
+                                                "Giving a detailed description of any difficulties to a patient",
+                                                "Making lots of jokes about surgical procedures"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Hastalar uzun sessizlikte endişeleniyor, bu yüzden doktorlar bazen yorum yapmalı: 'doctors need to make comments sometimes'.",
+                                                "wrong": {
+                                                    "0": "Sessizlik hastayı geriyor.",
+                                                    "2": "Zorlukları söylemek ('I wasn't expecting that') kabul edilemez.",
+                                                    "3": "Şaka yapmak hastayı strese sokabilir."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 41,
+                                            "question": "The word that in paragraph 3 refers to ----.",
+                                            "options": [
+                                                "documenting police activity",
+                                                "pulling out smartphones",
+                                                "a distrust of authority",
+                                                "deciding to remain awake during surgery"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "\"There's some of THAT for patients\". Cümle, otoriteye güvensizlikten (distrust of authority) ve insanların polisi kaydetmesinden bahsediyor. Hastalarda da 'bundan' (güvensizlikten) biraz var deniyor.",
+                                                "wrong": {
+                                                    "0": "Polis aktivitesini belgelemek sadece bir örnek.",
+                                                    "3": "Uyanık kalma kararı sonucun kendisi, referans verilen neden (güvensizlik) değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 42,
+                                            "question": "In paragraph 3, which of the following is NOT mentioned as a reason for patients’ preference for awake surgeries?",
+                                            "options": [
+                                                "Having a stronger feeling of being part of their treatment",
+                                                "Having the ability to give advice to the doctor",
+                                                "Experiencing fewer problems during recovery",
+                                                "Paying less money for the surgery"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Tedavinin parçası olma (involve themselves), merak, daha az anestezi sorunu (fewer problems) ve maliyet (less expensive) metinde geçiyor. Ancak doktora tavsiye vermek (give advice) geçmiyor.",
+                                                "wrong": {
+                                                    "0": "Metinde var: 'involve themselves more deeply'.",
+                                                    "2": "Metinde var: 'fewer problems after surgery'.",
+                                                    "3": "Metinde var: 'less expensive'."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 43,
+                                            "question": "According to paragraph 4, it is clear that ----.",
+                                            "options": [
+                                                "awake surgery had a negative effect on Voynow’s teeth",
+                                                "Voynow used the wrist which was operated on sooner than she should have",
+                                                "Voynow had arranged for someone to drive her home, but the person did not come",
+                                                "Voynow did not experience either dizziness or nausea."
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Metinde, genel anestezi alsaydı baş dönmesi ve mide bulantısı yaşardı ('if she had been given general anesthesia... had side effects like dizziness and nausea') deniyor. Yani uyanık olduğu için bunları yaşamadı.",
+                                                "wrong": {
+                                                    "0": "Diş işleri daha kötüydü dedi, dişine zarar geldi demedi.",
+                                                    "1": "Erken kullandığına dair olumsuz bir ifade yok, eve dönerken kullanabildi.",
+                                                    "2": "Kendi arabasını kendi sürdü, birini ayarladığı söylenmiyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 44,
+                                            "question": "The phrase succumb to in paragraph 5 is closest in meaning to ----.",
+                                            "options": [
+                                                "be able to identify",
+                                                "be able to understand",
+                                                "not be able to handle",
+                                                "not be able to discuss"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "\"Succumb to stress\" strese yenik düşmek, stresi kaldıramamak demektir. 'Not be able to handle' (başa çıkamamak) ile eşleşir.",
+                                                "wrong": {
+                                                    "0": "Identify: tanımlamak.",
+                                                    "1": "Understand: anlamak.",
+                                                    "3": "Discuss: tartışmak."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 45,
+                                            "question": "Paragraph 5 mentions that patients who choose to have awake surgery will ----.",
+                                            "options": [
+                                                "have a meeting with the doctor right before surgery",
+                                                "be told about what will happen if local anesthesia is not working effectively",
+                                                "be able to ask many questions to the doctor during the surgery",
+                                                "be told that the doctor’s primary concern is to make sure they are happy with their awake surgery experience"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Paragraf 5: 'patients are informed about the possibility of full anesthesia if awake surgery is not going well.' (İşler yolunda gitmezse tam anestezi olasılığı hakkında bilgilendirilirler).",
+                                                "wrong": {
+                                                    "0": "Normalde ameliyattan hemen önce olur ama uyanık cerrahi için 'daha önce' (earlier) görüşmek gerekir.",
+                                                    "2": "Soru sormaktan bahsedilmiyor, cerrahın odaklanması önemli.",
+                                                    "3": "Birincil öncelik mutluluk değil, güvenliktir ('most important factor is safety')."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }

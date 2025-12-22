@@ -1,0 +1,845 @@
+{
+    "id": 1,
+    "title": "PROFICIENCY WIZARD Test",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Moon",
+                    "passage": {
+                        "title": "The Moon",
+                        "text": "Earth has just one moon a rocky, cratered place, roughly a quarter the size of Earth and an average of 238,855 miles away. The Moon, which can be seen with the naked eye most nights as it (1)_____ its 27-day orbit around our planet, has always held a special place in our imaginations and in daily life. It's no wonder (2)_____ we are fascinated. The Moon is Earth's only natural satellite and one that we can easily see most nights. If you have looked into the night sky, you (3)_____ the Moon appears to change shape each night. Some nights, the Moon might look like a narrow crescent. Other nights, the Moon might look like a bright circle. And on other nights, you might not be able to see the Moon (4)_____. The different shapes of the Moon that we see at different times of the month are called the Moon's phases. Why does this happen? The shape of the Moon isn't changing (5)_____ the month. However, our view of the Moon does change. The Moon does not produce its own light. There is only one source of light in our solar system, and that is the Sun. (6)_____ the Sun, our Moon would be completely dark. What you may have heard (7)_____ to as \"moonlight\" is actually just sunlight reflecting off of the Moon's surface. The Sun's light comes from one direction, and it always (8)_____ one half of the Moon - the side of the Moon that is facing the Sun. The other side of the Moon is dark. On Earth, our view of the bright part of the Moon changes each night, depending on where the Moon is in its orbit, or path, around Earth. When we have a full view of the bright side of the Moon, that phase is known as a full moon. But following the night of each full moon, as the Moon orbits around Earth, we start to see less of the Moon lit by the Sun. (9)_____, the Moon reaches a point in its orbit when we don't see any part of the Moon bright. At that point, the far side of the Moon is facing the Sun. This phase is called a new moon. During the new moon, the side facing Earth is dark."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "embraces",
+                                "traces",
+                                "curtails",
+                                "refrains"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"traces\" (izini sürmek/çizmek) doğru cevaptır. Ay'ın yörüngesini takip etmesi veya o yolu izlemesi anlamında \"traces its orbit\" kalıbı kullanılır.",
+                                "wrong": {
+                                    "0": "\"embraces\" kucaklamak veya benimsemek demektir, yörünge için kullanılmaz.",
+                                    "2": "\"curtails\" kısaltmak veya azaltmak demektir.",
+                                    "3": "\"refrains\" kaçınmak veya sakınmak demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "what",
+                                "which",
+                                "that",
+                                "whom"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"that\" doğru cevaptır. \"It is no wonder that...\" kalıbı, \"... olması şaşırtıcı değildir\" anlamındadır. Burada 'that', sıfat cümlesi (noun clause) bağlacı olarak kullanılmıştır.",
+                                "wrong": {
+                                    "0": "\"what\" burada gramer olarak uymaz çünkü özne ve fiil tamdır.",
+                                    "1": "\"which\" genellikle cansız varlıkları nitelemek için kullanılır, burada bir durumu açıklıyoruz.",
+                                    "3": "\"whom\" sadece insanlar (nesne durumunda) için kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "have been noticed",
+                                "may have noticed",
+                                "were able to notice",
+                                "could have been noticed"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"may have noticed\" (farketmiş olabilirsiniz) doğru cevaptır. Geçmişe yönelik bir ihtimalden veya çıkarımdan bahsederken \"may/might have V3\" yapısı kullanılır.",
+                                "wrong": {
+                                    "0": "\"have been noticed\" pasif (edilgen) yapıdır, ancak özne \"you\" (sen) işi yapan kişidir, fark edilen değil.",
+                                    "2": "\"were able to notice\" o an fark edebildiniz anlamındadır, ancak burada genel bir gözlemden bahsediliyor.",
+                                    "3": "\"could have been noticed\" hem pasif hem de anlam olarak buraya uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "at all",
+                                "either",
+                                "almost never",
+                                "too"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"at all\" (hiç/hiçbir şekilde) doğru cevaptır. Olumsuz cümlelerde (not be able to see) vurgu yapmak için \"not ... at all\" kalıbı kullanılır. \"Ay'ı HİÇ göremeyebilirsiniz\" anlamı katar.",
+                                "wrong": {
+                                    "1": "\"either\" genellikle \"de/da\" anlamında olumsuz cümle sonunda kullanılır ama burada anlam \"hiç\" olmalı.",
+                                    "2": "\"almost never\" cümle yapısını bozar çünkü zaten \"might not\" kullanılmış.",
+                                    "3": "\"too\" olumlu cümlelerde \"de/da\" anlamı katar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "throughout",
+                                "outside",
+                                "upon",
+                                "along with"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"throughout\" (boyunca) doğru cevaptır. \"Throughout the month\" ifadesi \"ay boyunca\" veya \"bütün bir ay süresince\" anlamını verir.",
+                                "wrong": {
+                                    "1": "\"outside\" dışarısında demektir, zaman ifadesi olarak buraya uymaz.",
+                                    "2": "\"upon\" üzerine demektir.",
+                                    "3": "\"along with\" ile birlikte demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "In accordance with",
+                                "Due to",
+                                "As though",
+                                "But for"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"But for\" (... olmasaydı) doğru cevaptır. Bu yapı gizli bir \"If\" (koşul) anlamı taşır: \"Güneş olmasaydı, Ay tamamen karanlık olurdu.\"",
+                                "wrong": {
+                                    "0": "\"In accordance with\" uyumlu olarak demektir.",
+                                    "1": "\"Due to\" -den dolayı demektir, anlamlı bir cümle kurmaz.",
+                                    "2": "\"As though\" -mış gibi demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "referring",
+                                "having referred",
+                                "to be referring",
+                                "referred"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"referred\" doğru cevaptır. \"Heard referred to as\" kalıbı, bir şeyin \"... olarak anıldığını/adlandırıldığını duymak\" anlamındadır. Burada passive (edilgen) bir kısaltma vardır.",
+                                "wrong": {
+                                    "0": "\"referring\" active (etken) anlam taşır, ancak \"moonlight\" kendi kendine referans vermez, ona referans verilir.",
+                                    "1": "\"having referred\" geçmiş zaman active yapısıdır.",
+                                    "2": "\"to be referring\" şimdiki zaman active yapısıdır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "entails",
+                                "apprehends",
+                                "illuminates",
+                                "bewilders"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"illuminates\" (aydınlatmak) doğru cevaptır. Cümlede Güneş ışığının Ay'ın bir yüzünü aydınlatmasından bahsediliyor.",
+                                "wrong": {
+                                    "0": "\"entails\" gerektirmek veya kapsamak demektir.",
+                                    "1": "\"apprehends\" yakalamak veya anlamak demektir.",
+                                    "3": "\"bewilders\" şaşırtmak, hayret içinde bırakmak demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "On the other hand",
+                                "To sum up",
+                                "In the end",
+                                "As for"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"In the end\" (Nihayetinde/Sonunda) doğru cevaptır. Ay'ın evreleri anlatılıyor: Dolunaydan başlıyor, ışık azalıyor ve SONUNDA hiç ışık görünmüyor (Yeni Ay). Sürecin bitişini ifade eder.",
+                                "wrong": {
+                                    "0": "\"On the other hand\" zıtlık belirtir (diğer yandan), burada bir süreç sıralaması var.",
+                                    "1": "\"To sum up\" özetlemek gerekirse demektir, ancak burada süreç devam ediyor.",
+                                    "3": "\"As for\" ...-e gelince demektir, konu değiştirirken kullanılır."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement & Vocabulary",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "A large number of child abductions arise when one divorced parent wishes to keep a child against the will of the other.",
+                            "options": [
+                                "The majority of kidnappers are divorced parents who try to see their children more often than the court has ruled.",
+                                "A lot of children are kidnapped because divorced parents want their children to stay with them instead of with their ex-spouses.",
+                                "There are a lot of children who face the risk of being kidnapped by one of their parents who goes through a period of extreme distress.",
+                                "The number of children who are abducted by one of their parents and wish to return to the other parent is quite high."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Çocuk kaçırmaların çoğu, boşanmış bir ebeveynin diğerinin isteğine karşı çocuğu tutmak istemesiyle ortaya çıkar.' B şıkkı bu anlamı tam karşılıyor: 'Boşanmış ebeveynler çocuklarının eski eşleri yerine kendileriyle kalmasını istedikleri için birçok çocuk kaçırılır.'",
+                                "wrong": {
+                                    "0": "A şıkkı 'mahkeme kararından daha sık görmek' diyor, orijinalde 'keep' (tutmak/vermemek) var.",
+                                    "2": "C şıkkı 'aşırı sıkıntı çeken ebeveyn' detayını eklemiş, orijinalde bu yok.",
+                                    "3": "D şıkkı 'çocukların diğer ebeveyne dönmek istemesi'ne odaklanmış, orijinalde ebeveynlerin isteği vurgulanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "There is no limit on the fine or the term of imprisonment for kidnapping provided the sentence is not excessive.",
+                            "options": [
+                                "The time that has to be spent in jail or the fine that has to be paid by kidnappers depends on whether or not they kidnapped the person by using physical force.",
+                                "A kidnapper can be sentenced to any amount of fine or any length of imprisonment on condition that he or she agrees that he or she deserves the fine or the term of imprisonment.",
+                                "The amount of money that a kidnapper can be made to pay or the time that he or she can be made to spend in prison has no limit as long as the sentence is reasonably acceptable.",
+                                "It is quite strange that there is no limit on the extent of punishment for kidnapping because it is always possible for judges to act unreasonably and impose excessive fines and prison terms."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Cezanın aşırı olmaması KOŞULUYLA (provided), para veya hapis cezasında bir sınır yoktur.' C şıkkı bunu 'as long as the sentence is reasonably acceptable' (makul düzeyde olduğu sürece) diyerek tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'fiziksel güç kullanıp kullanmadığına bağlı' diyor, orijinalde böyle bir şart yok.",
+                                    "1": "B şıkkı 'suçlunun cezayı hak ettiğini kabul etmesi şartıyla' diyor, bu çok yanlış.",
+                                    "3": "D şıkkı yargıçların mantıksız davranabileceği yorumunu katmış, orijinalde yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Kidnapping has been identified as one source through which terrorist organizations obtain funding.",
+                            "options": [
+                                "One of the sources that terrorist organizations use to scare people is kidnapping children.",
+                                "One of the sources that terrorist organizations use to collect money may be abduction.",
+                                "It is necessary to identify the terrorist organizations that kidnap people for ransom.",
+                                "It has been identified that one of the methods terrorist organizations use to obtain money is kidnapping."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Kaçırma, terör örgütlerinin fon/para sağladığı bir kaynak olarak tanımlanmıştır.' D şıkkı 'para elde etmek için kullandıkları yöntemlerden birinin kaçırma olduğu tespit edilmiştir' diyerek birebir eşleşiyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'insanları korkutmak için' diyor, orijinalde 'funding' (para kaynağı) vurgusu var.",
+                                    "1": "B şıkkı 'may be' (olabilir) diyor, orijinalde 'has been identified' (tespit edildi) kesinlik var.",
+                                    "2": "C şıkkı 'tespit etmek gereklidir' diyor, yapılmış bir tespitten bahsetmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Kidnapping for ransom is seen in various parts of the world, but certain cities and countries are described as the kidnapping capitals of the world.",
+                            "options": [
+                                "In different parts of the world, there are organizations that kidnap people for money, but such cases are more common in capital cities of developed countries.",
+                                "People are kidnapped for ransom in different places around the world, yet there are specific cities and countries where such cases are far more frequent than in others.",
+                                "There are various types of kidnappings in cities and countries all over the world, but the most common of all is kidnapping for ransom.",
+                                "Although people are kidnapped for ransom in almost every part of the world, capital cities are places where the most violent ones occur."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Fidye için kaçırma dünyanın çeşitli yerlerinde görülür AMA bazı şehirler kaçırmanın başkenti olarak tanımlanır (yani oralarda çok daha fazladır).' B şıkkı 'dünyada görülür ANCAK (yet) bazı yerlerde çok daha sıktır' diyerek anlamı koruyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'gelişmiş ülkelerin başkentlerinde' diyor, orijinalde sadece 'başkent gibi görülen (çok olay olan) yerler' deniyor.",
+                                    "2": "C şıkkı 'en yaygın tür fidye için kaçırmadır' diyor, tür karşılaştırması yok.",
+                                    "3": "D şıkkı 'en şiddetli olanlar başkentlerde olur' diyor, şiddet değil sıklık vurgulanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Those who live in poverty have been shown to have a far greater likelihood of having a disability within their lifetime.",
+                            "options": [
+                                "It has been proven that the poorer you are, the more likely it is for you to have a disabled child.",
+                                "There is proof that the poor are much more likely to have a disability at some point in their life.",
+                                "According to scientific research, poor people's chances of surviving with a disability are much lower than those of the rich.",
+                                "At some point in their life, poor people have to accept the fact that they are not lucky enough to lead a decent life."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Yoksulluk içinde yaşayanların, yaşamları boyunca bir engelliliğe sahip olma ihtimalinin çok daha yüksek olduğu gösterilmiştir.' B şıkkı bu anlamı tam veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'engelli ÇOCUĞA sahip olmak' diyor, orijinalde kişinin kendisinin engelli olmasından bahsediliyor.",
+                                    "2": "C şıkkı 'hayatta kalma şansı'ndan bahsediyor, orijinalde engelli olma ihtimali var.",
+                                    "3": "D şıkkı 'kabul etmek zorundalar' gibi duygusal bir yorum katmış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Censorship is the suppression of any piece of information which is considered harmful or inconvenient by the government.",
+                            "options": [
+                                "Censorship can be defined as preventing people from sharing knowledge they have with other people in return for government protection.",
+                                "There is nothing wrong with censoring information if it is considered wrong or unacceptable by the government.",
+                                "Any harmful or unacceptable piece of information should be censored so that it won't cause suppression within the country.",
+                                "If any piece of information is prevented from reaching people because it is thought to be harmful or inappropriate by the government, it means it has been censored."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümle bir tanım cümlesidir: 'Sansür, hükümet tarafından zararlı görülen bilginin bastırılmasıdır.' D şıkkı bu tanımı 'Eğer bilgi zararlı görüldüğü için engelleniyorsa, bu sansürlenmiş demektir' şeklinde yeniden ifade ediyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'hükümet koruması karşılığında' diyor, bu tamamen uydurma.",
+                                    "1": "B şıkkı 'bunda yanlış bir şey yoktur' diyerek yorum katıyor.",
+                                    "2": "C şıkkı 'sansürlenmelidir' (should be) diyerek tavsiye veriyor, orijinal cümle sadece tanım yapıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "Many countries provide strong protections against censorship by law, but frequently a claim of necessity to balance conflicting rights is made.",
+                            "options": [
+                                "A lot of countries try to protect their people and institutions against censorship by law, but usually these laws fail to provide any actual protection.",
+                                "A large number of countries have laws protecting their citizens against censorship, yet the majority of people tend to ignore them in case of conflicting rights.",
+                                "Even though there are strong legal protections against censorship in a lot of countries, it is often claimed that conflicting rights must be balanced.",
+                                "Although almost all countries claim to provide legal protection against censorship, it is hard to say that conflicting rights are balanced successfully."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Birçok ülke yasalarla güçlü koruma sağlar AMA sıklıkla hakları dengelemek gerektiği iddia edilir (sansüre bahane olarak).' C şıkkı bu zıtlığı (Even though...) ve iddiayı (claimed that...) tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'yasalar koruma sağlamada başarısız olur' diyor, orijinalde sadece bir iddiadan bahsediliyor.",
+                                    "1": "B şıkkı 'insanlar yasaları görmezden gelir' diyor, özne insanlar değil.",
+                                    "3": "D şıkkı 'dengelendiğini söylemek zordur' diyor, orijinalde dengeleme 'iddiası' vurgulanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Censoring the content of school textbooks is often an issue of debate since their target audience is young people.",
+                            "options": [
+                                "School textbooks are aimed at young people; consequently, there is often a lot of discussion going on about censoring book content.",
+                                "It may be said that censoring school textbooks is wrong; however, as they are written for young people, there is nothing wrong with censoring them.",
+                                "A current issue of debate concerning textbooks is censorship, which is quite normal because young people always deserve the best.",
+                                "Since the first school textbook was written, there has been heated debate about censoring them because of their target audience."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Okul kitaplarını sansürlemek, hedef kitle gençler olduğu İÇİN (since) genelde tartışma konusudur.' A şıkkı 'hedef kitle gençlerdir; BU YÜZDEN (consequently) çokça tartışma vardır' diyerek sebep-sonuç ilişkisini koruyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'sansürlemekte yanlış bir şey yok' diyor, yorum katıyor.",
+                                    "2": "C şıkkı 'gençler en iyisini hak eder' diyor, orijinalde sebep bu değil.",
+                                    "3": "D şıkkı 'ilk kitap yazıldığından beri' diyerek zaman kısıtlaması ekliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "The main difference between online censorship and other forms of censorship is that national borders are more permeable online.",
+                            "options": [
+                                "One of the less important differences between online censorship and offline censorship is that the Internet can cause state borders to disappear.",
+                                "There are a lot of differences between online and offline censorships, and one of them is difficult to understand without referring to national boundaries.",
+                                "What makes Internet censorship different from other types of censorship is the fact that it is easier to pass data through national borders thanks to the Internet.",
+                                "The most important difference between Internet censorship and the other censorship could be the effect of state boundaries on people's ideas of censorship."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 'Çevrimiçi sansürün en büyük farkı, ulusal sınırların internette daha GEÇİRGEN (permeable) olmasıdır.' C şıkkı 'veriyi sınırlardan geçirmenin daha kolay olması' diyerek 'geçirgen' kelimesini açıklıyor ve anlamı koruyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'daha az önemli farklardan biri' diyor, orijinalde 'main difference' (ana fark) deniyor.",
+                                    "1": "B şıkkı 'anlaması zordur' diyor, zorluktan bahsedilmiyor.",
+                                    "3": "D şıkkı 'sınırların insanların fikirleri üzerindeki etkisi' diyor, fikirlerden bahsedilmiyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Text 1: Kidnapping in Africa",
+                    "passage": {
+                        "title": "Kidnapping in Africa",
+                        "text": "There is an ongoing high threat of kidnapping against Westerners in north, west and east Africa. This risk is particularly high in Mauritania, Mali, Niger, Burkina Faso, southern Algeria, Nigeria, Kenya, Sudan, Tunisia and Somalia. For example, in May 2010, an American aid worker was kidnapped in Sudan. In June 2010, two German aid workers were kidnapped in the same area. More recently, on 8 January 2011, two French nationals were kidnapped from Niger, and killed near the border with Mali. These examples show that Westerners should maintain a high level of vigilance at all times when travelling in these parts of Africa and should not travel to remote, isolated areas. They should take increased security precautions when in their rooms or vehicles and watch for any suspicious or unusual activity. Before going on a trip to these hazardous places, they should monitor local information sources for details about safety and security. If they decide to travel to areas where there is a high or very high threat of kidnapping or to remote areas where they are advised not to travel, they should ensure that they have personal security measures in place or seek professional security advice. Any road travel should be undertaken in convoy and with a local guide. In the past, foreigners have been abducted from their vehicles. So foreign travelers should maintain a high level of caution at all times.\nCultural festivals held in north and west Africa are attractive places for terrorists and criminals to identify and target tourists for kidnapping. They bring people to predictable locations along unsecured routes. Foreigners travelling to and from major cultural festivals were kidnapped in northern Mali in 2009. One hostage was executed. Thus, Westerners are strongly advised not to attend such festivals. Sports events, including ultra-marathons and car rallies, are another attractive kidnapping opportunity. Ultra-marathons have been scheduled in Morocco, Libya, Senegal, Egypt and Namibia. The Dakar Rally was cancelled in 2008 and moved to South America in 2009 and 2010 due to security concerns. If you decide to compete in sporting events in risky areas, you are recommended to speak to event organizers to satisfy yourself of the security arrangements.\nExperts say terrorist groups, including some associated with al-Qaeda, are often responsible for the kidnapping of foreigners. These groups are active in north, west and east Africa and pose a very real security threat. Terrorists have used foreigners to secure ransom payments and the release of jailed militants. In some instances, terrorists have killed their victims when their demands were not met. Foreign employees, particularly those in the oil and mining sectors, aid and humanitarian workers, tourists and expatriates are regularly targeted. Criminal gangs are also known to kidnap foreigners, who they later exchange with terrorists for money. Hostages may be taken by their captors into a neighboring country. For instance, humanitarian workers in Kenya have been kidnapped by militants and held in Somalia. It is believed that Westerners will continue to be the primary targets of terrorist kidnap operations. So be a smart traveler and keep away from dangerous destinations."
+                    },
+                    "questions": [
+                        {
+                            "id": 20,
+                            "question": "According to the text, Mauritania and Mali ----.",
+                            "options": [
+                                "are two of the countries where Westerners can be kidnapped",
+                                "have officially announced that American aid workers are in danger",
+                                "are situated in the safest part of Africa",
+                                "could be much more dangerous than Niger and Burkina Faso"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap parçanın ilk paragrafında geçiyor: 'This risk is particularly high in Mauritania, Mali...'. Yani bu ülkeler kaçırılma riskinin yüksek olduğu yerler arasında.",
+                                "wrong": {
+                                    "1": "Parçada resmi bir duyurudan bahsedilmiyor.",
+                                    "2": "Tam tersi, en tehlikeli bölgelerden ikisi.",
+                                    "3": "Parçada ülkeler arasında bir tehlike sıralaması/karşılaştırması (biri diğerinden daha tehlikeli gibi) yapılmamış, hepsi yüksek risk grubunda."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "question": "The word vigilance in paragraph I could best be replaced by ---",
+                            "options": [
+                                "hazard",
+                                "combination",
+                                "alertness",
+                                "negligence"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Vigilance\" uyanıklık, tetikte olma demektir. Cümlede 'Westerners should maintain a high level of vigilance at all times' (Batılılar her zaman çok dikkatli/tetikte olmalı) deniyor. Bunu en iyi karşılayan kelime \"alertness\" (uyanıklık/dikkat) tır.",
+                                "wrong": {
+                                    "0": "\"Hazard\" tehlike demektir.",
+                                    "1": "\"Combination\" kombinasyon demektir.",
+                                    "3": "\"Negligence\" ihmalkarlık demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "question": "In paragraph I, Westerners are recommended to do all of the following EXCEPT ----",
+                            "options": [
+                                "being cautious in their rooms and vehicles",
+                                "travelling in broad daylight",
+                                "examining local information sources",
+                                "getting professional security advice"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragrafta gündüz seyahat etmeleri ('travelling in broad daylight') ile ilgili bir öneri YOKTUR.",
+                                "wrong": {
+                                    "0": "VAR: 'take increased security precautions when in their rooms or vehicles'.",
+                                    "2": "VAR: 'monitor local information sources'.",
+                                    "3": "VAR: 'seek professional security advice'."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "question": "The word abducted in paragraph I is closest in meaning to ----",
+                            "options": [
+                                "ensured",
+                                "taken",
+                                "undertaken",
+                                "maintained"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Abducted\" kaçırılmak demektir. Bağlamda 'foreigners have been abducted from their vehicles' deniyor. \"Taken\" (zorla alınmak/götürülmek) en yakın anlamlı kelimedir.",
+                                "wrong": {
+                                    "0": "\"Ensured\" garanti altına alınmış.",
+                                    "2": "\"Undertaken\" üstlenilmiş.",
+                                    "3": "\"Maintained\" sürdürülmüş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "question": "The word they in paragraph Il refers to ----.",
+                            "options": [
+                                "festivals",
+                                "terrorists",
+                                "criminals",
+                                "tourists"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cümleye bakalım: 'Cultural festivals held... are attractive places... [They] bring people to predictable locations...' İnsanları belirli yerlere toplayan şey festivallerdir.",
+                                "wrong": {
+                                    "1": "Teröristler insanları 'getirmez', festivaller insanları bir araya getirir.",
+                                    "2": "Suçlular için de aynısı geçerli.",
+                                    "3": "Turistler kendilerini getirmez, festival etkinliği onları çeker."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "question": "As we understand from paragraph II, cultural festivals and sports events ----.",
+                            "options": [
+                                "had better be held in north Africa rather than in west Africa",
+                                "are not so dangerous as protest meetings",
+                                "make a great contribution to African economy",
+                                "make tourists easy targets for kidnapping"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cevap parçada şöyle geçiyor: '...attractive places for terrorists and criminals to identify and target tourists for kidnapping.' Yani bu etkinlikler turistleri açık hedef haline getiriyor.",
+                                "wrong": {
+                                    "0": "Böyle bir yer tavsiyesi yok, aksine gidilmemesi tavsiye ediliyor.",
+                                    "1": "Protestolarla karşılaştırma yok.",
+                                    "2": "Ekonomik katkıdan bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "question": "Paragraph III is mainly concerned with ----.",
+                            "options": [
+                                "what can be done to fight against African terror groups",
+                                "whether exchanging jailed militants for hostages is right",
+                                "who kidnappers are and why they capture foreigners",
+                                "the relationship between al-Qaeda and African criminals"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "3. Paragraf terörist gruplardan (kim oldukları), El Kaide bağlantılarından ve fidye/takas gibi amaçlarından (neden yaptıkları) bahsediyor. En kapsamlı özet budur.",
+                                "wrong": {
+                                    "0": "Terörle mücadele yöntemleri anlatılmıyor.",
+                                    "1": "Bunun doğru olup olmadığı tartışılmıyor, sadece yapıldığı söyleniyor.",
+                                    "3": "Bu ilişki sadece küçük bir detay, paragrafın tamamını kapsamıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 27,
+                            "question": "Which of the following sentences is TRUE according to the text?",
+                            "options": [
+                                "Foreign employees in Africa feel safe because they have got powerful local contacts.",
+                                "The lives of humanitarian workers in some African countries are at risk.",
+                                "The Dakar Rally was completed as scheduled in spite of safety concerns.",
+                                "Personal security measures, such as carrying a gun, can put you in more danger."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf 3'te şöyle deniyor: '...aid and humanitarian workers... are regularly targeted.' (İnsani yardım çalışanları düzenli olarak hedef alınıyor). Yani hayatları risk altında.",
+                                "wrong": {
+                                    "0": "Güvende hissettikleri söylenmiyor, tam tersi hedef alınıyorlar.",
+                                    "2": "Ralli iptal edildi (cancelled), tamamlanmadı.",
+                                    "3": "Silah taşımak gibi spesifik bir önlemden veya bunun tehlikesinden bahsedilmiyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Text 2: Enemies of the Internet",
+                    "passage": {
+                        "title": "Enemies of the Internet",
+                        "text": "We've been jumping on and off the information super-highway for almost twenty years. But every lane of this cyber-roadway is not open to all. In a number of countries, access to and use of the Internet is heavily restricted. These countries are on the \"Enemies of the Internet\" list, put out by the organization Reporters Without Borders. On the 2010 list, the top three violators of freedom of expression are, in order, China, Vietnam and Iran. Overall, the report cites sixty nations for at least partially censoring the Internet. Examples range from nations like Thailand, which routinely blocks material that may defame their king, to Germany, which censors websites that deny the Holocaust. But the biggest offender by far, say report authors, is China, which not only filters and censors the Internet, but has jailed about a hundred people behind bars for their online activities.\nIn China, there is a bureaucracy of at least fifty thousand people whose sole function is to monitor and censor Chinese Internet usage. Thousands of people and billions of dollars are used to strengthen what's been called the Great Firewall of China. But this wall is not made of stone to keep enemies out. It's made of computer code, and it's designed to keep information from getting in or out. Any information that Chinese authorities consider unacceptable is censored. It was China's censorship demands that compelled the giant search engine Google to leave China, disappointing many of the more than 300 million Internet users in that country. At present, Google is redirecting users to its servers in Hong Kong, where the company will offer uncensored Chinese-language search results. But that site has come under cyber-attack, and Google executives suspect the attacks originated in China with the support of Beijing.\nIn Iran, massive government censorship did not prevent thousands of protestors from using mobile phones, Twitter and Facebook to express their frustrations over Iran's presidential elections. As a result, Iranian Internet censorship authorities now pay a lot more attention to Facebook and similar social networking websites. The tendency in Iran is if you are on Facebook, you just delete your profile, because it's very dangerous not only for you but for your friends and the people that you have on your profile. Iran's government also has an entire bureaucracy doing battle with websites like YouTube, Facebook and Twitter. Watching a video on YouTube can take an hour or more as the government tries to make the experience so exasperatingly slow that users will stop clicking.\nOther nations on the \"Enemies of the Internet\" list include Saudi Arabia, where about 400,000 websites are blocked. There, as in some other Middle Eastern countries, Internet censorship sometimes has as much to do with culture as with politics. For example, a woman in Saudi Arabia cannot access any information on breast cancer because the word 'breast' is in it. In 2006, a non-profit organization was formed to make anti-censorship technologies available around the world. Human rights activists say they need countries like the US to support the growth of these technologies, especially for people in countries such as China and Iran. The aim of such efforts isn't tearing down the firewalls, but removing a few bricks at a time. If you can serve at any given time five percent of the population of a country with access to the Internet, there are so many holes in the firewall that there is not a firewall anymore."
+                    },
+                    "questions": [
+                        {
+                            "id": 28,
+                            "question": "As highlighted in paragraph I, not every country in the world --",
+                            "options": [
+                                "agrees that Internet connection is too expensive",
+                                "knows Reporters Without Borders is in fact a Chinese organization",
+                                "allows its citizens to use the cyber-roadway without restraint",
+                                "has got enough vehicles that will use super highways"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf 1'in ikinci cümlesi: 'But every lane of this cyber-roadway is not open to all.' (Siber yolun her şeridi herkese açık değildir). Yani her ülke vatandaşlarının interneti kısıtlamasız kullanmasına izin vermez.",
+                                "wrong": {
+                                    "0": "İnternet pahalılığından bahsedilmiyor.",
+                                    "1": "Reporters Without Borders Çinli bir örgüt değildir.",
+                                    "3": "Gerçek araçlardan değil, mecazi 'siber yol'dan bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "question": "The word defame in paragraph I could best be replaced by ----",
+                            "options": [
+                                "insult",
+                                "apply",
+                                "demand",
+                                "obey"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Defame\" itibarını zedelemek, hakaret etmek demektir. Cümlede 'material that may defame their king' (Krallarına hakaret edebilecek materyal) deniyor. \"Insult\" (hakaret etmek) en yakın anlamlı kelimedir.",
+                                "wrong": {
+                                    "1": "\"Apply\" başvurmak/uygulamak.",
+                                    "2": "\"Demand\" talep etmek.",
+                                    "3": "\"Obey\" itaat etmek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "question": "According to the text, China is number 1 on the \"Enemies of the Internet\" list ----.",
+                            "options": [
+                                "but this is thought to result from a misunderstanding",
+                                "because it has the biggest number of users in the world",
+                                "even though Vietnam and Iran have been more aggressive in their fight against online protestors",
+                                "and it has earned this title by censoring websites and putting web users in prison"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cevap parçanın 1. paragrafının sonunda: 'China... not only filters... but has jailed about a hundred people'. Hem filtrelediği hem de hapse attığı için listenin başındadır.",
+                                "wrong": {
+                                    "0": "Bir yanlış anlaşılma olduğundan bahsedilmiyor.",
+                                    "1": "Kullanıcı sayısından dolayı değil, yaptırımlarından dolayı listede.",
+                                    "2": "Vietnam ve İran'ın daha agresif olduğu söylenmiyor, sıralamada Çin'den sonralar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "question": "As stated in paragraph IV (actually II), the Great Firewall of China ----.",
+                            "options": [
+                                "continues its existence thanks to thousands of workers and billions of dollars",
+                                "is a cutting-edge software used by the government to reduce bureaucracy",
+                                "censors official websites administered by members of the government",
+                                "is a stone wall that serves to keep China's enemies away from its borders"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf 2'de şöyle deniyor: 'Thousands of people and billions of dollars are used to strengthen what's been called the Great Firewall of China.' (Çin Güvenlik Duvarını güçlendirmek için binlerce insan ve milyarlarca dolar kullanılıyor).",
+                                "wrong": {
+                                    "1": "Bürokrasiyi azaltmak için değil, sansür için var.",
+                                    "2": "Hükümet sitelerini değil, halkın erişimini sansürlüyor.",
+                                    "3": "Parçada açıkça 'not made of stone' (taştan yapılmamıştır) deniyor, dijital bir duvardır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "question": "According to the text, Google provides uncensored Chinese-language search results ----.",
+                            "options": [
+                                "because it has reached an agreement with the Chinese government",
+                                "by redirecting its users to its servers in Hong Kong",
+                                "since it doesn't want to leave China before the end of the year",
+                                "although its 300 million Chinese users attack their site regularly"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf 2'nin sonlarına doğru: 'Google is redirecting users to its servers in Hong Kong, where the company will offer uncensored... results.' (Kullanıcıları Hong Kong sunucularına yönlendirerek sansürsüz hizmet veriyor).",
+                                "wrong": {
+                                    "0": "Anlaşma sağlayamadı, Çin'den ayrılmak zorunda kaldı ('compelled... to leave').",
+                                    "2": "Zaten Çin'den ayrıldı.",
+                                    "3": "Saldırıları kullanıcılar değil, muhtemelen Pekin destekli gruplar yapıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "question": "As we understand from paragraph III, Facebook is regarded as a serious threat by the Iranian government",
+                            "options": [
+                                "although the Iranian president is an active Facebook user",
+                                "but the censorship office does not pay enough attention to such websites",
+                                "since protestors expressed themselves freely on this website",
+                                "as it's not possible to see people's profiles unless they give permission"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf 3'ün başında: '...protestors from using... Facebook to express their frustrations'. Protestocuların kendilerini ifade etmesi tehdit olarak görülüyor.",
+                                "wrong": {
+                                    "0": "İran başkanının Facebook kullandığı bilgisi yok.",
+                                    "1": "Tam tersi, 'pay a lot more attention' (çok daha fazla dikkat ediyorlar).",
+                                    "3": "Gizlilik ayarlarıyla ilgili bir bilgi tehdit nedeni olarak sunulmamış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 34,
+                            "question": "The word exasperatingly in paragraph III is closest in meaning to",
+                            "options": [
+                                "interestingly",
+                                "formerly",
+                                "bravely",
+                                "annoyingly"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Exasperatingly\" çileden çıkaracak şekilde, sinir bozucu bir şekilde demektir. Cümlede 'make the experience so exasperatingly slow' (deneyimi o kadar sinir bozucu derecede yavaşlatıyorlar ki...) deniyor. \"Annoyingly\" en yakın anlamdır.",
+                                "wrong": {
+                                    "0": "İlginç bir şekilde.",
+                                    "1": "Eskiden.",
+                                    "2": "Cesurca."
+                                }
+                            }
+                        },
+                        {
+                            "id": 35,
+                            "question": "Which of the following sentences is TRUE according to the text?",
+                            "options": [
+                                "There are organized efforts to produce anti-censorship technologies.",
+                                "Saudi Arabian women are not allowed to use the Internet for any purpose.",
+                                "There are about ten countries on the \"Enemies of the Internet\" list.",
+                                "The Great Firewall of China promotes free flow of information."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Son paragrafta: 'In 2006, a non-profit organization was formed to make anti-censorship technologies available'. Sansür karşıtı teknolojiler üretmek için organize çabalar var.",
+                                "wrong": {
+                                    "1": "Hiçbir amaçla kullanamazlar denmiyor, sadece 'meme kanseri' gibi kelimeler içeren bilgilere erişemiyorlar.",
+                                    "2": "60 ülkeden bahsediliyor ('cites sixty nations').",
+                                    "3": "Tam tersi, bilgi akışını engelliyor ('keep information from getting in or out')."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Text 3: Natural Gas",
+                    "passage": {
+                        "title": "Natural Gas",
+                        "text": "Millions of years ago, the remains of plants and animals decayed and built up in thick layers. This decayed matter from plants and animals is called organic material. Over time, the sand and silt changed to rock, covered the organic material, and trapped it beneath the rock. Pressure and heat changed some of this organic material into coal, some into oil, and some into natural gas. In some places, natural gas escaped from small gaps in the rocks into the air; then, if there was enough activation energy from lightning or a fire, it burnt. When people first saw the flames, they experimented with them and learned they could use them for heat and light. Today, scientists and engineers explore a chosen area by studying rock samples from the earth. If the site seems promising, drilling begins. Once the gas is found, it flows up through the well to the surface of the ground and into large pipelines.\nNatural gas is moved by pipelines from the producing fields to consumers. Because natural gas demand is greater in the winter, it is stored along the way in large underground storage systems, such as old oil and gas wells or caverns formed in old salt beds. The gas remains there until it is added back into the pipeline when people begin to use more gas. When the gas gets to the communities where it will be used, usually through large pipelines, it flows into smaller pipelines called \"mains.\" Very small lines, called \"services,\" connect to the mains and go directly to homes or buildings where it will be used.\nNatural gas has many qualities that make it an efficient, relatively clean, and economical energy source. Burning natural gas for energy results in much lower emissions of nearly all types of air pollutants and carbon dioxide than coal or petroleum products. These qualities have contributed to an increase in natural gas use for electricity generation and as a transportation fuel for large sea vehicles.\nThere are, however, environmental and safety issues with its production and use. Many of the areas that are now being explored for natural gas production are relatively pristine areas, and extraction from these areas have large impacts on the area's environment, wildlife, and human populations. When geologists explore for natural gas deposits on land, they may have to disturb vegetation and soils with their vehicles. A gas well on land may require building a road as well as clearing and leveling an area to make a drill pad. Well drilling activities produce air pollution and may disturb wildlife. Pipelines are used to transport the gas from the wells, and this usually requires clearing land and digging to bury the pipe. Natural gas production can also result in the production of large volumes of contaminated water which is toxic to the surrounding environment.\nThe good news is that new drilling and gas recovery technologies have greatly reduced the amount of area that has to be disturbed to produce natural gas. Horizontal and directional drilling techniques make it possible to produce more gas from a single well than in the past, so fewer wells are needed to develop a gas field. Hydraulic fractionation or \"fracking\" of rock formations is opening up large reserves of gas that were formerly too expensive to develop. Fracking involves pumping liquids under high pressure into a well to fracture the rock and allow gas to escape from tiny pockets in the rock. Unfortunately, fracking has become controversial, too, as it is blamed for contaminating water wells and streams with natural gas and the fracking fluids. Because a natural gas leak can cause an explosion, there are very strict government regulations and industry standards in place to ensure the safe transportation, storage, distribution, and use of natural gas. Because natural gas has no odor, natural gas companies add a strong-smelling substance called mercaptan to it so that people will sense if there is a leak. If you have a natural gas stove, you may have smelled this \"rotten egg\" smell of natural gas when the pilot light has gone out."
+                    },
+                    "questions": [
+                        {
+                            "id": 36,
+                            "question": "As we learn from paragraph I, coal, oil and natural gas ----.",
+                            "options": [
+                                "were produced organically millions of years ago",
+                                "can burn organic material",
+                                "change remains of plants and animals into sand and silt",
+                                "are equally harmful to the environment"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf 1'de: 'Millions of years ago, the remains of plants and animals... Pressure and heat changed some of this organic material into coal, some into oil, and some into natural gas.' Bu üç yakıtın da milyonlarca yıl önce organik materyallerden oluştuğunu söylüyor.",
+                                "wrong": {
+                                    "1": "Organik materyali yakarlar değil, kendileri organik materyalden oluşmuştur.",
+                                    "2": "Bitkileri kuma çevirmezler, kumun altında kalıp dönüşürler.",
+                                    "3": "Paragraf 1'de çevresel zarardan bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 37,
+                            "question": "As we learn from the text, the heating and lighting power of natural gas ----.",
+                            "options": [
+                                "caused small gaps in the rocks",
+                                "was discovered by observing natural phenomena",
+                                "makes it easier to drill the ground",
+                                "has worried scientists and engineers for centuries"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf 1'de: 'natural gas escaped... lightning... it burnt. When people first saw the flames... learned they could use them for heat and light.' İnsanlar doğada yanan gazı (yıldırım vs. sonucu) görüp keşfettiler.",
+                                "wrong": {
+                                    "0": "Kayalardaki çatlaklara gaz neden olmadı, gaz oradan kaçtı.",
+                                    "2": "Delmeyi kolaylaştırmıyor.",
+                                    "3": "Yüzyıllardır endişelendirdiğine dair bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 38,
+                            "question": "Paragraph III (actually II in logical flow, but asking about Transport/Distribution paragraph) is mainly concerned with ----.",
+                            "options": [
+                                "consumer demand for natural gas",
+                                "the efficiency of underground storage systems",
+                                "old oil and gas wells or caverns formed in old salt beds",
+                                "how natural gas is carried, stored and distributed"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "İlgili paragraf boru hatlarını (transport), yeraltı depolarını (storage) ve evlere dağıtım hatlarını (distribution - mains/services) anlatıyor.",
+                                "wrong": {
+                                    "0": "Sadece talep değil, tüm lojistik süreç anlatılıyor.",
+                                    "1": "Sadece depolama değil, taşıma da var.",
+                                    "2": "Bunlar sadece depolama örnekleri, ana fikir değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "question": "According to the text, natural gas ----.",
+                            "options": [
+                                "loses some of its heating power when carried over a long distance",
+                                "is not considered to be an economical energy source",
+                                "produces less carbon dioxide than coal or petroleum products",
+                                "is stored in large sea vehicles"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf 3: 'Burning natural gas... results in much lower emissions... and carbon dioxide than coal'. Kömürden daha az karbondioksit üretir.",
+                                "wrong": {
+                                    "0": "Güç kaybından bahsedilmiyor.",
+                                    "1": "Tam tersi, 'economical energy source' deniyor.",
+                                    "3": "Deniz araçlarında yakıt olarak kullanılıyor, orada depolandığı (sabit depo olarak) söylenmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "question": "What is the main idea of paragraph V (actually IV - Environment)?",
+                            "options": [
+                                "Environmentalists are worried about the use of natural gas for electricity production.",
+                                "Natural gas production and transportation can have damaging effects.",
+                                "Geologists looking for natural gas deposits disturb vegetation and soils with their vehicles.",
+                                "Pipelines are needed to transport natural gas from the wells."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu paragrafın giriş cümlesi: 'There are, however, environmental and safety issues...'. Devamında bitki örtüsüne zarar, su kirliliği vb. anlatılıyor. Ana fikir zararlı etkileridir.",
+                                "wrong": {
+                                    "0": "Elektrik üretimi bir önceki paragrafta geçiyordu.",
+                                    "2": "Bu sadece bir detay (örnek), ana fikir değil.",
+                                    "3": "Bu da sadece bir detay."
+                                }
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "question": "The word pristine in paragraph V (IV) could best be replaced by ----.",
+                            "options": [
+                                "natural",
+                                "environmental",
+                                "uneducated",
+                                "enjoyable"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Pristine\" bozulmamış, el değmemiş, doğal haliyle kalmış demektir. Bağlamda 'pristine areas' deniyor. Şıklar arasında en yakını \"natural\" (doğal) kelimesidir.",
+                                "wrong": {
+                                    "1": "\"Environmental\" çevresel demektir (isim/sıfat uyumu zor).",
+                                    "2": "\"Uneducated\" eğitimsiz.",
+                                    "3": "\"Enjoyable\" eğlenceli."
+                                }
+                            }
+                        },
+                        {
+                            "id": 42,
+                            "question": "As we learn from paragraph VI (V - Technology), fracking has--",
+                            "options": [
+                                "increased the number of wells needed to develop a gas field",
+                                "reduced the cost of natural gas production",
+                                "given up horizontal and directional drilling techniques",
+                                "decreased the amount of gas produced from a single well"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Parçada fracking'in 'formerly too expensive to develop' (eskiden geliştirilmesi çok pahalı olan) rezervleri açtığı söyleniyor. Bu, üretimi ekonomik hale getirdiği (maliyeti düşürdüğü) anlamına gelir.",
+                                "wrong": {
+                                    "0": "Tam tersi, yeni teknikler 'fewer wells are needed' (daha az kuyu gerekir) diyor.",
+                                    "2": "Bu teknikleri bıraktığı söylenmiyor, bunlar beraber gelişen teknolojiler.",
+                                    "3": "Tam tersi, tek kuyudan daha fazla gaz üretiliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "question": "Which of the following sentences is FALSE according to the text?",
+                            "options": [
+                                "Natural gas demand is greater in the winter.",
+                                "A natural gas leak can cause an explosion.",
+                                "Natural gas has a natural odor similar to that of mercaptan.",
+                                "Small pipelines that carry natural gas to homes or buildings are called services."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "YANLIŞ ifade: Parçada 'natural gas has no odor' (doğal gazın kokusu yoktur) deniyor. Kokuyu (mercaptan) şirketler sonradan ekliyor. Yani doğal kokusu yoktur.",
+                                "wrong": {
+                                    "0": "DOĞRU: 'demand is greater in the winter' ifadesi var.",
+                                    "1": "DOĞRU: 'leak can cause an explosion' ifadesi var.",
+                                    "3": "DOĞRU: 'Very small lines, called services' ifadesi var."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

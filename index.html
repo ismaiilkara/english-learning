@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar - English Learning Hub</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .drop-zone-active {
+            border-color: #ec4899 !important;
+            background: rgba(236, 72, 153, 0.2) !important;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 min-h-screen">
+
+    <div x-data="grammarApp()" x-init="init()" x-cloak class="min-h-screen">
+
+        <!-- Top Navigation -->
+        <nav class="bg-black/40 backdrop-blur-xl border-b border-white/10 p-4">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <h1 class="text-2xl font-bold text-white flex items-center gap-2">
+                    🎓 <span class="bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">English
+                        Learning Hub</span>
+                </h1>
+                <div class="flex gap-4">
+                    <span class="px-6 py-2 rounded-full text-white font-semibold bg-pink-500">
+                        📘 Grammar
+                    </span>
+                    <a href="itu-prof.html"
+                        class="px-6 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20">
+                        🎯 ITU PROF
+                    </a>
+                    <a href="vocabulary.html"
+                        class="px-6 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20">
+                        📚 Vocabulary
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- GRAMMAR SECTION -->
+        <div class="flex min-h-[calc(100vh-72px)]">
+
+            <!-- Sidebar -->
+            <aside class="w-72 bg-black/30 backdrop-blur-xl border-r border-white/10 p-6">
+                <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                    📘 <span>Grammar Topics</span>
+                </h2>
+
+                <nav class="space-y-2">
+                    <template x-for="topic in topics" :key="topic.id">
+                        <button @click="selectTopic(topic)"
+                            :class="selectedTopic?.id === topic.id ? 'bg-white/20 border-pink-400' : 'bg-white/5 border-transparent hover:bg-white/10'"
+                            class="w-full text-left p-4 rounded-xl border-2 transition-all duration-300 group">
+                            <span class="text-2xl mr-3" x-text="topic.icon"></span>
+                            <span class="text-white font-medium" x-text="topic.title"></span>
+                        </button>
+                    </template>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="flex-1 p-8 overflow-auto">
+
+                <!-- Welcome Screen -->
+                <div x-show="!selectedTopic" class="h-full flex items-center justify-center">
+                    <div class="text-center">
+                        <div class="text-8xl mb-6">📘</div>
+                        <h2 class="text-4xl font-bold text-white mb-4">Grammar</h2>
+                        <p class="text-xl text-white/60">Select a topic from the sidebar to start learning</p>
+                    </div>
+                </div>
+
+                <!-- Topic Content -->
+                <div x-show="selectedTopic" x-transition class="max-w-4xl mx-auto">
+
+                    <!-- Topic Header -->
+                    <div class="mb-8">
+                        <h2 class="text-4xl font-bold text-white flex items-center gap-4">
+                            <span x-text="selectedTopic?.icon" class="text-5xl"></span>
+                            <span x-text="selectedTopic?.title"></span>
+                        </h2>
+                        <p class="text-white/60 mt-2 text-lg" x-text="selectedTopic?.description"></p>
+                    </div>
+
+                    <!-- Tabs -->
+                    <div class="flex gap-4 mb-6">
+                        <button @click="activeTab = 'video'"
+                            :class="activeTab === 'video' ? 'bg-pink-500' : 'bg-white/10 hover:bg-white/20'"
+                            class="px-6 py-3 rounded-full text-white font-semibold transition-all">
+                            🎬 Video
+                        </button>
+                        <button @click="activeTab = 'exercise'"
+                            :class="activeTab === 'exercise' ? 'bg-pink-500' : 'bg-white/10 hover:bg-white/20'"
+                            class="px-6 py-3 rounded-full text-white font-semibold transition-all">
+                            ✏️ Exercises
+                        </button>
+                    </div>
+
+                    <!-- Video Section -->
+                    <div x-show="activeTab === 'video'" x-transition
+                        class="bg-black/30 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
+
+                        <!-- Video Player (if video exists) -->
+                        <div x-show="currentVideo" class="mb-4">
+                            <div class="aspect-video rounded-xl overflow-hidden bg-black">
+                                <video :src="currentVideo" controls class="w-full h-full"></video>
+                            </div>
+                            <button @click="removeVideo()" class="mt-3 text-red-400 hover:text-red-300 text-sm">
+                                ❌ Videoyu Kaldır
+                            </button>
+                        </div>
+
+                        <!-- Drop Zone -->
+                        <div x-show="!currentVideo" @dragover.prevent="isDragging = true"
+                            @dragleave.prevent="isDragging = false" @drop.prevent="handleDrop($event)"
+                            :class="isDragging ? 'drop-zone-active' : ''"
+                            class="aspect-video rounded-xl border-4 border-dashed border-white/30 flex flex-col items-center justify-center cursor-pointer hover:border-pink-400 transition-all">
+
+                            <div class="text-6xl mb-4">📁</div>
+                            <p class="text-xl text-white font-medium">Video dosyasını buraya sürükle</p>
+                            <p class="text-white/50 mt-2">veya</p>
+                            <label
+                                class="mt-4 bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-full cursor-pointer transition-all">
+                                Dosya Seç
+                                <input type="file" accept="video/*" @change="handleFileSelect($event)" class="hidden">
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Exercise Section -->
+                    <div x-show="activeTab === 'exercise'" x-transition class="space-y-4">
+
+                        <!-- Progress Bar -->
+                        <div class="bg-white/10 rounded-full h-3 overflow-hidden">
+                            <div class="bg-gradient-to-r from-pink-500 to-yellow-500 h-full transition-all duration-500"
+                                :style="`width: ${(currentQuestion + 1) / selectedTopic?.exercises?.length * 100}%`">
+                            </div>
+                        </div>
+
+                        <p class="text-white/60 text-sm">
+                            Question <span x-text="currentQuestion + 1"></span> of <span
+                                x-text="selectedTopic?.exercises?.length"></span>
+                            <span class="ml-2 px-2 py-1 rounded-full text-xs"
+                                :class="currentExercise?.type === 'translation' ? 'bg-blue-500/30 text-blue-300' : 'bg-green-500/30 text-green-300'">
+                                <span
+                                    x-text="currentExercise?.type === 'translation' ? '🇹🇷 → 🇬🇧 Çeviri' : '📝 Çoktan Seçmeli'"></span>
+                            </span>
+                        </p>
+
+                        <!-- Question Card -->
+                        <div x-show="!showScore"
+                            class="bg-black/30 backdrop-blur-xl rounded-2xl p-8 border border-white/10">
+
+                            <!-- Multiple Choice Question -->
+                            <template x-if="currentExercise?.type === 'multiple'">
+                                <div>
+                                    <p class="text-2xl text-white mb-6 font-medium" x-text="currentExercise?.question">
+                                    </p>
+
+                                    <div class="grid gap-3">
+                                        <template x-for="(option, index) in currentExercise?.options" :key="index">
+                                            <button @click="checkMultipleAnswer(index)" :disabled="answered" :class="{
+                                                    'bg-green-500/80 border-green-400': answered && index === currentExercise?.answer,
+                                                    'bg-red-500/80 border-red-400': answered && selectedAnswer === index && index !== currentExercise?.answer,
+                                                    'bg-white/10 hover:bg-white/20 border-transparent': !answered
+                                                }"
+                                                class="w-full text-left p-4 rounded-xl border-2 text-white font-medium transition-all disabled:cursor-not-allowed">
+                                                <span class="mr-3 opacity-60"
+                                                    x-text="['A', 'B', 'C', 'D'][index]"></span>
+                                                <span x-text="option"></span>
+                                            </button>
+                                        </template>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <!-- Translation Question -->
+                            <template x-if="currentExercise?.type === 'translation'">
+                                <div>
+                                    <div class="bg-blue-500/20 border border-blue-500/50 rounded-xl p-6 mb-6">
+                                        <p class="text-blue-300 text-sm mb-2">🇹🇷 Türkçe</p>
+                                        <p class="text-2xl text-white font-medium" x-text="currentExercise?.turkish">
+                                        </p>
+                                    </div>
+
+                                    <div class="mb-6">
+                                        <p class="text-white/60 text-sm mb-2">🇬🇧 İngilizce çevirinizi yazın:</p>
+                                        <input type="text" x-model="translationInput"
+                                            @keyup.enter="checkTranslationAnswer()" :disabled="answered"
+                                            placeholder="Type your translation here..."
+                                            class="w-full p-4 rounded-xl bg-white/10 border-2 border-white/20 text-white text-lg focus:border-pink-400 focus:outline-none transition-all disabled:opacity-50">
+                                    </div>
+
+                                    <button x-show="!answered" @click="checkTranslationAnswer()"
+                                        class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full transition-all">
+                                        Kontrol Et ✓
+                                    </button>
+
+                                    <!-- Show correct answer after checking -->
+                                    <div x-show="answered"
+                                        class="mt-4 bg-green-500/20 border border-green-500/50 rounded-xl p-4">
+                                        <p class="text-green-300 text-sm mb-1">✓ Doğru Cevap:</p>
+                                        <p class="text-white font-medium" x-text="currentExercise?.answer"></p>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <!-- Feedback -->
+                            <div x-show="answered" x-transition class="mt-6">
+                                <div :class="isCorrect ? 'bg-green-500/20 border-green-500' : 'bg-red-500/20 border-red-500'"
+                                    class="p-4 rounded-xl border text-white">
+                                    <span x-show="isCorrect">✅ Correct! Great job!</span>
+                                    <span x-show="!isCorrect">❌ Not quite. Check the correct answer above.</span>
+                                </div>
+
+                                <button @click="nextQuestion()"
+                                    class="mt-4 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-bold py-3 px-8 rounded-full transition-all">
+                                    <span
+                                        x-text="currentQuestion < selectedTopic?.exercises?.length - 1 ? 'Next Question →' : 'Finish ✓'"></span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Score Card -->
+                        <div x-show="showScore" x-transition
+                            class="bg-gradient-to-r from-pink-500/20 to-purple-500/20 backdrop-blur-xl rounded-2xl p-8 border border-pink-500/30 text-center">
+                            <div class="text-6xl mb-4">🎉</div>
+                            <h3 class="text-3xl font-bold text-white mb-2">Tebrikler!</h3>
+                            <p class="text-xl text-white/80">
+                                Skorunuz: <span class="text-pink-400 font-bold" x-text="score"></span> / <span
+                                    x-text="selectedTopic?.exercises?.length"></span>
+                            </p>
+                            <button @click="restartExercise()"
+                                class="mt-6 bg-white/20 hover:bg-white/30 text-white font-bold py-3 px-8 rounded-full transition-all">
+                                Tekrar Dene 🔄
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        function grammarApp() {
+            return {
+                // Grammar state
+                topics: [],
+                selectedTopic: null,
+                activeTab: 'video',
+                currentQuestion: 0,
+                selectedAnswer: null,
+                answered: false,
+                isCorrect: false,
+                score: 0,
+                showScore: false,
+                isDragging: false,
+                currentVideo: null,
+                translationInput: '',
+                topicVideos: {},
+
+                async init() {
+                    const response = await fetch('data.json');
+                    this.topics = (await response.json()).topics;
+
+                    const saved = localStorage.getItem('topicVideos');
+                    if (saved) {
+                        this.topicVideos = JSON.parse(saved);
+                    }
+                },
+
+                selectTopic(topic) {
+                    this.selectedTopic = topic;
+                    this.activeTab = 'video';
+                    this.currentVideo = this.topicVideos[topic.id] || null;
+                    this.restartExercise();
+                },
+
+                get currentExercise() {
+                    return this.selectedTopic?.exercises?.[this.currentQuestion];
+                },
+
+                handleDrop(event) {
+                    this.isDragging = false;
+                    const file = event.dataTransfer.files[0];
+                    if (file && file.type.startsWith('video/')) {
+                        this.loadVideo(file);
+                    }
+                },
+
+                handleFileSelect(event) {
+                    const file = event.target.files[0];
+                    if (file) {
+                        this.loadVideo(file);
+                    }
+                },
+
+                loadVideo(file) {
+                    const url = URL.createObjectURL(file);
+                    this.currentVideo = url;
+                    this.topicVideos[this.selectedTopic.id] = url;
+                },
+
+                removeVideo() {
+                    this.currentVideo = null;
+                    delete this.topicVideos[this.selectedTopic.id];
+                },
+
+                checkMultipleAnswer(index) {
+                    if (this.answered) return;
+                    this.selectedAnswer = index;
+                    this.answered = true;
+                    this.isCorrect = index === this.currentExercise.answer;
+                    if (this.isCorrect) this.score++;
+                },
+
+                checkTranslationAnswer() {
+                    if (this.answered || !this.translationInput.trim()) return;
+                    this.answered = true;
+
+                    const userAnswer = this.translationInput.trim().toLowerCase().replace(/[.,!?]/g, '');
+                    const correctAnswer = this.currentExercise.answer.toLowerCase().replace(/[.,!?]/g, '');
+
+                    this.isCorrect = userAnswer === correctAnswer;
+                    if (this.isCorrect) this.score++;
+                },
+
+                nextQuestion() {
+                    if (this.currentQuestion < this.selectedTopic.exercises.length - 1) {
+                        this.currentQuestion++;
+                        this.answered = false;
+                        this.selectedAnswer = null;
+                        this.translationInput = '';
+                    } else {
+                        this.showScore = true;
+                    }
+                },
+
+                restartExercise() {
+                    this.currentQuestion = 0;
+                    this.answered = false;
+                    this.selectedAnswer = null;
+                    this.score = 0;
+                    this.showScore = false;
+                    this.translationInput = '';
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

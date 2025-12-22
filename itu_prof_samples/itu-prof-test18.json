@@ -1,0 +1,854 @@
+    {
+        "id": 1,
+        "title": "ITU Proficiency Exam",
+        "sections": {
+            "reading": {
+                "parts": [
+                    {
+                        "type": "cloze",
+                        "title": "Cloze Test: One Man Disaster",
+                        "passage": {
+                            "title": "One Man Disaster",
+                            "text": "In 1944, chemist and inventor Thomas Midgley Jr., (1)____ discoveries had helped shape the modern world to a remarkable degree, died at home in bed at the age of 55. Paralyzed below the waist due to an illness some years earlier, Midgley had used his talent for innovation to build himself a system to move himself. It worked well until he was found dead in bed, killed by his own (2)____. Incredibly, being killed in bed by his own invention isn't even one of his two biggest mistakes. (3)____, he has to be considered one of the most catastrophic individuals (4)____. Early in his career, in the 1910s and 1920s, he worked on the problem of car engines \"knocking\", that is, when engines stop and start, and shake the whole car. Midgley suspected that knocking was (5)____ fuel not burning well, so he tried to find an additive that would reduce this effect. He decided to use lead even though he suspected that this (6)____ was a deadly poison. Actually, Midgley's team had come up with other anti-knock agents that were as effective as lead, but they weren't patentable, so he didn't use them as he would not make a profit. However, Midgley (7)____ how dangerous lead was because of the many warning signs. For example, the lead fumes made Midgley and other researchers ill and Midgley even had to be hospitalized. Tragically, that's nothing compared to the millions of deaths that lead gasoline eventually caused. After he invented leaded petrol, Midgley quickly moved on to another area of investigation, where he made his second catastrophic mistake. His goal was simple: to find a cheap, non-toxic cooling agent, or refrigerant. (8)____ the chemical properties of known refrigerants, he discovered fluorine, which was both non-toxic and an excellent refrigerant. Unfortunately, in the early 1930s, nobody realized that when fluorine gets into the upper atmosphere, ultraviolet radiation causes it to (9)____ into its component elements or that one of those elements, chlorine, destroys the Earth's ozone layer. Fortunately, this time humanity realized the problem before it caused death on a massive scale. From the 1970s to the 1990s, the world tried to undo Thomas Midgley's work, and both of his major inventions were (10)____ in most countries around the world. Midgley's reputation, however, became firmly established: He was a one-man environmental disaster."
+                        },
+                        "questions": [
+                            {
+                                "id": 1,
+                                "options": [
+                                    "that his",
+                                    "whose",
+                                    "in which his",
+                                    "where his"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"Whose\" iyelik (sahiplik) bildiren ilgi zamiridir. Burada Thomas Midgley Jr.'dan bahsediyoruz ve \"onun keşifleri\" (his discoveries) demek istiyoruz. İngilizcede kişi + whose + isim yapısı kullanılır.",
+                                    "wrong": {
+                                        "0": "\"That\" virgülden sonra gelen açıklayıcı (non-defining) yan cümlelerde kullanılmaz.",
+                                        "2": "\"In which\" yer veya durum bildirmek için kullanılır, sahiplik bildirmez.",
+                                        "3": "\"Where\" yer bildirir, sahiplik bildirmez."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "options": [
+                                    "decoration",
+                                    "device",
+                                    "image",
+                                    "scene"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Parçada Midgley'in kendini hareket ettirmek için bir sistem kurduğundan bahsediliyor. Bu bağlamda kendi yaptığı \"cihaz\" veya \"alet\" tarafından öldürüldüğünü söylemek için \"device\" kelimesi uygundur.",
+                                    "wrong": {
+                                        "0": "\"Decoration\" süsleme demektir, teknik bir sistemi anlatmaz.",
+                                        "2": "\"Image\" görüntü/imaj demektir.",
+                                        "3": "\"Scene\" olay yeri veya sahne demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "options": [
+                                    "In fact",
+                                    "Nevertheless",
+                                    "Previously",
+                                    "For instance"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"In fact\" (Aslında/Gerçekte) ifadesi, önceki cümleyi güçlendirmek veya daha şaşırtıcı bir gerçeği vurgulamak için kullanılır. Yazar, kendi icadıyla ölmesinin bile en büyük hatası olmadığını, \"aslında\" onun felaket getiren biri olduğunu söylüyor.",
+                                    "wrong": {
+                                        "1": "\"Nevertheless\" (Yine de) zıtlık bildirir ama burada bir zıtlık değil, durumun vahametini artırma var.",
+                                        "2": "\"Previously\" (Daha önce) zaman sıralaması yapar, anlam akışına uymaz.",
+                                        "3": "\"For instance\" (Örneğin) örnek verirken kullanılır ama burada genel bir yargıya varılıyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "options": [
+                                    "ever living",
+                                    "ever lived",
+                                    "to ever live",
+                                    "to ever living"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"The most [sıfat] + noun + to ever verb\" kalıbı, \"gelmiş geçmiş en...\" anlamını verir. Burada \"yaşamış en felaket getiren bireylerden biri\" demek için \"to ever live\" yapısı gereklidir.",
+                                    "wrong": {
+                                        "0": "Gramatik olarak bu yapıda \"-ing\" kullanılmaz.",
+                                        "1": "\"Ever lived\" active past tense gibi duruyor ama burada infinitive (to) yapısı gerekir.",
+                                        "3": "\"To ever living\" gramer açısından yanlıştır."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "options": [
+                                    "such as",
+                                    "a result of",
+                                    "in case of",
+                                    "the same as"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Cümlede neden-sonuç ilişkisi var. Motorun vuruntu yapmasının, yakıtın iyi yanmamasının \"bir sonucu\" (a result of) olduğundan şüpheleniyor.",
+                                    "wrong": {
+                                        "0": "\"Such as\" örnek verirken kullanılır.",
+                                        "2": "\"In case of\" (...durumunda) tedbir bildirir.",
+                                        "3": "\"The same as\" (...ile aynı) benzerlik bildirir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "options": [
+                                    "administration",
+                                    "foundation",
+                                    "principle",
+                                    "substance"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Bahsedilen şey \"kurşun\" (lead). Kurşun kimyasal bir \"madde\" olduğu için \"substance\" kelimesi doğrudur.",
+                                    "wrong": {
+                                        "0": "\"Administration\" yönetim demektir.",
+                                        "1": "\"Foundation\" temel veya vakıf demektir.",
+                                        "2": "\"Principle\" ilke/prensip demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "options": [
+                                    "must have known",
+                                    "can have known",
+                                    "was able to know",
+                                    "succeeded in knowing"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"Must have known\" geçmişe dair güçlü bir çıkarım (deduction) yapar. \"Biliyor olmalıydı\" veya \"Kesin biliyordu\" anlamındadır. Yazar, ortada çok fazla uyarı işareti olduğu için onun tehlikeyi bildiğini vurguluyor.",
+                                    "wrong": {
+                                        "1": "\"Can have known\" genellikle soru veya olumsuz cümlelerde olasılık için kullanılır.",
+                                        "2": "\"Was able to know\" fiziksel bir yeteneği ifade eder ama burada mantıksal bir çıkarım var.",
+                                        "3": "\"Succeeded in knowing\" bilmeyi başardı gibi garip bir anlam oluşturur."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "options": [
+                                    "Studied",
+                                    "Studying",
+                                    "To study",
+                                    "To be studied"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Burada bir \"Participle Clause\" (Zarf Fiil) kullanımı var. Özne (Midgley) eylemi yapan kişi olduğu için Active form (V-ing) yani \"Studying\" (İnceleyerek/Çalışarak) kullanılır.",
+                                    "wrong": {
+                                        "0": "\"Studied\" passive (edilgen) anlam verir, incelenmiş olurdu.",
+                                        "2": "\"To study\" amaç bildirir (incelemek için) ama cümlenin devamında keşfettiği anlatılıyor, eş zamanlı bir durum var.",
+                                        "3": "\"To be studied\" passive infinitive'dir, anlamca uymaz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "options": [
+                                    "bring up",
+                                    "break up",
+                                    "bring down",
+                                    "break down"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Kimyasal bir bileşiğin parçalarına/elementlerine ayrılmasından bahsediliyor. \"Break down\" (parçalanmak, ayrışmak) bu bilimsel bağlam için en doğru deyimsel fiildir (phrasal verb).",
+                                    "wrong": {
+                                        "0": "\"Bring up\" çocuk büyütmek veya konu açmak demektir.",
+                                        "1": "\"Break up\" ilişkiyi bitirmek veya kavgayı ayırmak anlamında kullanılır.",
+                                        "2": "\"Bring down\" düşürmek (yönetimi, fiyatı vs.) demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 10,
+                                "options": [
+                                    "banned",
+                                    "disturbed",
+                                    "interrupted",
+                                    "postponed"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Kurşunlu benzin ve kloroflorokarbonlar (CFC) zararlı olduğu için dünya genelinde \"yasaklandı\". Bu anlamı \"banned\" verir.",
+                                    "wrong": {
+                                        "1": "\"Disturbed\" rahatsız edildi demektir.",
+                                        "2": "\"Interrupted\" sözü kesildi veya araya girildi demektir.",
+                                        "3": "\"Postponed\" ertelendi demektir."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "restatement",
+                        "title": "Restatement Questions",
+                        "questions": [
+                            {
+                                "id": 11,
+                                "statement": "The octopus has a short life span compared to most other animals, with some species living just six months.",
+                                "options": [
+                                    "An octopus does not live as long as the majority of animals, and some types only stay alive for six months.",
+                                    "Generally unable to survive for more than six months, the octopus does not live as long as many other animals do.",
+                                    "Some kinds of octopuses can only remain alive for six months, which is shorter than the life span of other creatures.",
+                                    "In comparing the lifespan of the octopus to that of other animals, it is seen that the octopus lives just six months but other species live longer."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Orijinal cümledeki \"short life span compared to most\" ifadesi A şıkkında \"does not live as long as the majority\" ile; \"some species living just six months\" ifadesi ise \"some types only stay alive for six months\" ile tam örtüşüyor.",
+                                    "wrong": {
+                                        "1": "B şıkkı genelleme yaparak hepsi 6 aydan az yaşar gibi bir anlam katmış, oysa orijinalde sadece \"some species\" (bazı türler) deniyor.",
+                                        "2": "C şıkkı karşılaştırmayı eksik bırakmış, \"çoğu hayvana kıyasla\" vurgusu zayıf.",
+                                        "3": "D şıkkı ahtapotların genelinin sadece 6 ay yaşadığını söylüyor, yine \"bazı türler\" ayrımını kaçırıyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 12,
+                                "statement": "Octopus ink not only hides the animal but also physically harms its enemies by blinding them as well as confusing their sense of smell.",
+                                "options": [
+                                    "Octopuses can escape from their enemies by using their own ink and can also attack their enemies' ability to see and their capability to smell.",
+                                    "In addition to making the octopus hard to see, octopus ink also brings about physical harm to its attackers, affecting both their ability to see and smell.",
+                                    "Octopuses are hard to spot, and their ink makes them difficult to attack because it can both blind their enemies and prevent them from using their sense of smell.",
+                                    "Octopus ink provides the octopus advantages over its attackers as its enemies are unable to see or smell after it is released, which makes it easy for the octopus to hide."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Orijinal cümledeki \"not only hides... but also physically harms\" yapısı B şıkkında \"In addition to making the octopus hard to see... also brings about physical harm\" şeklinde kusursuzca karşılanmış. Kör etme ve koku duyusunu karıştırma detayları da \"affecting both their ability to see and smell\" ile verilmiş.",
+                                    "wrong": {
+                                        "0": "A şıkkı \"attack\" (saldırmak) kelimesini kullanmış, oysa orijinalde zarar vermekten (harm) bahsediliyor.",
+                                        "2": "C şıkkı \"difficult to attack\" (saldırması zor) diyerek anlamı değiştiriyor.",
+                                        "3": "D şıkkı fiziksel zarardan (physical harm) açıkça bahsetmiyor, sadece avantaj sağladığını söylüyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 13,
+                                "statement": "Of the octopus' three hearts, one of them keeps blood flowing to its organs but cannot beat when it swims, which explains why swimming is so tiring for them.",
+                                "options": [
+                                    "Swimming is so tiring that the heart of the octopus that supplies blood to its organs has to stop beating, and its other two hearts cannot function normally either.",
+                                    "The reason why swimming is exhausting for the octopus is that of its three hearts, the one that maintains blood flow to its organs is unable to go on beating while the octopus swims.",
+                                    "Unlike its other two hearts, the octopus' third heart cannot beat when the creature is active, so it is not able to make blood flow to the organs continue and swimming quickly tires the octopus.",
+                                    "Only one of an octopus' three hearts is involved in maintaining blood flow to its organs, but since this heart does not have the capacity to beat regularly, swimming is extremely tiring for the octopus."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Orijinal cümledeki neden-sonuç ilişkisi (yüzmenin yorucu olması -> bir kalbin durması) B şıkkında \"The reason why swimming is exhausting... is that...\" kalıbıyla tam olarak verilmiştir.",
+                                    "wrong": {
+                                        "0": "A şıkkı diğer iki kalbin de çalışmadığını iddia ediyor, orijinalde bu bilgi yok.",
+                                        "2": "C şıkkı \"active\" kelimesini kullanmış, orijinalde spesifik olarak \"swimming\" (yüzme) deniyor.",
+                                        "3": "D şıkkı kalbin düzenli atma kapasitesi olmadığını söylüyor, oysa orijinalde sadece yüzerken durduğu belirtiliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 14,
+                                "statement": "After octopus numbers declined sharply near Japan in the 1980s, North and West African fishermen started aggressively targeting these animals, causing the population to eventually fall there, too.",
+                                "options": [
+                                    "Recently, the population of the octopus has decreased as much in North and West Africa as it did in Japan in the 1980s because of the fact that it is being greatly overfished.",
+                                    "The Japanese overfished the octopus in the 1980s and wiped them out in that area, and octopuses finally became extinct in North and West Africa because of significant overfishing there.",
+                                    "The steep drop in the octopus population near Japan in the 1980s was followed by a drop in their numbers in North and West Africa due to fishermen there fishing them in a destructive way.",
+                                    "The number of octopuses has fallen due to Japanese fishermen, who made their population plummet around Japan in the 1980s and then caused the large drop in North and West Africa some time later."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Orijinaldeki olay sıralaması (Japonya'da düşüş -> Afrika'da avlanma -> Afrika'da düşüş) C şıkkında \"The steep drop... was followed by... due to fishermen\" yapısıyla korunmuştur. \"Destructive way\" ifadesi \"aggressively targeting\" ile örtüşür.",
+                                    "wrong": {
+                                        "0": "A şıkkı olayları eş zamanlı gibi gösteriyor ve \"Recently\" (son zamanlarda) ifadesini kullanıyor, oysa olay geçmişe dayanıyor.",
+                                        "1": "B şıkkı \"extinct\" (nesli tükenmiş) ifadesini kullanıyor ki bu çok abartılı, orijinalde sadece nüfusun düştüğü (fall/decline) yazıyor.",
+                                        "3": "D şıkkı Afrika'daki düşüşü Japon balıkçılara yüklüyor, oysa orijinalde \"North and West African fishermen\" (Afrikalı balıkçılar) deniyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 15,
+                                "statement": "The opening ceremony of the Tokyo 2020 Olympics included, for the first time, an official commemoration of those who died in the massacre at the Munich 1972 Olympics.",
+                                "options": [
+                                    "Those killed in the first massacre at the Munich 1972 Olympics should have been officially remembered much earlier than the Tokyo 2020 Olympics' opening ceremony.",
+                                    "The victims of the massacre at the Munich 1972 Olympics were officially remembered during the Tokyo 2020 Olympics' opening ceremony for the first time nearly a half century later.",
+                                    "The Tokyo 2020 Olympics opened with a ceremony, the first part of which was an official commemoration of the people who had lost their lives in the massacre at the Munich 1972 Olympics.",
+                                    "Due to official reasons, it wasn't until the Tokyo 2020 Olympics' opening ceremony that the people killed in the massacre at the Munich 1972 Olympics were commemorated."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Orijinaldeki \"included, for the first time\" vurgusu B şıkkında \"officially remembered... for the first time\" ile verilmiş. Ayrıca 1972 ile 2020 arasındaki süreye \"nearly a half century later\" (yaklaşık yarım asır sonra) diyerek doğru bir ekleme yapılmış.",
+                                    "wrong": {
+                                        "0": "A şıkkı \"should have been\" diyerek bir eleştiri/tavsiye getiriyor, orijinal cümle sadece durum tespiti yapıyor.",
+                                        "2": "C şıkkı anmanın \"first part\" (ilk kısım) olduğunu söylüyor, orijinalde böyle bir detay yok.",
+                                        "3": "D şıkkı \"Due to official reasons\" (resmi sebeplerden dolayı) diyerek orijinalde olmayan bir neden ekliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 16,
+                                "statement": "In a 2019 survey, Munich ranked second in Europe with 61% of its residents very satisfied with green spaces in the city.",
+                                "options": [
+                                    "In a 2019 survey in Europe, Munich was found to have residents, 61% of whom expressed their great satisfaction with green spaces in the city for the second time.",
+                                    "A 2019 survey comparing cities in Europe showed that Munich had the second highest percentage of people, 61%, very satisfied with green spaces in the city.",
+                                    "According to a survey in 2019, 61% of people who lived in Munich, the city with the second largest amount of green spaces in Europe, were very happy to be living there.",
+                                    "61% of Munich residents participated in a 2019 survey on satisfaction with urban green spaces, causing the city to rank second in Europe."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Orijinaldeki \"ranked second... 61%... very satisfied\" bilgisi B şıkkında \"second highest percentage... 61%... very satisfied\" ile birebir örtüşüyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı \"for the second time\" (ikinci kez) diyerek anlamı bozuyor. Sıralamada ikinci, ikinci kez memnun değil.",
+                                        "2": "C şıkkı Münih'in \"ikinci en büyük yeşil alana\" sahip olduğunu söylüyor, oysa sıralama memnuniyet oranıyla ilgili.",
+                                        "3": "D şıkkı nüfusun %61'inin ankete katıldığını söylüyor. Orijinalde ise ankete katılanların oranından değil, memnuniyet oranından bahsediliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 17,
+                                "statement": "The Buddha taught his students not to fear death, suggesting that if they lived as good people, their rebirth would be good.",
+                                "options": [
+                                    "The Buddha did not fear death like his students as he believed that he had lived honestly and his rebirth was going to be good.",
+                                    "The idea that living as a good person would bring about a good rebirth was indicated by the Buddha as he trained his students not to be frightened by death.",
+                                    "The Buddha calmed down his students who had an excessive fear of death by claiming that their good behaviors would enable them to have a good rebirth.",
+                                    "The Buddha, who believed in rebirth, encouraged his students to die, suggesting that their life as a good person would result in their good rebirth."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Orijinal cümledeki \"suggesting that if they lived as good people...\" yapısı B şıkkında \"The idea that living as a good person... was indicated by the Buddha\" şeklinde ifade edilmiş. Ana fikir korunmuş.",
+                                    "wrong": {
+                                        "0": "A şıkkı Buda'nın kendisinden bahsediyor, öğrencilerine verdiği dersten değil.",
+                                        "2": "C şıkkı öğrencilerin \"excessive fear\" (aşırı korku) duyduğunu söylüyor, orijinalde genel bir öğreti var.",
+                                        "3": "D şıkkı \"encouraged his students to die\" (öğrencilerini ölmeye teşvik etti) diyerek çok yanlış bir anlam çıkarıyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 18,
+                                "statement": "The carbon footprint of a product comprises both the CO2 emitted during the manufacture of the product itself and the amount emitted during the transportation of the product to the consumer.",
+                                "options": [
+                                    "A product's carbon footprint includes not only the amount of CO2 that comes from its production but also from the transportation of that product to market.",
+                                    "If CO2 is released both during the manufacture and the transportation of the product to buyers, the product's carbon footprint is immediately measured.",
+                                    "The carbon footprint of a product, namely, the combination of the CO2 released during its manufacture and transportation, determines its value.",
+                                    "If a product's transportation to customers also emits CO2 just like its manufacture does, that product can be said to have a carbon footprint."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Orijinal cümledeki \"comprises both... and...\" (hem onu hem bunu kapsar) yapısı, A şıkkında \"includes not only... but also...\" (sadece onu değil bunu da içerir) kalıbıyla tam karşılanmış. Manufacture = production, consumer = market eşleştirmeleri doğru.",
+                                    "wrong": {
+                                        "1": "B şıkkı \"immediately measured\" (hemen ölçülür) ifadesini eklemiş, orijinalde yok.",
+                                        "2": "C şıkkı \"determines its value\" (değerini belirler) diyor, orijinalde sadece tanım yapılmış.",
+                                        "3": "D şıkkı koşullu bir cümle kurmuş, orijinal cümle ise genel bir tanım cümlesidir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 19,
+                                "statement": "The most effective way to reduce your carbon footprint is to decrease the length and frequency of your travels.",
+                                "options": [
+                                    "Unless you reduce the frequency of your distant travels, you cannot reduce your carbon footprint effectively.",
+                                    "The length and frequency of your travels to remote areas determine the amount of carbon footprint that you should reduce.",
+                                    "People intending to reduce their carbon footprint should avoid ever travelling to remote places.",
+                                    "In order to reduce your carbon footprint significantly, you should reduce the distance and frequency of your travels."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Orijinal cümledeki \"most effective way... is to decrease\" önerisi D şıkkında \"In order to... significantly, you should reduce\" şeklinde verilmiş. Length = distance, decrease = reduce eşleşmesi tam.",
+                                    "wrong": {
+                                        "0": "A şıkkı \"Unless\" ile olumsuz bir koşul kurmuş, anlamı daraltmış.",
+                                        "1": "B şıkkı \"determine the amount\" (miktarını belirler) diyor, çözüm yolunu değil.",
+                                        "2": "C şıkkı \"avoid ever travelling\" (asla seyahat etmeyin) diyerek çok keskin ve yanlış bir yargıya varmış."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reading",
+                        "title": "Text 1: The World's First Octopus Farm",
+                        "text": "The World's First Octopus Farm\nNews that the world's first commercial octopus farm is closer to becoming reality has been met with disappointment by an international team of experts on octopus. These experts argue that such intelligent \"sentient creatures\", i.e. animals able to feel pain and emotions, should not be raised for food. Recently, this team reviewed more than 300 studies and concluded that there was strong scientific evidence that octopuses could experience not only pleasure and excitement but also pain and distress. They became convinced that governments should consider forbidding the import of farmed octopus meat in future.\n\nOn the other hand, octopus meat is gaining in popularity, and the number of octopuses in the wild is decreasing while prices are going up. An estimated 350,000 tonnes are caught each year, more than 10 times the amount caught in 1950. That growth has led to a race between companies to discover how to produce octopus meat using captive octopuses. The Spanish multinational company Nueva Pescanova (NP) appears to have beaten companies in Mexico, Japan and Australia to win this competition. It has announced that it will start octopus farming in summer 2022 and sales in 2023. However, NP has refused to disclose any details about what conditions the octopuses will be kept in. The size of the tanks, the food they will eat, and the way they will be killed are all being kept secret.\n\nThe plans have been criticized by Compassion in World Farming (CIWF), an international group of researchers who fight for better conditions for animals. The group has written to governments of numerous countries urging them to forbid importing farmed octopus. Dr. Elena Lara, CIWF's research manager, says, \"These are amazing animals, so putting them in empty tanks with nothing to interact with is wrong.\" She is right to think so. Octopuses have been observed using sea shells to hide and defend themselves and have also managed to escape from aquariums and steal from traps set by people fishing. What's more, they have no skeletons to protect themselves and are highly territorial, so they could be easily injured in captivity and, if there is more than one octopus in a tank, they could start to eat each other.\n\nNP says on its website that it is \"firmly committed to aquaculture (farming seafood) as a method to reduce pressure on fishing and ensure sustainable resources.\" However, CIWF's Dr. Lara argues that NP's actions are commercial and the company's argument is illogical. \"It doesn't mean that fishermen will stop fishing for octopuses.\" In addition, she argues that farming octopuses will add to the growing pressure on wild fish as octopuses are carnivores and need to eat about three kilos each day to grow properly. Currently around one-third of fish caught is being turned into feed for other animals, so farmed octopus will need to be fed on fish that are already being overfished. Finally, Dr. Lara argues that forbidding octopus farming will not cause a problem like leaving humans without enough food. Instead, the result of doing this will \"only be that wealthy consumers will pay more for wild octopus\". Due to everything known about the intelligence of octopuses and the fact they are not essential for food security, she believes this intelligent creature should not be mass-produced for food.",
+                        "questions": [
+                            {
+                                "id": 20,
+                                "question": "Which sentence best restates the essential information in this sentence from paragraph 1? \"These experts argue that such intelligent \"sentient creatures\", i.e. animals able to feel pain and emotions, should not be raised for food.\"",
+                                "options": [
+                                    "Animals which can have pain and emotions must be referred to as \"sentient creatures\" according to these experts, who are opposed to eating animals.",
+                                    "In these experts' opinion, it is not right that animals that can experience pain and have emotions, that is, \"sentient creatures\", are raised for food.",
+                                    "Some animals raised for food are called \"sentient creatures\" due to experiencing pain and emotions, but these experts are opposed to this definition.",
+                                    "These experts claim almost all animals are intelligent and are \"sentient creatures\" that understand pain and emotions; thus, they must not become food for people."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Cevap B şıkkıdır çünkü orijinal cümlede uzmanların acı ve duygu hissedebilen (sentient) canlıların yemek için yetiştirilmemesi gerektiği görüşü vurgulanıyor. B şıkkı \"In these experts' opinion, it is not right that animals... are raised for food\" diyerek bunu tam karşılıyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı sadece terminolojiye odaklanmış (nasıl isimlendirilmeli), oysa asıl konu yetiştirilmemeleri.",
+                                        "2": "C şıkkı uzmanların 'tanıma' karşı olduğunu söylüyor, oysa onlar 'yetiştirmeye' karşı.",
+                                        "3": "D şıkkı 'neredeyse tüm hayvanlar' diye genelleme yapıyor, orijinalde ahtapotlar özelinde konuşuluyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 21,
+                                "question": "The word \"disclose\" in paragraph 2 is closest in meaning to ----.",
+                                "options": [
+                                    "examine",
+                                    "preserve",
+                                    "promote",
+                                    "reveal"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Metinde \"NP has refused to disclose any details... kept secret\" deniyor. Yani detayları açıklamayı reddetmişler ve gizli tutmuşlar. Bu durumda \"disclose\" kelimesi \"reveal\" (açığa çıkarmak, ifşa etmek) ile eş anlamlıdır.",
+                                    "wrong": {
+                                        "0": "\"Examine\" incelemek demektir.",
+                                        "1": "\"Preserve\" korumak demektir.",
+                                        "2": "\"Promote\" tanıtmak/terfi ettirmek demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 22,
+                                "question": "From paragraph 2, it can be inferred that Nueva Pescanova ----.",
+                                "options": [
+                                    "is a leading company in catching octopuses in the wild",
+                                    "has been marketing octopus meat in numerous countries over the past few years",
+                                    "is moving faster to raise octopuses than companies from other countries are",
+                                    "hopes that the price of octopus meat will decrease so that more people will be able to buy it"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Parçada NP firmasının \"...beaten companies in Mexico, Japan and Australia to win this competition\" (Meksika, Japonya ve Avustralya'daki şirketleri yenerek bu yarışı kazandığı) söyleniyor. Bu da onların diğerlerinden daha hızlı hareket ettiğini (moving faster) gösterir.",
+                                    "wrong": {
+                                        "0": "Metinde vahşi avlanmadan değil, çiftlik üretiminden (farming) bahsediliyor.",
+                                        "1": "Daha satışa başlamadılar, 2023'te başlayacaklar: \"sales in 2023\".",
+                                        "3": "Fiyatların düşmesiyle ilgili bir umut belirtilmemiş."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 23,
+                                "question": "Why does the author mention that octopuses use shells, escape from aquariums and steal from traps in paragraph 3?",
+                                "options": [
+                                    "To illustrate that octopuses are intelligent creatures",
+                                    "To give evidence that octopuses are able to survive in difficult situations",
+                                    "To show that octopuses are sometimes aggressive and dangerous creatures",
+                                    "To prove that some people disagree with Dr. Lara's opinion of octopuses"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Yazar bu örnekleri vermeden hemen önce Dr. Lara'nın \"These are amazing animals...\" (Bunlar harika hayvanlar) sözünü alıntılıyor ve \"She is right to think so\" (Böyle düşünmekte haklı) diyor. Bu örnekler ahtapotların ne kadar zeki ve karmaşık canlılar olduğunu göstermek için verilmiştir.",
+                                    "wrong": {
+                                        "1": "Hayatta kalma yeteneklerinden ziyade zekalarını vurgulamak amaçlanıyor.",
+                                        "2": "Saldırgan olduklarını değil, akıllı olduklarını gösteriyor.",
+                                        "3": "Tam tersine, yazar Dr. Lara'yı desteklemek için bu örnekleri veriyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 24,
+                                "question": "The phrase \"doing this\" in paragraph 4 refers to ----.",
+                                "options": [
+                                    "having enough to eat",
+                                    "leaving humans without enough food",
+                                    "forbidding octopus farming",
+                                    "being overfished"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Parçada \"forbidding octopus farming will not cause a problem... Instead, the result of doing this...\" deniyor. Yani \"bunu yapmanın sonucu\" derken, bir önceki cümlede bahsedilen \"ahtapot yetiştiriciliğini yasaklama\" eylemine atıfta bulunuluyor.",
+                                    "wrong": {
+                                        "0": "Yemek yeme ile ilgili değil.",
+                                        "1": "Bu ifade sonucun kendisi, eylem değil.",
+                                        "3": "Aşırı avlanma konunun bir parçası ama referans verilen eylem değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 25,
+                                "question": "According to paragraph 4, octopuses eat three kilos of fish per day, so ----.",
+                                "options": [
+                                    "most other sea creatures attack them because they eat such a large amount",
+                                    "octopus farming will further decrease the wild fish population, which is already under stress",
+                                    "it is unreasonable to think that a profit could be made on octopus farming",
+                                    "octopuses in the wild will not be able to get enough to eat if there are octopus farms"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Parçanın ilgili cümlesinde: \"farming octopuses will add to the growing pressure on wild fish as octopuses... need to eat about three kilos each day\" (ahtapot yetiştirmek vahşi balıklar üzerindeki baskıyı artıracak çünkü günde 3 kilo yemeleri gerek) deniyor. Yani B şıkkı doğrudur.",
+                                    "wrong": {
+                                        "0": "Diğer canlıların saldırısından bahsedilmiyor.",
+                                        "2": "Kârlılık (profit) konusuna değinilmemiş.",
+                                        "3": "Çiftliktekilerin ne yiyeceği sorun, vahşidekilerin aç kalması değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 26,
+                                "question": "The MAIN purpose of the text is to discuss ----",
+                                "options": [
+                                    "the reasons why octopus farming should not be allowed",
+                                    "the many challenges octopus farms will need to overcome",
+                                    "the advantages and disadvantages of octopus farming",
+                                    "the negative effects that octopus farming will have on the environment"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Metnin geneli, uzmanların ve CIWF gibi grupların ahtapot çiftliklerine neden karşı çıktığını (acı hissetmeleri, zeki olmaları, vahşi balık stoklarını tüketmeleri) anlatıyor. Bu nedenle ana amaç A şıkkıdır.",
+                                    "wrong": {
+                                        "1": "Zorluklardan ziyade etik ve çevresel itirazlar ön planda.",
+                                        "2": "Metin tarafsız bir avantaj/dezavantaj analizi değil, daha çok karşıt görüş ağırlıklı.",
+                                        "3": "Çevresel etkiler sadece bir kısım (Para 4), tamamı değil (etik konular da var)."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reading",
+                        "title": "Text 2: The Afterlife of Munich Olympic Games Venue",
+                        "text": "The Afterlife of Munich Olympic Games Venue\nOn 26 April 1966, the International Olympic Committee chose the German city of Munich to be the host of the 1972 Summer Olympic Games. On the 280-hectare Oberwiesenfeld, four kilometers outside the city center, the Olympic sports facilities were built in a harmony between nature and architecture.\n\nSince the early 1960s, Munich had been undergoing rapid urban redevelopment. Through its underground system and new railways, its traffic routes were expanded. The awarding of such a major international event to Munich triggered a further push for development. In contrast to the 1936 Olympics in Berlin, which had been misused for propaganda purposes by the Nazi regime, it was hoped that the '72 Munich Games would go down in history as the \"cheerful Games\". This was reflected in its light architecture, friendly slogans, open attitude, international spirit, and an outright rejection of any color or form that could be linked to the country's Nazi history. However, a massacre on 5 September, which resulted in the death of 6 Israeli coaches, 5 Israeli athletes, 1 German police officer and 5 members of the Palestinian organization behind this attack, overshadowed the peaceful atmosphere of the '72 Games.\n\nNevertheless, Munich '72 does not bring to mind just that massacre. The Munich Olympic facilities received international recognition as an outstanding architectural achievement of the German post-war period. Transformed from an old, no-longer-used airfield into a green space with state-of-the-art sports facilities, the 1972 Olympic Games venue was consciously planned with a view toward being used after the Games. Fifty years on, many experts regard it as a unique achievement blending a mega-event with long-lasting development. The buildings have been given a second life that benefits the local community, economy, and urban landscape. The Radio and Television Centre was transformed into a university sports facility for the Technical University of Munich, the Press City into a residential complex with a shopping center, and the Olympic landscape became a sports and leisure paradise for the people of Munich. The men's Olympic Village became a modern housing complex and the women's Olympic Village a student housing project. In 1969, architect Günther Eckert took a radical approach in designing a high-rise concrete block of apartments as part of the Olympic Village. Its 801 apartments were later converted into accommodations to house around 2,000 students in 2013.\n\nFor five decades following the end of the Munich Olympics, people have been living happily within the former Olympic Village, and the area residents have established a strong sense of community. The area's success as a village with real identity stems largely from its local residents' association, which was set up shortly after the Games in 1972, and this residents' group still shapes the community to this day. When people first moved into their flats in 1973, they found them well-suited to their young families. The village had been constructed with a clear separation of pedestrians from vehicles; its quiet terraces with green spaces in between allowed easy walking access to nearby shops.\n\n\"All of that was very 'in' back then, but it was implemented here on a huge scale no one had ever seen anything like it,\" says Ludger Korintenberg, who moved into the Olympic Village in 1975. As an architect, he had followed its development closely. He was convinced by the need for a social housing project in the north of Munich, protected from traffic noise, so he became involved in the residents' group. Whereas nowadays architects and landscape engineers are given responsibility for such projects, back then the residents had a big say. They came up with designs for playgrounds in which children could learn creatively, and ideas for community centers for local residents. Alongside the unique nature of its construction, there was, according to Korintenberg, an \"enormous positive social potential there\" from the very beginning. \"Other parts of Munich aren't such an organic whole, the way the Olympic Village is. The crucial factor is that there aren't any individual houses here; instead, it's a whole, like one big creature. That brings people together,\" says Ludger Korintenberg.\n\n(A) The afterlife of venues for mega events such as the Olympics has rarely been happy. (B) There are obstacles for these large-scale transformation projects, such as insufficient funding, changes to designs due to changing regulations, or simply the contexts of the project alter and no longer fit the design. (C) Architects can offer a design and then make follow-up adjustments to it, but it takes effort from all the others (the local government, residents as well as non-governmental organizations) involved to optimize and realize any design. (D) Thus, in order for the Olympic Games to be beneficial to its host city in the long-term, taking inspiration from the Munich example might be a good start point.",
+                        "questions": [
+                            {
+                                "id": 27,
+                                "question": "The word \"outright\" in paragraph 2 is closest in meaning to",
+                                "options": [
+                                    "absolute",
+                                    "arrogant",
+                                    "eligible",
+                                    "unwilling"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Cümlede \"outright rejection\" (kesin reddediş) ifadesi geçiyor. Nazi tarihini çağrıştıracak her şeyin tamamen, kesin olarak reddedildiğini anlatıyor. Bu nedenle \"absolute\" (kesin/tam) kelimesi en yakın anlamlıdır.",
+                                    "wrong": {
+                                        "1": "\"Arrogant\" kibirli demektir.",
+                                        "2": "\"Eligible\" uygun/nitelikli demektir.",
+                                        "3": "\"Unwilling\" isteksiz demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 28,
+                                "question": "According to paragraph 2, it is FALSE that ----",
+                                "options": [
+                                    "those who died in the 1972 Munich massacre were of various nationalities",
+                                    "the Nazi government used the 1936 Berlin Olympic Games as a propaganda tool",
+                                    "the urban redevelopment in Munich began after the city was chosen to host the '72 Olympics",
+                                    "organizers of the '72 Munich Olympics used several methods to make the event be remembered as \"cheerful\""
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Paragraf 2'nin başında \"Since the early 1960s, Munich had been undergoing rapid urban redevelopment\" (1960'ların başından beri kentsel dönüşüm geçiriyordu) deniyor. Olimpiyatlar 1966'da seçildi. Yani dönüşüm olimpiyat seçiminden ÖNCE başlamıştı, sonra değil. Bu yüzden C şıkkı yanlıştır.",
+                                    "wrong": {
+                                        "0": "DOĞRU: Ölenler İsrailli, Alman ve Filistinliydi (various nationalities).",
+                                        "1": "DOĞRU: Metinde \"misused for propaganda purposes by the Nazi regime\" deniyor.",
+                                        "3": "DOĞRU: \"light architecture, friendly slogans\" gibi yöntemler kullanıldığı belirtiliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 29,
+                                "question": "Which of the following is TRUE according to paragraph 3?",
+                                "options": [
+                                    "The buildings of the 1972 Munich Olympics serve a single function today.",
+                                    "The 1972 Munich Olympic Games are not only associated with the massacre.",
+                                    "The integration of the Olympics venue into urban life in Munich is no longer viewed as a success.",
+                                    "The post-Olympics use of the Olympics venue in Munich had not been planned before the Games."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Paragraf 3'ün ilk cümlesi: \"Nevertheless, Munich '72 does not bring to mind just that massacre.\" (Yine de Münih 72 sadece o katliamı akla getirmez). Bu, B şıkkını (Sadece katliamla ilişkilendirilmez) doğrular.",
+                                    "wrong": {
+                                        "0": "Tek bir fonksiyon değil; üniversite, konut, alışveriş merkezi gibi çeşitli fonksiyonları var.",
+                                        "2": "Hala başarılı görülüyor: \"many experts regard it as a unique achievement\".",
+                                        "3": "Önceden planlanmıştı: \"consciously planned with a view toward being used after the Games\"."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 30,
+                                "question": "The word \"them\" in paragraph 4 refers to ----.",
+                                "options": [
+                                    "flats",
+                                    "Olympic Games",
+                                    "residents",
+                                    "shapes"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Cümle: \"When people first moved into their flats in 1973, they found THEM well-suited...\" (İnsanlar 1973'te dairelerine taşındıklarında, ONLARI uygun buldular). Burada \"them\", \"flats\" (daireler) kelimesine atıfta bulunuyor.",
+                                    "wrong": {
+                                        "1": "Olimpiyat oyunlarına taşınamazlar.",
+                                        "2": "Residents (sakinler) kendilerini buldular demez, daireleri buldular.",
+                                        "3": "Şekiller bağlam dışı."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 31,
+                                "question": "It can be understood from paragraph 4 that ----.",
+                                "options": [
+                                    "pedestrians and cars share the same space in the Munich Olympics Venue",
+                                    "the first residents of the flats in the Munich Olympics Venue were old people",
+                                    "residents that settled in the area of the Munich Olympic Village are pleased with their living conditions",
+                                    "the residents' group for the Munich Olympics Venue has lost its power in decision-making processes"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Parçada insanların 50 yıldır orada \"living happily\" (mutlu yaşadıkları) ve güçlü bir \"sense of community\" (topluluk duygusu) kurdukları belirtiliyor. Bu da C şıkkını (memnun olduklarını) doğrular.",
+                                    "wrong": {
+                                        "0": "Tam tersi: \"clear separation of pedestrians from vehicles\" (yayaların araçlardan net ayrımı) var.",
+                                        "1": "\"Young families\" (genç aileler) diyor, yaşlılar değil.",
+                                        "3": "Güçlerini kaybetmediler: \"residents' group still shapes the community to this day\" (hala şekillendiriyor)."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 32,
+                                "question": "According to paragraph 5, Ludger Korintenberg ----.",
+                                "options": [
+                                    "became an architect after moving into the Munich Olympic Village",
+                                    "believes architects should be the chief decision-makers in community projects",
+                                    "thinks the Munich Olympic Village is not like other places in the city in terms of its social structure",
+                                    "did not initially see prospects for a favorable social environment in the Munich Olympic Village"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Korintenberg şöyle diyor: \"Other parts of Munich aren't such an organic whole, the way the Olympic Village is.\" (Münih'in diğer kısımları Olimpiyat Köyü gibi organik bir bütün değil). Bu, C şıkkını (diğer yerler gibi olmadığını düşünüyor) doğrular.",
+                                    "wrong": {
+                                        "0": "Oraya taşındığında zaten mimardı: \"As an architect, he had followed...\"",
+                                        "1": "Sakinlerin söz hakkı olmasını övüyor, sadece mimarların değil.",
+                                        "3": "Başlangıçtan beri potansiyeli görmüş: \"enormous positive social potential there from the very beginning\"."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 33,
+                                "question": "In paragraph 6, where could the following sentence be added? \"The successful case of Munich shows how design can rewrite the story of urban redevelopment in an entirely different way.\"",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Paragraf 6, olimpiyat tesislerinin genelde başarısız olduğundan (A), engellerden (B) ve çaba gerektiğinden (C) bahsediyor. Son cümle (D) ise \"Thus... taking inspiration from Munich...\" (Bu yüzden Münih'ten ilham almak...) diye bitiyor. Eklenen cümle Münih'in başarısını özetlediği için en sona, sonuç cümlesi olarak (D noktasına) gelmesi en mantıklısıdır.",
+                                    "wrong": {
+                                        "0": "A noktası genel bir giriş, Münih örneğine henüz geçilmedi.",
+                                        "1": "B noktası engellerden bahsediyor, akışı bozar.",
+                                        "2": "C noktası mimari süreçten bahsediyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 34,
+                                "question": "Which of the following is NOT mentioned in the text?",
+                                "options": [
+                                    "The overall size of the Munich Olympic Games area",
+                                    "The number of people killed in the 1972 Munich Olympics massacre",
+                                    "The total number of flats in the housing complex in the Munich Olympic Games area",
+                                    "The year settlement began in the housing complex in the Munich Olympic Games area"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Metinde \"801 apartments were later converted...\" ifadesi var ama bu sadece Günther Eckert'in tasarladığı YÜKSEK KATLI BLOK (high-rise block) için geçerli. Tüm Olimpiyat Köyü'ndeki (men's village + women's village vs.) toplam daire sayısı verilmemiştir.",
+                                    "wrong": {
+                                        "0": "Mentioned: \"280-hectare\".",
+                                        "1": "Mentioned: \"6 Israeli coaches, 5 Israeli athletes, 1 German police officer and 5 members of...\" (Toplam sayı hesaplanabilir).",
+                                        "3": "Mentioned: \"When people first moved into their flats in 1973\"."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reading",
+                        "title": "Text 3: After Death Climate Concerns",
+                        "text": "After Death Climate Concerns\nCremation, a method of final disposition of a dead body through burning, is often marketed as a more environmentally-friendly option than traditional burial. Over the past decade, companies have been coming up with creative things to be done with a loved one's ashes, such as pressing them into a vinyl record or having them compressed into diamonds. As a result, cremations have outnumbered traditional burials as the end-of-life option in the US. However, cremation has also recently drawn attention due to environmental concerns since it requires a lot of fuel and results in millions of tons of carbon dioxide emissions per year. Those emissions are in fact high enough to make some environmentalists rethink the whole process.\n\nNora Menkin, executive director of the Seattle-based People's Memorial Association, which helps people choose end-of-life options, says, \"The average US cremation uses up about the same amount of energy and has the same emissions as about two tanks of gas in an average car. Therefore, it's not insignificant.\"\n\nThe particular environmental impact of an individual cremation also depends on where and how it's performed. In India, for example, Hindus have a long tradition of cremating people on a traditional open-air pyre. This requires cutting down millions of trees every year, and the practice contributes to air and river pollution since most pyre cremations occur near water. Since 1992, the nonprofit Mokshda Green Cremation System has been trying to reduce this pollution by giving communities access to more fuel-efficient structures for funeral ceremonies. In these Mokshda pyres, the \"pyre\" is a metal tray heated with firewood. This setup takes less time and requires less wood than a traditional open-air pyre. It's also easier to switch from one cremation to another by removing the metal tray filled with ash and replacing it with a new tray containing the next body. Right now, 50 such pyres are spread around nine Indian states. According to Anshul Garg, the director of Mokshda Green Cremation System, one Mokshda pyre can handle around 45 cremations a day. Moreover, a Mokshda pyre lowers the amount of wood needed for a conventional cremation from 500 kilograms to 120 kilograms.\n\nThough there has been some resistance in India to this non-traditional method, people are more open to the Mokshda system now than they were in the 1990s. Around 150,000 cremations have taken place on Mokshda's fuel efficient pyres in India, saving more than 480,000 trees, keeping about 60,000 metric tons of ash out of rivers, and releasing 60,000 fewer metric tons of greenhouse gas emissions. In addition, the nonprofit has received inquiries from other countries in Africa and Asia about making their pyre cremations greener.\n\nIn the US, by contrast, all cremations happen inside crematoriums. Regional environmental regulations require that most US crematoriums have filtration systems, such as after-chambers that burn and neutralize pollutants. \"However, filtration systems are focused on reducing atmospheric pollutants and nitrous oxide,\" says Paul Seyler, the marketing division manager for Matthews Environmental Solutions, which develops cremation technologies. \"These do not neutralize the CO2 that is generated from the cremated body, or the gas that is generated when heating that body up to 650 degrees Celsius or more. A single cremation typically takes up to three hours and releases an average of 243 kilograms of CO2, the equivalent of a 800-kilometer-car journey, into the atmosphere. Given this figure, it is estimated that cremations in the US account for about 360,000 metric tons of CO2 emissions each year.\"\n\nFor Americans who don't want to use up so much fuel or release so much carbon dioxide after they die, alkaline hydrolysis may also be a more attractive option. Sometimes known as water cremation or aquamation, this relatively new method of dissolving a body in water is now legal in at least 18 US states. In the process of alkaline hydrolysis, the body is laid in a solution of about 95 percent water and 5 percent alkali, usually sodium hydroxide or potassium hydroxide. The liquid is then heated and set at a high pressure to avoid boiling, causing the body to get rid of its proteins and fats. The decomposition creates a coffee-colored liquid, which contains amino acids, peptides, sugars, and salts. That liquid gets flushed down the drain, and treated like any other type of wastewater. Only bones remain. If the family desires, they can have bones crushed into ash, and they can then be displayed, kept in a pot, or scattered in a special location.\n\nAlkaline hydrolysis has about a tenth of the carbon footprint of conventional cremation. While the process does take a similar amount of time, it doesn't use so much heat, and it's the water-alkali solution that's doing most of the work. In addition, the process releases zero emissions from the body itself.\n\nCompared to other sources of greenhouse gas emissions, these numbers may seem relatively small. A single cremation only accounts for a fraction of the average American's carbon footprint. However, once you add up the numbers globally, the concern gains more reality. With most of the world still far from fulfilling the commitments laid out in the Paris climate agreement, due to an ever-increasing global population and the burgeoning popularity of cremation worldwide, experts say its environmental impacts should not be dismissed. In the future, we'll probably see many more alternatives to cremation.",
+                        "questions": [
+                            {
+                                "id": 35,
+                                "question": "What is the MAIN IDEA of paragraph 1?",
+                                "options": [
+                                    "Services such as pressing your loved one's ashes into a vinyl record have made cremations exceed traditional burials over the past decade.",
+                                    "Despite its popularity due to the claims that it is greener and its additional trendy services, cremation has significant environmental effects to consider.",
+                                    "That cremation is not a more environmentally-friendly alternative than traditional burial has long been highlighted by environmentalists.",
+                                    "Traditional burial has been proven to be hazardous to the environment, contrary to past claims that it was environmentally-friendly."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Paragraf 1, yakma işleminin (cremation) çevre dostu olarak pazarlandığını ve popüler olduğunu, ANCAK (However) yüksek emisyon nedeniyle çevresel endişeler yarattığını anlatıyor. B şıkkı bu \"popülerlik vs. çevresel etki\" zıtlığını en iyi özetleyen şıktır.",
+                                    "wrong": {
+                                        "0": "A şıkkı sadece popülarite sebebine odaklanmış, ana sorun olan çevresel etkiyi atlamış.",
+                                        "2": "C şıkkı \"has long been highlighted\" (uzun süredir vurgulanıyor) diyor, oysa metinde \"recently drawn attention\" (son zamanlarda dikkat çekti) deniyor.",
+                                        "3": "D şıkkı geleneksel gömülmeye odaklanmış, konu yakma işlemi."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 36,
+                                "question": "Based on the information in paragraphs 1&2, we can infer that ----.",
+                                "options": [
+                                    "the emissions from cremation have always been a source of concern for environmentalists",
+                                    "Menkin finds the emissions from cremation too low to worry about",
+                                    "People's Memorial Association is a company strongly promoting cremation to its customers",
+                                    "using up two tanks of gas causes as large a carbon footprint as an average US cremation"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Paragraf 2'de Nora Menkin: \"The average US cremation... has the same emissions as about two tanks of gas...\" diyor. Bu bilgi D şıkkını (iki depo benzin tüketimi ortalama bir ABD kremasyonu kadar karbon ayak izi bırakır) doğrular.",
+                                    "wrong": {
+                                        "0": "\"Always\" (her zaman) yanlış, \"recently\" (son zamanlarda) deniyor.",
+                                        "1": "Tam tersi: \"it's not insignificant\" (önemsiz değil) diyor.",
+                                        "2": "Şirket değil, \"nonprofit\" (kâr amacı gütmeyen) bir dernek veya yardımcı kuruluş gibi davranıyor, sadece kremasyonu övdüğü bilgisi yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 37,
+                                "question": "According to paragraph 3, it is FALSE that ----.",
+                                "options": [
+                                    "a traditional open-air pyre does not include a metal tray",
+                                    "a Mokshda pyre requires less than one fourth of the wood that a traditional pyre does",
+                                    "multiple bodies are burnt at once in a Mokshda pyre",
+                                    "around 2250 bodies can be cremated daily in India using Mokshda pyres"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Metinde \"replacing it with a new tray containing the NEXT body\" (bir sonrakini içeren yeni tepsiyle değiştirerek) deniyor. Bu, işlemin sırayla yapıldığını gösterir, aynı anda birden fazla bedenin (at once) yakıldığını değil. C şıkkı yanlıştır.",
+                                    "wrong": {
+                                        "0": "DOĞRU: Metal tepsi Mokshda sisteminde var, geleneksel olanda yok.",
+                                        "1": "DOĞRU: 500 kg'dan 120 kg'a düşüyor, bu da dörtte birden azdır (125 kg'dan az).",
+                                        "3": "DOĞRU: 50 pyre var, her biri günde 45 tane yapabiliyor. 50 x 45 = 2250."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 38,
+                                "question": "According to paragraph 4, it is FALSE that ----.",
+                                "options": [
+                                    "Mokshda is a group organized for purposes other than generating profit",
+                                    "some African countries are still using traditional pyres without green technologies",
+                                    "some people in India initially did not want to cremate their dead on Mokshda pyres",
+                                    "the public did not know about the Mokshda pyres in the 1990s"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Metinde \"people are more open to the Mokshda system now than they were in the 1990s\" (insanlar 90'lara göre şimdi daha açık) ve \"resistance in India\" (direnç vardı) deniyor. İnsanların bilmediği değil, bilip direndiği/tercih etmediği anlaşılıyor. Bilmediklerine dair bir ifade yok. D şıkkı yanlıştır.",
+                                    "wrong": {
+                                        "0": "DOĞRU: \"nonprofit\" (kâr amacı gütmeyen) olduğu belirtilmiş.",
+                                        "1": "DOĞRU: Afrika'dan \"inquiries\" (sorular/talepler) gelmesi, henüz bu teknolojiye sahip olmadıklarını gösterir.",
+                                        "2": "DOĞRU: \"resistance\" (direnç) olduğu belirtilmiş."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 39,
+                                "question": "From paragraph 5, we can understand that ----.",
+                                "options": [
+                                    "some people in the US prefer to cremate their dead outdoors",
+                                    "US crematoriums are required by law to install filtration systems that neutralize CO2 released from cremations",
+                                    "cremations in the US annually release a couple of hundred tons of CO2 into the atmosphere in total",
+                                    "CO2 emissions from crematoriums come from two sources, which are the body itself and heating"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Paul Seyler şöyle diyor: \"CO2 that is generated from the cremated body, or the gas that is generated when heating that body...\" Yani CO2 hem bedenin kendisinden hem de ısıtma işleminden kaynaklanıyor. D şıkkı doğrudur.",
+                                    "wrong": {
+                                        "0": "Metinde \"all cremations happen inside crematoriums\" (hepsi içeride olur) deniyor.",
+                                        "1": "Filtrasyon sistemleri CO2'yi nötralize ETMİYOR: \"These do not neutralize the CO2\".",
+                                        "2": "\"360,000 metric tons\" deniyor, \"couple of hundred\" (birkaç yüz) değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 40,
+                                "question": "According to paragraphs 6&7, it is TRUE that alkaline hydrolysis ----.",
+                                "options": [
+                                    "is unlawful in every state in the US",
+                                    "leaves no carbon footprint",
+                                    "reduces the whole body to liquid, leaving no remains",
+                                    "uses lower heat compared to cremation"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Paragraf 7'de \"it doesn't use so much heat\" (o kadar çok ısı kullanmaz) deniyor. Ayrıca kaynamayı önlemek için basınç altında yapıldığı belirtiliyor. D şıkkı doğrudur.",
+                                    "wrong": {
+                                        "0": "18 eyalette yasal olduğu belirtilmiş.",
+                                        "1": "Karbon ayak izi sıfır değil, \"tenth\" (onda biri) kadar.",
+                                        "2": "Kemikler kalıyor: \"Only bones remain\"."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 41,
+                                "question": "The word \"burgeoning\" in paragraph 8 could best be replaced by ----.",
+                                "options": [
+                                    "troubling",
+                                    "rising",
+                                    "personal",
+                                    "minor"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Cümlede \"burgeoning popularity of cremation worldwide\" deniyor. Kremasyonun dünya çapında giderek arttığını, yayıldığını anlatmak için \"burgeoning\" (hızla gelişen/artan) kelimesi kullanılmış. \"Rising\" en yakın anlamlıdır.",
+                                    "wrong": {
+                                        "0": "\"Troubling\" rahatsız edici demektir.",
+                                        "2": "\"Personal\" kişisel demektir.",
+                                        "3": "\"Minor\" önemsiz/küçük demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 42,
+                                "question": "According to paragraph 8, we can say that the author states that ----.",
+                                "options": [
+                                    "when the long-term impacts are considered, the environmental impact of cremation is not worrying",
+                                    "most nations in the world are eagerly working on achieving the Paris climate agreement goals",
+                                    "the number of people who choose cremation after death must increase",
+                                    "an average American's total carbon footprint is far greater than that of any single cremation"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Metinde \"A single cremation only accounts for a fraction of the average American's carbon footprint\" (Tek bir kremasyon, ortalama bir Amerikalının karbon ayak izinin sadece bir parçasını oluşturur) deniyor. Bu, genel ayak izinin kremasyondan çok daha büyük olduğu anlamına gelir (D şıkkı).",
+                                    "wrong": {
+                                        "0": "Tam tersi, endişe verici olduğu söyleniyor.",
+                                        "1": "Uzak oldukları söyleniyor: \"still far from fulfilling\".",
+                                        "2": "Yazar artmasını değil, alternatiflerin (more alternatives) gelmesini bekliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 43,
+                                "question": "Based on the information in the text, we can say that ----.",
+                                "options": [
+                                    "cremation in the US annually releases tons of ash that pollute rivers",
+                                    "the liquid produced in alkali hydrolysis is treated separately from wastewater due to alkali it contains",
+                                    "remains of a loved one can be given to relatives after alkaline hydrolysis just like after cremation",
+                                    "alkaline hydrolysis causes the body to release CO2 into the air although the amount is small"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Alkaline hydrolysis bölümünde \"If the family desires, they can have bones crushed into ash, and they can then be displayed...\" deniyor. Yani kalıntılar aileye verilebiliyor. C şıkkı doğrudur.",
+                                    "wrong": {
+                                        "0": "ABD'de nehir kirliliği değil, Hindistan'daki nehir kirliliği anlatılmış.",
+                                        "1": "Ayrı işlenmiyor: \"treated like any other type of wastewater\" (diğer atık sular gibi işlenir).",
+                                        "3": "Bedenin kendisinden sıfır emisyon çıkıyor: \"releases zero emissions from the body itself\"."
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }

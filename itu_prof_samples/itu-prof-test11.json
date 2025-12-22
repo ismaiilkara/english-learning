@@ -1,0 +1,998 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Mystery of Dreams",
+                    "passage": {
+                        "title": "The Mystery of Dreams",
+                        "text": "Dreams have fascinated humanity for thousands of years. In ancient civilizations, they (1)_____ as messages from the gods or predictions of the future. However, the study of dreams took a scientific turn in the early 20th century with Sigmund Freud, who argued that dreams are the \"royal road\" to the unconscious. He believed that our dreams (2)_____ our deepest, often hidden, desires and anxieties.\nToday, scientists know that dreaming primarily occurs during a stage of sleep (3)_____ as REM (Rapid Eye Movement). One leading theory suggests that dreaming helps the brain (4)_____ memories, sorting through the day's events to decide what to keep and what to forget. Another theory proposes that dreams allow us to practice handling threatening situations. For instance, if you (5)_____ a dangerous animal in a dream, your brain is actually rehearsing its fight-or-flight response in a safe environment.\nDespite decades of research, the exact purpose of dreaming remains (6)_____. Some people claim they never dream, but studies show that everyone dreams; they just fail to (7)_____ them upon waking. Regardless of the reason, we know sleep is vital. If humans (8)_____ of REM sleep for a long period, they would suffer from severe psychological instability. Therefore, understanding dreams might be the key (9)_____ the complex workings of the human mind, a puzzle that scientists are still trying (10)_____."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "viewed",
+                                "were viewed",
+                                "have viewed",
+                                "had been viewed"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Were viewed\" doğru çünkü rüyalar kendi kendilerine bakamazlar, insanlar tarafından 'görülürler' veya 'kabul edilirler'. Bu yüzden Passive Voice (Edilgen Çatı) lazım. Olay geçmişte (ancient civilizations) olduğu için Past Simple Passive kullanıyoruz.",
+                                "wrong": {
+                                    "0": "\"Viewed\" (Active) rüyalar bakıyor demek olur, anlamsız.",
+                                    "2": "\"Have viewed\" (Present Perfect) geçmişte bitmiş bir medeniyet için kullanılmaz.",
+                                    "3": "\"Had been viewed\" (Past Perfect) geçmişin de geçmişi demektir, burada tek bir geçmiş zaman var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "reflect",
+                                "invent",
+                                "distract",
+                                "abolish"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Reflect\" (yansıtmak) doğru. Freud, rüyaların gizli arzularımızı 'yansıttığına' yani gösterdiğine inanıyordu.",
+                                "wrong": {
+                                    "1": "\"Invent\" icat etmek demek, rüyalar arzuları icat etmez.",
+                                    "2": "\"Distract\" dikkat dağıtmak demek.",
+                                    "3": "\"Abolish\" yürürlükten kaldırmak/iptal etmek demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "knowing",
+                                "known",
+                                "to know",
+                                "knew"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Known\" doğru. Burada \"which is known as\" (olarak bilinen) yapısının kısaltması var. \"REM olarak bilinen uyku evresi\" diyoruz.",
+                                "wrong": {
+                                    "0": "\"Knowing\" (bilen) aktif anlam taşır, uyku evresi bir şeyi bilmez, bilinir.",
+                                    "2": "\"To know\" (bilmek için) amaç bildirir, uymaz.",
+                                    "3": "\"Knew\" (bildi) ana fiildir ama cümlede zaten 'occurs' fiili var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "consolidate",
+                                "neglect",
+                                "deteriorate",
+                                "hinder"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Consolidate\" (sağlamlaştırmak/pekiştirmek) doğru. Beyin anıları pekiştirir ve hafızaya atar. \"Consolidate memories\" sık kullanılan bir kalıptır.",
+                                "wrong": {
+                                    "1": "\"Neglect\" ihmal etmek demek.",
+                                    "2": "\"Deteriorate\" kötüleşmek/bozulmak demek.",
+                                    "3": "\"Hinder\" engellemek demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "encounter",
+                                "will encounter",
+                                "encountered",
+                                "have encountered"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Encounter\" doğru. Genel bir gerçekten veya örnekten bahsettiğimiz için \"If Clause Type 0 veya 1\" mantığıyla geniş zaman (Simple Present) kullanıyoruz.",
+                                "wrong": {
+                                    "1": "\"Will encounter\" If cümlesinin içine (ifadenin hemen sağına) 'will' gelmez.",
+                                    "2": "\"Encountered\" geçmiş zaman, genel bir örnek verirken kullanılmaz.",
+                                    "3": "\"Have encountered\" yakın geçmiş, genel bilgi verirken uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "elusive",
+                                "obvious",
+                                "mandatory",
+                                "urgent"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Elusive\" (anlaşılması zor, kaçamak) doğru. Cümlenin başında \"Onlarca yıllık araştırmaya rağmen\" diyor, demek ki amaç hala tam bulunamamış.",
+                                "wrong": {
+                                    "1": "\"Obvious\" açık/net demek. Araştırmaya rağmen net olsaydı zıtlık bağlacı (despite) kullanılmazdı.",
+                                    "2": "\"Mandatory\" zorunlu demek.",
+                                    "3": "\"Urgent\" acil demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "recall",
+                                "recalling",
+                                "to recall",
+                                "recalled"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Recall\" (hatırlamak) doğru. \"Fail to\" yapısından sonra fiilin yalın hali (infinitive) gelir. \"Remember\" ile eş anlamlıdır.",
+                                "wrong": {
+                                    "1": "\"Recalling\" -ing eki almaz, fail to do something kalıbı vardır.",
+                                    "2": "\"To recall\" zaten fail'den sonra 'to' verilmiş, tekrar 'to' gelmez.",
+                                    "3": "\"Recalled\" geçmiş zaman hali buraya gelmez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "were deprived",
+                                "deprived",
+                                "had deprived",
+                                "are deprived"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Were deprived\" doğru. Cümlenin devamında \"they would suffer\" (acı çekerlerdi) diyor. Bu bir \"Type 2 Conditional\" (Gerçekleşmesi zor/hayali durum). If kısmında Past Simple kullanılır. Ayrıca insanlar uykudan mahrum 'bırakıldığı' için Passive lazım.",
+                                "wrong": {
+                                    "1": "\"Deprived\" Active (etken) yapı, insanlar uykuyu mahrum etmiyor, mahrum kalıyor.",
+                                    "2": "\"Had deprived\" Past Perfect, Type 3 için kullanılır.",
+                                    "3": "\"Are deprived\" Geniş zaman, Type 1 olurdu ama diğer taraf 'would' olduğu için uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "to unlocking",
+                                "for unlock",
+                                "unlock",
+                                "of unlocking"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"To unlocking\" doğru. İngilizcede \"key to something\" (bir şeyin anahtarı) kalıbında 'to' edat (preposition) olarak kullanılır. Edattan sonra gelen fiil -ing alır.",
+                                "wrong": {
+                                    "1": "\"For unlock\" key for kullanılmaz.",
+                                    "2": "\"Unlock\" to preposition olduğu için yalın hal gelmez.",
+                                    "3": "\"Of unlocking\" key of kullanımı nadirdir, genelde key to kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "solving",
+                                "to solve",
+                                "solve",
+                                "solved"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"To solve\" doğru. \"Try\" fiilinden sonra bir amaç uğruna çaba harcamak anlamında \"to infinitive\" gelir.",
+                                "wrong": {
+                                    "0": "\"Solving\" try + ing 'denemek/tecrübe etmek' demektir (tadına bakmak gibi), burada çabalamak anlamı var.",
+                                    "2": "\"Solve\" try'dan sonra fiil yalın gelmez.",
+                                    "3": "\"Solved\" geçmiş zaman hali gelmez."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "statement": "In Çatalhöyük, one of the world’s first towns, the houses were built touching each other, so archeologists believe the roofs of the houses must have been used as streets.",
+                            "options": [
+                                "The houses in ancient Çatalhöhöyük were very close together, so archeologists suggested using the roofs as streets.",
+                                "Archeologists say that the reason why the people of the ancient town of Çatalhöyük made their homes close together was that they were made to use roofs as streets.",
+                                "The houses in one of the world’s oldest towns, Çatalhöyük, were constructed right next to each other, so it is thought by archeologists that the roofs were used as streets.",
+                                "Archeologists think they may have to use roofs as streets when reconstructing Çatalhöyük, an ancient town where the houses were built extremely close to each other."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü orijinal cümledeki 'built touching each other' (birbirine değerek inşa edilmiş) ifadesini 'constructed right next to each other' ile, 'believe... must have been used' (kullanılmış olmalı) ifadesini de 'it is thought... were used' ile tam karşılıyor.",
+                                "wrong": {
+                                    "0": "Bu şıkta arkeologların çatıları sokak olarak kullanmayı 'önerdiği' (suggested) söyleniyor, oysa orijinalde eski insanların böyle 'kullanmış olması gerektiği' inancı var.",
+                                    "1": "Bu şıkta evlerin yakın yapılma 'nedeninin' çatıları sokak yapmak olduğu söyleniyor. Orijinalde ise yakın olduğu 'için' çatılar sokak olmuş deniyor (sonuç).",
+                                    "3": "Bu şıkta Çatalhöyük'ü 'yeniden inşa ederken' (reconstructing) çatıları kullanmaktan bahsediliyor, orijinalde geçmişten bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "statement": "During the 16th century, glass windows were expensive, so people who moved house took their windows with them.",
+                            "options": [
+                                "Glass was so expensive in the 16th century that people could not afford to move from older houses to newer ones.",
+                                "In the 16th century, people moving house would take the glass windows from their old house due to the high price of glass.",
+                                "In the 16th century, people would have moved glass windows from their old home to their new one if they had cost a lot.",
+                                "The changing price of glass in the 16th century enabled people to have glass windows when moving into a new house."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'glass windows were expensive' (cam pahalıydı) nedenini 'due to the high price' ile, 'took their windows' sonucunu da koruyarak tam anlamı veriyor.",
+                                "wrong": {
+                                    "0": "Bu şıkta insanlar 'taşınmaya parası yetmedi' diyor, oysa taşınıyorlardı ama camları da götürüyorlardı.",
+                                    "2": "Bu şık 'eğer pahalı olsaydı götürürlerdi' (if clause) diyor, ama zaten pahalıydı (gerçek durum).",
+                                    "3": "Bu şıkta fiyat değişiminin insanlara cam sahibi olmayı sağladığı söyleniyor, anlam tamamen farklı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "statement": "“Living roof dwellings” are structures that have vegetation on top, which is a natural way to provide insulation and keep temperatures steady.",
+                            "options": [
+                                "Buildings with plants on top, called “living roof dwellings”, make use of nature to insulate buildings and keep their temperature constant.",
+                                "Buildings that are well insulated and maintain their temperatures are known as “living roof dwellings”, and plants can be added to the top of them.",
+                                "The advantage of “living roof dwellings” is that they are an excellent place to grow a variety of plants that insulate as well as take in excess heat.",
+                                "“Living roof dwellings” can be defined as places where nature is protected while constant temperatures are maintained due to high-quality insulation."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'vegetation on top' (üstünde bitki) ifadesini 'plants on top' ile, 'insulation and keep temperatures steady' kısmını da 'insulate... and keep their temperature constant' ile tam karşılıyor.",
+                                "wrong": {
+                                    "1": "Bu şıkta bitkilerin 'sonradan eklenebileceği' (can be added) söyleniyor, oysa tanım gereği bitkili olmaları lazım.",
+                                    "2": "Bu şıkta 'take in excess heat' (fazla ısıyı emmek) gibi orijinalde olmayan bir detay var.",
+                                    "3": "Bu şıkta 'nature is protected' (doğa korunur) deniyor, orijinalde doğanın korunması değil, yalıtım için kullanılması var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "statement": "Around 8000 BC, when humans started practicing agriculture instead of hunting, permanent settlements came into being.",
+                            "options": [
+                                "Villages that people lived in permanently originated about 8000 BC, the first time that humans planted crops rather than hunted.",
+                                "The permanent settlements constructed about 8000 BC made it hard to hunt, so people began farming in place of hunting.",
+                                "Around 8000 BC, humans living in permanent houses found it difficult to hunt, so they tried to develop better agricultural methods.",
+                                "It was the building of permanent houses around 8000 BC that enabled people to quit hunting and develop better agricultural practices."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'settlements came into being' (yerleşimler oluştu) ifadesini 'villages... originated' ile ve tarıma geçiş zamanlamasını doğru veriyor.",
+                                "wrong": {
+                                    "1": "Bu şıkta yerleşimler olduğu için avlanmanın zorlaştığı söyleniyor, oysa orijinalde tarıma başladıkları zaman yerleşimlerin kurulduğu anlatılıyor.",
+                                    "2": "Yine neden-sonuç ilişkisi yanlış: Evler olduğu için avlanmak zor geldi deniyor.",
+                                    "3": "Bu şıkta evlerin inşasının insanlara avlanmayı bıraktırdığı söyleniyor, orijinalde eş zamanlılık vurgusu var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "statement": "On a long flight, the pilot and co-pilot are required to eat different meals in case one of the meals causes food poisoning.",
+                            "options": [
+                                "To avoid both the pilot and co-pilot getting food poisoning on a long flight, they cannot eat the same meal.",
+                                "Because of the many cases of food poisoning on long flights, the pilot and co-pilot must never eat the same meal.",
+                                "If there is thought to be a risk of food poisoning on a long flight, the pilot and co-pilot are made to eat different meals.",
+                                "The pilot and co-pilot are not allowed to eat the same meal on long flights if one of the meals being served is known to possibly cause food poisoning."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu şık doğru. Orijinal cümledeki 'in case' (olur da ... olursa diye / ihtimaline karşı) yapısını 'To avoid both... getting food poisoning' (ikisinin de zehirlenmesini önlemek için) diyerek karşılıyor.",
+                                "wrong": {
+                                    "1": "Bu şık 'many cases' (birçok vaka olduğu için) diyor, orijinalde vaka sayısından bahsedilmiyor, sadece önlemden bahsediliyor.",
+                                    "2": "Bu şık 'If there is thought to be a risk' (eğer risk olduğu düşünülürse) diyor, oysa kural her zaman geçerli.",
+                                    "3": "Bu şık 'if one of the meals is known' (yemeklerden birinin zehirleyeceği biliniyorsa) diyor, bilinen bir zehir yok, sadece ihtimal var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "statement": "SMSs that remind passengers how much time is left for them to board their plane minimize the number of passengers that are too late for their flight.",
+                            "options": [
+                                "The more messages that passengers receive about their boarding time, the more likely they are to be present to board their plane.",
+                                "Letting passengers know the amount of time they have until they can board has a greater influence on their behavior than expected.",
+                                "When passengers are sent messages informing them of how long they have until boarding ends, the number who miss their flight drops.",
+                                "It’s very difficult for the majority of passengers to remember when they can board their flight unless they are sent messages reminding them of this information."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'Remind how much time is left' = 'informing how long they have'. 'Minimize number... too late' = 'number who miss their flight drops' (uçağı kaçıranların sayısı düşer).",
+                                "wrong": {
+                                    "0": "Burada 'ne kadar çok mesaj o kadar iyi' gibi bir orantı var, orijinalde sadece mesajın etkisi anlatılıyor.",
+                                    "1": "Burada 'beklenenden daha büyük etki' diyor, orijinalde beklenti kıyaslaması yok.",
+                                    "3": "Burada 'hatırlamaları çok zordur' gibi yolcuların hafızasına dair yorum yapılıyor, orijinalde bu yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "statement": "GPS technology enables planes to fly closer together as well as take more direct routes.",
+                            "options": [
+                                "Planes with GPS technology take direct routes, flying next to other planes which are going to nearby locations.",
+                                "The advantages of GPS technology include allowing planes to travel nearer to other planes and to take shorter routes.",
+                                "Because of GPS technology, planes are kept from flying too close to other planes while taking the quickest way to their destination.",
+                                "Planes are made well and contain GPS technology, which allows them to fly nearby other planes and also get to their landing point more quickly."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'Enables' (sağlar) = 'Advantages... allowing'. 'Fly closer together' = 'Travel nearer to other planes'. 'Direct routes' = 'Shorter routes'.",
+                                "wrong": {
+                                    "0": "Sadece yan yana uçtuklarını söylüyor ama 'closer' (daha yakın) vurgusu eksik ve yetenekten (enable) bahsetmiyor.",
+                                    "2": "'Kept from flying too close' (çok yakın uçmaktan korunurlar) diyor, tam tersi! Orijinalde daha yakın uçabildikleri söyleniyor.",
+                                    "3": "'Planes are made well' (uçaklar iyi yapılmıştır) gibi gereksiz bir yorum eklenmiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "statement": "Airlines hope to create an entirely automated airport check-in for passengers, but staff will be available for those needing special assistance.",
+                            "options": [
+                                "Though airlines may attempt to make check-in more automated, their staff will continue to give help to passengers and also deal with personal requests.",
+                                "Airlines aim to check-in passengers using a completely automated system although they will provide staff to assist those passengers in need of help.",
+                                "Airlines will keep their current number of employees to serve all passengers well, yet most passengers will probably check-in using a completely automated process.",
+                                "Airlines are going to develop an innovative automated check-in procedure, yet some staff members are concerned about the amount of help given to those with special needs."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'Hope to create' = 'Aim to'. 'Entirely automated' = 'Completely automated system'. 'Staff available for needing assistance' = 'Provide staff to assist those in need'.",
+                                "wrong": {
+                                    "0": "Sadece 'more automated' (daha otomatize) diyor, orijinalde 'entirely' (tamamen) vurgusu var.",
+                                    "2": "'Keep their current number of employees' (mevcut çalışan sayısını koruyacaklar) diyor, orijinalde sayıdan bahsedilmiyor.",
+                                    "3": "Personelin 'endişeli' (concerned) olduğundan bahsediyor, orijinalde böyle bir duygu yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "statement": "Marriage is a tradition practiced all over the world, but it is celebrated differently by every culture.",
+                            "options": [
+                                "Marriage celebrations differ from culture to culture, just as the overall frequency of marriage does.",
+                                "While each culture has its unique wedding celebrations, marriage is a widespread custom throughout the world.",
+                                "Despite the prevalent belief that the importance of marriage is declining, every culture still celebrates this event.",
+                                "Although some cultures celebrate weddings much more than others, celebrations in every culture have some features in common."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru. 'Practiced all over the world' = 'Widespread custom'. 'Celebrated differently by every culture' = 'Each culture has its unique wedding celebrations'.",
+                                "wrong": {
+                                    "0": "Evliliğin 'sıklığından' (frequency) bahsediyor, orijinalde bu yok.",
+                                    "2": "Evliliğin öneminin azaldığına dair inançtan bahsediyor, orijinalde yok.",
+                                    "3": "Kutlamaların 'ortak özellikleri' (features in common) olduğunu söylüyor, oysa orijinalde 'farklı' (differently) olduğu vurgulanıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 1: Micro-housing",
+                    "paragraphs": [
+                        "Globally, over the last several years, micro-apartments, that is, small housing units that average from 15 to 30 square meters (200 to 350 square feet), have been popping up in urban areas. As rent prices in desirable urban locations rise, this innovative form of housing has also increased in popularity to meet the demands of residents who want to live in the priciest areas. However, these renters must be willing to put up with inconveniences like having the dining room table folded under the bed.",
+                        "This new type of housing is catching on with young adults living in less-populated cities as well as those in large urban areas with a shortage of affordable living spaces. As a result, some people wonder whether the micro-housing movement is gaining popularity with this group due to financial pressure or whether living simply without unnecessary possessions is what really attracts a younger, more mobile population. “Housing affordability issues are certainly important and housing costs are going up, but I think this is actually due to a lifestyle shift,” says John Infranca, Professor of Law at Suffolk University Law School, who has researched the emergence of micro-housing. “People are willing to give up space because they spend a lot of time outside their homes; the city is their living room. Many new apartment buildings also emphasize communal living and include shared living and social areas,” he adds. Young adults are sharing more and living with less, which allows them to choose to live in smaller spaces. Instead of having a wall with bookshelves, they keep books stored on an e-Reader. Instead of filling a closet with lots of clothes, they rent their wardrobe from online rental companies. \"I feel very happy when I'm in this space,” said Gil Blattner, a micro-apartment resident in New York. \"I just need to be choosy about the number of things that I buy.\"",
+                        "Two trends are contributing to higher downtown rents and the rise in popularity of micro-housing, experts say. Firstly, more people want to live in central urban locations. In addition, more people are single and living alone, and for these people, renting a normal-sized home has become unaffordable. The “rental housing burden”, defined as paying more than one-third of your monthly income on rent, is a problem affecting nearly half of residents in many cities. Though homeowners gain when housing prices rise, renters face a much different reality: Housing inflation directly affects their ability to spend or save for the future. Unlike homeowners, renters see no return on the money they spend on housing.",
+                        "There are some concerns about the health risks and other stresses that these small spaces bring about. “Home is supposed to be a safe place, but residents may feel trapped in their tiny apartments at night. They may experience physical crowding in their flats. On the other hand, if they go to a building’s common spaces, they might experience social crowding,” according to Professor Infranca. Still, as people deal with finding a place to live in expensive urban areas, it’s probable that micro-housing will continue to grow."
+                    ],
+                    "questions": [
+                        {
+                            "id": 1,
+                            "question": "Why does the writer mention “having the dining room table folded under the bed” in paragraph 1?",
+                            "options": [
+                                "To show why micro-housing is gaining popularity",
+                                "To explain why rents are increasing in desirable urban locations",
+                                "To give an example of a demand of residents in urban areas",
+                                "To point out a difficulty of living in micro-housing"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 1'de geçiyor: 'However, these renters must be willing to put up with inconveniences like having the dining room table folded under the bed.' Yazar burada 'inconveniences' (zorluklar/rahatsızlıklar) örneği olarak bunu veriyor. Bu da yaşamın bir zorluğuna işaret eder.",
+                                "wrong": {
+                                    "0": "Popülerlik kazanma nedeni değil, katlanılması gereken bir zorluk.",
+                                    "1": "Kiraların artma nedeni değil.",
+                                    "2": "Bu sakinlerin bir talebi değil, zorunluluktan yaptıkları bir şey."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "question": "The word this in paragraph 2 refers to ----.",
+                            "options": [
+                                "living in less-populated cities",
+                                "a shortage of affordable living spaces",
+                                "the micro-housing movement",
+                                "financial pressure"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 2'nin başında geçiyor: 'This new type of housing is catching on...' (Bu yeni konut tipi...). Bir önceki paragrafta bahsedilen konu 'micro-apartments' ve bu akımdır. Dolayısıyla 'micro-housing movement'ı kasteder.",
+                                "wrong": {
+                                    "0": "Az nüfuslu şehirlerde yaşamaktan değil, konut tipinden bahsediyor.",
+                                    "1": "Kıtlık (shortage) konut tipi değildir.",
+                                    "3": "Finansal baskı konut tipi değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "question": "The word choosy in paragraph 2 is closest in meaning to ----.",
+                            "options": [
+                                "careful",
+                                "wealthy",
+                                "dissatisfied",
+                                "incomplete"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 2'nin sonunda: 'I just need to be choosy about the number of things that I buy.' Küçük bir alanda yaşadığı için ne alacağına 'dikkatli' karar vermesi gerekir. Seçici olmak = Dikkatli olmak.",
+                                "wrong": {
+                                    "1": "Zengin olmakla ilgisi yok.",
+                                    "2": "Memnuniyetsiz değil, sadece seçici.",
+                                    "3": "Eksik (incomplete) anlamı yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "question": "The writer’s main idea in paragraph 2 is ----.",
+                            "options": [
+                                "living in a smaller space is suitable for many young adults’ lifestyle",
+                                "there are many reasons why rents are rising in both small and large urban areas",
+                                "young adults are not as interested in books as they used to be",
+                                "new technological innovations are leading to better lives for young adults"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 2'de John Infranca'nın sözlerinde saklı: 'I think this is actually due to a lifestyle shift... Young adults are sharing more and living with less'. Yani küçük alanlar gençlerin yeni yaşam tarzına uygun.",
+                                "wrong": {
+                                    "1": "Kiraların artışı ana konu değil, gençlerin neden mikro evleri seçtiği ana konu.",
+                                    "2": "Kitaplara ilgisizlik değil, e-kitap kullanımı sadece bir örnek.",
+                                    "3": "Teknoloji sadece yaşamı kolaylaştıran bir araç olarak geçiyor, ana fikir değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "question": "From paragraph 3, the reader understands that ----.",
+                            "options": [
+                                "“rental housing burden” can have negative effects on homeowners and renters",
+                                "single people living by themselves in central urban locations are most affected by “rental housing burden”",
+                                "“rental housing burden” enables renters in micro-housing to see a return on the money they spend on rent",
+                                "people who pay less than half of their income for rent are not considered to be affected by “rental housing burden”"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 3'te: 'more people are single and living alone, and for these people, renting a normal-sized home has become unaffordable.' Tek yaşayanlar kiraları ödemekte zorlanıyor ve bu yükten en çok onlar etkileniyor.",
+                                "wrong": {
+                                    "0": "Ev sahipleri kazanıyor (homeowners gain), olumsuz etkilenmiyorlar.",
+                                    "2": "Kiracılar paranın geri dönüşünü görmüyorlar (see no return).",
+                                    "3": "Paragrafta sınır 'one-third' (üçte bir) olarak verilmiş, yarısı değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "question": "In paragraph 4, the writer points out that ----.",
+                            "options": [
+                                "the disadvantages of micro-housing may cause its popularity to decline soon",
+                                "it is likely that micro-housing will continue to gain in popularity despite its drawbacks",
+                                "physical crowding in a person’s flat is probably less harmful than social crowding in a building’s social areas",
+                                "social activities in a building with common spaces help most residents overcome the effects of crowded flats"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 4'ün son cümlesinde: 'Still... it’s probable that micro-housing will continue to grow.' Yani dezavantajlarına rağmen popülerliği artmaya devam edecek.",
+                                "wrong": {
+                                    "0": "Tam tersi, popülerliği azalmayacak, artacak.",
+                                    "2": "Hangisinin daha zararlı olduğuna dair bir kıyaslama yapılmamış.",
+                                    "3": "Sosyal aktivitelerin kalabalık etkisini çözdüğüne dair net bir bilgi yok, aksine 'social crowding' (sosyal kalabalık) riski var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "question": "Which of the following is NOT mentioned in the text?",
+                            "options": [
+                                "Micro-housing flats may be unaffordable.",
+                                "Micro-housing flats may be crowded.",
+                                "Micro-housing apartment buildings may have social places.",
+                                "Micro-housing apartment buildings may cause stress."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metinde mikro dairelerin kendisinin 'pahalı' (unaffordable) olduğu söylenmiyor. Aksine Paragraf 3'te 'renting a normal-sized home has become unaffordable' deniyor, yani normal evler pahalı olduğu için insanlar mikro evlere yöneliyor.",
+                                "wrong": {
+                                    "1": "Bahsediliyor: 'experience physical crowding' (Paragraf 4).",
+                                    "2": "Bahsediliyor: 'include shared living and social areas' (Paragraf 2).",
+                                    "3": "Bahsediliyor: 'concerns about the health risks and other stresses' (Paragraf 4)."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 2: The First Solar Airport",
+                    "paragraphs": [
+                        "Cochin International Airport in southern India’s Kerala state may be best known as the gateway to tourist beaches and houseboats found in the region’s famous lakes. Now it has a new claim to fame: It has reached its goal of becoming the world’s first solar airport. Since August, the airport has been using 46,000 solar panels that are laid across 18 hectares in order to power all of its daytime electricity needs, and it has been selling excess power to the government-run electricity grid. At night, when the sun doesn’t shine, it pulls some of that power back from the grid, but overall the airport actually reduces carbon emissions.",
+                        "The idea got its start in 2013, when the cost of electricity from the Kerala State Electricity Board rose, just as the price of solar panels was quickly coming down. “We thought, ‘Why should we not be self-sufficient?’” remembers V.J. Kurian, the airport’s managing director. He wanted the airport to become a model of how to reduce carbon emissions. That year the facility installed its first solar panels on the roof of one of the terminals. After that, there was expansion to another roof, and ultimately the airport decided to build a solar panel farm near the airport’s cargo complex. The project is now capable of meeting all the airport’s electricity needs, Kurian said. Over the next 25 years, the project is expected to reduce carbon emissions by the equivalent of planting 3 million trees.",
+                        "The panels have also become a tourist attraction of their own. Richard Nelson, a mechanical engineer living in Tokyo and working on renewable energy efforts, is one of the foreign tourists who decided to have a closer look at the airport’s solar panels. “Why shouldn’t this be used in our airports in Japan, too?” he asked, calling the project, “a marvelous solar experiment.”",
+                        "The move to solar power is also expected to help cut pollution in nearby Kochi, an industrial city ranked the 24th most polluted in India, according to a recent survey by the Indian Institute of Technology. It described Kochi as having “severe” air pollution problems due to rapid industrialization and a growing number of vehicles on the streets. A study between 2009 and 2013 by the Kerala State Pollution Board found that emissions of particulate in the air were beyond healthy levels, which was another key factor in the airport’s decision to experiment with solar energy.",
+                        "The Kochi airport’s solar project has not gone unheeded in the rest of India. Based on the results at Kochi, India’s government has directed 125 airports run by the Airport Authority of India to generate at least 1 megawatt of solar power each by March 2016. If a medium-sized airport such as Kochi, with just 500 hectares of land, can produce sufficient electrical power for its operations, larger airports such as Delhi, with 2000 hectares, and Bangalore, with 1200 hectares, should be able to meet a large portion of their power demand, too, said Kurian. He added, “In addition, we are being asked for expert advice and are answering queries from across the world almost every day.”"
+                    ],
+                    "questions": [
+                        {
+                            "id": 1,
+                            "question": "The passage mainly discusses ----.",
+                            "options": [
+                                "reasons why Cochin International Airport is an ideal place for a solar airport",
+                                "challenges of solar power at Cochin International and reasons why other airports haven’t used it yet",
+                                "installation of solar power panels at Cochin International Airport and the effects it is having",
+                                "the effects that solar power at airports such as Cochin International is having on the environment"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metin genelinde Cochin havaalanına güneş panellerinin nasıl kurulduğu, bunun nedenleri, sonuçları (turizm, çevre temizliği) ve diğer havaalanlarına etkisi anlatılıyor. En kapsamlı başlık budur.",
+                                "wrong": {
+                                    "0": "Sadece ideal bir yer olduğu değil, projenin kendisi anlatılıyor.",
+                                    "1": "Metinde zorluklardan (challenges) değil, başarılardan bahsediliyor.",
+                                    "3": "Sadece çevreye etkisi değil, kurulum süreci ve diğer etkileri de var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "question": "According to paragraph 1, Cochin International Airport ----.",
+                            "options": [
+                                "has more tourists arriving there today than it used to have",
+                                "has more solar panels in one place than anywhere else in the world",
+                                "no longer needs to be connected to the government electric grid",
+                                "adds more power to the government electric system than it takes from it"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 1'de: 'selling excess power to the government-run electricity grid... pulls some of that power back... but overall the airport actually reduces carbon emissions'. Gündüz fazlasını satıyor, gece alıyor ama genel toplamda kendi ürettiği fazla geliyor veya dengeliyor.",
+                                "wrong": {
+                                    "0": "Turist sayısının arttığına dair bilgi yok.",
+                                    "1": "Dünyadaki en çok panele sahip olduğu söylenmiyor, 'ilk solar havaalanı' olduğu söyleniyor.",
+                                    "2": "Şebekeye bağlı, gece oradan elektrik çekiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "question": "The phrase The idea in paragraph 2 refers to “the idea to ----”.",
+                            "options": [
+                                "be the gateway to tourist beaches and houseboats",
+                                "become the world’s first solar airport",
+                                "power all of its daytime electricity needs",
+                                "sell excess power to the government-run grid"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf 2'de 'We thought, Why should we not be self-sufficient?' (Neden kendi kendimize yetmeyelim?) deniyor. Bu fikir, havaalanının kendi gündüz elektriğini karşılama (self-sufficient olma) fikridir.",
+                                "wrong": {
+                                    "0": "Bu zaten havaalanının eski özelliği.",
+                                    "1": "Dünyanın ilki olma hedefi sonucudur, fikrin kendisi 'kendi kendine yetmek'tir.",
+                                    "3": "Fazla elektriği satmak sadece bir sonuçtur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "question": "According to paragraph 2, which of the following statements about the solar project at Cochin International Airport is FALSE?",
+                            "options": [
+                                "Rising electricity costs was one factor that led to the start of the project.",
+                                "Installation of solar panels began in the same year that project was first thought of.",
+                                "In the first two stages of the project, solar panels were only placed on roofs.",
+                                "To further reduce carbon emissions, the project included a tree planting project."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu ifade YANLIŞTIR. Paragraf 2'de 'reduce carbon emissions by the equivalent of planting 3 million trees' (3 milyon ağaç dikmeye EŞDEĞER) diyor. Gerçekten ağaç dikmiyorlar, karbon azaltımı ağaç dikmiş kadar etkili oluyor.",
+                                "wrong": {
+                                    "0": "DOĞRU: 'cost of electricity... rose' (Paragraf 2).",
+                                    "1": "DOĞRU: 'idea got its start in 2013... That year the facility installed' (Paragraf 2).",
+                                    "2": "DOĞRU: 'roof of one of the terminals... expansion to another roof' (Paragraf 2)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "question": "One of the effects of the solar project at Cochin International Airport stated in paragraphs 3 and 4 is ----.",
+                            "options": [
+                                "the project has attracted tourists from abroad",
+                                "a similar project has been started in an airport in Japan",
+                                "pollution in Kochi has been significantly reduced",
+                                "the amount of particulate in the air is now similar to the 2009 level"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 3'te: 'The panels have also become a tourist attraction... Richard Nelson... is one of the foreign tourists'. Paneller turist çekiyor.",
+                                "wrong": {
+                                    "1": "Japon turist 'neden bizde de olmasın' diye soruyor, Japonya'da başladığını söylemiyor.",
+                                    "2": "Kirliliği azaltması 'bekleniyor' (expected to help), kesin olarak azaldı denmiyor.",
+                                    "3": "Partikül seviyeleriyle ilgili karşılaştırma yapılmamış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "question": "The phrase not gone unheeded in paragraph 5 could best be replaced by ----.",
+                            "options": [
+                                "not been considered",
+                                "not been decided",
+                                "not been developed",
+                                "not been ignored"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Heed\" dikkate almak demek. \"Not gone unheeded\" (dikkate alınmamış olarak gitmedi) = Dikkate alındı, göz ardı edilmedi demektir. \"Not been ignored\" (Göz ardı edilmedi) aynı anlamdadır.",
+                                "wrong": {
+                                    "0": "Düşünülmedi demek, tam tersi.",
+                                    "1": "Karar verilmedi demek.",
+                                    "2": "Geliştirilmedi demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "question": "Which of the following CANNOT be inferred from paragraph 5?",
+                            "options": [
+                                "India’s Airport Authority is convinced that the project at Cochin International Airport is successful.",
+                                "The Delhi airport has enough extra space to place a significant number of solar panels.",
+                                "The Indian government expects the Bangalore airport to meet all of its energy needs using solar power.",
+                                "Airports in other countries may also develop similar projects."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "BU ÇIKARILAMAZ. Metinde büyük havaalanları için 'should be able to meet a large portion of their power demand' (enerji ihtiyaçlarının büyük bir kısmını karşılayabilirler) deniyor, 'all' (tamamını) karşılayacakları söylenmiyor.",
+                                "wrong": {
+                                    "0": "Çıkarılabilir, çünkü hükümet diğer 125 havaalanına da talimat vermiş.",
+                                    "1": "Çıkarılabilir, Delhi'nin 2000 hektar alanı var (Cochin'den çok daha büyük).",
+                                    "3": "Çıkarılabilir, çünkü dünya çapından sorular alıyorlar."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 3: Brides Needed in India",
+                    "paragraphs": [
+                        "In India, even for a teacher like Narinder Assam, it’s hard to find a bride these days. 36-year-old Narinder is one of four sons. Only one of his brothers has managed to get married. In the northwest state of Uttar Pradesh, where Narinder lives, there are just 858 girls born for every 1,000 boys because many couples decide a woman should have an abortion, that is, end a pregnancy, rather than have a daughter. This has caused a shortage of brides. \"Only the rich and those with high-level government jobs manage to get a bride these days,\" Narinder says. Since he has not been able to find a bride in his own state, he contacted an agent to find a candidate from another one. It is true that Narinder is a victim of the male-female ratio in his community. However, when people like Narinder pay to find a bride, women end up becoming the victims of bride traffickers, who find women living in poverty and sell them as brides.",
+                        "Eastern Indian states are the main source of brides for traffickers because they have more balanced gender ratios. Meanwhile, India's northwestern states are more affluent, so they are able to afford ultrasound scans and pay for abortions. \"As the standard of living rises, people choose not only the number of children they have but also the sex of their children,\" says Poonam Muttreja, a campaigner for women's rights. \"And everyone wants a son.\" Census data shows some districts in India have fewer than 800 girls born for every 1,000 boys. Even though ultrasound scans are expensive in India, many parents use them to determine the sex of the baby, and then they abort females because of their preference for sons. If this practice doesn't stop, Muttreja fears the worst for the future of India. \"It’s terrible for a society when 20% of its women are missing,\" she says.",
+                        "Why such a strong preference for sons exists is a matter of heated debate. Some point out the expense of marrying daughters because of the practice of dowry, that is, transferring money or property from the bride’s to the groom’s family at their marriage. Although dowry is illegal in India, this practice still prevails in smaller cities and rural areas despite the laws against it. People also claim that daughters only look after their in-laws instead of their birth parents. Muttreja says that this simply is not true and that studies show women are more reliable than men at looking after relatives. \"While women send money back to their families, men keep money for alcohol, cigarettes and going to sex workers,\" she says. Interestingly, especially the middle-class selects sons but aborts daughters, suggesting that economic development isn't likely to solve the problem.",
+                        "Although women are needed in the northwestern states, trafficked brides are not respected when arriving in their new homes. The name for purchased brides, “paro”, is an insulting word for foreigners or strangers. There are 32 “paro” in Haryana, a village of less than 1,000 people. Two of them, Tasleema and her sister Akhleema, were sold to a trafficker by their parents. They say they experience beatings in the home and other types of abuse outside of it. \"Even the village children talk to us like dogs,\" the sisters claim. When confronted with these complaints, their husbands stated that despite paying a high price to traffickers to marry the sisters, they are made fun of because they couldn’t find a bride locally and instead had to buy one.",
+                        "\"Patriarchy is part of our society. Girls are unwelcome visitors in our own homes, and that's how they are treated,\" says Muttreja. “Unfortunately, this cycle of aborting females, taking women away from their home states, and selling them as brides continues. It is the result of a culture that sees sons as a blessing and daughters as trouble.”"
+                    ],
+                    "questions": [
+                        {
+                            "id": 1,
+                            "question": "The writer mainly shows that ----.",
+                            "options": [
+                                "bride trafficking in India is not as big a problem as many people have claimed that it is",
+                                "India is finally starting to take effective steps to overcome the practice of bride trafficking",
+                                "despite the negative effects of bride trafficking, it seems likely to continue in India",
+                                "although bride trafficking affects women badly, it is the best solution to overcome India’s lack of brides"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metnin son paragrafında: 'Unfortunately, this cycle... continues' deniliyor. Yazar, kültürel nedenlerden dolayı (erkek çocuk tercihi) bu sorunun devam ettiğini ve edeceğini gösteriyor.",
+                                "wrong": {
+                                    "0": "Tam tersi, büyük bir problem olduğu anlatılıyor.",
+                                    "1": "Etkili adımlar atıldığına dair bilgi yok, aksine kanunlara rağmen devam ediyor.",
+                                    "3": "En iyi çözüm olduğu savunulmuyor, sadece mevcut durum anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "question": "The word one in paragraph 1 refers to ----.",
+                            "options": [
+                                "bride",
+                                "state",
+                                "agent",
+                                "candidate"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümle: 'Since he has not been able to find a bride in his own state, he contacted an agent to find a candidate from another one.' (Kendi eyaletinde gelin bulamadığı için başka BİRİNDEN aday bulması için...). Burada 'another one' 'another state' (başka bir eyalet) anlamına gelir.",
+                                "wrong": {
+                                    "0": "Başka bir gelinden aday bulmaz.",
+                                    "2": "Ajan değil.",
+                                    "3": "Aday değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "question": "According to paragraph 1, ----.",
+                            "options": [
+                                "Narinder may find a bride if he can get a job as a teacher",
+                                "if Narinder pays to find a bride, this will have a negative impact on other women",
+                                "agents are not able to provide enough brides for people like Narinder",
+                                "working through an agent keeps brides from being kidnapped illegally"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 1'in sonunda: 'when people like Narinder pay to find a bride, women end up becoming the victims of bride traffickers'. Yani para ödemesi, fakir kadınların kurban edilmesine yol açıyor.",
+                                "wrong": {
+                                    "0": "Zaten öğretmen, iş bulmasına gerek yok.",
+                                    "2": "Ajanlar bulabiliyor ama bu yasadışı yollarla oluyor.",
+                                    "3": "Ajanla çalışmak kaçırılmayı engellemiyor, aksine 'trafficking' (insan kaçakçılığı) sistemini besliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "question": "The word affluent in paragraph 2 is closest in meaning to ----.",
+                            "options": [
+                                "industrial",
+                                "intolerant",
+                                "wasteful",
+                                "wealthy"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Affluent\" zengin, varlıklı demektir. Paragrafta 'so they are able to afford ultrasound scans' (böylece ultrason parasını ödeyebiliyorlar) denmesi zengin olduklarını gösterir.",
+                                "wrong": {
+                                    "0": "Endüstriyel demek değil.",
+                                    "1": "Hoşgörüsüz demek değil.",
+                                    "2": "Savurgan demek değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "question": "The word prevails in paragraph 3 could best be replaced by ----.",
+                            "options": [
+                                "is common",
+                                "is forbidden",
+                                "predicts",
+                                "prevents"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Prevail\" yaygın olmak, hüküm sürmek demektir. Paragrafta 'despite the laws against it' (yasalara rağmen) bu uygulamanın hala devam ettiğini söylüyor. \"Is common\" (yaygındır) en yakın anlamdır.",
+                                "wrong": {
+                                    "1": "Yasak olduğu zaten söyleniyor ama kelimenin anlamı yasak demek değil.",
+                                    "2": "Tahmin etmek demek.",
+                                    "3": "Engellemek demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "question": "According to paragraph 3, one reason that people in India give for preferring sons is that ----.",
+                            "options": [
+                                "daughters have more medical problems which are expensive to pay for",
+                                "daughters are thought to not take care of their own parents after getting married",
+                                "sons carry on their family name but daughters do not",
+                                "sons are better than daughters for the economic development of their country"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap Paragraf 3'te: 'People also claim that daughters only look after their in-laws instead of their birth parents.' İnsanlar kızların evlenince sadece eşinin ailesine bakacağını, kendi anne babasına bakmayacağını iddia ediyor.",
+                                "wrong": {
+                                    "0": "Tıbbi sorunlardan bahsedilmiyor.",
+                                    "2": "Soyadı devamlılığından bahsedilmiyor.",
+                                    "3": "Ekonomik kalkınma ile ilgili bir tercih nedeni sunulmuyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "question": "In paragraph 4, the writer mentions all of the following problems related to “paro” EXCEPT ----.",
+                            "options": [
+                                "“paro” are not respected",
+                                "husbands of “paro” are not given respect",
+                                "“paro” suffer physical abuse in their new homes",
+                                "“paro” have economic difficulties in their new communities"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Metinde 'Paro'ların (satın alınan gelinler) saygı görmediği, kocalarının alay konusu olduğu ve dayak (physical abuse) yedikleri yazıyor. Ancak gittikleri yeni evlerde 'ekonomik zorluk' çektiklerine dair bir bilgi yok (kocalar genelde satın alacak kadar parası olan kişiler).",
+                                "wrong": {
+                                    "0": "Bahsediliyor: 'not respected', 'insulting word'.",
+                                    "1": "Bahsediliyor: 'they are made fun of'.",
+                                    "2": "Bahsediliyor: 'experience beatings'."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "question": "In paragraph 5, the writer’s purpose is to ----.",
+                            "options": [
+                                "criticize Indian culture regarding its treatment of women",
+                                "help the reader understand why bride trafficking is necessary in India",
+                                "offer suggestions about how to solve the trafficking problem in India",
+                                "show that there is hope for change in how women are treated in India"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Yazar, 'Patriarchy is part of our society', 'Girls are unwelcome visitors' ve 'culture that sees sons as a blessing and daughters as trouble' ifadelerini kullanarak Hint kültürünün kadına bakış açısını eleştiriyor ve sorunun kaynağını gösteriyor.",
+                                "wrong": {
+                                    "1": "Gerekli olduğunu savunmuyor, nedenlerini açıklıyor.",
+                                    "2": "Çözüm önerisi sunmuyor, durumu tespit ediyor.",
+                                    "3": "Umut olduğunu değil, döngünün devam ettiğini (cycle continues) söylüyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 4: Roaches to the Rescue",
+                    "paragraphs": [
+                        "Scientists have found a way to modify cockroaches and control them with remote technology. These technologically-enhanced roaches can still move easily through dangerous ruins which are often impossible for humans to penetrate after a disaster. There, the roaches do what they always do: keep moving around randomly. Alper Bozkurt, professor of electrical and computer engineering at North Carolina State University, explains that the difference from typical bug life is that these roaches are equipped with computer-chip backpacks designed for data collection and transmission to emergency personnel. He says, “The equipment will enable the roaches to find people in a short amount of time. Time really has great importance, and right now, there is no other method that can achieve this.\"",
+                        "Cockroach antennae naturally help them sense their surroundings. Upon contact with any physical object, an antenna sends an electrical signal to the roach’s brain, which tells the insect to adjust course around whatever is in its way. Professor Bozkurt has developed an electrode that attaches to a roach’s antennae. Each electrode creates a signal that can direct the bug’s movement. The electrodes are connected to the backpack, which acts as an extension of the roach’s brain. It contains a battery, a microchip, a radio to communicate with the controller, and microphones. Some of the roaches have a very sensitive, single microphone that can capture any sound at a disaster scene. Others have a series of microphones that can triangulate the source of a sound, and then the bug can be directed toward it.",
+                        "Following a disaster, rescue teams can send roaches into a toxic or collapsed area to find trapped survivors. During a search-and-rescue mission, the roaches will instinctively roam around the area while the attached technology gathers data and directs them back into the disaster area if they diverge. Once a roach detects a survivor, signals from radio towers will locate the roach, and thus the survivor. Bozkurt and the team have also developed an invisible \"fence\" designed to keep the roaches within the boundaries of the disaster site. The fence is made of a series of sensors that redirect the cockroaches when they get too close. It also helps the roaches stick close together, which enables their controllers to maintain better wireless communication with them.",
+                        "The idea of turning cockroaches into remote-controlled robots is not new, and using them in this way has generated a lot of debate. For example, one company sells \"RoboRoach\" kits that enable people to create their own smartphone-controlled cockroaches. The assembler must first glue a backpack circuit board onto the roach's shell and then trim the roach's antennae and stick small electrodes in them which connect to the circuit. Many people think using technology in this way is unethical. Allowing people, especially untrained individuals, to attach the backpacks and electrodes to roaches has raised concerns about animal cruelty. However, few people have opposed the work of researchers like Bozkurt, who use cockroaches to save human lives. With their natural ability to crawl through small spaces, roaches offer unique advantages, and Bozkurt has tried to cause as little discomfort to them as possible.",
+                        "Bozkurt says his passion to find creative solutions like using roaches in search and rescue operations was initially inspired by his experience as a volunteer rescuer in Turkey in 1999 after the Izmit earthquake that killed nearly 20,000 people. He has also attempted to develop cyber-dogs for search and rescue, but he believes cockroaches are especially suited to assist after disasters. He says that despite many people’s dislike of them, roaches are quite intelligent animals, which makes them ideal for rescue work. They are originally from Madagascar and can be trained to make excellent pets, according to Bozkurt. \"I love cockroaches,\" he said. \"Some people may think that they’re ugly, but roaches may also think that humans are ugly.\""
+                    ],
+                    "questions": [
+                        {
+                            "id": 1,
+                            "question": "The article mainly discusses ----.",
+                            "options": [
+                                "the advantages and disadvantages of using roaches to help rescue people in disaster areas",
+                                "the behavior of roaches in disaster areas and the challenges they face there",
+                                "how technology is overcoming the dangers of responding quickly in disaster areas",
+                                "how Alper Bozkurt is using roaches in disaster areas and issues related to his work"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Makale genelinde Alper Bozkurt'un projesi, hamam böceklerine takılan teknoloji, bunun nasıl çalıştığı, etik tartışmalar ve Bozkurt'un ilham kaynağı anlatılıyor. En kapsamlı şık budur.",
+                                "wrong": {
+                                    "0": "Avantaj ve dezavantajlar var ama ana odak Bozkurt'un çalışması.",
+                                    "1": "Böceklerin davranışından çok teknolojiye odaklanılıyor.",
+                                    "2": "Teknoloji genel bir konu, burada spesifik olarak böcekler anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "question": "The word this in paragraph 1 refers to ----.",
+                            "options": [
+                                "the equipment",
+                                "finding people quickly",
+                                "great importance",
+                                "other technology"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf 1'in sonunda: 'enable the roaches to find people in a short amount of time... no other method that can achieve this.' (Bunu başarabilecek başka yöntem yok). 'Bunu' dediği şey insanları kısa sürede bulmaktır.",
+                                "wrong": {
+                                    "0": "Ekipmanı başarmak anlamsız.",
+                                    "2": "Önemi başarmak anlamsız.",
+                                    "3": "Başka teknolojiden bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "question": "Which of the following is NOT mentioned about technologically-enhanced cockroaches in paragraph 1?",
+                            "options": [
+                                "They have a natural tendency to be active.",
+                                "They carry high-tech equipment.",
+                                "Their outer shells provide protection in dangerous places.",
+                                "What they do in a disaster resembles what they do in their normal lives."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf 1'de böceklerin dış kabuklarının (shells) onları tehlikeli yerlerde koruduğuna dair özel bir bilgi verilmemiştir.",
+                                "wrong": {
+                                    "0": "Bahsediliyor: 'keep moving around randomly'.",
+                                    "1": "Bahsediliyor: 'equipped with computer-chip backpacks'.",
+                                    "3": "Bahsediliyor: 'do what they always do'."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "question": "The word triangulate in paragraph 2 could best be replaced by ----.",
+                            "options": [
+                                "control",
+                                "damage",
+                                "locate",
+                                "imitate"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Triangulate\" üçgenleme yöntemiyle yer tespit etmek demektir. Paragrafta 'triangulate the source of a sound... directed toward it' (sesin kaynağını bulup oraya yönlendirilir) deniyor. Locate (yerini bulmak) en yakın anlamdır.",
+                                "wrong": {
+                                    "0": "Kontrol etmek değil.",
+                                    "1": "Zarar vermek değil.",
+                                    "3": "Taklit etmek değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "question": "The word diverge in paragraph 3 is closest in meaning to ----.",
+                            "options": [
+                                "move away",
+                                "deal with",
+                                "connect to",
+                                "communicate with"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Diverge\" sapmak, uzaklaşmak demektir. Cümlede 'directs them back... if they diverge' (eğer saparlarsa geri yönlendirir) deniyor. \"Move away\" (uzaklaşmak) doğrudur.",
+                                "wrong": {
+                                    "1": "Başa çıkmak demek.",
+                                    "2": "Bağlanmak demek.",
+                                    "3": "İletişim kurmak demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "question": "Paragraph 4 mainly discusses ----.",
+                            "options": [
+                                "whether or not cockroaches are being treated ethically",
+                                "how “RoboRoach” has affected Bozkurt’s work",
+                                "the innovative work other researchers are doing with cockroaches",
+                                "the technology that can be integrated into cockroaches’ bodies"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf 4'te 'unethical', 'animal cruelty', 'discomfort' gibi kelimeler geçiyor. İnsanların bu teknolojiye karşı etik kaygıları ve Bozkurt'un buna yaklaşımı tartışılıyor.",
+                                "wrong": {
+                                    "1": "RoboRoach sadece bir örnek, Bozkurt'un işini nasıl etkilediği ana konu değil.",
+                                    "2": "Diğer araştırmacılardan çok etik tartışma var.",
+                                    "3": "Teknoloji detayları daha çok önceki paragraflarda vardı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "question": "Which of the following statements about Bozkurt can be inferred from paragraph 5?",
+                            "options": [
+                                "He helped manage earthquake aid to Turkey after the 1999 İzmit earthquake.",
+                                "His work with cockroaches seems to have more potential than his work with cyber dogs.",
+                                "Cockroaches work more effectively in rescue operations if they receive special training.",
+                                "Bozkurt will probably try to train other animals to be involved in rescue operations."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf 5'te 'He has also attempted to develop cyber-dogs... but he believes cockroaches are especially suited' (Siber köpekler de denedi ama böceklerin özellikle uygun olduğuna inanıyor) deniyor. Demek ki böceklerde daha fazla potansiyel görüyor.",
+                                "wrong": {
+                                    "0": "Yardımı yönettiği değil, 'volunteer rescuer' (gönüllü kurtarıcı) olduğu söyleniyor.",
+                                    "2": "Özel eğitimden değil, doğal yeteneklerinden ve teknolojiden bahsediliyor.",
+                                    "3": "Başka hayvanları eğiteceğine dair bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "question": "Which of the following is TRUE according to the text?",
+                            "options": [
+                                "Cockroaches with single microphones and those with a series of microphones both provide useful information.",
+                                "Cockroaches that move outside the area of the disaster site sometimes provide useful information.",
+                                "“RoboRoach” has been an effective tool for training scientists to attach technology to cockroaches.",
+                                "There are different types of cockroaches, but the ones originating from Madagascar are the most intelligent."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf 2'de: 'Some... have a very sensitive, single microphone... Others have a series of microphones'. Her iki türün de işlevsel olduğu anlatılıyor. Biri sesi yakalıyor, diğeri yerini buluyor.",
+                                "wrong": {
+                                    "1": "Alan dışına çıkmaları engelleniyor (invisible fence), oradan bilgi gelmiyor.",
+                                    "2": "RoboRoach bilim insanları için değil, amatörler için bir kit.",
+                                    "3": "Madagaskar hamam böceklerinin en zeki olduğu değil, zeki oldukları söyleniyor."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

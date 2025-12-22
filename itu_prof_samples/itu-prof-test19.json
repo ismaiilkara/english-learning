@@ -1,0 +1,927 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Practice Test",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Earth's Structure",
+                    "passage": {
+                        "title": "The Earth's Layers and Seismic Activity",
+                        "text": "(1) _____ the Earth looks like a pretty solid place from the surface, it is actually extremely active just below the surface. The Earth is made of four basic layers: a solid crust, a hot, nearly solid mantle, a liquid outer core, and a solid inner core. The solid crust and the top, (2) _____ layer of the mantle make up a region called the lithosphere. The lithosphere isn't a continuous piece that wraps around the whole Earth like an eggshell. It's actually made up of giant puzzle pieces called tectonic plates. Tectonic plates are constantly shifting as they (3) _____ around on the slowly flowing mantle layer below. This non-stop movement causes stress on Earth's crust. When the stresses get too large, it (4) _____ cracks called faults. When tectonic plates move, it also causes movements at the faults. An earthquake is the sudden movement of Earth's crust at a fault line. The location where an earthquake begins is called the epicenter. An earthquake's most intense shaking is often felt near the epicenter. (5) _____, the vibrations from an earthquake can still be felt and detected hundreds, or even thousands of miles away from the epicenter. Scientists can measure these seismic waves on instruments called seismometer, (6) _____ detects seismic waves below the instrument and records them as a series of zig-zags. Scientists can (7) _____ the time, location, and intensity of an earthquake from the information recorded by a seismometer. This record also provides information about the rocks the seismic waves traveled through. Earthquake is a name for seismic activity on Earth, but Earth isn't the only place with seismic activity. There is evidence for seismic activity on Mars, too. NASA's InSight mission took a seismometer to Mars to study seismic activity there, known as marsquakes. On Earth, different materials vibrate in different ways. By studying the vibrations (8) _____ marsquakes, scientists hope to (9) _____ what materials are found on the inside of Mars. InSight is collecting tons of information about (10) _____ Mars is like under the surface. These new discoveries will help us understand more about how planets came to be."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "due to the fact that",
+                                "as far as",
+                                "even though",
+                                "as though"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"even though\" (her ne kadar ... olsa da) doğru cevap. Cümlede bir zıtlık var: Dünya yüzeyden sağlam görünüyor AMA aslında altı çok hareketli.",
+                                "wrong": {
+                                    "0": "\"due to the fact that\" sebep belirtir (çünkü), zıtlık belirtmez.",
+                                    "1": "\"as far as\" mesafe veya kapsam belirtir (kadar).",
+                                    "3": "\"as though\" -mış gibi demektir (sanki), anlam uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "astounded",
+                                "stiff",
+                                "extinct",
+                                "numerous"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"stiff\" (sert, katı) doğru cevap. Metinde mantonun \"nearly solid\" (neredeyse katı) olduğundan bahsediliyor, bu yüzden \"stiff\" kelimesi bu yapıyı tanımlamak için en uygun sıfat.",
+                                "wrong": {
+                                    "0": "\"astounded\" şaşırmış demek (insanlar için kullanılır).",
+                                    "2": "\"extinct\" nesli tükenmiş demek.",
+                                    "3": "\"numerous\" sayısız/çok sayıda demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "drift",
+                                "suffer",
+                                "sustain",
+                                "avoid"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"drift\" (sürüklenmek) doğru cevap. Tektonik plakalar manto üzerinde yavaşça hareket eder/sürüklenir.",
+                                "wrong": {
+                                    "1": "\"suffer\" acı çekmek demek.",
+                                    "2": "\"sustain\" sürdürmek demek.",
+                                    "3": "\"avoid\" kaçınmak demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "results from",
+                                "lets down",
+                                "stems from",
+                                "leads to"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"leads to\" (yol açmak) doğru cevap. Stres arttığında çatlaklara YOL AÇAR (neden olur).",
+                                "wrong": {
+                                    "0": "\"results from\" -den kaynaklanmak demektir (ters neden-sonuç).",
+                                    "1": "\"lets down\" hayal kırıklığına uğratmak demek.",
+                                    "2": "\"stems from\" -den türemek/kaynaklanmak demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "Nevertheless",
+                                "In contrast",
+                                "Instead",
+                                "Whereas"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Nevertheless\" (Yine de / Buna rağmen) doğru cevap. Önceki cümlede depremin merkezde en şiddetli hissedildiği söyleniyor; bu cümlede ise 'buna rağmen' çok uzaklarda da hissedilebildiği belirtiliyor.",
+                                "wrong": {
+                                    "1": "\"In contrast\" tam zıtlık bildirir ama burada şiddetin azalmasına rağmen hissedilmesi durumu var (concession).",
+                                    "2": "\"Instead\" yerine demek.",
+                                    "3": "\"Whereas\" oysa/halbu ki anlamındadır ve genellikle iki özneyi karşılaştırırken cümle içinde kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "that it",
+                                "where",
+                                "which",
+                                "which it"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"which\" doğru cevap. \"Seismometer\" bir nesnedir ve onu tanımlayan bir sıfat cümcüğü (relative clause) gelmektedir. Virgülden sonra nesneleri tanımlarken \"which\" kullanılır.",
+                                "wrong": {
+                                    "0": "\"that it\" gramer olarak yanlıştır; relative clause'da özne tekrar edilmez.",
+                                    "1": "\"where\" yer bildiren durumlarda kullanılır.",
+                                    "3": "\"which it\" yanlıştır; \"which\" zaten özne (it) yerine geçer."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "figure out",
+                                "send for",
+                                "call off",
+                                "stand for"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"figure out\" (çözmek, anlamak, hesaplamak) doğru cevap. Bilim insanları sismometre verilerinden depremin zamanını ve yerini çözerler.",
+                                "wrong": {
+                                    "1": "\"send for\" çağırmak/getirtmek demek.",
+                                    "2": "\"call off\" iptal etmek demek.",
+                                    "3": "\"stand for\" temsil etmek demek (kısaltmalar için)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "to",
+                                "by",
+                                "from",
+                                "with"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"from\" doğru cevap. \"Vibrations from marsquakes\" (Mars depremlerinden gelen titreşimler). Kaynak belirtiyor.",
+                                "wrong": {
+                                    "0": "\"to\" yönelme bildirir.",
+                                    "1": "\"by\" yapanı belirtir.",
+                                    "3": "\"with\" ile/birlikte anlamı katar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "comply",
+                                "determine",
+                                "incline",
+                                "deter"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"determine\" (belirlemek, saptamak) doğru cevap. Bilim insanları Mars'ın içinde hangi materyallerin olduğunu belirlemeyi umuyorlar.",
+                                "wrong": {
+                                    "0": "\"comply\" uymak/itaat etmek demek.",
+                                    "2": "\"incline\" eğilim göstermek demek.",
+                                    "3": "\"deter\" caydırmak demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "that",
+                                "which",
+                                "where",
+                                "what"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"what\" doğru cevap. Cümlede \"Mars'ın neye benzediği\" (what Mars is like) anlamını veren bir isim cümcüğü (noun clause) gerekiyor.",
+                                "wrong": {
+                                    "0": "\"that\" kullanılsaydı cümle tam olmalıydı, \"like\" edatı boşta kalmazdı.",
+                                    "1": "\"which\" sınırlı bir seçim grubunu ifade eder.",
+                                    "2": "\"where\" yer sorar ama \"like\" (gibi) edatıyla uyumlu değildir."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 10,
+                            "statement": "You seem to be uncomfortable with people whom you think are more knowledgeable than you.",
+                            "options": [
+                                "A seemingly uncomfortable situation may turn out to be an opportunity to meet people who are more knowledgeable than you.",
+                                "It seems that you used to feel comfortable when knowledgeable people thought you were extremely bright.",
+                                "Apparently, when you are with people who, in your opinion, are better-informed than you, you don't feel at ease.",
+                                "It appears that people who are more knowledgeable than you do not want to spend any time with you unless they need your help."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı orijinal anlamı koruyor. 'Seem to be' = 'Apparently', 'uncomfortable' = 'don't feel at ease', 'people whom you think' = 'in your opinion', 'more knowledgeable' = 'better-informed'.",
+                                "wrong": {
+                                    "0": "A şıkkı 'fırsat'tan bahsediyor, orijinalde yok.",
+                                    "1": "B şıkkı 'eskiden rahattın' diyor, orijinalde zaman değişimi yok.",
+                                    "3": "D şıkkı 'onlar seninle vakit geçirmek istemiyor' diyor, özne değişmiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "statement": "She dislikes her math teacher as he is always picking on her.",
+                            "options": [
+                                "She is not like her math teacher in terms of beliefs and values.",
+                                "Her math teacher, who makes fun of her all the time, is not liked by her.",
+                                "Her math teacher doesn't like her just because he thinks she is picky.",
+                                "She hates her math teacher, which is why she is always teasing him."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı anlamca en yakın. 'dislikes' = 'is not liked by her' (pasif yapı), 'picking on her' = 'makes fun of her' (dalga geçmek/uğraşmak).",
+                                "wrong": {
+                                    "0": "A şıkkı 'like' kelimesini 'sevmek' değil 'benzerlik' olarak almış.",
+                                    "2": "C şıkkı 'picky' (seçici) kelimesini kullanarak kelime oyunu yapmış.",
+                                    "3": "D şıkkı eylemi tersine çevirmiş; kız öğretmeniyle dalga geçmiyor, öğretmen kızla uğraşıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "She deserves to be punished because she has betrayed us.",
+                            "options": [
+                                "She won't be punished even if she betrays us.",
+                                "She has been punished even though she didn't let us down.",
+                                "Since she has been disloyal to us, she must be punished.",
+                                "Her having been punished severely will be a good lesson for traitors."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı tam karşılığıdır. 'Because' = 'Since', 'betrayed' = 'has been disloyal', 'deserves to be punished' = 'must be punished' (gereklilik/hak etme).",
+                                "wrong": {
+                                    "0": "A şıkkı 'cezalandırılmayacak' diyor, anlam zıt.",
+                                    "1": "B şıkkı 'bizi hayal kırıklığına uğratmamasına rağmen' diyor, anlam zıt.",
+                                    "3": "D şıkkı cezanın 'iyi bir ders olacağından' bahsediyor, orijinalde bu yorum yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "A number of studies have indicated that regular exercise may reduce the risk of breast, colon, and prostate cancers.",
+                            "options": [
+                                "According to some studies, it is possible to decrease the risk of breast, colon, and prostate cancers by exercising regularly.",
+                                "Several studies suggest that breast, colon, and prostate cancers can be cured by means of regular exercise.",
+                                "There have been various studies that show breast, colon, and prostate cancers can be prevented by taking some measures.",
+                                "The number of studies that reveal breast, colon, and prostate cancers can be avoided through regular exercise is surprisingly high."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'A number of studies' = 'According to some studies', 'may reduce' = 'possible to decrease', 'regular exercise' aynen korunmuş.",
+                                "wrong": {
+                                    "1": "B şıkkı 'cured' (tedavi etmek) diyor, orijinalde 'risk azaltmak' var.",
+                                    "2": "C şıkkı 'prevented' (önlemek) diyor ve egzersiz yerine genel 'önlemler'den bahsediyor.",
+                                    "3": "D şıkkı 'surprisingly high' (şaşırtıcı derecede yüksek) diyerek yorum katmış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Once the rain stopped, the workers patched the holes in the roads.",
+                            "options": [
+                                "As soon as the workers finished repairing the roads, it began to rain again.",
+                                "When the rain stopped, the workers had finished filling the holes in the roads.",
+                                "The workers filled the holes in the roads just after the rain stopped.",
+                                "Soon before it began to rain, the workers had started to fix the roads."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. 'Once' bağlacı 'olur olmaz / hemen ardından' anlamındadır. 'just after the rain stopped' bu anlamı verir. 'Patched' = 'filled'.",
+                                "wrong": {
+                                    "0": "A şıkkı olay sırasını karıştırmış; iş bitince yağmur başladı diyor.",
+                                    "1": "B şıkkı 'had finished' (bitirmişlerdi) diyor, yağmur durduğunda iş zaten bitmişti anlamı çıkar, oysa yağmur durunca başladılar.",
+                                    "3": "D şıkkı yağmur başlamadan hemen önce diyor, zamanlama yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Most books had hard covers until the first paperback novels were published in 1935.",
+                            "options": [
+                                "The publication of the first paperback novels in 1935 made hard cover books more expensive.",
+                                "Before the publication of the first paperback novels in 1935, the majority of books had hard covers.",
+                                "It was 1935 when the first paperback novels were widely available to the general public.",
+                                "Hard-cover books had become unaffordable when the first paperback novels were published in 1935."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. 'Until 1935' = 'Before the publication... in 1935'. 'Most books' = 'The majority of books'.",
+                                "wrong": {
+                                    "0": "A şıkkı 'daha pahalı yaptı' diyor, fiyat bilgisi yok.",
+                                    "2": "C şıkkı 'halka açık hale geldi' diyor, kapak türünden bahsetmiyor.",
+                                    "3": "D şıkkı 'pahalı/alınamaz hale geldi' diyor, bilgi uydurma."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Kung fu teaches you effective self-defense techniques that add to your self-confidence.",
+                            "options": [
+                                "Kung fu teachers are exceptionally self-confident people who know a lot of effective protection techniques.",
+                                "When you learn Kung fu, your knowledge of effective self-defense techniques will improve substantially.",
+                                "In order to protect yourself against people who know kung fu, you must have a lot of confidence in yourself.",
+                                "Kung fu, which provides you with useful protection techniques, enhances your self-confidence."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. 'teaches effective self-defense techniques' = 'provides useful protection techniques', 'add to your self-confidence' = 'enhances your self-confidence'.",
+                                "wrong": {
+                                    "0": "A şıkkı 'öğretmenlerden' bahsediyor, orijinalde konu teknik ve öğrenci.",
+                                    "1": "B şıkkı sadece teknik bilgisinin artacağından bahsediyor, özgüven eksik.",
+                                    "2": "C şıkkı Kung fu bilenlere karşı korunmaktan bahsediyor, anlam tamamen farklı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "If only you had taken your mother's advice, you would have a good job now.",
+                            "options": [
+                                "You have this great job now because you were clever enough to follow your mother's advice.",
+                                "You don't have a good job now since you didn't listen to your mother's advice.",
+                                "Your mother may not be the cleverest person in the world, but apparently, she gave you some good advice.",
+                                "You wish I had listened to your mother's advice about my career plans, but the result would not be any different now."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümle 'Mixed Conditional' (Tip 3 + Tip 2). Geçmişte tavsiyeyi almadın (Past), şu an iyi işin yok (Present). B şıkkı bu neden-sonuç ilişkisini 'since' ile veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'harika bir işin var' diyor, tam tersi.",
+                                    "2": "C şıkkı annenin zekasına odaklanmış.",
+                                    "3": "D şıkkı özneyi karıştırmış (I/You) ve sonucun değişmeyeceğini söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "What really annoys me is your telling me what I should do.",
+                            "options": [
+                                "I can't stand it when you tell me what I'm supposed to do.",
+                                "You shouldn't upset people with your annoying questions.",
+                                "I feel relieved now because I've told you why I find you annoying.",
+                                "I'm angry with you as you couldn't tell me what I was expected to do."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'What really annoys me' = 'I can't stand it' (tahammül edemiyorum/çok kızıyorum). 'telling me what I should do' = 'tell me what I'm supposed to do'.",
+                                "wrong": {
+                                    "1": "B şıkkı 'sorular'dan bahsediyor.",
+                                    "2": "C şıkkı 'rahatladım' diyor.",
+                                    "3": "D şıkkı 'söyleyemediğin için kızgınım' diyor, tam tersi söylendiği için kızgın."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Mobile Phones and Modern War",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Mobile Phones and Modern War",
+                            "paragraphs": [
+                                "Mobile phone use around the world is expanding, and nowhere is that more true than in Afghanistan. An estimated 150,000 new subscribers are added every month, with 'no end in sight' according to the country's telecommunications minister. Out of a population of 28 million, more than 40 percent of Afghans have access to or own a mobile phone, a key means of communication in a country where landline phone infrastructure has been undermined by decades of war.",
+                                "However, every night at dusk in certain parts of Afghanistan, cell phone service is abruptly cut off until early the next morning, leaving users in a black hole of communication. Companies that provide mobile services in Afghanistan cut their services off due to threat of attack by Taliban militants. These militants aim to stop US and NATO forces from tracking their communications and to block local Afghans from passing tips to the authorities.",
+                                "Altaf Ladak is the chief operating officer for Roshan, which holds 35 percent of the mobile market share in Afghanistan. He does not believe his company is making a mistake by bowing to demands to shut off cell phone access at night, saying instead that it is simply a matter of security, a decision made in consultation with all mobile operators in Afghanistan. \"We needed to make sure our people and our assets are secure. So we've taken that precaution to make sure that they are not put at risk.\" In the past, Afghan rebels have blown up and destroyed expensive cell towers and threatened operators, even though they themselves rely on mobile devices to plan their attacks.",
+                                "Cutting off mobile service is just one of many tools that are used as part of an effective communications strategy by Taliban militants. Controlling and shaping the flow of information lies at the heart of their communications strategy. It is designed to play to specific audiences, which, in addition to local populations in both Afghanistan and Pakistan, include US and NATO forces, Afghan and Pakistani authorities and, of course, the larger pan-Islamic world and the West.",
+                                "Another way is to message the media. Some journalists receive SMS messages and regular calls on their mobile phones from Taliban representatives, offering interviews or claiming responsibility for terrorist attacks against Afghan, Pakistani and Western targets. A newer, surprising strategy even involves emailing news alerts written in perfect English to western reporters that detail one successful attack after another on the battlefield. And, of course, there are dozens of websites used to recruit and train militants, and to post their messages and videos.",
+                                "Dr. Carsten Bockstette is a researcher, author and analyst in Germany. He has written several papers examining the propaganda techniques of the militants. \"Officials have to do something about the militants' strategic communications. It is imperative that officials not lose their own credibility. Ensuring their own credibility while reducing the militant credibility is one of the key elements.\" He suggests, for example, that US and NATO forces must quickly and honestly take responsibility for Afghan and Pakistani civilian deaths that occur when pilotless aircraft target militant bases. He also says the most effective way to compete with the militant point of view, even in this digital age, is to start from the bottom up. He says identifying and employing local and trusted storytellers who can conduct what he calls a \"mouth-to-mouth\" campaign is critical to successfully penetrating the largely rural communities."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "As stated in the text, Afghanistan's telecommunications minister thinks ----.",
+                                    "options": [
+                                        "the population of Afghanistan has decreased tremendously because of the war",
+                                        "forty percent of Afghans are reluctant to own a mobile phone",
+                                        "the increase in the number of Afghan mobile users will continue",
+                                        "Afghanistan is going to become a center of mobile phone manufacturing."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap metnin ilk paragrafında: 'An estimated 150,000 new subscribers are added every month, with no end in sight'. 'No end in sight' ifadesi artışın durmayacağını, devam edeceğini gösterir.",
+                                        "wrong": {
+                                            "0": "Nüfusun azaldığına dair bilgi yok.",
+                                            "1": "İsteksiz (reluctant) oldukları değil, aksine 150 bin kişinin her ay katıldığı söyleniyor.",
+                                            "3": "Telefon üretim merkezi olacağından bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "The word undermined in paragraph I is closest in meaning to --",
+                                    "options": [
+                                        "damaged",
+                                        "discovered",
+                                        "observed",
+                                        "reinforced"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Undermine\" zarar vermek, zayıflatmak demektir. Metinde 'infrastructure has been undermined by decades of war' (altyapı savaş yüzünden zarar gördü) deniliyor. Bu yüzden 'damaged' (hasar görmüş) doğru.",
+                                        "wrong": {
+                                            "1": "\"Discovered\" keşfedilmiş demek.",
+                                            "2": "\"Observed\" gözlemlenmiş demek.",
+                                            "3": "\"Reinforced\" güçlendirilmiş demek (tam zıttı)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "We learn from the text that mobile communication service in Afghanistan is stopped every night ----.",
+                                    "options": [
+                                        "to make people use their landline phones",
+                                        "but Afghans do not complain about this",
+                                        "as part of the government's security program",
+                                        "as mobile service providers fear Taliban militants"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "İkinci paragrafta: 'Companies... cut their services off due to threat of attack by Taliban militants'. Şirketler Taliban saldırısından korktukları için kesiyorlar.",
+                                        "wrong": {
+                                            "0": "Sabit hat kullansınlar diye değil.",
+                                            "1": "Halkın şikayet edip etmediği yazmıyor.",
+                                            "2": "Hükümet programı değil, şirketlerin güvenlik önlemi."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "The word their in paragraph I refers to ----.",
+                                    "options": [
+                                        "companies",
+                                        "services",
+                                        "Taliban militants",
+                                        "US and NATO forces"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cümle: 'These militants aim to stop US and NATO forces from tracking THEIR communications'. ABD güçlerinin KİMİN iletişimini takip etmesini engellemek istiyorlar? Militanlar kendi iletişimlerinin takip edilmesini istemiyor.",
+                                        "wrong": {
+                                            "0": "Şirketlerin değil.",
+                                            "1": "Servislerin değil.",
+                                            "3": "ABD güçleri kendi iletişimlerini takip etmez, düşmanınkini takip eder."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "Paragraph II is mainly concerned with ----.",
+                                    "options": [
+                                        "what should be done to prevent Taliban attacks",
+                                        "why mobile service providers stop access at night",
+                                        "how Roshan manages to control 35 percent of the mobile market",
+                                        "why mobile operators provide financial support to Taliban"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "II. Paragraf (metinde Paragraph II olarak geçmese de mantıksal akışta Roshan yetkilisinin olduğu kısım kastediliyor olabilir ya da metin başındaki 'However' ile başlayan kısım). Sorudaki Paragraph II muhtemelen Altaf Ladak'ın açıklamalarını içeren kısım (gerçek 3. paragraf) veya servislerin neden kesildiğini anlatan kısım. Şıklara bakınca servislerin neden kesildiği (güvenlik, tehdit) ana konu.",
+                                        "wrong": {
+                                            "0": "Saldırıları önlemek için ne yapılması gerektiği değil, sonucunda ne yapıldığı anlatılıyor.",
+                                            "2": "Roshan'ın pazar payı sadece bir detay.",
+                                            "3": "Finansal destekten bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "Which of the following is NOT mentioned in the text as part of Taliban's communications strategy?",
+                                    "options": [
+                                        "Preventing mobile phone access",
+                                        "Sending text messages to the media",
+                                        "Handing out propaganda leaflets in Pakistan",
+                                        "Emailing news alerts to reporters"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde broşür (leaflet) dağıtıldığından hiç bahsedilmiyor. Diğerleri var: Erişim engelleme (shut off cell phone access), Medyaya SMS (SMS messages), E-mail atma (emailing news alerts).",
+                                        "wrong": {
+                                            "0": "Metinde var: 'cut off... until early the next morning'.",
+                                            "1": "Metinde var: 'receive SMS messages'.",
+                                            "3": "Metinde var: 'emailing news alerts'."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "Which of the following sentences is TRUE according to Dr. Carsten Bockstette?",
+                                    "options": [
+                                        "The Pakistani government helps Taliban control the flow of information.",
+                                        "The majority of Taliban leaders live in European countries like Germany.",
+                                        "Taliban's credibility has never been lower than it is today.",
+                                        "US and NATO forces cause civilian deaths."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Son paragrafta: 'US and NATO forces must... take responsibility for Afghan and Pakistani civilian deaths'. Doktor, sivil ölümlerinin sorumluluğunu almaları gerektiğini söylüyor, yani bu ölümlerin gerçekleştiğini (cause) kabul ediyor.",
+                                        "wrong": {
+                                            "0": "Pakistan hükümetinin yardımı hakkında bilgi yok.",
+                                            "1": "Taliban liderlerinin nerede yaşadığı yazmıyor.",
+                                            "2": "Güvenilirliklerinin düşük olduğunu değil, düşürülmesi gerektiğini söylüyor ('reducing the militant credibility')."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "question": "The word imperative in paragraph IV is closest in meaning to",
+                                    "options": [
+                                        "vital",
+                                        "recent",
+                                        "royal",
+                                        "late"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Imperative\" zorunlu, çok önemli, hayati demektir. Eş anlamlısı \"vital\" (hayati).",
+                                        "wrong": {
+                                            "1": "\"Recent\" son zamanlardaki demek.",
+                                            "2": "\"Royal\" kraliyetle ilgili demek.",
+                                            "3": "\"Late\" geç demek."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Nanotechnology",
+                            "paragraphs": [
+                                "Governments and industries around the world are investing billions of dollars to position themselves as leaders in the emerging enterprise called nanotechnology, defined as science on the scale of atoms and molecules. Each nation has its own vision and strategy. Last month, representatives from five of the top contenders - the US, the European Union, Japan, Russia and China - met during a panel, where 800 participants from 44 countries examined nanotechnology's influence on health, electronics, energy, water, food, construction, safety and investment.",
+                                "\"Today there are lots of nano-products but they're typically not revolutionary. They're improvements on existing processes and products - better materials, better coatings, more efficient chemical processes,\" said Richard Russell, a conference speaker. \"All those things provide society with benefits,\" he said, \"But I think many people are waiting for the revolutionary ones. Those are a little further out because we're still spending time and effort developing nano-materials. There's still a lot of basic research to do.\"",
+                                "Nano-science describes the ability to see, measure, control and manufacture things on a scale of one to 100 nanometers. A nanometer is one-billionth of a meter; a sheet of paper is about 100,000 nanometers thick. At the nano scale, the physical, chemical and biological properties of materials differ in basic and valuable ways. Nanotechnology research and development are helping scientists and engineers understand and create materials and devices that draw on these new properties. Nanotechnology applications are being developed in nearly every industry, including electronics, energy production, information technology, transportation, and medicine.",
+                                "Last year, governments and private industry around the world spent a combined $14 billion on nanotechnology. Of that total, the US is among the top investors. US Government spending on basic research in nanotechnology was $1.5 billion, and private-sector investment in research and development was just over $3 billion. About 5 percent of the US investment is spent on research to determine the implications of nanotechnology on public health and safety and the environment.",
+                                "In Europe, two-thirds of nanotechnology funding comes from governments, the European Union (EU) and member states, and one-third comes from the private sector, said Christos Tokamanis, head of the EU nanotechnology unit. \"The action plan has two main focus points,\" he said. \"One is competitiveness and the societal challenges we have to resolve and solve with nanotechnology, and the other is the responsible development of this emerging science.\"",
+                                "In the 2,500-year-old city of Suzhou, a 1.5-hour flight from Beijing, China's central government is helping to fund and promote the International Nanotech Innovation Park, an aggressive effort to accelerate the growth of the nation's nanotechnology industry. The park already has 14 nanotechnology start-up companies and expects its 200 employees to grow to 700 over the next several years. Scientific collaboration is important to the park's growth, and talks have been held with representatives from Russia, Finland, South Korea, Singapore and Hong Kong.",
+                                "In Japan, nanotechnology materials are among the nation's four strategic priorities. Public funding alone for the period 2006 to 2010 was $1 billion. It was focused on nanotechnology materials for energy, environment and resources; advanced research and development; research evaluation of manufactured nano-particles; and an X-ray free electron laser to develop new nanotechnology materials.",
+                                "For Russia, nanotechnology is to become the basis of a new technological culture that will completely change industrial policy and the industrial economy. It will be a new revolution. The government has allocated more than $2 billion for nanotechnology over the next six years. They will change the system of education completely in order to stimulate such new types of perspective for scientists, and undertake many different changes in infrastructure."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "The word contenders in paragraph I is closest in meaning to.",
+                                    "options": [
+                                        "competitors",
+                                        "scientists",
+                                        "sufferers",
+                                        "spectators"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Contenders\" rakipler, yarışmacılar demektir. Metinde ülkelerin (ABD, AB, Japonya...) bu alanda lider olmak için yarıştığı anlatılıyor. \"Competitors\" eş anlamlıdır.",
+                                        "wrong": {
+                                            "1": "\"Scientists\" bilim insanları.",
+                                            "2": "\"Sufferers\" acı çekenler.",
+                                            "3": "\"Spectators\" izleyiciler."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "As we learn from paragraph I, Richard Russell believes ----.",
+                                    "options": [
+                                        "it will take quite a lot of time to manufacture revolutionary nano-products",
+                                        "revolutionary nano-products are too expensive for common people to buy",
+                                        "it is too early to organize international nano-technology conferences.",
+                                        "most nano-products of today can be considered revolutionary"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Russell şöyle diyor: 'Those [revolutionary ones] are a little further out'. Yani devrimsel ürünler için daha zaman var, şu an sadece iyileştirmeler yapılıyor.",
+                                        "wrong": {
+                                            "1": "Pahalı olduklarından değil, henüz hazır olmadıklarından bahsediyor.",
+                                            "2": "Konferansın erken olduğunu söylemiyor.",
+                                            "3": "Tam tersine, bugünkü ürünlerin devrimsel OLMADIĞINI ('typically not revolutionary') söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "Which of the following sentences is FALSE according to paragraph 1?",
+                                    "options": [
+                                        "Nanotechnology is science on the scale of atoms and molecules.",
+                                        "There were eight hundred participants at last month's nanotechnology panel.",
+                                        "The US, the EU, Japan, Russia and China share the same nanotechnology strategy.",
+                                        "Governments around the world are spending billions of dollars to become leaders in nanotechnology."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı YANLIŞTIR. Metinde 'Each nation has its own vision and strategy' (Her ulusun kendi vizyonu ve stratejisi var) deniliyor, aynı stratejiyi paylaştıkları söylenmiyor.",
+                                        "wrong": {
+                                            "0": "DOĞRU: 'defined as science on the scale of atoms and molecules' cümlesinde geçiyor.",
+                                            "1": "DOĞRU: '800 participants' cümlesinde geçiyor.",
+                                            "3": "DOĞRU: 'investing billions of dollars' cümlesinde geçiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "Paragraph II is mainly concerned with ----.",
+                                    "options": [
+                                        "how nanotechnology has affected our lives",
+                                        "the relationship between nanotechnology and medicine",
+                                        "who coined the word nanotechnology",
+                                        "what nanotechnology is"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafta (metindeki 3. paragraf kastediliyor: 'Nano-science describes...') nano-bilimin tanımı, nanometrenin boyutu ve materyallerin değişen özellikleri anlatılıyor. Yani nanoteknolojinin ne olduğu açıklanıyor.",
+                                        "wrong": {
+                                            "0": "Hayatımızı nasıl etkilediği genel bir konu ama bu paragrafın odağı tanım.",
+                                            "1": "Tıp sadece bir örnek olarak geçiyor.",
+                                            "2": "Kelimeyi kimin bulduğu yazmıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "The phrase draw on in paragraph II could best be replaced by ---",
+                                    "options": [
+                                        "destroy",
+                                        "give up",
+                                        "lead to",
+                                        "use"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Draw on\" yararlanmak, kullanmak demektir. Cümlede 'create materials... that draw on these new properties' (bu yeni özellikleri kullanan materyaller) deniliyor. \"Use\" doğru karşılık.",
+                                        "wrong": {
+                                            "0": "\"Destroy\" yok etmek.",
+                                            "1": "\"Give up\" vazgeçmek.",
+                                            "2": "\"Lead to\" yol açmak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "According to the text, the government has opened a business facility where there are fourteen nanotechnology firms.",
+                                    "options": [
+                                        "Russian",
+                                        "American",
+                                        "Chinese",
+                                        "Japanese"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde Çin bölümünde: 'China... International Nanotech Innovation Park... The park already has 14 nanotechnology start-up companies'. 14 firmanın olduğu yer Çin.",
+                                        "wrong": {
+                                            "0": "Rusya değil.",
+                                            "1": "Amerika değil.",
+                                            "3": "Japonya değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "The phrase the other in paragraph IV refers to",
+                                    "options": [
+                                        "focus point",
+                                        "nanotechnology unit",
+                                        "societal challenge",
+                                        "action plan"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde (AB bölümü): 'The action plan has two main focus points... One is... and the other is...'. 'The other', iki odak noktasından ikincisine atıfta bulunuyor.",
+                                        "wrong": {
+                                            "1": "Birimden değil, plandaki noktalardan bahsediliyor.",
+                                            "2": "Toplumsal zorluk odak noktalarından birinin İÇERİĞİ.",
+                                            "3": "Eylem planının kendisi değil, planın içindeki noktalar."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "question": "Which of the following sentences is TRUE according to the text?",
+                                    "options": [
+                                        "The US is the only major investor in nanotechnology.",
+                                        "Russia intends to make nanotechnology the basis of a new technological culture.",
+                                        "Chinese nano-scientists do not cooperate with those from other countries.",
+                                        "In 2010, the Japanese government spent $1 billion on nanotechnology research."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Son paragrafta: 'For Russia, nanotechnology is to become the basis of a new technological culture'. Bu cümle B şıkkını birebir doğruluyor.",
+                                        "wrong": {
+                                            "0": "Tek yatırımcı değil, sadece 'top investors'dan biri.",
+                                            "2": "Çin işbirliği yapmıyor değil, aksine 'Scientific collaboration is important' deniliyor.",
+                                            "3": "Japonya 1 milyar doları 2006-2010 dönemi TOPLAMINDA harcadı, sadece 2010'da değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Microfinance",
+                            "paragraphs": [
+                                "What started as a few small loans by an economics professor in Bangladesh to help local laborers avoid high-interest loan services has become a booming specialized banking business. This business, microfinance, refers to small loans to poor people who have no access to banks. According to economists, women are the big beneficiaries of microfinance, especially women in South Asia, where the majority of micro-lending takes place. Grameen Bank, the Bangladesh institution at the forefront of micro-lending, reports that almost all of its borrowers are low-income women.",
+                                "Muhammad Yunus, an economics professor, founded Grameen Bank in the late 1970s. Grameen means village, and the bank is so named because its clients are mostly in rural areas. Today, the bank has 23,037 employees and 8.1 million borrowers. As microfinance expands, it increasingly attracts commercial investments, and provides other services like savings accounts, insurance policies, money transfers and bill-paying services to those who typically lack access to banks. When Grameen Bank first started, it tried to attract an equal number of men and women borrowers. But the bank quickly saw that women used their earnings to benefit their families much more than male borrowers did. Grameen and other micro-lenders in South Asia now lend overwhelmingly to women.",
+                                "Borrowers typically take out loans of no more than a few hundred dollars, which they use to finance business activities such as selling food or small items from a market stall, raising chickens or vegetables, or providing services like sewing or cleaning. Mary Ellen Iskenderian, president of Women's World Banking, a global network supporting microfinance, says the benefits of access to small loans at reasonable interest rates may seem diminutive, but they are significant for these families. \"They may be able to move from a mud floor to a wood floor, which has enormous health benefits, or allow a girl to stay longer in school, which has a long-term impact.\"",
+                                "Small loans reduce economic shocks to families with few resources to fall back on. If drought hurts their crops or they need money for a medical emergency, families don't have to sell off productive possessions or reduce their food consumption. The microfinance system has another built-in means of improving the welfare of borrowers and their families. Lending officers often provide information about such topics as health, nutrition and borrowers' legal rights in their dealings with landlords.",
+                                "Although microfinance has spread to most parts of the world, the practice is most highly developed in South Asia, home to half of all current borrowers. Estimates of the number of borrowers worldwide range from 77 million to 150 million. Unlike traditional banks that do almost everything to protect themselves, micro-lenders do not require collateral that would be lost if a loan is not repaid. Instead, many microfinance institutions follow the Grameen model of requiring those who take out a loan to join a group of about a half-dozen fellow borrowers. The group holds regular meetings at which an officer of the lending institution collects repayments. Experts say the support and pressure from the group contributes to very high repayment rates. Typically more than 95 percent of loans are repaid.",
+                                "Increasingly, local governments and international donors support micro-lending. Also, as the practice continues to expand, microfinance institutions are attracting more capital from commercial investors- $10 billion worldwide in the last four years. Ujjivan Financial Services, a company founded in India in 2005 to bring micro-lending to India's urban poor, is typical of this trend. The company started with investments from both nonprofit foundations and for-profit investment funds in the United States, Europe and India. \"We're a social enterprise; our objective is to fight poverty,\" says an Ujjivan director. \"But we're run as a profit-making enterprise. Otherwise, we wouldn't attract enough capital or good people to work for us.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "According to paragraph I, the practice of microfinance ----.",
+                                    "options": [
+                                        "has improved in spite of its high-interest loan services",
+                                        "is favored by few economists in Bangladesh",
+                                        "benefits considerably more women than men",
+                                        "was started as a reaction to the tyrants in South Asia"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde: 'women are the big beneficiaries of microfinance... almost all of its borrowers are low-income women'. Kadınların erkeklerden çok daha fazla faydalandığı belirtiliyor.",
+                                        "wrong": {
+                                            "0": "Microfinance 'high-interest' (tefeci faizi) değil, ondan kaçınmak için yapılıyor.",
+                                            "1": "Az sayıda ekonomist tarafından desteklendiği yazmıyor.",
+                                            "3": "Zorbalara (tyrants) tepki değil, yüksek faizli kredilere tepki olarak başladı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "As we learn from the text, Grameen Bank ----.",
+                                    "options": [
+                                        "received its name from its target client group",
+                                        "has been the biggest bank in Bangladesh since the late 1970s",
+                                        "is no longer a leading actor of micro-lending in Bangladesh",
+                                        "was established by local laborers who wanted to fight poverty in their region"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde: 'Grameen means village, and the bank is so named because its clients are mostly in rural areas'. Hedef kitlesi köyde/kırsalda olduğu için bu ismi almıştır.",
+                                        "wrong": {
+                                            "1": "En büyük banka olduğu bilgisi yok, mikro-kredide öncü olduğu var.",
+                                            "2": "Hala 'at the forefront' (ön saflarda) olduğu söyleniyor.",
+                                            "3": "İşçiler tarafından değil, bir ekonomi profesörü tarafından kuruldu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "As stated in paragraph II, microfinance institutions provide small loans to poor people ---",
+                                    "options": [
+                                        "but Muhammad Yunus believes money transfers and bill-paying services are more profitable",
+                                        "because they want to be able to exploit them when their businesses expand",
+                                        "yet they are disturbed by the fact that more women than men borrow money from them",
+                                        "as well as other services like savings accounts and insurance policies"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde: 'provides other services like savings accounts, insurance policies...'. Kredinin yanı sıra sigorta, birikim hesabı gibi hizmetler de veriyorlar.",
+                                        "wrong": {
+                                            "0": "Yunus'un kârlılık inancından bahsedilmiyor.",
+                                            "1": "Sömürmek (exploit) amaç değil, yardım etmek.",
+                                            "2": "Kadınların borç almasından rahatsız değiller, aksine tercih ediyorlar."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "According to the text, the clients of the microfinance system ----",
+                                    "options": [
+                                        "apply to half a dozen banks when they need to borrow money",
+                                        "often fail to repay their debts on time",
+                                        "pay their debts back in monthly installment of three hundred dollars",
+                                        "mostly seek money for minor businesses like raising chickens"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde: 'finance business activities such as... raising chickens or vegetables'. Tavuk yetiştirmek gibi küçük işler için para istiyorlar.",
+                                        "wrong": {
+                                            "0": "6 bankaya başvurmuyorlar, 6 kişilik gruplara katılıyorlar.",
+                                            "1": "Tam tersine geri ödeme oranları çok yüksek (%95+).",
+                                            "2": "300 dolar taksit değil, alınan toplam borç miktarı o civarda."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "The word diminutive in paragraph III is closest in meaning to ----.",
+                                    "options": [
+                                        "damaging",
+                                        "tiny",
+                                        "important",
+                                        "reliable"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Diminutive\" çok küçük, ufak tefek demektir. \"Tiny\" eş anlamlıdır.",
+                                        "wrong": {
+                                            "0": "\"Damaging\" zarar verici.",
+                                            "2": "\"Important\" önemli.",
+                                            "3": "\"Reliable\" güvenilir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "The phrase fall back on in paragraph III is closest in meaning to ----",
+                                    "options": [
+                                        "cut out",
+                                        "let down",
+                                        "depend on",
+                                        "run out"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Fall back on\" (zor durumda) başvurmak, güvenmek, dayanak yapmak demektir. \"Depend on\" (güvenmek/bel bağlamak) en yakın anlamdır.",
+                                        "wrong": {
+                                            "0": "\"Cut out\" kesip atmak.",
+                                            "1": "\"Let down\" hayal kırıklığına uğratmak.",
+                                            "3": "\"Run out\" tükenmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "The word their in paragraph III refers to ----.",
+                                    "options": [
+                                        "means",
+                                        "borrowers",
+                                        "officers",
+                                        "topics"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cümle: 'improving the welfare of borrowers and THEIR families'. Borç alanların (borrowers) ve ONLARIN ailelerinin refahı. 'Their', borç alanlara referans verir.",
+                                        "wrong": {
+                                            "0": "Araçların ailesi olmaz.",
+                                            "2": "Memurların ailesinden bahsedilmiyor.",
+                                            "3": "Konuların ailesi olmaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "question": "The word collateral in paragraph IV could best be replaced by",
+                                    "options": [
+                                        "guarantee",
+                                        "risk",
+                                        "information",
+                                        "competence"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Collateral\" teminat, güvence (ipotek) demektir. \"Guarantee\" (garanti/güvence) en yakın anlamdır.",
+                                        "wrong": {
+                                            "1": "\"Risk\" risk.",
+                                            "2": "\"Information\" bilgi.",
+                                            "3": "\"Competence\" yetkinlik."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "question": "According to paragraph V, Ujjivan Financial Services claims that they wouldn't collect enough investment if----",
+                                    "options": [
+                                        "they weren't a profit-making enterprise",
+                                        "their head office was in India",
+                                        "they employed foreign workers",
+                                        "their enterprise continued to expand"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Son paragrafta yönetici şöyle diyor: 'But we're run as a profit-making enterprise. Otherwise, we wouldn't attract enough capital'. Eğer kar amacı güden bir kuruluş olmasalardı, sermaye çekemezlerdi.",
+                                        "wrong": {
+                                            "1": "Ofisin yeriyle ilgili değil.",
+                                            "2": "Yabancı işçiyle ilgili değil.",
+                                            "3": "Büyümeyle ilgili değil, kar amacı gütme (profit-making) statüsüyle ilgili."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "question": "Which of the following sentences is TRUE according to the text?",
+                                    "options": [
+                                        "Grameen Bank has lent $10 billion since its foundation.",
+                                        "Muhammad Yunus is a director of Ujjivan Financial Services.",
+                                        "Half of all microfinance borrowers are in South Asia.",
+                                        "Today there are 8.1 million microfinance borrowers in South Asia."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde: 'the practice is most highly developed in South Asia, home to half of all current borrowers'. Tüm borç alanların yarısı Güney Asya'dadır.",
+                                        "wrong": {
+                                            "0": "10 milyar dolar Grameen'in verdiği borç değil, son 4 yılda dünya çapında sektöre giren yatırım miktarı.",
+                                            "1": "Yunus Grameen Bank'ın kurucusu, Ujjivan'ın değil.",
+                                            "3": "8.1 milyon sadece Grameen Bank'ın müşteri sayısı, tüm Güney Asya'nın değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "listening": {
+            "parts": []
+        },
+        "writing": {
+            "parts": []
+        }
+    }
+}

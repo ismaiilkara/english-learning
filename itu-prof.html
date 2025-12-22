@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITU PROF Tests - English Learning Hub</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .passage-text {
+            line-height: 1.8;
+        }
+
+        .passage-text .blank {
+            display: inline-block;
+            min-width: 60px;
+            text-align: center;
+            margin: 0 2px;
+            padding: 0 4px;
+            background: rgba(236, 72, 153, 0.1);
+            border-bottom: 2px solid #ec4899;
+            color: #ec4899;
+            font-weight: bold;
+        }
+
+        /* Custom Scrollbar for inner content */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-900 via-slate-800 to-gray-800 min-h-screen text-white overflow-hidden">
+
+    <div x-data="ituProfApp()" x-init="init()" x-cloak class="h-screen flex flex-col">
+
+        <!-- Top Navigation -->
+        <nav class="bg-black/30 backdrop-blur-xl border-b border-white/10 p-3 z-50">
+            <div class="w-full px-6 flex items-center justify-between">
+                <h1 class="text-xl font-bold text-white flex items-center gap-2">
+                    🎓 <span class="bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">English
+                        Learning Hub</span>
+                </h1>
+                <div class="flex gap-4">
+                    <a href="index.html" class="text-sm font-semibold opacity-60 hover:opacity-100 transition-opacity">←
+                        Back to Grammar</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- ITU PROF SECTION -->
+        <div class="flex-1 flex overflow-hidden">
+
+            <!-- Sidebar (Only visible when no test is selected) -->
+            <aside x-show="!selectedTest"
+                class="w-80 bg-black/20 backdrop-blur-xl border-r border-white/10 p-6 flex flex-col z-40">
+                <h2 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+                    🎯 <span>ITU PROF Tests</span>
+                </h2>
+                <nav class="space-y-2 flex-1 overflow-y-auto">
+                    <template x-for="test in ituTests" :key="test.id">
+                        <button @click="selectTest(test)"
+                            class="w-full text-left p-4 rounded-xl border border-white/5 hover:bg-white/5 hover:border-white/10 transition-all duration-200 group">
+                            <h3 class="font-bold text-white group-hover:text-pink-400 transition-colors">
+                                ITU PROF <span x-text="test.title"></span>
+                            </h3>
+                            <p class="text-xs text-white/50 mt-1">Reading & Restatement</p>
+                        </button>
+                    </template>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="flex-1 p-6 overflow-hidden relative w-full bg-grid-white/[0.02]">
+
+                <!-- Background decoration -->
+                <div
+                    class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-pink-500/10 via-transparent to-transparent pointer-events-none">
+                </div>
+
+                <!-- Welcome Screen -->
+                <div x-show="!selectedTest" class="h-full flex flex-col items-center justify-center p-8">
+                    <div class="text-center max-w-2xl">
+                        <div class="inline-flex p-6 rounded-full bg-white/5 mb-8 animate-pulse text-6xl">🎯</div>
+                        <h2 class="text-5xl font-bold text-white mb-6">Master the ITU PROF</h2>
+                        <p class="text-xl text-white/60 leading-relaxed">Select a practice test from the sidebar to
+                            improve your reading comprehension, vocabulary, and grammar skills in an exam-like
+                            environment.</p>
+                    </div>
+                </div>
+
+                <!-- Test Content -->
+                <div x-show="selectedTest" x-transition class="w-full h-full flex flex-col">
+
+                    <!-- Test Header (Compact) -->
+                    <div
+                        class="mb-4 flex items-center justify-between bg-black/40 backdrop-blur-md rounded-xl p-3 border border-white/5 shrink-0 z-10">
+                        <div class="flex items-center gap-4">
+                            <button @click="selectedTest = null"
+                                class="p-2 hover:bg-white/10 rounded-lg text-white/50 hover:text-white transition-colors">
+                                ← Back
+                            </button>
+                            <h2 class="text-xl font-bold text-white flex items-center gap-2">
+                                <span class="text-pink-500">📝</span> <span x-text="selectedTest?.title"></span>
+                            </h2>
+                        </div>
+
+                        <!-- Section Tabs (Compact) -->
+                        <div class="flex gap-1 bg-white/5 p-1 rounded-lg">
+                            <button @click="ituActiveSection = 'reading'"
+                                :class="ituActiveSection === 'reading' ? 'bg-pink-600 text-white shadow-lg' : 'text-white/60 hover:text-white hover:bg-white/5'"
+                                class="px-4 py-1.5 rounded-md font-medium transition-all text-sm">
+                                Reading
+                            </button>
+                            <button @click="ituActiveSection = 'listening'"
+                                :class="ituActiveSection === 'listening' ? 'bg-pink-600 text-white shadow-lg' : 'text-white/60 hover:text-white hover:bg-white/5'"
+                                class="px-4 py-1.5 rounded-md font-medium transition-all text-sm">
+                                Listening
+                            </button>
+                            <button disabled
+                                class="px-4 py-1.5 rounded-md font-medium text-white/20 cursor-not-allowed text-sm">
+                                Writing
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- READING SECTION - Two Column Layout -->
+                    <div x-show="ituActiveSection === 'reading'" class="flex-1 flex flex-col overflow-hidden">
+
+                        <!-- Top Bar: Progress + Question Navigation Boxes -->
+                        <div class="px-6 py-3 bg-black/20 border-b border-white/10 shrink-0">
+                            <div class="flex items-center justify-between mb-3">
+                                <div class="flex items-center gap-3">
+                                    <span class="text-white/50 text-sm">Question</span>
+                                    <span class="text-white font-bold text-lg" x-text="currentQuestionIndex + 1"></span>
+                                    <span class="text-white/50 text-sm">of <span
+                                            x-text="getTotalQuestions()"></span></span>
+                                </div>
+                                <div
+                                    class="inline-flex items-center gap-2 bg-pink-500/20 text-pink-400 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                                    <span x-text="getCurrentSectionName()"></span>
+                                </div>
+                            </div>
+
+                            <!-- Question Jump Boxes -->
+                            <div class="flex flex-wrap gap-1">
+                                <template x-for="(q, idx) in allQuestions" :key="idx">
+                                    <button @click="currentQuestionIndex = idx" :class="{
+                                            'bg-pink-500 text-white': idx === currentQuestionIndex,
+                                            'bg-green-500/50 text-white': testSubmitted && allAnswers[idx] === q.answer && idx !== currentQuestionIndex,
+                                            'bg-red-500/50 text-white': testSubmitted && allAnswers[idx] !== undefined && allAnswers[idx] !== q.answer && idx !== currentQuestionIndex,
+                                            'bg-blue-500/30 text-blue-300': !testSubmitted && allAnswers[idx] !== undefined && idx !== currentQuestionIndex,
+                                            'bg-white/10 text-white/50 hover:bg-white/20': !testSubmitted && allAnswers[idx] === undefined && idx !== currentQuestionIndex
+                                        }" class="w-8 h-8 rounded text-xs font-bold transition-all" x-text="idx + 1">
+                                    </button>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Score Banner (shown after submission) -->
+                        <div x-show="testSubmitted"
+                            class="px-6 py-3 bg-gradient-to-r from-green-500/20 to-emerald-500/20 border-b border-green-500/30 shrink-0">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <span class="text-2xl">🎉</span>
+                                    <p class="text-white font-bold">Test Completed!</p>
+                                </div>
+                                <p class="text-2xl font-bold text-white"><span x-text="totalScore"></span>/<span
+                                        x-text="getTotalQuestions()"></span></p>
+                            </div>
+                        </div>
+
+                        <!-- Two Column Content -->
+                        <div class="flex-1 grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden">
+
+                            <!-- LEFT: Passage/Statement -->
+                            <div class="bg-white/5 border-r border-white/10 overflow-y-auto custom-scrollbar p-6">
+
+                                <!-- Cloze Passage -->
+                                <div x-show="getCurrentSection() === 'cloze'">
+                                    <h3 class="text-lg font-bold text-pink-400 mb-4">📖 Cloze Passage</h3>
+                                    <div class="text-white/90 leading-loose text-base" x-html="formatClozeText()"></div>
+                                </div>
+
+                                <!-- Restatement Statement -->
+                                <div x-show="getCurrentSection() === 'restatement'">
+                                    <h3 class="text-lg font-bold text-blue-400 mb-4">🔄 Original Statement</h3>
+                                    <div class="bg-blue-500/10 border border-blue-500/30 rounded-xl p-6">
+                                        <p class="text-white text-xl leading-relaxed"
+                                            x-text="getCurrentQuestion()?.statement"></p>
+                                    </div>
+                                </div>
+
+                                <!-- Reading Passage -->
+                                <div x-show="getCurrentSection() === 'reading'">
+                                    <h3 class="text-lg font-bold text-pink-400 mb-4"
+                                        x-text="getCurrentReadingText()?.title"></h3>
+                                    <template x-for="(para, idx) in getCurrentReadingText()?.paragraphs" :key="idx">
+                                        <p class="text-white/90 leading-loose text-base mb-4 text-justify"
+                                            x-text="para"></p>
+                                    </template>
+                                </div>
+                            </div>
+
+                            <!-- RIGHT: Question & Options -->
+                            <div class="overflow-y-auto custom-scrollbar p-6 flex flex-col">
+
+                                <!-- Question -->
+                                <div class="mb-6">
+                                    <p class="text-blue-400 text-xs uppercase font-bold tracking-wider mb-3">
+                                        <span x-show="getCurrentSection() === 'cloze'">Gap <span
+                                                x-text="getCurrentQuestion()?.id"></span></span>
+                                        <span x-show="getCurrentSection() === 'restatement'">Choose the best
+                                            restatement</span>
+                                        <span x-show="getCurrentSection() === 'reading'"
+                                            x-text="getCurrentQuestion()?.question"></span>
+                                    </p>
+                                    <p x-show="getCurrentSection() !== 'reading'" class="text-white text-lg font-medium"
+                                        x-text="getCurrentSection() === 'restatement' ? 'Select the option that best restates the statement.' : 'Select the correct answer for this gap.'">
+                                    </p>
+                                </div>
+
+                                <!-- Options -->
+                                <div class="space-y-3 flex-1">
+                                    <template x-for="(opt, idx) in getCurrentQuestion()?.options" :key="idx">
+                                        <button @click="selectAnswer(idx)" :disabled="testSubmitted" :class="{
+                                                'bg-green-500/20 border-green-500': testSubmitted && idx === getCurrentQuestion()?.answer,
+                                                'bg-red-500/20 border-red-500': testSubmitted && allAnswers[currentQuestionIndex] === idx && idx !== getCurrentQuestion()?.answer,
+                                                'opacity-50': testSubmitted && idx !== getCurrentQuestion()?.answer && allAnswers[currentQuestionIndex] !== idx,
+                                                'bg-pink-600 border-pink-500': !testSubmitted && allAnswers[currentQuestionIndex] === idx,
+                                                'bg-white/5 hover:bg-white/10 border-white/10': !testSubmitted && allAnswers[currentQuestionIndex] !== idx
+                                            }" class="w-full text-left p-4 rounded-xl border-2 transition-all">
+                                            <div class="flex items-start gap-4">
+                                                <div class="w-8 h-8 rounded-lg flex items-center justify-center font-bold shrink-0"
+                                                    :class="{
+                                                        'bg-green-500 text-white': testSubmitted && idx === getCurrentQuestion()?.answer,
+                                                        'bg-red-500 text-white': testSubmitted && allAnswers[currentQuestionIndex] === idx && idx !== getCurrentQuestion()?.answer,
+                                                        'bg-white text-pink-600': !testSubmitted && allAnswers[currentQuestionIndex] === idx,
+                                                        'bg-white/10 text-white/50': !testSubmitted && allAnswers[currentQuestionIndex] !== idx
+                                                    }">
+                                                    <span x-text="['A', 'B', 'C', 'D'][idx]"></span>
+                                                </div>
+                                                <span class="text-white flex-1" x-text="opt"></span>
+                                            </div>
+                                        </button>
+                                    </template>
+                                </div>
+
+                                <!-- Explanation (after submit) -->
+                                <div x-show="testSubmitted && getCurrentQuestion()?.explanation"
+                                    class="mt-4 bg-blue-500/10 border border-blue-500/20 rounded-xl p-4">
+                                    <p class="text-blue-400 font-bold text-sm mb-2">📚 Explanation</p>
+                                    <p class="text-white/80 text-sm"
+                                        x-text="getCurrentQuestion()?.explanation?.correct"></p>
+                                </div>
+
+                                <!-- Navigation -->
+                                <div
+                                    class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center shrink-0">
+                                    <button @click="prevQuestion()" :disabled="currentQuestionIndex === 0"
+                                        class="px-5 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-medium disabled:opacity-30 disabled:cursor-not-allowed transition-all text-sm">
+                                        ← Prev
+                                    </button>
+
+                                    <button x-show="!testSubmitted && currentQuestionIndex < getTotalQuestions() - 1"
+                                        @click="nextQuestion()"
+                                        class="px-6 py-2 rounded-lg bg-white hover:bg-gray-200 text-black font-bold transition-all text-sm">
+                                        Next →
+                                    </button>
+                                    <button x-show="!testSubmitted && currentQuestionIndex >= getTotalQuestions() - 1"
+                                        @click="submitTest()"
+                                        class="px-6 py-2 rounded-lg bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold transition-all text-sm">
+                                        Submit ✓
+                                    </button>
+                                    <button x-show="testSubmitted" @click="nextQuestion()"
+                                        :disabled="currentQuestionIndex >= getTotalQuestions() - 1"
+                                        class="px-6 py-2 rounded-lg bg-white/10 hover:bg-white/20 text-white font-bold disabled:opacity-30 disabled:cursor-not-allowed transition-all text-sm">
+                                        Next →
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div x-show="ituActiveSection === 'listening'" class="flex-1 flex flex-col overflow-hidden">
+                        <div class="flex-1 overflow-y-auto custom-scrollbar p-8">
+                            <div class="max-w-2xl mx-auto">
+
+                                <!-- No Listening Available -->
+                                <div x-show="!selectedTest?.listeningVideoId" class="text-center py-16">
+                                    <div class="text-6xl mb-6">🔇</div>
+                                    <h3 class="text-2xl font-bold text-white mb-4">No Listening Available</h3>
+                                    <p class="text-white/60">This test doesn't have a listening section yet.</p>
+                                </div>
+
+                                <!-- Audio Player -->
+                                <div x-show="selectedTest?.listeningVideoId"
+                                    class="bg-gradient-to-br from-purple-900/50 to-pink-900/50 backdrop-blur-xl rounded-2xl p-8 border border-white/10 shadow-2xl"
+                                    x-init="$watch('ituActiveSection', value => { if (value === 'listening' && selectedTest?.listeningVideoId) initListeningPlayer(); })">
+
+                                    <!-- Title -->
+                                    <div class="text-center mb-8">
+                                        <span
+                                            class="text-xs font-bold text-pink-400 uppercase tracking-wider mb-2 block">
+                                            <span x-text="selectedTest?.title"></span> - Listening
+                                        </span>
+                                        <h4 class="text-3xl font-bold text-white" x-text="selectedTest?.listeningTitle">
+                                        </h4>
+                                    </div>
+
+                                    <!-- Audio Visualization -->
+                                    <div class="flex justify-center items-center gap-1 h-16 mb-8">
+                                        <template x-for="i in 20" :key="i">
+                                            <div class="w-1.5 bg-gradient-to-t from-pink-500 to-purple-400 rounded-full transition-all duration-150"
+                                                :style="`height: ${listeningPlaying ? (Math.random() * 50 + 10) : 8}px; opacity: ${listeningPlaying ? 1 : 0.3}`">
+                                            </div>
+                                        </template>
+                                    </div>
+
+                                    <!-- Progress Bar -->
+                                    <div class="mb-6">
+                                        <div class="bg-white/10 rounded-full h-2 overflow-hidden cursor-pointer relative"
+                                            @click="seekListening($event)">
+                                            <div class="bg-gradient-to-r from-pink-500 to-purple-500 h-full transition-all duration-300"
+                                                :style="`width: ${listeningProgress}%`"></div>
+                                        </div>
+                                        <div class="flex justify-between text-xs text-white/50 mt-2">
+                                            <span x-text="formatTime(listeningCurrentTime)"></span>
+                                            <span x-text="formatTime(listeningDuration)"></span>
+                                        </div>
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <div class="flex justify-center items-center gap-6">
+                                        <!-- Rewind 10s -->
+                                        <button @click="seekRelative(-10)"
+                                            class="p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all hover:scale-105"
+                                            title="Rewind 10 seconds">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z" />
+                                            </svg>
+                                        </button>
+
+                                        <!-- Play/Pause -->
+                                        <button @click="toggleListening()"
+                                            class="p-6 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-400 hover:to-purple-400 text-white transition-all shadow-lg shadow-pink-500/30 hover:scale-105 active:scale-95">
+                                            <svg x-show="!listeningPlaying" class="w-10 h-10" fill="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                            <svg x-show="listeningPlaying" class="w-10 h-10" fill="currentColor"
+                                                viewBox="0 0 24 24">
+                                                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+                                            </svg>
+                                        </button>
+
+                                        <!-- Forward 10s -->
+                                        <button @click="seekRelative(10)"
+                                            class="p-3 rounded-full bg-white/10 hover:bg-white/20 text-white transition-all hover:scale-105"
+                                            title="Forward 10 seconds">
+                                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                    d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                    <!-- Hidden YouTube Player -->
+                                    <div id="youtube-player" class="hidden"></div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+            </main>
+        </div>
+    </div>
+
+    <script>
+        function ituProfApp() {
+            return {
+                // ITU PROF state
+                ituTests: [],
+                ituData: null,
+                selectedTest: null,
+                ituActiveSection: 'reading',
+
+                // Listening state
+                listeningPlaying: false,
+                listeningProgress: 0,
+                listeningCurrentTime: 0,
+                listeningDuration: 0,
+                ytPlayer: null,
+                listeningInterval: null,
+
+                // Unified Test State (Sequential Flow)
+                currentQuestionIndex: 0,
+                allAnswers: {},
+                testSubmitted: false,
+                totalScore: 0,
+                allQuestions: [],
+
+                async init() {
+                    const response = await fetch('itu-prof-data.json');
+                    const data = await response.json();
+                    this.ituTests = data.tests;
+
+                    // Load YouTube IFrame API
+                    if (!window.YT) {
+                        const tag = document.createElement('script');
+                        tag.src = 'https://www.youtube.com/iframe_api';
+                        document.head.appendChild(tag);
+                    }
+                },
+
+                async selectTest(test) {
+                    const response = await fetch(test.file);
+                    const testData = await response.json();
+                    // Add listening info from the test entry
+                    testData.listeningTitle = test.listeningTitle;
+                    testData.listeningVideoId = test.listeningVideoId;
+                    this.selectedTest = testData;
+                    this.ituActiveSection = 'reading';
+                    this.resetTest();
+                    this.resetListeningState();
+                },
+
+                initListeningPlayer() {
+                    if (!this.selectedTest?.listeningVideoId) return;
+
+                    const initPlayer = () => {
+                        if (this.ytPlayer) {
+                            this.ytPlayer.destroy();
+                        }
+                        this.ytPlayer = new YT.Player('youtube-player', {
+                            height: '0',
+                            width: '0',
+                            videoId: this.selectedTest.listeningVideoId,
+                            playerVars: {
+                                'autoplay': 0,
+                                'controls': 0,
+                                'disablekb': 1,
+                                'fs': 0,
+                                'modestbranding': 1,
+                                'playsinline': 1
+                            },
+                            events: {
+                                'onReady': (event) => {
+                                    this.listeningDuration = event.target.getDuration();
+                                },
+                                'onStateChange': (event) => {
+                                    if (event.data === YT.PlayerState.PLAYING) {
+                                        this.listeningPlaying = true;
+                                        this.startProgressUpdate();
+                                    } else if (event.data === YT.PlayerState.PAUSED) {
+                                        this.listeningPlaying = false;
+                                        this.stopProgressUpdate();
+                                    } else if (event.data === YT.PlayerState.ENDED) {
+                                        this.listeningPlaying = false;
+                                        this.listeningProgress = 100;
+                                        this.stopProgressUpdate();
+                                    }
+                                }
+                            }
+                        });
+                    };
+
+                    if (window.YT && window.YT.Player) {
+                        initPlayer();
+                    } else {
+                        window.onYouTubeIframeAPIReady = initPlayer;
+                    }
+                },
+
+                resetListeningState() {
+                    this.listeningPlaying = false;
+                    this.listeningProgress = 0;
+                    this.listeningCurrentTime = 0;
+                    this.listeningDuration = 0;
+                    if (this.ytPlayer) {
+                        this.ytPlayer.destroy();
+                        this.ytPlayer = null;
+                    }
+                },
+
+
+                // Build all questions array for sequential flow
+                buildAllQuestions() {
+                    const questions = [];
+                    const parts = this.selectedTest?.sections?.reading?.parts || [];
+
+                    // 1. Cloze questions
+                    const cloze = parts.find(p => p.type === 'cloze');
+                    if (cloze?.questions) {
+                        cloze.questions.forEach(q => {
+                            questions.push({ ...q, section: 'cloze', passage: cloze.passage });
+                        });
+                    }
+
+                    // 2. Restatement questions
+                    const restatement = parts.find(p => p.type === 'restatement');
+                    if (restatement?.questions) {
+                        restatement.questions.forEach(q => {
+                            questions.push({ ...q, section: 'restatement' });
+                        });
+                    }
+
+                    // 3. Reading questions (also handle 'reading_comprehension' type for tests 5-8)
+                    const readingParts = parts.filter(p => p.type === 'reading' || p.type === 'reading_comprehension');
+                    readingParts.forEach(part => {
+                        // Handle 'texts' array structure (test 2, 3, 4, 5, 7, 24, 25)
+                        if (part.texts && Array.isArray(part.texts)) {
+                            part.texts.forEach(text => {
+                                const paragraphs = text.paragraphs || (text.text ? text.text.split(/\n\n+/).filter(p => p.trim()) : []);
+                                if (text.questions) {
+                                    text.questions.forEach(q => {
+                                        questions.push({ ...q, section: 'reading', textTitle: text.title, paragraphs });
+                                    });
+                                }
+                            });
+                        }
+                        // Handle direct structure (other tests)
+                        else if (part.questions) {
+                            const paragraphs = part.paragraphs || (part.text ? part.text.split(/\n\n+/).filter(p => p.trim()) : []);
+                            part.questions.forEach(q => {
+                                questions.push({ ...q, section: 'reading', textTitle: part.title, paragraphs });
+                            });
+                        }
+                    });
+
+                    return questions;
+                },
+
+                resetTest() {
+                    this.allQuestions = this.buildAllQuestions();
+                    this.currentQuestionIndex = 0;
+                    this.allAnswers = {};
+                    this.testSubmitted = false;
+                    this.totalScore = 0;
+                },
+
+                getTotalQuestions() {
+                    return this.allQuestions.length;
+                },
+
+                getCurrentQuestion() {
+                    return this.allQuestions[this.currentQuestionIndex];
+                },
+
+                getCurrentSection() {
+                    return this.getCurrentQuestion()?.section;
+                },
+
+                getCurrentSectionName() {
+                    const section = this.getCurrentSection();
+                    if (section === 'cloze') return '📝 Cloze Test';
+                    if (section === 'restatement') return '🔄 Restatement';
+                    if (section === 'reading') return '📖 Reading';
+                    return '';
+                },
+
+                getCurrentReadingText() {
+                    const q = this.getCurrentQuestion();
+                    if (q?.section !== 'reading') return null;
+                    return { title: q.textTitle, paragraphs: q.paragraphs };
+                },
+
+                getClozeData() {
+                    return this.selectedTest?.sections?.reading?.parts?.find(p => p.type === 'cloze');
+                },
+
+                formatClozeText() {
+                    const cloze = this.getClozeData();
+                    if (!cloze?.passage?.text) return '';
+                    let text = cloze.passage.text;
+                    for (let i = 1; i <= 10; i++) {
+                        const globalIdx = this.allQuestions.findIndex(q => q.section === 'cloze' && q.id === i);
+                        const answer = this.allAnswers[globalIdx];
+                        const qData = cloze.questions.find(q => q.id === i);
+                        const displayText = answer !== undefined && qData ? qData.options[answer] : `(${i})`;
+                        text = text.replace(`(${i})_____`, `<span class="blank">${displayText}</span>`);
+                    }
+                    return text;
+                },
+
+                selectAnswer(idx) {
+                    if (this.testSubmitted) return;
+                    this.allAnswers[this.currentQuestionIndex] = idx;
+                },
+
+                nextQuestion() {
+                    if (this.currentQuestionIndex < this.allQuestions.length - 1) {
+                        this.currentQuestionIndex++;
+                    }
+                },
+
+                prevQuestion() {
+                    if (this.currentQuestionIndex > 0) {
+                        this.currentQuestionIndex--;
+                    }
+                },
+
+                submitTest() {
+                    this.testSubmitted = true;
+                    this.totalScore = this.allQuestions.filter((q, idx) =>
+                        this.allAnswers[idx] === q.answer
+                    ).length;
+                },
+
+                // Listening methods
+                toggleListening() {
+                    if (!this.ytPlayer) {
+                        this.initListeningPlayer();
+                        return;
+                    }
+                    if (this.listeningPlaying) {
+                        this.ytPlayer.pauseVideo();
+                    } else {
+                        this.ytPlayer.playVideo();
+                    }
+                },
+
+
+                seekListening(event) {
+                    if (!this.ytPlayer || !this.listeningDuration) return;
+                    const rect = event.target.getBoundingClientRect();
+                    const x = event.clientX - rect.left;
+                    const percentage = x / rect.width;
+                    const seekTime = percentage * this.listeningDuration;
+                    this.ytPlayer.seekTo(seekTime, true);
+                },
+
+                seekRelative(seconds) {
+                    if (!this.ytPlayer) return;
+                    const currentTime = this.ytPlayer.getCurrentTime();
+                    this.ytPlayer.seekTo(currentTime + seconds, true);
+                },
+
+                startProgressUpdate() {
+                    this.stopProgressUpdate();
+                    this.listeningInterval = setInterval(() => {
+                        if (this.ytPlayer && this.listeningDuration > 0) {
+                            this.listeningCurrentTime = this.ytPlayer.getCurrentTime();
+                            this.listeningProgress = (this.listeningCurrentTime / this.listeningDuration) * 100;
+                        }
+                    }, 500);
+                },
+
+                stopProgressUpdate() {
+                    if (this.listeningInterval) {
+                        clearInterval(this.listeningInterval);
+                        this.listeningInterval = null;
+                    }
+                },
+
+                formatTime(seconds) {
+                    if (!seconds || isNaN(seconds)) return '0:00';
+                    const mins = Math.floor(seconds / 60);
+                    const secs = Math.floor(seconds % 60);
+                    return `${mins}:${secs.toString().padStart(2, '0')}`;
+                },
+
+                resetReadingText() {
+                    this.readingQuestionIndex = 0;
+                    this.readingAnswers = {};
+                    this.readingScore = 0;
+                    this.readingShowScore = false;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,840 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Marie Curie's Legacy",
+                    "passage": {
+                        "title": "Marie Curie's Legacy",
+                        "text": "Marie Curie was a pioneer in the field of radioactivity and the first person (1)_____ two Nobel Prizes in different scientific fields. Born in Warsaw, Poland, she moved to Paris (2)_____ her studies because women were not permitted to attend university in her home country. There, she met Pierre Curie, (3)_____ became both her husband and scientific partner. Together, they discovered two new elements: polonium and radium. Her dedication to science was so intense that she often (4)_____ to eat or sleep. (5)_____, her constant exposure to radiation eventually took a toll on her health. She died in 1934 from a condition (6)_____ by her long-term contact with radioactive materials. Even today, her laboratory notebooks are (7)_____ radioactive that they must be kept in lead-lined boxes. Marie Curie's life serves as a powerful reminder (8)_____ perseverance and passion can change the world. She opened the door for women in science (9)_____ proved that intellect knows (10)_____ gender."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "winning",
+                                "to win",
+                                "who wins",
+                                "won"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"to win\" (kazanan) doğru. İngilizcede 'the first person' (ilk kişi) gibi sıralama ifadelerinden sonra gelen eylem 'to' ile bağlanır.",
+                                "wrong": {
+                                    "0": "\"winning\" bu kalıpta kullanılmaz.",
+                                    "2": "\"who wins\" şimdiki zaman (geniş zaman) olduğu için geçmişte yaşamış biri için uymaz.",
+                                    "3": "\"won\" ana fiil gibi duruyor ama cümlede zaten 'was' var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "for pursuing",
+                                "pursue",
+                                "to pursue",
+                                "by pursuing"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"to pursue\" (sürdürmek için) doğru. Bir eylemin amacını belirtmek için 'to + fiil' yapısı kullanılır. Paris'e okumak İÇİN gitti.",
+                                "wrong": {
+                                    "0": "\"for pursuing\" genellikle nesnelerin kullanım amacı için kullanılır, insanların amaçları için değil.",
+                                    "1": "\"pursue\" yalın halde buraya uymaz.",
+                                    "3": "\"by pursuing\" (sürdürerek) anlamı katar, cümle bozuk olur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "who",
+                                "which",
+                                "whose",
+                                "whom"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"who\" doğru. Pierre Curie bir insan olduğu için ve virgülden sonraki cümlenin öznesi (o oldu...) olduğu için 'who' kullanılır.",
+                                "wrong": {
+                                    "1": "\"which\" nesneler içindir.",
+                                    "2": "\"whose\" sahiplik bildirir (onun ...-sı).",
+                                    "3": "\"whom\" nesne durumundadır (kimi/kime)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "forgot",
+                                "forgets",
+                                "has forgotten",
+                                "was forgetting"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"forgot\" (unuttu) doğru. Hikaye geçmişte geçtiği için Past Simple tense kullanılır.",
+                                "wrong": {
+                                    "1": "\"forgets\" geniş zamandır, geçmiş olayda kullanılmaz.",
+                                    "2": "\"has forgotten\" etkisi hala süren olaylar içindir, Curie vefat etti.",
+                                    "3": "\"was forgetting\" süregelen bir eylem anlatır, burada genel bir durum var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "Therefore",
+                                "Additionally",
+                                "Unfortunately",
+                                "For instance"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Unfortunately\" (Maalesef) doğru. Çok çalışması iyi bir şeydi ama sağlığının bozulması kötü bir sonuç, bu yüzden üzücü bir geçiş kelimesi gerekir.",
+                                "wrong": {
+                                    "0": "\"Therefore\" sebep-sonuç belirtir ama çok çalışmak doğrudan hasta etmez, radyasyon eder.",
+                                    "1": "\"Additionally\" sadece ek bilgi verir, duygu katmaz.",
+                                    "3": "\"For instance\" örnek verir, burada sonuç anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "causing",
+                                "caused",
+                                "which caused",
+                                "to cause"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"caused\" (sebep olunan) doğru. 'A condition caused by...' yani radyasyon TARAFINDAN sebep olunan bir hastalık (Passive yapı).",
+                                "wrong": {
+                                    "0": "\"causing\" etken yapıdır, hastalık bir şeye sebep olmuyor.",
+                                    "2": "\"which caused\" olsaydı devamında nesne gelmeliydi.",
+                                    "3": "\"to cause\" amaç bildirir, anlamsız olur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "very",
+                                "too",
+                                "such",
+                                "so"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"so\" doğru. 'So radioactive that...' (O kadar radyoaktif ki...) kalıbı vardır. Sıfatla beraber 'so...that' kullanılır.",
+                                "wrong": {
+                                    "0": "\"very\"den sonra 'that' gelmez.",
+                                    "1": "\"too\"dan sonra 'to' gelir (too hot to touch).",
+                                    "2": "\"such\" bir isim tamlaması gerektirir (such a book)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "which",
+                                "that",
+                                "what",
+                                "where"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"that\" doğru. 'A reminder that...' (... olduğuna dair bir hatırlatma). Burada hatırlatmanın içeriğini açıklıyoruz.",
+                                "wrong": {
+                                    "0": "\"which\" nesneyi tanımlar, burada soyut bir açıklama var.",
+                                    "2": "\"what\" cümle ortasında 'şey' demektir.",
+                                    "3": "\"where\" yer bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "but",
+                                "or",
+                                "and",
+                                "so"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"and\" (ve) doğru. İki başarıyı birbirine bağlıyor: Kapıyı açtı VE kanıtladı.",
+                                "wrong": {
+                                    "0": "\"but\" zıtlık bildirir.",
+                                    "1": "\"or\" seçenek bildirir.",
+                                    "3": "\"so\" sonuç bildirir ama burada sıralama var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "no",
+                                "not",
+                                "any",
+                                "none"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"no\" doğru. 'Knows no gender' (hiçbir cinsiyet tanımaz). İsimden önce olumsuzluk katmak için 'no' kullanılır.",
+                                "wrong": {
+                                    "1": "\"not\" fiili olumsuz yapar (does not know).",
+                                    "2": "\"any\" olumsuz cümlede kullanılır (doesn't know any).",
+                                    "3": "\"none\" zamirdir, tek başına kullanılır (None of them)."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "The reduction in nutritional value of our diet over the last 70 years is the major cause of the notable rise of many diseases.",
+                            "options": [
+                                "There are a lot more cases of many diseases despite the nutritional foods that have come out in the last 70 years.",
+                                "Primarily as a result of less nutritious diets during the last 70 years, many diseases have greatly increased in number.",
+                                "People have been eating foods with fewer vitamins and minerals for the past 70 years, which is why many diseases have not been wiped out.",
+                                "70 years ago it was easy to find nutritious food, but now it is difficult to do so, and this has been the main factor for the large increase in various diseases."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümledeki 'reduction in nutritional value' (besin değerindeki düşüş) = 'less nutritious diets', 'major cause' (ana sebep) = 'Primarily as a result of', 'rise of many diseases' = 'increased in number'.",
+                                "wrong": {
+                                    "0": "A şıkkı 'besleyici gıdalara RAĞMEN' diyor, anlam ters.",
+                                    "2": "C şıkkı hastalıkların 'yok edilemediğinden' bahsediyor, artıştan değil.",
+                                    "3": "D şıkkı gıda 'bulmanın zorluğundan' bahsediyor, orijinalde kaliteden bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Over the last 70 years there has been a decrease in calorie intake among children, yet they are getting fatter due to not exercising like children used to.",
+                            "options": [
+                                "Having fewer calories in their diets has made today’s kids inactive, so they are much heavier than the children of 70 years ago.",
+                                "Despite taking in fewer calories than the children of 70 years ago, today’s kids continue to become heavier as they are less active.",
+                                "Unlike the kids who lived 70 years ago, the children of today prefer unhealthy foods and refuse to exercise, so they are gaining too much weight.",
+                                "In the last 70 years, obesity has become a huge problem for children since they have gotten used to fattening foods and little exercise."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. 'Decrease in calorie intake' = 'taking in fewer calories', 'yet' = 'Despite', 'not exercising' = 'less active'.",
+                                "wrong": {
+                                    "0": "A şıkkı az kalorinin çocukları hareketsiz yaptığını iddia ediyor, bu yanlış.",
+                                    "2": "C şıkkı çocukların egzersizi reddettiğini söylüyor, orijinalde sadece yapmadıkları yazıyor.",
+                                    "3": "D şıkkı çocukların şişmanlatan yiyeceklere alıştığını söylüyor, orijinalde kalori alımının düştüğü yazıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Although eating habits are established during early childhood, it is never too late to change them.",
+                            "options": [
+                                "Changing eating routines, even ones begun at a very young age, is possible later in life.",
+                                "The earlier children start eating healthily, the more likely they are to enjoy good health as adults.",
+                                "If children are not taught how to eat appropriately, eating well will be a struggle throughout their lives.",
+                                "The way people eat is shaped before they are conscious of it, which means modifying such habits is always extremely difficult."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'Established during early childhood' = 'begun at a very young age', 'never too late to change' = 'possible later in life'.",
+                                "wrong": {
+                                    "1": "B şıkkı sağlıklı olmaktan bahsediyor, konu alışkanlık değişimi.",
+                                    "2": "C şıkkı bunun bir mücadele olacağını söylüyor, değişimin mümkün olduğunu değil.",
+                                    "3": "D şıkkı değişimin çok zor olduğunu söylüyor, orijinalde 'asla geç değil' deniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "The huge marketing industry encourages everyone to eat more since this generates profits for food manufacturers.",
+                            "options": [
+                                "Getting people to consume more food results in more money for food companies, so these companies advertise extensively.",
+                                "Manufacturers introduce their foods through major ad campaigns, but this increases food costs and may result in overeating.",
+                                "Food makers focus on getting people to purchase more of their products and increasing profits rather than producing quality products.",
+                                "The better advertisements that food producers make, the more customers buy their products, but spending lots of money on ads affects their profits."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'Generates profits' = 'results in more money', 'encourages everyone to eat more' = 'getting people to consume more food'.",
+                                "wrong": {
+                                    "1": "B şıkkı maliyetlerin artmasından bahsediyor.",
+                                    "2": "C şıkkı kalite kıyaslaması yapıyor.",
+                                    "3": "D şıkkı reklam harcamasının kârı etkilediğini (olumsuz) ima ediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Every major health association strongly supports a move to a more plant-based and less meat-based diet in order to minimize heart disease and cancer.",
+                            "options": [
+                                "All well-known health groups emphasize that a diet including both plants and meat is critical to reduce heart disease and cancer.",
+                                "Each health organization is hotly debating whether less meat and more plants in our diets would decrease heart disease and cancer.",
+                                "Respected medical organizations claim meat must be eliminated from our diets if we hope to have fewer cases of heart disease and cancer.",
+                                "The rate of heart disease and cancer can definitely be lowered by getting people to eat more plants and less meat, according to all leading health organizations."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. 'Every major health association' = 'all leading health organizations', 'supports a move to... less meat' = 'getting people to eat... less meat'.",
+                                "wrong": {
+                                    "0": "A şıkkı hem bitki hem et diyor, orijinalde 'daha az et' var.",
+                                    "1": "B şıkkı tartışıyorlar (debating) diyor, orijinalde destekliyorlar.",
+                                    "2": "C şıkkı etin tamamen çıkarılmasından (eliminated) bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Some cities in Italy have launched the Cittaslow movement to encourage leisurely transportation alternatives such as bikes and pedestrian zones and to promote local foods.",
+                            "options": [
+                                "Initiated by some Italian cities, the Cittaslow movement aims to develop more relaxed forms of transport like walking and biking as well as to support eating local dishes.",
+                                "Through the Cittaslow movement they started, some Italian cities have benefited from an improved public transportation system, more comfortable sidewalks and greater food choices.",
+                                "Advertising slower transportation choices like going on foot or by bike and increasing the consumption of local foods has brought about the Cittaslow movement, which was begun by various Italian cities.",
+                                "The Cittaslow movement, which started in a few Italian cities, has spread to other cities that are improving slower transportation options like biking and walking and gaining an appreciation for local dishes."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'Launched' = 'Initiated', 'leisurely transportation' = 'relaxed forms of transport', 'promote local foods' = 'support eating local dishes'.",
+                                "wrong": {
+                                    "1": "B şıkkı şehirlerin fayda sağladığını söylüyor.",
+                                    "2": "C şıkkı reklam yapmanın hareketi başlattığını söylüyor, ters.",
+                                    "3": "D şıkkı hareketin yayıldığını söylüyor, orijinalde yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "The biggest problem for a struggling community is the hopelessness that grows as people lose faith that anything can change.",
+                            "options": [
+                                "If a community does not cooperate in a time of trouble, there is no hope that it will overcome its difficulties.",
+                                "A community would not face difficult problems if the people living there had more self-confidence.",
+                                "Nothing can get better in a struggling community unless its people realize how great a disaster it is facing.",
+                                "The greatest barrier for a community experiencing difficulty is that its people give up the belief that things could improve."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. 'Biggest problem' = 'greatest barrier', 'lose faith that anything can change' = 'give up the belief that things could improve'.",
+                                "wrong": {
+                                    "0": "A şıkkı işbirliğinden bahsediyor.",
+                                    "1": "B şıkkı özgüven (self-confidence) olursa sorun olmaz diyor.",
+                                    "2": "C şıkkı felaketin büyüklüğünü fark etmekten bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Dudley Street in Boston’s poor Roxbury District seemed like an unlikely candidate to become a symbol for urban renewal.",
+                            "options": [
+                                "There were many streets in Boston that would be better to renovate than run-down Dudley Street in the Roxbury District.",
+                                "It was not reasonable for cities like Boston to spend so much money on poor neighborhoods such as Dudley Street in the Roxbury District.",
+                                "Few people thought that Dudley Street, located in the poor Roxbury District in Boston, would end up being an example of successful city renewal.",
+                                "The Roxbury District in Boston is one of the poorest in the city, so it was expected that the city would attempt a restoration project in that neighborhood on Dudley Street."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. 'Unlikely candidate' (olası görünmeyen aday) = 'Few people thought that... would end up' (Az kişi ... olacağını düşündü).",
+                                "wrong": {
+                                    "0": "A şıkkı daha iyi caddeler olduğunu söylüyor.",
+                                    "1": "B şıkkı para harcamanın mantıksız olduğunu söylüyor.",
+                                    "3": "D şıkkı bunun beklendiğini (expected) söylüyor, tam tersi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "A carbon water filter can remove dangerous contaminants from drinking water while retaining healthy mineral deposits.",
+                            "options": [
+                                "Hazardous pollutants can be taken out of water using a carbon filter, but healthy mineral deposits are also lost.",
+                                "Mineral deposits that the body needs as well as harmful substances are eliminated by a carbon water filter.",
+                                "Carbon is unique among water filtering materials in that it does not filter out beneficial mineral deposits but stops unhealthy ones.",
+                                "A carbon water filter is able to get rid of harmful water pollutants yet let mineral deposits which are useful to the body pass through."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. 'Remove dangerous contaminants' = 'get rid of harmful water pollutants', 'retaining healthy mineral deposits' = 'let mineral deposits... pass through'.",
+                                "wrong": {
+                                    "0": "A şıkkı minerallerin de kaybolduğunu söylüyor.",
+                                    "1": "B şıkkı minerallerin de yok edildiğini söylüyor.",
+                                    "2": "C şıkkı karbonun 'benzersiz' (unique) olduğunu iddia ediyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 1: Let Kids Be Free Online",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Let Kids Be Free Online",
+                            "paragraphs": [
+                                "Today’s teens are desperate to find a space of their own, and they need a place to attempt new things and make mistakes. In the past, teenagers spent more time using bicycles, roller skates and skateboards, which are actually quite dangerous. I still have scars on my knees from the accidents that occurred while I was using them. Parks can also be dangerous; I broke my left arm falling off a swing. Still, I am glad that my parents did not keep me trapped at home so that they could protect me from every injury. The German philosopher Friedrich Nietzsche said, “Things which do not kill us make us stronger,” but most parents cannot handle it when teenagers put this philosophy into practice. Today, social media has become the new field for the continuing feud between restrictive parents and their freedom-loving kids.",
+                                "Spending more time indoors and less time hanging out with their friends than teens of a generation ago, today’s teens have turned to social media and their mobile phones to gossip, flirt and socialize with their peers. What they do online often mirrors what they would otherwise do if they had more time for face-to-face socializing. Social media and smartphone apps have become so popular in recent years because teens need a place to call their own. They want the freedom to explore their identity and the world around them. Instead of sneaking out of upstairs windows late at night like kids used to do, they jump online. As teens spend more time online, parents become more and more fearful of the Internet, imagining all the potential dangers that youth might face, from violent strangers and cruel peers to pictures and words that could frighten them for the rest of their lives.",
+                                "Rather than helping teens develop strategies for negotiating social media and the potential risks of interacting with others online, fearful parents have focused on tracking, monitoring and blocking. These tactics don’t help teens develop the skills they need to manage complex social situations, assess risks or get help when they are in trouble. Banning cell phones will not enable a teen who is in love to cope with the messy dynamics of sexting, that is, sending text messages with sexual content. “Protecting” kids may feel like the right thing to do, but it impedes the learning that teens need to do in a technology-filled world.",
+                                "Having more restrictions is not the key to helping youth navigate contemporary digital life. Instead, it is freedom plus communication. Urban theorist Jane Jacobs used to argue that the safest neighborhoods were those where more community members took interest in and paid attention to what happened on the streets. Safety did not come from surveillance cameras or keeping everyone indoors but from a community which was willing to watch out for one another and to be helpful when people struggled. The same is true online. What makes a “digital street” safe is when teens and adults collectively agree to open their eyes and pay attention, communicate and collaboratively negotiate difficult situations. Teens need the freedom to wander the digital street, but they also need to know that caring adults are behind them and supporting them wherever they go. The first step is to turn off the tracking software. Then ask the teens around you what they are doing when they are online and why it is so important to them."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 20,
+                                    "question": "The author talks about her childhood in paragraph I in order to show that ----.",
+                                    "options": [
+                                        "children listened to their parents more in the past",
+                                        "she and her parents had many disagreements",
+                                        "growing up has always involved risk",
+                                        "physical exercise is important for young people"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Yazar, kendi çocukluğundaki kazaları (yara izleri, kırık kol) anlatarak büyürken risk almanın normal olduğunu gösteriyor. Kanıt: 'Still, I am glad that my parents did not keep me trapped...'",
+                                        "wrong": {
+                                            "0": "Geçmişteki itaatten bahsetmiyor.",
+                                            "1": "Anlaşmazlıklardan değil, risklerden bahsediyor.",
+                                            "3": "Egzersizin önemini değil, tehlikesini örnekliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "The word feud in paragraph I could best be replaced by ---",
+                                    "options": [
+                                        "entertainment",
+                                        "friendship",
+                                        "dishonesty",
+                                        "conflict"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Feud\" kavga, çatışma demektir. 'Conflict' (çatışma) ile eş anlamlıdır. Kısıtlayıcı ebeveynler ve özgürlükçü çocuklar arasındaki gerginliği anlatıyor.",
+                                        "wrong": {
+                                            "0": "Eğlence değil.",
+                                            "1": "Arkadaşlık değil.",
+                                            "2": "Sahtekarlık değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "In paragraph II, one of the topics that the author discusses is ----.",
+                                    "options": [
+                                        "the reasons why teens have less time to interact face to face",
+                                        "the reasons why social media and smartphones apps have become widespread among teens",
+                                        "the effects that the increased use of social media has had on teens",
+                                        "the effects of parents on teens’ Internet usage"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Yazar gençlerin neden sosyal medyayı tercih ettiğini anlatıyor: '...because teens need a place to call their own.' (Çünkü kendilerine ait bir yere ihtiyaçları var).",
+                                        "wrong": {
+                                            "0": "Neden az zamanları olduğunu tartışmıyor.",
+                                            "2": "Sosyal medyanın gençler üzerindeki etkilerini değil, neden kullanıldığını anlatıyor.",
+                                            "3": "Ebeveynlerin etkisinden ziyade ebeveynlerin korkusunu anlatıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "The word impedes in paragraph III is closest in meaning to ----",
+                                    "options": [
+                                        "practices",
+                                        "prevents",
+                                        "emphasizes",
+                                        "enables"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Impede\" engellemek demektir. 'Prevents' (engeller) ile aynı anlamdadır. Cümlede korumacılığın gençlerin öğrenmesini engellediği söyleniyor.",
+                                        "wrong": {
+                                            "0": "Uygulamak (practices) değil.",
+                                            "2": "Vurgulamak (emphasizes) değil.",
+                                            "3": "Sağlamak (enables) tam tersi anlamdadır."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "In paragraph III, the author mentions that “tracking, monitoring and blocking” are ineffective because ----.",
+                                    "options": [
+                                        "teens need to be building up their social skills by being involved in challenging situations",
+                                        "teens know how to avoid these things, and it is pointless to try using them",
+                                        "teens need technology to have the opportunity to develop romantic relationships",
+                                        "teens do not actually face as many risks as most people believe when they use technology"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Yazar, bu yasakların gençlerin 'sosyal beceri geliştirmesine' (develop the skills they need) engel olduğunu söylüyor.",
+                                        "wrong": {
+                                            "1": "Gençlerin bu engelleri aşabildiğinden bahsetmiyor.",
+                                            "2": "Sadece romantizm değil, genel beceriler kastediliyor.",
+                                            "3": "Risklerin azlığından değil, riskle baş etmenin öneminden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "According to paragraph IV, while researching urban areas Jane Jacobs found that ----.",
+                                    "options": [
+                                        "the more people in a community watched out for each other, the more people struggled",
+                                        "the more surveillance cameras in a neighborhood, the more people stayed indoors",
+                                        "the more time people in a community spent online, the less people supported each other",
+                                        "the more people in a community watched their surroundings, the more secure it was"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Jacobs'a göre en güvenli mahalleler, insanların sokağı gözlediği yerlerdi ('community members... paid attention to what happened on the streets').",
+                                        "wrong": {
+                                            "0": "İnsanlar zorluk çekmedi, aksine yardım etti.",
+                                            "1": "Kameralar güvenliği sağlamadı diyor.",
+                                            "2": "Jacobs fiziksel mahalleleri araştırdı, online dünyayı değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Text 2: Childhood Advertising and the Unconscious Mind",
+                            "paragraphs": [
+                                "Marketers have understood how to use psychology to sell products for many years. Facing falling sales in the 1950s, the makers of Betty Crocker’s cake mix turned to psychoanalysis for help. Wives apparently felt guilty about making a cake by “just adding water” – it didn’t feel like enough effort to earn their husband’s approval. So, what did psychoanalysts suggest? Make the recipe just a little more complex by requiring the addition of water and an egg. By adding the egg, the housewives felt they had performed meaningful work.",
+                                "New studies have added interesting knowledge to our understanding of the psychological influences that advertising can have. They show that the advertisements that we see as children may, in fact, stick around in our memories and influence our decision making even decades later.",
+                                "Earlier studies had shown that children become progressively more critical about advertising as they age. Researchers found that until they reach 13, most kids lack the cognitive skills and knowledge to carefully evaluate the messages found in advertisements. As a result, advertising to young children was shown to be much more powerful than advertising to older children or to adults, who are better able to evaluate advertisers’ claims.",
+                                "In a recent study, Paul Connell and his colleagues wanted to test whether exposure to certain advertising characters like Ronald McDonald (for McDonald restaurants) or Tony the Tiger (for Kellogg’s Frosted Flakes) during the pre-teen period leads people to make biased decisions about the advertised product decades later. To do this, they presented adults with different advertising images, some of which were ones they would have been exposed to before 13 and others they would have seen for the first time as adults. Importantly, the images were all linked with well-known products, so they were equally familiar overall. After seeing a number of advertisements, the adult participants rated the healthfulness of a number of foods as well as their positive and negative feelings towards the brands.",
+                                "The researchers found that people form strong bonds with advertising characters that they met as young children and that these bonds persist into adulthood. When adults were rating products that had been advertised to them before the age of 13, they rated the product as significantly healthier. In other words, if you were exposed to lots of Ronald McDonald ads as a young child, you may still have a bias toward McDonald’s food, such as viewing French fries as a relatively healthy food. The authors note that many things might contribute to this effect. However, the studies found evidence that one factor was particularly prominent. Heavy exposure to an advertised character as a child creates strong positive feelings towards the brand which that character represented, and those feelings remain in the memory for decades. The positive feelings can then be triggered by advertising to adults, making them “switch off” critical processing that would otherwise lead them to question the products’ health benefits.",
+                                "Fortunately, though, all hope is not lost. In a follow-up study, the authors showed that simply knowing about this bias and being motivated to make healthy choices can make people think more critically, leading to less biased decisions about brands they were exposed to in their childhood. Those are some “Gr-r-reat” ideas to consider tomorrow morning at the breakfast table."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 26,
+                                    "question": "The main idea of the text is that ----.",
+                                    "options": [
+                                        "children and housewives are the ones who are most deeply affected by the psychology of advertising",
+                                        "if adults do not analyze their choices carefully, the advertisements they saw as children will influence them",
+                                        "advertisements directed at children under 13 should be forbidden as kids lack critical thinking skills",
+                                        "people’s diets have become significantly worse because they are exposed to so much advertising"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı metnin ana fikridir. Metin, çocuklukta görülen reklamların yetişkin kararlarını etkilediğini ama dikkatli analizle (farkındalıkla) bunun aşılabileceğini anlatıyor.",
+                                        "wrong": {
+                                            "0": "Ev hanımları sadece girişte bir örnek, metnin bütünü değil.",
+                                            "2": "Yasaklanmalı demiyor, etki analiz ediliyor.",
+                                            "3": "Diyetlerin kötüleşmesi değil, kararların 'önyargılı' (biased) olması konu ediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "The phrase stick around in paragraph II is closest in meaning to ---",
+                                    "options": [
+                                        "enhance",
+                                        "fail",
+                                        "remain",
+                                        "confuse"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Stick around\" kalıcı olmak, gitmemek demektir. 'Remain' (kalmak) ile eş anlamlıdır. Reklamların hafızada kaldığını söylüyor.",
+                                        "wrong": {
+                                            "0": "Geliştirmek (enhance) değil.",
+                                            "1": "Başarısız olmak (fail) değil.",
+                                            "3": "Kafa karıştırmak (confuse) değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "According to paragraph III, earlier research gave evidence that ----.",
+                                    "options": [
+                                        "being exposed to advertising at an early age destroyed children’s ability to develop critical thinking skills",
+                                        "neither young children nor teenagers were able to evaluate whether advertisers’ claims were true",
+                                        "when children became teenagers, their ability to evaluate advertisements increased significantly",
+                                        "it was not until adulthood that critical thinking skills were developed enough to deal with advertisers’ messages"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Araştırmalar, 13 yaşına gelene kadar çocukların becerisinin az olduğunu, yani büyüdükçe (teenager olunca) değerlendirme yeteneğinin arttığını gösteriyor.",
+                                        "wrong": {
+                                            "0": "Yeteneklerini yok ettiğini değil, henüz gelişmediğini söylüyor.",
+                                            "1": "Teenager'lar değerlendirebiliyor, küçük çocuklar yapamıyor.",
+                                            "3": "Yetişkinliği beklemiyor, ergenlikte gelişmeye başlıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "The phrase do this in paragraph IV refers to ----",
+                                    "options": [
+                                        "testing the long-term effects of exposure to advertising characters before the age of 13",
+                                        "exposing people to certain advertising characters like Ronald McDonald or Tony the Tiger",
+                                        "leading people to make biased decisions",
+                                        "advertising a product decades later"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. 'To do this' (Bunu yapmak için) ifadesi bir önceki cümlenin amacına referans verir: Araştırmacıların amacı, uzun vadeli etkileri test etmekti.",
+                                        "wrong": {
+                                            "1": "Maruz bırakmak deneyin yöntemi, amacı değil.",
+                                            "2": "Önyargılı kararlara yol açmak araştırmanın hipotezi.",
+                                            "3": "Ürün reklamı yapmak değil, reklamı test etmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "The word prominent in paragraph V is closest in meaning to ----.",
+                                    "options": [
+                                        "misleading",
+                                        "debatable",
+                                        "significant",
+                                        "hopeful"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Prominent\" belirgin, öne çıkan, önemli demektir. 'Significant' (önemli) en yakın anlamlıdır.",
+                                        "wrong": {
+                                            "0": "Yanıltıcı değil.",
+                                            "1": "Tartışmalı değil.",
+                                            "3": "Umut verici değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "Which of the following statements can be understood from paragraph V?",
+                                    "options": [
+                                        "Unlike young children, adults do not feel an emotional connection to characters in advertisements.",
+                                        "Some foods such as French fries are actually healthier than many people think.",
+                                        "It does not matter when adults are exposed to ads; the important factor is that ads create positive feelings.",
+                                        "Adults often do not carefully analyze ads which contain advertising characters from their childhood."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Paragraf, yetişkinlerin çocukluk karakterlerini görünce 'switch off critical processing' (eleştirel düşünmeyi kapattıklarını) söylüyor.",
+                                        "wrong": {
+                                            "0": "Tam tersine, yetişkinlerin de bu bağı sürdürdüğü yazıyor.",
+                                            "1": "Patates kızartmasının sağlıklı olduğunu söylemiyor, insanların öyle sandığını söylüyor.",
+                                            "2": "Ne zaman maruz kalındığı önemli (13 yaş öncesi)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "In paragraph VI, the writer states that ----.",
+                                    "options": [
+                                        "a healthy breakfast is one effective way to help people increase their critical thinking skills",
+                                        "awareness of the effects of advert characters from childhood limits their impact on adult decision making",
+                                        "adults should limit children’s exposure to ads so that they can make better decisions as adults",
+                                        "adults need to forget the food advertisements from their childhood to make healthier dietary choices"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metin, sadece 'bu önyargının farkında olmanın' (simply knowing about this bias) bile eleştirel düşünmeyi sağladığını belirtiyor.",
+                                        "wrong": {
+                                            "0": "Kahvaltı sadece kapanış şakası.",
+                                            "2": "Çocukların maruziyetini sınırlamaktan değil, yetişkin farkındalığından bahsediyor.",
+                                            "3": "Unutmak değil, farkında olmak gerekiyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Text 3: From Toilet to Tap: Getting Used to Recycled Waste Water",
+                            "paragraphs": [
+                                "After the third year of California's worst drought in a century, the state's reservoirs are at record low levels. Agriculture has been affected, and some small communities can only provide water every other day. However, business is booming for California's Orange County Water District (OCWD) due to a pioneering wastewater treatment facility that recycles used water, including sewage, and returns it to the drinking water supply. The plant has expanded production from 70 to 100 million gallons per day. As the OCWD output is mixed with the main groundwater supply, it reaches over 70% of the area’s residents.",
+                                "The facility is among the oldest and largest of its type in the world and is a model solution for a global problem. The UN warns that half the world’s population will face water scarcity by 2030 due to climate change and population growth. If large scale shortages take place, they will threaten food production and cause a health crisis because of increased exposure to unsanitary water, which already kills millions each year through waterborne diseases such as cholera and diarrhea.",
+                                "The introduction of systems like OCWD’s has been difficult, however. Their treatment facility began recycling water in the 1970s but only started contributing to the drinking supply in 2008, after a comprehensive education campaign to allay public fears. \"We're finally seeing widespread acceptance of these technologies,\" OCWD General Manager Mike Markus said. \"As the shortages become more extreme and water supplies are cut, it has raised awareness that we need to find alternative resources.\"",
+                                "The recycling process works through a three-step treatment. The first is microfiltration of waste water to remove solids, oils and bacteria. Next, the resulting liquid goes through reverse osmosis, pushing it through a fine plastic membrane that filters out viruses and pharmaceuticals. The water is then treated with UV light to remove any remaining organic compounds. It must pass strict quality control tests before being distributed to households. The OCWD says the water, in fact, exceeds all government drinking water standards.",
+                                "One of the world's earliest water recycling plants, in Windhoek, Namibia, has been in operation since 1968. Over half of the Sub-Saharan African population faces water insecurity, and the greatest health risk, diarrhea, kills over a million people each year in the west part of the region. But research shows that this problem occurs at much lower rates for people whose drinking water is supplied by the Windhoek plant than for those whose water is provided through conventional treatment centers. \"Standards are strict there,\" says Benedito Braga, President of the World Water Council. \"The quality of the water it produces from sewage is as good as the tap water in any city in the developed world.\"",
+                                "Good public relations are the key to increased use of this water, as it is often rejected due to negative public reaction to the concept. This was clearly shown in the Australian city of Toowoomba in 2006 when the group \"Citizens Against Drinking Sewage\" defeated plans to introduce recycled water sources because there were said to be health risks. But Australia also provides an example of how much attitudes can change. After a three-year educational campaign, the city of Perth started providing 20% of its drinking water from waste water, and 76% of the public supported this project. Dr. Carol Nemeroff of the University of South Maine, has studied reactions to recycled waste water. She says, \"Most people have strong feelings of dislike. Physical cues like billboards and TV ads showing fresh, clear water seem to be the most effective methods to help people get over them.\" She adds that necessity can also be a key factor: \"If you're desperate, you'll try anything for survival.\"",
+                                "If costs continue to fall and public acceptance continues to grow, waste water will help overcome the projected water scarcities of this century. The World Water Council predicts that recycled sewage water will be a normal source of drinking water in cities around the world within 30 years since the technology and most of the infrastructure are already in use. It's now up to us to get used to it."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 33,
+                                    "question": "In paragraph I, which of the following is NOT mentioned as an effect of the current drought in California?",
+                                    "options": [
+                                        "Insufficient water for crops",
+                                        "Water cuts in some areas",
+                                        "Lower quality drinking water",
+                                        "Increased business for OCWD"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı metinde yok. Kuraklığın tarımı etkilediği, su kesintileri olduğu ve OCWD için işlerin açıldığı yazıyor. Ancak mevcut içme suyunun kalitesinin düştüğü söylenmiyor.",
+                                        "wrong": {
+                                            "0": "Tarımın etkilendiği yazıyor.",
+                                            "1": "Bazı bölgelerde gün aşırı su verildiği yazıyor.",
+                                            "3": "OCWD için işlerin 'booming' (patlama yaptığı) yazıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "Paragraph II states that ----.",
+                                    "options": [
+                                        "many water recycling plants are now as big as the one in California",
+                                        "climate change and a lack of water may affect population growth by 2030",
+                                        "the use of recycled water should be limited to food production",
+                                        "water that is not sanitary already leads to millions of deaths each year"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Paragrafın sonunda sağlıksız suyun (unsanitary water) halihazırda milyonları öldürdüğü belirtiliyor.",
+                                        "wrong": {
+                                            "0": "Diğer tesislerin büyüklüğü hakkında bilgi yok.",
+                                            "1": "Su kıtlığı nüfus artışını etkileyecek demiyor, nüfus artışı su kıtlığına yol açacak diyor.",
+                                            "2": "Sadece gıda için kullanılsın demiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "The word allay in paragraph III is closest in meaning to ----.",
+                                    "options": [
+                                        "reduce",
+                                        "update",
+                                        "debate",
+                                        "research"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Allay\" yatıştırmak, azaltmak demektir. 'Allay public fears' (korkuları yatıştırmak) anlamında 'reduce' (azaltmak) en yakınıdır.",
+                                        "wrong": {
+                                            "1": "Güncellemek değil.",
+                                            "2": "Tartışmak değil.",
+                                            "3": "Araştırmak değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 36,
+                                    "question": "According to paragraph IV, the third step in the treatment process is to ----.",
+                                    "options": [
+                                        "push waste water through a fine plastic membrane",
+                                        "treat waste water with UV light",
+                                        "pass strict quality control tests",
+                                        "receive OCWD approval that it exceeds government drinking water standards"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. İşlem sırası: 1. Microfiltration, 2. Reverse osmosis, 3. UV light treatment.",
+                                        "wrong": {
+                                            "0": "Membran 2. adımdır.",
+                                            "2": "Testler işlem bittikten sonradır.",
+                                            "3": "Onay bir işlem adımı değildir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "Paragraph V points out that the recycled water plant in Windhoek, Namibia ----.",
+                                    "options": [
+                                        "has solved the problem of water insecurity in Sub-Saharan Africa",
+                                        "has decreased deaths due to diarrhea to less than one million",
+                                        "has helped reduce the cases of diarrhea in the area where its water is distributed",
+                                        "had to provide water to conventional treatment centers due to water shortages"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Metin, Windhoek tesisinden su alanlarda hastalık oranının, normal su alanlara göre çok daha düşük olduğunu söylüyor.",
+                                        "wrong": {
+                                            "0": "Tüm bölgenin sorununu çözdüğü iddia edilmiyor.",
+                                            "1": "Ölüm sayısını 1 milyonun altına indirdi demiyor, genel istatistik veriyor.",
+                                            "3": "Geleneksel merkezlere su sağladığı yazmıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 38,
+                                    "question": "The word there in paragraph V refers to ----.",
+                                    "options": [
+                                        "conventional water treatment centers",
+                                        "the Windhoek water recycling plant",
+                                        "the west part of Sub-Saharan Africa",
+                                        "Sub-Saharan Africa"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. 'Standards are strict THERE' (ORADA standartlar sıkıdır) cümlesi Windhoek tesisinden bahsediyor.",
+                                        "wrong": {
+                                            "0": "Geleneksel merkezler kıyaslanan diğer yer.",
+                                            "3": "Tüm Afrika kastedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "From paragraph VI, it is clear that the author believes ----.",
+                                    "options": [
+                                        "drinking recycled water would have caused more diseases in the city of Toowoomba",
+                                        "the group \"Citizens Against Drinking Sewage\" were unable to achieve their goals",
+                                        "Perth should be supplying more than 20% of its water from recycled sources",
+                                        "the campaign regarding recycled waste water in Perth strongly influenced public opinion there"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Perth'teki eğitim kampanyasından sonra halkın %76'sının projeyi desteklediği söyleniyor, yani kampanya kamuoyunu etkilemiş.",
+                                        "wrong": {
+                                            "0": "Hastalık yapacağına inanmıyor, bunun sadece bir iddia olduğunu söylüyor.",
+                                            "1": "Grup amaçlarına ulaştı ve planı durdurdu.",
+                                            "2": "Yazarın kişisel önerisi yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "The word them in paragraph VI refers to ----.",
+                                    "options": [
+                                        "most people",
+                                        "strong feelings of dislike",
+                                        "physical cues",
+                                        "the most effective methods"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. 'Get over THEM' (ONLARI aşmak) ifadesindeki 'onlar', bir önceki cümlede geçen 'strong feelings of dislike' (güçlü hoşlanmama duyguları) dır.",
+                                        "wrong": {
+                                            "0": "İnsanları aşmak anlamsız.",
+                                            "2": "Fiziksel ipuçları araçtır."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "Which of the following is TRUE according to the article?",
+                                    "options": [
+                                        "More than half of the residents of the OCWD now drink some recycled waste water.",
+                                        "The quality of the water the OCWD produced increased significantly in 2008.",
+                                        "The technology to make recycled waste water safe to drink came out in the 1970s.",
+                                        "Recycled sewer water will be a typical source of drinking water in 30 years if technology improves."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Metinde suyun bölge sakinlerinin %70'ine ulaştığı yazıyor. %70, yarısından (half) fazladır.",
+                                        "wrong": {
+                                            "1": "Kalite arttı demiyor, şebekeye verilmeye başlandı diyor.",
+                                            "2": "Teknoloji 70'lerde çıktı demiyor, tesis o zaman başladı (ama sadece arıtma yapıyordu) diyor.",
+                                            "3": "Teknoloji gelişirse demiyor, teknoloji zaten hazır diyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

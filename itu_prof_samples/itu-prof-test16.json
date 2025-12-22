@@ -1,0 +1,854 @@
+{
+    "id": 1,
+    "title": "ITU SFL Mock Proficiency Exam - Session I (June 2023)",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Part 1: Cloze Test (Maryam Mirzakhani)",
+                    "passage": {
+                        "title": "Maryam Mirzakhani",
+                        "text": "The Fields Medal is an international award given every four years to mathematicians under the age of 40. (1)_____ this prize, which is the equivalent of the Nobel Prize for Mathematics, is the highest professional honor for mathematicians. In 2014, Maryam Mirzakhani, an Iranian mathematician, became the first woman to win this prestigious medal. Mirzakhani was born on 12th May 1977 in Tehran, Iran. As a child, she enjoyed reading and wanted to be a writer; (2)_____, she later found an even greater joy in solving mathematical problems. At high school, she went with one of her classmates to the headteacher and asked her (3)_____ the school could arrange mathematical problem-solving classes for them. The answer was yes, and they spent hours preparing for mathematical competitions. Years later, Mirzakhani said in an interview, \"If my high school (4)_____ so supportive of girls back then, I probably couldn't have won the gold medals at the 1994 and 1995 International Mathematical Olympiads.\" At (5)_____ to be a mathematician, she received her undergraduate degree in mathematics from the Sharif University of Technology in Tehran in 1999. Then, she (6)_____ her PhD program at Harvard University. She became a professor at Princeton University in 2004, and five years later, she continued her career at the Department of Mathematics of Stanford University. Mirzakhani's achievements in mathematics have contributed to diverse fields of science (7)_____ quantum field theory, engineering and material science. When Mirzakhani died in 2017 of breast cancer at the age of 40, the mathematics community lost one of its brightest stars, a woman (8)_____ could inspire many people to follow their dreams. The International Council for Science (9)_____ Maryam Mirzakhani's birthday, May 12, as International Women in Mathematics Day in respect of her memory. (10)_____, several mathematics prizes such as the Maryam Mirzakhani New Frontiers Prize and the Maryam Mirzakhani Prize in Mathematics have been named after her. To introduce her to more people, a documentary that examines her life and work has been filmed..."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "Awarded",
+                                "Being awarded",
+                                "By awarding",
+                                "By being awarded"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Burada cümlenin öznesi olacak bir yapıya ihtiyacımız var. 'Being awarded this prize' (Bu ödüle layık görülmek), cümlenin devamındaki 'is the highest professional honor' yükleminin öznesidir.",
+                                "wrong": {
+                                    "0": "'Awarded' tek başına burada sıfat gibi kalır, özne olamaz.",
+                                    "2": "'By awarding' (Ödül vererek) anlamı katar, ancak burada ödülü veren değil, ödülü alma durumu anlatılıyor.",
+                                    "3": "'By being awarded' (Ödül verilerek) bir yöntem belirtir, özne değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "for instance",
+                                "however",
+                                "therefore",
+                                "to sum up"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümlede zıtlık var: Çocukken yazar olmak istiyordu ANCAK (However) sonradan matematikte daha büyük bir neşe buldu.",
+                                "wrong": {
+                                    "0": "'For instance' örneklendirme yapar, burada örnek yok.",
+                                    "2": "'Therefore' sonuç bildirir (Yazar olmak istediği için matematikçi olmadı).",
+                                    "3": "'To sum up' özetlemek için kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "what",
+                                "when",
+                                "where",
+                                "whether"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Burada dolaylı bir soru (indirect question) var. Okulun sınıf ayarlayıp ayarlayamayacağını sormuşlar. Bu anlamı 'whether' veya 'if' verir.",
+                                "wrong": {
+                                    "0": "'What' (ne) koyarsak 'Okul ne ayarlayabilirdi' olur, anlam bozulur.",
+                                    "1": "'When' zaman sorar.",
+                                    "2": "'Where' yer sorar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "hadn't been",
+                                "wasn't",
+                                "wouldn't be",
+                                "wouldn't have been"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu bir 'Type 3 Conditional' yapısıdır. Geçmişte gerçekleşmemiş bir durumu anlatıyor: 'Eğer okulum destekleyici OLMASAYDI (hadn't been), kazanamazdım.'",
+                                "wrong": {
+                                    "1": "'Wasn't' gerçek geçmiş zamanı anlatır, hayali koşul cümlesinde 'hadn't been' kullanılır.",
+                                    "2": "'Wouldn't be' if kısmında kullanılmaz.",
+                                    "3": "'Wouldn't have been' if kısmında değil, sonuç kısmında (main clause) kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "Declined",
+                                "Determined",
+                                "Discouraged",
+                                "Distracted"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'Determined' (kararlı/azimli) demektir. Matematikçi olmaya kararlı olduğu için eğitimini bu yönde almış.",
+                                "wrong": {
+                                    "0": "'Declined' reddetmiş demektir.",
+                                    "2": "'Discouraged' cesareti kırılmış demektir.",
+                                    "3": "'Distracted' dikkati dağılmış demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "participated",
+                                "prohibited",
+                                "proved",
+                                "pursued"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Pursued' (peşinden gitmek, sürdürmek) akademik kariyer veya derece için kullanılır. Doktora programını sürdürdü/yaptı.",
+                                "wrong": {
+                                    "0": "'Participated' genellikle 'in' edatı ile kullanılır.",
+                                    "1": "'Prohibited' yasakladı demektir.",
+                                    "2": "'Proved' kanıtladı demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "being included",
+                                "included",
+                                "including",
+                                "to be included"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Including' (içeren/dahil olmak üzere) kelimesi, örnekleri sıralarken (kuantum teorisi vb.) kullanılır.",
+                                "wrong": {
+                                    "0": "'Being included' pasif yapıdadır, burada akışı bozar.",
+                                    "1": "'Included' geçmiş zaman fiilidir.",
+                                    "3": "'To be included' amaç bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "-",
+                                "who",
+                                "whom",
+                                "whose"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "İnsanları nitelerken özne konumundaki ilgi zamiri 'who' kullanılır. 'A woman WHO could inspire' (ilham verebilen bir kadın).",
+                                "wrong": {
+                                    "0": "Boş bırakılamaz çünkü 'could inspire' fiilinin öznesi eksik kalır.",
+                                    "2": "'Whom' nesne durumunda kullanılır.",
+                                    "3": "'Whose' sahiplik bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "declared",
+                                "estimated",
+                                "neglected",
+                                "postponed"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Declared' (ilan etti) demektir. Konsey, onun doğum gününü özel bir gün olarak ilan etmiş.",
+                                "wrong": {
+                                    "1": "'Estimated' tahmin etti demektir.",
+                                    "2": "'Neglected' ihmal etti demektir.",
+                                    "3": "'Postponed' erteledi demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "Furthermore",
+                                "In addition to",
+                                "In contrast",
+                                "Whereas"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Furthermore' (Dahası/Ayrıca) ek bilgi verirken kullanılır ve tam bir cümleden önce gelebilir. Gün ilan edildi, AYRICA ödüller verildi.",
+                                "wrong": {
+                                    "1": "'In addition to' kendisinden sonra isim veya isim öbeği ister, burada ise tam cümle var.",
+                                    "2": "'In contrast' zıtlık bildirir.",
+                                    "3": "'Whereas' zıtlık bildirir."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Part 2: Restatement",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "The most recent research has shown that spending at least 120 minutes a week in green spaces is associated with good health.",
+                            "options": [
+                                "The latest research reveals that only those spending at least two hours a week in nature are in good health.",
+                                "Spending a minimum of two hours per week in green areas is linked to being in good health, according to the latest research.",
+                                "According to recent research, people who spend less than 120 minutes per week in green areas may suffer from serious health problems.",
+                                "By spending a minimum of 120 minutes a week in green areas, people with severe diseases recover quickly, new research suggests."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümledeki 'at least 120 minutes' (en az 120 dakika) ifadesi 'minimum of two hours' (en az iki saat) ile; 'associated with' (ile ilişkili) ifadesi 'linked to' ile tam olarak karşılanmıştır.",
+                                "wrong": {
+                                    "0": "'Only those' (sadece onlar) diyerek anlamı daraltmış, orijinalde diğerlerinin sağlıklı olmadığı söylenmiyor.",
+                                    "2": "Burada olumsuz bir çıkarım yapılmış (yapmayanlar hasta olur), orijinalde sadece yapanların iyi sağlıkla ilişkisi olduğu söyleniyor.",
+                                    "3": "Hastalıkların iyileşmesinden (recover) bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Nearly one-third of trees are threatened with extinction, which is more than twice the total number of endangered animals.",
+                            "options": [
+                                "The number of endangered animals is almost double the number of trees facing extinction, which has tripled.",
+                                "While the number of trees in danger of extinction is nearly one-third of the total, twice as many animals are endangered.",
+                                "Going extinct is a threat to almost one-third of trees, equaling more than twice the overall number of animals that are endangered.",
+                                "The number of trees under the threat of extinction, just over one-third of the total number, is nearly double the number of endangered animals."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Matematiksel mantık: Tehdit altındaki ağaç sayısı (Trees) > 2 x Tehlikedeki hayvan sayısı (Animals). C şıkkı bu ilişkiyi 'equaling more than twice... animals' (hayvanların iki katından fazlasına denk gelerek) şeklinde doğru veriyor.",
+                                "wrong": {
+                                    "0": "Burada hayvan sayısının ağaçların iki katı olduğu söylenmiş (Animals = 2x Trees), tam tersi olmalı.",
+                                    "1": "Burada da hayvan sayısının daha fazla olduğu söylenmiş (Animals = 2x Trees).",
+                                    "3": "Şıkta 'nearly double' (neredeyse iki katı/iki kattan az) denmiş, orijinalde 'more than twice' (iki kattan fazla) deniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "The UN Environment Program (UNEP) predicts that climate change will make wildfires more frequent and intense, with a global increase of extreme fires of up to 50 per cent by the end of the century.",
+                            "options": [
+                                "A UNEP prediction for the frequency and intensity of global wildfires at the end of the century excludes its estimation of a 50 per cent increase in extreme fires due to climate change.",
+                                "The UNEP estimates that extreme fires worldwide will have risen by up to 50 per cent by the end of the century as wildfires will occur more often and at greater intensity due to climate change.",
+                                "The UNEP predicts that wildfires will get more frequent and intense owing to climate change, and the increase in global extreme fires will exceed the rate of 50 per cent at the end of the century.",
+                                "According to the UNEP, extreme fires will have increased by about 50 per cent worldwide by the end of the century unless the main effects of climate change on the number of wildfires are stopped."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümledeki tüm ana bilgiler (iklim değişikliği, yangınların sıklaşması/şiddetlenmesi ve yüzyıl sonuna kadar %50'ye varan artış) bu şıkta eksiksiz ve doğru bağlaçlarla verilmiştir.",
+                                "wrong": {
+                                    "0": "'Excludes' (hariç tutar) kelimesi anlamı tersine çevirmiş.",
+                                    "2": "'Exceed' (geçecek/aşacak) denmiş, orijinalde 'up to' (kadar) deniyor.",
+                                    "3": "'Unless' (olmazsa) ile orijinalde olmayan bir koşul eklenmiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Despite the fact that caste discrimination in India was banned in 1950, cleaning work in the country is still mostly carried out by members of the lowest caste, the Dalits.",
+                            "options": [
+                                "The 1950 ban on caste discrimination in India has allowed Dalits, members of the lowest caste, to enter the cleaning workforce in the country.",
+                                "Even though India prohibited caste discrimination in 1950, Dalits, the people of the lowest caste, still form the majority of the cleaners in the country.",
+                                "Dalits, members of the lowest caste in India, still dominate the cleaning workforce in the country with the help of the ban on caste discrimination introduced in 1950.",
+                                "The prohibition of caste discrimination in India in 1950 encouraged people of the upper castes to respect Dalits, members of the lowest caste, in the cleaning sector."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'Despite' (rağmen) yapısı 'Even though' ile karşılanmış. Yasak olmasına rağmen temizlik işlerinin çoğunu hala Dalitlerin yaptığı anlamı korunmuş.",
+                                "wrong": {
+                                    "0": "Yasak onlara 'izin verdi' gibi olumlu bir anlam katılmış, oysa durumun değişmemesi eleştiriliyor.",
+                                    "2": "'With the help of' (yardımıyla) ifadesi yanlış; yasak bu duruma yardım etmedi, yasak olmasına rağmen durum böyle.",
+                                    "3": "Üst kastların saygı duymasından bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "The International Labour Organization (ILO), founded in 1919 to set international work standards, has been largely criticized because when those standards are not met by governments, it just publishes recommendations to them.",
+                            "options": [
+                                "The ILO, founded in 1919 to introduce international work standards, has been widely criticized by governments receiving recommendations upon not meeting those standards.",
+                                "Many critics of the ILO, which was established in 1919 to determine global standards for work, have published recommendations to governments to make sure those standards are met.",
+                                "Founded in 1919 to establish universal standards for work, the ILO has met widespread criticism for not going beyond offering recommendations to governments that fail to meet those standards.",
+                                "The ILO, established in 1919 by governments to maintain high work standards, has been widely criticized as it does not publish such standards in the form of recommendations for global use."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "ILO'nun eleştirilme nedeni (tavsiye vermenin ötesine geçememesi) 'not going beyond offering recommendations' ifadesiyle tam olarak aktarılmış.",
+                                "wrong": {
+                                    "0": "Eleştiriyi yapanların hükümetler olduğu söylenmiş, orijinalde genel bir eleştiri var.",
+                                    "1": "Tavsiyeleri eleştirmenlerin yayınladığı söylenmiş, oysa tavsiyeleri ILO yayınlıyor.",
+                                    "3": "Standartları yayınlamadığı için eleştirildiği söylenmiş, anlam bozulmuş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Trials of a 4-day workweek without a reduction in pay for workers are becoming increasingly popular, and some companies are considering keeping it on a permanent basis.",
+                            "options": [
+                                "Trials of a 4-day workweek are getting more and more popular among companies especially because there is no permanent reduction in pay for workers.",
+                                "Trials of a 4-day workweek have shown that workers in some companies wish the practice were permanent even if they were supposed to receive a pay cut.",
+                                "All companies that have tried the increasingly popular practice of a 4-day workweek are willing to make it permanent on condition that employees are paid less.",
+                                "More and more companies are trying a 4-day workweek while paying their employees their full salaries, but not all of them intend to make it a permanent practice."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinaldeki 'some companies are considering' (bazı şirketler düşünüyor) ifadesi, 'not all of them intend' (hepsi niyetli değil, yani sadece bazıları) ile uyumludur.",
+                                "wrong": {
+                                    "0": "Popülerliğin nedeni olarak maaş kesintisi olmaması gösterilmiş ('especially because'), orijinalde bu sebep-sonuç ilişkisi bu kadar net değil.",
+                                    "1": "Çalışanların maaş kesintisine rağmen bunu istediği söylenmiş, orijinalde böyle bir bilgi yok.",
+                                    "2": "Şirketlerin maaşı azaltma şartı koştuğu söylenmiş, orijinalde maaş düşüşü yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "Charles Fritts first produced electric current using solar panels in 1883, but the process of how light produces electricity wasn't explained until Albert Einstein first did so twenty years later.",
+                            "options": [
+                                "The first person to understand the process of light being made into electricity was Albert Einstein, and he managed to do this by studying Charles Fritts' 20-year-old solar panels, made in 1883.",
+                                "Although Charles Fritts' solar panels produced electricity for the first time in 1883, the first explanation of how light brings this about did not come out until Albert Einstein described it 20 years later.",
+                                "In 1883, Charles Fritts became known as the inventor of solar panels that make electricity, but Albert Einstein understood the way in which light produces electricity first and then wrote about it 20 years later.",
+                                "It took Albert Einstein 20 years to describe the process of light producing electricity because it took him a long time to comprehend this process after Charles Fritts made the first current-producing solar panels in 1883."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Olayların sırası (1883 üretim, 20 yıl sonra açıklama) ve 'until' yapısı 'did not come out until' ile doğru aktarılmış.",
+                                "wrong": {
+                                    "0": "Einstein'ın bunu Fritts'in panellerini inceleyerek yaptığı detayı eklenmiş, bu bilgi yok.",
+                                    "2": "Einstein'ın önce anladığı, sonra yazdığı söylenmiş, sıralama hatası var.",
+                                    "3": "Einstein'ın anlamasının 20 yıl sürdüğü (sürecin zorluğu) vurgulanmış, oysa sadece tarih farkı veriliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "The first modern solar cell was produced in 1954, and in only six years such solar cells were the main power source for satellites orbiting Earth.",
+                            "options": [
+                                "In 1960, the major power source for satellites that orbited Earth was the modern solar cell, which had taken just six years to develop.",
+                                "Six years after the first modern solar cells were made in 1954, their primary usage was to power satellites which orbited Earth.",
+                                "Solar cells became the primary source of power for satellites orbiting Earth just six years after they were first produced in 1954.",
+                                "Although modern solar cells had already been produced in 1954, it took six years for them to become a significant power source for Earth-orbiting satellites."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "1954'ten 6 yıl sonra uyduların ana güç kaynağı olduğu bilgisi net bir şekilde aktarılmış.",
+                                "wrong": {
+                                    "0": "Geliştirilmesinin 6 yıl sürdüğü söylenmiş ('taken just six years to develop'), oysa 6 yıl sonra kullanımı yaygınlaştı.",
+                                    "1": "'Primary usage' (birincil kullanım alanı) denmiş, yani sadece uydularda kullanılıyor gibi. Oysa uyduların 'ana güç kaynağı' olduğu söylenmeli.",
+                                    "3": "'Significant' (önemli) denmiş, orijinalde 'main' (ana/başlıca) deniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "In recent years, manufacturers have managed to widen the spectrum of light that a solar cell can convert into energy.",
+                            "options": [
+                                "A recent development in manufacturing solar cells is making them capable of creating energy from a wider spectrum of light.",
+                                "Modern solar cell producers have succeeded in using a wider band of light and can now produce various types of energy.",
+                                "A project to convert a wide spectrum of light to energy is being directed by producers, who have just begun doing this recently.",
+                                "Today's solar cells are able to produce more energy because of their wider design that makes use of many different wavelengths of light."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Managed to widen' (genişletmeyi başardılar) ifadesi 'making them capable... wider spectrum' ile doğru karşılanmış.",
+                                "wrong": {
+                                    "1": "'Various types of energy' (farklı enerji türleri) denmiş, oysa sadece elektrik üretiliyor.",
+                                    "2": "Bir 'proje'den bahsediliyor, orijinalde genel bir başarı anlatılıyor.",
+                                    "3": "'Wider design' (daha geniş tasarım/boyut) denmiş, bahsedilen ışık spektrumunun genişliği."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Part 3: Reading Comprehension (Text 1: Crown Shyness)",
+                    "text": "1 Millions of people around the world became familiar with \"social distancing\" at the beginning of the COVID-19 pandemic, when it began to be used as a tool to slow down the spread of the virus. Amazingly, certain trees have also been keeping their distance from one another, but they started doing so long before we did. In some forests, if you look up into the treetops, you might spot channel-like gaps between the crowns, namely the uppermost branches, of the trees above your head. The crowns of the same tree species or those of different species may actually avoid touching one another, which leads to the formation of these separation lines in the sky. First observed and photographed in 1920, this phenomenon was later named \"crown shyness\" by Australian botanist Maxwell R. Jacobs in the 1950s.\n\n2 Some scientists have suggested that crown shyness occurs as a result of wind, forcing the branches and leaves of neighbouring trees of a similar height to touch and damage each other. A 1955 study led by Jacobs in northeastern Australia, where severe wind often causes contact between trees, convinced scientists that trees' sensitive tips die because of winds, resulting in spacing. In 1984, during their research on forest areas in Costa Rica, biologist Francis E. Putz and his colleagues picked 22 pairs of trees of a similar height at random and measured the distance between them during non-wind conditions and during strong winds. They found that during calm conditions, the branches looked like \"loosely fitting pieces of a jigsaw puzzle\". Yet when the wind blew, the branches would often touch one another and lose their tiny tips and leaves, proving that interaction with other trees was a key reason for damage. Indeed, experiments in windy areas of Canada have shown that artificially preventing trees which display crown shyness from colliding with each other lets them grow into and fill in the surrounding gaps.\n\n3 Today, damage from wind is not considered the primary cause of crown shyness by the scientific community though. In his 1977 study on crown shyness conducted in the forests of Malaysia, Francis S.P. Ng found no evidence of damage due to wind. Similarly, in 1988, the findings of biologist Alan Rebertus in Costa Rica revealed that crown shyness was not any more noticeable among trees in windy locations than those growing in sheltered spots. Highlighting that the trees' tips were able to sense light and stopped growing when they got too close to neighbouring trees, both Ng and Rebertus concluded that trees exercise crown shyness as a shade avoidance practice so that the sunlight reaches all of the branches and is not blocked by leaves in dense forests, where there is intense competition between plants for light, an essential component of photosynthesis.\n\n4 There is also research linking crown shyness to the threat of diseases and invasive species such as leaf-eating insects. Trees have been shown to sense them in nearby trees, and prevent spread by stopping growth and creating gaps as a natural defense mechanism. The variety of hypotheses and experimental results indicates that there seem to be multiple mechanisms behind crown shyness. Regardless of how it occurs, it not only works to the advantage of trees but also reminds us of how beautiful and wonderous nature can be.",
+                    "questions": [
+                        {
+                            "id": 20,
+                            "question": "According to paragraph 1, crown shyness ----.",
+                            "options": [
+                                "was discovered by Maxwell R. Jacobs in 1920",
+                                "is more common among identical tree species",
+                                "is a phenomenon mostly observed in the forests of Australia",
+                                "occurs when tree branches distance themselves from one another"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Parçanın 1. paragrafında: 'The crowns... may actually avoid touching one another, which leads to the formation of these separation lines' (Taçlar birbirine dokunmaktan kaçınır... bu da ayrım çizgilerinin oluşmasına yol açar) deniyor. Yani dallar birbirinden uzak duruyor.",
+                                "wrong": {
+                                    "0": "1920'de gözlemlendi ama Jacobs 1950'lerde isimlendirdi. 1920'de kimin keşfettiği yazmıyor.",
+                                    "1": "Parçada 'same tree species or those of different species' (aynı veya farklı türler) deniyor, birinin diğerinden yaygın olduğu söylenmiyor.",
+                                    "2": "Jacobs Avustralya'da çalıştı ama fenomenin çoğunlukla orada görüldüğü söylenmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "question": "The word \"them\" in paragraph 2 refers to ----.",
+                            "options": [
+                                "strong winds",
+                                "forest areas in Costa Rica",
+                                "22 pairs of trees of a similar height",
+                                "Francis E. Putz and his colleagues"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cümle: 'picked 22 pairs of trees... and measured the distance between **them**'. (22 çift ağaç seçtiler... ve **onların** arasındaki mesafeyi ölçtüler). Burada 'them', seçilen ağaç çiftlerine atıfta bulunuyor.",
+                                "wrong": {
+                                    "0": "Rüzgarların arasını ölçemezler.",
+                                    "1": "Orman alanlarının arasını değil, ağaçların arasını ölçtüler.",
+                                    "3": "Araştırmacıların kendi aralarındaki mesafeyi değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "question": "The phrase \"colliding with\" in paragraph 2 could best be replaced by ----.",
+                            "options": [
+                                "hitting",
+                                "feeding",
+                                "blocking",
+                                "supporting"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Colliding with' çarpışmak anlamına gelir. 'Hitting' (vurmak/çarpmak) bu bağlamda rüzgarla birbirine çarpan dalları en iyi anlatan kelimedir.",
+                                "wrong": {
+                                    "1": "Feeding: Beslemek.",
+                                    "2": "Blocking: Engellemek.",
+                                    "3": "Supporting: Desteklemek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "question": "From paragraph 2, the reader can understand that ----.",
+                            "options": [
+                                "Putz and his team focused on tree species with leaves of a similar size",
+                                "research on the reasons for crown shyness has been limited to one continent",
+                                "Jacobs' finding was confirmed by a study conducted about three decades later",
+                                "trees in windy areas are unlikely to suffer damage in case of contact with other trees"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Jacobs'un çalışması 1955'te yapılmıştı. Putz'un çalışması 1984'te (yaklaşık 30 yıl sonra) yapıldı ve 'proving that interaction... was a key reason for damage' (etkileşimin hasarın ana nedeni olduğunu kanıtlayarak) diyerek Jacobs'un bulgusunu doğruladı.",
+                                "wrong": {
+                                    "0": "Yaprak boyutu değil, ağaç boyu (height) benzer olanlar seçilmiş.",
+                                    "1": "Avustralya, Kosta Rika ve Kanada'dan bahsediliyor; tek kıta değil.",
+                                    "3": "Tam tersi, rüzgarlı alanlarda temasın hasara yol açtığı kanıtlanmış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "question": "Which of the following statements is FALSE according to paragraph 3?",
+                            "options": [
+                                "Many scientists do not agree that wind is the leading factor in crown shyness.",
+                                "Trees in thick forest areas tend to exhibit crown shyness in search of more light.",
+                                "Crown shyness is not observed in forest areas that are not exposed to heavy wind.",
+                                "Ng and Rebertus spotted the same purpose behind crown shyness in different sites."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "YANLIŞ OLAN: C şıkkı 'ağır rüzgara maruz kalmayan ormanlarda gözlemlenmez' diyor. Oysa parçada Rebertus'un bulgusu: 'not any more noticeable among trees in windy locations than those growing in sheltered spots' (rüzgarlı yerlerde, korunaklı/rüzgarsız yerlere göre daha fazla fark edilir değildi). Yani rüzgarsız yerlerde de görülüyor.",
+                                "wrong": {
+                                    "0": "Doğru: 'Today, damage from wind is not considered the primary cause'.",
+                                    "1": "Doğru: 'shade avoidance practice'.",
+                                    "3": "Doğru: Her ikisi de (Ng ve Rebertus) ışık/gölge teorisini destekledi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "question": "In paragraph 4, the writer states that ----.",
+                            "options": [
+                                "crown shyness is an aesthetically unpleasant natural phenomenon",
+                                "harmful insects in neighboring trees are a bigger threat than diseases",
+                                "researchers have finally determined the main cause of crown shyness",
+                                "crown shyness has been found to be a means of protection from diseases"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Paragraf 4'te: 'research linking crown shyness to the threat of diseases... natural defense mechanism' (hastalık tehdidiyle ilişkilendiren araştırma... doğal savunma mekanizması) deniyor.",
+                                "wrong": {
+                                    "0": "Son cümlede 'beautiful and wonderous' deniyor, nahoş değil.",
+                                    "1": "Böceklerin hastalıklardan daha büyük tehdit olduğu söylenmiyor.",
+                                    "2": "Parçada 'seem to be multiple mechanisms' (birden çok mekanizma var gibi görünüyor) deniyor, tek bir ana neden bulunmamış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "question": "Which of the following is NOT mentioned in the text?",
+                            "options": [
+                                "The impact of severe wind on tree tips",
+                                "The drawbacks of crown shyness for trees",
+                                "The areas of comparison in Rebertus' research",
+                                "The way Putz and his team chose the sample trees"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Parçada Crown Shyness'ın ağaçlar için dezavantajlarından (drawbacks) hiç bahsedilmiyor. Aksine, 'works to the advantage of trees' (ağaçların avantajına çalışır) deniyor.",
+                                "wrong": {
+                                    "0": "Bahsedildi: 'trees' sensitive tips die because of winds'.",
+                                    "2": "Bahsedildi: 'windy locations' vs 'sheltered spots'.",
+                                    "3": "Bahsedildi: 'picked 22 pairs... at random'."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Part 3: Reading Comprehension (Text 2: Techno-tracking in India)",
+                    "text": "1 In several cities of India, thousands of sanitation workers are being monitored while performing their duties such as cleaning streets and public toilets and emptying wastewater tanks. Every sanitation worker has a GPS-enabled smartwatch, also known as Human Efficiency Tracking System (HETS), strapped to their wrists. The smartwatches they are required to wear during work hours have a SIM card, a GPS tracker, a camera for sending pictures as proof of attendance and microphone. This digital tracking is part of two popular campaigns launched by the government of Prime Minister Narendra Modi. One is the Clean India Mission (CIM) campaign, under which several cities have been holding an annual cleanliness survey since 2014. Participating cities are ranked and the \"cleanest\" city is given an award while local authorities can earn extra points by adopting technology like GPS trackers to monitor worker movement. The other development that encouraged the use of such technology is the government's Digital India (DI) campaign, introduced in 2015, aiming \"to create a digitally empowered society\".\n\n2 Not surprisingly, the system has not been welcomed by all. In 2017, the Supreme Court of India, the highest court in the country, recognized privacy as a basic human right. Supreme Court lawyer Mehmood Pracha says that making sanitation workers wear invasive and dehumanizing tracking devices is an attack on privacy. \"It is everybody's right to live without being monitored by authorities. The DI campaign is actually becoming a tool for curtailing the individual freedoms of the workers rather than improving efficiency,\" he adds. Indeed, not knowing if they are being monitored even when they visit the toilet during work hours, a lot of workers have raised privacy concerns, saying persistent monitoring has made their lives miserable.\n\n3 'We are not really monitoring any personal document or anything like that,' says Anindita Mishra, representing the local authority in Chandigarh, a city in northern India, where it is obligatory for sanitation workers to wear smartwatches. \"It is only the location and duty hours that are being tracked. The system was put into practice only to ensure that workers have put in eight hours of work. Thus, workers needn't worry.\" The issue of privacy actually constitutes just one of the areas of criticism. In response to workers' claims that they are also held responsible for maintaining the devices, occasionally facing penalties for lack of repair or loss, Mishra says, \"Such salary deduction might have happened due to some other reasons, but not because the watch malfunctioned or got switched off.\"\n\n4 Users have experienced numerous technical problems with the watches, too. In Chandigarh, Gurpreet Singh, a sanitary inspector whose job is to mark the attendance of the sanitation staff every morning, takes out his phone to access the app which shows how many workers are online or offline. There have been instances when the workers have arrived at work and the application has shown them as out of area or offline. In such cases, the workers can be marked absent, and go unpaid for the day's work. Singh also confirms that the smartwatches do not track overtime work outside regular working hours. \"The duty hours span from 7 in the morning till 5 in the evening with a two-hour break in between,\" he says. \"If a worker does overtime outside of their usual work hours, it will not be tracked, so they will not be paid for that. Many workers have protested that.\"\n\n5 Generally underpaid, sanitation workers do their job facing greater risk of infection, injury and death than average workers, and rarely have insurance or access to health services. The local authorities in Chandigarh pay $265,000 a year to rent the smartwatches from IMTAC India Pvt Ltd, an IT company. If they are capable of spending so much on tracking technologies, workers ask, why weren't they able to provide basic safety equipment during the COVID-19 pandemic?",
+                    "questions": [
+                        {
+                            "id": 27,
+                            "question": "From paragraph 1, the reader can understand that",
+                            "options": [
+                                "the Narendra Modi government came into power in 2014",
+                                "the CIM campaign encourages competition between Indian cities",
+                                "the DI campaign has failed to develop the digital skills of the Indian society",
+                                "sanitation workers have to wear their smartwatch even when they are not working"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf 1'de: 'Participating cities are ranked and the \"cleanest\" city is given an award' (Katılan şehirler sıralanıyor ve en temiz şehre ödül veriliyor) denmesi, şehirler arasında bir rekabet ve teşvik olduğunu gösterir.",
+                                "wrong": {
+                                    "0": "Kampanyanın 2014'te başladığı söyleniyor, hükümetin o zaman kurulduğu net değil.",
+                                    "2": "DI kampanyasının başarısız olduğuna dair bir bilgi yok.",
+                                    "3": "Sadece 'during work hours' (çalışma saatlerinde) takmaları gerektiği yazıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "question": "The word \"curtailing\" in paragraph 2 is closest in meaning to ----.",
+                            "options": [
+                                "defending",
+                                "delaying",
+                                "enhancing",
+                                "restricting"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Curtailing' kısıtlamak, kesintiye uğratmak demektir. Bağlamda 'individual freedoms' (bireysel özgürlükleri) kısıtlamaktan bahsediliyor. 'Restricting' eş anlamlıdır.",
+                                "wrong": {
+                                    "0": "Defending: Savunmak.",
+                                    "1": "Delaying: Geciktirmek.",
+                                    "2": "Enhancing: Geliştirmek (tam zıttı)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "question": "The word \"they\" in paragraph 3 refers to",
+                            "options": [
+                                "devices",
+                                "workers",
+                                "penalties",
+                                "areas of criticism"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümle: 'In response to workers' claims that **they** are also held responsible...' (İşçilerin, **kendilerinin** de sorumlu tutulduğu iddialarına yanıt olarak...). Burada 'they' işçilere (workers) referans verir.",
+                                "wrong": {
+                                    "0": "Cihazlar sorumlu tutulmaz.",
+                                    "2": "Cezalar sorumlu tutulmaz.",
+                                    "3": "Eleştiri alanları kişi değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "question": "According to paragraph 3, Mishra ----.",
+                            "options": [
+                                "is critical of the current tracking system",
+                                "is against overtime work in the sanitation sector",
+                                "denies that malfunctioning watches led to salary cuts",
+                                "wants to invest in a system to collect workers' personal data"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Mishra şöyle diyor: 'Such salary deduction might have happened due to some other reasons, but not because the watch malfunctioned' (Maaş kesintisi başka sebeplerden olabilir ama saat bozulduğu için değil). Yani arızanın kesintiye yol açtığı iddiasını reddediyor.",
+                                "wrong": {
+                                    "0": "Mishra sistemi savunuyor (temsilci), eleştirmiyor.",
+                                    "1": "Fazla mesai hakkında yorumu yok.",
+                                    "3": "Kişisel veri toplamadıklarını ('not really monitoring any personal document') söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "question": "In paragraph 4, which of the following is NOT mentioned as a problem with the watches?",
+                            "options": [
+                                "Failing to identify latecomers",
+                                "Not keeping track of overtime work",
+                                "Displaying online workers as offline",
+                                "Failing to identify the location of workers"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragrafta geç kalanları tespit edemediğine dair bir bilgi yok. Tam tersi, işe gelenleri gelmemiş (offline) gibi gösterme hatası var.",
+                                "wrong": {
+                                    "1": "Bahsedildi: 'smartwatches do not track overtime work'.",
+                                    "2": "Bahsedildi: 'shown them as out of area or offline'.",
+                                    "3": "Bahsedildi: 'out of area' göstermesi konum tespit hatasıdır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "question": "It can be inferred from paragraph 5 that ----.",
+                            "options": [
+                                "average workers are more vulnerable than sanitation workers",
+                                "the local authorities in Chandigarh searched for a cheaper offer from another IT company",
+                                "sanitation workers in Chandigarh had unsafe work conditions during the COVID-19 pandemic",
+                                "most average workers are unhappy with their insurance and ability to access to health services"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragrafın sonunda işçiler soruyor: 'Neden temel güvenlik ekipmanı sağlayamadılar?' (why weren't they able to provide basic safety equipment during the COVID-19 pandemic?). Bu soru, pandemi sırasında güvenli olmayan koşullarda çalıştıklarını ima eder.",
+                                "wrong": {
+                                    "0": "Tam tersi, temizlik işçileri 'greater risk' (daha büyük risk) altında.",
+                                    "1": "Daha ucuz teklif aradıkları yazmıyor.",
+                                    "3": "Ortalama işçilerin mutsuzluğundan bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "question": "It is stated in the text that in India ----",
+                            "options": [
+                                "HETS is set to track workers during night shifts",
+                                "Chandigarh is the first city to put HETS into practice",
+                                "sanitation workers are generally not satisfied with the smartwatches",
+                                "privacy concerns outweigh economic ones for most sanitation workers"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metnin genelinde işçilerin protesto ettiği ('many workers have protested'), hayatlarını çekilmez bulduğu ('made their lives miserable') ve sistemin herkesçe hoş karşılanmadığı ('not been welcomed by all') belirtiliyor.",
+                                "wrong": {
+                                    "0": "Mesai 7-17 arası, gece vardiyasından bahsedilmiyor.",
+                                    "1": "İlk şehir olduğu söylenmiyor, 'several cities' (birçok şehir) deniyor.",
+                                    "3": "Ekonomik kaygılar da (maaş kesintisi) en az gizlilik kadar önemli, biri diğerini geçiyor denmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 34,
+                            "question": "The text mentions the opinions of all of the following EXCEPT ----.",
+                            "options": [
+                                "a lawyer from the highest court of India",
+                                "IT workers who developed the HETS app",
+                                "a representative of a local authority in India",
+                                "sanitation workers made to wear a smartwatch"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Uygulamayı geliştiren IT çalışanlarının (IMTAC şirketi çalışanları) görüşlerine yer verilmemiştir.",
+                                "wrong": {
+                                    "0": "Avukat Mehmood Pracha'nın görüşü var.",
+                                    "2": "Yetkili Anindita Mishra'nın görüşü var.",
+                                    "3": "İşçi Gurpreet Singh ve genel işçi görüşleri var."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Part 3: Reading Comprehension (Text 3: Transparent Solar Cells)",
+                    "text": "1 It is difficult to invent a new solar technology that can compete with today's solar cells since current cells have become much more efficient. However, transparent photovoltaic (PV) cells might change everything. They could be installed on any surface without changing the view because they are invisible. Vladimir Bulović, professor of electrical engineering at Massachusetts Institute of Technology (MIT), says \"They could be on everything around you, even on your windows, and you wouldn't even know it.\"\n\n2 Other researchers have previously worked on creating \"see-through\" solar cells using opaque PV materials, that is, PV materials that do not allow light to pass through them. The researchers have tried making the materials so thin that some light can pass through them, and they have also attempted to \"segment\" them, which means putting some pieces of a solar panel on a window while leaving gaps for seeing out. However, both approaches involve a tradeoff between transparency and efficiency. \"When you use opaque PV materials, you have to decrease the amount of area used for solar energy to increase light flow,\" says Miles Barr of Ubiquitous Energy, Inc. \"Thus, it's difficult to optimize for efficiency and aesthetics at the same time while using opaque PV materials.\"\n\n3 Three years ago, a team in MIT's Organic and Nanostructured Electronics Laboratory began to solve the problem using a different approach. Richard Lunt, then an MIT postdoc and now an assistant professor at Michigan State University, proposed making a solar cell that would absorb all the energy from the sun except the part that allows us to see. All light is made up of electromagnetic radiation from a spectrum of wavelengths, and each wavelength has energy that can be used by a solar cell. But the human eye can detect only a small part of that spectrum, often called \"visible light\". With the right materials and design, visible light passes through solar cells while other light is absorbed, and people don't notice that a lot of light has been absorbed. Inspired by Lunt's idea, the team developed the first transparent PV cell.\n\n4 The current version of the team's cell allows through more than 70% of visible light, which is similar to the amount of light that gets through tinted glass, which is used in the windows of many buildings. Unfortunately, its power-conversion efficiency is low, only about 2%. However, Lunt has showed that its design could reach over 12% efficiency, which is similar to the efficiency of current solar panels. In fact, Lunt says by simply putting the team's transparent solar cells on top of each other, they could reach an efficiency of 10% and still maintain the ability to transmit light.\n\n5 Another challenge is longevity. If the PV cells are installed on top of windows, they need to perform well for decades to be cost-effective. According to Bulović, work to extend the lifetime of related products such as LEDs has made steady progress. Because researchers have found ways to make related products last longer, he is confident that transparent PV cells can also last a long time. As a result, he thinks they will be able to guarantee a long lifespan that will make transparent PV cells attractive to consumers.\n\n6 Regarding cost, there are several sources of cost savings over traditional solar systems. One factor reducing cost is that making transparent PVs is not as energy-intensive as making other PVs, so the savings begin in the production phase. There are even more significant savings during installation because transparent PV cells can \"piggyback on the infrastructure,\" says Barr. To illustrate, he contrasts adding transparent PV cells to window glass to doing a traditional solar project. The PV cells can be added to windows and their frames for very little extra cost. The cells can be installed on one of the inner surfaces of double-paned windows. Installing the PV layer between the two pieces of window glass is cheap and protects them from weather and threats outside such as ammonia-based window cleaning products. On the other hand, when installing a conventional PV system, there is no infrastructure to use, so installation costs are much higher, usually half to two-thirds of the total cost. A final cost advantage is that distributing the energy generated by windows with transparent PVs is as simple as placing a wire connection and an outlet at the side of a window, which is also significantly cheaper than the cost of distributing energy from a traditional solar system.\n\n7 The benefits of adding these solar cells will be significant. The windows in a skyscraper, for example, provide a vast area exposed to sunlight. A If all those windows are covered by transparent solar cells, even at just 5% efficiency, the power generated can provide more than a quarter of all the electricity needs of the building. B That will cut down on air conditioning needs, further reducing energy use. C These benefits can be gained without modifying the look of the building or impacting people's view. D The team knows that their technology will not save the planet by providing all the emissions-free energy it needs, but they think it is one important part of the solution.",
+                    "questions": [
+                        {
+                            "id": 35,
+                            "question": "The phrase \"both approaches\" in paragraph 2 refers to ---.",
+                            "options": [
+                                "the work of previous researchers and the researchers who have made very thin PV materials",
+                                "creating see-through solar cells and making opaque PV materials very thin",
+                                "making opaque PV materials very thin and segmenting them",
+                                "segmenting opaque PV materials and leaving gaps in windows to see out"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf 2'de bahsedilen iki yöntem şunlardır: 1. 'making the materials so thin' (malzemeleri çok ince yapmak), 2. 'segment them' (onları parçalara ayırmak). 'Both approaches' bu ikisine atıfta bulunur.",
+                                "wrong": {
+                                    "0": "Araştırmacılara değil, yöntemlere atıf var.",
+                                    "1": "'See-through' yapmak genel amaç, yöntem değil.",
+                                    "3": "Sadece ikinci yöntemin detaylarını içeriyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "question": "According to paragraph 2, the primary factor making it difficult to optimize for efficiency and aesthetics is that ----.",
+                            "options": [
+                                "earlier PV materials do not allow light to pass through them",
+                                "earlier PV materials need to be spread out over a vast area",
+                                "all types of PV materials are thin, making them difficult to work with",
+                                "all types of PV materials produce less energy when they are made to look aesthetically pleasing"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Miles Barr şöyle açıklıyor: 'When you use opaque PV materials...' (Opak, yani ışık geçirmeyen malzemeler kullandığınızda...). Sorun, eski malzemelerin ışığı geçirmemesi (opaque olması). Işık geçsin diye malzemeyi azaltırsanız verim düşer.",
+                                "wrong": {
+                                    "1": "Geniş alana yayılma zorunluluğundan değil, alan/ışık dengesinden bahsediliyor.",
+                                    "2": "İncelik zorluk nedeni değil, çözüm denemesiydi.",
+                                    "3": "Genelleme yapılmış, oysa sorun özellikle 'opaque' malzemelerle ilgili."
+                                }
+                            }
+                        },
+                        {
+                            "id": 37,
+                            "question": "Which of the following statements CANNOT be understood from paragraph 3?",
+                            "options": [
+                                "The proposed solar cells will absorb all wavelengths of sunlight except those that enable sight.",
+                                "Solar cells can make use of energy which is made up of a number of different wavelengths.",
+                                "People are not aware that a solar cell is only letting \"visible light\" pass through it.",
+                                "Richard Lunt continues to work with a team from MIT in developing a transparent PV cell."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Parçada 'Richard Lunt, then an MIT postdoc and now an assistant professor at Michigan State University' (O zamanlar MIT'de doktora sonrası araştırmacı, şimdi Michigan State'de profesör) deniyor. Yani artık MIT ekibiyle değil, başka bir kurumda.",
+                                "wrong": {
+                                    "0": "Doğru: 'absorb all... except the part that allows us to see'.",
+                                    "1": "Doğru: 'spectrum of wavelengths... each has energy'.",
+                                    "2": "Doğru: 'people don't notice'."
+                                }
+                            }
+                        },
+                        {
+                            "id": 38,
+                            "question": "The writer mentions tinted glass in paragraph 4 in order to ----.",
+                            "options": [
+                                "stress the strong impact that the new solar cells have on visible light in their current form",
+                                "provide an example of how it looks when 70% of visible light passes through a window",
+                                "compare the amount of energy that could be collected from tinted windows and the new solar cells",
+                                "explain what will happen when the new solar cells are put one on top of another"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Yazar, yeni hücrelerin ışığın %70'ini geçirdiğini söylüyor ve bunun neye benzediğini anlatmak için 'similar to... tinted glass' (renkli cama benzer) diyerek okuyucunun gözünde canlandırması için örnek veriyor.",
+                                "wrong": {
+                                    "0": "Güçlü etkiden değil, benzerlikten bahsediliyor.",
+                                    "2": "Enerji miktarı karşılaştırması yapılmıyor, görünüş karşılaştırılıyor.",
+                                    "3": "Üst üste koyma fikri daha sonraki cümlede geçiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "question": "The word \"longevity\" in paragraph 5 is closest in meaning to",
+                            "options": [
+                                "having a lifespan of many years",
+                                "making windows whose length is sufficient",
+                                "producing windows that are easy to see through",
+                                "working together with a large number of industries"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Longevity' uzun ömürlülük demektir. Metinde 'last for decades' (onlarca yıl dayanmak) ifadesiyle açıklanmıştır.",
+                                "wrong": {
+                                    "1": "Fiziksel uzunluk (length) ile ilgili değil.",
+                                    "2": "Görünürlükle ilgili değil.",
+                                    "3": "Endüstri işbirliğiyle ilgili değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "question": "The phrase \"piggyback on the infrastructure\" in paragraph 6 could best be replaced by",
+                            "options": [
+                                "be transported easily",
+                                "be used on traditional and current solar systems",
+                                "produce a large amount of energy",
+                                "be built on top of already present windows and frames"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Piggyback' sırta binmek/hazıra konmak demektir. Burada mevcut altyapıyı (pencereler, çerçeveler) kullanmak anlamında. 'Added to windows and their frames for very little extra cost' ifadesi bunu destekler.",
+                                "wrong": {
+                                    "0": "Taşınma kolaylığı değil.",
+                                    "1": "Geleneksel sistemlerle değil, bina altyapısıyla ilgili.",
+                                    "2": "Enerji miktarıyla ilgili değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "question": "According to paragraph 6, one source of reduced costs provided by transparent PV cells is that ----.",
+                            "options": [
+                                "the manufacture of transparent PV cells is much quicker than that of traditional PV cells",
+                                "the transparent PV cells are able to produce energy in more types of weather than the traditional PV cells",
+                                "it is inexpensive to make use of the power which is produced by windows with this type of PV cell",
+                                "traditional solar systems distribute power inconsistently, but transparent PV cells distribute it consistently"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragrafın sonunda: 'distributing the energy... is as simple as placing a wire... significantly cheaper' (enerjiyi dağıtmak... bir kablo koymak kadar basit... çok daha ucuz) deniyor. Enerjiyi kullanıma sunmak (dağıtmak) ucuz.",
+                                "wrong": {
+                                    "0": "Üretim hızı değil, üretimdeki enerji yoğunluğu (energy-intensive) karşılaştırılmış.",
+                                    "1": "Hava durumu ile ilgili bir bilgi yok.",
+                                    "3": "Güç dağıtımının tutarlılığı değil, maliyeti karşılaştırılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 42,
+                            "question": "Where would the following sentence best fit in paragraph 7?\nMoreover, the solar cells will block much of the sun's infrared radiation that heats up a building too much.",
+                            "options": [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Eklenecek cümle: 'Ayrıca, bu hücreler binayı ısıtan kızılötesi radyasyonu engeller.'\nMetindeki B noktası: 'That will cut down on air conditioning needs' (Bu, klima ihtiyacını azaltacaktır).\nMantık akışı: Radyasyonu engeller (Eklenecek cümle) -> BU DA (That) klima ihtiyacını azaltır. Bu yüzden B noktasına gelmelidir.",
+                                "wrong": {
+                                    "0": "A noktası elektrik üretimiyle ilgili.",
+                                    "2": "C noktası görünüşle ilgili.",
+                                    "3": "D noktası gezegeni kurtarmakla ilgili."
+                                }
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "question": "The text mainly discusses ---",
+                            "options": [
+                                "how researchers were able to develop both opaque and transparent PV cells",
+                                "whether transparent PV cells can work and whether they can be more efficient than other PV cells",
+                                "advances in different types of PV cells which increase efficiency while decreasing in cost",
+                                "advantages of a recently developed transparent PV cell and difficulties researchers are trying to overcome"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Metin, yeni geliştirilen şeffaf güneş hücrelerini, bunların nasıl çalıştığını, avantajlarını (maliyet, estetik, enerji) ve karşılaşılan zorlukları (verimlilik, ömür) detaylıca ele alıyor.",
+                                "wrong": {
+                                    "0": "Opak hücrelerin geliştirilmesi ana konu değil, karşılaştırma unsuru.",
+                                    "1": "Diğerlerinden daha verimli olup olamayacağı değil (şu an %2), potansiyeli tartışılıyor.",
+                                    "2": "Genel olarak tüm PV hücre türleri değil, spesifik olarak şeffaf olanlar anlatılıyor."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

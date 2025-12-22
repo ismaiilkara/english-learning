@@ -1,0 +1,1102 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Great Barrier Reef",
+                    "passage": {
+                        "title": "The Great Barrier Reef",
+                        "text": "The Great Barrier Reef, (1)_____ off the coast of Australia, is the world's largest coral reef system. (2)_____ of over 2,900 individual reefs and 900 islands, it is so vast it (3)_____ from space. (4)_____ a breathtaking diversity of marine life, the reef is currently facing significant threats. The most serious (5)_____ is coral bleaching, (6)_____ by rising ocean temperatures. If the water (7)_____ too warm for an extended period, the corals expel the colorful algae living in their tissues, (8)_____ them to turn stark white. (9)_____ immediate and significant action is taken to combat climate change, scientists warn that large portions of this natural wonder could be lost forever. (10)_____, local efforts to improve water quality and control tourism are also underway to help increase the reef's resilience."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "is located",
+                                "locating",
+                                "located",
+                                "having located"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Located\" doğru çünkü burada 'Avustralya açıklarında bulunan' demek istiyoruz. İngilizcede yer tarif ederken kısaltma yaparak 'located' kelimesini kullanırız (which is located -> located).",
+                                "wrong": {
+                                    "0": "\"is located\" kullanırsan cümlede zaten 'is' fiili var, gramer bozulur.",
+                                    "1": "\"locating\" resif bir şeyi buluyor demek olur, ama o orada bulunuyor.",
+                                    "3": "\"having located\" resif bir şeyi bulup bitirmiş gibi olur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "Composing",
+                                "Composed",
+                                "It is composed",
+                                "To compose"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Composed of\" kalıbı 'bir şeyden oluşmak' demektir. Cümleye '...dan oluşan' diye başlamak için 'Composed of' kullanılır.",
+                                "wrong": {
+                                    "0": "\"Composing\" dersen resif parçaları birleştiriyor (aktif) olur.",
+                                    "2": "\"It is composed\" dersen bağlaçsız yeni cümle başlamış olursun, hatalı olur.",
+                                    "3": "\"To compose\" dersen amaç bildirirsin (oluşturmak için), burada durum anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "can be seen",
+                                "can see",
+                                "has seen",
+                                "is seeing"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Can be seen\" (görülebilir) doğru çünkü resif görülme eylemine maruz kalır (Passive Voice). Uzaydan insanlar tarafından görülebilir.",
+                                "wrong": {
+                                    "1": "\"can see\" dersen resifin gözleri var ve bakıyor demek olur.",
+                                    "2": "\"has seen\" geçmişte gördü demek.",
+                                    "3": "\"is seeing\" şu an görüyor demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "While supporting",
+                                "Despite it supports",
+                                "As it supports",
+                                "In spite of"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"While supporting\" doğru. Anlamı: 'Desteklemesine RAĞMEN'. Zıtlık bildirmek için 'While + Ving' kalıbı sık kullanılır.",
+                                "wrong": {
+                                    "1": "\"Despite\"tan sonra tam cümle (it supports) gelmez.",
+                                    "2": "\"As it supports\" dersen 'desteklediği İÇİN tehdit altında' gibi anlamsız bir sebep-sonuç çıkar.",
+                                    "3": "\"In spite of\" genellikle sadece isimle kullanılır, fiil (supporting) ile kullanımı 'while' kadar akıcı değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "threat",
+                                "problem",
+                                "which",
+                                "one"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metin bir önceki cümlede 'significant threats' (önemli tehditler) dedi. Şimdi en ciddi 'tehdidi' (threat) açıklıyor. Kelime uyumu için 'threat' en iyisidir.",
+                                "wrong": {
+                                    "1": "\"problem\" olabilir ama metin 'threat' kelimesine odaklanmış.",
+                                    "2": "\"which\" buraya gramer olarak uymaz.",
+                                    "3": "\"one\" çok genel kalır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "is causing",
+                                "caused",
+                                "is caused",
+                                "causing"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Caused\" (sebep olunan) doğru. 'Rising ocean temperatures' (artan sıcaklıklar) TARAFINDAN sebep olunan bir durum. Pasif kısaltma var.",
+                                "wrong": {
+                                    "0": "\"is causing\" dersen ağarma olayı sıcaklığa sebep oluyor demek olur.",
+                                    "2": "\"is caused\" dersen cümlede fazladan fiil olur.",
+                                    "3": "\"causing\" dersen yine aktif anlam çıkar (sebep olan)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "will stay",
+                                "stays",
+                                "would stay",
+                                "stayed"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Stays\" doğru. If Clause Type 1 (Genel/Gerçek durumlar). 'Eğer su sıcak kalırsa...' bilimsel bir gerçeği anlatıyor.",
+                                "wrong": {
+                                    "0": "\"will stay\" If'in hemen yanındaki cümlecikte 'will' kullanılmaz.",
+                                    "2": "\"would stay\" hayali durumlar içindir.",
+                                    "3": "\"stayed\" geçmiş zaman anlatır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "causing",
+                                "causes",
+                                "to cause",
+                                "caused"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Causing\" (sebep olarak) doğru. Virgül + Ving yapısı, önceki cümlenin sonucunu anlatır: 'Algleri atarlar, bu da beyazlamaya SEBEP OLUR'.",
+                                "wrong": {
+                                    "1": "\"causes\" dersen yeni bir özneye ihtiyaç duyarsın.",
+                                    "2": "\"to cause\" amaç bildirir.",
+                                    "3": "\"caused\" geçmiş zaman bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "If",
+                                "Provided",
+                                "Whereas",
+                                "Unless"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Unless\" (olmadıkça / eğer olmazsa) doğru. 'Eğer önlem ALINMAZSA, yok olacak'.",
+                                "wrong": {
+                                    "0": "\"If\" koyarsan 'Eğer önlem alınırsa yok olacak' gibi saçma bir anlam çıkar.",
+                                    "1": "\"Provided\" da 'eğer/şartıyla' demektir, if ile aynı hatayı verir.",
+                                    "2": "\"Whereas\" zıtlık bağlacıdır, koşul bildirmez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "In contrast",
+                                "Nevertheless",
+                                "Furthermore",
+                                "Consequently"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Nevertheless\" (Yine de / Buna rağmen) doğru. Kötü bir durumdan (yok olma riski) iyi bir duruma (kurtarma çabaları) geçiş yapılıyor.",
+                                "wrong": {
+                                    "0": "\"In contrast\" genellikle iki nesneyi kıyaslarken kullanılır.",
+                                    "2": "\"Furthermore\" dersen kötü habere devam etmen gerekirdi.",
+                                    "3": "\"Consequently\" dersen 'yok olmasının sonucu çaba göstermektir' gibi olur."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "statement": "Iodine-131 spreads after nuclear disasters and harms children, yet for unknown reasons it does not seem to affect adults.",
+                            "options": [
+                                "All children are impacted by iodine-131, which covers a wide area after nuclear disasters, but fewer adults are affected.",
+                                "Despite having bad effects on children, iodine-131, which spreads after nuclear disasters, apparently does not harm adults, but no one knows why.",
+                                "The reasons why iodine-131 damages the health of kids but not adults are poorly understood, so its spread must be limited after nuclear accidents.",
+                                "Settling over an extended area after nuclear accidents, iodine-131 not only has devastating effects on children but also impacts adults to some degree."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümle 'Çocuklara zarar verir ama bilinmeyen sebeplerle yetişkinleri etkilemez' diyor. B şıkkı da 'bad effects on children... does not harm adults... no one knows why' diyerek bunu tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'daha az yetişkin etkileniyor' diyor, orijinalde 'hiç etkilemiyor' denmiş.",
+                                    "2": "C şıkkı yayılmasının sınırlandırılması gerektiği gibi bir yorum eklemiş.",
+                                    "3": "D şıkkı yetişkinleri de etkilediğini söylüyor, yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "statement": "Some cancers are prevented by giving pills containing a non-radioactive type of iodine soon after exposure to radiation.",
+                            "options": [
+                                "Some cancers resulting from being exposed to radiation no longer exist due to a pill made up of non-radioactive iodine.",
+                                "Taking pills with a kind of iodine that is not radioactive right after exposure to radiation keeps some cancers from forming.",
+                                "People do not get some cancers when exposed to radiation even when given a pill with a non-radioactive kind of iodine within a short time.",
+                                "If only pills that do not have a radioactive type of iodine and that decrease cancer rates could be given shortly after exposure to radiation takes place."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümle 'Hap vermek bazı kanserleri önler' diyor. B şıkkı 'keeps some cancers from forming' (oluşmasını engeller) diyerek aynı anlamı veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'artık yok' (no longer exist) diyor, çok iddialı.",
+                                    "2": "C şıkkı 'hap verilse bile kanser olmazlar' gibi hatalı bir mantık kurmuş.",
+                                    "3": "D şıkkı 'keşke verilseydi' diye bir dilek cümlesi kurmuş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "statement": "It is suggested that the radioactivity levels around Fukushima have dropped enough to have only a limited impact on animals in the wild.",
+                            "options": [
+                                "Some people report that wild animals close to Fukushima have become resistant to high levels of radioactivity.",
+                                "The falling level of radiation is likely to attract wild animals to the area by Fukushima once again, according to some.",
+                                "The current lower levels of radioactivity near Fukushima are not thought to have a large effect on wild animals anymore.",
+                                "It is believed that the number of wild animals in the Fukushima area is so small that radioactivity levels have stopped being an important factor."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümle 'Radyasyon hayvanlara sınırlı etki edecek kadar düştü' diyor. C şıkkı 'not thought to have a large effect' (büyük etki etmediği düşünülüyor) diyerek bunu doğruluyor.",
+                                "wrong": {
+                                    "0": "A şıkkı hayvanların direnç kazandığını söylüyor, yanlış.",
+                                    "1": "B şıkkı hayvanların geri döneceğini söylüyor, bilgi yok.",
+                                    "3": "D şıkkı hayvan sayısının azlığından bahsediyor, alakasız."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "statement": "Little greenhouse gas is produced at nuclear power plants, so one reason for climate change is that there are few nuclear power plants.",
+                            "options": [
+                                "There used to be less climate change since there were more nuclear power plants which emitted little greenhouse gas.",
+                                "Climate change will be slowed only when nuclear power plants that give out low amounts of greenhouse gas are set up.",
+                                "The low number of nuclear power plants is a factor contributing to climate change as these plants produce only a small amount of greenhouse gas.",
+                                "Because they give out almost no greenhouse gas, nuclear power plants are increasing in number, lowering the level of greenhouse gas and decreasing climate change."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümle 'Nükleer santraller az gaz üretir, sayıları az olduğu için iklim değişikliği oluyor' mantığını kuruyor. C şıkkı 'low number... is a factor contributing to climate change' diyerek bunu destekliyor.",
+                                "wrong": {
+                                    "0": "A şıkkı geçmişten bahsediyor, zaman hatası.",
+                                    "1": "B şıkkı 'sadece kurulduğunda yavaşlar' diyor, şart koşuyor.",
+                                    "3": "D şıkkı sayıların arttığını söylüyor, metin az olduğunu söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "statement": "At the beginning of World War II, Czechoslovakia surrendered to Germany, but according to many Czechs their country should have fought instead.",
+                            "options": [
+                                "Many Czechs are sorry their country gave in rather than fight against Germany in the early days of World War II.",
+                                "It would be a mistake to say Czechoslovakia refused to fight Germany at the start of World War II, many Czechs say.",
+                                "Most Czechs claim that fighting against the Germans in the first days of World War II would have destroyed their country.",
+                                "In general, Czechs think it would be better for their country to fight against Germany because of what happened when World War II began."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Orijinal cümle 'Teslim oldular ama birçok Çek savaşmaları gerektiğini (should have fought) düşünüyor' diyor. A şıkkı 'Many Czechs are sorry their country gave in' (teslim oldukları için üzgünler) diyerek bu pişmanlığı yansıtıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı anlamı çarpıtıyor.",
+                                    "2": "C şıkkı 'savaşsalardı yok olurlardı' diyor, tam tersi.",
+                                    "3": "D şıkkı gelecek veya genel bir durumdan bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "statement": "In the area now known as the Czech Republic, the current Jewish population is only a small fraction of the Jewish population that lived there before World War II.",
+                            "options": [
+                                "In the place now named the Czech Republic, the dramatic drop in the Jewish population took place prior to World War II.",
+                                "The shocking fall in the Jewish population before World War II is the reason why only a small number of people live in the Czech Republic today.",
+                                "Compared to the number of Jews living there before World War II, their number in what is now called the Czech Republic is much smaller.",
+                                "In what is now the Czech Republic, there was a significant decrease in the Jewish population during and after World War II, but now their number is slowly growing."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümle 'Şimdiki Yahudi nüfusu eskiye göre çok küçük bir parça' diyor. C şıkkı 'Compared to... much smaller' (Kıyaslandığında... çok daha küçük) diyerek aynı oranı veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı düşüşün savaştan 'önce' olduğunu söylüyor, yanlış.",
+                                    "1": "B şıkkı genel nüfusun azlığından bahsediyor.",
+                                    "3": "D şıkkı sayıların arttığını söylüyor, bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "statement": "Between 1941 and 1944, consulate worker Necdet Kent gave documents of citizenship to many Turkish Jews in France who did not have proper identity papers, saving them from the Nazis.",
+                            "options": [
+                                "Due to the Nazi’s growing power, a large number of Jews from Turkey that lived in France were protected from Necdet Kent, a consulate worker, between 1941 and 1944.",
+                                "Many of the Turkish Jews living in France had failed to obtain proper identification and were in danger until consulate worker Necdet Kent led battles against the Nazis from 1941 to 1944.",
+                                "Beginning in 1941, Necdet Kent, a consulate worker, spent three years enabling many Turkish Jews who were in France to get the necessary documents regarding citizenship so that they could defend the Nazis.",
+                                "From 1941 to 1944, consulate officer Necdet Kent kept the Nazis from capturing a lot of Jews living in France who were from Turkey and who did not have proper ID by providing these Jews with citizenship papers."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Orijinal cümle 'Belge vererek onları Nazilerden kurtardı' diyor. D şıkkı 'kept the Nazis from capturing... by providing citizenship papers' diyerek aynısını söylüyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'Necdet Kent'ten korundular' diyor, anlam bozuk.",
+                                    "1": "B şıkkı 'savaş yönetti' (led battles) diyor, yanlış.",
+                                    "2": "C şıkkı 'Nazileri savunsunlar diye' diyor, yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "statement": "After the Fukushima nuclear disaster in Japan, 72-year-old Yasuteru Yamada organized a volunteer group of elderly men to do clean-up work at the failed nuclear plant so that young men would not need to.",
+                            "options": [
+                                "72-year-old Yasuteru Yamada was opposed to having young men clean up after the Fukushima disaster in Japan, so he devised a plan which involved forcing elderly men to work there.",
+                                "To eliminate the need for young men to work at the Fukushima nuclear plant in Japan after the explosion took place, 72-year-old Yasuteru Yamada got some elderly men to take part in clean-up work.",
+                                "Young men had to participate in the clean up after the Fukushima nuclear disaster in Japan until 72-year-old Yasuteru Yamada and other elderly men protested against making these young men work in this way.",
+                                "The clean-up work after the Fukushima nuclear disaster in Japan must be done by young men until the volunteer group of older men organized by Yasuteru Yamada becomes large enough to fully take over these duties."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümle 'Gençlerin çalışmasına gerek kalmasın diye yaşlıları organize etti' diyor. B şıkkı 'To eliminate the need for young men...' (İhtiyacı ortadan kaldırmak için) diyerek başlıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı yaşlıları 'zorladığını' söylüyor.",
+                                    "2": "C şıkkı 'protesto ettiklerini' söylüyor.",
+                                    "3": "D şıkkı grup büyüyene kadar gençlerin çalışması gerektiğini söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "statement": "The gender difference in life expectancy, which favors females, is larger in developed countries than in less developed ones.",
+                            "options": [
+                                "The more advanced a country is, the longer a woman who resides there can expect to live.",
+                                "Women have a longer life expectancy than men, and this difference is even greater in developed countries.",
+                                "Less developed countries have shorter life expectancies, and women from these places have especially short lives.",
+                                "Women live longer than men, and women in both more and less developed countries are making significant gains in life expectancy."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümle 'Kadın lehine olan fark, gelişmiş ülkelerde daha büyük' diyor. B şıkkı 'difference is even greater in developed countries' diyerek farkın büyüklüğünü vurguluyor.",
+                                "wrong": {
+                                    "0": "A şıkkı sadece kadınların uzun yaşadığını söylüyor, farktan bahsetmiyor.",
+                                    "2": "C şıkkı az gelişmiş ülkeleri kötülüyor.",
+                                    "3": "D şıkkı artıştan bahsediyor, kıyaslama yapmıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "statement": "Over 80% of diseases used to be associated with unhygienic practices; thus, it has been possible to reduce their number by simple alterations in behavior.",
+                            "options": [
+                                "Innovations in medical procedures are the main reason that more than 80% of illnesses connected to a lack of cleanliness have been eliminated.",
+                                "Poor cleaning practices caused over 80% of sicknesses; nevertheless, it has not been an easy task to change the behaviors that people were used to.",
+                                "Basic changes in hygiene procedures have been able to decrease the cases of many diseases because over 80% of them were related to unsterile behaviors.",
+                                "The diseases caused by poor hygienic practices may be overcome by better hygiene, and these healthier techniques are being used to eliminate 80% of diseases."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümle 'Hastalıkların %80'i hijyenle ilgiliydi, bu yüzden davranış değişikliğiyle azaldı' diyor. C şıkkı 'decrease the cases... related to unsterile behaviors' diyerek bunu veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'tıbbi yenilikler' diyor, metin 'davranış değişikliği' diyor.",
+                                    "1": "B şıkkı 'kolay olmadı' diyor, zorluktan bahseden yok.",
+                                    "3": "D şıkkı %80'ini yok etmekten bahsediyor, oran hastalık sebebiyle ilgili."
+                                }
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "statement": "The role of bacteria in causing many diseases was identified in the 1880s, yet the first effective treatments were not developed until the 1930s.",
+                            "options": [
+                                "Even in the 1930s, innovative therapies based on research about bacteria that had been done in the 1880s failed to come out.",
+                                "The 1880s was when doctors first tried new treatments for diseases caused by bacteria; however, they did not have any success for 50 years.",
+                                "The first success in treating a disease related to bacteria took place in the 1930s, but doctors could have developed such procedures in the 1880s.",
+                                "It took 50 years, from the 1880s to the 1930s, to advance form discovering that bacteria brought about many diseases to actually treating such diseases successfully."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Orijinal cümle keşif (1880) ile tedavi (1930) arasındaki zamanı vurguluyor. D şıkkı 'It took 50 years... to advance' diyerek bu süreci özetliyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 1930'da bile başarısız olduklarını söylüyor.",
+                                    "1": "B şıkkı 1880'de tedavi denediklerini söylüyor, sadece keşif vardı.",
+                                    "2": "C şıkkı 'yapabilirlerdi' diye yorum katıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "As life spans increase, diseases associated with aging go up, so we are going to need innovation to treat them.",
+                            "options": [
+                                "Creative ways to cure diseases related to being elderly will be needed since living longer leads to more illnesses.",
+                                "As we get older, we suffer from more diseases, yet we also come up with innovative methods that help us live longer.",
+                                "The need for innovation in medicine has never been greater because the growing number of diseases is threatening life expectancy.",
+                                "The latest treatments have significantly increased the number of years people live, and we are in need of more treatments like that."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Orijinal cümle 'Ömür uzayınca yaşlılık hastalıkları artıyor, bu yüzden inovasyon lazım' diyor. A şıkkı 'Creative ways... needed since living longer leads to more illnesses' diyerek sebep-sonuç ilişkisini koruyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'zaten inovasyon yapıyoruz' diyor.",
+                                    "2": "C şıkkı hastalıkların ömrü tehdit ettiğini söylüyor.",
+                                    "3": "D şıkkı son tedavilerin ömrü uzattığına odaklanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Money is something we all use every day but rarely think about, except when we don't have enough of it.",
+                            "options": [
+                                "Other than the times when we have too little money, we hardly ever think about this item we use daily.",
+                                "Not having enough money, we try not to focus on it very much, but we still have to spend it each day.",
+                                "A lack of money often makes us consider the banknotes we use, especially since we must use them daily.",
+                                "If we exclude the times that we have a lack of money, we rarely try to solve our financial struggles."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Orijinal cümle 'Paramız yetmediği zamanlar hariç, para hakkında nadiren düşünürüz' diyor. A şıkkı da aynı istisnayı 'Other than the times...' diyerek veriyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'paramız yokken düşünmemeye çalışırız' diyor, tam tersi.",
+                                    "2": "C şıkkı sadece düşünme kısmına odaklanmış, düşünmeme kısmını atlamış.",
+                                    "3": "D şıkkı sorun çözmekten bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Paper banknotes reduced transporting precious metals such as gold and silver, which was a risky operation.",
+                            "options": [
+                                "Paper currency got rid of shipping valuable metals like gold and silver, which were high risk investments.",
+                                "Moving gold, silver and other precious metals carried risk, and transporting it declined when paper currency came into use.",
+                                "Valuable goods like gold and silver are hard to move while paper banknotes are easier to transfer to another location.",
+                                "Unlike metals like gold and silver that are worth a lot of money, banknotes made of paper have less value and are not as risky to move."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümle 'Kağıt para, riskli olan metal taşıma işini azalttı' diyor. B şıkkı 'transporting it declined when paper currency came into use' diyerek aynı süreci anlatıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı metallerin 'yatırım' olarak riskli olduğunu söylüyor.",
+                                    "2": "C şıkkı 'hareket ettirmesi zor' diyor, riskten bahsetmiyor.",
+                                    "3": "D şıkkı kağıt paranın değersiz olduğunu söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "In the US, some communities produce a local currency, which encourages more spending at businesses within the community.",
+                            "options": [
+                                "A local currency promotes shopping locally, and banknotes for this purpose are usually made in the US.",
+                                "In an attempt to enable local businesses to grow, some areas in the US spend money at shops by their homes.",
+                                "To give a boost to companies in an area, various communities in the US make money that can only be spent locally.",
+                                "In the US, it has been found that distributing banknotes that can only be used in one community helps businesses there."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Orijinal cümle 'Yerel para, yerel harcamayı teşvik eder' diyor. D şıkkı 'helps businesses there' (işletmelere yardım eder) diyerek sonucu özetliyor.",
+                                "wrong": {
+                                    "0": "A şıkkı paraların ABD'de yapılmasına odaklanıyor.",
+                                    "1": "B şıkkı insanların evlerinin yakınında harcadığını söylüyor ama özel para biriminden bahsetmiyor.",
+                                    "2": "C şıkkı paranın 'sadece' yerelde harcanabileceği kısıtlamasını getiriyor, teşvikten çok kural gibi anlatmış."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 1: Meet the Nuclear Cattle of Fukushima",
+                    "paragraphs": [
+                        "Tamotsu Matsubara, a Japanese filmmaker, discovered a strange story in 2012. He heard of a group of farmers in Fukushima's nuclear exclusion zone, where agriculture was completely forbidden, fighting to keep their radiation-affected cows alive even though they brought them no profit. \"The farmers think of these cows as family, so they don't want to kill them just because they're not worth anything,\" says Matsubara. He went on to make a film called 'Nuclear Cattle' (Hibaku Ushi) about the cattle, each of which costs around 2,000 dollars a year to care for. The farmers featured in Matsubara's film are those who refused to obey the Japanese government's initial orders to slaughter all cows in the exclusion zone. \"By disobeying the government and keeping these cows alive, these farmers are serving a greater purpose for humanity and for science,\" explained Matsubara.",
+                        "On March 11, 2011, a 15-meter tsunami triggered by an 8.9-magnitude earthquake disabled the Daiichi nuclear power plant in Fukushima, causing a nuclear accident. Residents within a 20 km radius of the facility were forced to evacuate their homes and leave their possessions behind. Before leaving, some farmers released their cows so that they could roam free and survive in the nuclear fallout-affected area. 1,400, however, died from starvation, while the government killed 1,500 more. Nevertheless, some of the cattle in the exclusion zone survived, and since 2012, Matsubara has documented the relationship between six farmers and their surviving cows.",
+                        "The farmers, who return two or three times a week to their former farms, initially kept their cows alive out of love. However, since 2013, Keiji Okada, an animal science expert at Iwate University, has been carrying out tests on them. Okada established the Society for Animal Refuge, a non-profit organization with researchers from Iwate and Tokyo Universities. He says the project will provide much more information about the effects of radiation on large animals. \"Large mammals are different from bugs and small birds because mammal genes can repair themselves more easily, so no one knows exactly what impact the radiation has,\" Okada said. \"We need to know how radiation exposure affects large mammals.\" So far, the cows living within the exclusion zone do not have leukemia or cancer, two diseases associated with high levels of radiation exposure. Some, however, have a rash – a number of white spots – on their hides which farmers suspect are the side-effects of this menace. Okada believes the study will provide much needed knowledge in the event of another disaster. \"We need to know what levels of radiation are safe for large mammals so that killing livestock can be kept to a minimum,\" added Okada.",
+                        "While some farmers have cut their ties with farming and begun to rebuild their lives by starting new businesses in decontaminated areas in Fukushima, others are continuing the campaign to keep the cows alive within the exclusion zone. \"These cows are the witnesses of the nuclear accident, so we need to help them survive,\" says Masami Yoshikawa in Nuclear Cattle. He is from Namie, a town in the heart of the exclusion zone. Unlike the farmers who have quit farming, he and other farmers have continued their connection with farming because they believe the cows of Fukushima are important. \"They're the cows of hope,\" he says."
+                    ],
+                    "questions": [
+                        {
+                            "id": 16,
+                            "question": "The word slaughter in paragraph 1 is closest in meaning to ----.",
+                            "options": [
+                                "capture",
+                                "kill",
+                                "keep track of",
+                                "keep safe"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Slaughter\" kesmek, katletmek, öldürmek (özellikle hayvanlar için) demektir. Paragrafta hükümetin inekleri yok etme emrinden bahsediliyor.",
+                                "wrong": {
+                                    "0": "\"capture\" yakalamak.",
+                                    "2": "\"keep track of\" takip etmek.",
+                                    "3": "\"keep safe\" güvende tutmak."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "question": "From paragraph 1, it can be understood that ----.",
+                            "options": [
+                                "in 2012 no farming of any type was permitted in the exclusion zone",
+                                "the cows from Fukushima still had some financial value despite being affected by radiation",
+                                "the Japanese government opposed the production of the film 'Nuclear Cattle'",
+                                "the film 'Nuclear Cattle' helped reduce the financial losses of the farmers of Fukushima"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf 1'de 'where agriculture was completely forbidden' (tarımın tamamen yasak olduğu yer) ifadesi geçiyor. Bu da A şıkkını doğrular.",
+                                "wrong": {
+                                    "1": "Paragrafta ineklerin 'not worth anything' (değersiz) olduğu yazıyor.",
+                                    "2": "Hükümetin filme karşı çıktığına dair bilgi yok, ineklerin öldürülmesini istediklerine dair bilgi var.",
+                                    "3": "Filmin finansal zararı azalttığına dair bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "question": "The purpose of paragraph 2 is to ----.",
+                            "options": [
+                                "show the great destruction to homes around Fukushima after the 2011 earthquake",
+                                "prove that the Japanese government was unprepared for a large earthquake",
+                                "explain why the farmers of Fukushima were angry with the Japanese government",
+                                "give information about the history of the cows found in the exclusion zone"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Paragraf, depremden sonra ineklere ne olduğunu, kaçının öldüğünü, kaçının salındığını anlatıyor. Yani ineklerin geçmişini (history) veriyor.",
+                                "wrong": {
+                                    "0": "Odak noktası evler değil inekler.",
+                                    "1": "Hükümetin hazırlıksızlığı kanıtlanmaya çalışılmıyor.",
+                                    "2": "Çiftçilerin kızgınlığı ana konu değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "question": "The phrase this menace in paragraph 3 refers to ----.",
+                            "options": [
+                                "a rash",
+                                "radiation exposure",
+                                "leukemia or cancer",
+                                "the exclusion zone"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Menace\" tehdit demektir. Cümle, beyaz lekelerin 'bu tehdidin' yan etkisi olduğunu söylüyor. Konu radyasyonun etkileri olduğu için tehdit 'radyasyon'dur.",
+                                "wrong": {
+                                    "0": "Rash (leke) bir sonuçtur.",
+                                    "2": "Kanser bir sonuçtur.",
+                                    "3": "Bölge (zone) tehdidin kaynağı değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "question": "In paragraph 3, we understand that Keiji Okada ----.",
+                            "options": [
+                                "had been working with the farmers in the exclusion zone before he began his research project",
+                                "is doing tests on all types of animals that were affected by the Fukushima nuclear disaster",
+                                "thinks researching effects of radiation is critical but is unsure if this will help in the case of another nuclear disaster",
+                                "believes information gathered about the effects of radiation on large animals is insufficient"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Okada şöyle diyor: 'no one knows exactly what impact the radiation has... We need to know'. Yani şu anki bilginin yetersiz olduğunu ve öğrenmemiz gerektiğini söylüyor.",
+                                "wrong": {
+                                    "0": "Önceden çalıştığına dair bilgi yok.",
+                                    "1": "Sadece büyük memeliler üzerine çalışıyor, tüm hayvanlar değil.",
+                                    "2": "Gelecekteki felaketlerde işe yarayacağına (safe levels) inanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "question": "In paragraph 4, the writer contrasts ----.",
+                            "options": [
+                                "farmers who have not lost their connection with farming and those who have",
+                                "the cows that survived the disaster and those that were killed",
+                                "people who have been affected by a nuclear accident and people who have not",
+                                "life for farmers before the nuclear disaster and life for them after it"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf 'While some farmers have cut their ties... others are continuing' (Bazıları bağını koparmışken... diğerleri devam ediyor) diye başlıyor. İki grup çiftçiyi kıyaslıyor.",
+                                "wrong": {
+                                    "1": "İneklerin kıyaslaması 2. paragraftaydı.",
+                                    "2": "Etkilenmeyen insanlardan bahsedilmiyor.",
+                                    "3": "Eski ve yeni hayat değil, iki farklı tepki veren grup kıyaslanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "question": "The text discusses all of the following except ----.",
+                            "options": [
+                                "the motivation for the ‘Nuclear Cattle’ film",
+                                "the response to the ‘Nuclear Cattle’ film",
+                                "reasons for keeping the cows of Fukushima alive",
+                                "an unplanned opportunity for research"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Filmin neden yapıldığı (motivation), ineklerin neden tutulduğu (reasons), araştırma fırsatı (research) metinde var. Ancak filmin izleyiciden nasıl tepki aldığı (response) yok.",
+                                "wrong": {
+                                    "0": "Yönetmenin amacı anlatılmış.",
+                                    "2": "Çiftçilerin inekleri aile gibi gördüğü anlatılmış.",
+                                    "3": "Bilimsel araştırma fırsatı anlatılmış."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 2: A Remarkable Couple",
+                    "paragraphs": [
+                        "They were a couple in their 30s, a pastor of a church and a social worker, with a 2-year-old daughter and a 7-year-old son. In January 1939, Waitstill Sharp and his wife, Martha, could have turned down the request to leave their children and home in the US and move to Prague to aid people in a country about to be taken over by the Nazis. Seventeen others had declined the mission, but the Sharps said yes. Their willingness to fight against the Nazis set an example of humanitarian aid for America, which had been eschewing the war and not even opening its doors to refugees.",
+                        "Working with various aid networks, the Sharps rescued about 125 people — Jews, political dissidents and others whose lives were under threat. They also got food and other assistance to hundreds more in urgent need. Sometimes the couple took major risks, such as helping targeted individuals get across borders. For instance, one night in March 1939, just after the German occupation of Prague, Martha Sharp aided a man she called “Mr. X” on his way to the British Embassy with the Gestapo close behind. In September 1940, Waitstill Sharp helped the anti-Nazi author Lion Feuchtwanger on a secret journey from Marseille to Lisbon. Sharp and the novelist jumped off one train to escape from authorities, and Feuchtwanger crossed into Spain on foot via mountain paths. The Sharps also obtained visas and departure tickets, including transatlantic passage for 27 children, when many people said it could not be done. They often worked apart, traveling solo in an increasingly dangerous Europe where two Americans together attracted unwanted attention. For their efforts, the Sharps are two of five Americans who received an honor from Yad Vashem, the Holocaust remembrance center in Israel, as “Righteous Among the Nations”. The title is for non-Jews who risked their lives to save Jews from the Nazis.",
+                        "However, the couple’s story only came out due to the persistent curiosity of the Sharps’ grandson, John Joukowsky. After the war, the Sharps divorced in 1954. Afterward, they rarely spoke about their work in Europe. Both Sharps were by nature modest, never praising themselves for their heroic acts, and they felt great sorrow for the many they did not save, including eight Jews who worked in their Prague office but later died in concentration camps. Joukowsky got the first details of their story in 1976 when he was 14. That year, a teacher gave him this assignment: Interview someone who had shown moral courage. He asked his mom for ideas. She said: ‘Why don’t you talk to your grandparents? They did some cool things during World War II,” recalls Joukowsky. In addition to leading to the writing of a history paper that got an “A”, the conversations he had with them created a great desire to learn more.",
+                        "It took many years to accomplish this. Waitstill died in 1984, and Martha in 1999. After his grandmother’s death, Joukowsky discovered a box of documents hidden in a corner of her basement — letters, photos, hotel bills, ticket stubs and more. These previously unknown documents included hundreds of names of people the Sharps had helped. Using these sources, Joukowsky created a research team, including private detectives, and tracked down people who knew something of their lives. Interviews with witnesses convinced Joukowsky that their story could make a great film. Years of work led to the September 2016 release of the film Defying the Nazis: The Sharps’ War. A great, true story finally received the publicity it deserved."
+                    ],
+                    "questions": [
+                        {
+                            "id": 23,
+                            "question": "The word eschewing in paragraph 1 is closest in meaning to ----.",
+                            "options": [
+                                "fighting",
+                                "avoiding",
+                                "debating",
+                                "following"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Eschewing\" kaçınmak, uzak durmak demektir. Metinde Amerika'nın savaştan uzak durduğu ve mülteci kabul etmediği söyleniyor. 'Avoiding' en yakın anlamlısıdır.",
+                                "wrong": {
+                                    "0": "\"Fighting\" savaşmak.",
+                                    "2": "\"Debating\" tartışmak.",
+                                    "3": "\"Following\" takip etmek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "question": "Paragraph 2 mainly discusses ----.",
+                            "options": [
+                                "how the Sharps’ brave actions affected the war",
+                                "why the Sharps took such great risks",
+                                "one of the most exciting adventures the Sharps had",
+                                "the Sharps’ heroic actions and an award they received"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Paragraf, çiftin kimi kurtardığını, hangi riskleri aldığını (Mr. X, Feuchtwanger) ve sonunda aldıkları ödülü (Righteous Among the Nations) anlatıyor. Yani kahramanlıkları ve ödülleri özetlenmiş.",
+                                "wrong": {
+                                    "0": "Savaşın sonucunu nasıl etkiledikleri anlatılmıyor.",
+                                    "1": "Neden risk aldıkları (motivasyon) değil, ne yaptıkları anlatılıyor.",
+                                    "2": "Sadece tek bir macera değil, genel eylemleri anlatılıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "question": "In paragraph 2, the reader can understand all of the following EXCEPT ----.",
+                            "options": [
+                                "Martha Sharp was unable to save “Mr. X” despite her brave efforts",
+                                "Feuchtwanger would have been caught if he had not made a daring escape with Waitstill Sharp",
+                                "as the war progressed, it was safer for the Sharps to work separately",
+                                "neither Waitsill or Martha Sharp had a Jewish background"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metinde 'aided a man... on his way to the British Embassy' deniyor. Yani yardım ettiği söyleniyor, başarısız olduğu ('unable to save') söylenmiyor. A şıkkı yanlış bilgidir.",
+                                "wrong": {
+                                    "1": "Trenden atlayıp kaçtıkları anlatılıyor, demek ki yakalanacaklardı.",
+                                    "2": "'Two Americans together attracted unwanted attention' deniyor, yani ayrı olmak daha güvenliydi.",
+                                    "3": "Onların 'non-Jews' (Yahudi olmayan) olduğu ödül kısmında belirtiliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "question": "According to paragraph 3, an important factor in finally making the Sharps’ story known was ----.",
+                            "options": [
+                                "the couple’s divorce",
+                                "the couple’s character",
+                                "a sad story from the Sharps’ time in Prague",
+                                "a suggestion from the Sharps’ daughter"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Torun, annesine (yani Sharpların kızına) soruyor. Annesi de 'Why don't you talk to your grandparents?' diyor. Bu öneri üzerine torun araştırmaya başlıyor.",
+                                "wrong": {
+                                    "0": "Boşanmaları hikayenin gizli kalmasına sebep olmuştu.",
+                                    "1": "Mütevazı karakterleri anlatmamalarına sebep olmuştu.",
+                                    "2": "Üzücü anılar anlatmamalarının sebebiydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 27,
+                            "question": "From the information in paragraph 3, the reader can understand that the Sharps ----.",
+                            "options": [
+                                "had a number of regrets from their time in Europe despite saving many people",
+                                "tried to publish their story but could not find anyone interested in it",
+                                "enjoyed telling friends about their incredible experiences during World War II",
+                                "were not willing to give their grandson all the information he needed to do his school assignment"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metinde 'felt great sorrow for the many they did not save' (kurtaramadıkları için büyük üzüntü duydular) yazıyor. Bu da pişmanlıkları/üzüntüleri olduğunu gösterir.",
+                                "wrong": {
+                                    "1": "Yayınlamaya çalışmadılar, sakladılar.",
+                                    "2": "Anlatmaktan keyif almıyorlardı.",
+                                    "3": "Toruna anlattılar ve o iyi not aldı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "question": "The phrase accomplish this in paragraph 4 refers to ----.",
+                            "options": [
+                                "get an “A”",
+                                "write a history paper",
+                                "learn more",
+                                "have conversations with his grandmother"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "3. paragrafın sonunda 'created a great desire to learn more' (daha fazlasını öğrenme isteği yarattı) denmişti. 4. paragraf 'Bunu başarmak yıllar aldı' diye başlıyor. 'Bunu', öğrenme isteğidir.",
+                                "wrong": {
+                                    "0": "A notunu zaten almıştı.",
+                                    "1": "Ödevi zaten yazmıştı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "question": "According to paragraph 4, the film Defying the Nazis: The Sharps’ War ----.",
+                            "options": [
+                                "was made even though the Sharps were opposed to it",
+                                "was possible because of an unexpected discovery",
+                                "had to be mostly made up because very few people remembered exactly what the Sharps had done",
+                                "was delayed because no film-making company was interested in it at first"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Torun bodrumda 'hidden box of documents' (gizli belge kutusu) buluyor. Bu beklenmedik keşif sayesinde film yapılabiliyor.",
+                                "wrong": {
+                                    "0": "Sharplar vefat etmişti.",
+                                    "2": "Belgeler ve tanıklarla yapıldı, uydurma değil.",
+                                    "3": "Şirketlerin ilgisizliğinden bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "question": "Which of the following is mentioned in the text?",
+                            "options": [
+                                "The reaction of the Sharps’ children when they went to Europe",
+                                "The estimated number of people the Sharps were able to save",
+                                "How the Holocaust remembrance center in Israel learned of the Sharp’s story",
+                                "Where Joukowsky traveled when he was learning his grandparents’ story"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Metinde 'rescued about 125 people' (yaklaşık 125 kişiyi kurtardılar) ifadesi geçiyor.",
+                                "wrong": {
+                                    "0": "Çocukların tepkisi yok.",
+                                    "2": "Merkezin nasıl öğrendiği yok.",
+                                    "3": "Torunun nereye gittiği detaylı yok."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 3: Humans Reaching Their Lifespan Limit",
+                    "paragraphs": [
+                        "Human lifespan can only be extended to a certain length, and we're reaching the limit, say a group of researchers. The research was led by geneticist Jan Vijg at the Albert Einstein College of Medicine in New York. She and her team analyzed aging trends in the United States, France and Japan. They claim that despite life expectancy being dramatically higher than it was 100 years ago, it is extremely unlikely it will continue to rise much higher than what it is right now. They also say the probability of any individual reaching 125 years is incredibly low.",
+                        "Vijg says, \"It’s quite reasonable to expect more people to live to 100.\" On the other hand, the data her group collected strongly suggests the 20th century year-to-year rises in expected life span for people born in a specific birth year ended in the early 1990s, and it has not increased significantly in over 20 years. Regarding extending lifespan up to and beyond 125 years, she says, \"Although there is no one scientific reason why such efforts cannot be successful, the possibility is extremely low due to a myriad of genetic factors. When you consider all the barriers that need to be overcome, you realize how difficult it is to change the lifespan of a specific species,\" she says.",
+                        "Currently, the oldest documented person to ever live was Jeanne Calment, who died at 122 in 1997. Very few people come within 12 years of this record. \"A huge biological time bomb doesn’t just go off after 100,\" Vijg says, yet she does not expect a significant change in Calment’s record. On the other hand, she thinks more people born today will live to be 100. \"Someone who's 100 years old today was born in the 1910s, so they had to survive a great deal of disease, a world war, poor quality food, plus many other negative factors,\" Vijg states. She believes much improved modern living conditions will positively affect lifespan, but she does not know how big a difference they will make. Modern conditions are so different from a century ago that they make it a challenge to project the lifespan of babies born today. But she adds, “Although we may not be able to predict the exact lifespan for these babies, our study clearly shows the upper limit to which they can expect to live.”",
+                        "Director of the UK-based Biogerontology Research Foundation Alex Zhavoronkov agreed Vijg’s report is \"scientifically accurate,\" but he also claims, \"There are many reasons to believe that with more research into the biology of aging, we can live substantially longer.\" Conversely, despite the improvements in living conditions mentioned in Vijg’s study, Zhavoronkov is concerned about children growing up now. \"Obesity is a huge tragedy,\" he says. \"Kids are growing up very unhealthily, so the prospects for their future can't be good.\" Despite being somewhat more optimistic, Zhavoronkov admits there's definitely a limit to how long humans can live. \"It's not biologically feasible to live to 1,000 years. There are constraints on how fast we run and how far we can see. Similarly, bodies have limits about how long they can survive,\" he says."
+                    ],
+                    "questions": [
+                        {
+                            "id": 31,
+                            "question": "According to paragraph 1, Vijg and her research team ----.",
+                            "options": [
+                                "believe more research is needed to learn how long human lifespan can be extended",
+                                "do not accept that lifespan has risen significantly in the last 100 years",
+                                "think humans will not be able to live much longer than they do today",
+                                "believe most humans have the potential to live to 125 years old"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Parçada 'unlikely it will continue to rise much higher than what it is right now' (şu ankinden çok daha yükseğe çıkması olası değil) deniyor. Yani sınıra ulaşıldığını düşünüyorlar.",
+                                "wrong": {
+                                    "0": "Daha fazla araştırma gerekliliğinden bahsetmiyorlar.",
+                                    "1": "Arttığını kabul ediyorlar ('dramatically higher').",
+                                    "3": "125'e ulaşma ihtimalinin çok düşük olduğunu söylüyorlar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "question": "According to paragraph 2, which of the following statements about lifespan would Vijg agree with?",
+                            "options": [
+                                "Reaching 100 years old is realistic for many people, but getting to 125 is not.",
+                                "Humans can increase lifespan if they continue to expand the research done throughout the 20th century.",
+                                "The scientific community should have worked harder to increase lifespan over the last 20 years.",
+                                "A healthier lifestyle is the key to extending lifespan beyond 125 years."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Vijg 'It’s quite reasonable to expect more people to live to 100' (100'ü görmek makul) diyor ama 125 için 'possibility is extremely low' (ihtimal çok düşük) diyor. A şıkkı bu zıtlığı veriyor.",
+                                "wrong": {
+                                    "1": "Araştırmanın ömrü uzatacağını söylemiyor, engellerden bahsediyor.",
+                                    "3": "125'i geçmenin yaşam tarzıyla olacağını söylemiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "question": "The word project in paragraph 3 could best be replaced by ----.",
+                            "options": [
+                                "resemble",
+                                "improve",
+                                "forecast",
+                                "disturb"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Project\" kelimesi burada 'tahmin etmek, öngörmek' (forecast) anlamındadır. Bebeklerin ne kadar yaşayacağını tahmin etmek.",
+                                "wrong": {
+                                    "0": "\"Resemble\" benzemek.",
+                                    "1": "\"Improve\" geliştirmek.",
+                                    "3": "\"Disturb\" rahatsız etmek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 34,
+                            "question": "Why does Vijg mention the conditions in the 1910s in paragraph 3?",
+                            "options": [
+                                "To show why Jeanne Calment lived to a record age",
+                                "To prove there is no such thing as a “biological time bomb”",
+                                "To explain why many people from that period lived to be 100",
+                                "To contrast those conditions to the better conditions of today"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Vijg, 100 yaşındakilerin kötü şartlarda (savaş, kötü gıda) doğduğunu, bugünün bebeklerinin ise daha iyi şartlarda doğduğunu söyleyerek bir karşılaştırma (contrast) yapıyor.",
+                                "wrong": {
+                                    "0": "Rekor yaşı açıklamak için değil.",
+                                    "2": "Neden 100 yaşadıklarını değil, şartların farkını anlatıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 35,
+                            "question": "The phrase Despite being somewhat more optimistic in paragraph 4 refers to being more optimistic about ----.",
+                            "options": [
+                                "overcoming the effects of obesity",
+                                "children growing up now",
+                                "living longer",
+                                "doing more research about the biology of aging"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Zhavoronkov, Vijg'den daha iyimser çünkü 'we can live substantially longer' (daha uzun yaşayabiliriz) diyor. İyimserliği yaşam süresiyle ilgili.",
+                                "wrong": {
+                                    "0": "Obezite konusunda karamsar.",
+                                    "1": "Çocukların geleceği konusunda endişeli."
+                                }
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "question": "According to paragraph 4, Alex Zhavoronkov believes ----.",
+                            "options": [
+                                "there are a number of errors in Vijg’s study, so he disagrees with her conclusions",
+                                "childhood obesity is such a serious problem that it will affect lifespan",
+                                "while we may not be able to live to a 1000, we can increase our abilities to run faster and to see further",
+                                "though not possible today, living to 1000 could be possible a few generations later"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Zhavoronkov obezite için 'huge tragedy' diyor ve çocukların geleceğinin iyi olamayacağını söylüyor. Obezitenin ömrü etkileyecek bir sorun olduğuna inanıyor.",
+                                "wrong": {
+                                    "0": "Çalışmanın doğru olduğunu kabul ediyor.",
+                                    "2": "Daha hızlı koşabileceğimizi değil, sınırlarımız olduğunu söylüyor.",
+                                    "3": "1000 yaşın biyolojik olarak imkansız olduğunu söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 37,
+                            "question": "Which of the following is TRUE according to the text?",
+                            "options": [
+                                "Vijg’s study looked at how lifespan was changing in four different countries.",
+                                "Vijg believes a large number of genetic factors prevent people from living past 125.",
+                                "Although few people live until 120, a much larger number of people make it till 110.",
+                                "Zhavoronkov believes further research will confirm that 125 is the upper limit for lifespan."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Vijg, 125'i geçme ihtimalinin düşüklüğünü 'due to a myriad of genetic factors' (sayısız genetik faktör nedeniyle) diyerek açıklıyor.",
+                                "wrong": {
+                                    "0": "ABD, Fransa, Japonya (3 ülke).",
+                                    "3": "Zhavoronkov daha uzun yaşayabileceğimize inanıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 4: The Future Is Plastic",
+                    "paragraphs": [
+                        "As countries that agreed to the Paris Agreement on climate change strive to become more sustainable, most of them are now considering the environmental impact of their banknotes as well as their security. Before the modern era of paper banknotes, money had been made from a variety of materials, from leather in China during the Han Dynasty to shells and precious metals. The latest, fast-growing trend is plastic. As in times past, this material reflects the available technologies and resources of the times.",
+                        "For centuries, people in China used heavy metal coins tied together through a center hole to conduct transactions. This worked well until China’s economy grew. Heftier business deals brought about a need for a more practical currency, and in the 7th century the Chinese moved to easier-to-carry paper currency. In the 13th century Marco Polo reported back to Europe about the use of paper rather than metal coins, but Europe’s earliest paper banknotes weren’t issued until 1661. However, once Europe adopted paper money, many countries followed its lead. Paper became the currency of choice around the world, remaining so for centuries. However, with recent technological developments, plastic film, or polymer, notes offer additional security features in addition to reduced environmental impact. Polymer banknotes were first issued in 1988 by Australia, which now uses polymer exclusively. Polymer is currently in use in over 20 countries as diverse as Australia, Canada, Fiji, New Zealand, Romania, and Vietnam.",
+                        "The Bank of Canada began its move to polymer banknotes in 2011 after assessing the environmental impacts of producing paper versus plastic bills. The study examined each stage of production, from growing the cotton for banknote paper to producing raw material for polymer notes. It found that polymer completely outperformed paper. Overall, polymer leads to 32% less global warming and a 30% reduction in energy usage compared with paper. Additionally, polymer notes last more than twice as long as paper ones. This means fewer polymer notes have to be manufactured and distributed. Polymer notes also weigh less than paper ones despite their similar size, so their transportation and distribution affect the environment less. Finally, at the end of their life, paper bills need to be shredded into small pieces and put in landfills, where they take decades to decompose. On the other hand, polymer notes can be shredded, recycled, and then used to make everyday plastic items.",
+                        "The Bank of England spent three years studying the potential effect of a switch from paper notes and, like the bank of Canada, resolved to use polymer ones. A polymer £5 note featuring Sir Winston Churchill was launched in September 2016, a £10 Jane Austen note will come out in late 2017, and a £20 note by 2020. Bank of England Governor Mark Carney recently said, “The durability of polymer notes is greater, they are more secure from counterfeiting, and they can be produced at a lower cost to the environment and distributed at a lower cost to the taxpayer.”",
+                        "Ordinary users have had mixed reactions to the bills’ plasticky feel. Zoë Martin, from Toronto, Canada, says, “They stick to each other because of static cling, they don’t fold up nicely like paper bills when they’re new, and they’re slippery so they slide out of your pocket.” But Michael Brienza, a Toronto teacher, says, “I prefer them; they’re so much cleaner.” And Peter Cecil Sinnott, a data science graduate of Montreal’s McGill University, says, “The fact that they’re waterproof means getting them wet isn’t going to cost you. True story: my sister found one of the new Canadian $100 bills while snorkeling in the tropics. Who knows how long it was sitting on that reef?” To paraphrase Mr. McGuire’s advice to Benjamin in the 1967 movie The Graduate, whether people like it or not, “The future is plastic.”"
+                    ],
+                    "questions": [
+                        {
+                            "id": 38,
+                            "question": "From paragraph 1, the reader understands that ----.",
+                            "options": [
+                                "countries should not have signed the Paris Agreement",
+                                "paper may lose its place as the most common material for currency",
+                                "leather did not work well as a currency for the Chinese",
+                                "most societies have not had enough technology or resources to produce a currency"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf, 'The latest, fast-growing trend is plastic' (Son trend plastik) diyor. Bu trendin artması, kağıdın yerini kaybedebileceğini gösterir.",
+                                "wrong": {
+                                    "0": "Anlaşmaya karşı bir ifade yok.",
+                                    "2": "Derinin işe yaramadığını söylemiyor, eskiden kullanıldığını söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "question": "The word heftier in paragraph 2 is closest in meaning to ----.",
+                            "options": [
+                                "less honest",
+                                "less complex",
+                                "more flexible",
+                                "much bigger"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Hefty\" büyük, hacimli, ağır demektir. 'Heftier business deals' daha büyük iş anlaşmaları anlamına gelir. 'Much bigger' en yakınıdır.",
+                                "wrong": {
+                                    "0": "\"less honest\" daha az dürüst.",
+                                    "1": "\"less complex\" daha az karmaşık.",
+                                    "2": "\"more flexible\" daha esnek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "question": "Regarding the use of bank notes, paragraph 2 states that Europe ----.",
+                            "options": [
+                                "quickly adopted the new type of note that had been invented in China",
+                                "played a key role in paper notes becoming the dominant currency",
+                                "has been slow to use polymer notes despite their rising popularity",
+                                "is the leader in the development and use of polymer notes"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Metin 'once Europe adopted paper money, many countries followed its lead' (Avrupa geçince diğerleri de takip etti) diyor. Yani kağıt paranın yaygınlaşmasında önemli rol oynadı.",
+                                "wrong": {
+                                    "0": "Çabuk değil, yüzyıllar sonra geçti.",
+                                    "3": "Lider Avustralya."
+                                }
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "question": "The main idea of paragraph 3 is that the Bank of Canada ----.",
+                            "options": [
+                                "concluded that using polymer notes had many economic advantages",
+                                "decided to use polymer notes because they would not wear out quickly",
+                                "found many environmental reasons to use polymer notes",
+                                "believes appearance and durability are the main advantages of polymer notes"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "3. paragraf boyunca plastiğin çevreye faydaları (daha az küresel ısınma, geri dönüşüm) anlatılıyor. Ana fikir çevresel sebeplerdir.",
+                                "wrong": {
+                                    "0": "Ekonomik değil, çevresel avantajlar vurgulanıyor.",
+                                    "1": "Dayanıklılık sadece bir sebep."
+                                }
+                            }
+                        },
+                        {
+                            "id": 42,
+                            "question": "According to paragraph 3, which of the following statements about polymer notes is TRUE?",
+                            "options": [
+                                "Producing material for polymer notes has less negative environmental impact than growing cotton for paper notes.",
+                                "It takes twice as long to produce a polymer note compared to a traditional paper bank note.",
+                                "The new polymer notes are easier to transport because they are smaller in size than a traditional paper bill.",
+                                "Although they are often thrown away when they get old, both paper and polymer bills can easily be recycled."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metin, pamuk yetiştirmekten hammadde üretimine kadar her aşamada polimerin daha çevreci olduğunu belirtiyor ('polymer completely outperformed paper').",
+                                "wrong": {
+                                    "1": "Üretim süresi değil, kullanım ömrü iki kat uzun.",
+                                    "2": "Boyutu küçük değil, ağırlığı az.",
+                                    "3": "Sadece polimer geri dönüştürülebiliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "question": "The word resolved in paragraph 4 could best be replaced by ----.",
+                            "options": [
+                                "refused",
+                                "researched",
+                                "questioned",
+                                "decided"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Resolve\" karar vermek demektir. 'Resolved to use polymer' cümlesi 'kullanmaya karar verdi' anlamındadır. 'Decided' aynı anlama gelir.",
+                                "wrong": {
+                                    "0": "\"refused\" reddetti.",
+                                    "1": "\"researched\" araştırdı.",
+                                    "2": "\"questioned\" sorguladı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 44,
+                            "question": "Which factor related to polymer bills is mentioned in paragraph 4 but not mentioned in paragraph 3?",
+                            "options": [
+                                "The length of time they can be used",
+                                "Their security",
+                                "Their effect on nature",
+                                "The cost of transporting them"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "4. paragrafta 'more secure from counterfeiting' (sahteciliğe karşı daha güvenli) deniyor. Güvenlik konusu 3. paragrafta (çevre paragrafı) yoktu.",
+                                "wrong": {
+                                    "0": "Kullanım süresi 3. paragrafta vardı.",
+                                    "2": "Doğaya etkisi 3. paragrafta vardı.",
+                                    "3": "Taşıma maliyeti 3. paragrafta vardı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 45,
+                            "question": "In paragraph 5 one of the things you can understand about polymer bills is that ----.",
+                            "options": [
+                                "you are more likely to lose one",
+                                "they are less likely to stick together than paper ones",
+                                "they can survive under water but only for a limited time",
+                                "they will probably be replaced by a new type of paper bill eventually"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bir kullanıcı 'slide out of your pocket' (cebinden kayıp düşüyor) diyor. Bu da onları kaybetme ihtimalini artırır.",
+                                "wrong": {
+                                    "1": "Birbirine yapıştığı söyleniyor.",
+                                    "2": "Sınırlı süre değil, uzun süre suda kaldığı ima ediliyor.",
+                                    "3": "Plastiğin gelecek olduğu söyleniyor."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,975 @@
+        {
+            "id": 1,
+            "title": "ITU Proficiency Exam",
+            "sections": {
+                "reading": {
+                    "parts": [
+                        {
+                            "type": "cloze",
+                            "title": "Cloze Test: The Story of Coffee",
+                            "passage": {
+                                "title": "The Story of Coffee",
+                                "text": "The story of coffee begins in Ethiopia, where a goat herder named Kaldi noticed something strange about his goats. They had eaten berries from a certain tree and became so (1)_____ that they did not sleep at night. Kaldi reported this to the local monastery. The monks made a drink with the berries and found that it kept them alert (2)_____ long hours of evening prayer. From Ethiopia, coffee cultivation spread to the Arabian Peninsula. By the 16th century, it (3)_____ known in Persia, Egypt, Syria, and Turkey. \"Coffee houses\" began to appear in cities, quickly becoming centers for social activity. These were places (4)_____ people engaged in conversation, listened to music, and played chess. However, not everyone approved of this new habit. In 1511, coffee was temporarily (5)_____ in Mecca because leaders feared it might encourage radical thinking. When coffee reached Europe, some clergymen condemned it as the \"bitter invention of Satan.\" However, Pope Clement VIII tasted it and, instead of rejecting it, he decided (6)_____ it, thus allowing its popularity to grow. Today, coffee is a massive global industry. If the coffee plant (7)_____ to exist tomorrow, the global economy would suffer greatly. Recent studies suggest that coffee offers health benefits, (8)_____ it is consumed in moderation. Despite the changes in brewing methods over centuries, coffee remains an (9)_____ part of morning rituals, (10)_____ by millions around the world."
+                            },
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "options": [
+                                        "lively",
+                                        "indifferent",
+                                        "exhausted",
+                                        "calm"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Lively\" (canlı, enerjik) doğru çünkü cümlede keçilerin meyveleri yedikten sonra gece uyumadıkları söyleniyor. Kafein enerji verir, bu yüzden keçiler enerjik olmalı.",
+                                        "wrong": {
+                                            "1": "\"Indifferent\" (ilgisiz) uyuyamama durumuyla alakasız.",
+                                            "2": "\"Exhausted\" (yorgun) olsalardı uyurlardı, tam tersi bir durum var.",
+                                            "3": "\"Calm\" (sakin) olsalardı yine uyuyabilirlerdi, ama kahve uykusuzluk yaptı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "options": [
+                                        "while",
+                                        "since",
+                                        "during",
+                                        "as"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"During\" (boyunca/sırasında) doğru çünkü arkasından \"long hours\" (uzun saatler) gibi bir isim öbeği gelmiş. \"Dua saatleri boyunca\" uyanık kaldılar.",
+                                        "wrong": {
+                                            "0": "\"While\"dan sonra genellikle tam bir cümle (özne + yüklem) gelir.",
+                                            "1": "\"Since\" (-den beri) zamanın başlangıç noktasını belirtir, süreci değil.",
+                                            "3": "\"As\" (-dıkça/olarak) burada 'boyunca' anlamını vermez."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "options": [
+                                        "has become",
+                                        "had become",
+                                        "becomes",
+                                        "was becoming"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Had become\" (Past Perfect) doğru çünkü \"By the 16th century\" (16. yüzyıla gelindiğinde) ifadesi, geçmişteki bir tarihten önceki tamamlanmış süreci anlatır.",
+                                        "wrong": {
+                                            "0": "\"Has become\" (Present Perfect) geçmişte başlayıp bugüne gelmeli, ama burada 16. yüzyılda biten bir durum var.",
+                                            "2": "\"Becomes\" (Geniş zaman) geçmiş zaman bağlamına uymaz.",
+                                            "3": "\"Was becoming\" (Sürekli geçmiş) o sırada oluyordu demek, ama \"by\" edatı tamamlanmışlık ister."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "options": [
+                                        "which",
+                                        "that",
+                                        "when",
+                                        "where"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Where\" doğru çünkü \"These were places\" (bunlar yerlerdi) denilerek mekan tanımlanıyor. İnsanların sohbet ettiği 'yer'i anlatıyoruz.",
+                                        "wrong": {
+                                            "0": "\"Which\" nesneleri tanımlar, eğer \"places in which\" deseydi olurdu.",
+                                            "1": "\"That\" burada mekan zarfı yerine geçemez.",
+                                            "2": "\"When\" zaman bildirir, mekan değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "options": [
+                                        "promoted",
+                                        "prohibited",
+                                        "distributed",
+                                        "exported"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Prohibited\" (yasaklandı) doğru çünkü cümlenin devamında liderlerin \"korktuğu\" söyleniyor. Korktukları bir şeyi engellerler.",
+                                        "wrong": {
+                                            "0": "\"Promoted\" (desteklendi) korkuyla çelişir.",
+                                            "2": "\"Distributed\" (dağıtıldı) korktukları şeyi dağıtmazlar.",
+                                            "3": "\"Exported\" (ihraç edildi) anlam bütünlüğüne uymuyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "options": [
+                                        "blessing",
+                                        "bless",
+                                        "to bless",
+                                        "for blessing"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"To bless\" doğru çünkü \"decide\" (karar vermek) fiili kendisinden sonra daima \"to infinitive\" alır (decide to do something).",
+                                        "wrong": {
+                                            "0": "\"Blessing\" (-ing takısı) decide fiiliyle kullanılmaz.",
+                                            "1": "\"Bless\" (yalın hal) fiilden sonra direkt gelmez.",
+                                            "3": "\"For blessing\" yapı olarak decide fiiline uymaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "options": [
+                                        "ceased",
+                                        "ceases",
+                                        "will cease",
+                                        "has ceased"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Ceased\" doğru çünkü cümle bir \"Type 2 If Clause\" (Gerçekleşmesi zor/hayali durum). \"If\" kısmında Past Simple (ceased), diğer kısımda \"would\" kullanılır.",
+                                        "wrong": {
+                                            "1": "\"Ceases\" geniş zaman, Type 1 olurdu ama diğer tarafta \"would\" var.",
+                                            "2": "\"Will cease\" if cümlesinin içine (bağlaçtan hemen sonra) usually gelmez.",
+                                            "3": "\"Has ceased\" Present Perfect, Type 2 yapısına uymaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "options": [
+                                        "unless",
+                                        "provided",
+                                        "even",
+                                        "in case"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Provided\" (şartıyla/eğer) doğru. Kahve faydalıdır, 'ancak ölçülü tüketilirse' anlamı var.",
+                                        "wrong": {
+                                            "0": "\"Unless\" (-medikçe) anlamı tersine çevirir (ölçülü tüketilmedikçe faydalıdır gibi saçma bir anlam çıkar).",
+                                            "2": "\"Even\" (bile) tek başına bağlaç olarak buraya uymaz (even if olabilirdi).",
+                                            "3": "\"In case\" (durumunda/diye) tedbir bildirir, şart değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "options": [
+                                        "essential",
+                                        "obsolete",
+                                        "optional",
+                                        "temporary"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Essential\" (temel/gerekli) doğru. Sabah ritüellerinin 'vazgeçilmez' bir parçası olduğunu anlatıyor.",
+                                        "wrong": {
+                                            "1": "\"Obsolete\" (eski/modası geçmiş) kahvenin hala popüler olmasıyla çelişir.",
+                                            "2": "\"Optional\" (isteğe bağlı) vurguyu zayıflatır.",
+                                            "3": "\"Temporary\" (geçici) yüzyıllardır süren bir şey için kullanılmaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "options": [
+                                        "enjoying",
+                                        "to enjoy",
+                                        "enjoyed",
+                                        "having enjoyed"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Enjoyed\" (zevkle tüketilen) doğru. Burada kısaltılmış edilgen yapı (Reduced Relative Clause) var. \"Which is enjoyed by millions\" yerine kısaca \"enjoyed by\" denilmiş.",
+                                        "wrong": {
+                                            "0": "\"Enjoying\" etken yapı olurdu, ama kahve zevk almaz, kahveden zevk alınır.",
+                                            "1": "\"To enjoy\" amaç bildirir, burada sıfat gibi niteleme gerekiyor.",
+                                            "3": "\"Having enjoyed\" geçmiş zaman vurgusu yapar, burada genel bir durum var."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "restatement",
+                            "title": "Restatement Questions",
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "statement": "In order to keep control of their large empire, the Romans knew they needed an extensive road network.",
+                                    "options": [
+                                        "The Romans had a great need for better roads and for keeping firm control of their sizable empire.",
+                                        "The Romans should have had a complex road system to prevent losing control of their great empire.",
+                                        "Their amazing roads were the primary reason the Romans maintained power for such a long period of time.",
+                                        "The Romans were aware they must have a well-developed road system to maintain power in their huge empire."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Orijinal cümledeki 'knew' (biliyorlardı) ifadesi 'were aware' (farkındaydılar) ile, 'keep control' ifadesi 'maintain power' ile tam eşleşiyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı ihtiyaçları sıralamış ama 'biri diğerini sağlamak için' (in order to) mantığını kuramamış.",
+                                            "1": "B şıkkı 'should have had' (yapmalıydılar ama yapmadılar) diyerek pişmanlık katıyor, orijinalde bu yok.",
+                                            "2": "C şıkkı 'primary reason' (ana neden) diyor, orijinalde neden-sonuç var ama 'tek/ana neden budur' denmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "statement": "The world’s first traffic light, installed in London in 1868, was a light which was turned by means of a lever at its base.",
+                                    "options": [
+                                        "It makes sense that the first traffic light, a device whose base had a lever for turning it around, was placed in London in 1868.",
+                                        "In 1868, London used the first traffic light ever, a lamp with a lever at the bottom that enabled it to be turned.",
+                                        "The first traffic light in London was replaced in 1868, when a light, which included a lever at its base, began being used to direct traffic.",
+                                        "A big step forward in traffic control took place in London in 1868, when a lever was added to the base of the first traffic light, making it possible for it to rotate."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. 'First traffic light ever' (dünyadaki ilk), 'lever at the bottom' (tabanında kol) ve 'enabled it to be turned' (dönmesini sağlayan) ifadeleri orijinali tam karşılıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'It makes sense' (mantıklı geliyor) diyerek yorum katıyor.",
+                                            "2": "C şıkkı 'replaced' (değiştirildi) diyor, oysa bu ilk ışıktı, bir şeyin yerine gelmedi.",
+                                            "3": "D şıkkı kolun 'sonradan eklendiğini' (lever was added) ima ediyor, oysa tasarımın kendisi öyleydi."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "statement": "Using just 20 watts, LED traffic lights are far more energy-efficient than traffic lights with old-fashioned bulbs, which use 175 watts.",
+                                    "options": [
+                                        "The bright 175-watt bulbs in traffic lights have been replaced by the dimmer 20-watt LEDs.",
+                                        "While older bulbs in traffic lights use 175 watts, LED ones, which make much better use of energy, need only 20.",
+                                        "Many cities have been getting used to having LED bulbs in traffic lights, which use 20 watts of electricity, rather than older light bulbs, which use 175 watts.",
+                                        "The earliest light bulbs, which are superior to LED ones in many ways, would still be used in traffic lights if they did not use 175 watts compared to 20 for LEDs."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Sayısal değerler (20 vs 175) ve kıyaslama (more energy-efficient = make much better use of energy) tam oturuyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'dimmer' (daha sönük) diyor, orijinalde parlaklık kıyaslaması yok.",
+                                            "2": "C şıkkı 'Getting used to' (alışıyorlar) diyor, orijinalde alışkanlıktan bahsedilmiyor.",
+                                            "3": "D şıkkı 'superior in many ways' (pek çok açıdan üstün) diyor, orijinalde sadece enerji verimliliği konuşuluyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "statement": "In ancient Greece, anyone could open a school and decide which subjects to teach, and parents chose schools offering affordable monthly fees and the subjects they wanted their children to learn.",
+                                    "options": [
+                                        "In ancient Greece, anyone starting a school determined what was taught there and what parents had to pay, which is why it was difficult for parents to decide where to educate their children.",
+                                        "In ancient Greece, parents decided which subjects were taught in their children’s schools and how much the schools charged, which shows that parents had lots of freedom in education.",
+                                        "In ancient Greece, people were free to start schools and decide what should be studied, and parents selected schools based on what they taught and how much they cost.",
+                                        "In ancient Greece, it was parents who decided whether or not their kids went to school, and they also had the freedom to choose what their children studied if they sent them to school."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Okul açma özgürlüğü, müfredatı belirleme yetkisi ve ebeveynlerin ücret/konu kriterine göre seçim yapması tam olarak aktarılmış.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'difficult for parents' (ebeveynler için zordu) diyerek yorum katıyor.",
+                                            "1": "B şıkkı konuları ve ücreti 'ebeveynlerin belirlediğini' söylüyor, oysa okulu açan belirler, ebeveyn seçer.",
+                                            "3": "D şıkkı 'whether or not' (gidip gitmeyeceğine) vurgusu yapıyor, orijinalde odak seçim kriterleri."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "statement": "China provides all students with uniforms, but students are not obliged to wear them.",
+                                    "options": [
+                                        "Although not made to wear uniforms, each student in China is supplied with one.",
+                                        "While not demanding that uniforms are actually worn, China encourages students to buy them.",
+                                        "Not having to wear uniforms, very few students in China accept the ones the government gives out.",
+                                        "Despite the fact that students rarely wear uniforms, China keeps producing them for all of its students."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. 'Not made to wear' (giymeye zorlanmıyorlar = not obliged) ve 'supplied with one' (bir tane veriliyor = provides) ifadeleri birebir eşleşiyor.",
+                                        "wrong": {
+                                            "1": "B şıkkı 'encourage to buy' (satın almaya teşvik ediyor) diyor, orijinalde devletin sağladığı (provides) yazıyor, satın alma yok.",
+                                            "2": "C şıkkı 'very few accept' (çok azı kabul ediyor) diyor, orijinalde kabul oranı yok.",
+                                            "3": "D şıkkı 'rarely wear' (nadiren giyerler) diyor, orijinalde giyme sıklığı belirtilmemiş."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "statement": "Homework has generally been viewed as a positive practice and accepted without question as part of the student routine.",
+                                    "options": [
+                                        "The beneficial practice of assigning students homework had not been debated until recently.",
+                                        "It has finally been shown that students who accept the fact that they have to do homework perform better.",
+                                        "Whether homework is necessary has rarely been debated, and people usually see it as a helpful part of student life.",
+                                        "Students have realized they have to complete their homework, and doing it is known to be an important part of academic success."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. 'Rarely been debated' (nadiren tartışıldı) ifadesi 'accepted without question' (sorgusuz kabul edildi) kısmını; 'helpful' ise 'positive' kısmını karşılıyor.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'until recently' (son zamanlara kadar) diyerek zaman kısıtlaması getiriyor.",
+                                            "1": "B şıkkı performanstan bahsediyor, orijinalde başarı/performans yok.",
+                                            "3": "D şıkkı öğrencilerin farkındalığından bahsediyor, orijinalde genel bakış açısı (viewed as) var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "statement": "Teachers are frustrated because the students who need more time to learn are unlikely to do homework.",
+                                    "options": [
+                                        "Frequently failing to get slow students to do their homework, teachers quit trying to make them do it.",
+                                        "It is disappointing for teachers that the students who do not usually do homework are the ones who learn more slowly.",
+                                        "Teachers cannot be expected to help weak students who frequently refuse to do the homework that has been assigned to them.",
+                                        "Teaching is a very difficult job because teachers are not able to make students do homework, which often enables them to understand their lessons."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. 'Frustrated' (hüsrana uğramış) = 'disappointing' (hayal kırıklığı); 'students who need more time' = 'learn more slowly'. Anlam korunmuş.",
+                                        "wrong": {
+                                            "0": "A şıkkı 'quit trying' (çabalamayı bıraktılar) diyor, orijinalde pes ettikleri yazmıyor.",
+                                            "2": "C şıkkı 'cannot be expected to help' (yardım etmeleri beklenemez) diyor, orijinalde beklentiden bahsedilmiyor.",
+                                            "3": "D şıkkı öğretmenin işinin zorluğuna odaklanmış, orijinalde sebep-sonuç ilişkisi farklı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "statement": "Little information exists about Genghis Khan’s childhood, and that information often conflicts.",
+                                    "options": [
+                                        "Even the small amount of knowledge that we have about Genghis Khan’s childhood is inconsistent.",
+                                        "Genghis Khan did little of importance before adulthood, so few people wrote about his childhood.",
+                                        "There was much fighting when Genghis Khan was young, and records about this part of his life have not survived.",
+                                        "It is difficult to know what Genghis Khan was like, and the stories about his youth do not clearly explain his personality."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. 'Little information' = 'small amount of knowledge'; 'conflicts' (çelişiyor) = 'inconsistent' (tutarsız).",
+                                        "wrong": {
+                                            "1": "B şıkkı 'önemsiz şeyler yaptı' diyor, bu bilgi orijinalde yok.",
+                                            "2": "C şıkkı kayıtların 'yok olduğunu' (not survived) söylüyor, orijinalde bilginin az ve çelişkili olduğu yazıyor.",
+                                            "3": "D şıkkı kişiliğini açıklamıyor diyor, orijinalde bilginin kendisi tartışmalı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "statement": "Genghis Khan did not follow Mongol tradition when he gave people authority based on ability and loyalty without considering family ties.",
+                                    "options": [
+                                        "Genghis Khan shared his authority with skilled and proven fighters even if they did not respect Mongol customs or even his own relatives.",
+                                        "Instead of choosing leaders who were related to him, Genghis Khan opted for ones who were strong and cruel and who did not care about Mongol customs.",
+                                        "Contrary to typical Mongol practices, Genghis Khan gave leadership positions to people who were talented and devoted to him whether or not they were related to him.",
+                                        "A few Mongol leaders only chose their relatives to assist them, but Genghis Khan made sure that his family members who became leaders were capable and faithful."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. 'Did not follow tradition' = 'Contrary to practices'; 'Ability and loyalty' = 'Talented and devoted'; 'Without considering family ties' = 'Whether or not related'.",
+                                        "wrong": {
+                                            "0": "A şıkkı askerlerin geleneklere saygı duymadığından bahsediyor, orijinalde Cengiz Han'ın geleneğe uymadığı yazıyor.",
+                                            "1": "B şıkkı 'cruel' (zalim) kelimesini eklemiş, orijinalde yok.",
+                                            "3": "D şıkkı sadece yetenekli aile üyelerini seçtiğini söylüyor, oysa aile bağına bakmaksızın seçti."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "reading_comprehension",
+                            "title": "Reading Text 1: Glow-in-the-dark Road",
+                            "text": "Text 1: Glow-in-the-dark Road in the Netherlands\nI Lines on the road that “glow”, that is, produce their own light, could be used in areas where there are no streetlights. Glow-in-the-dark road markings are being tested on a 500m stretch of highway in the Netherlands. The paint of the lines contains a \"photo-luminising\" powder that charges up in the daytime and slowly releases a green glow at night, getting rid of the need for streetlights. Once the paint has been exposed to daylight, bright or dim, it can glow for about eight hours in the dark. Artist Daan Roosegaarde teamed up with the Dutch civil engineering firm Heijmans to work on the idea. It is the first time \"glowing lines\" technology has ever been used on any road and can be seen on Highway N329 near Oss, a suburb of Amsterdam.\nII According to Roosegaarde, \"The government is turning off streetlights to save money, and energy is becoming more important than people imagined fifty years ago. Glowing lines combine safety and a more sustainable world.\" Roosegaarde aims to develop projects which help people and technology interact. His past projects include a dance floor with built-in disco lights powered by dancers' foot movements. Regarding this project, Roosegaarde said, \"For cars, we spend lots of money to improve their design, but roads, which actually determine the way our landscape looks, have been immune to that process, so there has been little innovation.\" Roosegaarde appreciated Heijmans’ openness to new approaches. \"I convinced the company to take a close look at jellyfish, which manage to give light without a solar panel, and we came up with paints which charge up in the daytime and give light at night,\" he said. He is confident that the glow-in-the-dark technology is a sustainable alternative in places where no conventional lighting is present.\nIII While new innovations on roads should be used whenever they provide additional benefits, they also need to prove themselves, said Professor Pete Thomas, from Loughborough University. \"We already have some high-visibility markings on roads in the UK, so researchers must compare these to the glow-in-the-dark option.\" The Dutch Minister for Infrastructure Melanie Schultz has been following the project closely. \"Since safety improvement is our target, we need to collect hard evidence about how the safety on roads with glow-in-the-dark lines compares to safety on other roads and support any safety claims with reliable statistics,\" she said. The UK Highways Agency also said it was watching the trial in the Netherlands with interest but that previous studies had shown luminescent road paint may be unsuitable for use in Britain. Because of Britain’s northern location, it is especially concerned about how the glow-in-the-dark lines will perform in winter when there are fewer hours of daylight.\nIV Initially, the Heijmans’ team also planned to include weather symbols that appeared on a road once the temperature dropped to a certain level using their newly developed, temperature-sensitive paint mixture. The mixture creates giant snowflaked-shaped symbols on the road to warn drivers that it may be icy. However, the current glow-in-the-dark road in Oss does not include this temperature-sensitive paint. Heijmans hopes they will be allowed to test this paint on another road soon. They are eager to have the two paints they have developed used on more roads, and they are close to completing contracts which will allow them to do so.",
+                            "questions": [
+                                {
+                                    "id": 16,
+                                    "question": "According to paragraph I, glow-in-the-dark road markings -----.",
+                                    "options": [
+                                        "can be seen from 500m away",
+                                        "are most effective when used with streetlights",
+                                        "are only being used experimentally on one highway",
+                                        "need sunny weather during the day to work properly"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Paragraf 1'de 'being tested on a 500m stretch of highway' (bir otoyolun 500 metrelik kısmında test ediliyor) deniyor. Henüz deneme aşamasında ve tek bir yerde.",
+                                        "wrong": {
+                                            "0": "500m yolun uzunluğu, görülme mesafesi değil.",
+                                            "1": "Sokak lambalarına ihtiyaç duymadığı ('getting rid of the need') söyleniyor.",
+                                            "3": "Paragrafta 'daylight, bright or dim' (parlak veya loş gün ışığı) fark etmez deniyor, güneşli olması şart değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 17,
+                                    "question": "The phrase immune to in paragraph II could best be replaced by ----.",
+                                    "options": [
+                                        "unaffected by",
+                                        "responsible for",
+                                        "reserved for",
+                                        "tested by"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Immune to\" normalde bağışık olmak demektir, burada 'etkilenmemiş' anlamında kullanılmış. Arabalar gelişirken yollar bu süreçten 'unaffected' (etkilenmemiş) kalmış.",
+                                        "wrong": {
+                                            "1": "\"Responsible for\" sorumlu demek.",
+                                            "2": "\"Reserved for\" ayrılmış demek.",
+                                            "3": "\"Tested by\" test edilmiş demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 18,
+                                    "question": "In paragraph II, it is mentioned that Roosegaarde ----.",
+                                    "options": [
+                                        "has been working on innovative technology projects for nearly 50 years",
+                                        "designed a dance floor that gave extra energy to dancers",
+                                        "thinks Heijmans is willing to consider original suggestions",
+                                        "hopes the new technology will also enhance conventional lighting"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Paragraf 2: 'Roosegaarde appreciated Heijmans’ openness to new approaches' (Heijmans'ın yeni yaklaşımlara açıklığını takdir etti).",
+                                        "wrong": {
+                                            "0": "50 yıl ifadesi enerjinin önemiyle ilgili genel bir yorumda geçiyor, çalışma süresi değil.",
+                                            "1": "Dans pisti dansçılara enerji vermiyor, dansçıların hareketiyle ışık yakıyor.",
+                                            "3": "Geleneksel aydınlatmayı geliştirmek değil, onun olmadığı yerlerde alternatif olmak istiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 19,
+                                    "question": "The word these in paragraph III refers to ----.",
+                                    "options": [
+                                        "additional benefits",
+                                        "high-visibility markings",
+                                        "roads in the UK",
+                                        "new innovations"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Cümlede 'We already have some high-visibility markings... researchers must compare THESE' deniyor. Yani mevcut yüksek görünümlü işaretleri yenileriyle kıyaslamalılar.",
+                                        "wrong": {
+                                            "0": "Faydaları kıyaslamıyor, işaretleri kıyaslıyor.",
+                                            "2": "Yolları değil, işaretleri kıyaslıyor.",
+                                            "3": "Yenilikleri değil, mevcut olanları (these) yenisiyle kıyaslıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 20,
+                                    "question": "Paragraph III discusses all of the following about glow-in-the-dark road markings EXCEPT whether ----.",
+                                    "options": [
+                                        "they are an improvement over current solutions",
+                                        "they really make roads less dangerous",
+                                        "they will be used in countries other than the Netherlands and Britain",
+                                        "they can be effective during seasons with long nights"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı metinde geçmiyor. Metin Hollanda ve İngiltere'den bahsediyor ama başka ülkelerde kullanılıp kullanılmayacağına değinmiyor.",
+                                        "wrong": {
+                                            "0": "Var: 'compare these to the glow-in-the-dark option' (mevcut çözümlerle kıyaslama).",
+                                            "1": "Var: 'safety improvement is our target' (güvenlik hedefi).",
+                                            "3": "Var: İngiltere'nin kışın (uzun geceler) performansı merak etmesi ('perform in winter')."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "According to paragraph IV, it is likely that in the future ----.",
+                                    "options": [
+                                        "Heijmans will begin to design a paint which shows weather symbols on roads",
+                                        "the road in Oss with glow-in-the-dark lines will also include the temperature-sensitive paint",
+                                        "Heijmans will get involved in building new roads as well as improving their design",
+                                        "Heijmans will complete deals to use both glow-in-the-dark and temperature-sensitive paints"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Paragraf 4'ün sonunda: 'close to completing contracts which will allow them to do so' (bunu yapmalarına izin verecek sözleşmeleri tamamlamaya yakınlar).",
+                                        "wrong": {
+                                            "0": "Boyayı zaten tasarladılar ('newly developed'), tasarlamaya başlayacak değiller.",
+                                            "1": "Oss yolunda bu boyanın olmadığı ve testin 'another road' (başka bir yol) üzerinde yapılmak istendiği yazıyor.",
+                                            "2": "Yeni yol inşa etmekten değil, boyaları kullanmaktan bahsediliyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "reading_comprehension",
+                            "title": "Reading Text 2: Is Homework Necessary?",
+                            "text": "Text 2: Is Homework Necessary?\nI A new study by Adam Maltese on the academic effects of homework offers not only some interesting findings but also a reminder of the need to examine a researcher’s conclusions carefully. Analyzing the data for yourself rather than relying on an author to do it for you may significantly change your conclusions.\nII Before looking at Maltese’s new study, let’s review what has been discovered in earlier research about homework. First, no positive relationship has ever been found between having younger children do some homework (compared to none) or more (compared to less) and increased scores on standardized tests. If teachers are making twelve year olds, or, even worse, five year olds do homework, it is either because they are misinformed about what the evidence says or because they think kids ought to do homework despite what the evidence says. Second, even for teenagers, the research supporting homework is not persuasive. Some studies have found a positive relationship between homework and higher standardized test scores, but it is not very strong. One well-known researcher, Timothy Keith, first published a highly respected study supporting homework’s impact on test scores. A decade later, he returned to the topic and did another more detailed study. In his second study, he considered a larger variety of factors that might lead to higher test scores and concluded that homework had no positive effect on test scores after all. For researchers who think they have found a relationship between doing homework and getting higher test scores, the most they can claim is that they have found a correlation – two things that go together – but they cannot know if homework causes test scores to go up.\nIII Now let’s take a closer look at this new study by Maltese. The study provides little information about what students were doing for homework. Thousands of students gave just one piece of information, the amount of time they spent on homework, and then the author looked for a relationship between that and its effect on test scores and on grades. There was a positive relationship between the amount of time that high school students reported doing homework and their scores on standardized tests, but it was small and only true for math and science tests. Even assuming that doing homework was the cause of the higher scores, which is by no means clear, one or two hours’ worth of homework every day gained students just two or three points on a test. That small gain is certainly not worth the conflict that comes out of the frustration, exhaustion and loss of time for other activities which all result from homework. Maltese also learned the exact grade a student received in each class and compared that to how much homework the student did. Surprisingly, he found no relationship at all between the time a student spent on homework and his or her course grade and no difference in grades between students who completed homework and those who did not.\nIV This amazed Maltese. He at least expected to see a relationship between doing homework and higher grades because the same teacher who gave the assignments evaluated the students who completed them. A final grade is often based at least partly on whether or not students did homework. Even if homework is a significant waste of time, Maltese expected it to impact a student’s grade, but it did not.\nV Despite the obvious logical conclusions of his study, Maltese did his best to minimize its significance. Like others have done before, he seems to have approached the topic already convinced that homework is beneficial, so the only question he goes on to ask is how, not whether, to keep assigning it. However, if you take a careful look at the results of the study for yourself, you find that there’s nothing to prop up the belief that students must be made to keep working after they get home from school. The assumptions that teachers are just assigning homework badly and that we will start to see meaningful effects if it is done better are harder and harder to justify with each study published.",
+                            "questions": [
+                                {
+                                    "id": 22,
+                                    "question": "The main idea of the article is that ----.",
+                                    "options": [
+                                        "homework is only beneficial for older students",
+                                        "homework may have little positive effect on students of any age",
+                                        "a recent study shows how homework can benefit students in some situations",
+                                        "teachers do not have a clear understanding of how to assign homework effectively"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metin genelinde hem küçük çocuklar hem de gençler için ödevin akademik başarıya etkisinin çok az olduğu veya hiç olmadığı anlatılıyor.",
+                                        "wrong": {
+                                            "0": "Paragraf II'de gençler (teenagers) için bile kanıtların ikna edici olmadığı söyleniyor.",
+                                            "2": "Makale faydasını değil, faydasızlığını ve verilerin yanlış yorumlandığını vurguluyor.",
+                                            "3": "Bu yan bir düşünce, ana fikir ödevin etkisizliği."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "According to paragraph II, earlier studies about the effectiveness of homework showed that ----.",
+                                    "options": [
+                                        "increasing or decreasing the amount of homework young children do has no effect on their test scores",
+                                        "twelve year olds benefit more from homework than five year olds do",
+                                        "teachers intentionally deceive students about the positive effects of homework",
+                                        "it is especially difficult to convince teenagers to do homework"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Paragraf 2: 'no positive relationship has ever been found... increased scores on standardized tests' (genç öğrencilerde ödev miktarı ile test skorları arasında ilişki bulunamadı).",
+                                        "wrong": {
+                                            "1": "Metinde 12 ve 5 yaşındakilerin ikisi için de faydasız olduğu ima ediliyor, kıyaslama yok.",
+                                            "2": "Öğretmenlerin 'yanlış bilgilendirildiği' (misinformed) yazıyor, kasıtlı kandırmaca yok.",
+                                            "3": "Gençleri ikna etmekten bahsedilmiyor, akademik etkiden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "In paragraph II, the reader can understand that Timothy Keith -----.",
+                                    "options": [
+                                        "is not aware that attitudes about the effectiveness of homework have been changing",
+                                        "argued that homework had a positive effect on test scores in his first study about homework",
+                                        "lost a great deal of respect when he published the results of his second study on homework",
+                                        "will do a third study to learn whether doing homework is the real cause of higher test scores"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Paragraf 2: 'first published a highly respected study supporting homework’s impact' (ilk çalışmasında ödevin etkisini destekledi).",
+                                        "wrong": {
+                                            "0": "Farkındalığı hakkında bilgi yok.",
+                                            "2": "Saygınlığını yitirdiğine dair bilgi yok.",
+                                            "3": "Üçüncü bir çalışma yapacağına dair bilgi yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "Which of the following statements is TRUE according to paragraph III?",
+                                    "options": [
+                                        "Maltese collected detailed information about the type of homework that students did.",
+                                        "Maltese was not able to find any relationship between doing homework and improved test scores.",
+                                        "Maltese showed that doing two hours of homework a day produced better results than doing just one.",
+                                        "Maltese researched the effects of doing homework on both standardized tests and grades."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Paragraf 3: 'looked for a relationship between that and its effect on test scores and on grades' (hem test skorları hem de notlar üzerindeki etkisine baktı).",
+                                        "wrong": {
+                                            "0": "A şıkkı yanlış çünkü 'provides little information about what students were doing' (ne tür ödev yaptıklarına dair az bilgi var) deniyor.",
+                                            "1": "Yanlış, test skorlarıyla 'küçük bir ilişki' buldu.",
+                                            "2": "Saat farkının etkisi çok azdı (2-3 puan), belirgin bir farktan bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "The word This in paragraph IV refers to ----.",
+                                    "options": [
+                                        "the small effect homework had on standardized test scores",
+                                        "the conflict which results from doing homework",
+                                        "the amount of time students spent on homework",
+                                        "the lack of effect that doing homework had on grades"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Bir önceki paragrafın son cümlesinde 'found no relationship at all between... time... and his or her course grade' (ödev ve ders notu arasında ilişki bulunamadı) deniyor. Paragraf 4 'This amazed Maltese' (Bu Maltese'i şaşırttı) diye başlıyor.",
+                                        "wrong": {
+                                            "0": "Test skorlarını değil, ders notlarını kastediyor.",
+                                            "1": "Çatışma değil, bulgu (ilişki olmaması) şaşırttı.",
+                                            "2": "Zaman miktarı değil, sonucun kendisi şaşırttı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "The phrase prop up in paragraph V could best be replaced by ----.",
+                                    "options": [
+                                        "criticize",
+                                        "debate",
+                                        "examine",
+                                        "support"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Prop up\" desteklemek, dayanak olmak demektir. Metinde 'öğrencilerin ödev yapması gerektiği inancını destekleyecek (support) hiçbir şey yok' anlamında kullanılmış.",
+                                        "wrong": {
+                                            "0": "\"Criticize\" eleştirmek.",
+                                            "1": "\"Debate\" tartışmak.",
+                                            "2": "\"Examine\" incelemek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "In paragraph V, the author ----.",
+                                    "options": [
+                                        "claims that studies like the one Maltese did are unnecessary",
+                                        "encourages Maltese to do further research on this subject",
+                                        "criticizes Maltese for his biased interpretation of his findings",
+                                        "concludes that it is difficult to know whether or not giving homework has positive effects"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Yazar, Maltese'in bulguları ödevin etkisiz olduğunu gösterse de, Maltese'in bunu küçümsediğini ('minimize its significance') ve konuya önyargılı ('already convinced') yaklaştığını söylüyor.",
+                                        "wrong": {
+                                            "0": "Çalışmanın gereksiz olduğunu değil, yorumun yanlış olduğunu söylüyor.",
+                                            "1": "Daha fazla araştırma yapmasını önermiyor.",
+                                            "3": "Zor olduğunu değil, verilerin açıkça 'etkisiz' olduğunu gösterdiğini savunuyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "Which of the following statements is TRUE according to the article?",
+                                    "options": [
+                                        "Some research has found a slightly positive relationship between doing homework and higher grades, but it is not clear if doing homework causes higher grades.",
+                                        "Maltese only examined the effects of homework on grades that students received in science and math classes.",
+                                        "When looking at the results of homework on grades, Maltese was aware of the fact that teachers do not usually consider how much homework a student did when giving final grades.",
+                                        "The author is hopeful that teachers can learn how to give homework in such a way that it has a more positive effect on student learning."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru kabul edilebilir (Not: Seçenekte 'grades' kelimesi 'scores' anlamında genel kullanılmış olabilir). Paragraf 2 ve 3'te bazı araştırmaların (Timothy Keith, Maltese) ödev ile başarı (test skorları) arasında pozitif ama zayıf bir ilişki bulduğu, ancak bunun nedensellik (cause) anlamına gelmeyebileceği vurgulanıyor.",
+                                        "wrong": {
+                                            "1": "Maltese 'test skorlarını' sadece matematik ve fende anlamlı buldu, ders notlarını (grades) değil. Ayrıca ders notu analizini sadece bu derslerle sınırladığı söylenmiyor.",
+                                            "2": "Tam tersine, Maltese öğretmenlerin not verirken ödevi dikkate aldığını düşünüyordu ('expected it to impact... grade').",
+                                            "3": "Yazar, ödevin daha iyi verilirse işe yarayacağı varsayımının haklı çıkarılamadığını ('harder to justify') söylüyor, yani umutlu değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "reading_comprehension",
+                            "title": "Reading Text 3: Genghis Khan's Secret Weapon",
+                            "text": "Text 3: Genghis Khan's Secret Weapon\nI Perhaps you know the saying, “April showers bring May flowers,” meaning April rains enable flowers to come out in May. A new theory suggests that, “April showers brought Mongol soldiers.” Research by a team of scientists from Columbia University may have uncovered the reason why a small group of nomadic Mongol horsemen suddenly went on the move and conquered many peoples 800 years ago. They believe the Mongols enjoyed a never-repeated period of abundant rain and mild weather on the normally cold, dry steppes of Central Asia.\nII By inspecting tree rings in the Siberian pines in the Hangay Mountains in central Mongolia, the team put together a precise chronology of local climatic conditions from the year 900 A.D. to the present. The study gives new evidence of why the Mongols were able to conquer a great deal of Asia in just a few decades. The traditional view has been that the Mongols moved to other lands to desperately escape harsh conditions in their mountainous homeland. The scientists, however, found just the opposite: Between 1211 and 1225, a period that coincides with the rise of Genghis Khan and the Mongol empire, central Mongolia enjoyed a time of sustained benign weather unlike anything the region has experienced during at least the past 1,100 years. \"What makes our new findings fascinating is that we can see fifteen straight years of warm weather and above-average moisture,\" says tree-ring scientist Neil Pedersen. \"It took place during an important period in Mongol history and is unique in terms of persistently wet conditions.\"\nIII These unusually good conditions meant abundant grasses and a huge increase in sheep, cows and horses, which became the basis of Mongol power. This period of abundant rain was a strong contrast to the long and exceptionally severe droughts of the 1180s and 1190s. The Mongols were fortunate that this great event happened at the same time as the rise to power of Genghis Khan, a strong chieftain who would unite them. \"The transition from extreme drought to sufficient moisture strongly suggests that climate played a role in human events,\" said tree-ring scientist Amy Hessl . \"It wasn't the only aspect, but it must have created ideal conditions for a charismatic leader to emerge out of the chaos, develop an army, and increase power. In dry regions, extra moisture creates extra plant productivity, and that meant more horses, which was critical for Genghis’ success.\"\nIV And he succeeded greatly. By the time he died in 1227, he and his followers had founded an empire, and it later spread to cover Korea, China, Russia, the Middle East, Eastern Europe, Persia, India, and Southeast Asia. Although the Mongol empire receded over the centuries, some of Genghis Khan's direct descendants were still ruling parts of central Asia into the 1920s. The reason for the change in climatic conditions that increased rainfall and thus helped to launch the Mongol empire is still a mystery and \"doesn't appear to have been associated with any change in volcanic eruptions or solar irradiance,\" says climatologist Kevin Anchukaitis.\nV The climate chronology compiled by the team of scientists reveals that the steppes have had their hottest weather and most severe droughts in centuries in the last ten years, hotter and drier than even the severe droughts of the 1180s and 1190s. It also shows that climate is playing a role in a modern Mongol “invasion” from the dry steppes to the crowded cities. The recent drought years followed some fairly wet years toward the end of the 20th century. That's a double whammy, says Pedersen, since the rainfall in the 1990s may have made farmers less prepared for the harsh conditions of a severe drought. The recent dry years, together with great changes in Mongolia's post-communist society, have triggered a mass migration from the steppes into the country's capital, Ulaanbataar, where half of Mongolia's three million people now live.",
+                            "questions": [
+                                {
+                                    "id": 30,
+                                    "question": "The text mainly discusses ----.",
+                                    "options": [
+                                        "the reasons that Genghis Khan’s empire lasted for a surprisingly long period of time",
+                                        "the effects that climate had on Genghis Khan and events around the steppes of Mongolia",
+                                        "how Genghis Khan developed an extremely large empire with limited resources",
+                                        "how climate has had a major influence on both the rise and the fall of various empires"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metin, iklimin Cengiz Han'ın yükselişine (yağmurlu dönem) ve günümüzdeki göçlere (kuraklık) etkisini anlatıyor.",
+                                        "wrong": {
+                                            "0": "İmparatorluğun süresinden çok kuruluş nedenlerine odaklanıyor.",
+                                            "2": "Sınırlı kaynak değil, aksine iklim sayesinde artan kaynaklardan (ot, at) bahsediyor.",
+                                            "3": "Sadece Moğol imparatorluğunu anlatıyor, çeşitli imparatorlukları değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "Paragraph II mentions that the Mongols ----",
+                                    "options": [
+                                        "established their empire around 900 A.D.",
+                                        "built an empire amazingly quickly",
+                                        "treated the people that they conquered very badly",
+                                        "developed innovative war methods to help them expand"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Paragraf 2: 'conquer a great deal of Asia in just a few decades' (Asya'nın büyük kısmını sadece birkaç on yılda fethettiler) ifadesi hızlı olduğunu gösterir.",
+                                        "wrong": {
+                                            "0": "900 A.D. ağaç halkalarının incelendiği başlangıç tarihi, imparatorluğun kuruluş tarihi değil (o 1200'ler).",
+                                            "2": "Kötü muameleden bahsedilmiyor.",
+                                            "3": "Savaş yöntemlerinden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "The word benign in paragraph II could best be replaced by ----.",
+                                    "options": [
+                                        "stormy",
+                                        "typical",
+                                        "pleasant",
+                                        "changeable"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Benign\" (ılıman/iyi huylu) burada 'warm weather and above-average moisture' ile açıklandığı için \"pleasant\" (hoş/güzel) anlamına gelir.",
+                                        "wrong": {
+                                            "0": "\"Stormy\" fırtınalı.",
+                                            "1": "\"Typical\" tipik (ama metin 'unlike anything' diyerek sıra dışı olduğunu söylüyor).",
+                                            "3": "\"Changeable\" değişken."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 33,
+                                    "question": "Which of the following statements is TRUE about Genghis Khan’s rise to power according to paragraphs II and III?",
+                                    "options": [
+                                        "Abundant rains occurring at just the right time were one factor in his rise.",
+                                        "His rise had already begun during the period of droughts in the 1180s and 1190s.",
+                                        "His strong personality would have allowed him to rise to power even if the droughts had continued.",
+                                        "Having a large number of war horses enabled him to overcome some problems related to changing climate."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Paragraf 3: 'It wasn't the only aspect, but it must have created ideal conditions...' (Tek etken değildi ama ideal koşulları yarattı).",
+                                        "wrong": {
+                                            "1": "Yükselişi 1211-1225 arasındaki yağmurlu dönemle çakışıyor, kuraklık dönemiyle değil.",
+                                            "2": "Kuraklık devam etseydi başarabilir miydi bilinmez, metin yağmurun 'kritik' olduğunu söylüyor.",
+                                            "3": "İklim sorunlarını aşmasını sağlamadı, iklimin kendisi at sayısını artırarak avantaj sağladı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "The word receded in paragraph IV is closest in meaning to ----.",
+                                    "options": [
+                                        "kept power",
+                                        "became smaller",
+                                        "moved forward",
+                                        "developed new weapons"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Receded\" (gerilemek/çekilmek) anlamına gelir. İmparatorluk zamanla küçülmüştür ('became smaller').",
+                                        "wrong": {
+                                            "0": "\"Kept power\" gücü korumak.",
+                                            "2": "\"Moved forward\" ilerlemek.",
+                                            "3": "\"Developed new weapons\" yeni silah geliştirmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "The phrase double whammy in paragraph V refers to which two events?",
+                                    "options": [
+                                        "the droughts of the 1180s and the droughts of the 1190s",
+                                        "the hot weather and the dry weather in the steppes in the last ten years",
+                                        "the droughts in the steppes at the end of the 1100s and the droughts of the last ten years",
+                                        "the wet years in the steppes at the end of the 20th century and the droughts of the last ten years"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. 'Double whammy' (çifte darbe) burada şunu anlatıyor: 1. Önce yağmurlu yıllar geldi (hazırlıksız yakalandılar), 2. Sonra şiddetli kuraklık geldi.",
+                                        "wrong": {
+                                            "0": "1180 ve 1190 eski tarihler.",
+                                            "1": "Sıcak ve kuru hava aynı olayın parçası.",
+                                            "2": "Eski kuraklık ile yeni kuraklığı kıyaslamıyor, ardışık iki olayı (yağmur + kuraklık) anlatıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 36,
+                                    "question": "The main idea of paragraph V is that ----.",
+                                    "options": [
+                                        "even in recent history, climate has influenced people living in the steppes of Mongolia",
+                                        "the climate on the steppes of Mongolia has become more predictable over the centuries",
+                                        "changes in climate will make it impossible to live in the steppes of Mongolia within a decade",
+                                        "the Mongols continue to be an aggressive people even after many centuries have passed"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Paragraf, günümüzdeki kuraklığın da (tipkı geçmişteki yağmurlar gibi) insanları etkilediğini ve şehre göçe ('modern Mongol invasion') neden olduğunu anlatıyor.",
+                                        "wrong": {
+                                            "1": "Tahmin edilebilir değil, daha ekstrem hale gelmiş.",
+                                            "2": "İmkansız olacağı söylenmiyor, zorlaştığı söyleniyor.",
+                                            "3": "Saldırgan olduklarından değil, göç ettiklerinden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "Which of the following statements is NOT TRUE according to the text?",
+                                    "options": [
+                                        "The evidence that the team of scientists found for drought and rain came from their careful inspection of tree rings.",
+                                        "Genghis Khan’s success resulted from a combination of good weather and newly developed weapons.",
+                                        "Genghis Khan’s empire continued to expand after his death in 1227.",
+                                        "No unusual events in nature in the early 1200s that might have caused more rain have been discovered."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı YANLIŞ. Metinde Cengiz Han'ın başarısı 'karizmatik liderlik' ve 'iyi hava' (dolayısıyla çok at) ile açıklanıyor. 'Newly developed weapons' (yeni geliştirilen silahlar) ifadesi metinde geçmiyor.",
+                                        "wrong": {
+                                            "0": "Doğru, ağaç halkaları ('tree rings') incelendi.",
+                                            "2": "Doğru, ölümünden sonra da yayıldı ('spread to cover...').",
+                                            "3": "Doğru, volkanik patlama vs. bulunamadı ('doesn't appear to have been associated')."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "reading_comprehension",
+                            "title": "Reading Text 4: Climate Change",
+                            "text": "Text 4: Climate Change\nI If you think of climate change as just a danger for polar bears or a threat for humans sometime in the distant future, you are mistaken. That's the message from top climate scientists assessing the impact of global warming. In fact, they say the dangers of a warming Earth are immediate and already disturbing humans. \"The polar bear is us,\" says Patricia Lankao of the US Center for Atmospheric Research. She is one of the more than 60 scientists who have been part of a team writing an updated report on the impacts of global warming for the UN Panel on Climate Change.\nII Their key message is that global warming is having far more immediate effects on humans than scientists once thought it would. It's not just about melting ice or threatened animals and plants. It's about the human problems of hunger, disease, flooding, and war, which are becoming worse. The report says scientists have already observed many changes from warming, such as more heat waves in North America, Europe, Africa and Asia. Severe floods, such as the one that recently displaced 90,000 people in Mozambique, are now more common in areas with dense populations in Africa and Australia. Europe and North America are getting more intense rains that cause damage to crops. Melting ice in the Arctic is not only affecting the polar bear but also already changing the lives of native people in northern Canada.\nIII Past reports have been ignored because global warming's effects seemed too distant in time and location, says Pennsylvania State University scientist Michael Mann. Previous UN reports basically reiterated what other major scientific organizations had already said: The burning of coal, oil and gas was producing an increasing amount of heat-trapping greenhouse gases, such as carbon dioxide. Those gases were changing Earth's climate, bringing warmer temperatures and more extreme weather, and the problem was worsening.\nIV However, the key message of the current report can be summed up by a phrase that keeps coming up in the report: “risk for humans”. The report's chief author, Chris Field of the Carnegie Institution, says the effects of global warming are already \"widespread and consequential for humans.\" For the first time, the panel is emphasizing the link between wars and warming temperatures. Scientists say warming has not directly caused wars, but the problems which result from it make existing threats more likely to turn into wars. In addition, they predict global food prices will rise around 50 percent by 2050 because of warmer temperatures and changes in rain patterns. They also report that many people living in poverty will get poorer. Economic growth and poverty reduction will slow down as the world heats up. If temperatures rise high enough, the world's overall economy may go down by as much as 2 percent. According to the report, risks from warming-related extreme weather, now at a moderate level, are also likely to get worse with just a bit more warming. While it cannot say which hurricanes and droughts were caused by climate change, it can say these events have been more frequent. The effects of these events illustrate how vulnerable people are to weather extremes.\nV What is the reaction of critics of past reports? University of Colorado science professor Roger Pielke said, \"They made vast improvements in the way they evaluated the data; this is a much more persuasive report.\" Another critic, University of Alabama Huntsville professor John Christy, still thinks the risks described in the report are overblown. He says poverty, which has directly impacted everyday life in developing countries for many years, is a much larger problem than global warming, which is just beginning to affect daily life. On the other hand, environmentalist Katharine Hayhoe says previous reports created the impression that the main reason to care about climate change was its impact on the environment. \"However, this report got it right. We must care about global warming because it has begun to affect nearly every aspect of human life on this planet,\" she says.",
+                            "questions": [
+                                {
+                                    "id": 38,
+                                    "question": "In paragraph I, when Patricia Lankao says, “The polar bear is us,” she means ----.",
+                                    "options": [
+                                        "the effects of climate change are currently affecting both people and polar bears",
+                                        "polar bears and humans are similar in that they may soon become sensitive to changes in climate",
+                                        "someday people will be impacted by climate change just as polar bears are being affected now",
+                                        "scientists have shown that neither polar bears nor people can decrease global warming anymore"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. 'Polar bear is us' metaforu, eskiden sadece kutup ayılarının sorunu sanılan şeyin artık 'bizim' (insanların) sorunu olduğunu ve şu an bizi etkilediğini anlatıyor.",
+                                        "wrong": {
+                                            "1": "Benzerlikten ziyade tehdidin ortaklığı vurgulanıyor.",
+                                            "2": "\"Someday\" (bir gün) değil, \"immediate\" (hemen/şimdi) olduğu paragrafta vurgulanmış.",
+                                            "3": "Küresel ısınmayı azaltıp azaltamayacakları hakkında değil, etkileri hakkında konuşuluyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "In paragraph II, the author mentions all of the following impacts that climate change is having EXCEPT ----.",
+                                    "options": [
+                                        "more frequent periods of extremely hot weather",
+                                        "flooding which is affecting heavily populated areas",
+                                        "lack of rain which prevents crops from growing",
+                                        "changes for people living in Arctic regions"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı metinde yok. Paragrafta 'intense rains that cause damage to crops' (mahsullere zarar veren yoğun yağmurlar) deniyor, yağmur azlığından değil, çokluğundan bahsediliyor.",
+                                        "wrong": {
+                                            "0": "Var: 'heat waves' (sıcak hava dalgaları).",
+                                            "1": "Var: 'Severe floods... in areas with dense populations'.",
+                                            "3": "Var: 'changing the lives of native people'."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "The word reiterated in paragraph III could best be replaced by ----.",
+                                    "options": [
+                                        "contradicted",
+                                        "convinced",
+                                        "reacted",
+                                        "restated"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Reiterated\" tekrar etmek, yinelemek demektir. 'Restated' de yeniden ifade etmek demektir.",
+                                        "wrong": {
+                                            "0": "\"Contradicted\" çelişmek.",
+                                            "1": "\"Convinced\" ikna etmek.",
+                                            "2": "\"Reacted\" tepki vermek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "In paragraph IV, when the author discusses the relationship between global warming and wars, he emphasizes that ----.",
+                                    "options": [
+                                        "global warming can negatively affect relationships between countries, which may lead to wars",
+                                        "wars are becoming longer and more violent as the effects of global warming become more intense",
+                                        "countries that are less affected by global warming are already threatening countries that are more affected",
+                                        "some countries no longer have the resources to protect themselves due to the effects of global warming"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Paragraf 4: 'make existing threats more likely to turn into wars' (mevcut tehditlerin savaşa dönüşme ihtimalini artırıyor). Doğrudan sebep olmasa da ilişkileri bozup savaşı tetikliyor.",
+                                        "wrong": {
+                                            "1": "Savaşların süresi veya şiddetinden bahsedilmiyor.",
+                                            "2": "Ülkelerin birbirini tehdit etmesinden bahsedilmiyor.",
+                                            "3": "Kendini koruma kaynaklarından bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "According to paragraph IV, which of the following statements about the effects of global warming is TRUE?",
+                                    "options": [
+                                        "There will be less and less rain as temperatures continue to rise.",
+                                        "Overall, warmer temperatures will result in economic growth.",
+                                        "It is not clear which of the recent hurricanes and droughts have been a result of global warming.",
+                                        "Warming-related extreme weather will probably remain steady at its current level of danger."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Paragraf 4: 'While it cannot say which hurricanes and droughts were caused by climate change...' (Hangi kasırga ve kuraklığın iklim değişikliğinden kaynaklandığını söyleyemese de...).",
+                                        "wrong": {
+                                            "0": "Yağmurun azalacağı değil, desenlerinin değişeceği ('changes in rain patterns') söyleniyor.",
+                                            "1": "Ekonomik büyüme yavaşlayacak ('slow down').",
+                                            "3": "Sabit kalmayacak, kötüleşecek ('likely to get worse')."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "In paragraph V, the word overblown is closest in meaning to ----.",
+                                    "options": [
+                                        "disastrous",
+                                        "exaggerated",
+                                        "increasing",
+                                        "significant"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Overblown\" abartılmış demektir. Eleştirmen John Christy risklerin olduğundan büyük gösterildiğini düşünüyor.",
+                                        "wrong": {
+                                            "0": "\"Disastrous\" felaket.",
+                                            "2": "\"Increasing\" artan.",
+                                            "3": "\"Significant\" önemli."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 44,
+                                    "question": "According to paragraph V, one of the critics of past reports ----.",
+                                    "options": [
+                                        "says better analysis of the information made this report more convincing",
+                                        "states that developed countries are the main cause of global warming",
+                                        "sees global warming as a key factor for the increasing poverty in the developing world",
+                                        "claims that global warming is not affecting the environment"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Roger Pielke diyor ki: 'They made vast improvements... much more persuasive report' (Veriyi değerlendirmede büyük ilerleme kaydettiler... çok daha ikna edici bir rapor).",
+                                        "wrong": {
+                                            "1": "Böyle bir ifade yok.",
+                                            "2": "Tam tersi, yoksulluğun küresel ısınmadan daha büyük bir sorun olduğunu söylüyor (John Christy).",
+                                            "3": "Çevreyi etkilemediğini iddia etmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 45,
+                                    "question": "The factor that made this report significantly different from past reports on climate change is its focus on ---.",
+                                    "options": [
+                                        "personal stories rather than many statistics",
+                                        "the threats that global warming has on people",
+                                        "all areas of the globe rather than just one region",
+                                        "the developing world rather than the developed one"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Paragraf 4'ün başında: 'key message... risk for humans' (ana mesaj... insanlar için risk). Artık sadece çevre değil, insan üzerindeki etkileri vurgulanıyor.",
+                                        "wrong": {
+                                            "0": "Kişisel hikayelerden bahsedilmiyor.",
+                                            "2": "Bölgesel değil küresel olduğu zaten biliniyordu, fark bu değil.",
+                                            "3": "Gelişmiş/gelişmekte olan ayrımı ana odak farkı değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }

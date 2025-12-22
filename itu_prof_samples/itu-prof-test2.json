@@ -1,0 +1,1118 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Rise of Electric Vehicles",
+                    "passage": {
+                        "title": "The Rise of Electric Vehicles",
+                        "text": "The popularity of electric vehicles (EVs) (1)_____ rapidly in the last few years. (2)____ just a niche product, they are now becoming mainstream. This shift (3)_____ by several factors, including growing concerns about climate change, improving battery technology, and government incentives. (4)_____, many automakers have announced plans (5)_____ their production of gasoline-powered cars entirely within the next decade. (6)_____ there are still challenges, (7)_____ the high initial cost and the need for more charging stations, the trend seems irreversible. If batteries (8)_____ cheaper and charge faster, the market share of EVs (9)_____ to grow exponentially. We are (10)_____ witnessing a major transformation in transportation."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "has grown",
+                                "grew",
+                                "was growing",
+                                "had grown"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Has grown\" (Present Perfect) doğru çünkü cümlede \"in the last few years\" (son birkaç yılda) diyor. Olay geçmişte başlamış ve etkisi hala devam ediyor.",
+                                "wrong": {
+                                    "1": "\"Grew\" geçmişte bitmiş olaylar içindir.",
+                                    "2": "\"Was growing\" geçmişte belli bir anı anlatır.",
+                                    "3": "\"Had grown\" çok eski geçmişi anlatır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "Once",
+                                "Since",
+                                "While",
+                                "By"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Once\" (bir zamanlar) doğru. Cümle, eskiden niş bir ürün olduklarını ama şimdi herkesin kullandığını söylüyor.",
+                                "wrong": {
+                                    "1": "\"Since\" zaman veya sebep bildirir.",
+                                    "2": "\"While\" o sırada anlamı katar, burada zıtlık var.",
+                                    "3": "\"By\" edattır, buraya uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "is driving",
+                                "has been driven",
+                                "drove",
+                                "will drive"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Has been driven\" (Pasif) doğru. Değişimi yapan \"faktörler\" cümlenin sonunda verilmiş. Değişim kendi kendine olmaz, faktörler tarafından yapılır.",
+                                "wrong": {
+                                    "0": "\"Is driving\" aktif yapıdır, değişim araba sürmüyor.",
+                                    "2": "\"Drove\" geçmiş zaman aktif yapıdır.",
+                                    "3": "\"Will drive\" gelecek zaman aktif yapıdır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "In fact",
+                                "In contrast",
+                                "For example",
+                                "However"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"In fact\" (Aslında/Hatta) doğru. Yazar önceki fikri destekleyen daha güçlü bir bilgi veriyor: Firmalar benzinli araçları bırakmayı planlıyor.",
+                                "wrong": {
+                                    "1": "\"In contrast\" zıtlık bildirir.",
+                                    "2": "\"For example\" sadece bir örnek verir.",
+                                    "3": "\"However\" ama demektir, burada destekleyici bilgi var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "phasing out",
+                                "to phase out",
+                                "for phasing out",
+                                "phase out"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"To phase out\" doğru. \"Plan\" kelimesinden sonra gelen eylem genellikle \"to\" ile bağlanır (plan to do something).",
+                                "wrong": {
+                                    "0": "\"Phasing out\" plan kelimesiyle doğrudan kullanılmaz.",
+                                    "2": "\"For phasing out\" amaç bildirir ama yapıya uymaz.",
+                                    "3": "\"Phase out\" iki ana fiil yan yana gelmez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "Because",
+                                "Therefore",
+                                "Although",
+                                "As"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Although\" (Rağmen) doğru. Zorluklar var AMA trend geri dönülemez. Zıtlık kuruyor.",
+                                "wrong": {
+                                    "0": "\"Because\" sebep bildirir.",
+                                    "1": "\"Therefore\" sonuç bildirir.",
+                                    "3": "\"As\" sebep bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "such as",
+                                "including",
+                                "as well",
+                                "for"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Such as\" (örneğin/gibi) doğru. Zorluklardan bahsettikten sonra örnek veriyor: yüksek maliyet gibi.",
+                                "wrong": {
+                                    "1": "\"Including\" de olabilir ama \"such as\" örneklemede daha yaygındır.",
+                                    "2": "\"As well\" cümle sonunda kullanılır.",
+                                    "3": "\"For\" edatı örnekleme yapmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "become",
+                                "became",
+                                "will become",
+                                "have become"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Become\" doğru çünkü bu Type 1 Conditional yapısıdır (If + Present Simple). Gelecekte gerçekleşme ihtimali olan bir durumdan bahsediliyor.",
+                                "wrong": {
+                                    "1": "\"Became\" geçmiş zaman, Type 2 Conditional için kullanılır (şu anki hayali durum).",
+                                    "2": "\"Will become\" 'If' cümlesinde genellikle kullanılmaz.",
+                                    "3": "\"Have become\" Type 1 yapısında 'If' kısmında kullanılmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "is likely",
+                                "likely",
+                                "will likely",
+                                "has likely"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Is likely\" doğru çünkü 'be likely to do' yapısı 'muhtemelen yapacak' anlamına gelir. Özne tekil (market share) olduğu için 'is' kullanılır.",
+                                "wrong": {
+                                    "1": "\"Likely\" tek başına burada fiil görevi göremez.",
+                                    "2": "\"Will likely\" arkasından 'to grow' değil, doğrudan fiil gelir.",
+                                    "3": "\"Has likely\" Present Perfect ile olasılık bildirmek için yaygın kullanılmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "undoubtedly",
+                                "doubt",
+                                "doubtful",
+                                "doubted"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Undoubtedly\" (kuşkusuz) doğru çünkü buraya bir zarf gerekiyor. 'Witnessing' fiilini niteliyor ve kesinlik vurgusu yapıyor.",
+                                "wrong": {
+                                    "1": "\"Doubt\" isim veya fiildir, zarf gerekiyor.",
+                                    "2": "\"Doubtful\" sıfattır, zarf gerekiyor.",
+                                    "3": "\"Doubted\" fiildir, zarf gerekiyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "statement": "Tigers cannot outrun fast prey such as deer, so they catch their victims by attacking them unexpectedly.",
+                            "options": [
+                                "Unable to run faster than the animals they eat like deer, tigers make use of surprise attacks to kill them.",
+                                "It is surprising that tigers cannot keep up with animals like deer, which they attack so that they can eat them.",
+                                "Despite having amazing running abilities, tigers catch prey like deer by attacking them when they’re not ready for it.",
+                                "Tigers feed on fast animals like deer, so they cannot waste any time when deciding whether to make an attack on them or not."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'cannot outrun' (daha hızlı koşamaz) ifadesini 'Unable to run faster' ile, 'unexpectedly' (beklenmedik şekilde) ifadesini ise 'surprise attacks' ile tam karşılıyor.",
+                                "wrong": {
+                                    "1": "Kaplanların koşamamasının 'şaşırtıcı' olduğunu söylüyor, bu yorum orijinalde yok.",
+                                    "2": "Kaplanların harika koştuğunu söylüyor, tam tersi.",
+                                    "3": "Saldırı kararında zaman kaybetmemekten bahsediyor, konu bu değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "statement": "If you shaved the fur off both a lion and a tiger, you wouldn't be able to tell them apart because their body structure is so similar.",
+                            "options": [
+                                "Lions and tigers have similar body types, but you are able to identify each one even when they do not have fur.",
+                                "A lion’s body looks nearly identical to a tiger’s when they do not have fur due to their resemblance in body structure.",
+                                "Taking the fur off animals like lions and tigers makes them look amazingly similar despite their variety in body type.",
+                                "Without fur, you could not figure out which animal was a lion and which was a tiger if they did not have different body types."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık doğru çünkü 'tüyleri yokken neredeyse aynı (identical) görünürler' diyerek 'tell them apart' (ayırt etme) zorluğunu anlatıyor.",
+                                "wrong": {
+                                    "0": "Tüyleri olmasa da tanıyabilirsiniz diyor, orijinalin tam tersi.",
+                                    "2": "Vücut tipleri farklı olmasına rağmen diyor, oysa orijinalde benzer diyor.",
+                                    "3": "Mantığı ters kurmuş, farklı vücutları olmasaydı bilemezdiniz diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "statement": "There were once nine subspecies of tigers, but three are fully extinct while one is extinct in its natural habitat, and the rest are endangered.",
+                            "options": [
+                                "Five of the nine subspecies of tigers are still a source of danger in the wild, one has been limited to zoos, and three no longer exist.",
+                                "Of the nine subspecies of tigers that used to exist, five survive but are endangered, one survives in captivity, and the others are extinct.",
+                                "Three of the nine subspecies of tigers have gone extinct, one more will soon be, and the other five live in areas where there is a lot of danger.",
+                                "Three subspecies of tigers have become extinct and one cannot be found in the wild, while the remaining five have managed to adapt to the struggles of modern life."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Matematik doğru: 9 tür vardı. 3'ü gitti (extinct). 1'i doğada yok (captivity). Geriye 5 kalır ve tehlikede (endangered).",
+                                "wrong": {
+                                    "0": "'source of danger' (tehlike kaynağı) diyor, nesli tehlikede demek değil.",
+                                    "2": "5 tanesinin tehlikeli bölgelerde yaşadığını söylüyor.",
+                                    "3": "5 tanesinin modern hayata adapte olduğunu söylüyor, bu bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "statement": "Less than 100 years ago, Asia had a large tiger population, but hunting and habitat loss have put this animal at risk.",
+                            "options": [
+                                "Less and less area to hunt is the primary reason that the number of tigers has fallen so dramatically in the last century.",
+                                "Asian tigers are hunted too much and have too little space, so they do not grow as large as they did 100 years earlier.",
+                                "In less than a century, hunting and a decrease in places to live have reduced the number of Asian tigers so much that they may not survive.",
+                                "Pressure from hunters has resulted in fewer places for tigers to escape to, which has had a huge effect on their population in the last century."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinaldeki 'hunting and habitat loss' (avlanma ve yaşam alanı kaybı) ifadesini tam veriyor. 'May not survive' ifadesi de 'put at risk' ile uyumlu.",
+                                "wrong": {
+                                    "0": "Avlanacak alan azaldı diyor, sorun yaşayacak alanın azalması.",
+                                    "1": "Kaplanların boyunun büyümediğini söylüyor.",
+                                    "3": "Avcıların yaşam alanını azalttığını söylüyor, neden-sonuç yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "statement": "If a hurricane warning has been declared for your area, hurricane conditions are expected within 24 hours.",
+                            "options": [
+                                "Once a hurricane warning is given for your area, you probably have less than 24 hours until it hits.",
+                                "Your area will receive a hurricane warning if you have experienced a hurricane in the last 24 hours.",
+                                "A hurricane is unlikely to strike your area until about 24 hours after a hurricane warning is announced.",
+                                "Expect a hurricane to last up to 24 hours after a hurricane warning has been issued for the area where you live."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümle '24 saat içinde' diyor. Bu şık da 'muhtemelen 24 saatten az vaktiniz var' diyerek aynı aciliyeti veriyor.",
+                                "wrong": {
+                                    "1": "Önce kasırga olur sonra uyarı gelir diyor, saçma.",
+                                    "2": "24 saat geçmeden kasırga olmaz diyor, yanlış.",
+                                    "3": "Kasırganın 24 saat süreceğini söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "statement": "On Jupiter, a hurricane bigger in size than Earth has been going on for more than 300 years.",
+                            "options": [
+                                "Jupiter, which is greater in size than Earth, has a 300-year-old hurricane that keeps gaining strength.",
+                                "On Jupiter, there’s a hurricane still going on which started over 300 years ago and covers an area larger than Earth.",
+                                "Jupiter has had many hurricanes throughout the last 300 years, one of which continues today and is greater in size than Earth.",
+                                "Jupiter, like Earth, has been having hurricanes for the last 300 years, and one has lasted longer than any hurricane we have had on Earth."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu şık iki ana bilgiyi koruyor: 1) Kasırga Dünya'dan büyük. 2) 300 yıldan fazladır devam ediyor.",
+                                "wrong": {
+                                    "0": "Jüpiter'in Dünya'dan büyük olduğunu söylüyor, kasırganın değil.",
+                                    "2": "Birçok kasırga olduğunu söylüyor, metin tek bir kasırgadan bahsediyor.",
+                                    "3": "Dünya ile Jüpiter'i benzetiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "statement": "Slow-moving hurricanes produce more rainfall and cause more damage from flooding than fast-moving hurricanes.",
+                            "options": [
+                                "The faster a hurricane moves, the more rainfall it produces, but slow-moving hurricanes cause a great deal of flooding too.",
+                                "The greatest damage from hurricanes is due to flooding, and slow-moving hurricanes cause more floods than larger ones.",
+                                "The heavy rains from slow-moving hurricanes lead to floods, which cause many more deaths than fast-moving hurricanes.",
+                                "Hurricanes that move quickly bring about less rainfall and less damage due to flooding than hurricanes which proceed at a slower rate."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinalin ters mantığını kuruyor: Yavaş olanlar çok hasar veriyorsa, hızlı olanlar daha az hasar verir.",
+                                "wrong": {
+                                    "0": "Hızlıların daha çok yağmur ürettiğini söylüyor, yanlış.",
+                                    "1": "Yavaşların büyüklerden daha çok sel yaptığını söylüyor, kıyaslama hızlı-yavaş olmalı.",
+                                    "2": "Daha çok ölüme yol açtığını söylüyor, metinde ölüm yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "statement": "The center of a hurricane, called the eye, can be as large as 32 km across and usually has calm weather with low winds.",
+                            "options": [
+                                "The central part of a hurricane, known as the eye, may be 32 km long if the weather is mild and not windy.",
+                                "The eye of a hurricane, extending at least 32 km from its center, generally has pleasant weather and little wind.",
+                                "Typically, the weather is peaceful and there is light wind in the eye, that is, the center of a hurricane, an area up to 32 km from one end to the other.",
+                                "The weather in the eye of a hurricane is neither stormy nor windy because the big 32-km area in the middle of a hurricane has a significant effect on it."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinaldeki 'as large as' (kadar büyük) ifadesini 'up to' (kadar) ile karşılıyor. Havanın sakin olduğunu da belirtiyor.",
+                                "wrong": {
+                                    "0": "Hava sakinse 32 km olur diyor, koşul ekliyor.",
+                                    "1": "En az 32 km diyor, yanlış.",
+                                    "3": "Alan büyük olduğu için havanın sakin olduğunu söylüyor, neden-sonuç yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "statement": "Despite playing a minor role in World War I, planes were the most important weapons during World War II.",
+                            "options": [
+                                "Even though planes were not as effective as other weapons in World War I, they had improved by World War II.",
+                                "The planes which gained importance as World War II progressed did not have much significance in World War I.",
+                                "Planes were never a key part of World War I, yet, just like other weapons, they were much stronger in World War II.",
+                                "Unlike in World War I, when planes were not very important, during World War II they were a bigger factor than any other weapon."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Zıtlığı tam veriyor: 1. Dünya Savaşı'nda önemsizdi, 2. Dünya Savaşı'nda diğer tüm silahlardan daha önemliydi (most important = bigger factor than any other).",
+                                "wrong": {
+                                    "0": "Sadece geliştiklerini söylüyor, en önemli olduklarını söylemiyor.",
+                                    "1": "Savaş ilerledikçe önem kazandığını söylüyor.",
+                                    "2": "Diğer silahlar gibi önemliydi diyor, oysa uçaklar 'en' önemliydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "statement": "In the summer of 1940, Britain’s Royal Air Force (RAF) prevented the attacks of German planes, which was a factor in the cancellation of German plans to invade the UK.",
+                            "options": [
+                                "The RAF destroyed all German planes in the summer of 1940, so the Germans lost hope of gaining control over Britain.",
+                                "German planes were unable to overcome the RAF in summer 1940, yet the Germans did not give up on their goal of taking over the UK.",
+                                "One reason that Germany gave up on trying to capture the UK was that the RAF defended it against German planes during the summer of 1940.",
+                                "The summer of 1940 was when the RAF prevented German planes from destroying the UK, and as a result the German army delayed its attack on the UK."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinaldeki 'factor in the cancellation' (iptal nedeni) ile 'One reason that Germany gave up' (vazgeçme nedeni) eşleşiyor.",
+                                "wrong": {
+                                    "0": "Tüm uçakları yok etti diyor, abartılı.",
+                                    "1": "Almanların vazgeçmediğini söylüyor, yanlış.",
+                                    "3": "Saldırıyı ertelediklerini söylüyor, iptal ile erteleme farklıdır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "statement": "During World War II, pilots of Hurricane planes had to use oxygen masks as the plane’s exhaust system allowed carbon monoxide into the cockpit.",
+                            "options": [
+                                "Since Hurricane planes flown in World War II did not keep carbon monoxide out of the cockpit, pilots of these planes needed to wear oxygen masks.",
+                                "Although oxygen masks were difficult to get used to, World War II Hurricane pilots used them because of the carbon monoxide the exhaust system let into the cockpit.",
+                                "Making use of oxygen masks was necessary for pilots of Hurricane planes during World War II whenever they tried to fix the exhaust system, which allowed carbon monoxide into their planes.",
+                                "Many Hurricane pilots were seriously burned as a consequence of a poor design which caused their aircraft to go up in flames quickly."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Sebep-sonuç ilişkisi doğru: Gaz içeri sızdığı için (did not keep out), maske takmak zorundaydılar (needed to wear).",
+                                "wrong": {
+                                    "1": "Maskelere alışmanın zor olduğunu söylüyor, bu detay yok.",
+                                    "2": "Sadece tamir ederken taktıklarını söylüyor.",
+                                    "3": "Bu şık yanıklarla ilgili, gazla ilgili değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Many Hurricane pilots were seriously burned as a consequence of a poor design which caused their aircraft to go up in flames quickly.",
+                            "options": [
+                                "Maneuvering Hurricane aircraft was difficult, and when hit, resulting fires often severely burned the pilots.",
+                                "Because of a bad design, fires on Hurricane aircraft spread fast, causing pilots to get life-threatening burns.",
+                                "The design of Hurricane planes made them fast but also dangerous, and fires on board led to serious burns and death.",
+                                "The unfortunate layout of a Hurricane plane prevented pilots from escaping rapidly, so when a fire took place, pilots were often killed."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Kötü tasarım (poor design), hızlı alev alma (spread fast) ve ciddi yanıklar (life-threatening burns) eşleşmesi tam.",
+                                "wrong": {
+                                    "0": "Manevranın zor olduğunu söylüyor.",
+                                    "2": "Uçakların hızlı olduğunu ve ölüm olduğunu ekliyor.",
+                                    "3": "Kaçamadıkları için öldüklerini söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "The word “salary” must have been derived from the word “salt” because salt was highly valued and used as a form of currency in ancient times.",
+                            "options": [
+                                "“Salt” used to be even more valuable than “salary”, so it seems it was even used in many financial transactions.",
+                                "Salt was once considered very valuable and used as money; thus, it can be said the word “salary” comes from “salt”.",
+                                "As ancient people liked using salt and were willing to pay a high price for it, the word “salary” could be related to “salt”.",
+                                "Many years ago people couldn’t have been aware of how common salt was, so it was costly and even used as money to pay a person’s “salary”."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Sebep (tuz değerliydi ve paraydı) ve Sonuç (salary kelimesi ondan türedi) ilişkisi korunmuş.",
+                                "wrong": {
+                                    "0": "Tuzun maaştan daha değerli olduğunu söylüyor.",
+                                    "2": "İnsanlar tuzu sevdiği için pahalıydı diyor.",
+                                    "3": "İnsanlar tuzun yaygın olduğunu bilmediği için pahalıydı diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "In the 16th century, the salt made in Poland brought about a strong kingdom, but it fell when Germans produced better quality salt.",
+                            "options": [
+                                "The salt made in Poland in the 1500s helped their nation develop, but Germans conquered them and started making better salt.",
+                                "Poland became powerful in the 1500s due to salt production, but Germans took control of their land and then started making higher quality salt.",
+                                "In the 1500s, Germans began making better salt than the Polish and caused Poland’s empire, which had grown strong because of salt, to be conquered as a result.",
+                                "The salt made by the Germans in the 1500s was even higher in quality than the salt made in Poland, and Germany built up an even larger empire than Poland did."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümledeki 'yıkıldı çünkü Almanlar daha iyi tuz yaptı' ilişkisini en iyi bu şık veriyor.",
+                                "wrong": {
+                                    "0": "Önce işgal edilip sonra tuz yapıldığını söylüyor.",
+                                    "1": "Yine önce toprak kontrolünün değiştiğini söylüyor.",
+                                    "3": "Almanya'nın daha büyük bir imparatorluk kurduğunu söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "It is a common misconception that sea salt has a lower sodium content than table salt as they are both made up mainly of sodium chloride.",
+                            "options": [
+                                "Despite what many people think, sea salt has as much sodium as table salt since it consists mostly of sodium chloride just like table salt.",
+                                "As most people have learned, the high amount of sodium chloride found in sea salt and table salt leads to an equal amount of sodium in each.",
+                                "Although there is a widespread belief that sea salt has less sodium than table salt, the truth is that there is some degree of sodium chloride found in both of them.",
+                                "There has been little research done about whether the sodium content of sea salt and table salt are equal due to the similar amounts of sodium chloride which they contain."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Yaygın yanlış inanışa (misconception) rağmen ikisinin de sodyum içeriğinin aynı olduğunu (as much as) belirtiyor.",
+                                "wrong": {
+                                    "1": "İnsanların bunu öğrendiğini söylüyor, oysa hala yanlış biliyorlar.",
+                                    "2": "İkisinde de 'biraz' (some degree) sodyum klorür var diyor, oysa ana maddeleri bu.",
+                                    "3": "Az araştırma yapıldığını söylüyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Hurricanes",
+                            "paragraphs": [
+                                "The words \"hurricane\" and \"typhoon\" are often used interchangeably. However, they describe regionally specific phenomena which are identical. Both are a type of tropical cyclone, which is a generic term for a low pressure system that generally forms in the tropics. When tropical cyclones have maximum sustained surface winds at about 63 kilometers per hour (kph), they are called tropical storms and they are assigned a name at that point. Above 120 kph, they are called hurricanes if occurring in the North Atlantic Ocean, Caribbean Sea, and central and northeast Pacific and called typhoons if taking place in the northwest Pacific Ocean.",
+                                "Their location is crucial as knowledge about these disastrous storms enables people to prepare for them. Occurring in the Atlantic Basin and affecting the United States or neighbouring regions, hurricanes receive more publicity than tropical storms and typhoons. They get more attention than any other natural disaster. This may be because storms and disasters in developed countries receive more media coverage than those that take place in other countries.",
+                                "Not only the media but also hurricane scales tell us a lot about hurricanes. Hurricanes are classified according to wind strength using the Saffir Simpson Hurricane Scale, which uses five categories. Category 1 has winds between 120-150 kph, which means that it is unlikely to cause real damage to buildings but leads to some coastal flooding and minor pier damage. Category 2 (winds between 154 and 177 kph) will cause damage to roofs, doors, and windows and some trees will be blown over. From Category 3 up to Category 5, structural damage will occur. Category 3 is highly likely to cause slight damage to houses but could significantly escalate if large trees are blown over. Flooding deep inland is usual. Category 4 will see some complete roof structure failure while Category 5 hurricanes (winds in excess of 251 kph) will cause the removal of roofs from many buildings, both residential and industrial. Flooding will be very severe, causing major damage to lower floors of all structures near the shoreline. It is also likely that extensive evacuation of residential areas will result.",
+                                "The naming system of hurricanes and typhoons is a particularly important feature giving a certain personality to the winds. Names alternate between male and female first names and are drawn from a large number of racial groups. Experience shows that the use of short, distinctive names in written as well as spoken communications is quicker and less subject to error than the older, more cumbersome latitude-longitude identification methods. These advantages are especially important in exchanging detailed storm information between hundreds of widely scattered stations, coastal bases, and ships at sea. The use of easily remembered names greatly reduces confusion when two or more hurricanes or typhoons occur at the same time. In the past, confusion and false rumors arose when storm advisories broadcast from radio stations were mistaken for warnings concerning an entirely different storm located hundreds of miles away."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "It is stated in paragraph 1 that ----.",
+                                    "options": [
+                                        "typhoons have been spotted in all seas and oceans except the Caribbean Sea",
+                                        "the only difference between a hurricane and a tropical storm is the location where they occur",
+                                        "the wind speed of typhoons reaches more than 120 km per hour",
+                                        "the conditions for the possibility of a tropical cyclone can be predicted"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 1'de, bunların aslında özdeş (identical) oldukları ama bölgeye (location) göre farklı adlandırıldıkları söyleniyor.",
+                                        "wrong": {
+                                            "0": "Tayfunların Karayipler hariç her yerde görüldüğü söylenmiyor.",
+                                            "2": "Asıl vurgu hızda değil, bölge farkında.",
+                                            "3": "Tahminden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "What does the word they refer to in paragraph 2?",
+                                    "options": [
+                                        "typhoons",
+                                        "tropical storms",
+                                        "hurricanes",
+                                        "neighbouring regions"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cümle: 'Hurricanes receive more publicity... THEY get more attention'. 'They' kelimesi 'Hurricanes'a (Kasırgalar) gönderme yapıyor.",
+                                        "wrong": {
+                                            "0": "Typhoons değil.",
+                                            "1": "Tropical storms değil.",
+                                            "3": "Komşu bölgeler değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "One can understand from paragraph 3 that the Saffir Simpson Hurricane Scale ----.",
+                                    "options": [
+                                        "is less accurate than the media when assessing the damage caused by hurricanes",
+                                        "helps estimate potential property damage",
+                                        "provides forecasts of hurricane activity",
+                                        "classifies hurricanes based on rainfall and windspeed"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragrafta ölçeğin kategorilerine göre ne tür hasarlar (çatılar, pencereler vb.) oluşabileceği anlatılıyor.",
+                                        "wrong": {
+                                            "0": "Medyadan daha az doğru olduğu söylenmiyor.",
+                                            "2": "Tahmin değil, hasar sınıflandırması yapıyor.",
+                                            "3": "Sadece rüzgar hızına göre sınıflandırıyor, yağmura göre değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "Which category of wind will most likely require many people to leave their homes according to paragraph 3?",
+                                    "options": [
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafta Kategori 5 için 'extensive evacuation of residential areas will result' (geniş çaplı tahliye gerekecektir) deniyor.",
+                                        "wrong": {
+                                            "0": "Kategori 2: Çatı hasarı.",
+                                            "1": "Kategori 3: Hafif hasar.",
+                                            "2": "Kategori 4: Çatı yapısında bozulma."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "The word cumbersome in paragraph 4 is closest in meaning to ----.",
+                                    "options": [
+                                        "complicated",
+                                        "appropriate",
+                                        "convenient",
+                                        "unnatural"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Cumbersome\" hantal ve karmaşık demektir. Eski yöntemin zor ve hataya açık olduğu söyleniyor, bu yüzden 'complicated' (karmaşık) en yakın anlamdır.",
+                                        "wrong": {
+                                            "1": "\"Appropriate\" uygun demektir.",
+                                            "2": "\"Convenient\" pratik demektir.",
+                                            "3": "\"Unnatural\" doğal olmayan demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "Which of the following statements is FALSE according to paragraph 4?",
+                                    "options": [
+                                        "Naming hurricanes helps people communicate about them more effectively.",
+                                        "Giving hurricanes short names leads to fewer errors.",
+                                        "Names are assigned to hurricanes according to their location.",
+                                        "People seeking storm information used to get confused due to the naming system."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "YANLIŞ ifade: İsimlerin konuma göre verildiği yazmıyor, 'ırksal gruplardan seçildiği ve sırayla verildiği' yazıyor.",
+                                        "wrong": {
+                                            "0": "DOĞRU: İletişimin daha hızlı olduğu yazıyor.",
+                                            "1": "DOĞRU: Daha az hata olduğu yazıyor.",
+                                            "3": "DOĞRU: Eskiden karışıklık olduğu yazıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "According to the whole text, names are given to ----.",
+                                    "options": [
+                                        "only hurricanes",
+                                        "only typhoons and hurricanes",
+                                        "only tropical storms and hurricanes",
+                                        "typhoons, tropical storms, and hurricanes"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde rüzgarların 'tropical storm' (tropik fırtına) seviyesine gelince isimlendirildiği, sonra kasırga veya tayfuna dönüştüğü anlatılıyor. Yani hepsine isim veriliyor.",
+                                        "wrong": {
+                                            "0": "Sadece kasırgalara değil.",
+                                            "1": "Fırtınalara da veriliyor.",
+                                            "2": "Tayfunlara da veriliyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Saving Tigers",
+                            "paragraphs": [
+                                "At last, some good news for tigers. Because of conservation successes in India, Russia, and other countries, the global population of tigers in the wild has shown a significant increase in the past few years according to a new survey by the World Wildlife Fund (WWF). The study estimates that there are now 4,400 wild tigers, up from a low of 3,200 in 2010 survey. After the 2010 figures were announced, countries made a historic commitment to double the population by 2022. Right now reaching this target appears likely, and this is the first time tiger numbers have been increasing globally in more than a hundred years. \"We're positively surprised by this gain of 1200 tigers, which encourages us to keep going on conservation efforts,\" says Ginette Hemley, senior vice president for conservation at the WWF. However, another expert emphasizes the need to keep being vigilant: \"Unless all these countries keep watching their tiger populations and continue improving their conditions, all our efforts will be wasted,\" says Luke Dollar, manager of the Big Cats Initiative.",
+                                "Two of the countries with the most significant growth are India and Russia, which are also places where Dollar says the Big Cats Initiative has been conducting studies and sponsoring conservation projects. Two-thirds of the world's tigers live in India, where they’ve increased in number from 1,706 to 2,426 during the past six years. The country has increased anti-poaching efforts to reduce the illegal killings of tigers. It also offers compensation to farmers who show some of their animals have been injured or killed by tigers. This money they receive prevents farmers from killing tigers. India has also invested in sustainable tourism around tiger reserves, a project that has increased the number of people who want to see a healthy tiger population. That seems to be working so well that officials have begun talking about expanding the reserve system. \"India has invested more resources in tigers, and the positive results are enabling them to convince people to provide the funds needed for new projects,\" Hemley says.",
+                                "Authorities continue to struggle against the trade in tiger products. It is finally banned in almost every country, yet the black market has not been eliminated. For tigers to continue their increase in population, demand for their skins and other body parts must be further curtailed throughout southeast Asia. To accomplish this, the WWF has been working with local law enforcement groups to help capture traffickers. India has shown considerable progress in reducing the number of tigers taken out of the country, in part by sharing resources across borders, Hemley says. Conservationists have also worked with leaders of Traditional Chinese Medicine and managed to decrease the amount of tiger products in medical treatments, which scientists say don't work anyway. At the same time, however, new black markets have emerged in China for shampoos and tonics made from tiger products.",
+                                "According to Dollar, India is also a leader on development that benefits people while minimizing impacts on tigers. Roads have been routed around reserves, and engineers are designing tunnels and overpasses to help tigers move through the landscape with fewer risky interactions with people. The next step, Dollar says, is integrating the conservation efforts in countries with significant tiger populations. Cooperation on tigers between countries is a must, he says, because it serves as a bridge toward cooperation on other issues. \"In saving nature, we are often saving ourselves.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 8,
+                                    "question": "The word vigilant in paragraph 1 is closest in meaning to ----.",
+                                    "options": [
+                                        "careful",
+                                        "critical",
+                                        "dangerous",
+                                        "expensive"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Vigilant\" tetikte ve dikkatli olmak demektir. Uzman, sayılar artsa da gevşememek ve 'izlemeye devam etmek' gerektiğini söylüyor. 'Careful' (dikkatli) en yakın anlamdır.",
+                                        "wrong": {
+                                            "1": "\"Critical\" eleştirel.",
+                                            "2": "\"Dangerous\" tehlikeli.",
+                                            "3": "\"Expensive\" pahalı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "question": "From paragraph 1, the reader can understand that ----.",
+                                    "options": [
+                                        "the WWF is opposed to having tigers in captivity in places like zoos",
+                                        "the WWF was not expecting an increase of 1200 tigers since the previous survey",
+                                        "reaching the 2022 target is proving more difficult than most people expected",
+                                        "Hemley believes it is unlikely that people will continue to show so much concern about the tiger population"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "WWF yetkilisi 'We're positively surprised' (Olumlu anlamda şaşırdık) diyor. Demek ki bu kadar büyük bir artış beklemiyorlardı.",
+                                        "wrong": {
+                                            "0": "Hayvanat bahçeleriyle ilgili bilgi yok.",
+                                            "2": "Hedefe ulaşmanın 'muhtemel' (likely) olduğu yazıyor.",
+                                            "3": "İlginin azalacağına dair bir inanç belirtilmemiş."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "question": "In paragraph 2, which of the following is NOT mentioned as a factor that has already led to the significant increase in the number of tigers in India?",
+                                    "options": [
+                                        "More efforts to prevent the illegal killing of tigers",
+                                        "Payments to farmers whose animals are killed or injured by tigers",
+                                        "More money used for tourism projects related to tigers",
+                                        "Increasing the size of the tiger reserves"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde yetkililerin rezerv sistemini genişletmek hakkında 'konuşmaya başladığı' (begun talking about expanding) yazıyor. Yani bu henüz yapılmış ve artışı sağlamış bir faktör değil, gelecek planıdır.",
+                                        "wrong": {
+                                            "0": "Kaçak avcılığı önleme (anti-poaching) bahsedilmiş.",
+                                            "1": "Çiftçilere ödeme (compensation) bahsedilmiş.",
+                                            "2": "Turizm yatırımı (invested in sustainable tourism) bahsedilmiş."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 11,
+                                    "question": "The word curtailed in paragraph 3 could best be replaced by ----.",
+                                    "options": [
+                                        "reported",
+                                        "discussed",
+                                        "reduced",
+                                        "reinforced"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Curtailed\" azaltmak, kısmak demektir. Talebin 'azaltılması' gerektiği anlatılıyor. 'Reduced' tam karşılığıdır.",
+                                        "wrong": {
+                                            "0": "\"Reported\" rapor edilmek.",
+                                            "1": "\"Discussed\" tartışılmak.",
+                                            "3": "\"Reinforced\" güçlendirilmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 12,
+                                    "question": "The main idea of paragraph 3 is that ----.",
+                                    "options": [
+                                        "despite authorities best efforts, they have not been able to limit the increasing trade in tiger parts",
+                                        "increased awareness is the key to putting an end to the tiger trade",
+                                        "while other countries are reducing their trade in tiger parts, China refuses to make serious efforts",
+                                        "there have been both positive and negative developments in efforts to limit the trade of tiger parts"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafta hem olumlu (yasaklar, tıbbi kullanımın azalması) hem de olumsuz (kara borsanın sürmesi, yeni pazarlar) gelişmelerden bahsediliyor.",
+                                        "wrong": {
+                                            "0": "Ticaretin arttığı söylenmiyor, bitmediği söyleniyor.",
+                                            "1": "Farkındalıktan çok yasalar ve pazarlar konuşuluyor.",
+                                            "2": "Çin'in çabalamadığı değil, orada yeni pazarlar çıktığı söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 13,
+                                    "question": "In Paragraph 4, Dollar points out that ----.",
+                                    "options": [
+                                        "people need to greatly limit new projects if they hope to see an increase in tiger population",
+                                        "recent development in India separates tigers and people and reduces problems between them",
+                                        "each country must further develop its own conservation efforts before working more closely with other countries",
+                                        "although saving nature is certainly important, a country’s first priority is to look after its citizens"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metinde tüneller ve üst geçitler sayesinde kaplanların insanlarla 'daha az riskli etkileşime girerek' hareket edebildiği anlatılıyor. Yani onları ayırıyor ve sorunları azaltıyor.",
+                                        "wrong": {
+                                            "0": "Projeleri sınırlamak değil, doğa dostu yapmak öneriliyor.",
+                                            "2": "Önce kendi çabaları olmalı demiyor.",
+                                            "3": "Vatandaş önceliğinden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 14,
+                                    "question": "Which of the following facts is NOT TRUE according to the article?",
+                                    "options": [
+                                        "The tiger population has always remained above 3,000.",
+                                        "A majority of the world’s tigers live in India.",
+                                        "India is having difficulty finding money for new conservation projects.",
+                                        "Scientists believe tiger parts are ineffective at curing medical problems."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "YANLIŞ ifade: Metinde Hindistan'ın başarıları sayesinde 'fon bulmanın kolaylaştığı' (enabling them to convince people to provide the funds) yazıyor. Zorlandıkları söylenmiyor.",
+                                        "wrong": {
+                                            "0": "DOĞRU: En düşük rakam 3,200 (yani 3,000 üstü).",
+                                            "1": "DOĞRU: Üçte ikisi Hindistan'da yaşıyor.",
+                                            "3": "DOĞRU: Bilim insanları işe yaramadığını söylüyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "The Guinea Pig Club",
+                            "paragraphs": [
+                                "The Guinea Pig Club was made up of British WWII pilots who had at least two reconstructive surgeries by plastic surgeon Archibald McIndoe. Before WWII, severe burns were rare and mostly due to household accidents, but the war changed that. Flying dangerous planes like Spitfires and Hurricanes that were prone to accidents resulted in young men getting serious burns all over their bodies. During the war, McIndoe pioneered many techniques to treat severe burns which are still used today. He also recognized that when treating the trauma on the outside, you also have to treat the trauma on the inside, which was the reason for the Guinea Pig Club.",
+                                "Previous to WWII, plastic surgery was undeveloped. Even something as simple as healing burns before reconstructive surgery needed to be improved. At the time, a special chemical coating was applied to minor burns in order to form a protective layer and allow the burns to heal. However, this proved disastrous when McIndoe tried it to treat severe burns over large areas. The chemical coating dried out the skin and caused great pain when removed. After trying the coating with little success, McIndoe observed that the burns of patients who crashed into water healed the fastest, so he decided to use salt baths to encourage healing.",
+                                "When it came to reconstructing lips, noses or large patches of skin on faces, no one had even tried to do it before. McIndoe learned that a large sheet of skin taken from the upper leg did not survive transplantation. He figured out that he could leave the skin attached to the leg at one end and roll the skin into a tube. Next, he attached it to another site closer to the face, like the arm. Once this skin started to draw its blood supply from the arm, he would disconnect it from the leg and attach it to the face. After this skin had a good blood supply from the face, he would then disconnect it again and use it to reconstruct facial features.",
+                                "Although these medical procedures were great improvements, McIndoe realized something else was needed, too. One of the unique features of the Guinea Pig Club was the way its members were dealt with emotionally. McIndoe insisted doctors and nurses took pains to create a cheerful and normal environment. The patients were often suicidal when they arrived at the hospital. They thought their lives were over because of their horrible appearance. To help patients gain confidence that they could still talk to pretty girls, showgirls from London were brought in, which also added to the positive atmosphere. McIndoe also got patients invited to tea at the homes of local families, where they felt welcomed. He let them wear their uniforms in the hospital. He even allowed beer and parties.",
+                                "McIndoe’s approach to healing the patients focused on both physical and psychological recovery. Before then, people with injuries that damaged appearance were usually made to stay at home and were treated as people who needed pity. McIndoe, however, presented them as heroes to be honored for their courage. If a play was opening or a movie premiering in town, McIndoe got his patients invited as guests of honor.",
+                                "And it worked. Grinstead, the town where the hospital was based, became known as “the town that did not stare.” A number of the Guinea Pig Club members married women they met in the town while recovering. The Air Force was also quick to allow them to take any role they could if they wanted to return to active duty. This was a big change in attitude for society and the military. The Guinea Pig Club demonstrated that in order to recover, soldiers needed not only high quality medical care but also social acceptance and the knowledge that they were not alone."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 15,
+                                    "question": "The main topic of the text is that ----.",
+                                    "options": [
+                                        "soldiers in the Guinea Pig Club were provided both physical and emotional healing",
+                                        "McIndoe created the Guinea Pig Club so that recovering pilots could encourage each other",
+                                        "both physical recovery and emotional recovery were extremely painful for members of the Guinea Pig Club",
+                                        "the emotional problems of Guinea Pig Club members even caused some of them to commit suicide"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metnin tamamı McIndoe'nun sadece cerrahi tekniklerini değil, aynı zamanda askerlerin psikolojik iyileşmesi için kurduğu kulübü ve yöntemleri anlatıyor.",
+                                        "wrong": {
+                                            "1": "Sadece birbirlerini cesaretlendirmeleri değil, genel iyileşme amaç.",
+                                            "2": "Acı verici olmasından çok başarısı anlatılıyor.",
+                                            "3": "İntihar düşünceleri sadece bir detay."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 16,
+                                    "question": "In paragraph 1, the writer implies that ----.",
+                                    "options": [
+                                        "most soldiers looked much better after two reconstructive surgeries",
+                                        "the number of household accidents increased significantly during World War II",
+                                        "fewer pilots would have been injured if they had flown their planes more carefully",
+                                        "McIndoe was amazingly innovative in the surgery techniques he came up with"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafta McIndoe'nun 'birçok tekniğe öncülük ettiği' (pioneered many techniques) söyleniyor. Bu onun yenilikçi (innovative) olduğunu gösterir.",
+                                        "wrong": {
+                                            "0": "Görünüşlerinin düzelmesinden bahsedilmiyor.",
+                                            "1": "Ev kazaları savaş öncesiydi.",
+                                            "2": "Pilot hatası vurgulanmıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 17,
+                                    "question": "According to paragraphs 2 & 3, which of the following statements is TRUE about plastic surgery during WWII?",
+                                    "options": [
+                                        "Part of plastic surgery at that time was putting a coating on patients’ skin that caused lots of pain.",
+                                        "It was especially difficult for pilots whose planes had crashed into the sea.",
+                                        "McIndoe invented a multi-step method to use a piece of skin from the leg for plastic surgery on the face.",
+                                        "Over time, McIndoe understood that skin from the arm worked better for plastic surgery than skin from the leg."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 2'de, o dönemde 'kimyasal kaplama' (chemical coating) uygulandığı ve bunun 'felaket olup çok acı verdiği' anlatılıyor.",
+                                        "wrong": {
+                                            "1": "Denize düşenlerin daha hızlı iyileştiği söyleniyor.",
+                                            "2": "Bacak derisi doğrudan yüze olmadı, kol aracı olarak kullanıldı.",
+                                            "3": "Kol derisi daha iyi değil, taşıyıcı olarak kullanıldı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 18,
+                                    "question": "The phrase take pains to in paragraph 4 is closest in meaning to ----.",
+                                    "options": [
+                                        "found it impossible to",
+                                        "made a great effort to",
+                                        "searched for money to",
+                                        "suffered themselves in order to"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Take pains to\" büyük çaba sarf etmek, özen göstermek demektir. Doktorların ortamı neşelendirmek için uğraştığını anlatıyor.",
+                                        "wrong": {
+                                            "0": "İmkansız bulmak.",
+                                            "2": "Para aramak.",
+                                            "3": "Acı çekmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 19,
+                                    "question": "In paragraph 4, why does the writer mention showgirls from London?",
+                                    "options": [
+                                        "To give an example of how much money McIndoe was willing to spend to help the soldiers recover",
+                                        "To show the great importance that McIndoe gave to physical appearance",
+                                        "To illustrate one of the methods McIndoe used to help soldiers emotionally",
+                                        "To contrast the showgirls with the local families"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Kızların getirilmesi, askerlerin özgüven kazanması ve morallerinin düzelmesi için yapılan 'duygusal destek' yöntemlerinden biridir.",
+                                        "wrong": {
+                                            "0": "Para ile ilgili değil.",
+                                            "1": "Fiziksel görünüş değil, moral amaç.",
+                                            "3": "Kıyaslama yapılmıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 20,
+                                    "question": "Paragraph 5 focuses on ---- psychological healing.",
+                                    "options": [
+                                        "the importance of being shown respect during",
+                                        "the role of entertainment in",
+                                        "the way that close friends facilitate",
+                                        "the relationship between improved physical appearance and"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 5'te askerlerin 'acınacak kişiler' değil, 'onurlandırılacak kahramanlar' (heroes to be honored) olarak sunulması anlatılıyor. Bu da 'saygı görme' (shown respect) kavramıdır.",
+                                        "wrong": {
+                                            "1": "Eğlence önceki paragraftaydı.",
+                                            "2": "Arkadaşlar vurgulanmıyor.",
+                                            "3": "Görünüş ilişkisi ana konu değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "The word it in paragraph 6 refers to ----.",
+                                    "options": [
+                                        "a play opening or a movie premiering",
+                                        "treating patients as people who needed pity",
+                                        "making patients stay at home",
+                                        "McIndoe’s approach"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümle: 'And IT worked.' (Ve o işe yaradı). İşe yarayan şey McIndoe'nun uyguladığı yöntemler ve yaklaşımdır.",
+                                        "wrong": {
+                                            "0": "Gala sadece örnekti.",
+                                            "1": "Acımak işe yaramaz.",
+                                            "2": "Evde tutmak eski yöntemdi."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "From paragraph 6, it can be understood that ----.",
+                                    "options": [
+                                        "the town of Grinstead did not focus on the physical appearance of recovering soldiers",
+                                        "soldiers in the Air Force who had plastic surgery could not serve as effectively as they had in the past",
+                                        "soldiers in the Air Force who had plastic surgery faced more problems in the Air Force than in society in general",
+                                        "for a successful recovery, psychological support is much more important than physical care"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Kasabanın 'dik dik bakmayan kasaba' (town that did not stare) olarak bilinmesi, askerlerin yüzlerine/görünüşlerine odaklanmadıklarını gösterir.",
+                                        "wrong": {
+                                            "1": "Hizmet edemedikleri değil, göreve döndükleri söyleniyor.",
+                                            "2": "Daha çok sorun yaşadıkları söylenmiyor.",
+                                            "3": "Psikolojik destek 'daha önemli' değil, 'o da gerekli' deniyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "To Salt or Not To Salt?",
+                            "paragraphs": [
+                                "Fortunately there are still a few tasty things for food lovers to enjoy in relative security. However, their numbers are reduced almost daily by regulations from the Food and Drug Administration (FDA) and our doctors. Their latest victim is the salt of life, sodium chloride. Sodium chloride is an ionic compound found in various foods and medical treatments. More commonly referred to as “salt” or “table salt,” sodium chloride is used as a seasoning in many foods. Recently, the FDA has been employing strategies to reduce the consumption of sodium, one of the ingredients of food that makes it great.",
+                                "A few years ago, anti-salt campaigners made a huge fuss, so salt was banned from baby food. Then they organized huge campaigns against food manufacturers that don’t provide the sodium content of their products, and the FDA supported them. In order to force food manufacturers to show the sodium content on the package, the FDA applied pressure on them. Because doing so would cost manufacturers money, manufacturers argued that they had no idea how much salt remains on such things as potato chips and how much sticks to the bag. Furthermore, salt isn’t the only harmful ingredient in food. The debate at the time was if manufacturers must provide sodium content, why not require them to list every ingredient and specify which are detrimental to our health? Cigarettes have a warning printed on them. Shouldn’t the same type of warning appear on canned foods that contain too much sugar or fat?",
+                                "There are endless ifs and buts in the controversy, and this is best illustrated by the controversial proof of salt’s effect upon blood pressure. It is true that people who cut their salt intake lowered their blood pressure, but where is the scientific proof that something other than salt didn’t do the trick? The most common means of providing some kind of proof that salt causes hypertension is to compare societies that use little salt with those that use mountains of salt in their daily diets. Studies of Japanese salt-intake indicated that as the world’s greatest salters, they suffer the most from hypertension. On the other hand, the simple, salt-free cuisine of several tribes in the Solomon Islands has kept older members of the tribe from developing hypertension and high blood pressure. However, these studies do not consider the effects of inflation, pollution, crime, and various sicknesses to which the Japanese, unlike people on underdeveloped islands, are exposed.",
+                                "Experts recommend Americans to cut down on their salt consumption in order to reduce their risk of heart attack and stroke. However, significant reduction of sodium can cause spasms and irregular heart rhythms, and it can even increase the risk of heart attack and sudden death in hypertensive patients. According to a new study, reducing salt in our diet also may lead to a slight boost in cholesterol, a separate risk factor for heart disease. People who cut dietary salt saw a 2.5% increase in cholesterol levels and a 7% boost in triglycerides, which is a type of fat in blood. Cutting back on salt does more harm than good because without salt you could not exist for a moment. Like true lovers, the relationship between salt and your health is so close that it makes them impossible to be disentangled or untied. It has been found that in our blood, all of us have the exact same percentage of salt that exists in the ocean. So, at the fundamental level of the physical body, you are a walking and breathing salty ocean.",
+                                "To salt or not to salt? That is the question. Now that the question has arisen, it must not be treated with levity but, rather, with searching scientific investigation so that those of us who are preoccupied with both tasty food and longevity may decide which of the two is worth its salt."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 23,
+                                    "question": "One can understand from paragraph 1 that according to the author, the Food and Drug Administration ----.",
+                                    "options": [
+                                        "approves of the use of sodium chloride as long as it is used as a seasoning",
+                                        "announced a proposal to ban sodium chloride but allows salt in moderation",
+                                        "discourages the eating of many delicious foods and now targets salt",
+                                        "aims to forbid doctors from using sodium chloride for medical purposes"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Yazar, FDA'nın lezzetli şeyleri azalttığını ('reduced almost daily') ve son kurbanın tuz olduğunu ('latest victim is salt') söylüyor. FDA'nın tuzu hedef aldığını anlatıyor.",
+                                        "wrong": {
+                                            "0": "Onayladığı değil, azaltmaya çalıştığı söyleniyor.",
+                                            "1": "Tamamen yasaklama teklifi yok, azaltma stratejisi var.",
+                                            "3": "Doktorları engellemekten bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "What does the phrase “doing so” in paragraph 2 refer to?",
+                                    "options": [
+                                        "applying pressure on them",
+                                        "showing the sodium content on the package",
+                                        "forcing food manufacturers",
+                                        "paying off"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cümle: 'In order to force food manufacturers to show the sodium content... FDA applied pressure... Because DOING SO would cost...'. Burada 'bunu yapmak' (doing so), üreticilerin sodyum içeriğini pakette göstermesi eylemine atıfta bulunur.",
+                                        "wrong": {
+                                            "0": "Baskı yapmak FDA'in eylemi.",
+                                            "2": "Zorlamak FDA'in eylemi.",
+                                            "3": "Para ödemek değil, maliyetli olması."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "One can infer from paragraph 2 that ----.",
+                                    "options": [
+                                        "even the FDA was against banning salt from baby food",
+                                        "the amount of salt packaged foods contain depends on the other ingredients they include",
+                                        "food manufacturers did not list every ingredient their products contained",
+                                        "cigarettes shouldn’t have a warning label on them"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde üreticilerin 'neden her malzemeyi listelemek zorunda olmadıkları' (why not require them to list every ingredient) tartışılıyor. Bu da o an her şeyi tam listelemedikleri anlamına gelir.",
+                                        "wrong": {
+                                            "0": "FDA kampanyacıları destekledi.",
+                                            "1": "Tuz miktarının bilinmediği söyleniyor, diğer malzemelere bağlı olduğu değil.",
+                                            "3": "Sigaraların etiketi olmamalı denmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "In paragraph 3, in contrast to the claims in several studies, the text mentions that one factor that causes hypertension for the Japanese may be ----.",
+                                    "options": [
+                                        "diseases",
+                                        "climate",
+                                        "salt-free cuisine",
+                                        "too much salt"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metin, Japonların hipertansiyon sebebinin tuz olmayabileceğini, çalışmaların 'pollution, crime, and various SICKNESSES' (hastalıklar) gibi faktörleri göz ardı ettiğini söylüyor.",
+                                        "wrong": {
+                                            "1": "İklimden bahsedilmiyor.",
+                                            "2": "Tuzsuz mutfak Solomon Adaları için.",
+                                            "3": "Çok tuz kullanımı genel iddia."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "Which of the following is TRUE according to paragraph 4?",
+                                    "options": [
+                                        "Cutting down on salt causes sodium deficiency, which is a major problem in the US.",
+                                        "People, especially hypertensive patients, have been advised to start a low sodium diet.",
+                                        "Americans have been suffering from heart attacks due to a drastic reduction in salt intake.",
+                                        "A dramatic reduction in salt consumption could even lead some people to die instantly."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafta ciddi sodyum düşüşünün 'sudden death' (ani ölüm) riskini artırabileceği söyleniyor.",
+                                        "wrong": {
+                                            "0": "ABD'de büyük bir sorun olduğu söylenmiyor.",
+                                            "1": "Hastalar tavsiye edildi denmiyor, hastalarda risk oluşturabilir deniyor.",
+                                            "2": "Azaltma yüzünden kriz geçirdikleri değil, riskin arttığı söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "The word levity in paragraph 5 could best be replaced by ----.",
+                                    "options": [
+                                        "inattention",
+                                        "concentration",
+                                        "purpose",
+                                        "improvement"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Levity\" ciddiyetsizlik demektir. Konunun 'searching scientific investigation' (ciddi araştırma) ile ele alınması gerektiği, 'levity' ile ele alınmaması gerektiği söyleniyor. 'Inattention' (önemsememe) en yakın negatif anlamdır.",
+                                        "wrong": {
+                                            "1": "Konsantrasyon.",
+                                            "2": "Amaç.",
+                                            "3": "Gelişme."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "Which of the following statements is FALSE according to the information in the text?",
+                                    "options": [
+                                        "Sodium chloride is the chemical name for salt.",
+                                        "Some researchers compared societies to determine the dangers of salt consumption.",
+                                        "Even people in the Solomon Islands develop hypertension due to inflation and pollution.",
+                                        "Like the ocean, blood consists of a specific percentage of salt."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "YANLIŞ ifade: Metinde Solomon Adaları'ndaki insanların hipertansiyon geliştirdiği değil, aksine 'korunduğu' (kept older members... from developing) yazıyor.",
+                                        "wrong": {
+                                            "0": "DOĞRU: Kimyasal adı olduğu yazıyor.",
+                                            "1": "DOĞRU: Toplumlar karşılaştırılmış.",
+                                            "3": "DOĞRU: Okyanusla aynı oranda olduğu yazıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "The author’s attitude towards the advice not to use salt is ----.",
+                                    "options": [
+                                        "angry",
+                                        "unconvinced",
+                                        "aggressive",
+                                        "worried"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Yazar, tuzun azaltılmasının faydadan çok zarar verebileceğini söylüyor, bilimsel kanıtları sorguluyor ('where is the scientific proof') ve tuzsuz yaşanamayacağını belirtiyor. Bu, ikna olmadığını (unconvinced) gösterir.",
+                                        "wrong": {
+                                            "0": "Kızgın değil, şüpheci.",
+                                            "2": "Saldırgan değil.",
+                                            "3": "Endişeli değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

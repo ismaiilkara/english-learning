@@ -1,0 +1,841 @@
+    {
+        "id": 1,
+        "title": "ITU Proficiency Exam",
+        "sections": {
+            "reading": {
+                "parts": [
+                    {
+                        "type": "cloze",
+                        "title": "Cloze Test: The Rosetta Stone",
+                        "passage": {
+                            "title": "The Rosetta Stone",
+                            "text": "The Rosetta Stone is an ancient Egyptian stone bearing inscriptions in several languages and scripts. (1)_____ in 1799 by French soldiers in Egypt, it proved to be the key to unlocking the secrets of Egyptian hieroglyphs. Before its discovery, the ancient Egyptian language (2)_____ a mystery for over a thousand years. The stone is carved with a decree (3)_____ in three scripts: Hieroglyphic, Demotic, and Ancient Greek. Since scholars (4)_____ read Ancient Greek, they used it to translate the other two scripts. Jean-François Champollion, a French scholar whose work was (5)_____ to the translation process, eventually (6)_____ the code in 1822. He realized that hieroglyphs were not just symbols for ideas, but also represented spoken sounds. (7)_____ the stone is incomplete and damaged, it remains an incredibly important historical document. It (8) _____ in the British Museum since 1802 and is the most-visited object there. If the stone (9) _____, we might still be ignorant of the vast history of Ancient Egypt. However, there is an ongoing (10) _____ about whether the stone should remain in London or be returned to Egypt, its place of origin."
+                        },
+                        "questions": [
+                            {
+                                "id": 1,
+                                "options": [
+                                    "Discovered",
+                                    "Discovering",
+                                    "To discover",
+                                    "Having discovered"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"Discovered\" doğru çünkü burada pasif (edilgen) bir yapı kısaltması var. Cümlenin uzun hali \"Which was discovered in 1799...\" şeklindedir. Taş kendi kendine keşfetmez, keşfedilir.",
+                                    "wrong": {
+                                        "1": "\"Discovering\" aktif bir yapıdır; taş keşfetme eylemini yapamaz.",
+                                        "2": "\"To discover\" amaç bildirir, burada geçmişte olmuş bir olay anlatılıyor.",
+                                        "3": "\"Having discovered\" öznenin eylemi yaptığı durumlarda kullanılır (Active Perfect Participle), ama taş keşfeden değil, keşfedilendir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "options": [
+                                    "was",
+                                    "had been",
+                                    "has been",
+                                    "is"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"had been\" doğru çünkü taşın bulunması 1799'da (geçmişte). Dilin gizem olması durumu ise bu tarihten *daha önce* (over a thousand years). Geçmişin de geçmişini anlatmak için Past Perfect Tense kullanılır.",
+                                    "wrong": {
+                                        "0": "\"was\" (Simple Past) zaman sıralamasını tam vermez, çünkü gizem olma durumu keşiften önce bitmiş bir süreç.",
+                                        "2": "\"has been\" (Present Perfect) günümüzde hala devam eden durumlar içindir, ama gizem çözüldü.",
+                                        "3": "\"is\" (Present) şimdiki zamanı anlatır, olay geçmişte."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "options": [
+                                    "writing",
+                                    "wrote",
+                                    "written",
+                                    "to write"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"written\" doğru çünkü kararname (decree) kendi kendine yazmaz, \"yazılır\". \"Which is written\" ifadesinin kısaltılmış halidir (Past Participle).",
+                                    "wrong": {
+                                        "0": "\"writing\" aktif anlam taşır (yazan kararname olmaz).",
+                                        "1": "\"wrote\" ana fiildir ama cümlede zaten \"is carved\" fiili var.",
+                                        "3": "\"to write\" gelecek veya amaç bildirir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "options": [
+                                    "must",
+                                    "could",
+                                    "should",
+                                    "might"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"could\" doğru çünkü geçmişteki bir yetenekten bahsediliyor. Bilim insanları Antik Yunancayı \"okuyabiliyorlardı\".",
+                                    "wrong": {
+                                        "0": "\"must\" zorunluluk bildirir.",
+                                        "2": "\"should\" tavsiye bildirir.",
+                                        "3": "\"might\" düşük ihtimal bildirir, ama burada kesin bir yetenek söz konusu."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "options": [
+                                    "vital",
+                                    "trivial",
+                                    "vague",
+                                    "hostile"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"vital\" kelimesi \"hayati, çok önemli\" demektir. Champollion'un çalışması çeviri için çok önemliydi.",
+                                    "wrong": {
+                                        "1": "\"trivial\" önemsiz demektir.",
+                                        "2": "\"vague\" belirsiz demektir.",
+                                        "3": "\"hostile\" düşmanca demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "options": [
+                                    "concealed",
+                                    "deciphered",
+                                    "abolished",
+                                    "persuaded"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"deciphered\" kelimesi \"şifreyi çözmek\" demektir. Metinde bir kodun çözülmesinden bahsediliyor.",
+                                    "wrong": {
+                                        "0": "\"concealed\" gizlemek demektir.",
+                                        "2": "\"abolished\" yürürlükten kaldırmak demektir.",
+                                        "3": "\"persuaded\" ikna etmek demektir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "options": [
+                                    "Despite",
+                                    "However",
+                                    "Although",
+                                    "Therefore"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"Although\" (rağmen) doğru çünkü cümlede bir zıtlık var: Taş \"eksik ve hasarlı\" olmasına rağmen \"önemli\" bir belge. \"Although\" kendinden sonra tam cümle alır (the stone is incomplete).",
+                                    "wrong": {
+                                        "0": "\"Despite\" da rağmen demektir ama kendinden sonra cümle değil, isim grubu alır.",
+                                        "1": "\"However\" iki cümleyi bağlar, cümle başında bu şekilde kullanılmaz.",
+                                        "3": "\"Therefore\" bu yüzden demektir, zıtlık değil sonuç bildirir."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "options": [
+                                    "was displayed",
+                                    "had been displayed",
+                                    "is displayed",
+                                    "has been displayed"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "\"has been displayed\" doğru çünkü ipucu kelime \"since 1802\". Geçmişte başlayıp günümüze kadar devam eden eylemler için Present Perfect Tense kullanılır. Ayrıca taş sergilendiği için pasif yapı gerekir.",
+                                    "wrong": {
+                                        "0": "\"was displayed\" eylem bitmiş demektir ama taş hala müzede.",
+                                        "1": "\"had been displayed\" geçmişin geçmişi içindir.",
+                                        "2": "\"is displayed\" genel bir ifadedir, \"since\" ile kullanılmaz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "options": [
+                                    "wasn't found",
+                                    "hadn't been found",
+                                    "wouldn't be found",
+                                    "didn't find"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"hadn't been found\" doğru çünkü burada Mixed Type Conditional var. \"If\" kısmı geçmişle ilgili (taş 1799'da bulundu), sonuç kısmı şu anla ilgili (we might still be ignorant). Geçmişteki olayın tersini hayal ederken \"Past Perfect\" kullanılır.",
+                                    "wrong": {
+                                        "0": "\"wasn't found\" conditional yapılarında \"if\" kısmında simple past tense (Type 2) genellikle şu anki hayali durumlar için kullanılır, geçmiş olaylar için değil.",
+                                        "2": "\"wouldn't be found\" if kısmında \"would\" kullanılmaz.",
+                                        "3": "\"didn't find\" aktif yapıdır, taşın bulunmasından (pasif) bahsediyoruz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 10,
+                                "options": [
+                                    "harmony",
+                                    "consent",
+                                    "debate",
+                                    "neglect"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"debate\" kelimesi \"tartışma\" demektir. Taşın İngiltere'de mi kalacağı yoksa Mısır'a mı döneceği konusunda süregelen bir tartışma var.",
+                                    "wrong": {
+                                        "0": "\"harmony\" uyum demektir.",
+                                        "1": "\"consent\" rıza/onay demektir.",
+                                        "3": "\"neglect\" ihmal demektir."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "restatement",
+                        "title": "Restatement Questions",
+                        "questions": [
+                            {
+                                "id": 11,
+                                "statement": "The origins of nuclear medicine stem from many discoveries, most notably the discovery of x-rays in 1895.",
+                                "options": [
+                                    "It took a lot of scientists to identify x-rays in 1895, which was one of the remarkable discoveries that led to nuclear medicine.",
+                                    "That scientists were able to observe x-rays in 1895 is remarkable, and this event helped bring about nuclear medicine.",
+                                    "Nuclear medicine emerged as a result of a number of advances, the most noteworthy of which was the detection of x-rays in 1895.",
+                                    "1895 is an extremely important year in the history of medicine as x-rays were proven to exist, but nuclear medicine was not developed until other discoveries took place."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Bu şık doğru çünkü orijinal cümledeki 'stem from' (kaynaklanmak) ifadesini 'emerged as a result of' ile ve 'most notably' (en bilhassa) ifadesini 'the most noteworthy of which' ile tam olarak karşılıyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'çok sayıda bilim insanı gerekti' diyor, orijinalde bu bilgi yok.",
+                                        "1": "B şıkkı sadece 'yardım etti' diyor, ana kaynak olduğunu belirtmiyor.",
+                                        "3": "D şıkkı 'diğer keşifler olana kadar gelişmedi' gibi zaman sıralaması ekliyor, anlam kayıyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 12,
+                                "statement": "The first cure using nuclear medicine was developed in 1946, when a thyroid cancer patient's treatment with radioactive iodine led to complete disappearance of the cancer.",
+                                "options": [
+                                    "In 1946, radioactive iodine enabled a patient with thyroid cancer to completely get rid of cancer, which was the first successful treatment using nuclear medicine.",
+                                    "In 1946, a new type of nuclear medicine using radioactive iodine was attempted, and this treatment was eventually found to be effective for patients with thyroid cancer.",
+                                    "Nuclear medicine has been the first choice of treatment for thyroid cancer patients since 1946, when radioactive iodine was found to completely overcome this form of cancer.",
+                                    "One of the most amazing features of nuclear medicine is its ability to use radioactive iodine to deal with thyroid cancer, which has been nearly eliminated as it has been treatable since 1946."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Bu şık doğru çünkü 'first cure' (ilk tedavi) -> 'first successful treatment' ve 'complete disappearance' (tamamen yok olma) -> 'completely get rid of' ifadeleriyle anlam korunmuş.",
+                                    "wrong": {
+                                        "1": "B şıkkı 'denendi ve etkili bulundu' diyor ama 'ilk tedavi' vurgusu eksik.",
+                                        "2": "C şıkkı 'ilk tercih (first choice)' diyor, orijinalde sadece 'ilk tedavi' denmiş.",
+                                        "3": "D şıkkı 'neredeyse yok edildi' diyor, oysa o hastada 'tamamen' yok olmuştu."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 13,
+                                "statement": "One form of nuclear medicine is nuclear imaging, in which a radioactive substance that has been put in the body is observed by special cameras as it moves through the body.",
+                                "options": [
+                                    "Special cameras that can spot radioactive material in the body are used in nuclear medicine due to improvements in nuclear imaging.",
+                                    "An injected radioactive substance moving through the body can be tracked by special cameras using nuclear imaging, which is a type of nuclear medicine.",
+                                    "The radioactive substance used in nuclear imaging, a form of nuclear medicine, can be seen by cameras that are able to move around inside the body.",
+                                    "Nuclear imaging, a kind of nuclear medicine, is risky because the radioactive material followed by special cameras may harm the body when moving through it."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Bu şık doğru çünkü orijinaldeki süreci (vücuda madde konması, hareket etmesi, kameralarla izlenmesi) aynen anlatıyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'gelişmeler sayesinde' diyor, orijinalde neden-sonuç yok.",
+                                        "2": "C şıkkı 'kameralar vücut içinde hareket eder' diyor, oysa madde hareket ediyor.",
+                                        "3": "D şıkkı 'risklidir' diyor, orijinalde riskten bahsedilmiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 14,
+                                "statement": "Today, there are about 100 nuclear medicine imaging procedures, which provide information about every organ system.",
+                                "options": [
+                                    "Each organ system that the nearly 100 nuclear imaging procedures can give data about is now understood clearly.",
+                                    "The almost 100 types of nuclear medicine imaging procedures increase knowledge about certain organ systems.",
+                                    "The variety of nuclear medicine procedures, of which there are now about 100, has led to the discovery of new organ systems.",
+                                    "The nearly 100 nuclear medicine imaging procedures which are now available reveal information about all organ systems."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "Bu şık doğru çünkü 'about 100' -> 'nearly 100' ve 'every organ system' -> 'all organ systems' eşleşmesi tam yapılmış.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'net bir şekilde anlaşılmıştır' diyor, orijinalde sadece 'bilgi sağlar' deniyor.",
+                                        "1": "B şıkkı 'certain (belirli)' organlar diyor, orijinalde 'her (every)' organ deniyor.",
+                                        "2": "C şıkkı 'yeni organ sistemlerinin keşfine yol açtı' diyor, bu bilgi yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 15,
+                                "statement": "It is thought that the Egyptians possibly domesticated cats about 4,000 years ago when plentiful rodents attracted the cats to human communities.",
+                                "options": [
+                                    "The large number of rodents found in Egyptians homes would certainly have appealed to cats almost 4,000 years ago.",
+                                    "On account of all the rodents in their dwellings, the Egyptians could have brought domesticated cats into their homes about 4,000 years ago.",
+                                    "Cats may have first become pets nearly 4,000 years ago when they came into Egyptian settlements due to the appeal of the many rodents.",
+                                    "The Egyptians should have realized what was attracting cats to their towns around 4,000 years ago was the great number of rodents."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Bu şık doğru çünkü 'possibly domesticated' -> 'may have first become pets' ve 'plentiful rodents attracted' -> 'due to the appeal of many rodents' anlamca örtüşüyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı evcilleştirmeden bahsetmiyor, sadece kedilerin ilgisini çekmesinden bahsediyor.",
+                                        "1": "B şıkkı Mısırlıların kedileri getirdiğini söylüyor, oysa orijinalde kediler kemirgenlere geldi.",
+                                        "3": "D şıkkı Mısırlıların fark etmesi gerektiğini söylüyor, bu bir yorum."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 16,
+                                "statement": "While cats were once valued mainly for their hunting abilities, they are now liked for their companionship.",
+                                "options": [
+                                    "Cats would hunt amazingly well; however, they lost this ability when they made friends with humans.",
+                                    "Their skill in hunting used to be cats’ most appreciated quality, but now their friendliness makes them valuable.",
+                                    "Although cats have become valuable due to their proficiency in hunting, they would be loved even more today if they were friendlier.",
+                                    "At some times it was hunting that made cats dear to humans; at other times their closeness to people would cause them to be valued more highly."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Bu şık doğru çünkü 'once valued for hunting' -> 'hunting used to be most appreciated' ve 'now liked for companionship' -> 'now their friendliness makes them valuable' zıtlığı korunmuş.",
+                                    "wrong": {
+                                        "0": "A şıkkı avlanma yeteneklerini kaybettiklerini söylüyor, bu yanlış.",
+                                        "2": "C şıkkı 'daha arkadaş canlısı olsalardı' gibi bir koşul ekliyor.",
+                                        "3": "D şıkkı 'bazen öyle bazen böyle' diyor, oysa orijinalde 'eskiden ve şimdi' ayrımı var."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 17,
+                                "statement": "Cats have a reflective layer in their eyes, known as the tapetum lucidum, which magnifies incoming light and allows them to see much better than humans in low light.",
+                                "options": [
+                                    "The tapetum lucidum is a reflective layer in the eye found only in cats, and its ability to make incoming light stronger is why cats have the best night vision.",
+                                    "When there is little light, cats can see many times better than humans because their tapetum lucidum is better than human’s, so a greater amount of light enters their eyes.",
+                                    "The reason that cats have superior vision to humans in low light is their tapetum lucidum, the reflective layer in cats’ eyes which increases the magnitude of light reaching the eyes.",
+                                    "Humans have limited vision in low light while cats see even better in low light than strong light because of the tapetum lucidum, a reflective layer in their eyes which significantly increases light coming in."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "Bu şık doğru, tüm anahtar bilgileri (yansıtıcı tabaka, ışığı büyütmesi, az ışıkta insandan iyi görme) eksiksiz ve hatasız veriyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'sadece kedilerde bulunur' diyor, orijinalde 'kedilerde vardır' diyor, 'sadece' demiyor.",
+                                        "1": "B şıkkı 'insanınkinden daha iyi' diyor, oysa insanda bu tabaka hiç yok.",
+                                        "3": "D şıkkı kedilerin 'güçlü ışıktan daha iyi gördüğünü' söylüyor, bu karşılaştırma orijinalde yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 18,
+                                "statement": "Cats generally hate water because their fur does not insulate well when wet; however, the Turkish Van has fur that is water resistant and, as a result, generally likes swimming.",
+                                "options": [
+                                    "Unlike a typical cat which strongly dislikes water since its fur cannot insulate it when it’s wet, the Turkish Van usually enjoys swimming since its fur resists water.",
+                                    "In contrast to cats that cannot stand water, the Turkish Van enjoys it because its water-resistant fur enables its body to stay warm and dry even in the coldest conditions.",
+                                    "The Turkish Van is a type of cat which is comfortable in the water on account of its water-resistant fur, which also keeps this cat much warmer than the fur of a typical cat.",
+                                    "The Turkish Van is different from other cats not only in having fur that resists water but also in its skill in swimming, which is much greater than cats whose fur cannot insulate them."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "Bu şık doğru. Genel kedi durumu (suyu sevmez, izolasyon yok) ile Van kedisi durumu (suyu sever, su geçirmez kürk) arasındaki zıtlığı ve neden-sonuç ilişkisini tam veriyor.",
+                                    "wrong": {
+                                        "1": "B şıkkı 'en soğuk koşullarda bile' diyerek abartılı bilgi ekliyor.",
+                                        "2": "C şıkkı 'diğer kedilerden daha sıcak tutar' diyor, orijinalde sadece su direncinden bahsediliyor.",
+                                        "3": "D şıkkı 'yüzme yeteneği'ne odaklanıyor, oysa mesele sevip sevmemek."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 19,
+                                "statement": "Two-thirds of adults in developed nations fail to obtain the nightly eight hours of sleep recommended by the World Health Organisation (WHO).",
+                                "options": [
+                                    "Just one-third of adults know that the WHO states that they should be getting eight hours of sleep every night.",
+                                    "Two out of three adults in developed nations do not meet the guideline of eight hours of sleep a night which was set by the WHO.",
+                                    "Even though the WHO suggests eight hours of sleep per night, two out of three adults in developed nations think that much sleep is unnecessary.",
+                                    "The WHO complains that their standard of eight hours of sleep per night is only followed by one-third of adults in developing countries."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "Bu şık doğru. 'Two-thirds' -> 'Two out of three', 'fail to obtain' -> 'do not meet', 'recommended' -> 'guideline set by' eşleşmeleri tam.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'biliyor' diyor, orijinalde uyuyup uyumadıkları (obtain) anlatılıyor.",
+                                        "2": "C şıkkı 'gereksiz olduğunu düşünüyorlar' diyor, bu yorumdur.",
+                                        "3": "D şıkkı 'gelişmekte olan ülkeler (developing)' diyor, orijinalde 'gelişmiş (developed)' deniyor."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reading",
+                        "title": "Reading Comprehension",
+                        "texts": [
+                            {
+                                "id": 1,
+                                "title": "Biomimicry: Nature's Blueprint for Innovation",
+                                "text": "While human innovation often seems to be about looking toward a technological future, some of our best ideas are, in fact, ancient. This is the core principle of biomimicry, an approach to innovation that seeks sustainable solutions to human challenges by emulating nature's time-tested patterns and strategies. The central idea is that after 3.8 billion years of evolution, nature has already solved many of the problems we are grappling with. Organisms have learned how to find water, create durable materials, power themselves, and manage waste, all while maintaining a balance with their ecosystems.\n\nSome of the most famous examples of biomimicry are remarkably elegant. The invention of Velcro, for instance, came after Swiss engineer George de Mestral examined the burdock burrs that kept sticking to his dog's fur and his clothes. He noticed their simple hook design and replicated it. A more complex example is the redesign of Japan's Shinkansen bullet train. The train used to create a loud sonic boom when exiting tunnels, which was a significant noise pollution problem. Engineers found a solution by studying the kingfisher, a bird that dives into water with minimal splash. The train's nose was remodeled to mimic the kingfisher's beak, which not only solved the sonic boom issue but also made the train 10% faster and 15% more energy-efficient.\n\nHowever, applying nature's lessons is not a simple matter of copying what we see. Biomimicry is a complex, interdisciplinary field that requires deep collaboration between biologists, engineers, chemists, and designers. A significant challenge is that nature's solutions are often context-specific and operate on different scales. An engineer can't just look at a lotus leaf and immediately build a self-cleaning paint; they must understand the microscopic structures and chemical properties that cause water to bead up and roll off. Translating these biological principles into a scalable and economically viable product can be a long and difficult process.\n\nDespite these challenges, biomimicry holds immense promise for a more sustainable future. As humanity confronts global issues like climate change, resource depletion, and pollution, looking to nature for inspiration is more critical than ever. Researchers are developing everything from more efficient wind turbine blades inspired by whale fins to self-healing plastics that mimic skin. This approach represents a fundamental shift in thinking: from a model of resource extraction and domination over nature to one of learning from and working in harmony with it. It's about asking not just what we can take from the natural world, but what we can learn from it.",
+                                "questions": [
+                                    {
+                                        "id": 20,
+                                        "question": "What is the fundamental idea behind biomimicry as presented in paragraph 1?",
+                                        "options": [
+                                            "Humans should leave nature untouched.",
+                                            "Nature provides models for solving human problems.",
+                                            "Technology is more efficient than natural processes.",
+                                            "Ancient human innovations were superior to modern ones."
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Cevap 1. paragrafta geçiyor: \"...seeks sustainable solutions to human challenges by emulating nature's time-tested patterns\". Yani doğa, insan problemleri için model sağlar.",
+                                            "wrong": {
+                                                "0": "Doğaya dokunmamaktan değil, onu taklit etmekten bahsediliyor.",
+                                                "2": "Teknolojinin doğadan üstün olduğu söylenmiyor, doğanın çözümlerinin test edildiği söyleniyor.",
+                                                "3": "Eski insan icatları değil, doğanın 'eski' fikirleri övülüyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 21,
+                                        "question": "The word “emulating” in paragraph 1 is closest in meaning to ____.",
+                                        "options": [
+                                            "avoiding",
+                                            "improving",
+                                            "imitating",
+                                            "analyzing"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "\"Emulating\" kelimesi \"taklit etmek, örnek almak\" demektir. Bu bağlamda \"imitating\" en yakın anlamlı kelimedir.",
+                                            "wrong": {
+                                                "0": "\"Avoiding\" kaçınmak demektir.",
+                                                "1": "\"Improving\" geliştirmek demektir.",
+                                                "3": "\"Analyzing\" analiz etmek demektir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 22,
+                                        "question": "According to paragraph 2, the kingfisher's beak provided a solution for what problem with the bullet train?",
+                                        "options": [
+                                            "Its slow speed inside tunnels.",
+                                            "Its high energy consumption.",
+                                            "The loud noise it made when exiting tunnels.",
+                                            "The difficulty of cleaning its exterior."
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Cevap 2. paragrafta: \"The train used to create a loud sonic boom when exiting tunnels... The train's nose was remodeled... which solved the sonic boom issue\". Yani sorun tünelden çıkarken oluşan yüksek sesti.",
+                                            "wrong": {
+                                                "0": "Hız sorunu yoktu, hatta çözüm sonrası hız arttı ama ana sorun ses idi.",
+                                                "1": "Enerji tüketimi sorun olarak değil, çözümün bir 'ekstra faydası' olarak belirtiliyor.",
+                                                "3": "Temizlik sorunu Lotus yaprağı örneğinde (3. paragraf) geçiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 23,
+                                        "question": "What can be inferred from paragraph 3 about the application of biomimicry?",
+                                        "options": [
+                                            "It is a simple process of copying what is seen in nature.",
+                                            "It often requires expertise from multiple different fields.",
+                                            "It is always cheaper than traditional engineering.",
+                                            "Biologists are the only professionals needed for biomimicry."
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Cevap 3. paragrafta: \"Biomimicry is a complex, interdisciplinary field that requires deep collaboration between biologists, engineers, chemists, and designers.\" Yani birçok alandan uzmanlık gerektirir.",
+                                            "wrong": {
+                                                "0": "Paragrafın ilk cümlesi bunun basit bir kopyalama olmadığını söylüyor: \"not a simple matter of copying\".",
+                                                "2": "Paragrafta ucuz olduğundan bahsedilmiyor.",
+                                                "3": "Sadece biyologlar değil, mühendisler ve tasarımcılar da gerekiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 24,
+                                        "question": "The phrase “This approach” in paragraph 4 refers to ____.",
+                                        "options": [
+                                            "extracting resources from nature",
+                                            "studying the history of technology",
+                                            "confronting global issues like climate change",
+                                            "using nature as a source of inspiration for innovation"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "\"This approach\" (bu yaklaşım), metnin genel konusu olan ve bir önceki cümlede örneklenen \"biyomimikri\" yani doğadan ilham alma yaklaşımını ifade eder.",
+                                            "wrong": {
+                                                "0": "Metin tam tersine kaynak çıkarma (extraction) modelinden uzaklaşmayı öneriyor.",
+                                                "1": "Teknoloji tarihinden bahsedilmiyor.",
+                                                "2": "İklim değişikliği bu yaklaşımla çözülmeye çalışılan bir sorun, yaklaşımın kendisi değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 25,
+                                        "question": "According to the text, a benefit of redesigning the bullet train based on a kingfisher was that ____.",
+                                        "options": [
+                                            "it became the fastest train in the world",
+                                            "it used less energy",
+                                            "it could travel underwater",
+                                            "it required less frequent maintenance"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Cevap 2. paragrafta: \"...made the train 10% faster and 15% more energy-efficient.\" Yani daha az enerji tüketmesini sağladı.",
+                                            "wrong": {
+                                                "0": "Dünyanın en hızlısı olduğu söylenmiyor, sadece %10 hızlandığı söyleniyor.",
+                                                "2": "Su altında gittiği söylenmiyor, kuşun suya dalışından ilham alındı.",
+                                                "3": "Bakım sıklığından bahsedilmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 26,
+                                        "question": "The MAIN purpose of the text is to ____.",
+                                        "options": [
+                                            "provide a list of animals that have inspired inventions",
+                                            "argue that technology is harmful to the environment",
+                                            "explain the concept, challenges, and importance of biomimicry",
+                                            "compare the engineering skills of humans and animals"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Metin biyomimikriyi tanımlıyor (concept), zorluklarını anlatıyor (challenges - paragraf 3) ve önemini belirtiyor (importance - paragraf 4).",
+                                            "wrong": {
+                                                "0": "Sadece liste vermiyor, kavramı tartışıyor.",
+                                                "1": "Teknolojiyi kötülemiyor, doğayla uyumlu teknolojiyi övüyor.",
+                                                "3": "Mühendislik becerilerini karşılaştırmıyor, doğadan öğrenmeyi anlatıyor."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 2,
+                                "title": "The Enduring Mystery of Dark Matter",
+                                "text": "For centuries, astronomers have peered into the cosmos, meticulously mapping the stars and galaxies. However, in the 20th century, a startling realization began to dawn: the visible matter, the \"stuff\" we can see, accounts for only a small fraction of the universe's total mass. This invisible, enigmatic substance has been dubbed \"dark matter.\" Its existence was first postulated in the 1930s by Swiss astronomer Fritz Zwicky, who observed that the galaxies in the Coma Cluster were moving far too fast to be held together by their visible mass alone. He proposed that there must be some form of unseen matter providing the extra gravitational pull.\n\nThe evidence for dark matter has grown substantially since Zwicky's initial observations. One of the most compelling pieces of evidence comes from the rotation curves of galaxies. According to our understanding of gravity, the stars at the outer edges of a spiral galaxy should orbit more slowly than those closer to the center. However, observations have consistently shown that they orbit at nearly the same speed. This suggests the presence of a massive, invisible halo of dark matter surrounding the galaxy, providing a gravitational grip that extends far beyond the visible disk. Gravitational lensing, the bending of light from distant objects by the gravitational field of a massive object in the foreground, provides further, independent confirmation of dark matter's existence.\n\nDespite the overwhelming evidence for its existence, the true nature of dark matter remains one of the most profound mysteries in modern physics. Scientists are fairly certain that it is not composed of the same particles that make up ordinary matter (protons, neutrons, and electrons). If it were, it would interact with light and other forms of electromagnetic radiation, and thus would not be \"dark.\" The leading hypothesis is that dark matter is composed of a new type of subatomic particle, one that interacts very weakly with ordinary matter. These hypothetical particles have been given names like WIMPs (Weakly Interacting Massive Particles) and axions.\n\nThe global scientific community is engaged in a multi-pronged search for these elusive particles. Deep underground laboratories, shielded from cosmic rays, house highly sensitive detectors designed to capture the rare instance of a dark matter particle bumping into an atom of ordinary matter. The Large Hadron Collider, a massive particle accelerator, is attempting to create dark matter particles by smashing protons together at near the speed of light. So far, these direct detection and production experiments have yet to yield a definitive discovery. The quest to understand dark matter continues, promising to revolutionize our understanding of the universe and our place within it.",
+                                "questions": [
+                                    {
+                                        "id": 27,
+                                        "question": "The word “enigmatic” in paragraph 1 is closest in meaning to ____.",
+                                        "options": [
+                                            "abundant",
+                                            "mysterious",
+                                            "visible",
+                                            "understood"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "\"Enigmatic\" kelimesi \"gizemli, sırlarla dolu\" demektir. Metin bağlamında görünmez ve bilinmez olduğu için \"mysterious\" en uygun karşılıktır.",
+                                            "wrong": {
+                                                "0": "\"Abundant\" bol demektir.",
+                                                "2": "\"Visible\" görünür demektir (zaten görünmez olduğu söyleniyor).",
+                                                "3": "\"Understood\" anlaşılmış demektir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 28,
+                                        "question": "According to paragraph 1, why did Fritz Zwicky first propose the existence of dark matter?",
+                                        "options": [
+                                            "He noticed that galaxies were moving slower than expected.",
+                                            "He observed that the visible matter in a galaxy cluster was not enough to explain the galaxies' rapid movements.",
+                                            "He discovered a new type of star that did not emit light.",
+                                            "He wanted to challenge the existing theories of gravity."
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Cevap 1. paragrafta: \"...galaxies... were moving far too fast to be held together by their visible mass alone.\" Yani görünen kütle, galaksilerin bu kadar hızlı hareket edip bir arada kalmasını açıklamaya yetmiyordu.",
+                                            "wrong": {
+                                                "0": "Yavaş değil, beklenenden çok daha hızlı hareket ediyorlardı.",
+                                                "2": "Yeni bir yıldız keşfetmedi, kütle hesabı yaptı.",
+                                                "3": "Yerçekimi teorilerine meydan okumak için değil, gözlemini açıklamak için önerdi."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 29,
+                                        "question": "Which of the following is TRUE according to paragraph 2?",
+                                        "options": [
+                                            "Stars at the edge of a galaxy orbit faster than predicted by visible matter alone.",
+                                            "Gravitational lensing is the only evidence for dark matter.",
+                                            "The rotation curves of galaxies prove that dark matter does not exist.",
+                                            "Dark matter is concentrated in the center of galaxies."
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 2'de: \"...stars at the outer edges... should orbit more slowly... However... they orbit at nearly the same speed.\" Yani dış kısımdaki yıldızlar, sadece görünen maddeye göre hesaplanandan daha hızlı dönüyor.",
+                                            "wrong": {
+                                                "1": "Tek kanıt değil, rotasyon eğrileri de var.",
+                                                "2": "Kanıtlamaz, aksine varlığını destekler.",
+                                                "3": "Merkezde değil, galaksiyi çevreleyen bir hale (halo) şeklinde olduğu söyleniyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 30,
+                                        "question": "The word “it” in paragraph 3 refers to ____.",
+                                        "options": [
+                                            "modern physics",
+                                            "ordinary matter",
+                                            "dark matter",
+                                            "electromagnetic radiation"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Cümle: \"If IT were, it would interact with light...\" Burada \"It\", paragrafın konusu olan ve neyden yapılmadığı tartışılan \"dark matter\"a (karanlık madde) referanstır.",
+                                            "wrong": {
+                                                "0": "Fizik ışıkla etkileşime girmez.",
+                                                "1": "Sıradan madde zaten ışıkla etkileşir, burada 'eğer öyle olsaydı' deniyor.",
+                                                "3": "Radyasyon radyasyonla etkileşmez."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 31,
+                                        "question": "It can be understood from paragraph 3 that ____.",
+                                        "options": [
+                                            "scientists have definitively identified the particles that make up dark matter",
+                                            "dark matter interacts strongly with light",
+                                            "WIMPs and axions are confirmed components of dark matter",
+                                            "the composition of dark matter is still a subject of scientific investigation"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: \"true nature... remains one of the most profound mysteries\" ve \"leading hypothesis\". Yani bilim insanları hala neyden oluştuğunu araştırıyor, kesinleşmiş değil.",
+                                            "wrong": {
+                                                "0": "Kesin tanımlamadılar, hala gizem.",
+                                                "1": "Işıkla etkileşseydi 'karanlık' olmazdı.",
+                                                "2": "WIMP ve axion sadece varsayımsal (hypothetical) isimler, kanıtlanmış değiller."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 32,
+                                        "question": "According to paragraph 4, what is one of the methods being used to detect dark matter?",
+                                        "options": [
+                                            "Using telescopes to look for dark spots in the sky.",
+                                            "Sending rockets to collect samples from deep space.",
+                                            "Building sensitive detectors in underground labs.",
+                                            "Observing the behavior of black holes."
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Cevap 4. paragrafta: \"Deep underground laboratories... house highly sensitive detectors\". Yani yer altı laboratuvarlarında dedektörler kullanılıyor.",
+                                            "wrong": {
+                                                "0": "Teleskopla karanlık nokta aramak değil.",
+                                                "1": "Roket göndermekten bahsedilmiyor.",
+                                                "3": "Kara deliklerden bahsedilmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 34,
+                                        "question": "Which of the following is NOT mentioned in the text as evidence for dark matter?",
+                                        "options": [
+                                            "The rotation curves of galaxies",
+                                            "The expansion rate of the universe",
+                                            "Gravitational lensing",
+                                            "The movement of galaxies within clusters"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Metinde evrenin genişleme hızından (expansion rate) bahsedilmiyor. Bu genellikle Karanlık Enerji ile ilgilidir.",
+                                            "wrong": {
+                                                "0": "Bahsedildi (Paragraf 2).",
+                                                "2": "Bahsedildi (Paragraf 2).",
+                                                "3": "Bahsedildi (Paragraf 1 - Coma Cluster)."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 3,
+                                "title": "The Psychology of Procrastination",
+                                "text": "Procrastination, the act of unnecessarily delaying tasks, is a common human experience. While often dismissed as a simple matter of poor time management or laziness, research in psychology suggests that its roots are far more complex. It's not just about avoiding work; it's about managing the negative emotions associated with that work. When faced with a task that induces feelings of anxiety, self-doubt, or boredom, procrastination serves as a short-term mood-booster. By putting off the task, we also put off the unpleasant feelings it triggers, opting for a more enjoyable activity instead. This provides immediate relief, creating a cycle that is difficult to break.\n\nSeveral psychological factors contribute to procrastination. Perfectionism, for instance, can be a major driver. The fear of not being able to complete a task perfectly can be so overwhelming that it leads to not starting it at all. Similarly, a low sense of self-efficacy, or the belief in one's own ability to succeed, can make tasks seem insurmountable, encouraging delay. The nature of the task itself also plays a role. Abstract goals, such as \"get healthy,\" are more likely to be put off than concrete ones, like \"go for a 30-minute walk today.\" The lack of a clear, immediate reward for completing a task can also diminish our motivation to tackle it.\n\nThe consequences of chronic procrastination can be severe, extending beyond missed deadlines and poor performance. It can lead to increased stress, anxiety, and guilt, creating a negative feedback loop that further fuels the tendency to delay. In the long run, it can erode one's sense of self-worth and lead to feelings of regret and frustration. Procrastination can also have a tangible impact on our health, as we may delay important activities like scheduling doctor's appointments or adopting healthier habits.\n\nFortunately, there are effective strategies for overcoming procrastination. Breaking down large, intimidating tasks into smaller, more manageable steps can make them seem less daunting. Setting specific, realistic deadlines for these smaller tasks can also create a sense of urgency and accomplishment. Self-compassion is another crucial element. Instead of berating oneself for procrastinating, which often worsens the problem, treating oneself with kindness and understanding can help to break the cycle of negative emotions. Finally, identifying the underlying reasons for procrastination, whether it's fear of failure or a lack of interest, is the first step toward addressing the root cause and developing healthier work habits.",
+                                "questions": [
+                                    {
+                                        "id": 35,
+                                        "question": "What is the MAIN IDEA of paragraph 1?",
+                                        "options": [
+                                            "Procrastination is a sign of laziness.",
+                                            "Procrastination is a strategy for managing negative emotions associated with a task.",
+                                            "Everyone procrastinates from time to time.",
+                                            "Procrastination is a form of effective time management."
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 1'in ana fikri: \"it's about managing the negative emotions associated with that work.\" Yani erteleme, işin yarattığı kötü hisleri yönetme biçimidir.",
+                                            "wrong": {
+                                                "0": "Metin bunun sadece tembellik olmadığını söylüyor.",
+                                                "2": "Bu bir detay, ana fikir değil.",
+                                                "3": "Metin bunun 'etkili' değil, sorunlu bir döngü olduğunu söylüyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 36,
+                                        "question": "Based on the information in paragraphs 1 and 2, we can infer that ____.",
+                                        "options": [
+                                            "only people with low self-esteem procrastinate",
+                                            "procrastination is a purely rational decision",
+                                            "a person who is a perfectionist may be more prone to procrastination",
+                                            "procrastination is always a conscious choice"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: \"Perfectionism... can be a major driver.\" Mükemmeliyetçilik, korku yarattığı için ertelemeye yol açabilir.",
+                                            "wrong": {
+                                                "0": "Sadece onlar değil, mükemmeliyetçiler de erteler.",
+                                                "1": "Rasyonel değil, duygusal bir tepki olduğu anlatılıyor.",
+                                                "3": "Metin bunun bilinçli bir tercih olmaktan çok, duygusal bir kaçış olduğunu ima ediyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 37,
+                                        "question": "According to paragraph 2, it is FALSE that ____.",
+                                        "options": [
+                                            "the fear of failure can contribute to procrastination",
+                                            "concrete goals are less likely to be procrastinated on than abstract ones",
+                                            "a belief in one's ability to succeed can lead to procrastination",
+                                            "the characteristics of a task can influence the likelihood of procrastination"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Bu ifade YANLIŞTIR çünkü metinde \"low sense of self-efficacy... encouraging delay\" deniyor. Yani başarı inancının yüksek olması değil, *düşük* olması ertelemeye yol açar.",
+                                            "wrong": {
+                                                "0": "DOĞRU: Fear of failure (not completing perfectly) bahsediliyor.",
+                                                "1": "DOĞRU: Somut hedefler daha az ertelenir.",
+                                                "3": "DOĞRU: Görevin doğası (abstract vs concrete) etkilidir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 38,
+                                        "question": "According to paragraph 3, which of the following is a potential consequence of chronic procrastination?",
+                                        "options": [
+                                            "Improved mental health",
+                                            "Increased self-worth",
+                                            "Higher levels of stress and guilt",
+                                            "Better academic and professional performance"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: \"It can lead to increased stress, anxiety, and guilt\". Stres ve suçluluk artar.",
+                                            "wrong": {
+                                                "0": "Akıl sağlığını kötü etkiler.",
+                                                "1": "Öz değeri (self-worth) aşındırır.",
+                                                "3": "Performansı düşürür."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 39,
+                                        "question": "From paragraph 4, we can understand that ____.",
+                                        "options": [
+                                            "punishing oneself for procrastinating is an effective strategy",
+                                            "overcoming procrastination requires understanding its underlying causes",
+                                            "breaking down tasks into smaller steps makes them more difficult",
+                                            "setting unrealistic deadlines is the best way to get things done"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 4: \"identifying the underlying reasons... is the first step toward addressing the root cause\". Altta yatan nedenleri anlamak gerekir.",
+                                            "wrong": {
+                                                "0": "Kendini cezalandırmak (berating) sorunu kötüleştirir.",
+                                                "2": "Parçalara bölmek işi kolaylaştırır (less daunting).",
+                                                "3": "Gerçekçi (realistic) hedefler konmalı, gerçekdışı değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 40,
+                                        "question": "According to paragraphs 3 and 4, it is TRUE that ____.",
+                                        "options": [
+                                            "procrastination has no long-term effects",
+                                            "self-compassion can be a useful tool in combating procrastination",
+                                            "there are no effective strategies for overcoming procrastination",
+                                            "procrastination only affects one's work life"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 4: \"Self-compassion is another crucial element.\" Kendine şefkat göstermek ertelemeyle mücadelede yararlıdır.",
+                                            "wrong": {
+                                                "0": "Uzun vadeli etkileri (long run) vardır (regret, health).",
+                                                "2": "Etkili stratejiler olduğu söyleniyor (Effective strategies).",
+                                                "3": "Sağlığı da etkiler (health impact), sadece işi değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 41,
+                                        "question": "The word “daunting” in paragraph 4 could best be replaced by ____.",
+                                        "options": [
+                                            "simple",
+                                            "interesting",
+                                            "intimidating",
+                                            "enjoyable"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "\"Daunting\" kelimesi \"göz korkutucu, zorlu\" demektir. \"Intimidating\" en yakın anlamlı kelimedir.",
+                                            "wrong": {
+                                                "0": "\"Simple\" basit demektir.",
+                                                "1": "\"Interesting\" ilginç demektir.",
+                                                "3": "\"Enjoyable\" keyifli demektir."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 42,
+                                        "question": "According to paragraph 4, we can say that the author suggests that ____.",
+                                        "options": [
+                                            "the first step to solving procrastination is to ignore the reasons behind it",
+                                            "being kind to oneself can actually worsen procrastination",
+                                            "a multi-faceted approach is needed to overcome procrastination",
+                                            "procrastination is an unsolvable problem for most people"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Yazar birçok strateji öneriyor: Görevleri bölmek, deadline koymak, kendine şefkat, nedenleri anlamak. Bu da çok yönlü (multi-faceted) bir yaklaşım gerektirir.",
+                                            "wrong": {
+                                                "0": "Nedenleri görmezden gelmek değil, tanımlamak (identify) gerekir.",
+                                                "1": "Kendine iyi davranmak sorunu çözmeye yardım eder, kötüleştirmez.",
+                                                "3": "Çözülemez değil, etkili stratejiler var."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 43,
+                                        "question": "Based on the information in the text, we can say that ____.",
+                                        "options": [
+                                            "procrastination is primarily a time-management issue",
+                                            "the immediate gratification of avoiding a task reinforces procrastination",
+                                            "procrastination is a rare phenomenon in modern society",
+                                            "the only cause of procrastination is the fear of failure"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 1: \"This provides immediate relief, creating a cycle that is difficult to break.\" İşi ertelemenin verdiği anlık rahatlama, davranışı pekiştirir.",
+                                            "wrong": {
+                                                "0": "Metin başında bunun sadece zaman yönetimi sorunu olmadığı söyleniyor.",
+                                                "2": "Nadir değil, yaygın (common) bir deneyimdir.",
+                                                "3": "Tek neden korku değil; sıkılma, düşük öz-yeterlilik vb. de var."
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }

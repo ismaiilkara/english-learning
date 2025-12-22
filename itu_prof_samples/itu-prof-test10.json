@@ -1,0 +1,1118 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Evolution of Cinema",
+                    "passage": {
+                        "title": "The Evolution of Cinema",
+                        "text": "The history of cinema began in the late 19th century, (1)_____ the Lumière brothers held the first public screening of moving pictures. Initially, films were short, silent, and black-and-white, (2)_____ on visual storytelling rather than dialogue. The addition of sound in the late 1920s, known as the \"talkies\" era, revolutionized the industry and (3)_____ filmmakers to tell more complex stories. (4)_____ color film was available as early as the 1900s, it didn't become the standard until much later due to the high cost. Today, technology (5)_____ cinema once again with the rise of computer-generated imagery (CGI). This technology allows directors (6)_____ worlds that (7)_____ impossible to film in real life. However, some critics argue that an over-reliance on special effects (8)_____ the quality of storytelling. Whether you prefer classic films (9)_____ modern blockbusters, there is no denying that movies (10)_____ a powerful medium for reflecting and shaping culture."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "which",
+                                "where",
+                                "when",
+                                "that"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"When\" doğru çünkü boşluktan önce bir zaman dilimi (late 19th century - 19. yüzyılın sonları) var ve bu zamanı niteliyoruz.",
+                                "wrong": {
+                                    "0": "\"Which\" nesneleri nitelemek için kullanılır, zaman için değil.",
+                                    "1": "\"Where\" yer bildiren ifadeler (mekanlar) için kullanılır.",
+                                    "3": "\"That\" burada virgül olduğu için (non-restrictive clause) kullanılamaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "relying",
+                                "relied",
+                                "to rely",
+                                "relies"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Relying\" doğru çünkü burada bir kısaltma (reduction) var. Filmler hikaye anlatımına 'dayanarak' (aktif eylem) ilerliyor. Aktif durumlarda fiile -ing gelir.",
+                                "wrong": {
+                                    "1": "\"Relied\" pasif kısaltma olurdu ama cümle aktif.",
+                                    "2": "\"To rely\" amaç bildirir, burada durum anlatılıyor.",
+                                    "3": "\"Relies\" ana fiil çekimidir, ama cümlenin zaten bir ana fiili (were) var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "let",
+                                "allowed",
+                                "made",
+                                "prevented"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Allowed\" doğru çünkü boşluktan sonra \"filmmakers TO tell\" yapısı var. 'Allow somebody TO do something' kalıbı kullanılır.",
+                                "wrong": {
+                                    "0": "\"Let\" fiilinden sonra 'to' kullanılmaz (Let filmmakers tell).",
+                                    "2": "\"Made\" fiilinden sonra 'to' kullanılmaz (Made filmmakers tell).",
+                                    "3": "\"Prevented\" engellemek demektir, anlamca uymaz ve genelde 'from' ile kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "Despite",
+                                "However",
+                                "Although",
+                                "In spite of"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Although\" doğru çünkü arkasından tam bir cümle gelmiş (color film was available) ve zıtlık bildiriyor (var olmasına rağmen standart olmadı).",
+                                "wrong": {
+                                    "0": "\"Despite\" arkasından isim veya isim öbeği alır, tam cümle almaz.",
+                                    "1": "\"However\" iki cümleyi bağlar ama genelde noktalama işaretleriyle ayrılır, cümle başına bu şekilde gelmez.",
+                                    "3": "\"In spite of\" tıpkı despite gibi arkasından isim alır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "is transforming",
+                                "transformed",
+                                "was transforming",
+                                "had transformed"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Is transforming\" doğru çünkü cümlede \"Today\" (bugün) ifadesi var ve şu an devam eden bir değişim sürecini anlatıyor.",
+                                "wrong": {
+                                    "1": "\"Transformed\" geçmiş zaman bildirir.",
+                                    "2": "\"Was transforming\" geçmişte devam eden zaman bildirir.",
+                                    "3": "\"Had transformed\" geçmişin de geçmişini anlatır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "creating",
+                                "create",
+                                "to create",
+                                "created"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"To create\" doğru çünkü \"allow\" fiili nesne aldıktan sonra (directors), eylemi \"to V1\" formatında ister (Allow directors to create).",
+                                "wrong": {
+                                    "0": "\"Creating\" allow kalıbına uymaz.",
+                                    "1": "\"Create\" yalın hali allow ile kullanılmaz.",
+                                    "3": "\"Created\" geçmiş zaman halidir, burada fiilimsi gerekiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "will be",
+                                "are",
+                                "have been",
+                                "would be"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Would be\" doğru çünkü burada hayali/varsayımsal bir durum var: CGI olmasaydı bu dünyaları çekmek imkansız 'olurdu'.",
+                                "wrong": {
+                                    "0": "\"Will be\" gelecek zaman bildirir, kesinlik katar.",
+                                    "1": "\"Are\" genel geçer bir gerçeği ifade eder ama 'would' bağlama (gerçek hayatta imkansız olma fikrine) daha uygun.",
+                                    "2": "\"Have been\" geçmişten bugüne süreci anlatır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "may hurt",
+                                "hurt",
+                                "hurting",
+                                "to hurt"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"May hurt\" doğru çünkü eleştirmenler bir ihtimalden/riskten bahsediyor. Cümlenin yüklemine ihtiyacı var.",
+                                "wrong": {
+                                    "1": "\"Hurt\" (geniş zaman) özne 'over-reliance' (tekil) olduğu için 'hurts' olmalıydı.",
+                                    "2": "\"Hurting\" tek başına yüklem olamaz.",
+                                    "3": "\"To hurt\" tek başına yüklem olamaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "and",
+                                "nor",
+                                "or",
+                                "but"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Or\" doğru çünkü cümlenin başında \"Whether\" var. \"Whether ... or ...\" (İster o, ister bu) kalıbı kullanılır.",
+                                "wrong": {
+                                    "0": "\"And\" whether ile kullanılmaz.",
+                                    "1": "\"Nor\" genelde \"Neither ... nor\" kalıbında kullanılır.",
+                                    "3": "\"But\" whether ile kullanılmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "remains",
+                                "remain",
+                                "remaining",
+                                "has remained"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Remain\" doğru çünkü özne \"movies\" (çoğul). Çoğul öznelerde fiil 's' takısı almaz.",
+                                "wrong": {
+                                    "0": "\"Remains\" tekil özneler için kullanılır.",
+                                    "2": "\"Remaining\" tek başına yüklem olamaz.",
+                                    "3": "\"Has remained\" (singular perfect) özne çoğul olduğu için uymaz."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "The more diverse the color in the foods you eat, the greater the variety of nutrients your diet has.",
+                            "options": [
+                                "When you are on a diet, make sure that you eat colorful foods to protect your health.",
+                                "Eating foods which vary greatly in color means having a diet that contains many different nutrients.",
+                                "Foods with bright colors include just as many nutrients as those whose colors are not as intense.",
+                                "If you eat large amounts of a food that is colorful, your body will get the numerous nutrients it needs."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru çünkü orijinal cümledeki 'renk ne kadar çeşitliyse besin değeri o kadar çeşitlidir' anlamını 'renkleri değişen yiyecekler yemek, farklı besinler içeren bir diyete sahip olmak demektir' şeklinde veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'diyet yaparken' diyerek anlamı daraltıyor ve tavsiye veriyor.",
+                                    "2": "C şıkkı parlak renkli ve renksiz yiyecekleri karşılaştırıyor, orijinalde bu yok.",
+                                    "3": "D şıkkı 'büyük miktarda yemekten' bahsediyor, orijinalde çeşitlilik vurgusu var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Your brain does not immediately realize when your stomach is full, so take your time during meals.",
+                            "options": [
+                                "Eating wastes a lot of time because your brain cannot understand that your stomach is full right away.",
+                                "Because you eat so slowly, it takes a long time for your brain to comprehend that you have had sufficient food.",
+                                "You must not eat meals quickly as that damages your brain and keeps it from sensing that your stomach is full.",
+                                "You had better eat slowly during meal times because your brain takes a while to recognize that your stomach has had enough to eat."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Orijinal cümle 'beyin tokluğu hemen anlamaz, yavaş ye' diyor. Bu şık da 'yavaş yesen iyi olur çünkü beyin bir süre sonra anlar' diyor.",
+                                "wrong": {
+                                    "0": "A şıkkı yemek yemenin zaman kaybı olduğunu söylüyor, yanlış.",
+                                    "1": "B şıkkı 'yavaş yediğin için beyin geç anlar' diyor, tam tersi bir mantık kuruyor.",
+                                    "2": "C şıkkı hızlı yemenin beyni hasara uğrattığını iddia ediyor, bu abartı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "A diet too high in carbohydrates upsets the balance of your body's blood sugar level, making you feel tired and irritated.",
+                            "options": [
+                                "The reason for your lack of energy and unhappy mood is insufficient carbohydrates, which brings about variation in your blood sugar level.",
+                                "The reason you are exhausted is that you eat carbohydrates, which are known to increase your body’s blood sugar levels to dangerous levels.",
+                                "You sometimes lack energy or feel annoyed due to significant changes in your body’s blood sugar level from consuming more carbohydrates than you need.",
+                                "Because of the large amount of carbohydrates, you always want to consume sugar, so your body is not working properly and you often feel drowsy and a bit angry."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı orijinali en iyi karşılıyor. 'Too high carbohydrates' -> 'consuming more than you need', 'tired and irritated' -> 'lack energy or feel annoyed'.",
+                                "wrong": {
+                                    "0": "A şıkkı 'yetersiz karbonhidrat' diyor, orijinalde 'fazla' deniyor.",
+                                    "1": "B şıkkı karbonhidrat yemenin tehlikeli seviyelere çıkardığını söylüyor ama 'dengeyi bozma' vurgusunu ve 'irritated' kısmını tam vermiyor.",
+                                    "3": "D şıkkı 'hep şeker yemek istersin' gibi orijinalde olmayan bir bilgi ekliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Differences in everyone’s genetic structures and body type affect which types of foods each person should eat.",
+                            "options": [
+                                "Some foods are not healthy for those people who have unique genes or body types.",
+                                "Despite differences in our genetics and body types, there are some foods that we all need to consume.",
+                                "Differing genetic characteristics and body types are the reasons why each person has distinct dietary needs.",
+                                "The foods people choose to eat lead to every person having varying genetic characteristics and separate body types."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Genetik ve vücut tipi farklılıkları, her insanın farklı beslenme ihtiyaçları (what types of food they should eat) olmasının sebebidir.",
+                                "wrong": {
+                                    "0": "A şıkkı 'bazı yiyecekler sağlıksızdır' diyor, orijinalde ne yenmesi gerektiğini etkilediği söyleniyor.",
+                                    "1": "B şıkkı 'herkesin yemesi gereken ortak yiyecekler var' diyor, orijinalin tam tersi.",
+                                    "3": "D şıkkı yiyeceklerin genetiği değiştirdiğini söylüyor, bu bilimsel olarak ve anlamca yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "People tell lies more often during phone conversations but are more truthful in face-to-face conversations and in anything written excluding text messages.",
+                            "options": [
+                                "People are more honest when talking face to face and in written communication except for texting than they are when speaking on the phone.",
+                                "People often fail to tell the truth on the phone but try to be honest in face-to-face conversations and in written communication, even in texting.",
+                                "Lying is common in phone conversations and text messages, and it is easier to lie in written communication than in a face-to-face conversation.",
+                                "Other than text messages, people generally tell the truth in written communication, but in spoken communication they are often untruthful both on the phone and face to face."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı orijinali tam karşılıyor: İnsanlar yüz yüze ve yazılı (SMS hariç) iletişimde, telefona göre daha dürüsttür.",
+                                "wrong": {
+                                    "1": "B şıkkı 'mesajlaşmada bile (even in texting)' dürüsttür diyor, oysa orijinalde SMS hariç tutulmuş.",
+                                    "2": "C şıkkı yazılı iletişimde yalan söylemenin daha kolay olduğunu iddia ediyor, orijinalde dürüst oldukları yazıyor.",
+                                    "3": "D şıkkı yüz yüze konuşurken de yalan söylediklerini iddia ediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Motorists who talk on phones cannot pay close attention to the movement of traffic around them, causing a traffic delay of 10%.",
+                            "options": [
+                                "Using phones makes motorists take less notice of traffic flow, slowing traffic by 10%.",
+                                "Drivers might increase traffic speed by 10% if they were more conscious of those using phones.",
+                                "Traffic could move 10% faster if motorists used their phones to learn which places were having traffic jams.",
+                                "By not carefully watching cars while on their phones, drivers are 10% more likely to have an accident and delay traffic."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. 'Take less notice' = 'cannot pay close attention', 'slowing traffic by 10%' = 'traffic delay of 10%'.",
+                                "wrong": {
+                                    "1": "B şıkkı hızın artmasından bahsediyor ve koşul cümlesi kuruyor.",
+                                    "2": "C şıkkı telefonun trafiği öğrenmek için kullanıldığını söylüyor.",
+                                    "3": "D şıkkı kaza ihtimalinin %10 arttığını söylüyor, orijinalde gecikme (delay) %10."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "Research shows that if you had a higher IQ, you would probably earn more but save a smaller amount and spend your income more foolishly.",
+                            "options": [
+                                "Researchers say that you generally earn more if your IQ is high, but you will probably fail to buy everything you need.",
+                                "A higher IQ helps increase your income, but it gives you a tendency to save less and use your money less carefully according to research.",
+                                "You are more likely to keep your money in the bank and make good purchases if you have a low IQ, but you gain many other things with a high one according to some studies.",
+                                "You wish you had a higher IQ so that you could make more money, yet research suggests having a lower IQ actually makes it more probable that you will get what you want and use it well."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Yüksek IQ geliri artırır (earn more) ama daha az biriktirmenize (save less) ve dikkatsiz harcamanıza (use less carefully/foolishly) neden olur.",
+                                "wrong": {
+                                    "0": "A şıkkı 'ihtiyacın olan her şeyi alamamak'tan bahsediyor, orijinalde parayı aptalca harcamaktan bahsediliyor.",
+                                    "2": "C şıkkı düşük IQ'lu insanların parasını bankada tuttuğunu söylüyor, odak kaymış.",
+                                    "3": "D şıkkı bir dilek cümlesi (wish) ile başlıyor, orijinalde bu duygu yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Forced to be right handed in order to fit in with what was considered normal, left-handed people used to face many disadvantages.",
+                            "options": [
+                                "At one time, it was quite typical to encourage left-handed people to use their right hands more despite the difficulties right-handedness caused.",
+                                "Under pressure to quit being left handed, many people became right handed so that people would stop bothering them.",
+                                "Left-handers who had decided to be right handed so that they would not be considered strange were used to overcoming difficulties.",
+                                "In the past, being right handed was thought to be normal, so left-handers were made to be right handed and encountered many difficulties."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Geçmişte sağ elini kullanmak normal sayılıyordu (thought to be normal), solaklar zorlanıyordu (made to be right handed) ve zorluklar yaşıyorlardı (encountered many difficulties).",
+                                "wrong": {
+                                    "0": "A şıkkı sadece 'teşvik edildiğini' söylüyor, zorlamayı tam vermiyor.",
+                                    "1": "B şıkkı insanların onları rahatsız etmemesi için değiştiklerini söylüyor, 'normal kabul edilmek' vurgusu eksik.",
+                                    "2": "C şıkkı solakların 'karar verdiğini' (decided) söylüyor, oysa orijinalde 'zorlandıkları' (forced) yazıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "People in the Middle Ages are said to have believed that the Earth was flat, but this claim is most likely untrue.",
+                            "options": [
+                                "People living in the Middle Ages should have been aware that the Earth was not flat, but they were not.",
+                                "During the Middle Ages people described the Earth as flat, but we now know that they were wrong.",
+                                "It is widely known that people in the Middle Ages were not convinced the Earth was flat despite the evidence they had.",
+                                "Although it is commonly said that people in the Middle Ages thought the Earth was flat, they were probably aware that it was not."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Orta Çağ insanlarının Dünya'nın düz olduğuna inandığı söylenir (commonly said) ama bu iddia muhtemelen doğru değil (probably aware that it was not).",
+                                "wrong": {
+                                    "0": "A şıkkı onların bilmediğini iddia ediyor.",
+                                    "1": "B şıkkı onların yanlış bildiğini kesin bir dille söylüyor.",
+                                    "2": "C şıkkı kanıtları olmasına rağmen ikna olmadıklarını söylüyor, anlam farklı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 20,
+                            "statement": "Though alchemy, turning ordinary metals into gold, was proven impossible, alchemist’s work encouraged beneficial experiments in chemistry.",
+                            "options": [
+                                "If alchemists had been able to turn ordinary metals into gold, that would have brought about great progress in chemistry.",
+                                "Alchemy, making gold out of other metals, would be a worthwhile area of study in chemistry if it had not been shown to be unachievable.",
+                                "Alchemists, people who tried to make gold out of ordinary metals, had no chance of succeeding, but their experiments led to advances in chemistry.",
+                                "Changing everyday metals into gold was the hopeless goal of alchemists, who eventually realized that they needed to try more practical experiments."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Simya imkansızdı (had no chance of succeeding) ama deneyleri kimyada gelişmelere yol açtı (led to advances).",
+                                "wrong": {
+                                    "0": "A şıkkı 'eğer başarsalardı gelişme olurdu' diyor, oysa başaramadıkları halde gelişme oldu.",
+                                    "1": "B şıkkı 'başarılabilir olsaydı değerli olurdu' diyor.",
+                                    "3": "D şıkkı simyacıların daha pratik deneyler yapmaları gerektiğini fark ettiklerini söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "statement": "In the Middle Ages, women were not allowed to become physicians, but surgery, which was thought to be a lesser profession, was open to them.",
+                            "options": [
+                                "Women could be surgeons, a job given less respect, but not be doctors during the Middle Ages.",
+                                "Women in the Middle Ages became surgeons rather than doctors though surgery was valued less.",
+                                "In the Middle Ages, women were unable to handle being doctors, yet they did well as surgeons, a less demanding occupation.",
+                                "Although they were not good at being doctors, women were successful surgeons during the Middle Ages, but surgeons received little respect."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Doktor olamıyorlardı ama daha az saygı gören (lesser profession/given less respect) cerrahlık onlara açıktı.",
+                                "wrong": {
+                                    "1": "B şıkkı sanki tercih etmişler gibi (became surgeons rather than doctors) anlatıyor.",
+                                    "2": "C şıkkı kadınların doktorluğu 'beceremediğini' (unable to handle) söylüyor.",
+                                    "3": "D şıkkı da kadınların doktorlukta iyi olmadığını iddia ediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "statement": "Women were pushed out of surgical practice in the 1700s, when surgical training moved to the universities, where they were banned from attending.",
+                            "options": [
+                                "Surgeries were not permitted at universities in the 1700s, which was when women quit doing them.",
+                                "In the 1700s, women performing surgery stopped what they were doing to protest the ban against women in universities.",
+                                "Women must have stopped performing surgeries in the 1700s at the time when they could no longer receive medical training at universities.",
+                                "In the 1700s, women could not attend universities, so they did not have the opportunity to perform surgery anymore after surgeons were trained at universities."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. Üniversiteye gidemiyorlardı, eğitim oraya taşınınca cerrahlık yapma fırsatını kaybettiler (pushed out).",
+                                "wrong": {
+                                    "0": "A şıkkı üniversitelerde ameliyata izin verilmediğini söylüyor.",
+                                    "1": "B şıkkı kadınların protesto için bıraktığını söylüyor.",
+                                    "2": "C şıkkı bir çıkarım yapıyor (must have stopped), D şıkkı ise neden-sonuç ilişkisini net veriyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "statement": "It cannot be a coincidence that countries with great income inequality also tend to have the highest crime rates.",
+                            "options": [
+                                "It is impossible for the crime rate in a nation not to rise when its people have more opportunities to become wealthy.",
+                                "Nations that have extremely wealthy and extremely poor people might not experience more crime due to this lack of equality.",
+                                "Poor people living in countries where there is a huge difference between the wealthy and the poor often commit crimes to survive.",
+                                "The generally higher crime rates in nations with a large gap between rich and poor show that this gap must encourage criminal behavior."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. 'Tesadüf olamaz' demek, arada bir bağlantı var demektir. Gelir eşitsizliği suç oranlarını teşvik ediyor olmalı.",
+                                "wrong": {
+                                    "0": "A şıkkı zengin olma fırsatlarından bahsediyor.",
+                                    "1": "B şıkkı suç oranı artmayabilir diyor.",
+                                    "2": "C şıkkı sadece fakirlerin hayatta kalmak için suç işlediğine odaklanıyor, orijinal cümle daha genel bir istatistiksel bağdan bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "statement": "Police in Cincinnati, USA, managed to make arrests when they found an online video that showed a bank robbery recorded by the criminals themselves.",
+                            "options": [
+                                "An online video posted by criminals, which showed how to rob a bank, was useful to police in Cincinnati, USA, who learned how to better catch thieves.",
+                                "Having discovered an online video recorded by the robbers themselves while stealing money from a bank, police in Cincinnati, USA, were able to catch the criminals.",
+                                "After posting an online video related to a bank robbery, police in Cincinnati, USA, received information about the bank robbery from the criminals themselves and arrested them.",
+                                "As soon as they found an online video that gave information about a bank robbery, police in Cincinnati, USA, were able to find the criminals who broke into the bank and arrest them."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Soyguncuların kendileri tarafından kaydedilen videoyu bulduktan sonra polis onları yakalayabildi.",
+                                "wrong": {
+                                    "0": "A şıkkı videonun 'nasıl soygun yapılacağını' gösterdiğini söylüyor.",
+                                    "2": "C şıkkı videoyu polisin paylaştığını söylüyor.",
+                                    "3": "D şıkkı videonun kim tarafından çekildiğini belirtmiyor, oysa 'criminals themselves' önemli bir detay."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "statement": "Having put a greater percentage of its people in prison than any other nation, the US could be described as a nation of prisons rather than a land of freedom.",
+                            "options": [
+                                "The US is said to be a country concerned about freedom, yet a large number of Americans think that it is acceptable to give long prison terms to criminals.",
+                                "The US claims that it protects the rights of its people by sending a high percentage of its people to prison, and that is why it has more prisons than any other country.",
+                                "Although some say the US is a country that respects freedom, it sends a higher rate of its population to prison than any other country does and may be said to be a land of prisons.",
+                                "By giving criminals longer prison terms than other countries do, the US has gained a reputation as a place where freedoms are defended instead of a land where criminals do whatever they want."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. En yüksek hapse atma oranına sahip olduğu için, özgürlükler ülkesi değil hapishaneler ülkesi olarak tanımlanabilir.",
+                                "wrong": {
+                                    "0": "A şıkkı Amerikalıların düşüncelerine odaklanıyor.",
+                                    "1": "B şıkkı ABD'nin bunu hakları korumak için yaptığını iddia ettiğini söylüyor.",
+                                    "3": "D şıkkı ABD'nin özgürlüklerin savunulduğu bir yer olarak ün kazandığını söylüyor, orijinal cümle tam tersini (nation of prisons) söylüyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Why Bother with Food?",
+                            "paragraphs": [
+                                "Rob Rhinehart, a 24-year-old electrical engineer from San Francisco, USA, has written a blog about his two-month experiment consuming a drink he invented to provide all the nutrition but none of the troubles of food. Rhinehart uses the US Food and Drug Administration's (FDA’s) guidelines for all the different nutrients a person needs, everything from carbohydrates and protein to things the body only needs a few micrograms of, like Vitamin K and selenium. He combines them all into a drink he named Soylent. Rhinehart also includes a few things that aren't strictly necessary but that studies have shown to provide positive effects, like lycopene and omega-3 fatty acids. Olive oil provides the fat in Soylent; everything else is in powder form.",
+                                "Although a drink like Soylent may seem strange to those of us who adore food, there are many people who find eating to be an unpleasant task. \"I was frustrated with the time, money and effort that the purchase, preparation, consumption, and clean-up of food were consuming,\" Rhinehart says. Of course, there are others who have difficulty with normal food for more serious reasons. They struggle with food allergies or other illnesses or have eating disorders, all of which make eating food a battle. Amanda Holliday, a professor of nutrition at the University of North Carolina, says she has come across a lot of people who would like to quit eating. \"Some cannot decide what to eat because of the huge variety of choices,\" she says. \"Others feel defeated because they cannot figure out which products are healthy.\"",
+                                "But is it really possible to come up with a meal replacement product that's as healthy as a diverse diet of real food? Food companies have tried to produce liquid meal-replacement products, like Boost by Nestle. Holliday and other nutritionists recommend these products to sick people who cannot eat, but they have reservations about them for the rest of us. They believe that even though such meal replacements may be full of micronutrients, these products are missing other essential components of real food that haven't yet been identified, Holliday says. These products may also include harmful processed ingredients like high fructose corn syrup. \"In the nutrition world, we still believe the healthiest diets are based on real food,\" she says.",
+                                "Rhinehart claims that there is nothing dangerous about his drink and that it is a perfect diet for those who cannot eat regular food. Although he hasn't released his Soylent recipe, he tweeted that, \"All of its ingredients are produced by the food processing industry.\" But the food averse should think twice before they accept Rhinehart’s advice and stop eating anything other than Soylent even if finding food they can eat is difficult, warns Sharon Akabas of Columbia University. Akabas takes issue with the idea that anyone can find a perfect substitute for normal food. She does not believe that people can calculate exactly what their body needs. In fact, says Akabas, nutrition science has learned a lot about nutritional needs by studying the effects of certain foods and diets over decades. \"For someone to consume a food substitute for only two months and say they feel better is pretty meaningless,\" she says.",
+                                "She is, however, sympathetic to the anxiety that many people feel about food: \"People are frustrated by the complexity of advice they're getting and the mixed messages from the food industry,\" she says. \"There are ways of simplifying our diet so that healthy food does not take much effort or cost a lot. But there is no single food with everything we need.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 26,
+                                    "question": "In paragraph I, the reader learns that ----.",
+                                    "options": [
+                                        "Rhinehart worked together with FDA staff when creating Soylent",
+                                        "Rhinehart has not been able to obtain some of the nutrients recommended by the FDA",
+                                        "Soylent includes everything recommended by the FDA and extra things which may benefit health",
+                                        "some of the ingredients in Soylent are unnecessary and may affect your health in a negative way"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Paragrafta Rhinehart'ın FDA yönergelerini kullandığı ve ayrıca 'includes a few things that aren't strictly necessary but... provide positive effects' (gereksiz ama faydalı ekstra şeyler eklediği) belirtiliyor.",
+                                        "wrong": {
+                                            "0": "FDA ile birlikte çalışmadı, sadece onların yönergelerini (guidelines) kullandı.",
+                                            "1": "Bazı besinleri alamadığı yazmıyor, hepsini birleştirdiği yazıyor.",
+                                            "3": "Negatif etki yapacağı değil, pozitif etki yapacağı (positive effects) söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "The main idea of paragraph II is that ----.",
+                                    "options": [
+                                        "the high cost of food and large amount of time involved in cooking make it difficult to eat healthily",
+                                        "an improved diet has a great number of positive effects on people’s lives",
+                                        "some people are attracted to products like Soylent for a wide range of reasons",
+                                        "people with food allergies and other eating problems have difficulty finding healthy food"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı paragrafın genelini kapsıyor. Paragraf, kimisi zamandan tasarruf için, kimisi hastalıklar yüzünden, kimisi de seçim yapamadığı için yemek yemeyi sevmeyen insanlardan ve bu yüzden Soylent gibi ürünlere ilgi duyanlardan bahsediyor.",
+                                        "wrong": {
+                                            "0": "Sadece bir neden, ana fikir değil.",
+                                            "1": "Paragrafta diyetin pozitif etkilerinden bahsedilmiyor.",
+                                            "3": "Sadece alerjisi olanlardan değil, zamanı olmayanlardan da bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "In paragraph III, it is mentioned that meal replacements may not be the best choice since they ----.",
+                                    "options": [
+                                        "have a high cost but a low nutritional value",
+                                        "may lack some things our bodies need and have some unhealthy ingredients",
+                                        "make some people ill and do not contain as much energy as regular food",
+                                        "contain some ingredients which have not been tested enough and which may harm people"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metinde 'missing other essential components' (eksik bileşenler) ve 'include harmful processed ingredients' (zararlı işlenmiş içerikler) ifadeleri geçiyor.",
+                                        "wrong": {
+                                            "0": "Maliyetten veya düşük besin değerinden bahsedilmiyor (mikro besinlerle dolu olduğu söyleniyor).",
+                                            "2": "Hasta ettiği veya enerjisinin düşük olduğu söylenmiyor.",
+                                            "3": "Test edilmemiş içeriklerden değil, mısır şurubu gibi bilinen zararlı içeriklerden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "The word reservations in paragraph III could best be replaced by ----.",
+                                    "options": [
+                                        "approaches",
+                                        "arrangements",
+                                        "disagreements",
+                                        "doubts"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Reservations\" burada 'çekinceler, şüpheler' anlamındadır. Uzmanlar bu ürünleri herkese önerme konusunda 'doubts' (şüpheler) yaşıyor.",
+                                        "wrong": {
+                                            "0": "\"Approaches\" yaklaşımlar demektir.",
+                                            "1": "\"Arrangements\" düzenlemeler demektir.",
+                                            "2": "\"Disagreements\" anlaşmazlıklar demektir (benzer olabilir ama 'have reservations' bir kalıptır ve şüphe duymayı ifade eder)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "The phrase food averse in paragraph IV refers to people who ----.",
+                                    "options": [
+                                        "inspect food for the food processing industry",
+                                        "develop food substitutes",
+                                        "are not interested in nutrition",
+                                        "have difficulty eating normal food"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Food averse\", yemeğe karşı isteksiz veya yemekten kaçınan demektir. Metin bağlamında normal yemeği yemekte zorlanan veya sevmeyen kişileri kastediyor.",
+                                        "wrong": {
+                                            "0": "Yiyecekleri denetleyenler değil.",
+                                            "1": "Yiyecek yedeği geliştirenler değil.",
+                                            "2": "Beslenmeyle ilgilenmeyenler değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "In paragraph IV, Sharon Akabas criticizes meal replacements because ----.",
+                                    "options": [
+                                        "they have not been tested for a long enough period of time",
+                                        "they use nutrition information which is out of date",
+                                        "producers try to deceive people about what their bodies need",
+                                        "people who use them do not feel strong and healthy"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Akabas, Rhinehart'ın sadece iki ay (two months) bu ürünü kullanıp iyi hissetmesini 'pretty meaningless' (anlamsız) buluyor, çünkü bu süre yeterince uzun değil.",
+                                        "wrong": {
+                                            "1": "Bilginin eski olduğunu söylemiyor.",
+                                            "2": "Üreticilerin kandırdığını söylemiyor.",
+                                            "3": "Kullananların kötü hissettiğini söylemiyor, aksine Rhinehart iyi hissettiğini iddia ediyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "Which of the following is FALSE according to the text?",
+                                    "options": [
+                                        "Rhinehart believes Soylent has all the protein and fat needed for a healthy diet.",
+                                        "The wide range of food products available makes it easy for everyone to select what to eat.",
+                                        "For some people, meal replacement products are the best alternative.",
+                                        "It is possible to eat simple, inexpensive meals and still meet our nutritional needs."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı YANLIŞTIR. Metinde 'Some cannot decide what to eat because of the huge variety of choices' (çok fazla seçenek olduğu için karar veremiyorlar) deniyor. Yani çeşitlilik seçimi kolaylaştırmıyor, zorlaştırıyor.",
+                                        "wrong": {
+                                            "0": "DOĞRU: Rhinehart, Soylent'in gerekli her şeyi sağladığını düşünüyor.",
+                                            "2": "DOĞRU: Hasta insanlar için tavsiye ediliyor.",
+                                            "3": "DOĞRU: Son paragrafta 'ways of simplifying our diet so that healthy food does not take much effort or cost a lot' deniyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Stress Can Boost Good Habits Too",
+                            "paragraphs": [
+                                "Under stress, we all seek comfort, sometimes in unhealthy ways, but new research suggests that challenging experiences promote good habits as well as bad ones. In two experiments, Wendy Wood, a professor at the University of Southern California, found that under various types of stress, all types of habits get stronger, not just the ones that cause trouble. “When your willpower is low and you have little motivational energy, you are likely to eat too much and not exercise only if those are already your habits,” says Wood. “We also found that people keep practicing good habits in just the same way.”",
+                                "Stress reduces willpower; indeed, in extreme stress the brain actually shuts down the regions which are not required for survival, such as the regions involved in long-term planning and thoughtful consideration. That’s because those functions are superfluous when survival is at risk. Instead, when under threat, the brain makes use of faster regions whose behavior is largely automatic under such circumstances. However, automatic doesn’t mean involuntary. Many of our automatic behaviors, like riding a bike or eating French fries when feeling anxious, have become automatic due to repetition. “People can’t make decisions easily when stressed,” Wood says. “The pressure limits their capacity to make decisions, so they engage in habitual behavior.”",
+                                "Her conclusions are supported by two experiments. In the first, 65 students were asked about their breakfast and news-reading habits over a ten-week period. During the first few weeks, they recorded how often they ate breakfast and whether the foods they chose were healthy or unhealthy. In addition, they reported whether they regularly read news they considered important, like local and national news, or unimportant, like advice columns or entertainment news. Thus, the researchers learned how strong the students’ breakfast and news-reading habits were at less stressful times. Later, they compared these choices with those made during exam time. Those who had strong habits engaged in these behaviors more when they felt stressed by exams. Whether it was eating a doughnut instead of a healthy breakfast more regularly, or reading insignificant news in place of serious news, habitual behaviors increased under stress. A second experiment involved 72 students who were asked to specify goals they were hoping to achieve, such as improving grades or fitness. They also listed particular behaviors they engaged in to reach their goals as well as behaviors that might get in their way. For two of the four days of the study, some students were told to perform as much of their daily behavior as possible using their nondominant hand, that is, right-handers had to primarily use their left hands. This task tends to reduce self-control because it requires stopping a strong habit, therefore increasing stress levels. Once again, this stressful experience increased habitual behaviors, whether they worked for or against the students’ goals. “Our data show that stress increased performance of both good and bad habits,” Wood says. “This happened following all kinds of events that decrease willpower, such as taking exams or performing everyday activities in an unusual way.”",
+                                "So why does it seem that only bad habits emerge when we face stress? Wood says it’s a matter of attention. “We don’t notice our good habits because they help us meet our goals, but the bad habits frustrate us, making us more aware of bad habits when our willpower is low.” The findings encourage us to reinforce good habits, but that requires taking time to establish healthy behaviors before facing a challenging situation. If we want to exercise rather than overeat when we stress out, we have to work out repeatedly beforehand. Wood says. “If we do that, we will continue even when our willpower is low and we feel like we don’t have the energy to do what’s right. Then, the fact that habits are hard to break will work for us, not against us.”"
+                            ],
+                            "questions": [
+                                {
+                                    "id": 33,
+                                    "question": "Which of the following best summarizes Wood’s comments in paragraph I?",
+                                    "options": [
+                                        "Avoid situations that put you under too much stress because this may encourage bad habits.",
+                                        "People are likely to practice both good habits and bad ones more frequently if stress rises.",
+                                        "Overeating and exercising too little are the most common behaviors of people under intense stress.",
+                                        "Although they are difficult, stressful times give people the chance to develop new, healthier habits."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Wood, stres altındayken sadece kötü alışkanlıkların değil, iyi alışkanlıkların da (promote good habits as well as bad ones) güçlendiğini söylüyor.",
+                                        "wrong": {
+                                            "0": "Stresten kaçının demiyor, stresin etkisini açıklıyor.",
+                                            "2": "Bunlar sadece örnek, herkes için en yaygın davranışlar olduğu söylenmiyor.",
+                                            "3": "Yeni alışkanlıklar geliştirmekten değil, var olanların güçlenmesinden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "The word superfluous in paragraph II is closest in meaning to ----.",
+                                    "options": [
+                                        "forbidden",
+                                        "unnecessary",
+                                        "unhurried",
+                                        "involuntary"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Superfluous\" gereksiz/fazlalık demektir. Beyin hayatta kalma moduna geçtiğinde uzun vadeli planlama yapmak o an için 'gereksiz' (unnecessary) olur.",
+                                        "wrong": {
+                                            "0": "Forbidden = Yasak.",
+                                            "2": "Unhurried = Acele etmeyen.",
+                                            "3": "Involuntary = İstemsiz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "In paragraph II, the author emphasizes that ----.",
+                                    "options": [
+                                        "we need to continue long-term planning even when our stress levels rise",
+                                        "we may need to continue our bad habits to deal with extremely stressful situations",
+                                        "our learned habits affect our behavior even more strongly when we are under stress",
+                                        "friends need to help us make decisions during stressful times as we cannot make them ourselves"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Stres altındayken beyin karar verme kapasitesini sınırlar ve otomatik davranışlara (alışkanlıklara) yönelir. Bu yüzden alışkanlıklar davranışlarımızı daha güçlü etkiler.",
+                                        "wrong": {
+                                            "0": "Uzun vadeli planlamanın durduğunu söylüyor, devam etmesi gerektiğini değil.",
+                                            "1": "Kötü alışkanlıkları devam ettirmemiz 'gerektiğini' söylemiyor.",
+                                            "3": "Arkadaşların yardımından bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 36,
+                                    "question": "One finding of the first experiment mentioned in paragraph III was that ----.",
+                                    "options": [
+                                        "a healthy diet became more important to students during exam time",
+                                        "unhealthy foods like doughnuts enabled students to overcome exam stress",
+                                        "students’ reading choices influenced their grades",
+                                        "typical eating and reading habits increased during exam time"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Sınav stresi altında öğrenciler, normal zamandaki alışkanlıklarını (iyi veya kötü) daha fazla yaptılar (habitual behaviors increased under stress).",
+                                        "wrong": {
+                                            "0": "Sağlıklı diyet değil, var olan alışkanlık neyse o önemli oldu.",
+                                            "1": "Doughnut yemenin stresi yendirdiği söylenmiyor.",
+                                            "2": "Okuma seçimlerinin notlara etkisinden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "According to paragraph III, the two experiments showed that ----.",
+                                    "options": [
+                                        "different types of stress have a similar effect on students’ habits",
+                                        "good eating and reading habits are necessary for a student to succeed academically",
+                                        "students have many bad habits that get even worse when they are put in stressful situations",
+                                        "if students are aware of their bad habits, they can overcome them, even in stressful situations"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Birinci deneyde sınav stresi, ikinci deneyde fiziksel zorluk (ters el kullanma) stresi vardı. Her ikisi de alışkanlıkları güçlendirdi, yani benzer etkiyi gösterdi.",
+                                        "wrong": {
+                                            "1": "Akademik başarı şartlarından bahsedilmiyor.",
+                                            "2": "Sadece kötü alışkanlıklar değil, iyiler de artıyor.",
+                                            "3": "Farkındalıkla yenmekten bahsedilmiyor deney sonuçlarında."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 38,
+                                    "question": "In paragraph III, behaviors that might get in their way refers to behaviors that ----.",
+                                    "options": [
+                                        "help them identify their goals",
+                                        "keep them from achieving their goals",
+                                        "enable them to accomplish their goals",
+                                        "are common after they fail to meet their goals"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Get in their way\" birinin yoluna çıkmak, yani engellemek demektir. Hedeflerine ulaşmalarını engelleyen (keep them from achieving) davranışlar.",
+                                        "wrong": {
+                                            "0": "Tanımlamaya yardımcı olmaz.",
+                                            "2": "Başarmayı sağlamaz, tam tersi.",
+                                            "3": "Başarısızlıktan sonra değil, süreçteki engeller."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "According to paragraph IV, during stressful times we are more likely to be aware of our bad habits rather than our good ones because ----.",
+                                    "options": [
+                                        "we spend more time strengthening our bad habits when we are under stress",
+                                        "we are unable to continue performing our good habits despite our best efforts",
+                                        "our good ones do not stop us from achieving what we want to accomplish",
+                                        "our bad ones are hidden but come out more and more as stress increases"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. İyi alışkanlıkları fark etmiyoruz çünkü hedeflerimize ulaşmamıza yardımcı oluyorlar (sorun çıkarmıyorlar). Kötü alışkanlıklar ise bizi engellediği (frustrate us) için daha çok dikkat çekiyor.",
+                                        "wrong": {
+                                            "0": "Daha fazla zaman harcadığımız için değil.",
+                                            "1": "İyi alışkanlıkları yapamıyoruz demiyor, fark etmiyoruz diyor.",
+                                            "3": "Gizli oldukları için değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "The phrase do that in paragraph IV refers to ----.",
+                                    "options": [
+                                        "face a challenging situation",
+                                        "overeat",
+                                        "stress out",
+                                        "work out repeatedly beforehand"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Do that\" ifadesi kendinden önceki cümleye atıfta bulunur: \"work out repeatedly beforehand\" (önceden tekrar tekrar çalışmak). Eğer bunu yaparsak, stres anında da devam ettiririz.",
+                                        "wrong": {
+                                            "0": "Zorlu durumla yüzleşmek değil.",
+                                            "1": "Çok yemek değil.",
+                                            "2": "Stres olmak değil."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Isaac Newton",
+                            "paragraphs": [
+                                "Born in 1643 in Woolsthorpe, England, Isaac Newton was a physicist and mathematician who made discoveries in optics, physics and mathematics. In 1687, he published his most famous work, Philosophiae, Natrualis, Principia Mathematica. He died in London in 1727.",
+                                "Newton was the only son of a local farmer who died three months before he was born. When he was three, his mother remarried, leaving young Newton with his maternal grandmother. That experience left a mark on Newton, who was insecure for the rest of his life. At age twelve, Newton was reunited with his mother after her second husband died. He had been attending school, but his mother took him out, for her plan was to make him a farmer and have him run her farm. Newton failed completely as he found farming monotonous.",
+                                "However, Newton was allowed to return to school thanks to an uncle. Sensing Newton’s intellectual abilities, the uncle, a graduate of the University of Cambridge's Trinity College, persuaded Newton's mother to let him study there rather than work on the farm. When Newton arrived at Cambridge, the Scientific Revolution of the 17th century was already a force to be reckoned with. The sun-centered view of the universe had become well known, and many new discoveries were being made. Yet, like most universities in Europe, Cambridge was still teaching an earth-centered view of the universe. During his first three years at Cambridge, Newton was taught the standard curriculum, but was fascinated by the many new ideas being developed. Due to spending his spare time reading about new theories, Newton graduated with no honors and grades that were just sufficient to get him into an advanced degree program. However, in 1665, the Great Plague struck Cambridge, forcing it to close temporarily. Newton returned home and studied persistently on his own, discovering the basics of calculus, experimenting with light and color, and gaining insights into planetary motion. When the threat of plague ended in 1667, Newton returned to Cambridge and, two years later, became a professor there.",
+                                "As a professor, Newton worked on optics as his initial topic of research and used the reflecting telescope that he had designed and constructed in 1668, his first major public scientific achievement. This invention helped prove his theories about light and color. However, not everyone was enthusiastic about Newton's discoveries. Among the dissenters was Robert Hooke, a scientist well known for his work in optics. While Newton theorized that white light was a composite of all colors of the spectrum and that light was composed of particles, Hooke believed it was composed of waves. Hooke rejected Newton's findings, attacking both his methodology and conclusions. Unable to handle the critique, Newton lost control of his anger—a reaction to criticism that continued throughout his life. This trait was certainly a factor in the nervous breakdown that Newton suffered in 1678. After that event, Newton isolated himself from public life for nearly six years, developing and perfecting his theories so that no one could criticize him.",
+                                "In 1684, a debate about planetary motion led some leading scientists to consult Newton, and they learned he had been studying this topic intensely. They convinced him to publish his findings, and in 1687, Newton published Philosophiae, Natrualis, Principia Mathematica. Said to be one of the most important works in the history of science, it explains many of the basic concepts of physics. This book immediately brought Newton international fame, and he became more involved in public affairs and did less scientific research. Interestingly, Newton never accepted the idea of science as a cooperative effort, and his strong promotion of his own discoveries continued to cause conflict with other scientists. Nevertheless, Newton became one of the most famous and wealthy men in Europe, giving generous gifts to charity. He never married or made many friends, and in his later years, his pride and insecurity caused his few friends to worry about his mental stability."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 41,
+                                    "question": "In paragraph II, the author mentions that Isaac Newton ----.",
+                                    "options": [
+                                        "only had a few memories of his father from when he was very young",
+                                        "never overcame the effects of being separated from his mother at a young age",
+                                        "developed a close relationship with his grandmother while living away from his mother",
+                                        "helped his mother through a difficult time when he was twelve years old"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Metinde 'That experience left a mark on Newton, who was insecure for the rest of his life' (Bu deneyim Newton'da bir iz bıraktı ve hayatının geri kalanında güvensiz biri oldu) deniyor. Yani etkilerini hiç aşamadı.",
+                                        "wrong": {
+                                            "0": "Babası o doğmadan ölmüştü, hiç anısı olamaz.",
+                                            "2": "Büyükannesiyle ilişkisinin detayları verilmiyor.",
+                                            "3": "Annesine yardım ettiği değil, çiftçilikte başarısız olduğu yazıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "The phrase a force to be reckoned with in paragraph III could best be replaced by ----.",
+                                    "options": [
+                                        "gaining wide acceptance",
+                                        "containing violence",
+                                        "nearing its end",
+                                        "ready to begin"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Bu deyim, 'hesaba katılması gereken bir güç' yani 'güçlü, etkili ve kabul gören' anlamına gelir. 'Gaining wide acceptance' (geniş kabul gören) en yakın anlamdır.",
+                                        "wrong": {
+                                            "1": "Şiddet içermekle ilgisi yok.",
+                                            "2": "Sona yaklaşmak değil.",
+                                            "3": "Başlamaya hazır değil, zaten başlamış."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "Which of the following statements is TRUE according to paragraph III?",
+                                    "options": [
+                                        "Newton’s mother never accepted that her son should study at university rather than be a farmer.",
+                                        "Newton’s interest in the Scientific Revolution had a negative impact on his success in his classes.",
+                                        "Due to the Great Plague, there was a two-year period in Newton’s life in which he studied little.",
+                                        "Newton returned to Cambridge despite the ongoing threat of infection from the Great Plague."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Newton yeni teorileri okumaya vakit ayırdığı için (interest in Scientific Revolution), 'graduated with no honors' (derece yapamadan mezun oldu). Yani ders başarısını olumsuz etkiledi.",
+                                        "wrong": {
+                                            "0": "Annesi sonunda ikna oldu (persuaded).",
+                                            "2": "Veba sırasında 'studied persistently on his own' (kendi başına azimle çalıştı) deniyor, az çalışmadı.",
+                                            "3": "Tehdit sona erince (when threat ended) geri döndü."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 44,
+                                    "question": "The phrase the standard curriculum in paragraph III refers to university classes about ----.",
+                                    "options": [
+                                        "the history of the Scientific Revolution",
+                                        "the sun-centered view of the universe",
+                                        "the many new discoveries that were being made",
+                                        "an earth-centered view of the universe"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Metinde Cambridge'in hala 'earth-centered view' (Dünya merkezli görüş) öğrettiği ve Newton'ın 'standard curriculum' aldığı belirtiliyor.",
+                                        "wrong": {
+                                            "0": "Bilimsel Devrim okulun müfredatında değildi.",
+                                            "1": "Güneş merkezli görüş okulda öğretilmiyordu.",
+                                            "2": "Yeni keşifler müfredatta yoktu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 45,
+                                    "question": "The word dissenters in paragraph IV means ----.",
+                                    "options": [
+                                        "experts",
+                                        "inventors",
+                                        "people who argue against something",
+                                        "people who teach at a university"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Dissenter\", muhalif olan, karşı fikirde olan demektir. Hooke, Newton'ın fikirlerini reddettiği için bir dissenter'dır.",
+                                        "wrong": {
+                                            "0": "Uzmanlar demek değil.",
+                                            "1": "Mucitler demek değil.",
+                                            "3": "Öğretim üyeleri demek değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 46,
+                                    "question": "According to paragraph IV, while working at Cambridge University, Newton ----.",
+                                    "options": [
+                                        "became one of the most popular professors of his day",
+                                        "proposed a theory about the composition of light that supported the knowledge Hooke had gained",
+                                        "was unable to handle the harsh criticism that his theory of light received",
+                                        "managed to overcome mental problems and return to his normal duties as a professor"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Metinde 'Unable to handle the critique, Newton lost control of his anger' (Eleştiriyi kaldıramayan Newton öfkesini kontrol edemedi) yazıyor.",
+                                        "wrong": {
+                                            "0": "Popüler olduğu yazmıyor, aksine içine kapandı.",
+                                            "1": "Hooke'un bilgisin desteklemedi, onunla çelişti.",
+                                            "3": "Zihinsel problemlerini aştığı yazmıyor, sinir krizi geçirdi ve izole oldu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 47,
+                                    "question": "In paragraph V, the author points out that after Philosophiae, Natrualis, Principia Mathematica was published, -----. ",
+                                    "options": [
+                                        "the book did not result in the fame that Newton had been longing for",
+                                        "the book was well received despite the fact that it contained a number of errors",
+                                        "Newton became more cooperative after he finally was given the honor he thought he deserved",
+                                        "Newton received significant wealth but continued having problems in relationships"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Kitap ona ün ve zenginlik getirdi (famous and wealthy) ama ilişkilerinde sorunlar devam etti (cause conflict, never made many friends).",
+                                        "wrong": {
+                                            "0": "Üne kavuştu (international fame).",
+                                            "1": "Hatalar içerdiği söylenmiyor.",
+                                            "2": "Daha işbirlikçi olmadı, aksine bilimi işbirliği olarak görmedi (never accepted... as a cooperative effort)."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "The End Of Privacy?",
+                            "paragraphs": [
+                                "While I watch, Detective Jim McClelland clicks a button and the picture of a suspect looking away from the camera disappears from his computer monitor. In place of the unclear, two-dimensional photo, a sharper, three-dimensional head appears. McClelland rotates it until the suspect is facing forward. It’s the face of a man whose image was captured three years ago by a store’s surveillance camera while shopping with a stolen credit card. McClelland tried to catch this thief then, but none of the face matches that the computer suggested at that time closely resembled the suspect. But in 2013, the system was overhauled. McClelland identifies the man, using the updated system. The program finds ten suspects and ranks them from one to ten. The first one is a perfect match. After this demonstration of the new software capabilities, McClelland informs me that right after this new software came out, the man was caught, convicted and put in prison.",
+                                "Beginning this summer, this powerful facial-recognition software will be used more effectively. One part of the FBI’s Next-Generation Identification (NGI) projects is providing law enforcement agencies access to 16 million new photos. The $1.2-billion to be spent on NGI projects will provide not only faces but also fingerprints and DNA samples. But faces are different from other markers because they can be collected without someone’s knowledge or specialized equipment. Any camera phone is sufficient. As the FBI prepares to expand NGI in the United States and police departments in other countries make greater use of facial-recognition software, we are not sure whether these measures will create a safer, more secure world or how they will affect our privacy.",
+                                "Although such software can be abused, it can also be used for good purposes. A month after the Boston Marathon bombings, which killed three people and injured more than 250, Anil Jain from Michigan State University published a study showing what could have been done. Jain put the faces of both suspects through a face-recognition program using surveillance images collected at the scene of the bombings. The older Tsarnaev brother, Tamerlan, failed to show up within the top 200 candidates because he was wearing sunglasses and a cap. However, Jain found a graduation day photo on social media of the younger brother, Dzhokhar Tsarnaev. When he entered it into a million-image data set, the program found it and matched it with the surveillance camera photo of Dzhokar. Using facial recognition software in this way could have produced the best clue in the investigation. More than three days after the bombings, the Tsarnaevs murdered a police officer. The amount of time available to match the surveillance photo with the photo on social media would have been short, but perhaps it could have been done and the police officer’s life saved.",
+                                "This new software also has applications outside of law enforcement. When a shopper enters a Reebok store in New York City, a face-detection program called “Cara” analyzes fifteen frames per second to build a profile of each potential customer. It can determine a shopper’s gender and age as well as understand behavioral cues, such as interest in a specific product. Reebok installed the system in May 2013, and other companies are following suit. For example, Tesco recently started using another program in the UK that creates digital ads at gas stations according to a viewer’s age and gender. However, face detection shouldn’t be confused with facial recognition. Cara doesn’t record or match faces against a database. “The images are destroyed within a second,” says Jason Sosa of IMRSV, which developed the software. “Most businesses aren’t interested in your face; they just want the information found on it.”",
+                                "Should businesses be allowed to collect information about you? Should law enforcement be given permission to use photos from social media? Face-detection software and facial-recognition software make us weigh the cost of privacy against protecting human life. We need to debate the limits of these new technologies now, before they start being used for many purposes without any discussion at all."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 48,
+                                    "question": "The passage mainly discusses ----.",
+                                    "options": [
+                                        "the history of facial-recognition and face-detection software",
+                                        "the possible uses and abuses of facial-recognition and face-detection software",
+                                        "the effects that facial-recognition and face-detection software is having on the crime rate",
+                                        "the ways facial-recognition and face-detection software may limit our freedoms"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı metnin tamamını kapsar. Metin hem polis tarafından suçluları yakalamak için kullanımını (uses) hem de mağazalar tarafından kullanımını ve gizlilik endişelerini (abuses/privacy concerns) tartışıyor.",
+                                        "wrong": {
+                                            "0": "Tarihçesi ana konu değil.",
+                                            "2": "Suç oranına etkisi detaylı tartışılmıyor.",
+                                            "3": "Sadece özgürlükleri kısıtlaması değil, faydaları da anlatılıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 49,
+                                    "question": "The word overhauled in paragraph I could best be replaced by ----.",
+                                    "options": [
+                                        "rejected",
+                                        "resolved",
+                                        "redesigned",
+                                        "relocated"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Overhauled\", elden geçirilmiş, yenilenmiş veya yeniden tasarlanmış demektir. Sistem yenilendikten sonra (updated) daha iyi çalışıyor.",
+                                        "wrong": {
+                                            "0": "Reddedilmiş değil.",
+                                            "1": "Çözülmüş değil.",
+                                            "3": "Yeri değiştirilmiş değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 50,
+                                    "question": "According to paragraph I, the updated face-recognition software ----.",
+                                    "options": [
+                                        "is able to give a three-dimensional image of suspects",
+                                        "can identify about one of ten criminals",
+                                        "works well only when there is a photo of a suspect facing the camera",
+                                        "will work much better when the next version comes out"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "A şıkkı doğru. Metinde 'In place of the unclear, two-dimensional photo, a sharper, three-dimensional head appears' (iki boyutlu yerine üç boyutlu bir kafa beliriyor) deniyor.",
+                                        "wrong": {
+                                            "1": "Ondan birini değil, listedeki birinci kişiyi mükemmel eşleştiriyor.",
+                                            "2": "Kameraya bakmayan fotoyu çevirebiliyor (rotates it).",
+                                            "3": "Zaten güncellenmiş versiyonu anlatılıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 51,
+                                    "question": "The phrase other markers in paragraph II refers to ----.",
+                                    "options": [
+                                        "FBI agents",
+                                        "16 million new photos",
+                                        "NGI projects",
+                                        "fingerprints and DNA samples"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümlede 'faces are different from other markers because...' deniyor. Önceki cümlede bahsedilen diğer tanımlayıcılar 'fingerprints and DNA samples'dır.",
+                                        "wrong": {
+                                            "0": "Ajanlar birer marker (iz/işaret) değildir.",
+                                            "1": "Fotolar yüzlerle ilgilidir, diğer markerlar değil.",
+                                            "2": "Proje adıdır."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 52,
+                                    "question": "In paragraph II, the author ----.",
+                                    "options": [
+                                        "claims $1.2 billion is too much money for a government to spend on a facial-recognition program",
+                                        "argues that personal privacy is more important than catching criminals",
+                                        "criticizes the FBI for providing access to photographs of people who are not criminals",
+                                        "wonders how effective facial-recognition software is and whether it reduces privacy"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "D şıkkı doğru. Yazar paragrafın sonunda 'we are not sure whether these measures will create a safer... world or how they will affect our privacy' (daha güvenli mi yapacak yoksa gizliliği mi etkileyecek emin değiliz) diyerek bu konudaki merakını/endişesini dile getiriyor.",
+                                        "wrong": {
+                                            "0": "Paranın çok olduğunu iddia etmiyor, sadece miktarı belirtiyor.",
+                                            "1": "Biri diğerinden önemlidir demiyor, emin olmadığını söylüyor.",
+                                            "2": "FBI'ı eleştirmiyor, durumu aktarıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 53,
+                                    "question": "According to paragraph III, the study published by Anil Jain showed that ----.",
+                                    "options": [
+                                        "sometimes facial-recognition software can be used for harmful purposes",
+                                        "facial-recognition software could not recognize one of the Tsarnaev brothers",
+                                        "it was Dzhokhar Tsarnaev who shot and killed the police officer",
+                                        "three days would have been too little time to make use of facial-recognition software"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "B şıkkı doğru. Çalışmada büyük kardeş Tamerlan tanınamadı (failed to show up within the top 200 candidates) çünkü gözlük ve şapka takıyordu.",
+                                        "wrong": {
+                                            "0": "Jain'in çalışması iyi amaçla (suçlu yakalama) neler yapılabileceğini gösterdi.",
+                                            "2": "Polisi kimin vurduğu detaylandırılmıyor, 'Tsarnaevs murdered' (kardeşler öldürdü) deniyor.",
+                                            "3": "Sürenin kısa olduğu ama belki yapılabileceği söyleniyor (perhaps it could have been done)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 54,
+                                    "question": "The phrase other companies are following suit in paragraph IV means other companies ----.",
+                                    "options": [
+                                        "are also developing uses for facial-recognition technology",
+                                        "have also started using \"Cara\"",
+                                        "refuse to collect personal data about their customers",
+                                        "are not willing to destroy images of their customers"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Following suit\", birini takip etmek, aynısını yapmak demektir. Reebok yüz tanıma sistemi kurdu, diğer şirketler de benzer teknolojileri kullanmaya başlıyor (örneğin Tesco).",
+                                        "wrong": {
+                                            "1": "Hepsi 'Cara' kullanmıyor, Tesco başka program kullanıyor.",
+                                            "2": "Veri toplamayı reddetmiyorlar, aksine topluyorlar.",
+                                            "3": "Görüntüleri yok etmeme isteğinden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 55,
+                                    "question": "In paragraph V, the author wants to make sure face-detection software and facial-recognition software ----.",
+                                    "options": [
+                                        "help protect personal freedoms",
+                                        "help keep law enforcement officers safe",
+                                        "are not used without being carefully examined",
+                                        "are not used for profit by businesses"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "C şıkkı doğru. Yazar, bu teknolojilerin sınırlarını tartışmamız gerektiğini (debate the limits), yoksa tartışılmadan kullanılmaya başlanacağını söylüyor.",
+                                        "wrong": {
+                                            "0": "Özgürlükleri koruyup korumadığı tartışma konusu.",
+                                            "1": "Sadece polis güvenliği değil, genel kullanım tartışılıyor.",
+                                            "3": "Şirketler kar için kullanamasın demiyor, sınırlar tartışılmalı diyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

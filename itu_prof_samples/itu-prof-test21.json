@@ -1,0 +1,857 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam Analysis",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: Henry II and English Law",
+                    "passage": {
+                        "title": "Henry II and Legal Reforms",
+                        "text": "Henry II, who ascended the English throne in 1154 AD, spent more than half of his reign abroad, looking after his (1)_____ possessions in France but this fact did not prevent him from giving England good government. Three things that almost all English people take special pride (2)_____ (the courts, the jury system, and the Common law) began to take shape during Henry's reign. Henry, first of all, developed the royal court of justice. In the king's court, any freeman could find a justice that was cheaper and speedier than that (3)_____ by the feudal lords. The higher courts of England have sprung from this institution. Henry also took measures to bring the king's justice directly to the people. He sent members of the royal court on circuit throughout the kingdom. At least once a year, a judge had to hold an assembly in each county and try such cases as were brought before him. This system of circuit judges helped to make the law uniform in all parts of England. The king's court owed much of its popularity to (4)_____ it employed a better form of trying cases than the old ordeal, oath-swearing, or judicial duel. Henry introduced a method of jury trial which (5)_____ in Normandy for a long time. When a case came before the king's judges on circuit, they (6)_____ twelve knights, usually neighbors of the parties engaged in the dispute, to make an investigation and give a 'verdict' (7)_____ which side was right. In Henry's time, this method of securing justice applied only to civil cases, (8)_____, to cases affecting land and other forms of property, but later it was extended to persons charged with criminal offenses. Another of Henry's innovations developed into the 'grand jury.' Before his time, many offenders went unpunished, especially if they were (9)_____ powerful that no private individual dared accuse them. Henry provided that when the king's justices came to a county court, a number of selected men should be required to give the names of any persons whom they knew or believed to be guilty of crimes. Such persons were then arrested and tried. This 'grand jury,' as it came to be called, thus had the public duty of making accusations, (10)_____ its members felt any personal interest in the matter or not."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "negligent",
+                                "extensive",
+                                "intuitive",
+                                "agonized"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Burada 'extensive' (kapsamlı, geniş) kelimesi doğru çünkü kralın Fransa'daki topraklarının büyüklüğünden bahsediliyor.",
+                                "wrong": {
+                                    "0": "'Negligent' (ihmalkar) bir kişinin özelliği olur, toprakların değil.",
+                                    "2": "'Intuitive' (sezgisel) cansız varlıklar (topraklar) için kullanılmaz.",
+                                    "3": "'Agonized' (ıstırap çeken) bir duygu durumudur, topraklara uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "off",
+                                "above",
+                                "in",
+                                "below"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Burada doğru edat 'in'dir. İngilizcede 'take pride in' (bir şeyle gurur duymak) kalıp bir ifadedir.",
+                                "wrong": {
+                                    "0": "'Take pride off' diye bir kullanım yoktur.",
+                                    "1": "'Above' (yukarıda) anlamca uymaz.",
+                                    "3": "'Below' (aşağıda) anlamca uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "vanished",
+                                "penetrated",
+                                "refrained",
+                                "dispersed"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Soru metninde büyük ihtimalle 'dispensed' (dağıtılan/verilen adalet) kastedilmiş ancak şıklarda 'dispersed' (dağıtılmış) var. Bağlam gereği feodal lordlar tarafından 'sağlanan/verilen' adalet anlamını en yakın karşılayan (veya hatalı yazılan) seçenek D şıkkıdır.",
+                                "wrong": {
+                                    "0": "'Vanished' (yok oldu) anlamca uymaz.",
+                                    "1": "'Penetrated' (nüfuz etti) adalet için kullanılmaz.",
+                                    "2": "'Refrained' (sakındı) anlamca terstir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "that",
+                                "the fact that",
+                                "no matter what",
+                                "so that"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'The fact that' doğru çünkü 'owed its popularity to...' (popülerliğini ...'ya borçluydu) ifadesinden sonra bir cümle (subject + verb) geliyorsa, bunu isime dönüştürmek için 'the fact that' kullanılır.",
+                                "wrong": {
+                                    "0": "'That' tek başına edattan (to) sonra gelmez.",
+                                    "2": "'No matter what' (ne olursa olsun) anlamı bozar.",
+                                    "3": "'So that' (olsun diye) amaç bildirir, burada sebep gerekiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "had been used",
+                                "had used",
+                                "was to have used",
+                                "had been"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Had been used' (kullanılmaktaydı/kullanılmıştı) doğru çünkü Henry bu sistemi getirmeden *önce* Normandiya'da zaten kullanılıyordu (Past Perfect) ve sistem başkaları tarafından kullanıldığı için Pasif (Passive) yapı gerekli.",
+                                "wrong": {
+                                    "1": "'Had used' aktif yapıdır, sistem kendi kendine kullanamaz.",
+                                    "2": "'Was to have used' karmaşık ve gereksiz bir gelecek-geçmiş yapısıdır.",
+                                    "3": "'Had been' eksik bir yapıdır (fiil yok)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "were to select",
+                                "were selected",
+                                "have selected",
+                                "are selected"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Were to select' (seçeceklerdi/seçmeleri gerekiyordu) yapısı, geçmişte planlanmış bir görevi veya zorunluluğu anlatır. Hakimlerin 12 şövalye seçmesi bir kuraldı.",
+                                "wrong": {
+                                    "1": "'Were selected' (seçildiler) derseniz, hakimler seçilmiş olur ama cümlede hakimler şövalyeleri seçiyor (Active voice lazım).",
+                                    "2": "'Have selected' Present Perfect tense'tir, hikaye geçmişte geçiyor.",
+                                    "3": "'Are selected' şimdiki zamandır, uyumsuzdur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "as of",
+                                "as to",
+                                "of all",
+                                "or to"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'As to' (...hakkında, ...ile ilgili) doğru cevaptır. 'Verdict as to which side was right' (hangi tarafın haklı olduğuna dair karar) tamlaması oluşur.",
+                                "wrong": {
+                                    "0": "'As of' (...itibarıyla) zaman belirtir.",
+                                    "2": "'Of all' (hepsinin) anlamca uymaz.",
+                                    "3": "'Or to' bağlamla ilgisizdir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "in that",
+                                "such that",
+                                "is that",
+                                "that is"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'That is' (yani, başka bir deyişle) doğru cevaptır. Yazar 'civil cases' (hukuk davaları) dedikten sonra bunu açıklamak için 'cases affecting land...' diyor.",
+                                "wrong": {
+                                    "0": "'In that' (bakımından, çünkü) sebep belirtir, açıklama değil.",
+                                    "1": "'Such that' (öyle ki) sonuç belirtir.",
+                                    "2": "'Is that' gramer olarak buraya uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "such",
+                                "too",
+                                "so",
+                                "much"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'So' doğru cevaptır. 'So powerful that...' (o kadar güçlülerdi ki...) kalıbı vardır. Sıfatlardan önce 'so' gelir.",
+                                "wrong": {
+                                    "0": "'Such' isim tamlamalarından önce gelir (such powerful men).",
+                                    "1": "'Too' (aşırı) 'that' ile değil 'to' ile devam eder (too powerful to be arrested).",
+                                    "3": "'Much' sıfatın derecesini bu şekilde belirtmez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "in order that",
+                                "furthermore",
+                                "using",
+                                "whether"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Whether' doğru cevaptır. Cümlenin sonunda 'or not' var. 'Whether... or not' (ister öyle olsun ister olmasın) kalıbı kullanılır.",
+                                "wrong": {
+                                    "0": "'In order that' amaç bildirir.",
+                                    "1": "'Furthermore' ek bilgi verir, 'or not' ile kullanılmaz.",
+                                    "2": "'Using' anlamca uymaz."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "A little nervousness can motivate a child to study and perform well; however, when anxiety causes students to have trouble paying attention, it becomes an issue that requires attention.",
+                            "options": [
+                                "Even though there are children whose motivation can be increased with a little tension, many others are unable to focus because of anxiety, thus becoming victims of a serious problem that needs a lot of attention.",
+                                "Although a little tension can increase a child's motivation to study and perform well, if his or her ability to pay attention becomes limited due to anxiety, it means it is time to deal with this problem more closely.",
+                                "Though not every child loses his or her motivation to study and perform well due to stress, the majority of them are prone to losing their ability to pay attention because of it, so this issue has to be handled with great care.",
+                                "A little nervousness can be a source of motivation for some kids, but it shouldn't be forgotten that even the slightest amount of anxiety can cause some kids to lose all their interest in learning, making them a problem child at school."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek, orijinal cümledeki zıtlığı (küçük stres iyidir AMA dikkat dağıtıyorsa kötüdür) ve sonucu (ilgilenilmesi gerekir) tam olarak karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'birçok çocuk odaklanamaz' diyerek genelleme yapıyor, orijinalde ise bu bir olasılık (when causes).",
+                                    "2": "C şıkkı 'çoğunluğu (majority)' diyerek metinde olmayan bir istatistik ekliyor.",
+                                    "3": "D şıkkı 'en ufak kaygı bile (slightest amount)' diyerek anlamı abartıyor ve 'sorunlu çocuk' ifadesini ekliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "You are recommended to make sure your children attend school regularly so that they can learn about all the topics that will be covered in exams.",
+                            "options": [
+                                "You should force your children to go to school regularly especially several days before the exam if you want them to be able to answer all the questions correctly.",
+                                "The questions that are asked in the exams are about the topics covered in class; therefore, you had better make your children go to school regularly even if they don't want to.",
+                                "Going to school regularly guarantees students' success at school, so you must send your children to school every day so that they can learn all the topics covered in class.",
+                                "For your children to know about all the topics to be tested in their exams, you ought to ensure their regular attendance at school."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu seçenek 'ought to' (yapmalısınız/tavsiye edilir) kalıbıyla orijinaldeki 'recommended' ifadesini ve amaç-sonuç ilişkisini (konuları öğrenmek için okula gitmek) tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'zorlamalısınız' ve 'sınavdan birkaç gün önce' diyerek anlamı daraltıyor.",
+                                    "1": "B şıkkı 'istemeseler bile' diyerek orijinalde olmayan bir zorlama ekliyor.",
+                                    "2": "C şıkkı 'başarıyı garanti eder' diyerek fazla iddialı bir yorum katıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Students with severe test anxiety may see their academic performance decline and are more likely to repeat a grade.",
+                            "options": [
+                                "If a student suffers from severe test anxiety, his or her academic performance could decrease, and it becomes more probable that he will repeat a grade.",
+                                "Students suffering from severe test anxiety are sure to display poorer academic performance and repeat a grade because they cannot fulfill their potential.",
+                                "Test anxiety is such an important issue that it may cause a student's performance to plummet if precautions are not taken before it is too late.",
+                                "Severe test anxiety can be overcome only if its direct impact on academic performance is understood and professional help is used."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek 'more probable' (daha olası) ifadesiyle orijinaldeki 'more likely' ifadesini ve performans düşüşü ihtimalini tam karşılıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'sure to' (kesinlikle) diyerek ihtimali kesinliğe çeviriyor, bu yanlıştır.",
+                                    "2": "C şıkkı 'önlem alınmazsa' gibi bir koşul ekliyor, orijinalde bu yok.",
+                                    "3": "D şıkkı sorunun çözümüyle (overcome) ilgili, oysa orijinal cümle sorunun sonuçlarını anlatıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Perfectionists, who find it hard to accept mistakes they may make, are more likely to have trouble with test anxiety.",
+                            "options": [
+                                "Perfectionists cannot accept responsibility for their mistakes, and this makes their test anxiety even more painful.",
+                                "Having difficulty accepting their possible mistakes, perfectionists are more inclined to suffer from test anxiety.",
+                                "It is not possible to make a perfectionist forgive his or her own mistakes, which is why most perfectionists suffer from test anxiety.",
+                                "Even a perfectionist can sometimes accept his or her mistakes, but someone suffering from test anxiety cannot."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek 'inclined to' (eğilimli olmak) ile 'likely to' ifadesini ve 'difficulty accepting mistakes' ile 'hard to accept mistakes' kısmını birebir karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'sorumluluk kabul etmezler' diyor, orijinalde ise 'hatayı kabullenmekte zorlanırlar' diyor.",
+                                    "2": "C şıkkı 'most perfectionists' (çoğu mükemmeliyetçi) diyerek genelleme yapıyor ve 'mümkün değil' gibi kesin ifadeler kullanıyor.",
+                                    "3": "D şıkkı mükemmeliyetçilerle kaygılı insanları karşılaştırıyor, orijinalde ise mükemmeliyetçilerin kaygılı olduğu söyleniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Research suggests that around forty percent of students experience test anxiety, with students from culturally diverse backgrounds having higher prevalence rates.",
+                            "options": [
+                                "It has been suggested that students from a different culture should always remember that around forty percent of students feel anxious before an exam.",
+                                "Researchers suggest that students experiencing test anxiety should have closer contact with students from different cultures so that their exam scores improve.",
+                                "According to research, approximately forty percent of students feel test anxiety, and those from a different culture are more likely to do so.",
+                                "A lot of research that has been conducted on students from different cultural backgrounds has shown that about forty percent of them feel test anxiety."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu seçenek 'approximately 40%' ve 'more likely to do so' (bunu yaşamaları daha muhtemel - yani oranları daha yüksek) ifadeleriyle orijinal cümleyi tam yansıtıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı öğrencilere bir tavsiye (should remember) veriyor, orijinalde sadece durum tespiti var.",
+                                    "1": "B şıkkı 'daha yakın temas kurmalılar' gibi alakasız bir öneride bulunuyor.",
+                                    "3": "D şıkkı %40 oranını sadece farklı kültürel geçmişi olanlara atfediyor, oysa genel oran %40."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "We must roll up our sleeves and work on solving the problems created by the previous administration instead of spreading fear of immigrants.",
+                            "options": [
+                                "What we must do is get to work sorting out the problems that the previous administration caused rather than make fear of immigrants more prevalent.",
+                                "It is time for us to continue the efforts started by the previous government around the country to put an end to the fear of immigrants.",
+                                "Everybody expects us to focus on the fear of immigrants prevalent around the country instead of complaining about the problems caused by the previous administration.",
+                                "It is an obligation for us to focus on our people's fear of immigrants, which seems to have been deliberately created by the previous administration."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek 'get to work' (işe koyulmak) ile 'roll up sleeves' deyimini, 'rather than' ile 'instead of' yapısını tam karşılıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'önceki yönetimin çabalarını sürdürmek'ten bahsediyor, oysa orijinalde 'önceki yönetimin yarattığı sorunları çözmek' var.",
+                                    "2": "C şıkkı tam tersini söylüyor: göçmen korkusuna odaklanalım diyor.",
+                                    "3": "D şıkkı göçmen korkusuna odaklanmamız gerektiğini söylüyor, orijinal cümle bunu yapmayalım diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "Mental health practitioners need to be attuned to the unique stresses that affect immigrants in order to address the needs of this vulnerable population in effective ways.",
+                            "options": [
+                                "Mental health experts have to learn about the unique stresses that immigrants are faced with so as to be able help them acquire the skills they need to feed their families.",
+                                "The current stresses that immigrants experience can only be removed if mental health experts agree to try to help them no matter where they come from.",
+                                "It is necessary for mental health specialists to familiarize themselves with the unique stresses that immigrants experience so that they can deal with the needs of this at-risk group of people effectively.",
+                                "What mental health consultants are expected to do should be defined clearly, or else immigrants will continue to suffer from the unique stresses of their new lives."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu seçenek 'familiarize themselves' ile 'be attuned to', 'at-risk group' ile 'vulnerable population' ve 'deal with effectively' ile 'address in effective ways' ifadelerini mükemmel eşleştiriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı cümlenin sonunu 'ailelerini beslemek' diye değiştirmiş.",
+                                    "1": "B şıkkı 'sadece yardım etmeyi kabul ederlerse' gibi bir koşul koyuyor.",
+                                    "3": "D şıkkı görev tanımından bahsediyor, orijinalde farkındalık gerekliliğinden bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Darwin's book immediately attracted attention and controversy not only from the scientific community but also from the general public.",
+                            "options": [
+                                "The scientific community paid immediate attention to Darwin's book, but the general public was opposed to most of the ideas presented in it.",
+                                "Both the scientific community and the general public showed interest in and argued about Darwin's book straightaway.",
+                                "When Darwin's book was published, the scientific community pointed to the fact that the general public would argue against it severely.",
+                                "Once Darwin's book was published, it was realized that neither the scientific community nor the general public would agree with the ideas in it."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek 'Both... and...' ile 'not only... but also...' yapısını, 'showed interest' ile 'attracted attention', 'argued about' ile 'controversy' kelimelerini karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı bilim dünyası ilgilendi ama halk karşı çıktı diyor; orijinalde ikisi de hem ilgi duydu hem tartıştı.",
+                                    "2": "C şıkkı bilim dünyasının bir tahminde bulunduğunu söylüyor.",
+                                    "3": "D şıkkı 'neither... nor' (ne o ne o) diyerek olumsuzluk katıyor, oysa ilgi vardı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "Spacesuits keep astronauts from getting hurt by space dust, which may not sound very dangerous but could be deadly at times when it moves faster than a bullet.",
+                            "options": [
+                                "It might be thought that space dust cannot be very dangerous, yet it can cause death when moving faster than a bullet, so their spacesuits protect astronauts from it.",
+                                "You may think that astronauts cannot be hurt by space dust, but it's wrong, because it's impossible for an astronaut to survive a dust storm in space even while he's wearing a spacesuit.",
+                                "Astronauts protect themselves from space dust by wearing a special spacesuit, but even then it's unlikely for them to survive a dust storm moving at the speed of a bullet.",
+                                "Space dust usually moves faster than a bullet, and so it's almost impossible for astronauts to stay alive in a dust storm despite the protective gear they wear."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek 'might be thought... cannot be very dangerous' ile 'may not sound very dangerous' kısmını ve koruma işlevini tam yansıtıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'hayatta kalmak imkansızdır' diyor, orijinalde kıyafetin koruduğu söyleniyor.",
+                                    "2": "C şıkkı kıyafete rağmen hayatta kalmanın zor olduğunu söylüyor.",
+                                    "3": "D şıkkı yine hayatta kalmanın imkansızlığından bahsederek anlamı değiştiriyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Passage 1: Test Anxiety",
+                    "passage": {
+                        "text": "Many people are nervous before they take a test. But some people are consumed by anxiety; they actually sabotage themselves, performing poorly on the exam even when they know the material they are being tested on. Sian Beilock is a professor of psychology who has studied why students become so edgy that they are unable to perform in a test-taking situation. \"They start worrying about the consequences. And when they worry, it actually uses up their attention and memory resources,\" she says. Beilock developed an exercise in which students identified as high anxiety test-takers spend ten minutes, just before an exam, writing down all of their fears and concerns. She tested the exercise first in a group of college students and then in younger students. She found that students who spent a few minutes describing their fears in writing seemed able to put those anxieties behind them before beginning their exam. \"What I think happens is that when students put it down on paper, they think about the worst that could happen and they reconsider the situation,\" Beilock explains. \"They might realize it's not as bad as they thought it was and, in essence, it prevents these thoughts from popping up when they're actually taking a test.\" In a series of laboratory experiments, a group of twenty anxious college students was given a short math test and told to do their best. Afterwards, the students were either asked to sit quietly before taking the test again or to write about their thoughts and fears regarding the upcoming retest. Beilock created a stressful testing environment, telling the students they would receive money if they did well on the second test. She also told the students their performance on the retest would affect the grades of other students. The group of students who sat quietly before retaking the second math test scored worse, their accuracy dropping by twelve percent on the second test. But students who wrote about their fears immediately before the re-test showed on average a five percent improvement in accuracy on the second math test. Beilock next took their writing exercise to younger students in a biology class, who were instructed before final exams to either write about their feelings on the test or to think about some other topic. She found that the students who hadn't written about their fears had higher test anxiety and a worse final exam score. The highly-anxious students who took the writing exercise received an average grade of B+, while those who didn't take it received an average grade of B-. Beilock says that even if a professor doesn't allow students to write about their worst fears immediately before an exam or presentation, students can try it themselves at home or in the library and still improve their performance."
+                    },
+                    "questions": [
+                        {
+                            "id": 20,
+                            "question": "What is the main idea of paragraph 1?",
+                            "options": [
+                                "Students should not be given a test if they are too anxious.",
+                                "Test anxiety can affect academic performance very badly.",
+                                "The more tests a student takes, the more self-confident he or she becomes.",
+                                "Poor exam performance can be prevented with anti-depressants."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap 1. paragrafın şu cümlesinde geçiyor: 'they actually sabotage themselves, performing poorly on the exam even when they know the material'. Yani kaygı, performansı kötü etkiliyor.",
+                                "wrong": {
+                                    "0": "Paragrafta sınav yapılmaması gerektiği söylenmiyor.",
+                                    "2": "Daha fazla sınavın özgüven getirdiğinden bahsedilmiyor.",
+                                    "3": "İlaçlardan (anti-depressants) hiç bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "question": "The word edgy in paragraph II is closest in meaning to",
+                            "options": [
+                                "anxious",
+                                "knowledgeable",
+                                "confident",
+                                "essential"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Edgy' kelimesi bağlamda 'gergin, sinirli, kaygılı' anlamına gelir. Paragrafta 'students become so edgy that they are unable to perform' deniyor, bu da 'anxious' (kaygılı) ile eş anlamlıdır.",
+                                "wrong": {
+                                    "1": "'Knowledgeable' bilgili demek.",
+                                    "2": "'Confident' kendine güvenen demek (tam tersi).",
+                                    "3": "'Essential' gerekli demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "question": "According to the text, the exercise developed by Sian Beilock ----.",
+                            "options": [
+                                "has caused a heated debate in academia",
+                                "may cause attention disorders",
+                                "has brought out worrying consequences",
+                                "was tested on two different groups of students"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cevap parçada şöyle geçiyor: 'She tested the exercise first in a group of college students and then in younger students.' Yani iki farklı grupta test edildi.",
+                                "wrong": {
+                                    "0": "Akademik bir tartışmadan bahsedilmiyor.",
+                                    "1": "Dikkat bozukluğuna yol açtığı değil, dikkati topladığı söyleniyor.",
+                                    "2": "Endişe verici sonuçlar değil, olumlu sonuçlar getirdi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "question": "As stated in the passage, when students write about their fears and concerns before an exam, ----",
+                            "options": [
+                                "they remain calm for a maximum of ten minutes",
+                                "their classmates may think they are cheating",
+                                "they tend to get even more anxious about it",
+                                "these feelings are reduced during the exam"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cevap parçada Beilock'un sözlerinde geçiyor: 'it prevents these thoughts from popping up when they're actually taking a test.' Yani sınav sırasında bu kötü hisler azalıyor/ortaya çıkmıyor.",
+                                "wrong": {
+                                    "0": "10 dakika süre yazma süresidir, sakin kalma süresi değil.",
+                                    "1": "Kopya ile ilgili bir bilgi yok.",
+                                    "2": "Daha çok kaygılandıkları değil, aksine rahatladıkları söyleniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "question": "As we learn from the text, when working with college students, Sian Beilock----.",
+                            "options": [
+                                "made them pay a certain amount of money",
+                                "deliberately increased the level of anxiety",
+                                "lied to his colleagues about the students",
+                                "asked questions based on their biology textbook"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap parçada şöyle geçiyor: 'Beilock created a stressful testing environment...'. Yani bilerek stres/kaygı seviyesini artırdı (para ödülü ve notların başkalarını etkilemesi ile).",
+                                "wrong": {
+                                    "0": "Para ödettirmedi, para kazanacaklarını söyledi.",
+                                    "2": "Meslektaşlarına yalan söylediği yazmıyor.",
+                                    "3": "Biyoloji sorusu genç öğrenciler içindi, üniversiteliler matematik testi çözdü."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "question": "The word it in paragraph V refers to ----.",
+                            "options": [
+                                "saying",
+                                "writing",
+                                "exam",
+                                "presentation"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümle: 'students can try IT themselves'. Burada 'it', bahsedilen yöntem olan 'writing about fears' (korkular hakkında yazma) eylemine atıfta bulunuyor.",
+                                "wrong": {
+                                    "0": "'Saying' (söyleme) değil.",
+                                    "2": "'Exam' (sınav) denenmez, yöntem denenir.",
+                                    "3": "'Presentation' (sunum) bağlamda bir örnek sadece."
+                                }
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "question": "Which of the following sentences is TRUE according to the text?",
+                            "options": [
+                                "Sian Beilock and his colleagues claim that the exercise they have developed can be used by actors, too.",
+                                "Students who feel anxious before an exam can never take a better grade than B+.",
+                                "It's possible that some professors won't let their students write down their worries before an exam.",
+                                "Sian Beilock underlies the fact that the scale of his experiment is too small to be taken very seriously."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Son paragrafta şöyle deniyor: 'even if a professor doesn't allow students to write...'. Bu ifade, bazı profesörlerin izin vermeyebileceği ihtimalini doğruluyor.",
+                                "wrong": {
+                                    "0": "Aktörlerden bahsedilmiyor.",
+                                    "1": "B+ sadece bir ortalamaydı, 'asla alamazlar' diye bir kural yok.",
+                                    "3": "Deneyin ölçeğinin küçük olduğunu söylemiyor, aksine sonuçlara güveniyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Passage 2: Conservative Times",
+                    "passage": {
+                        "text": "Americans experimented with many new customs and social traditions during the 1920s. There were new dances, new kinds of clothes and some of the most imaginative art and writing ever produced in the United States. However, in many ways, the 1920s were a conservative time in American life. One such policy concerned immigration. Many Americans in the 1920s had at least some ties through blood or marriage to the first Americans who came from Britain, so they considered themselves to be bona fide Americans. Americans traditionally had welcomed newcomers from such western European countries as France or Germany. But most of the people arriving in American harbors in the 1920s were from other parts of Europe. Some citizens became afraid of these millions of immigrants arriving at their shores. Citizens worried they might steal their jobs. Or they feared the political beliefs of the immigrants. Also pressure to control immigration increased following World War I. Congress passed a law that set a limit on how many people would be allowed to enter from each foreign country. And an even stronger immigration law in 1924 put limits on the number of immigrants from each country, depending on the number of Americans who had families in that country. For example, the law allowed many immigrants to enter from Germany or France, because many American citizens had families in those countries. But fewer people could come from Italy or Russia, because fewer Americans had family members in those countries. The laws were very difficult to enforce. But they did succeed in limiting the number of immigrants from specific countries. A second sign of the conservative feelings in the 1920s was the effort to ban the sale of alcoholic drinks, or liquor, known as Prohibition. Many of the strongest supporters of Prohibition were conservative religious Americans living in rural areas. They believed that liquor was evil. In 1919, a law was passed making it unlawful to produce, sell or transport liquor. But Prohibition failed terribly from the start. There was only a small force of police to enforce it. And millions of Americans still wanted to drink liquor. Not surprisingly, thousands of Americans began to import liquor illegally to sell for high prices. Criminals began to bring liquor across the long, unprotected border with Canada or on fast boats from the Caribbean islands. At the same time, pirate manufacturers began to produce liquor. And, in fact, shop owners in cities sold liquor with little interference from local police. By the middle of the 1920s, it was clear Prohibition laws were a failure, but the laws were not changed until 1932. A third sign of conservatism was the effort to ban modern science schoolbooks. Most of those who supported these efforts were the same conservative rural people. Science became an enemy to these people as it seemed to challenge the most basic ideas taught in the Bible. In 1925, the conflict burst into a major public debate over Darwin's theory of evolution. The attack on Darwin's ideas was led by William Jennings Bryan, a rural politician popular among many traditional Americans. He accused scientists of violating God's words in the Bible. He called on school officials to ban the teaching of evolution. Some states in the southeastern part of the country passed laws making it a crime to teach evolutionary theory. In 1925, a science teacher in Tennessee challenged the state's new teaching law. The teacher, named John Scopes, taught Darwin's ideas of evolution. Officials arrested him and put him on trial. Some of the greatest lawyers rushed to Tennessee to defend him. America's most famous lawyer, Clarence Darrow, became the leader of the Scopes defense team. Bryan and other religious conservatives also rushed to the trial. During the trial, Clarence Darrow asked Bryan question after question about the Bible and science. He answered the questions but he showed a great lack of knowledge about modern science. The judge found Scopes guilty, but a higher court later ruled that Scopes was not guilty. The issue was not really whether one young teacher was innocent or guilty of breaking a law. It was a struggle between the forces of modern ideas and those of traditional rural conservatism."
+                    },
+                    "questions": [
+                        {
+                            "id": 27,
+                            "question": "As we understand from paragraph I, in the 1920s there were a lot of changes in society ----.",
+                            "options": [
+                                "as all Americans were in favor of change",
+                                "because the US was a very young nation",
+                                "but there were also a lot of traditional ideas",
+                                "and this revived economic activity"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Parçanın başında yeniliklerden (danslar, kıyafetler) bahsediliyor ama hemen ardından 'However, in many ways, the 1920s were a conservative time' (Fakat birçok açıdan 1920'ler muhafazakar bir dönemdi) deniyor.",
+                                "wrong": {
+                                    "0": "Bütün Amerikalıların değişimi desteklediği söylenmiyor.",
+                                    "1": "Genç bir ulus olmasıyla ilgili bir bağ kurulmuyor.",
+                                    "3": "Ekonomik aktivitenin canlanması vurgulanmıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "question": "The phrase bona fide in paragraph II could best be replaced by ----.",
+                            "options": [
+                                "actual",
+                                "cruel",
+                                "recent",
+                                "loose"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Bona fide' Latince kökenli olup 'gerçek, hakiki, samimi' demektir. Metinde İngiltere'den gelenlerin kendilerini 'gerçek/has' Amerikalı olarak gördükleri anlatılıyor.",
+                                "wrong": {
+                                    "1": "'Cruel' zalim demek.",
+                                    "2": "'Recent' yeni demek.",
+                                    "3": "'Loose' gevşek demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "question": "As we learn from paragraph II, new immigrants of the 1920s",
+                            "options": [
+                                "were mostly from western European countries like France or Germany",
+                                "had to wait on their boats for weeks before they could enter American harbors",
+                                "were going to provide a lot of new job opportunities",
+                                "were not welcomed by many American citizens"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Parçada 'Some citizens became afraid... worried they might steal their jobs' deniyor. Yani vatandaşlar onları hoş karşılamadı, korktu.",
+                                "wrong": {
+                                    "0": "Tam tersi, Batı Avrupa'dan DEĞİL, diğer bölgelerden geliyorlardı.",
+                                    "1": "Gemilerde beklediklerine dair bilgi yok.",
+                                    "2": "İş fırsatı sağlayacakları değil, işleri çalacakları düşünülüyordu."
+                                }
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "question": "The word they in paragraph II refers to ----.",
+                            "options": [
+                                "harbors",
+                                "parts",
+                                "citizens",
+                                "immigrants"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cümle: 'Citizens worried they might steal their jobs. Or THEY feared...'. Burada korkan kişiler vatandaşlardır (citizens).",
+                                "wrong": {
+                                    "3": "Göçmenler kendilerinden korkmazlar, vatandaşlar göçmenlerden korkar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "question": "According to paragraph II, as a result of the law passed in 1924, ----.",
+                            "options": [
+                                "it became easier for new immigrants to find jobs in America",
+                                "the number of immigrants from certain countries was limited",
+                                "Russian and Italian immigrants became even more conservative",
+                                "American citizens who had come from France and Germany refused to fight in the world war"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap parçada: 'immigration law in 1924 put limits on the number of immigrants from each country'. Belirli ülkelerden gelen sayısı sınırlandı.",
+                                "wrong": {
+                                    "0": "İş bulmanın kolaylaştığı söylenmiyor.",
+                                    "2": "Muhafazakarlaştıkları söylenmiyor.",
+                                    "3": "Savaşla ilgili bir durumdan bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "question": "As stated in paragraph III, the ban on alcoholic drinks ----.",
+                            "options": [
+                                "caused the illegal liquor trade to flourish",
+                                "was withdrawn in the year 1919",
+                                "resulted from the idea that liquor couldn't be considered evil",
+                                "made conservative Americans very angry"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Parçada 'thousands of Americans began to import liquor illegally... Criminals began to bring liquor...' deniyor. Yani yasadışı ticaret arttı.",
+                                "wrong": {
+                                    "1": "1919'da kaldırılmadı, 1919'da yasa çıktı.",
+                                    "2": "Tam tersi, içkinin 'evil' (kötü) olduğu fikrinden çıktı.",
+                                    "3": "Muhafazakarlar yasayı destekliyordu, kızgın değillerdi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "question": "According to paragraph III, Darwin's idea of evolution ----.",
+                            "options": [
+                                "was removed from all American schoolbooks in 1925",
+                                "was perceived as a threat by some conservative people",
+                                "seemed no different from the ideas in the Bible",
+                                "was favored by William Jennings Bryan"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Parçada 'Science became an enemy to these people as it seemed to challenge the most basic ideas taught in the Bible' deniyor. Yani bir tehdit olarak görüldü.",
+                                "wrong": {
+                                    "0": "Tüm kitaplardan çıkarıldığı söylenmiyor, bazı eyaletler yasakladı.",
+                                    "2": "İncil'den farksız değil, İncil'e aykırı görüldü.",
+                                    "3": "Bryan buna karşı saldırıyı yöneten kişiydi, desteklemiyordu."
+                                }
+                            }
+                        },
+                        {
+                            "id": 34,
+                            "question": "As we learn from paragraph IV, John Scopes was a young science teacher who ----.",
+                            "options": [
+                                "was very popular among traditional Americans",
+                                "was taken to court due to his objection to his state's teaching law",
+                                "accused Darwin of violating God's words",
+                                "was able to pass a law against teaching evolution theory"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Parçada 'John Scopes, taught Darwin's ideas... Officials arrested him and put him on trial' deniyor. Yasaya karşı geldiği için mahkemeye verildi.",
+                                "wrong": {
+                                    "0": "Geleneksel Amerikalılar ona karşıydı.",
+                                    "2": "Darwin'i suçlayan Bryan'dı, Scopes değil.",
+                                    "3": "Yasa geçiren değil, yasayı çiğneyen kişiydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 35,
+                            "question": "The word ruled in paragraph IV is closest in meaning to ----.",
+                            "options": [
+                                "obeyed",
+                                "disagreed",
+                                "concluded",
+                                "arranged"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Rule' kelimesi hukuk bağlamında 'hüküm vermek, karara varmak' demektir. Yani 'concluded' (sonuca vardı) en yakın anlamlıdır.",
+                                "wrong": {
+                                    "0": "'Obeyed' itaat etti demek.",
+                                    "1": "'Disagreed' aynı fikirde olmadı demek.",
+                                    "3": "'Arranged' düzenledi demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "question": "Which of the following sentences is TRUE according to the text?",
+                            "options": [
+                                "In 1924, no Americans had family members in Italy or Russia.",
+                                "The effort to ban alcoholic drinks in America was a failure.",
+                                "John Scopes became the governor of Tennessee after he was released.",
+                                "Clarence Darrow was the son of a religious farmer."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Parçada 'it was clear Prohibition laws were a failure' ifadesi açıkça geçiyor. Alkol yasağı başarısız oldu.",
+                                "wrong": {
+                                    "0": "'No Americans' değil, 'fewer Americans' (daha az) deniyor.",
+                                    "2": "Vali olduğuna dair bilgi yok.",
+                                    "3": "Darrow'un babası hakkında bilgi yok."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Passage 3: Old Spacesuits",
+                    "passage": {
+                        "text": "No one appreciates the technology and design of the spacesuit more than Dr. Joseph Kerwin, who was one of the first astronauts to conduct in-space repairs in 1973. He and fellow astronaut Pete Conrad fixed a jammed solar panel on the Skylab space station. That would not have been possible without the spacesuit, which Kerwin describes as 'a little spacecraft.' The suit provided protection from meteorites and vacuum. It circulated oxygen, removed carbon dioxide, kept the astronauts cool, provided communication and enough mobility to do the job. Kerwin says it took some getting used to initially. 'The first time you put it on, it takes a while and you need help to get the zippers zipped, and when you are inside, it doesn't quite fit properly, and then they inflate it and you can hardly move.' But he says after spending 1,000 hours training, including sessions under water and in a vacuum chamber, you own that suit. Not in the literal sense, though. More than 200 suits which have returned from space belong to the Smithsonian Institution's Air and Space Museum. In addition to spacesuits, the museum has gloves, helmets and other ancillary equipment. Most are stored at a facility ten kilometers from Washington, in a room where humidity and temperature are carefully controlled. Kerwin's suit is there. So is that of Neil Armstrong, the first man to walk on the moon. There are suits from the earlier Mercury missions, and several experimental suits which were never used. Stored on shelves, they are kept under protective coverings. 'We have discovered that they are extremely fragile. And they are very heavy,' says Amanda Young, a retired museum director and the author of 'Spacesuits: The Smithsonian National Air and Space Museum Collection.' It is sort of a lifetime's work preserving them, because at the time they were made -because of the rush of the program requirements- it wasn't really a consideration what to do with them when they came back. It was up to Young to figure that out, which she carefully did. Thanks to her efforts and those of her successors, spacesuits will be around for generations -an out-of-this-world legacy that endures here on earth."
+                    },
+                    "questions": [
+                        {
+                            "id": 37,
+                            "question": "As we learn from the text, Pete Conrad----.",
+                            "options": [
+                                "cannot appreciate the technology of a spacesuit",
+                                "decided to put an end to his astronaut career",
+                                "was one of the first astronauts to do repair work in space",
+                                "first met Dr. Joseph Kerwin during a 1973 space mission"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cevap parçada: 'Joseph Kerwin, who was one of the first astronauts to conduct in-space repairs... He and fellow astronaut Pete Conrad fixed...'. Conrad, Kerwin ile birlikte tamir yaptı, yani o da ilklerden biri.",
+                                "wrong": {
+                                    "0": "Kıyafetin teknolojisini takdir etmediği söylenmiyor.",
+                                    "1": "Kariyerini bitirdiğine dair bilgi yok.",
+                                    "3": "İlk kez orada tanıştıklarına dair bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 38,
+                            "question": "The word that in paragraph I refers to ----.",
+                            "options": [
+                                "the Skylab space station",
+                                "the fellow astronaut",
+                                "describing the spacesuit",
+                                "fixing a solar panel"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Cümle: 'He and fellow astronaut Pete Conrad fixed a jammed solar panel... THAT would not have been possible without the spacesuit'. 'O' mümkün olmazdı derken, 'tamir etme eylemi' kastediliyor.",
+                                "wrong": {
+                                    "0": "Uzay istasyonu uzay elbisesi olmadan mümkün olmazdı anlamı çıkmaz, tamir eylemi kastediliyor.",
+                                    "2": "Tanımlama eylemi değil, yapılan iş (tamir) kastediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "question": "According to paragraph I, the spacesuit did all of the following EXCEPT ----.",
+                            "options": [
+                                "guarding against meteorites",
+                                "providing vacuum",
+                                "eliminating carbon dioxide",
+                                "providing mobility"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Metinde 'provided protection from meteorites and vacuum' (meteorlardan ve vakumdan koruma sağladı) diyor. Vakum *sağladı* demiyor, vakumdan *korudu* diyor.",
+                                "wrong": {
+                                    "0": "Meteorlardan koruma metinde var.",
+                                    "2": "Karbondioksiti uzaklaştırma metinde var.",
+                                    "3": "Hareket kabiliyeti (mobility) metinde var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "question": "In the text, Dr. Joseph Kerwin states that ----,",
+                            "options": [
+                                "he wants to own a little spacecraft",
+                                "the spacesuit he wore in 1973 had no zippers",
+                                "it requires some time to get accustomed to the spacesuit",
+                                "it becomes easier to move when the spacesuit is inflated"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cevap parçada: 'Kerwin says it took some getting used to initially' (Başlangıçta alışmak biraz zaman aldı). 'Get accustomed to' = 'get used to'.",
+                                "wrong": {
+                                    "0": "Uzay aracı sahibi olmak istediğini söylemiyor, elbiseyi ona benzetiyor.",
+                                    "1": "Fermuarı vardı, yardımla kapanıyordu.",
+                                    "3": "Şişirildiğinde hareket etmek kolaylaşmıyor, aksine zorlaşıyor ('can hardly move')."
+                                }
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "question": "As we learn from the text, the Smithsonian Institution's Air and Space Museum",
+                            "options": [
+                                "owns more than two hundred spacesuits",
+                                "plans to move to a facility ten kilometers from Washington",
+                                "does not have any suits that have returned from space",
+                                "sells astronaut gloves and helmets at a reasonable price"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap parçada: 'More than 200 suits which have returned from space belong to the Smithsonian...'.",
+                                "wrong": {
+                                    "1": "Zaten orada depolanıyorlar, taşınma planı yok.",
+                                    "2": "Tam tersi, uzaydan dönen 200+ elbisesi var.",
+                                    "3": "Satış yaptığına dair bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 42,
+                            "question": "The word ancillary in paragraph II could best be replaced by ----",
+                            "options": [
+                                "useless",
+                                "additional",
+                                "primitive",
+                                "amusing"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'Ancillary' yardımcı, ek, tamamlayıcı demektir. Metinde 'gloves, helmets and other ancillary equipment' (eldiven, kask ve diğer yardımcı/ek ekipmanlar) deniyor.",
+                                "wrong": {
+                                    "0": "'Useless' işe yaramaz demek.",
+                                    "2": "'Primitive' ilkel demek.",
+                                    "3": "'Amusing' eğlenceli demek."
+                                }
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "question": "Which of the following sentences is FALSE according to the text?",
+                            "options": [
+                                "Amanda Young wrote a book on spacesuits.",
+                                "Neil Armstrong's spacesuit is at a facility near Washington.",
+                                "Amanda Young is no longer in charge of old spacesuits.",
+                                "Astronaut training does not include underwater sessions."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu ifade YANLIŞTIR. Metinde Kerwin, eğitimin 'including sessions under water' (su altı seanslarını da içeren) 1000 saat sürdüğünü söylüyor.",
+                                "wrong": {
+                                    "0": "DOĞRU: Metinde 'author of Spacesuits...' olarak geçiyor.",
+                                    "1": "DOĞRU: Armstrong'un elbisesinin Washington'a 10km uzaklıktaki tesiste olduğu söyleniyor.",
+                                    "2": "DOĞRU: Metinde 'retired museum director' (emekli müdür) olarak geçiyor."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

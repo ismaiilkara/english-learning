@@ -1,0 +1,860 @@
+{
+    "id": 1,
+    "title": "Proficiency Practice Test 27",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Great Depression",
+                    "passage": {
+                        "title": "The Great Depression",
+                        "text": "The Great Depression was a severe economic downturn. (1)_____ 1932, unemployment had increased to twenty-five percent. Stock prices had dropped by over eighty percent. Over eighty-five thousand businesses had declared bankruptcy. Banks could not collect debt from bankrupt businesses and began to close, (2)_____ the loss of the savings of millions of Americans. This led President Franklin Delano Roosevelt to create the Federal Deposit Insurance Corporation (FDIC), which was designed to provide a hedge against this sort of loss. In 1930, a confluence of bad weather and poor agricultural practices known as the Dust Bowl compounded the Depression's effects on farmers. Sustained drought and continued planting and (3)_____ over poor seasons led to the destruction of ground cover that held soil in place. This, (4)_____ other economic factors, reduced farm revenue by fifty percent. Many farmers were forced to move to the cities (5)_____ survive. The most important thing that Roosevelt (6)_____ to take action. The stock market crash and subsequent economic collapse had left America in a state of deep fear. Jobs were gone, businesses had failed and many banks were unsound. Families were not only losing their source of income but their life savings as well. Americans were feeling helpless (8)_____ the face of this turmoil. People were desperate for a leader that would demonstrate some idea of what to do to begin to turn things around. With this as a backdrop, strong social changes were beginning to take place. While mostly (9)_____ to rhetoric, these ranged from grassroots actions by farmers facing foreclosure to sophisticated agitation by Nazi, Socialist and Communist activists. (10)_____ Roosevelt remarked to John Nance Garner, his Vice President, while they rode to the inauguration in January 1933, 'I had better be a good president or I will be the last one'."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "On",
+                                "Until",
+                                "By",
+                                "With"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"By\" edatı, geçmişte belirli bir zamana kadar gerçekleşmiş durumları anlatırken 'itibarıyla' veya 'gelindiğinde' anlamı katar. 1932'ye gelindiğinde işsizlik artmıştı.",
+                                "wrong": {
+                                    "0": "\"On\" yıllarla değil, günlerle kullanılır.",
+                                    "1": "\"Until\" bir süreci belirtir, ancak cümledeki yapı o tarihteki mevcut durumu (perfect tense) vurguluyor.",
+                                    "3": "\"With\" sahiplik veya birliktelik bildirir, zaman ifadesi olarak burada uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "causing",
+                                "caused",
+                                "being caused",
+                                "to be caused"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Causing\" (sebep olarak) doğru, çünkü virgülden sonra gelen 'participle clause' cümleye neden-sonuç ilişkisi katar. Bankaların kapanması kayıplara sebep oldu.",
+                                "wrong": {
+                                    "1": "\"Caused\" pasif bir anlam veya geçmiş zaman fiili olurdu, burada aktif bir sonuç bildiren yapı gerekiyor.",
+                                    "2": "\"Being caused\" pasif ve süregelen bir durum bildirir, burada sebep olan özne (closing banks) bellidir.",
+                                    "3": "\"To be caused\" gelecek veya amaç bildirir, burada gerçekleşmiş bir sonuç var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "blasting",
+                                "harvesting",
+                                "condensing",
+                                "applauding"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Harvesting\" (hasat etme) doğru, çünkü metin tarımsal uygulamalardan (planting - ekim) bahsediyor. Ekim ve hasat birbirini tamamlayan tarım terimleridir.",
+                                "wrong": {
+                                    "0": "\"Blasting\" patlatmak anlamına gelir, tarımla ilgisiz.",
+                                    "2": "\"Condensing\" yoğunlaştırmak anlamına gelir.",
+                                    "3": "\"Applauding\" alkışlamak anlamına gelir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "as of",
+                                "all in all",
+                                "at all",
+                                "along with"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Along with\" (bununla birlikte / yanı sıra) doğru, çünkü kuraklık faktörüne ek olarak diğer ekonomik faktörlerin de eklendiğini belirtiyor.",
+                                "wrong": {
+                                    "0": "\"As of\" ...-den itibaren demektir.",
+                                    "1": "\"All in all\" sonuç olarak / hepsi düşünüldüğünde demektir.",
+                                    "2": "\"At all\" hiç / asla anlamında genelde olumsuz cümlelerde kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "in addition to",
+                                "so as to",
+                                "as opposed to",
+                                "owing to"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"So as to\" (...-mek için) doğru, çünkü çiftçilerin şehre taşınma amacı (hayatta kalmak) belirtiliyor. 'In order to' ile aynı anlamdadır.",
+                                "wrong": {
+                                    "0": "\"In addition to\" ek olarak demektir, ardından isim veya V-ing gelmelidir (survive fiil köküdür).",
+                                    "2": "\"As opposed to\" ...-nın aksine demektir.",
+                                    "3": "\"Owing to\" ...-den dolayı demektir, ardından isim gelmelidir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "did was",
+                                "was to do",
+                                "was done",
+                                "was doing"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Did was\" yapısı (Pseudo-cleft sentence) vurgu yapmak için kullanılır: 'The thing he DID WAS...' (Yaptığı şey ...-ydı).",
+                                "wrong": {
+                                    "1": "\"Was to do\" planlanmış bir eylemi gösterir ama vurgu yapısı bozulur.",
+                                    "2": "\"Was done\" pasif yapıdır, özne (Roosevelt) aktiftir.",
+                                    "3": "\"Was doing\" geçmişte süregelen eylem bildirir, burada tekil ve vurgulu bir eylemden bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "on",
+                                "to",
+                                "for",
+                                "in"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"In\" edatı doğru, çünkü \"in the face of\" (karşısında / yüzünden) kalıplaşmış bir ifadedir. Bu karmaşa karşısında çaresiz hissettiler.",
+                                "wrong": {
+                                    "0": "\"On\" bu kalıpta kullanılmaz.",
+                                    "1": "\"To\" yönelme bildirir.",
+                                    "2": "\"For\" için/amacıyla anlamı katar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "confined",
+                                "implemented",
+                                "discriminated",
+                                "abducted"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Confined\" (sınırlı kalmış) doğru. \"Confined to rhetoric\" ifadesi, bu değişimlerin sadece sözde kaldığını, eyleme tam dönüşmediğini anlatır.",
+                                "wrong": {
+                                    "1": "\"Implemented\" uygulanmış demektir, 'rhetoric' (söylev) ile zıt düşer.",
+                                    "2": "\"Discriminated\" ayrımcılık yapılmış demektir.",
+                                    "3": "\"Abducted\" kaçırılmış demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "By the way",
+                                "Now that",
+                                "As",
+                                "Accordingly"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"As\" (gibi / ...dığı gibi) doğru. Roosevelt'in belirttiği gibi anlamını katarak alıntıya geçiş yapar.",
+                                "wrong": {
+                                    "0": "\"By the way\" aklıma gelmişken / bu arada demektir, konu değiştirirken kullanılır.",
+                                    "1": "\"Now that\" madem ki / artık ... olduğuna göre demektir.",
+                                    "3": "\"Accordingly\" buna göre / bu doğrultuda demektir."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "Orangutans are considered an umbrella species because if their home range and habitat are protected, many other species are automatically protected as well.",
+                            "options": [
+                                "What makes orangutans an ineffective umbrella species is the fact that they are unable to protect other species even though they can protect their own home range and habitat.",
+                                "Orangutans are thought to be an umbrella species due to the fact that protection of their home range and habitat also means protection of a lot of other species.",
+                                "Although orangutans are thought to be umbrella species, they are not able to protect other species since their own home range and habitat are under threat.",
+                                "Orangutans are believed to be protectors of other species, yet this is not always true because they may attack other umbrella species when their habitat is at risk."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru çünkü orijinal cümledeki neden-sonuç ilişkisini (evleri korunursa diğerleri de korunur) aynen koruyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'ineffective' (etkisiz) diyerek tam tersini söylüyor.",
+                                    "2": "C şıkkı 'not able to protect' (koruyamazlar) diyerek olumsuz bir anlam katıyor.",
+                                    "3": "D şıkkı 'attack' (saldırmak) gibi orijinalde olmayan bir bilgi ekliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Orangutans are thought to have developed behaviors and practices that are maintained and transmitted through social learning.",
+                            "options": [
+                                "What enables orangutans to pass certain behaviors that they have developed from one generation to another is their ability to live in large groups.",
+                                "Orangutans seem to think that they are capable of keeping and passing on certain behaviors and practices thanks to social learning.",
+                                "It is thought that orangutans can keep and pass on the behaviors and practices they have developed by means of social learning.",
+                                "Orangutans will not manage to develop behaviors and practices that can be maintained and transmitted unless they continue to appreciate social learning."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru çünkü 'maintained and transmitted' (korunan ve aktarılan) ifadesini 'keep and pass on' ile, 'through social learning' ifadesini ise 'by means of social learning' ile tam karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'live in large groups' (büyük gruplarda yaşamak) diyerek yanlış bir neden sunuyor.",
+                                    "1": "B şıkkı 'seem to think' (düşünüyor gibi görünüyorlar) diyerek özneyi orangutanların düşüncesine çeviriyor, oysa bu bilimsel bir gözlem.",
+                                    "3": "D şıkkı 'unless' ile bir koşul ekliyor, orijinalde böyle bir koşul yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Orangutans face extreme challenges in the wild, and it is easy for people living far away to feel unable to make a difference.",
+                            "options": [
+                                "Wild orangutans have to fight incredible difficulties, so people living far away should never think that it is easy to help them survive.",
+                                "The challenges in the wild that orangutans have to cope with should never be seen as something easy by people living far away from them.",
+                                "People living far away from the places where orangutans live may think that it is easy to help orangutans out of these terrible conditions, but they are completely wrong.",
+                                "Orangutans in the wild experience serious difficulties and people living far away can easily think that they are incapable of doing anything to change this situation."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'Feel unable to make a difference' (fark yaratamayacaklarını hissetmek) ifadesi 'think that they are incapable of doing anything' ile eşleşiyor.",
+                                "wrong": {
+                                    "0": "A şıkkı insanlara bir tavsiye ('should never think') veriyor, orijinalde durum tespiti var.",
+                                    "1": "B şıkkı zorlukların kolay görülmemesi gerektiğini söylüyor, anlam farklı.",
+                                    "2": "C şıkkı insanların yardım etmenin kolay olduğunu sandığını söylüyor, tam tersi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Apes are susceptible to the same diseases as humans, so any contact with humans can transmit a disease to apes.",
+                            "options": [
+                                "Apes are weak animals and they can easily catch certain diseases from humans, so they should never have direct contact with humans.",
+                                "As the diseases that humans are likely to be affected by can also affect apes, those that interact with humans can catch disease from them.",
+                                "Apes are as weak as humans when it comes to certain diseases; therefore, humans are recommended to keep away from sick apes.",
+                                "Humans are not as weak as apes and they can fight diseases better than apes, but still humans must keep away from apes no matter how healthy they look."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'Susceptible to same diseases' (aynı hastalıklara yatkın) ifadesini 'diseases that humans are likely to be affected by can also affect apes' ile açıklıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'weak animals' (zayıf hayvanlar) diyerek genelleme yapıyor ve tavsiye veriyor.",
+                                    "2": "C şıkkı hasta maymunlardan uzak durulmasını söylüyor, orijinalde insanlardan maymunlara bulaşma riski var.",
+                                    "3": "D şıkkı bağışıklık sistemlerini kıyaslıyor, orijinalde bu yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Demand from foreign consumers for luxury resources such as tropical timber contributes to habitat loss.",
+                            "options": [
+                                "Habitat loss is a problem that is getting more and more serious due to governments' unwillingness to cut demand from foreign customers for tropical timber.",
+                                "Consumers from other countries want to be able to purchase luxury resources like tropical timber, but this has nothing to do with habitat loss.",
+                                "As a result of foreign customers' desire for buying luxury resources such as tropical timber, the problem of habitat loss is becoming worse.",
+                                "As international customers' demand for luxury resources like tropical timber increased, so did the habitat loss in the region."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'Contributes to' (katkıda bulunur/neden olur) ifadesini 'As a result... becoming worse' ile karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı hükümetlerin isteksizliğinden bahsediyor, orijinalde bu yok.",
+                                    "1": "B şıkkı 'has nothing to do with' (alakası yok) diyerek tam tersini söylüyor.",
+                                    "3": "D şıkkı geçmiş zaman (increased) kullanıyor, orijinal genel geçer bir durumu (present) anlatıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "The world's rainforests will completely vanish in one hundred years at the current rate of deforestation.",
+                            "options": [
+                                "If the world continues to lose its forests at the current speed, there will be no more rainforests in one hundred years' time.",
+                                "The deforestation rate of the world seems to remain unchanged, which means we will have almost no rainforests in a century.",
+                                "The rate of deforestation is likely to speed up in the next century, and this will cause all the rainforests in the world to disappear.",
+                                "We have to slow down the rate of deforestation, or else there will be no more rainforests in the world."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'At the current rate' (mevcut hızda) ifadesi 'continues... at the current speed' ile, 'vanish' (yok olmak) ifadesi 'no more rainforests' ile eşleşiyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'almost no' (neredeyse hiç) diyor, orijinalde 'completely vanish' (tamamen yok olacak) deniyor.",
+                                    "2": "C şıkkı hızın artacağını (speed up) söylüyor, orijinalde sabit hız varsayımı var.",
+                                    "3": "D şıkkı bir zorunluluk/tavsiye (have to) belirtiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "The gaps in gun laws can only be fixed through legislation, which is why the President continues to call on Congress to pass the gun safety reforms.",
+                            "options": [
+                                "There are a lot of mistakes in gun laws but they can never corrected unless the President keeps asking Congress to focus on the gun safety reforms.",
+                                "The President keeps urging Congress to pass the gun safety reforms because only legislation is capable of correcting whatever is missing in gun laws.",
+                                "Because the gaps in gun laws need to be discussed immediately, the President has demanded that Congress give priority to the gun safety reforms.",
+                                "Only the President can convince Congress to pass the gun safety reforms, which are expected to fix the gaps in current gun laws."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'Only be fixed through legislation' (sadece yasayla düzeltilebilir) ifadesi 'only legislation is capable of correcting' ile tam örtüşüyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'never corrected unless President asks' (Başkan sormazsa düzelmez) diyor, koşul yanlış kurulmuş.",
+                                    "2": "C şıkkı tartışma aciliyetinden bahsediyor.",
+                                    "3": "D şıkkı 'Sadece Başkan ikna edebilir' diyor, orijinalde sadece yasayla düzeltebilir deniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Our laws allow a person to carry a firearm in a vehicle if its use is for personal protection.",
+                            "options": [
+                                "Providing that it is used for protecting themselves, our citizens can have a firearm in their vehicle.",
+                                "Our citizens are allowed to have a gun in their vehicle on condition that they haven't been involved in any major crime before.",
+                                "According to our laws, any mentally healthy person can carry a gun on condition that he or she can prove their life is under threat.",
+                                "Our laws say that it is legal to have a gun in a vehicle provided that it is kept unloaded unless there is immediate threat of assault."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'If' bağlacı 'Providing that' ile, 'personal protection' ise 'protecting themselves' ile karşılanmış.",
+                                "wrong": {
+                                    "1": "B şıkkı suç geçmişinden bahsediyor.",
+                                    "2": "C şıkkı akıl sağlığından bahsediyor.",
+                                    "3": "D şıkkı silahın boş tutulması (unloaded) şartını ekliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "Switzerland had a large proportion of firearm suicides relative to other European countries, and the proportion increased as household gun ownership increased.",
+                            "options": [
+                                "Switzerland was known to have more firearm suicides than most other European countries, so household gun ownership in this country had to be reduced.",
+                                "As Switzerland continued to allow its citizens to possess firearms more easily than in other European countries, firearm suicides would certainly increase.",
+                                "Firearm suicides in Switzerland were expected to increase because the Swiss government did not seem to focus on this issue as much as other European countries do.",
+                                "Suicides with firearms were more frequent in Switzerland than in other European countries, and as the number of guns in houses increased, so did firearm suicides."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru. 'Relative to' (kıyasla) ifadesi 'more frequent than' ile, 'increased as... increased' (arttıkça arttı) yapısı 'as... so did...' ile tam verilmiş.",
+                                "wrong": {
+                                    "0": "A şıkkı azaltılması gerektiği (had to be reduced) sonucunu çıkarıyor.",
+                                    "1": "B şıkkı izin verildiği için artacağını tahmin ediyor.",
+                                    "2": "C şıkkı hükümetin odaklanmamasından bahsediyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Orangutans in the Mist",
+                            "paragraphs": [
+                                "For the last 18 years, Cheryl Knott of Boston University has been racing the clock. While she researches orangutans in the rainforests of Borneo, their numbers steadily fall. The outlook for orangutans is dire because there are very few of them left in the wild, and they are found in only two places: the Sumatran rainforests, where they are critically endangered; and the Borneo rain forests, where they are endangered. The decrease in their populations is caused by various threats, such as illegal logging (tree-cutting), the conversion of rain forest to palm oil plantations and farmland, illegal hunting and the pet trade. What's more, orangutans reproduce slowly. In fact, they have the longest interval between births of any mammal, only giving birth once every eight to nine years. The resulting slow birth rate makes them weaker against environmental threats.",
+                                "It often takes Knott and her team many hours to find one of these mysterious apes. Once they find an orangutan, they follow it for as long as possible, often over many days, collecting detailed data on its behavior. Because orangutans are great tree climbers and use a different nest every night, finding and following them is not an easy task, which requires Knott to follow her subjects through the forest.",
+                                "Through the years, as Knott has continued her research, she has witnessed the threats to orangutans increase. She explained: \"When we first started working in Borneo, we really weren't aware of illegal logging going on in the national park. And then, after a while, in 2000, we started hearing the sounds of chainsaws coming closer and closer until they were actually on the outskirts of our research site. There were times when we would go up river and see hundreds of men logging various parts of the forest.\"",
+                                "The ever-increasing noise of chainsaws inspired Knott to start a conservation program with local villagers to educate them about the importance of preserving the rainforest and protecting orangutans and other forest animals. \"We really needed to work with the local people, many of whom had never seen a wild orangutan,\" Knott said. Among the components of Knott's conservation program are a radio show, field trips to the national park, lectures about conservation, and an environmental education center for local villagers. In addition, Knott is also working with them to find alternatives to logging and ways to make their own lands more productive so that they don't have to cut down more forest. They are helping the villagers increase their income without destroying the forest. Her organization also works with the local officials to investigate people who have illegal pet orangutans and then accompanies them when the animals are taken away.",
+                                "Knott says that illegal logging has slowed down, and that her conservation program has helped create a much more conservation-minded community. Nevertheless, threats to orangutans are still mounting. Among the growing problems in orangutan territory is the conversion of rainforest into palm oil plantations, a practice common with large-scale industries. Palm oil is used in many products, from food products to engine lubricants to a base for cosmetics. \"There's been less illegal logging because there's been more cutting down of the rainforest to build palm oil plantations,\" said Knott.",
+                                "\"It's a constant battle,\" said Knott. \"I think we're definitely going to continue to lose more rainforest habitat before it stops. The hope is that the rate will slow down and eventually stop, at least within national parks. And I am still hopeful that our park will continue to be protected and that it will continue to provide protection to orangutans and other forest animals in the future.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 20,
+                                    "question": "The word dire in paragraph I is closest in meaning to ----.",
+                                    "options": [
+                                        "safe",
+                                        "recent",
+                                        "late",
+                                        "horrible"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Dire\" kelimesi korkunç, vahim, ciddi anlamına gelir. Metinde sayıların düştüğü ve 'endangered' (tehlike altında) oldukları anlatıldığı için durum vahimdir (horrible).",
+                                        "wrong": {
+                                            "0": "\"Safe\" güvenli demektir, durumun tersidir.",
+                                            "1": "\"Recent\" son zamanlarda olan demektir.",
+                                            "2": "\"Late\" geç demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "In paragraph I, which of the following is NOT mentioned as a threat to orangutans?",
+                                    "options": [
+                                        "The slow birth rate of orangutans",
+                                        "A lack of palm oil plantations",
+                                        "Unlawful pet trade",
+                                        "Cutting down trees unlawfully"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metinde palm yağı plantasyonlarının 'varlığı' (conversion of rain forest to palm oil plantations) bir tehdit olarak sayılıyor. B şıkkı ise bunların 'yokluğu' (lack of) diyor, bu yanlıştır.",
+                                        "wrong": {
+                                            "0": "Slow birth rate metinde 'In fact, they have the longest interval...' cümlesinde geçiyor.",
+                                            "2": "Unlawful pet trade metinde 'illegal... pet trade' olarak geçiyor.",
+                                            "3": "Cutting down trees (illegal logging) metinde geçiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "Paragraph II is mainly concerned with ----.",
+                                    "options": [
+                                        "several mysterious animal species in rainforests",
+                                        "how data on orangutans is stored",
+                                        "the difficulty of observing orangutans",
+                                        "amazing climbing skills of the orangutan"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "İkinci paragraf boyunca onları bulmanın saatler sürdüğü, sürekli yer değiştirdikleri ve takip etmenin 'not an easy task' (kolay bir iş olmadığı) anlatılıyor.",
+                                        "wrong": {
+                                            "0": "Sadece orangutanlardan bahsediliyor, 'several species' değil.",
+                                            "1": "Verilerin nasıl saklandığından (stored) bahsedilmiyor, sadece toplandığından bahsediliyor.",
+                                            "3": "Tırmanma yetenekleri sadece zorluğun bir nedeni olarak geçiyor, ana fikir değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "According to the text, it was the year 2000 when ----.",
+                                    "options": [
+                                        "Knott decided to do research on orangutans",
+                                        "the threats to orangutans became less serious",
+                                        "Knott's team started to work in Borneo",
+                                        "Knott and her team witnessed illegal logging."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cevap metinde şu cümlede geçiyor: '...in 2000, we started hearing the sounds of chainsaws coming closer'. Elektrikli testere sesleri yasadışı kesime (illegal logging) tanıklık ettiklerini gösterir.",
+                                        "wrong": {
+                                            "0": "Araştırmaya 18 yıldır devam ediyor, 2000'de başlamadı.",
+                                            "1": "Tehditler azalmadı, arttı.",
+                                            "2": "Borneo'da çalışmaya 2000'den önce başlamışlardı ('When we first started... And then... in 2000')."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "The word components in paragraph IV could best be replaced by -----",
+                                    "options": [
+                                        "words",
+                                        "rivals",
+                                        "parts",
+                                        "phrases"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Component\" kelimesi bileşen/parça demektir. Koruma programının parçaları (radyo şovu, geziler vb.) sıralanıyor.",
+                                        "wrong": {
+                                            "0": "\"Words\" kelimeler demektir.",
+                                            "1": "\"Rivals\" rakipler demektir.",
+                                            "3": "\"Phrases\" ifadeler demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "The word them in paragraph IV refers to ----.",
+                                    "options": [
+                                        "lands",
+                                        "alternatives",
+                                        "local officials",
+                                        "pet orangutans"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde 'works with the local officials... and then accompanies THEM' deniliyor. Araştırmacı yerel yetkililerle çalışıyor ve operasyon sırasında onlara eşlik ediyor.",
+                                        "wrong": {
+                                            "0": "Araziye eşlik edilmez.",
+                                            "1": "Alternatiflere eşlik edilmez.",
+                                            "3": "Evcil orangutanlar el konulan nesneler, eşlik edilen iş arkadaşları değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "As stated by Cheryl Knott, unlawful tree-cutting has decreased --",
+                                    "options": [
+                                        "but still rainforests are getting smaller",
+                                        "thanks to international campaigns organized by the UN",
+                                        "although the community has become less conservation-minded",
+                                        "so the number of orangutans has increased tremendously"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde 'illegal logging has slowed down... Nevertheless, threats... are still mounting' ve 'more cutting down... to build palm oil plantations' deniyor. Yani yasadışı kesim azaldı ama habitat kaybı başka sebeplerle sürüyor.",
+                                        "wrong": {
+                                            "1": "BM kampanyalarından bahsedilmiyor.",
+                                            "2": "Toplum 'more conservation-minded' oldu deniyor, less değil.",
+                                            "3": "Orangutan sayısının arttığı söylenmiyor, tehditlerin sürdüğü söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "Which of the following sentences is FALSE according to the text?",
+                                    "options": [
+                                        "Orangutans give birth once every eight to nine years.",
+                                        "Palm oil is used in a variety of industrial products.",
+                                        "The decrease in rainforest habitat has stopped.",
+                                        "Knott has been trying to educate local villagers."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "YANLIŞ olan ifade budur. Metinde 'we're definitely going to continue to lose more rainforest habitat' (habitat kaybetmeye devam edeceğiz) deniyor, durmadı.",
+                                        "wrong": {
+                                            "0": "DOĞRU: Metinde 'only giving birth once every eight to nine years' yazıyor.",
+                                            "1": "DOĞRU: Metinde 'used in many products... to engine lubricants' yazıyor.",
+                                            "3": "DOĞRU: Metinde 'educate them about the importance' yazıyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Mercury",
+                            "paragraphs": [
+                                "Mercury exists in three chemical forms: methyl mercury, elemental mercury, and other mercury compounds. People are exposed to each in different ways. The most common way is by eating fish and shellfish that contain methyl mercury. A less common source of exposure is when liquid elemental mercury is spilled or a device or product containing elemental mercury breaks, thus allowing it to evaporate and become an invisible, odorless toxic vapor. Each chemical form of mercury has its own specific effects on human health. Whether an exposure to the various forms of mercury will harm a person's health depends on a number of factors: the amount; the duration of exposure; the type of exposure (inhalation, ingestion, dermal contact, etc.); the age of the person exposed; and the health of the person exposed. Almost all people have at least trace amounts of methyl mercury in their tissues, reflecting methyl mercury's pervasive presence in the environment and people's exposure through the consumption of fish and shellfish.",
+                                "Fish and shellfish are an important part of a healthy diet. However, nearly all fish and shellfish contain traces of methyl mercury. For most people, the risk from exposure to methyl mercury by eating fish and shellfish is not a health concern. Yet some fish and shellfish contain higher levels of mercury that may harm an unborn baby or young child's developing nervous system. The risks from methyl mercury in fish and shellfish depend on the amount of fish and shellfish eaten and the levels of methyl mercury in the fish.",
+                                "Most batteries made do not contain mercury. The two exceptions are mercuric oxide batteries and button cell batteries. Mercuric oxide batteries are produced for specialized use in military and medical equipment where a stable current and long service life is essential. Button cell batteries are miniature batteries in the shape of a coin or button that are used to provide power for a large variety of small portable electronic devices. The use and disposal of mercury-added button cells are unregulated. They do not have to be labeled; it is legal to dispose of them in the household trash; and they are rarely collected for recycling. Because button batteries currently are not targeted for recycling, almost all of this mercury ends up in the solid waste stream where it is either incinerated or landfilled.",
+                                "Mercury is found in many rocks including coal. When coal is burned at a utility power plant to produce electricity, mercury is released into the environment. Coal-burning power plants are the largest man-made source of mercury emissions to the air, accounting for about half of all domestic human-caused mercury emissions. Using energy-efficient CFLs (Compact Fluorescent Lights) reduces demand for power, which in turn reduces the amount of mercury released into the environment by coal-burning power plants. However, CFLs also contain small amounts of mercury which allows the bulb to be an efficient light source. On average, CFLs contain about four milligrams of mercury sealed within the glass tubing. By comparison, old thermometers contain about 500 milligrams of mercury - an amount equal to the mercury in over 100 CFLs. No mercury is released when the bulbs are intact or in use, but they release mercury vapor when broken or if they are thrown away improperly at the end of their useful lives. The total amount of mercury that could be released into the environment through breakage and improper dumping, however, is small compared to any other form of mercury release.",
+                                "Recycling of mercury-containing products is one of the best ways to help prevent mercury releases into the environment by keeping these products out of landfills and incinerators. Therefore, local agencies must develop collection programs for mercury-containing devices, such as thermometers and thermostats, and recycling programs for fluorescent light bulbs."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 28,
+                                    "question": "As learned from the text, people are exposed to mercury in a variety of ways, ----.",
+                                    "options": [
+                                        "but this is not something to worry about",
+                                        "and the best way of protection is eating a lot of shellfish",
+                                        "the most common of which is by eating sea products",
+                                        "yet authorities are unwilling to do anything about this problem"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap metnin ilk paragrafında: 'The most common way is by eating fish and shellfish'. En yaygın yol deniz ürünleri (sea products) yemektir.",
+                                        "wrong": {
+                                            "0": "Endişelenecek bir şey yok denmiyor, riskler açıklanıyor.",
+                                            "1": "Korunmanın yolu çok deniz ürünü yemek değil, bu maruziyeti artırır.",
+                                            "3": "Yetkililerin isteksiz olduğu bilgisi metinde yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "In paragraph I, which of the following is NOT mentioned as a factor that plays a role in how mercury affects human health?",
+                                    "options": [
+                                        "How old the person is",
+                                        "How healthy the person is",
+                                        "The length of exposure",
+                                        "Knowledge of exposure"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde listelenen faktörler: amount (miktar), duration (süre), type (tür), age (yaş), health (sağlık). Kişinin maruz kaldığını bilip bilmemesi (Knowledge of exposure) listede yoktur.",
+                                        "wrong": {
+                                            "0": "\"How old\" metindeki 'age' faktörüdür.",
+                                            "1": "\"How healthy\" metindeki 'health of the person' faktörüdür.",
+                                            "2": "\"Length of exposure\" metindeki 'duration of exposure' faktörüdür."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "The word pervasive in paragraph I is closest in meaning to ----.",
+                                    "options": [
+                                        "widespread",
+                                        "protective",
+                                        "tiny",
+                                        "likeable"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Pervasive\" her tarafa yayılmış, yaygın demektir. Metinde cıvanın çevredeki yaygın varlığından bahsediliyor.",
+                                        "wrong": {
+                                            "1": "\"Protective\" koruyucu demektir.",
+                                            "2": "\"Tiny\" çok küçük demektir.",
+                                            "3": "\"Likeable\" sevilebilir demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "Paragraph II is mainly concerned with ----.",
+                                    "options": [
+                                        "the weight of sea products in a healthy diet",
+                                        "mercury risks related to consuming fish and shellfish",
+                                        "why most people ignore the fact that fish contain mercury",
+                                        "the effects of mercury on a young child's development"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "İkinci paragrafın ana konusu balık/kabuklu deniz ürünleri tüketimi ve bunun oluşturduğu metil cıva riskleridir.",
+                                        "wrong": {
+                                            "0": "Sadece sağlıklı diyetin parçası denip geçiliyor, ana konu ağırlığı değil.",
+                                            "2": "İnsanların görmezden geldiğinden bahsedilmiyor.",
+                                            "3": "Çocuk gelişimi sadece bir risk örneği olarak veriliyor, paragrafın tamamını kapsamıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "As stated in the text, button cell batteries---.",
+                                    "options": [
+                                        "do not contain mercury",
+                                        "are used in military and medical equipment",
+                                        "are often not recycled",
+                                        "are unsuitable for portable electronic devices"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde 'they are rarely collected for recycling' (nadiren geri dönüştürülmek üzere toplanırlar) ifadesi geçiyor.",
+                                        "wrong": {
+                                            "0": "Tam tersi, cıva içeren iki istisnadan biridir.",
+                                            "1": "Askeri/tıbbi ekipmanlarda kullanılan 'Mercuric oxide' pilleridir, button cell değil.",
+                                            "3": "Tam tersi, taşınabilir cihazlar için kullanıldıkları söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 33,
+                                    "question": "The word which in paragraph IV refers to ----.",
+                                    "options": [
+                                        "a rock that includes coal",
+                                        "coal-burning power plants",
+                                        "human-caused mercury emission",
+                                        "reduced demand for power"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümle: '...reduces demand for power, WHICH in turn reduces...'. Burada 'which', kendinden önceki eylemi yani 'güç talebinin azalmasını' nitelemektedir.",
+                                        "wrong": {
+                                            "0": "Kömürden bahsetmiyor.",
+                                            "1": "Santralleri nitelemiyor, sonucunu niteliyor.",
+                                            "2": "Emisyon sonuçtur, sebep değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "The word dumping in paragraph IV could best be replaced by",
+                                    "options": [
+                                        "purchase",
+                                        "disposal",
+                                        "content",
+                                        "knowledge"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Dumping\" çöpe atmak, elden çıkarmak demektir. Eş anlamlısı \"disposal\"dır.",
+                                        "wrong": {
+                                            "0": "\"Purchase\" satın alma demektir.",
+                                            "2": "\"Content\" içerik demektir.",
+                                            "3": "\"Knowledge\" bilgi demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "According to the text, in terms of the effects on the environment and human health, which of the following is the least harmful?",
+                                    "options": [
+                                        "Compact fluorescent lights",
+                                        "Mercuric oxide batteries",
+                                        "Coal-burning power plants",
+                                        "Miniature batteries"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde CFL ampullerin kırılmasıyla yayılan cıva miktarının 'small compared to any other form of mercury release' (diğer tüm cıva salınım türlerine kıyasla küçük) olduğu belirtiliyor.",
+                                        "wrong": {
+                                            "2": "Kömür santralleri 'largest man-made source' (en büyük kaynak) olarak belirtiliyor.",
+                                            "1": "Pillerin geri dönüştürülmediği ve riskli olduğu söyleniyor.",
+                                            "3": "Minyatür pillerin (button cells) geri dönüşümünün olmadığı ve atık sahalarına gittiği belirtiliyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "The Jury",
+                            "paragraphs": [
+                                "In the US criminal justice system, the opinions of the jury, made up of 12 citizens, play a crucial role. About two percent of all cases are resolved with a jury trial. A panel of citizens observes a trial, and then decides whether the accused is guilty. To be on the panel, commonly known as the jury, citizens are selected and monitored through a process known as voir dire. During this process, jurors are questioned by both the prosecution lawyers and defense lawyers in front of the judge of the case, to evaluate their ability to be fair and impartial. The US justice system holds the assumption that lawyers are in the best position to know of situations that lead to bias within a jury.",
+                                "If the trial's judge finds that a potential juror is not able to serve fairly and impartially, the judge can remove the candidate from consideration. Reasons for exclusion include a relationship to an active member in the trial, financial interest in the outcome of the case, or a clear indication of bias. A judge can remove any number of jurors, but this number rarely exceeds 10 percent of the potential jurors. Additionally, lawyers have the option to remove potential jurors for any reason or no reason at all. Before voir dire begins, the judge sets a limit to how many jurors lawyers can remove.",
+                                "The tactics used in the questioning of the potential jurors rely on the ability of the lawyer to ask the right questions and, in a way, lead the individual into revealing something that he or she may not want to reveal. Lawyers are responsible for the removal of jurors who are not able or willing to consider the lawyer's side of the dispute, rather than the selection of those who can. Lawyers look for jurors who may have life experiences that could lead to prejudices against the lawyer's client or witnesses. Naturally, bias cannot be completely eliminated when different people come together on a single decision, but the lawyers strive to minimize these factors.",
+                                "The voir dire process can take from under an hour to a number of days, depending on the severity of the issues and incidents. Besides the case's severity, the location of the case affects the timeline of the process, varying from state to state. Regarding serious cases like first degree murder, where the federal government and many states can impose death penalty, only persons who are morally capable of considering the seriousness of a death penalty are qualified to serve on the jury. Those qualified go through an extensive voir dire process, determining if the jurors have moral or religious beliefs that would not allow them to sentence someone to death. This process does the same for those who believe in the opposite, that all capital cases should end with the defendant's death."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 36,
+                                    "question": "As we learn from paragraph I, in the US criminal justice system, ---,",
+                                    "options": [
+                                        "relatively few cases are solved with a jury trial",
+                                        "the jury contains a minimum of twelve members",
+                                        "the accused person can choose two of the jury members",
+                                        "members of the jury are paid a certain amount of money"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde 'About two percent of all cases are resolved with a jury trial' (Vakaların sadece yüzde ikisi) deniyor. Bu, oldukça az bir orandır (relatively few).",
+                                        "wrong": {
+                                            "1": "Jüri 12 kişiden oluşur deniyor, minimum sınır belirtilmiyor.",
+                                            "2": "Sanığın seçim hakkından bahsedilmiyor.",
+                                            "3": "Para ödendiğinden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "According to the text, the jury candidates ---",
+                                    "options": [
+                                        "have to pay a fine if they refuse to attend the trials",
+                                        "are questioned before the trial begins",
+                                        "never see the lawyers until the trial begins",
+                                        "are not allowed to speak with lawyers during breaks"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metinde 'citizens are selected... through a process known as voir dire... questioned by both... lawyers' deniyor. Bu sorgulama süreci duruşma öncesi seçim aşamasıdır.",
+                                        "wrong": {
+                                            "0": "Para cezasından bahsedilmiyor.",
+                                            "2": "Avukatlar tarafından sorgulandıkları için onları görüyorlar.",
+                                            "3": "Metinde molalarla ilgili bilgi yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 38,
+                                    "question": "As stated in paragraph II, the judge of a trial .",
+                                    "options": [
+                                        "can be removed from office if he or she is being unfair",
+                                        "is often considered to be less important than the jury members",
+                                        "can restrict the number of jury candidates lawyers can dismiss",
+                                        "can continue a trial with only ten jurors"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap metinde şu cümlede geçiyor: 'the judge sets a limit to how many jurors lawyers can remove'. Yargıç, avukatların çıkarabileceği jüri sayısına sınır koyabilir.",
+                                        "wrong": {
+                                            "0": "Yargıcın görevden alınmasından bahsedilmiyor.",
+                                            "1": "Önem kıyaslaması yapılmıyor.",
+                                            "3": "10 jüri ile devam edilebileceği söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "The word exclusion in paragraph II is closest in meaning to",
+                                    "options": [
+                                        "competence",
+                                        "crime",
+                                        "appraisal",
+                                        "elimination"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Exclusion\" dışlama, hariç tutma demektir. Bu bağlamda adayı jüriden çıkarmak (elimination) anlamındadır.",
+                                        "wrong": {
+                                            "0": "\"Competence\" yetkinlik demektir.",
+                                            "1": "\"Crime\" suç demektir.",
+                                            "2": "\"Appraisal\" değerlendirme demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "According to paragraph III, jury members' life experiences are important ----.",
+                                    "options": [
+                                        "as they may affect the position they take in a trial",
+                                        "but they are often not taken into consideration",
+                                        "so people over a certain age are invited to serve in the jury",
+                                        "because Americans assume that the older you get, the wiser you become"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde 'life experiences that could lead to prejudices against the lawyer's client' deniyor. Yani yaşam tecrübeleri önyargı oluşturabilir ve duruşmadaki tavırlarını etkileyebilir.",
+                                        "wrong": {
+                                            "1": "Tam tersi, avukatlar bunlara bakıyor (look for).",
+                                            "2": "Yaş sınırından bahsedilmiyor.",
+                                            "3": "Yaşlılık ve bilgelik ilişkisinden bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "The word strive in paragraph III could best be replaced by ---",
+                                    "options": [
+                                        "omit",
+                                        "struggle",
+                                        "confess",
+                                        "emit"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Strive\" çabalamak, uğraşmak demektir. Eş anlamlısı \"struggle\" veya \"try hard\"dır.",
+                                        "wrong": {
+                                            "0": "\"Omit\" dahil etmemek, atlamak demektir.",
+                                            "2": "\"Confess\" itiraf etmek demektir.",
+                                            "3": "\"Emit\" yaymak (gaz, ışık vb.) demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "According to the text, the selection process of the jury members ---",
+                                    "options": [
+                                        "has been in use since the nineteenth century",
+                                        "has begun to cause concern",
+                                        "may take many days",
+                                        "has nothing to do with the location of the case"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde 'can take from under an hour to a number of days' (birkaç gün sürebilir) ifadesi yer alıyor.",
+                                        "wrong": {
+                                            "0": "Tarihçesinden bahsedilmiyor.",
+                                            "1": "Endişe yarattığından bahsedilmiyor.",
+                                            "3": "Metinde 'location... affects the timeline' (konum süreci etkiler) deniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "The word those in paragraph IV refers to ----.",
+                                    "options": [
+                                        "incidents",
+                                        "cases",
+                                        "states",
+                                        "persons"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cümle: 'Those qualified go through...'. Burada 'Those', bir önceki cümlede bahsedilen 'persons who are morally capable' (ahlaki olarak yeterli kişiler) grubuna atıfta bulunur.",
+                                        "wrong": {
+                                            "0": "Olaylar (incidents) sorgudan geçmez.",
+                                            "1": "Davalar (cases) sorgudan geçmez.",
+                                            "2": "Eyaletler (states) sorgudan geçmez."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

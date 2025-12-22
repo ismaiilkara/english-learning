@@ -1,0 +1,1118 @@
+    {
+        "id": 1,
+        "title": "ITU Proficiency Exam",
+        "sections": {
+            "reading": {
+                "parts": [
+                    {
+                        "type": "cloze",
+                        "title": "Cloze Test",
+                        "passage": {
+                            "title": "Alan Turing and Enigma",
+                            "text": "Alan Turing, (1)_____ is often called the father of modern computing, played a pivotal role during World War II. He worked at Bletchley Park, the British codebreaking center, (2)_____ a team of mathematicians (3)_____ to decipher the German Enigma code. The Enigma machine was a complex device that (4)_____ impossible to break. (5)_____ Turing and his team built their own machine, the \"Bombe,\" they were able to automate the decryption process. (6)_____ his contributions, Turing (7)_____ terribly by the British government after the war. If his work (8)_____ secret for so long, he (9)_____ recognized as a hero much earlier. It wasn't until 2009 that the British Prime Minister (10)_____ an official public apology for his treatment."
+                        },
+                        "questions": [
+                            {
+                                "id": 1,
+                                "options": [
+                                    "which",
+                                    "that",
+                                    "who",
+                                    "whose"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"who\" doğru çünkü bir kişiye (Alan Turing) atıfta bulunan özne ilgi zamiri gerekiyor. Virgülden sonra non-restrictive (açıklayıcı) yan cümle başlıyor.",
+                                    "wrong": {
+                                        "0": "\"which\" nesneler ve cansızlar için kullanılır, kişiler için değil.",
+                                        "1": "\"that\" virgülden sonra gelen non-restrictive yan cümlelerde kullanılamaz.",
+                                        "3": "\"whose\" iyelik (sahiplik) bildirir, burada özne zamiri gerekiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "options": [
+                                    "that",
+                                    "where",
+                                    "when",
+                                    "which"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"where\" doğru çünkü Bletchley Park bir yer ve yan cümlede bu yeri tanımlıyoruz (orada bir ekiple çalıştı).",
+                                    "wrong": {
+                                        "0": "\"that\" yer belirten bağlaçlarla kullanılmaz, ayrıca virgülden sonra non-restrictive kullanılamaz.",
+                                        "2": "\"when\" zaman belirtir, burada yer belirtilmesi gerekiyor.",
+                                        "3": "\"which\" nesnelere atıfta bulunur ama burada yer zarfı (adverbial) gerekiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "options": [
+                                    "led",
+                                    "leads",
+                                    "was leading",
+                                    "has led"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"led\" (V2) doğru çünkü \"a team\" ifadesi önceki cümledeki özne (he = Turing) ile devam ediyor. Past simple ile paralel yapı oluşturuyor.",
+                                    "wrong": {
+                                        "1": "\"leads\" present tense, hikâye geçmişte anlatılıyor.",
+                                        "2": "\"was leading\" süregelen bir eylem ifade eder, burada basit geçmiş gerekiyor.",
+                                        "3": "\"has led\" present perfect, geçmiş zaman bağlamında kullanılamaz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "options": [
+                                    "considered",
+                                    "was considering",
+                                    "had considered",
+                                    "was considered"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "\"was considered\" doğru çünkü passive voice gerekiyor - Enigma makinesi başkaları tarafından 'impossible' olarak değerlendiriliyordu.",
+                                    "wrong": {
+                                        "0": "\"considered\" active voice, ama özne (machine) eylemi yapan değil, eyleme maruz kalan.",
+                                        "1": "\"was considering\" makine düşünemez, passive gerekiyor.",
+                                        "2": "\"had considered\" past perfect active, burada passive gerekiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "options": [
+                                    "If",
+                                    "Although",
+                                    "After",
+                                    "Unless"
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "\"After\" doğru çünkü zaman sıralaması var: önce Bombe'u yaptılar, sonra şifreleri çözebildiler. Neden-sonuç ilişkisi zaman sırasıyla ifade ediliyor.",
+                                    "wrong": {
+                                        "0": "\"If\" koşul cümlesi başlatır, burada zaman ilişkisi var.",
+                                        "1": "\"Although\" zıtlık bildirir, burada zıtlık yok.",
+                                        "3": "\"Unless\" olumsuz koşul bildirir, anlam uymuyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "options": [
+                                    "Instead of",
+                                    "Despite",
+                                    "However",
+                                    "Because of"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"Despite\" (rağmen) doğru çünkü katkılarına RAĞMEN kötü muamele gördü - beklenmedik bir zıtlık var.",
+                                    "wrong": {
+                                        "0": "\"Instead of\" yerine anlamında, zıtlık değil alternatif bildirir.",
+                                        "2": "\"However\" bağlaç olarak kullanılır, isim öbeğinden önce gelmez.",
+                                        "3": "\"Because of\" neden-sonuç bildirir, burada zıtlık var."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "options": [
+                                    "treated",
+                                    "was treated",
+                                    "had treated",
+                                    "has been treated"
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "\"was treated\" doğru çünkü Turing eylemden etkilenen (passive) ve olaylar geçmişte yaşandı.",
+                                    "wrong": {
+                                        "0": "\"treated\" active voice ama Turing muamele eden değil, muamele gören.",
+                                        "2": "\"had treated\" active past perfect, passive gerekiyor.",
+                                        "3": "\"has been treated\" present perfect, geçmiş zaman bağlamında uygun değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "options": [
+                                    "hadn't been kept",
+                                    "wasn't kept",
+                                    "wouldn't be kept",
+                                    "didn't keep"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"hadn't been kept\" doğru çünkü Type 3 Conditional (geçmişte gerçekleşmemiş durum). If + past perfect passive yapısı gerekiyor.",
+                                    "wrong": {
+                                        "1": "\"wasn't kept\" Type 2 Conditional için kullanılır, burada Type 3 var.",
+                                        "2": "\"wouldn't be kept\" ana cümle yapısı, if clause için uygun değil.",
+                                        "3": "\"didn't keep\" active voice, burada passive gerekiyor (iş sır olarak tutuldu)."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "options": [
+                                    "would be",
+                                    "had been",
+                                    "will have been",
+                                    "would have been"
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "\"would have been\" doğru çünkü Type 3 Conditional'ın ana cümlesi: geçmişte gerçekleşmemiş bir durumun sonucu.",
+                                    "wrong": {
+                                        "0": "\"would be\" Type 2 için kullanılır, burada Type 3 gerekiyor.",
+                                        "1": "\"had been\" if clause için, ana cümle için değil.",
+                                        "2": "\"will have been\" future perfect, conditional yapıda kullanılmaz."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 10,
+                                "options": [
+                                    "issued",
+                                    "was issuing",
+                                    "had issued",
+                                    "has issued"
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "\"issued\" (simple past) doğru çünkü belirli bir geçmiş zaman (2009) verilmiş ve tamamlanmış bir eylem.",
+                                    "wrong": {
+                                        "1": "\"was issuing\" süregelen eylem için, tek seferlik resmi bir açıklama için uygun değil.",
+                                        "2": "\"had issued\" başka bir geçmiş olaydan önce tamamlanmış eylem için, burada tek olay var.",
+                                        "3": "\"has issued\" present perfect, belirli geçmiş zaman (2009) ile kullanılmaz."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "restatement",
+                        "title": "Restatement",
+                        "questions": [
+                            {
+                                "id": 1,
+                                "statement": "Because they aren't used to danger from animals on the ground, penguins exhibit no fear of humans.",
+                                "options": [
+                                    "No land animals bother penguins, so humans should not harm them if they see them.",
+                                    "Threats for penguins come from the sea, not land, but humans are the exception to this.",
+                                    "Not having been attacked while on land, penguins are not afraid when they meet humans.",
+                                    "Penguins have never got accustomed to threats outside the sea, so they have trouble getting used to people."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "C şıkkı orijinal anlamı koruyor: Karada tehlikeye alışık olmadıkları için (= saldırıya uğramadıkları için) insanlardan korkmuyorlar.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'insanlar onlara zarar vermemeli' diyor - orijinalde böyle bir tavsiye yok.",
+                                        "1": "B şıkkı 'insanlar bunun istisnası' diyor - orijinalde insanlar tehdit olarak gösterilmiyor.",
+                                        "3": "D şıkkı 'insanlara alışmakta zorlanıyorlar' diyor - orijinalde tam tersi, korkmuyorlar."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 2,
+                                "statement": "Each penguin has a distinct call, allowing individuals to find their mate and their chicks even in large groups.",
+                                "options": [
+                                    "It is possible for a penguin to locate its chicks and mate in a crowd of penguins due to the unique call of each one.",
+                                    "Since all penguins don't have the same call, there is a chance for a penguin to identify its mate or chick in a crowd.",
+                                    "A large group of penguins permits a single penguin to make its call, and this results in the penguin finding its mate or chicks.",
+                                    "It has been discovered that the sound of each penguin is different than that of its mate, its chicks, and even every other penguin in a large group."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "A şıkkı orijinal anlamı tam olarak veriyor: Her penguenin kendine özgü sesi sayesinde eşini ve yavrularını kalabalıkta bulabilir.",
+                                    "wrong": {
+                                        "1": "B şıkkı 'bir şans var' diyor - orijinalde kesinlik ifade ediliyor ('allowing'), olasılık değil.",
+                                        "2": "C şıkkı nedenselliği yanlış kuruyor - kalabalık ses çıkarmaya izin vermiyor, ses zaten var.",
+                                        "3": "D şıkkı 'keşfedildi' diyor ve odağı sesin farklılığına çeviriyor, bulma işlevine değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 3,
+                                "statement": "Penguins gather in groups to keep warm, rotating positions to enable each penguin to have a turn in the center of the heat pack.",
+                                "options": [
+                                    "Penguins are unable to stay warm unless they form heat packs where the penguins in the center keep turning around.",
+                                    "Groups of penguins form heat packs, and penguins struggle to move to the center so that they can warm themselves up.",
+                                    "Penguins produce a lot of heat by constantly changing the bird in the center of the group, or heat pack, so they stay warm even in cold weather.",
+                                    "The reason why penguins come together in groups is for warmth, and they take turns being in the middle, providing every penguin a chance to be in the warm spot."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "D şıkkı orijinali doğru yansıtıyor: Isınmak için toplanıyorlar ve sırayla ortada durarak herkesin sıcak noktada olma şansı oluyor.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'yapamıyorlar (unless)' diyor - orijinalde zorunluluk değil, tercih var.",
+                                        "1": "B şıkkı 'mücadele ediyorlar (struggle)' diyor - orijinalde düzenli bir dönüşüm var, rekabet değil.",
+                                        "2": "C şıkkı 'çok ısı üretiyorlar' diyor - orijinalde ısı üretimi değil, ısıyı paylaşma var."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 4,
+                                "statement": "Penguins generally share duties to keep their eggs warm, and one turn can last for weeks as the other member of the pair feeds at sea.",
+                                "options": [
+                                    "Most types of penguins split duties by having one of the mates hunt in the sea for weeks and having the other keep the eggs from getting cold.",
+                                    "Mates that take turns warming their eggs increase their chance of success, so one penguin looks after the eggs while the other collects food at sea.",
+                                    "In general, penguins divide the task of watching eggs; one warms the eggs while the other finds food at sea, sometimes for a period of a few weeks at a time.",
+                                    "Making sure eggs stay warm is often a shared task for penguins, but one of the mate's may have to watch the eggs for the entire time if the other takes a few weeks to find food."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "C şıkkı orijinali doğru aktarıyor: Genellikle görev paylaşımı yapılır; biri kuluçkada, diğeri denizde, bazen haftalarca.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'çoğu tür' diyor - orijinalde 'generally' (genellikle) davranış biçimi anlatılıyor.",
+                                        "1": "B şıkkı 'başarı şansını artırır' diyor - orijinalde başarı oranından bahsedilmiyor.",
+                                        "3": "D şıkkı 'biri tüm süre boyunca beklemek zorunda kalabilir' diyor - koşullu bir ifade ekliyor, orijinalde yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "statement": "The first public bus line opened in Paris in 1662 and was enjoying growing popularity until fares were increased and access to the service was restricted to the upper class.",
+                                "options": [
+                                    "The public would have been willing to use the first bus line, introduced in Paris in 1662, but the cost and conflict with the upper class limited its success.",
+                                    "The expense and the refusal of the upper class to ride on the same bus as others prevented the first public bus line, started in Paris in 1662, from being a commercial success.",
+                                    "Beginning operations in France in 1662, the first bus line for the public was gaining more and more users, but then the price was raised and its use was limited to higher class people.",
+                                    "Having opened in Paris in 1662, the world's first public bus line was unable to maintain regular customers when it increased the cost of tickets and prevented some people in the upper class from using it."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "C şıkkı orijinali doğru veriyor: 1662'de başladı, popülerlik kazanıyordu, sonra fiyatlar arttı ve üst sınıfa kısıtlandı.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'istekli olurdu (would have been)' diyor - varsayımsal, ama orijinalde gerçekten popülerdi.",
+                                        "1": "B şıkkı 'üst sınıfın reddi' diyor - orijinalde üst sınıf reddetmiyor, aksine hizmet onlara kısıtlanıyor.",
+                                        "3": "D şıkkı 'üst sınıftakilerin kullanmasını engelledi' diyor - tam tersi, üst sınıfa kısıtlandı."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "statement": "In 1828, another public bus line in Paris went bankrupt when the fare collectors kept too much of the money.",
+                                "options": [
+                                    "In 1828 in Paris, fare collectors could have kept a large portion of the money, making one more public bus line collapse.",
+                                    "Fare collectors holding on to more money than they should have kept led to the fall of another public bus line in Paris in 1828.",
+                                    "People collecting money from passengers must have been paid high wages as one more public bus line went out of business in Paris in 1828.",
+                                    "Trying to get enough money from passengers must have been difficult, and fare collectors kept a great deal of it, causing another public bus line in Paris in 1828 to be unsuccessful."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "B şıkkı orijinali doğru aktarıyor: Bilet toplayıcıların gereğinden fazla parayı tutması başka bir otobüs hattının batmasına yol açtı.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'tutmuş olabilirdi (could have)' diyor - olasılık değil, gerçekleşmiş bir olay.",
+                                        "2": "C şıkkı 'yüksek maaş almış olmalılar' diyor - parayı zimmetlerine geçirdiler, maaş değil.",
+                                        "3": "D şıkkı 'para toplamak zor olmuş olmalı' diyor - zorluktan değil, zimmetten bahsediliyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "statement": "Tramways came out around 1860 shortly after steel had begun to be mass produced and, compared to other forms of public transportation, they were faster and more comfortable.",
+                                "options": [
+                                    "Gaining customers while steel was becoming widespread in the early 1860s, tramways were well-liked both for their quickness and smooth ride.",
+                                    "Public transport had improved in speed and comfort by the time tramways came into use around 1860, when the steel industry was developing quickly.",
+                                    "First used about 1860, a bit after steel was manufactured in large quantities, tramways moved more quickly and gave a more pleasant ride than other forms of public transport.",
+                                    "Public transport which arrived faster and offered greater comfort was needed around 1860, and tramways, which made use of large amounts of steel, provided these benefits."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "C şıkkı orijinali doğru veriyor: 1860 civarında, çelik üretiminden kısa süre sonra çıktı; diğer ulaşım araçlarından daha hızlı ve konforlu.",
+                                    "wrong": {
+                                        "0": "A şıkkı karşılaştırmayı atlamış - 'diğer ulaşım araçlarına göre' ifadesi yok.",
+                                        "1": "B şıkkı 'ulaşım zaten iyileşmişti' diyor - tramvaylar iyileştirme getirdi, önceden değil.",
+                                        "3": "D şıkkı 'ihtiyaç vardı' diyor - orijinalde ihtiyaçtan bahsedilmiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 8,
+                                "statement": "Tramways with metal wheels on steel rails allowed horses to pull a greater load with less effort compared with earlier forms of transport.",
+                                "options": [
+                                    "Horses were made to pull heavier loads even after tramways started to make use of steel rails and metal wheels.",
+                                    "After tramways using metal wheels on steel rails were introduced, horses could transport more goods yet did not work as hard.",
+                                    "The first forms of transport were hard on horses, but tramways had metal wheels and steel rails, greatly reducing their burden.",
+                                    "Putting metal wheels on steel rails made the development of tramways possible and decreased the number of horses used for transport."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "B şıkkı orijinali doğru aktarıyor: Çelik ray ve metal tekerleklerle atlar daha fazla yük taşıyabildi ama daha az yoruldu.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'daha ağır yük TAŞIMAYA ZORLANDILAR' diyor - kolaylaştı, zorlaşmadı.",
+                                        "2": "C şıkkı 'önceki ulaşım atlar için zordu' diyor - karşılaştırma var ama 'daha fazla yük' ifadesi yok.",
+                                        "3": "D şıkkı 'at sayısını azalttı' diyor - orijinalde at sayısından bahsedilmiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 9,
+                                "statement": "In ancient Roman cities, a large part of the population had to buy their food from street vendors since their homes did not have any cooking facilities.",
+                                "options": [
+                                    "Due to the lack of cooking facilities in ancient Roman homes, it was necessary for most city dwellers to prepare food on the street.",
+                                    "Living in houses where they could not make food, many residents of ancient Roman cities needed to get food from street sellers.",
+                                    "The majority of ancient Romans preferred food bought on the street to food made in their homes due to the poor condition of their kitchens.",
+                                    "The amount of food that ancient Romans bought from the street shows that most of them must not have been able to cook well in their homes."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "B şıkkı orijinali doğru veriyor: Evlerinde yemek yapamadıkları için sokak satıcılarından yemek almak zorundaydılar.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'sokakta yemek HAZIRLAMA' diyor - satın alma değil, hazırlama farklı.",
+                                        "2": "C şıkkı 'tercih ettiler' diyor - orijinalde tercih değil, zorunluluk var.",
+                                        "3": "D şıkkı 'iyi pişirememiş olmalılar' diyor - mutfak yeteneği değil, tesis eksikliği söz konusu."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 10,
+                                "statement": "Fast food has always been associated with urban development, and whenever highly-populated areas develop, fast food is present.",
+                                "options": [
+                                    "Fast food brings about expanding cities, and places with large populations never lack fast food providers.",
+                                    "Fast food and growing cities have always been linked, and fast food is always available in places where population grows.",
+                                    "Since fast food and urban development are closely related, the higher the population, the greater the variety of fast food.",
+                                    "There is a connection between bigger cities and fast food, and you can buy fast food any time of the day in well-developed urban areas."
+                                ],
+                                "answer": 1,
+                                "explanation": {
+                                    "correct": "B şıkkı orijinali doğru aktarıyor: Fast food ve kentsel gelişim hep bağlantılı olmuş; nüfus artan yerlerde fast food var.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'fast food şehirlerin büyümesine NEDEN OLUYOR' diyor - orijinalde nedensellik yok, birliktelik var.",
+                                        "2": "C şıkkı 'çeşitlilik artar' diyor - orijinalde çeşitlilikten bahsedilmiyor.",
+                                        "3": "D şıkkı 'günün her saati' diyor - orijinalde çalışma saatlerinden bahsedilmiyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 11,
+                                "statement": "Worries of an obesity epidemic have inspired government officials to restrict fast-food restaurants.",
+                                "options": [
+                                    "Limits on fast-food restaurants are a result of concerns by government over the quickly increasing rate of obesity.",
+                                    "A growing number of obese people are putting pressure on government to put restrictions on fast-food restaurants.",
+                                    "Government is annoyed with the fast-food industry and has been trying to find a solution to the large number of obesity cases.",
+                                    "Governments have realized the consequences of obesity and have identified fast-food restaurants as the source of the problem."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "A şıkkı orijinali doğru veriyor: Obezite salgını endişesi hükümet yetkililerini fast-food restoranlarını kısıtlamaya yöneltti.",
+                                    "wrong": {
+                                        "1": "B şıkkı 'obez insanlar baskı yapıyor' diyor - orijinalde halk baskısı değil, hükümet endişesi var.",
+                                        "2": "C şıkkı 'hükümet kızgın (annoyed)' diyor - orijinalde kızgınlık değil, endişe var.",
+                                        "3": "D şıkkı 'fast-food'u sorunun KAYNAĞI olarak belirledi' diyor - orijinalde kaynak tespiti yok."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 12,
+                                "statement": "Youth find money from jobs in the fast food industry appealing but fail to consider that the time spent on these jobs does little to help them build a successful career.",
+                                "options": [
+                                    "It is exciting for young people to earn their own money from a job in the fast food industry while taking the first step toward a profitable career.",
+                                    "Having a job in the fast food industry encourages young people to spend too much money while also preventing them from focusing on their long-term career.",
+                                    "Although youth benefit from the wages they get from a job in the fast food industry, their earnings are not enough to support them if they continue with these jobs throughout their career.",
+                                    "Jobs in the fast food industry provide money for young people, attracting them to these jobs, but they do not think about the fact that experience from these jobs does almost nothing for them in the long term."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "D şıkkı orijinali doğru aktarıyor: Para çekici geliyor ama bu işlerin uzun vadede kariyerlerine faydası olmadığını düşünmüyorlar.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'karlı kariyere ilk adım' diyor - orijinalde tam tersi, kariyer için faydası yok.",
+                                        "1": "B şıkkı 'çok para harcamaya teşvik ediyor' diyor - orijinalde harcama değil, kazanma var.",
+                                        "2": "C şıkkı 'kazançları yeterli değil' diyor - orijinalde maaş miktarı değil, deneyimin faydası tartışılıyor."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 13,
+                                "statement": "It is very important for astronauts to exercise while in orbit in order to minimize the loss of muscle mass.",
+                                "options": [
+                                    "When orbiting the Earth, a limited exercise program is essential for astronauts wanting to remain strong.",
+                                    "Exercise for astronauts in orbit is of great importance due to the importance of physical strength in their work.",
+                                    "That astronauts work out while orbiting the Earth is crucial for the prevention of loss of muscle mass.",
+                                    "What is critical for astronauts in space is that they do not put off their exercise program, which focuses on muscle building."
+                                ],
+                                "answer": 2,
+                                "explanation": {
+                                    "correct": "C şıkkı orijinali doğru veriyor: Yörüngede egzersiz yapmaları kas kaybını önlemek için çok önemli.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'sınırlı egzersiz programı' diyor - orijinalde sınırlılıktan bahsedilmiyor.",
+                                        "1": "B şıkkı 'işlerinde fiziksel güç önemli olduğu için' diyor - orijinalde neden kas kaybını önlemek.",
+                                        "3": "D şıkkı 'kas geliştirme (building)' diyor - orijinalde kaybı önleme var, geliştirme değil."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 14,
+                                "statement": "The fear that the first astronauts to the Moon might have acquired a dangerous disease led them to be isolated for 21 days when they returned to Earth.",
+                                "options": [
+                                    "Fearing that the first astronauts who went to the Moon could be bringing back a serious sickness, authorities kept them in isolation for their first 21 days back on Earth.",
+                                    "The belief that the first astronauts to the moon had an infectious disease came about after they were made to remain separate for 21 days after their return to Earth.",
+                                    "The reason the first lunar astronauts spent 21 days in isolation upon returning to Earth may have been the fear of threatening diseases that were thought to exist on the Moon.",
+                                    "Hoping to learn if the illness brought back by the astronauts who had made the first trip to the Moon would be threatening, the government forced them to remain separate for 21 days after coming back to Earth."
+                                ],
+                                "answer": 0,
+                                "explanation": {
+                                    "correct": "A şıkkı orijinali doğru aktarıyor: Hastalık taşıyor olabilecekleri korkusuyla yetkililer onları 21 gün izole tuttu.",
+                                    "wrong": {
+                                        "1": "B şıkkı 'inanç izolasyondan SONRA oluştu' diyor - orijinalde korku ÖNCE vardı, izolasyona neden oldu.",
+                                        "2": "C şıkkı 'olmuş olabilir (may have been)' diyor - orijinalde kesinlik var, olasılık değil.",
+                                        "3": "D şıkkı 'hastalığın tehditkar olup olmadığını öğrenmeyi umarak' diyor - test için değil, önlem için izole edildi."
+                                    }
+                                }
+                            },
+                            {
+                                "id": 15,
+                                "statement": "Many different partners are contributing to the design and construction of the International Space Station, which makes it a symbol of cooperation in space exploration.",
+                                "options": [
+                                    "Many different teams took part in building the International Space station, which will facilitate competition on space projects and gains in space exploration.",
+                                    "The International Space Station was too complex a project for any one country to attempt, so its layout and construction were done by an international team.",
+                                    "The unique factor about the International Space Station is the number of people who took part in planning and building it, making it one of the largest projects ever.",
+                                    "The design and building of the International Space Station, which has many contributors, are positive examples of how diverse groups can work together to explore space."
+                                ],
+                                "answer": 3,
+                                "explanation": {
+                                    "correct": "D şıkkı orijinali doğru veriyor: Birçok katkıda bulunan ortakla tasarım ve inşaat, uzay keşfinde işbirliğinin sembolü.",
+                                    "wrong": {
+                                        "0": "A şıkkı 'rekabeti kolaylaştıracak' diyor - orijinalde işbirliği var, rekabet değil.",
+                                        "1": "B şıkkı 'tek ülke için çok karmaşıktı' diyor - orijinalde karmaşıklıktan değil, işbirliği sembolünden bahsediliyor.",
+                                        "2": "C şıkkı 'en büyük projelerden biri' diyor - orijinalde büyüklük değil, işbirliği vurgulanıyor."
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "reading",
+                        "title": "Reading Comprehension",
+                        "texts": [
+                            {
+                                "id": 1,
+                                "title": "Penguins",
+                                "paragraphs": [
+                                    "Penguins, which are a group of aquatic, flightless birds living almost exclusively in Antarctica, breed by producing eggs. Penguins sit on their eggs in order to keep them warm until they hatch, which is a process called incubation. Both parents take turns in incubating the eggs, which typically lasts for eight weeks, although larger eggs from larger penguins might take a little longer. When the chick is fully developed, it carefully chisels its way out of the egg using its tiny and sharp beak. Upon emerging, the chicks are dependent on their parents to protect them from some dangers such as predators and for their daily supply of food. Adults recognize and feed only their own chick, which they are able to identify by its distinctive call.",
+                                    "As in the incubation stage, both parents care for their young by alternating between the roles of food gatherer and guardian of the nest. The young are always in close proximity to their parents, either sitting on their parents' feet or under their bellies. Since the chicks cannot be left unprotected, they are also gathered together in groups, often tightly packed together for extra security and warmth. As days go by, a thick protective coat of soft feathers begins to grow which keeps the chicks warm and slowly allows them to seek independence from the nest within confined limits on the ice. As the chicks rapidly put on weight, providing adequate quantities of food becomes a problem, so both parents need to hunt.",
+                                    "When the chicks reach a size approximating their parents, they lose their initial coat of feathers, a process called molting. New feathers grow beneath the old ones, and when the new feathers are completely grown, they push the old ones out. The time from birth to the stage when molting begins can vary from about six weeks to double that time in most species, but some penguin groups take many months. When this process is over, penguins are ready to take their first trips out to sea. The first few weeks at sea are critical. The young need to quickly learn where the best places to catch their food are and how to avoid the predators that stay hidden in the sea. The research that has been done so far indicates that less than one half of the young penguins that go out to sea each year survive into adulthood.",
+                                    "At the one-year stage, molting happens again, at which point the young start to look very much like their parents. At age two, most species of penguin are biologically programmed to turn their attention to breeding. Breeding then takes place every year. Penguins in the wild probably live up to about 20 years of age, although this number is decreasing due to various factors. Historians believe that for centuries indigenous peoples have hunted some species of penguins and taken their eggs. Today, colonies of penguins have been affected by building activities and road construction. Also sea ice, which provides shelter and feeding areas for penguins, has been shrinking rapidly due to an increase in the average temperature of the seas, which causes them to have a shorter life."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 1,
+                                        "question": "The article is mainly about ----.",
+                                        "options": [
+                                            "the breeding habits of penguins",
+                                            "the life cycle of penguins",
+                                            "diet and eating habits of penguins",
+                                            "physical characteristics of penguins"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Makale doğumdan (incubation) yetişkinliğe (breeding at age 2) kadar penguenlerin yaşam döngüsünü anlatıyor - her paragraf farklı bir yaşam evresini kapsıyor.",
+                                            "wrong": {
+                                                "0": "Üreme sadece son paragrafta kısaca bahsediliyor, ana konu değil.",
+                                                "2": "Beslenme birkaç yerde geçiyor ama ana odak değil.",
+                                                "3": "Fiziksel özellikler sadece tüyler bağlamında geçiyor, ana konu değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 2,
+                                        "question": "The word chisels in paragraph 1 could best be replaced by ----.",
+                                        "options": [
+                                            "empties",
+                                            "jumps",
+                                            "cuts",
+                                            "shakes"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "\"Chisel\" bir keskiyle oymak/kesmek demektir. Civciv gagasıyla yumurtayı 'keserek' çıkıyor. Paragraf 1: 'chisels its way out... using its tiny and sharp beak'",
+                                            "wrong": {
+                                                "0": "\"Empties\" boşaltmak demek - yumurtadan çıkma eylemini tanımlamıyor.",
+                                                "1": "\"Jumps\" zıplamak - yumurtadan çıkma şeklini tanımlamıyor.",
+                                                "3": "\"Shakes\" sallamak - kesme eylemiyle ilgisi yok."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 3,
+                                        "question": "One can understand from paragraph 1 that ----.",
+                                        "options": [
+                                            "the length of incubation may depend on the size of the egg",
+                                            "parents distinguish their offspring by smelling them",
+                                            "predators that could harm chicks are usually birds",
+                                            "baby penguins are sometimes fed by other chicks"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 1: 'although larger eggs from larger penguins might take a little longer' - büyük yumurtaların kuluçka süresi daha uzun olabilir.",
+                                            "wrong": {
+                                                "1": "Paragrafta 'identify by its distinctive call' yazıyor - ses ile, koku ile değil.",
+                                                "2": "Paragrafta avcıların türünden bahsedilmiyor.",
+                                                "3": "Paragrafta 'feed only their own chick' yazıyor - sadece kendi yavrularını besliyorlar."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 4,
+                                        "question": "According to paragraph 2, before chicks grow their feathers, both parents ----.",
+                                        "options": [
+                                            "abandon their young when its protective feathers fully grow",
+                                            "incubate new eggs when their chick becomes independent of them",
+                                            "take turns collecting food and providing protection for their growing young",
+                                            "also need security and warmth to survive and feed their offspring"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: 'both parents care for their young by alternating between the roles of food gatherer and guardian' - sırayla yemek toplama ve koruma görevlerini üstleniyorlar.",
+                                            "wrong": {
+                                                "0": "Paragrafta terk etmekten bahsedilmiyor.",
+                                                "1": "Paragrafta yeni yumurta kuluçkasından bahsedilmiyor.",
+                                                "3": "Ebeveynlerin sıcaklık ihtiyacından değil, yavruların ihtiyacından bahsediliyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 5,
+                                        "question": "It is stated in paragraph 3 that ----.",
+                                        "options": [
+                                            "molting is a feather-changing process that lasts for at least six weeks",
+                                            "when molting ends, penguins leave the nest for the sea",
+                                            "molting begins by the time penguins reach three months of age at latest",
+                                            "many months after molting, penguins change their feathers"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'When this process is over, penguins are ready to take their first trips out to sea' - tüy değişimi bitince denize gidiyorlar.",
+                                            "wrong": {
+                                                "0": "6 hafta tüy değişiminin süresi değil, başlaması için gereken süre.",
+                                                "2": "Paragrafta 'some penguin groups take many months' diyor - 3 ay sınırı yok.",
+                                                "3": "Tüy değişimi SONRA değil, denize gitmeden ÖNCE oluyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 6,
+                                        "question": "One CANNOT infer from paragraph 4 that one of the reasons why average life expectancy of penguins is decreasing is ----.",
+                                        "options": [
+                                            "predators",
+                                            "climate change",
+                                            "loss of habitat",
+                                            "human impact"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 4'te avcılardan (predators) bahsedilmiyor. Bahsedilen nedenler: avcılık (hunting), inşaat (building), iklim değişikliği (sea ice shrinking).",
+                                            "wrong": {
+                                                "1": "Paragrafta 'shrinking due to increase in temperature' var - iklim değişikliği.",
+                                                "2": "Paragrafta 'building activities and road construction' var - habitat kaybı.",
+                                                "3": "Paragrafta 'indigenous peoples have hunted' ve 'building activities' var - insan etkisi."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 7,
+                                        "question": "Which one of the following statements is FALSE according to the text?",
+                                        "options": [
+                                            "Parents can recognize the sound of their own chicks.",
+                                            "Because growing penguins eat more and more, both parents need to gather food.",
+                                            "Many young penguins that go to sea die there.",
+                                            "Penguins, which breed every year, can produce young before two years of age."
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "YANLIŞ ifade: Paragraf 4'te 'At age two, most species... turn their attention to breeding' yazıyor - 2 yaşında üreme başlıyor, daha önce değil.",
+                                            "wrong": {
+                                                "0": "DOĞRU: Paragraf 1'de 'identify by its distinctive call' yazıyor.",
+                                                "1": "DOĞRU: Paragraf 2'de 'chicks rapidly put on weight... both parents need to hunt' yazıyor.",
+                                                "2": "DOĞRU: Paragraf 3'te 'less than one half... survive into adulthood' yazıyor."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 2,
+                                "title": "Trams in Melbourne",
+                                "paragraphs": [
+                                    "After World War II, it seemed as though motorised transport would dominate all forms of transport. However, people had little idea of the traffic congestion that would arise in cities throughout the world due to motorized transport. The tram was seen as old-fashioned and a symbol of past ways of doing things. Consequently, many European cities merely tore up their tramlines and laid asphalt roads, whose smooth and dust free surface allowed buses to run easily. There was one city which resisted the trend to shut down its tramway network: Melbourne, Australia. Melbourne was distinctive due to its preservation of trams, a policy decision that has proved to be highly beneficial. Afterward, other cities bitterly regretted their phasing out of trams in the middle of the century, only to plan for their reintroduction decades later.",
+                                    "Sir Robert Risson, the Chairman of the Melbourne and Metropolitan Tramways Board (MMTB), successfully argued that trams should be retained, despite press campaigns for their closure. Unlike tramways in most European cities, Melbourne's tramways undertook an expansion and modernization program following World War II thanks to Risson. In the 1940s, he introduced modern vehicles and utilized mass-concrete tram track construction methods. He stated that any government wishing to abolish trams would see the loss of that considerable investment. Risson's fight for trams meant that the Bourke St. bus service, which came into use in place of a tramline, was replaced by a new tram in time for the Melbourne Olympics of 1956.",
+                                    "Conserving trams was particularly beneficial for Melbourne because the city's wide streets and geometric street pattern made trams more practical than in many other cities. Also, the infrastructure of the trams and vehicles were in good condition as they were maintained by Risson in the 1930s before World War II. This shattered the argument used by many other cities, which was that renewal of the tram system would cost more than replacing it with buses. However, trams in Melbourne didn't have to be renewed at least for 30 years. Risson, who had to deal with disputes regarding trams, was helped in his efforts by local unions which insisted that if a tram were to be replaced by a bus, it would need to be operated by a two-man crew. After the unions made the government do this, the economics were not in favor of the bus any more.",
+                                    "Even by the mid-70s, it had become clear how insightful Risson had been. By that time, as other cities where tram lines were slowly replaced by bus lines became more and more adversely affected by traffic and air pollution, Melbourne was convinced that its decision to retain its trams had been the correct one. Even conservative governments, who were no friends of the MMTB and did not grant heavy financial aid to public transport, viewed the trams as valuable city assets and agreed to further investments in new trams. As the century closed, new tram designs were still being introduced and that trend has continued in the early years of this century."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 8,
+                                        "question": "It is stated in paragraph 1 that ----.",
+                                        "options": [
+                                            "asphalt kept the dust down and created a smooth surface for trams",
+                                            "many European cities had already replaced their trams with buses by the end of World War II",
+                                            "trams proved to be very useful in Melbourne despite being poorly looked after",
+                                            "in a time when trams were falling out of fashion, Melbourne preserved them"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 1: 'The tram was seen as old-fashioned... Melbourne... resisted the trend to shut down its tramway network' - modası geçmiş görülürken Melbourne tramvayları korudu.",
+                                            "wrong": {
+                                                "0": "Asfalt tramvaylar için değil, otobüsler için döşendi: 'allowed buses to run easily'.",
+                                                "1": "Paragrafta II. Dünya Savaşı'ndan SONRA değiştirdiler diyor, savaş bitmeden değil.",
+                                                "2": "Paragrafta 'poorly looked after' yazmıyor, aksine Melbourne'da iyi korundu."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 9,
+                                        "question": "The word their in paragraph 1 refers to ----.",
+                                        "options": [
+                                            "trams",
+                                            "other cities",
+                                            "asphalt roads",
+                                            "tramlines"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Cümle: 'other cities bitterly regretted THEIR phasing out of trams' - 'their' diğer şehirlerin tramvayları kaldırmasına atıfta bulunuyor.",
+                                            "wrong": {
+                                                "0": "Tramvaylar eylemi yapan değil, kaldırılan - 'their' onlara ait olamaz.",
+                                                "2": "Asfalt yollar bu bağlamda bahsedilmiyor.",
+                                                "3": "Tramvay hatları kaldırılan şey, kaldıran değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 10,
+                                        "question": "According to paragraph 2, keeping trams in the post-war era was a policy strongly supported by ----.",
+                                        "options": [
+                                            "MMTB",
+                                            "Melbourne's press",
+                                            "European cities",
+                                            "governments"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: 'Sir Robert Risson, the Chairman of the... MMTB, successfully argued that trams should be retained' - MMTB başkanı tramvayları savundu.",
+                                            "wrong": {
+                                                "1": "Paragrafta 'despite press campaigns for their closure' yazıyor - basın kapatılmasını istiyordu.",
+                                                "2": "Avrupa şehirleri tramvayları kaldırdı, korumadı.",
+                                                "3": "Paragrafta hükümetlerin desteklediği yazmıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 11,
+                                        "question": "It is stated in paragraph 2 that the new Bourke Street tram of 1956 ----.",
+                                        "options": [
+                                            "was replaced by a bus service",
+                                            "went all the way to the Olympics",
+                                            "led to a loss of government investment",
+                                            "was a result of Risson's policy"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: 'Risson's fight for trams meant that the Bourke St. bus service... was replaced by a new tram' - Risson'ın politikası sayesinde yeni tramvay geldi.",
+                                            "wrong": {
+                                                "0": "Tam tersi: otobüs servisi tramvayla DEĞİŞTİRİLDİ.",
+                                                "1": "Olimpiyatlara gitmedi, Olimpiyatlar için zamanında hazır oldu.",
+                                                "2": "Yatırım kaybı değil, yatırımın korunması sağlandı."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 12,
+                                        "question": "The word shattered in paragraph 3 is closest in meaning to ----.",
+                                        "options": [
+                                            "established",
+                                            "destroyed",
+                                            "reported",
+                                            "claimed"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "\"Shattered\" paramparça etmek, yıkmak demek. Paragraf 3: 'This shattered the argument' - bu argümanı çürüttü/yıktı.",
+                                            "wrong": {
+                                                "0": "\"Established\" kurmak demek - tam tersi anlam.",
+                                                "2": "\"Reported\" bildirmek/haber vermek - alakası yok.",
+                                                "3": "\"Claimed\" iddia etmek - yıkmakla ilgisi yok."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 13,
+                                        "question": "One can infer from paragraph 3 that ----.",
+                                        "options": [
+                                            "the width of Melbourne's streets was a bit narrower than the width of streets in most cities",
+                                            "buses had to have two operators despite the efforts of some unions",
+                                            "Risson wasn't the only one who deserved praise for saving Melbourne's trams",
+                                            "it wasn't necessary to renovate trams in other cities as they were already in good condition"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'Risson... was helped in his efforts by local unions' - sendikalar da yardım etti, sadece Risson değil.",
+                                            "wrong": {
+                                                "0": "Paragrafta 'wide streets' yazıyor - dar değil, geniş.",
+                                                "1": "Sendikalar iki operatör ŞARTI koydu ve başardılar, 'despite' değil.",
+                                                "3": "Diğer şehirlerde tramvaylar kötü durumdaydı, yenileme pahalı olacaktı."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 14,
+                                        "question": "Which statement is FALSE according to paragraph 4?",
+                                        "options": [
+                                            "There was traffic congestion in cities where tramlines were abandoned in favor of buses.",
+                                            "The appearance of trams has changed over the years.",
+                                            "Trams had to be reintroduced into Melbourne.",
+                                            "Conservative governments spent money on trams."
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "YANLIŞ: Melbourne tramvayları hiç kaldırmadı ki yeniden tanıtsın. Paragraf 1'de 'resisted the trend' yazıyor.",
+                                            "wrong": {
+                                                "0": "DOĞRU: Paragraf 4'te 'adversely affected by traffic' yazıyor.",
+                                                "1": "DOĞRU: Paragraf 4'te 'new tram designs were still being introduced' yazıyor.",
+                                                "3": "DOĞRU: Paragraf 4'te 'agreed to further investments in new trams' yazıyor."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 3,
+                                "title": "McDonald's",
+                                "paragraphs": [
+                                    "The Great Depression, lasting from 1929 to 1939, was the deepest and longest-lasting economic downturn in the history of US. It strangled the working-class towns of New Hampshire, in the eastern US, so a pair of young brothers headed west from one of these towns with dreams of making it big as Hollywood producers. However, the only work that Richard and Maurice McDonald could ever land in the film industry was pushing around movie sets, and the small cinema they opened in suburban Los Angeles never took off. 37-year-old Maurice and 31-year-old Richard were wondering if their hopes of becoming millionaires by the time they turned 50 were just delusions when they opened a tiny drive-in restaurant in California in 1940. They probably wouldn't have guessed that their new restaurant would be the ticket to fulfilling their American dreams.",
+                                    "The original McDonald's had little resemblance to today's widespread \"golden arches\", beginning with the menu. The future fast-food giant started out by serving barbecue slow-cooked for hours and the eclectic 25-item menu included everything from tamales and chili to peanut butter and jelly sandwiches to ham and baked beans. This octagon-shaped drive-in barbecue restaurant did not include any inside seating; so carhops wearing majorette boots and short skirts served customers who pulled into its parking lot. As the brothers' business caught on, sales exceeded $200,000 a year, and as many as 125 cars filled its parking lot each weekend.",
+                                    "After World War II, drive-in competition in California grew, and the brothers closed their doors for three months. They had decided to overtake other businesses by turning into a self-service restaurant. They fired their 20 carhops and got rid of their silverware and plates for paper wrappings and cups so that they no longer needed a dishwasher and simplified their menu to just nine items: hamburgers, cheeseburgers, three soft drink flavors, milk, coffee, potato chips and pie. The new concept was based on speed, lower prices and volume. Taking a cue from Henry Ford's assembly line production of automobiles, the McDonald brothers developed the \"Speedee Service System\" and mechanized the kitchen. Instead of using a skilled cook to make food, it used 12 unskilled workers, each of whom specialized in specific tasks. This allowed McDonald's to prepare lots of food quickly and inexpensively, and it could be done even before an order was placed.",
+                                    "The business began to take off with families and businessmen attracted by the cheap, 15-cent hamburgers and low-cost menu. With lower costs for their workers and revenues increasing to $350,000 a year by the early 1950s, the McDonald brothers saw their profits double. They had already established a few franchises in California and Arizona by the time a milkshake mixer salesman named Ray Kroc visited California in 1954. Kroc couldn't understand why the McDonalds could possibly need eight Multi-Mixers, capable of making 40 milkshakes at once, for just one location until he set eyes on the operation. Seeing the potential in the business, the salesman quickly became the buyer. Kroc bought the rights to franchise the brothers' restaurants across the country, and in 1955 he opened his first McDonald's in Illinois. The relationship between Kroc and the McDonald brothers grew very tense as the aggressive salesman and the conservative brothers, whose desire was to maintain only a small number of restaurants, had different philosophies about how to run their business. In 1961, Kroc purchased the entire company from the McDonald brothers for $2.7 million. While the name of the chain may have been McDonald's, the design of the restaurants quickly became Kroc's. The brothers who lent their name to the business and pioneered the fast-food concept faded to the background. After selling the business, the founders kept their original California restaurant, to the annoyance of Kroc. To gain his revenge, Kroc opened a McDonald's around the block that eventually drove the brothers out of business."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 15,
+                                        "question": "From paragraph 1 we can understand that Richard and Maurice McDonald ---.",
+                                        "options": [
+                                            "ran a small but profitable cinema in suburban Los Angeles before opening a restaurant in California",
+                                            "were once reputable actors who wanted to become millionaires in the Hollywood film industry",
+                                            "moved to New Hampshire during the Great Depression in the hopes of becoming rich",
+                                            "were not initially aware that their small drive-in restaurant in California would make them wealthy"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 1: 'They probably wouldn't have guessed that their new restaurant would be the ticket to fulfilling their American dreams' - restoranın onları zengin edeceğini tahmin etmezlerdi.",
+                                            "wrong": {
+                                                "0": "Paragrafta 'never took off' yazıyor - sinema kârlı değildi.",
+                                                "1": "Aktör değillerdi, film setlerini taşıyorlardı: 'pushing around movie sets'.",
+                                                "2": "New Hampshire'DAN çıktılar (headed west FROM), oraya gitmediler."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 16,
+                                        "question": "The word eclectic in paragraph 2 is closest in meaning to ---.",
+                                        "options": [
+                                            "expensive",
+                                            "diverse",
+                                            "equal",
+                                            "unhealthy"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "\"Eclectic\" çeşitli/karma demektir. Paragraf 2: 'eclectic 25-item menu included everything from tamales... to ham' - çok çeşitli ürünler.",
+                                            "wrong": {
+                                                "0": "\"Expensive\" pahalı demek - fiyatla ilgili değil, çeşitlilikle ilgili.",
+                                                "2": "\"Equal\" eşit demek - menü öğelerinin eşitliğinden bahsedilmiyor.",
+                                                "3": "\"Unhealthy\" sağlıksız demek - sağlıkla ilgili değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 17,
+                                        "question": "According to paragraph 2, it is TRUE about the original McDonalds that ---.",
+                                        "options": [
+                                            "the first McDonald's and today's McDonald's restaurants were alike in design",
+                                            "carhops delivered the customers' orders by cars",
+                                            "some customers had to be served in their cars as there weren't enough seats in the drive-in barbecue joint",
+                                            "meat was not cooked as it is in today's McDonald's restaurants"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: 'serving barbecue slow-cooked for hours' - yavaş pişirilen ızgara et. Bugün hızlı pişiriliyor, o zaman saatlerce pişiriliyordu.",
+                                            "wrong": {
+                                                "0": "Paragrafta 'little resemblance to today's' yazıyor - benzemiyorlardı.",
+                                                "1": "Carhops arabalarla değil, arabalara servis yapan garsonlardı.",
+                                                "2": "İçeride oturma yeri yoktu: 'did not include any inside seating' - yeterli değil değil, hiç yoktu."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 18,
+                                        "question": "According to paragraph 3, after World War II, ---.",
+                                        "options": [
+                                            "many drive-in restaurants in California closed their doors due to financial problems",
+                                            "the McDonald brothers opened a restaurant with improved service and a new concept",
+                                            "the McDonald brothers eliminated wait staff, plates, and dining options in favor of assembly-line burgers served in wrappings",
+                                            "a new carhop staff of 12 people were recruited at the new McDonald's as the former ones were fired"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'fired their 20 carhops... got rid of their silverware and plates for paper wrappings' - garsonları kovdular, tabakları kağıt ambalajla değiştirdiler.",
+                                            "wrong": {
+                                                "0": "Birçok restoran kapandı demiyor, rekabet arttı diyor.",
+                                                "1": "Hizmeti iyileştirmediler, self-servis yaptılar.",
+                                                "3": "12 kişi carhop değil, mutfak işçisiydi: '12 unskilled workers'."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 19,
+                                        "question": "According to paragraph 3, it is FALSE that in the \"Speedee Service System\" kitchen, ----.",
+                                        "options": [
+                                            "a simplified menu and food preparation using assembly line principles allowed the restaurant to sell cheap hamburgers",
+                                            "a large variety of dishes were prepared relatively quickly",
+                                            "the quick ways the food was prepared created maximum productivity levels",
+                                            "each of the crew did one small, specific step in the food-preparation process"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "YANLIŞ: Paragraf 3'te 'simplified their menu to just nine items' yazıyor - çok çeşit değil, sadece 9 ürün.",
+                                            "wrong": {
+                                                "0": "DOĞRU: Paragrafta 'assembly line production' ve 'cheap' yazıyor.",
+                                                "2": "DOĞRU: Paragrafta 'prepare lots of food quickly' yazıyor.",
+                                                "3": "DOĞRU: Paragrafta 'each of whom specialized in specific tasks' yazıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 20,
+                                        "question": "Which of the following can be understood from paragraph 4 about Roy Kroc?",
+                                        "options": [
+                                            "His determination and ambition in business",
+                                            "The high cost of the Multi-Mixers he sold",
+                                            "His fondness for hamburgers and chips",
+                                            "The value of his fortune"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 4'te Kroc'un 'aggressive salesman' olduğu, şirketi satın aldığı, rakip restoran açarak kardeşleri iflas ettirdiği anlatılıyor - kararlılık ve hırs.",
+                                            "wrong": {
+                                                "1": "Multi-Mixer fiyatından bahsedilmiyor.",
+                                                "2": "Hamburger sevgisinden bahsedilmiyor, iş zekasından bahsediliyor.",
+                                                "3": "Kişisel servetinin değerinden bahsedilmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 21,
+                                        "question": "From paragraph 4, it CANNOT be inferred that ---.",
+                                        "options": [
+                                            "a Multi-Mixer that Kroc sold to McDonald's was capable of preparing milkshakes for a family of five at once",
+                                            "Kroc, puzzled by the McDonald brothers' Multi-Mixer orders, visited the McDonald's restaurant in person",
+                                            "the McDonald brothers were unwilling to put effort into building a nationwide chain of restaurants",
+                                            "Kroc made a $2.7-million-deal with McDonald brothers' to franchise their restaurant throughout the country"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "ÇIKARILAMAZ: 2.7 milyon dolar franchise hakkı için değil, TÜM ŞİRKETİ satın almak için ödendi: 'purchased the entire company'.",
+                                            "wrong": {
+                                                "0": "ÇIKARILABİLİR: 8 makine × 5 milkshake = 40 milkshake, yani her biri 5 yapıyor.",
+                                                "1": "ÇIKARILABİLİR: 'couldn't understand why... until he set eyes on the operation' yazıyor.",
+                                                "2": "ÇIKARILABİLİR: 'conservative brothers, whose desire was to maintain only a small number' yazıyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 22,
+                                        "question": "According to the text, it is clear that the McDonald brothers ---.",
+                                        "options": [
+                                            "were the first to open a drive-in restaurant in California",
+                                            "recruited males for the carhop staff in the original McDonald's",
+                                            "simplified the menu after the World War II due to widespread food shortages in the U.S.",
+                                            "could not compete when Kroc's McDonald's opened near their restaurant"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 4: 'Kroc opened a McDonald's around the block that eventually drove the brothers out of business' - Kroc'un restoranı kardeşleri iflas ettirdi.",
+                                            "wrong": {
+                                                "0": "İlk drive-in oldukları yazmıyor, 'a tiny drive-in restaurant' yazıyor.",
+                                                "1": "Carhoplar kadındı: 'wearing majorette boots and short skirts'.",
+                                                "2": "Gıda kıtlığından değil, rekabetten dolayı menüyü sadeleştirdiler."
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "id": 4,
+                                "title": "Apollo 13",
+                                "intro": "\"Houston [the command center], we've had a problem\" – Astronaut James Lovell, on April 13, 1970, 56 hours into the Apollo 13 mission",
+                                "paragraphs": [
+                                    "While planning moon landings, NASA had to decide which method to use to reach the Moon. This decision ended up having an important effect on the survival of the Apollo 13 crew. An explosion in an oxygen tank two days into the journey on the Apollo 13 mission prevented the crew from landing on the moon and started one of the greatest rescue missions in human exploration. One of the main reasons the three crew members were saved was the decision made years earlier to use a \"lunar orbit rendezvous\" to reach the Moon.",
+                                    "Three ways to reach the Moon were investigated. One method, a 'direct approach', meant taking off from Earth, going straight to the Moon, landing, and then returning to Earth in the same craft. This would have required an enormous rocket. Many senior engineers on the mission team favored this method. However, the huge size of the rocket needed to go directly to the Moon would have meant using much more fuel, further increasing the expense of the mission. As a result, the direct approach was discarded, but only after heated debate. If the oxygen tank had exploded at such a great distance from Earth in a direct-approach journey, the crew certainly would have died because of insufficient battery reserves to produce the oxygen they needed. The spacecraft would only have had enough oxygen for the astronauts to survive a 12 to 15-hour journey.",
+                                    "The alternative to the direct approach was to perform one of two forms of rendezvous. In a rendezvous, the craft has a modular design with a landing module and a command module. These modules orbit around either the Earth or the Moon, after that they separate, and then only one craft lands on the Moon's surface. The benefit of this method is that you need a smaller rocket to leave Earth's atmosphere, and the small lunar lander benefits from the Moon's low gravity, which saves fuel.",
+                                    "If an 'Earth orbit rendezvous' approach had been used, the crew of the Apollo 13 mission would have transferred from the command module to the lunar module from within Earth's orbit and then travelled toward the Moon. This design included a separate rocket to slow the craft down as it descended to the lunar surface. This rocket wouldn't have been fired when the explosion occurred, providing the crew a slight advantage; they could have used it to speed up their return to Earth. But a fatal factor would have remained: too little oxygen. The return to Earth would still have required too much time.",
+                                    "The final approach, the \"lunar orbit rendezvous\" approach, was to travel to the Moon in a small craft with two modules that would separate in lunar orbit, come back together again, and then travel back to Earth. The explosion on the Apollo 13 happened before the command module and lunar module separated, so the crew was still able to use the lunar module. The command module computer system was required for a safe re-entry, and the crew was able to recharge it using the fuel cells in the lunar module. The cells could also be used to produce oxygen, the other critical need for survival.",
+                                    "\"The reaches of space never seemed so great until Apollo 13 had an explosion 250,000 miles from Earth,\" said President Nixon after the safe return of the Apollo 13 crew. \"To the crew and to those on the ground who did such a magnificent job of guiding Apollo 13 safely back, the whole world says 'well done'.\" He should have also thanked the engineers who defended the lunar orbit rendezvous approach when it was, at first, an unpopular thing to do."
+                                ],
+                                "questions": [
+                                    {
+                                        "id": 23,
+                                        "question": "The text mainly discusses ----.",
+                                        "options": [
+                                            "the amazing efforts made to save the Apollo 13 crew and the attention they received",
+                                            "reasons why only the \"lunar orbit rendezvous\" approach was able to save the Apollo 13 crew",
+                                            "mistakes made in the design of the Apollo 13 and ways the crew overcame these errors",
+                                            "how the struggles on the Apollo 13 mission led to safer spacecraft in later missions"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Metin boyunca üç yaklaşım karşılaştırılıyor ve sadece 'lunar orbit rendezvous'un neden mürettebatı kurtarabildiği anlatılıyor. Paragraf 1'de bu açıkça belirtiliyor.",
+                                            "wrong": {
+                                                "0": "Kurtarma çabaları detaylı anlatılmıyor, yaklaşım karşılaştırmasına odaklanılıyor.",
+                                                "2": "Tasarım hataları değil, yaklaşım seçiminin etkisi anlatılıyor.",
+                                                "3": "Sonraki görevlere etkisinden bahsedilmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 24,
+                                        "question": "The word discarded in paragraph 2 is closest in meaning to ----.",
+                                        "options": [
+                                            "delayed",
+                                            "improved",
+                                            "installed",
+                                            "rejected"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "\"Discarded\" atmak, reddetmek demektir. Paragraf 2: 'the direct approach was discarded' - doğrudan yaklaşım reddedildi.",
+                                            "wrong": {
+                                                "0": "\"Delayed\" ertelemek - geçici değil, kalıcı olarak vazgeçildi.",
+                                                "1": "\"Improved\" geliştirmek - tam tersi, bırakıldı.",
+                                                "2": "\"Installed\" kurmak - alakası yok."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 25,
+                                        "question": "According to paragraph 2, the reason a direct approach was not used was because of its ----.",
+                                        "options": [
+                                            "cost",
+                                            "danger",
+                                            "route",
+                                            "speed"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: 'much more fuel, further increasing the expense of the mission' - maliyet artışı nedeniyle reddedildi.",
+                                            "wrong": {
+                                                "1": "Tehlike sonradan (patlama durumunda) analiz ediliyor, ilk ret nedeni değil.",
+                                                "2": "Rotadan dolayı reddedilmedi.",
+                                                "3": "Hızdan dolayı reddedilmedi."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 26,
+                                        "question": "Paragraph 2 states the direct approach would have been fatal ----.",
+                                        "options": [
+                                            "if the batteries had not been fully charged",
+                                            "if an explosion had taken place at any time in the journey",
+                                            "and the cause of death would have been a lack of oxygen",
+                                            "although the crew may have nearly made it back to Earth"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Paragraf 2: 'crew certainly would have died because of insufficient battery reserves to produce the oxygen they needed' - oksijen yetersizliğinden ölürlerdi.",
+                                            "wrong": {
+                                                "0": "Batarya doluluk seviyesinden değil, bataryaların oksijen üretme kapasitesinden bahsediliyor.",
+                                                "1": "Yolculuğun herhangi bir anında değil, uzak mesafede patlama durumu için söyleniyor.",
+                                                "3": "Neredeyse ulaşabilirlerdi demiyor, kesinlikle ölürlerdi diyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 27,
+                                        "question": "From paragraph 3, the reader can understand that ----.",
+                                        "options": [
+                                            "there are actually more than two types of rendezvous approaches",
+                                            "the landing in a rendezvous approach is safer than the landing in a direct approach",
+                                            "each of the modules in a rendezvous approach can be used to reach the moon's surface",
+                                            "both types of rendezvous approaches reduce fuel use"
+                                        ],
+                                        "answer": 3,
+                                        "explanation": {
+                                            "correct": "Paragraf 3: 'need a smaller rocket... saves fuel' - her iki rendezvous yaklaşımı da yakıt tasarrufu sağlıyor.",
+                                            "wrong": {
+                                                "0": "İkiden fazla rendezvous türü olduğu söylenmiyor.",
+                                                "1": "İniş güvenliğinden bahsedilmiyor.",
+                                                "2": "Sadece bir modül (lunar lander) Ay yüzeyine iniyor, her ikisi değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 28,
+                                        "question": "According to paragraph 4, if an 'Earth orbit rendezvous' approach had been used, there would have been a rocket that had not been fired yet, -----.",
+                                        "options": [
+                                            "but even using the rocket the astronauts could not have got back to Earth in time",
+                                            "but the astronauts would not have been able to fire the rocket so it would have been of no use to them",
+                                            "so there would have been a slight chance that the astronauts could have made a successful return to Earth",
+                                            "so the astronauts may have tried to make a moon landing as it was their only hope for survival"
+                                        ],
+                                        "answer": 0,
+                                        "explanation": {
+                                            "correct": "Paragraf 4: 'they could have used it to speed up their return... But a fatal factor would have remained: too little oxygen' - roketi kullansalar bile zamanında dönemezlerdi.",
+                                            "wrong": {
+                                                "1": "Roketi ateşleyemezlerdi demiyor, ateşleyebilirlerdi ama yetmezdi.",
+                                                "2": "Küçük bir şans değil, kesin ölüm: 'fatal factor'.",
+                                                "3": "Ay'a iniş denemelerinden bahsedilmiyor."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 29,
+                                        "question": "The word it in paragraph 5 refers to ----.",
+                                        "options": [
+                                            "the Apollo 13",
+                                            "the lunar module",
+                                            "the command module computer system",
+                                            "re-entry"
+                                        ],
+                                        "answer": 2,
+                                        "explanation": {
+                                            "correct": "Cümle: 'The command module computer system was required... the crew was able to recharge IT using the fuel cells' - 'it' komut modülü bilgisayar sistemine atıfta bulunuyor.",
+                                            "wrong": {
+                                                "0": "Apollo 13 şarj edilmiyor, bilgisayar sistemi şarj ediliyor.",
+                                                "1": "Lunar module şarj etmeye yarıyor, şarj edilen değil.",
+                                                "3": "Re-entry (yeniden giriş) şarj edilebilecek bir şey değil."
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": 30,
+                                        "question": "In paragraph 6, ----",
+                                        "options": [
+                                            "President Nixon seems to be unaware that the crew had an important part in bringing the Apollo 13 back to Earth safely",
+                                            "President Nixon fails to mention that the approach method which was chosen was a key factor in the crew's survival",
+                                            "the writer thinks President Nixon is brave for praising the astronauts even though their failed mission was not popular",
+                                            "the writer thinks President Nixon need not have spent so much time praising the astronauts of a failed mission"
+                                        ],
+                                        "answer": 1,
+                                        "explanation": {
+                                            "correct": "Paragraf 6: 'He should have also thanked the engineers who defended the lunar orbit rendezvous approach' - Nixon yaklaşım seçiminin önemini atladı.",
+                                            "wrong": {
+                                                "0": "Nixon mürettebatı övdü: 'to the crew... the whole world says well done'.",
+                                                "2": "Yazar Nixon'ın cesur olduğunu söylemiyor, bir eksiklik belirtiyor.",
+                                                "3": "Yazar çok övgü yapıldığını değil, yetersiz övgü yapıldığını söylüyor."
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }

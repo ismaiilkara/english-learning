@@ -1,0 +1,863 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: Icoma's Tatamel Suitcase-Sized Motorbike",
+                    "passage": {
+                        "title": "Icoma's Tatamel Suitcase-Sized Motorbike",
+                        "text": "The idea of a folding motorcycle that can be packed away into a suitcase-sized shape has been around for decades. In fact, Honda successfully created such a model 40 years ago, producing the Motocompo. Now another Japanese company, called Icoma, has (1)_____ a similar machine, the Tatamel. The Tatamel is essentially a new version of the Motocompo but has the advantage of an electric motor compared to the original petrol-powered Motocompo. (2)_____ the Motocompo, the bike is aimed at short trips and inner-city use. It has a limited range and performance but uses a design that's light and compact enough (3)_____ into a car. (4)_____ by a lithium battery, the bike has a top speed of around 40 kph with just over 30 kilometers of range per charge. When unfolded, it is 123 cm long, 65 cm wide, and 100 cm tall. The wheels, bars, and footrests can all be folded in, creating a suitcase-like shape. In that form, it (5)_____ only 69 cm in length and height and 26 cm in width. (6)_____ you can slide it under your desk at work or pack it into the trunk of your car. Since reaching a full charge takes only three hours from a standard wall socket, it can be fully charged again in time for your return journey. In the future, the company plans to (7)_____ improved battery packs, which will nearly double the bike's range from its current range. The main structure of the bike is aluminum, but it has 3D-printed external panels that can be easily changed, so it is easy to (8)_____ the bike's look. Surprisingly, this light bike can carry a heavy load. Although it weighs just 50 kilos, the bike's maximum recommended load is (9)_____ 100 kilos. When folded, a pair of skateboard-style wheels at the back makes it easy to move around without picking the whole thing up. Icoma says the Tatamel is also a useful addition for camping trips. In addition to (10)_____ short trips around a campsite, its mobile power pack is also useful for charging phones and even larger electronics."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "come across",
+                                "come out",
+                                "come down with",
+                                "come up with"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Come up with\" (bir fikir/ürün bulmak, ortaya atmak) doğru cevaptır. Metinde başka bir şirketin benzer bir makine 'icat ettiği/ortaya çıkardığı' anlatılıyor[cite: 14].",
+                                "wrong": {
+                                    "0": "\"Come across\" tesadüfen karşılaşmak demektir, yeni bir ürün yaratmak için kullanılmaz.",
+                                    "1": "\"Come out\" ortaya çıkmak/yayımlanmak demektir (nesne almaz), ama burada şirket (özne) makineyi (nesne) çıkarmış.",
+                                    "2": "\"Come down with\" hasta olmak/şifayı kapmak demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "Just like",
+                                "Just about",
+                                "The same",
+                                "The same kind"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Just like\" (tıpkı ... gibi) doğru cevaptır. Tatamel ile eski Motocompo'nun kullanım amaçlarının benzer olduğunu anlatıyor[cite: 16].",
+                                "wrong": {
+                                    "1": "\"Just about\" hemen hemen/yaklaşık demektir.",
+                                    "2": "\"The same\" (aynı) yapısı genellikle 'as' ile kullanılır (the same as).",
+                                    "3": "\"The same kind\" (aynı tür) ifadesi gramer olarak cümleye 'Just like' kadar akıcı oturmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "being easily packed",
+                                "being easy to pack",
+                                "to be easily packed",
+                                "to be easily packing"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Compact enough to be easily packed\" yapısı doğrudur. \"Enough\"tan sonra \"to infinitive\" gelir. Bisiklet paketlenen (passive) olduğu için \"to be packed\" kullanılır[cite: 17, 18].",
+                                "wrong": {
+                                    "0": "\"Being\" kullanımı \"enough\"tan sonra uygun değildir.",
+                                    "1": "\"Being easy\" yapısı \"enough\" kalıbına uymaz.",
+                                    "3": "\"To be easily packing\" active (etken) yapıdır, bisiklet kendi kendine paketlemez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "Powered",
+                                "Powering",
+                                "Having powered",
+                                "Having been powering"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Powered\" (güç sağlanan) doğrudur. Bu bir 'Passive Participle' yapısıdır; cümlenin aslı \"(It is) powered by a lithium battery\" şeklindedir[cite: 19].",
+                                "wrong": {
+                                    "1": "\"Powering\" (güç sağlayan) active yapıdır, pil motora güç verir, motor güç vermez.",
+                                    "2": "\"Having powered\" geçmiş zaman vurgusu yapar, burada genel özellik anlatılıyor.",
+                                    "3": "\"Having been powering\" hem zaman hem çatı olarak uyumsuz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "adjusts",
+                                "calculates",
+                                "estimates",
+                                "measures"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Measures\" (ölçülerindedir/gelir) doğrudur. Bir nesnenin boyutlarını (en, boy, yükseklik) belirtirken \"It measures X cm\" kalıbı kullanılır[cite: 22].",
+                                "wrong": {
+                                    "0": "\"Adjusts\" ayarlar demektir.",
+                                    "1": "\"Calculates\" hesaplar demektir.",
+                                    "2": "\"Estimates\" tahmin eder demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "As well as",
+                                "As a result,",
+                                "Another reason is",
+                                "On the other hand,"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"As a result,\" (sonuç olarak) doğrudur. Bisiklet çok küçük boyutlara indiği için, bunun sonucu olarak masanın altına sığabilir[cite: 23].",
+                                "wrong": {
+                                    "0": "\"As well as\" ekleme yapar (ve ayrıca), cümle başı bağlacı olarak bu şekilde kullanılmaz.",
+                                    "2": "\"Another reason is\" (bir diğer neden) bir sebep açıklar, burada sonuç anlatılıyor.",
+                                    "3": "\"On the other hand\" (diğer yandan) zıtlık bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "indicate",
+                                "offer",
+                                "promise",
+                                "advance"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Offer\" (sunmak) doğrudur. Şirket gelecekte müşterilerine daha gelişmiş bataryalar sunmayı planlıyor[cite: 25].",
+                                "wrong": {
+                                    "0": "\"Indicate\" belirtmek/göstermek demektir.",
+                                    "2": "\"Promise\" söz vermek demektir, şirket ürün 'sunar'.",
+                                    "3": "\"Advance\" ilerletmek demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "alter",
+                                "construct",
+                                "remove",
+                                "transfer"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Alter\" (değiştirmek) doğrudur. Dış paneller değişebildiği için bisikletin görünüşünü değiştirmek kolaydır[cite: 26].",
+                                "wrong": {
+                                    "1": "\"Construct\" inşa etmek demektir.",
+                                    "2": "\"Remove\" çıkarmak demektir (görünüş çıkarılmaz).",
+                                    "3": "\"Transfer\" aktarmak demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "much greater",
+                                "greater and greater",
+                                "greater than",
+                                "more and more than"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Greater than\" (daha büyük/fazla) gramer olarak en uygun seçenektir. Cümle, bisikletin taşıyabileceği yükün 100 kilodan fazla (veya o civarda büyük) olduğunu belirtmek için bu kalıbı kullanıyor[cite: 27, 31].",
+                                "wrong": {
+                                    "0": "\"Much greater\" eksik kalır (than yok).",
+                                    "1": "\"Greater and greater\" gittikçe büyüyen demek, sabit bir kapasite için kullanılmaz.",
+                                    "3": "\"More and more than\" hatalı bir kalıptır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "make",
+                                "making",
+                                "that making",
+                                "that it makes"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Making\" doğrudur. \"In addition to\" kalıbındaki 'to' bir edattır (preposition), bu yüzden kendisinden sonra gelen fiil -ing takısı alır (gerund)[cite: 30].",
+                                "wrong": {
+                                    "0": "\"Make\" yalın haldedir, edattan sonra gelmez.",
+                                    "2": "\"That making\" kalıbı gramer olarak yanlıştır.",
+                                    "3": "\"That it makes\" cümlecik başlatır ama 'in addition to' ile doğrudan isim veya gerund kullanılır."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "By 1900, electric cars were at their peak, making up a third of all vehicles on the road, and during the next ten years, they continued to have quite strong sales.",
+                            "options": [
+                                "For the first decade of the 1900s, a large number of electric cars were sold, and as their sales increased, they took over one third of the car market.",
+                                "1900 was the best year of sales for electric cars, but the next decade was difficult for these vehicles despite the fact that car sales continued to increase.",
+                                "After electric cars had gained one third of the car market by 1900, their most popular year, they maintained high sales during the following decade.",
+                                "Many people purchased electric cars in the first 10 years of the 1900s, and in 1900, which was their best year, only one third of all vehicles sold were not electric."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru çünkü orijinal cümleyi tam karşılıyor: 1900 yılı elektrikli arabaların zirvesiydi (most popular year) ve pazarın üçte birine sahiptiler. Sonraki on yılda da satışlar yüksek kalmaya devam etti (maintained high sales)[cite: 37, 40].",
+                                "wrong": {
+                                    "0": "Bu şık satışlar arttıkça pazarın üçte birini ele geçirdiklerini söylüyor; oysa orijinalde 1900'de ZATEN üçte bire sahiptiler.",
+                                    "1": "Bu şık sonraki on yılın 'zorlu' (difficult) geçtiğini söylüyor; oysa orijinalde satışların 'güçlü' (strong) olduğu belirtiliyor.",
+                                    "3": "Bu şık araçların üçte birinin elektrikli 'olmadığını' söylüyor (not electric); tam tersi, üçte biri elektrikliydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "In the 1910s, the high cost, low top speed, and short range of electric vehicles compared to gas-powered ones led to a decline in their use.",
+                            "options": [
+                                "There was a drop in vehicle use in the 1910s because electric vehicles were expensive and couldn't travel as far as or as fast as gas-powered cars.",
+                                "Although the gas-powered vehicles of the 1910s were expensive, they went faster and traveled further than electric vehicles of that period.",
+                                "Despite being expensive, traveling slowly, and having a short range, electric vehicles were popular until the 1910s, the decade when gas-powered cars came out.",
+                                "The 1910s was the decade that the popularity of electric vehicles decreased as their price, top speed, and range compared unfavorably to gas-powered vehicles."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu seçenek orijinal cümleyi tam yansıtıyor: 1910'larda elektrikli araçların popülerliği azaldı (decreased/decline), çünkü fiyat, hız ve menzil özellikleri benzinli araçlara göre daha kötüydü (compared unfavorably)[cite: 42, 46].",
+                                "wrong": {
+                                    "0": "Bu şık 'araç kullanımında' genel bir düşüş olduğunu söylüyor; oysa düşüş sadece 'elektrikli araçlarda'.",
+                                    "1": "Bu şık benzinli araçların pahalı olduğunu söylüyor; oysa orijinal cümle elektrikli araçların pahalı (high cost) olduğunu vurguluyor.",
+                                    "2": "Bu şık benzinli araçların 1910'larda 'çıktığını' (came out) söylüyor; orijinalde sadece kıyaslama var, çıkış tarihi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "The energy crisis of the early 1970s brought about renewed interest in electric cars, but this trend came to an end late in that decade as soon as gasoline prices decreased.",
+                            "options": [
+                                "Lower gas prices at the end of the 1970s quickly ended an increased interest in electric cars that began with the energy crisis earlier in that decade.",
+                                "Interest in electric cars began to decline ten years after the energy crisis of the early 1970s because the cost of gas finally started to fall.",
+                                "The reason that people were not interested in electric cars in the 1970s was that gasoline prices stayed low till the end of the decade even after the energy crisis in the early 1970s.",
+                                "In the 1970s, interest in electric cars only lasted for a few years because by the end of the decade people had got used to the change in the cost of gas due to the energy crisis earlier in the decade."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru çünkü olay sırasını koruyor: 1970'lerin başında krizle başlayan ilgi (renewed interest), on yılın sonunda benzin fiyatlarının düşmesiyle (lower gas prices) sona erdi[cite: 47, 48].",
+                                "wrong": {
+                                    "1": "Bu şık ilginin 'on yıl sonra' azalmaya başladığını söylüyor; orijinalde aynı on yılın sonunda (late in that decade) olduğu belirtiliyor.",
+                                    "2": "Bu şık insanların 1970'lerde elektrikli arabalarla 'ilgilenmediğini' söylüyor; oysa krizle birlikte ilgi artmıştı.",
+                                    "3": "Bu şık insanların fiyat değişimine 'alıştığı için' ilginin bittiğini söylüyor; oysa sebep fiyatların düşmesiydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "After about 60 days, sea turtle eggs hatch, and then turtles make their way from the nest to the water at night, which is often deadly as predators eat them.",
+                            "options": [
+                                "After spending around 60 days in their eggs, sea turtles hatch at night and then try to find the best time to get to the sea and avoid the predators which are waiting to consume them.",
+                                "During the 60-day period when sea turtle eggs are developing and when turtles make a nighttime journey to the sea, they usually do not survive because their predators eat them.",
+                                "Sea turtles leave their nests at night around 60 days after hatching, and during this journey it is very common for predators to consume the newborns before they reach the sea.",
+                                "It takes about 60 days for sea turtles to emerge from their eggs, and then these turtles make a dangerous night journey to the sea, during which they are frequently eaten by their natural enemies."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu seçenek orijinal anlamı tam veriyor: Yumurtadan çıkmak 60 gün sürer (takes about 60 days), sonra denize tehlikeli bir gece yolculuğu yaparlar ve bu sırada sık sık avcılar tarafından yenirler[cite: 67, 71].",
+                                "wrong": {
+                                    "0": "Bu şık kaplumbağaların avcılardan kaçınmak için 'en iyi zamanı bulmaya çalıştıklarını' söylüyor; orijinalde böyle bir planlamadan bahsedilmiyor.",
+                                    "1": "Bu şık 60 günlük gelişim sürecinde de avlandıklarını ima ediyor; oysa tehlike yolculuk sırasında.",
+                                    "2": "Bu şık 'yumurtadan çıktıktan 60 gün sonra' yuvalarını terk ettiklerini söylüyor; oysa yumurtada bekleme süresi 60 gün, çıktıktan sonra hemen gidiyorlar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Recently hatched sea turtles leave their nests at night and are guided to the sea by light on the horizon, but they can be confused by artificial lighting behind the beach.",
+                            "options": [
+                                "The brightness of the horizon is what directs sea turtles to the sea shortly after they hatch, but human-made lights in back of the beach may make them go the wrong way.",
+                                "Light from human sources near beaches disturbs sea turtles, and it is especially distracting to newly hatched ones who are trying to find light on the horizon to get to the sea.",
+                                "Since they are led to the water by light on the horizon, newly hatched sea turtles wait until night to leave their nests, which also reduces confusion from artificial lights on the back side of the beach.",
+                                "Unable to understand the difference between artificial light that is found behind beaches and natural light on the horizon, sea turtles that have just hatched manage to get to the sea but with great difficulty."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru eşleşiyor: Ufuktaki ışık onları yönlendirir (directs), ama plajın arkasındaki yapay ışıklar (human-made lights) kafalarını karıştırıp yanlış yola gitmelerine neden olabilir[cite: 72, 73].",
+                                "wrong": {
+                                    "1": "Bu şık yapay ışığın 'rahatsız ettiğini' (disturbs) söylüyor, yönlerini şaşırdıklarını tam vurgulamıyor.",
+                                    "2": "Bu şık gece çıkmalarının nedenini 'kafa karışıklığını azaltmak' olarak sunuyor; orijinalde böyle bir neden-sonuç yok.",
+                                    "3": "Bu şık 'büyük zorlukla da olsa denize ulaştıklarını' (manage to get) söylüyor; orijinalde şaşırıp ulaşamadıkları riski (confused) vurgulanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Prehistoric people kept track of the Sun and the Moon, but because they lived before writing, the meanings that they attached to their movements are bound to remain unclear.",
+                            "options": [
+                                "Ancient observations of the movements of the Sun and the Moon have been recovered, yet it is not certain if ancient people understood why the Sun and the Moon moved in certain ways.",
+                                "Before people developed written language, they followed the Sun and the Moon, but it will never be possible to know what they thought of their movements due to the lack of written records.",
+                                "Movements in the sky were already recorded by people in ancient times; however, since no documents explain these movements, it is not clear whether they were following the Sun or the Moon.",
+                                "Ancient people couldn't have been able to understand how the Sun and the Moon moved because they would have needed written language for that, but such language had not yet been invented."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru: Yazı gelişmeden önce insanlar Güneş ve Ay'ı takip etti, ama yazılı kayıt olmadığı için (lack of written records) bu hareketlere ne anlam yüklediklerini bilmek asla mümkün olmayacak[cite: 77, 79].",
+                                "wrong": {
+                                    "0": "Bu şık 'neden hareket ettiklerini anlayıp anlamadıkları belirsiz' diyor; orijinalde 'hareketlere yükledikleri anlamlar' (meanings attached) belirsiz.",
+                                    "2": "Bu şık Güneş'i mi Ay'ı mı takip ettiklerinin belli olmadığını söylüyor; orijinalde her ikisini de takip ettikleri kesin.",
+                                    "3": "Bu şık yazıları olmadığı için hareketleri 'anlayamayacaklarını' iddia ediyor; orijinalde sadece bizim onların düşüncelerini bilemeyeceğimiz söyleniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "The oldest source that states that Earth is a sphere and gives detailed support for this claim is Aristotle's On the Heavens (350 BCE), but this knowledge likely went back several generations earlier.",
+                            "options": [
+                                "That the Earth is a sphere was probably known a number of generations before Aristotle wrote On the Heavens (350 BCE), the first writing to state and clearly explain this claim.",
+                                "The information found in On the Heavens (350 BCE), written by Aristotle, was actually known for generations, but Aristotle was probably the first one to write it down in detail.",
+                                "It might have been known for quite a few years before Aristotle that the Earth was a sphere, but earlier sources do not give a clear explanation like Aristotle's On the Heavens (350 BCE).",
+                                "In On the Heavens (350 BCE), although Aristotle states that his claim that the Earth is spherical and his explanation of this was already known almost a century earlier, he does not give the source."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru: Dünya'nın küre olduğu bilgisi muhtemelen Aristo'dan nesiller önce biliniyordu, ancak bunu yazıp detaylı açıklayan ilk kaynak Aristo'nun eseridir[cite: 98, 99].",
+                                "wrong": {
+                                    "1": "Bu şık Aristo'nun 'muhtemelen ilk yazan' kişi olduğunu söylüyor; orijinalde 'detaylı destek veren en eski kaynak' olduğu kesin, bilginin eski olduğu muhtemel.",
+                                    "2": "Bu şık 'daha önceki kaynakların net açıklama yapmadığını' söylüyor; orijinalde daha önceki kaynaklardan değil, bilginin sözlü olarak bilindiğinden bahsediliyor.",
+                                    "3": "Bu şık Aristo'nun bilginin kaynağını vermediğini söylüyor; orijinal cümlede böyle bir detay yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "In the early Middle Ages, the leading language of astronomical learning was Arabic as astronomers in the Middle East mastered what the Greeks had accomplished and added to it.",
+                            "options": [
+                                "Arabic was the dominant language in astronomy at the beginning of the Middle Ages, and the attainments of Middle Eastern astronomers were far greater than those of the Greek ones.",
+                                "Arabic astronomers were superior to Greek ones in the early Middle Ages since they studied more carefully than Greek astronomers and made more discoveries than they were making.",
+                                "Top astronomers from the Middle East in the early Middle Ages wrote in Arabic but knew Greek, which enabled them to study past achievements and preserve the knowledge the Greeks had gained.",
+                                "In the early Middle Ages, Middle Eastern astronomers had not only learned Greek achievements in astronomy but also made their own contributions, which made Arabic the primary language in astronomy then."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Bu seçenek tam karşılıyor: Orta Doğu'lu astronomlar Yunan başarılarını öğrendiler (mastered) VE kendi katkılarını yaptılar (added to it/made their own contributions), bu da Arapçayı ana dil yaptı[cite: 103, 107].",
+                                "wrong": {
+                                    "0": "Bu şık Orta Doğu başarılarının Yunanlılardan 'çok daha büyük' olduğunu söylüyor; orijinalde kıyaslama değil, üzerine ekleme var.",
+                                    "1": "Bu şık onların Yunanlılardan 'daha dikkatli çalıştığını' söylüyor; metinde böyle bir ifade yok.",
+                                    "2": "Bu şık sadece Yunan bilgisini 'koruduklarını' (preserve) söylüyor; oysa orijinalde 'üzerine ekledikleri' (added to it) önemli bir detay."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "In the 13th century, key works of Greek astronomy that had long been out of reach were translated into Latin, helping to bring about a revival of astronomy in the West.",
+                            "options": [
+                                "Westerners' long interest in astronomy did not result in important discoveries until the critical Greek documents on this subject were translated into Latin in the 13th century.",
+                                "If the leading Greek texts had not been translated into Latin in the 13th century, it would have taken many centuries for astronomers in the West to make important discoveries.",
+                                "A factor contributing to a renewed interest in Western astronomy in the 13th century was the Latin translation of important Greek texts that had been inaccessible for a long time.",
+                                "New discoveries in astronomy in the West reached a peak in the 13th century shortly after significant Greek works that had not been available for many years were translated into Latin."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru: 13. yüzyılda Batı astronomisindeki ilginin canlanmasına katkıda bulunan faktör, uzun süre ulaşılamayan (inaccessible) önemli Yunan metinlerinin Latince çevirisidir[cite: 108, 111].",
+                                "wrong": {
+                                    "0": "Bu şık çeviriden önce 'önemli keşifler yapılmadığını' söylüyor; orijinalde sadece bir canlanmadan (revival) bahsediliyor, öncesindeki keşiflerin yokluğundan değil.",
+                                    "1": "Bu şık 'eğer çevrilmeseydi yüzyıllar sürerdi' gibi bir varsayım (if clause) içeriyor; orijinalde bu yok.",
+                                    "3": "Bu şık keşiflerin 'zirveye ulaştığını' (reached a peak) söylüyor; orijinalde sadece bir canlanma/diriliş (revival) var."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 1: Roads That Charge Electric Cars Wirelessly",
+                    "passage": {
+                        "title": "Roads That Charge Electric Cars Wirelessly",
+                        "text": "An increasing focus on more sustainable modes of transportation has made electric cars an attractive option for many consumers although battery range and charging availability continue to limit their popularity. However, if cars could wirelessly charge while driving, both of these issues would be resolved, and consumers would have no reason to be unsure about whether or not to purchase an electric vehicle (EV). Thanks to the research of several different companies, roads that keep EVs' batteries charged will almost certainly have been constructed within a decade, making this decision easy. Several companies are now testing dynamic charging, a process that allows EVs to charge on the move.\n\nOne of the main concerns of potential EV buyers is charging. As a result, EVs only accounted for less than 5% of new car sales globally in 2020. Even worse, one in five EV owners switched back to a gas-powered vehicle because of the difficulty of finding charging points. There simply are not enough charge points per EV. For example, in the US, there are around 1.8 million battery-powered cars but only an approximate total of 100,000 charging points at about 41,000 public station locations. However, if dynamic charging becomes prevalent, the problem of insufficient charging stations will have been solved, concerns about charging an EV will decrease, and sales may rise dramatically.\n\nDynamic charging works via a connection between under-road pads and receivers underneath vehicles. Using an approach similar to how wireless charging pads power cell phones, wires in the pavement send magnetic frequencies to a vehicle's receiver. Whenever an EV travels along or stops on a pavement like this, its battery gets charged. This process eliminates both time wasted at charging stations and anxiety about range. Additionally, the EV pads do not react to or harm gas-powered vehicles.\n\nIn the past few years, several dynamic charging projects have been developed in Europe, which is taking the lead in this area. Germany expects up to 10 million EVs on its roads by 2030 and has started assessing the success of its dynamic-charging electric highways around Frankfurt, Hamburg, and Stuttgart. Sweden plans to build 2,400 kilometers of electric roads by 2037 as part of its plan to reach zero net emissions by 2045. The US is not too far behind, however. For example, the Indiana Department of Transportation (INDOT) will work with Purdue University and a German company called Magment to test high-tech streets that automatically charge batteries of EVs equipped with a particular receiver. If this testing is successful, INDOT plans to quickly expand the project. Magment says the new streets will have a 95% efficiency rate, maintain a high degree of thermal conductivity in all weather conditions, and be safe from vandalism as the charging system is installed in the road. He also states that building streets with these features will not lead to any extra costs during construction.\n\nBringing about interoperability is the final challenge in increasing wireless EV charging use. In fact, research and industry leaders are already collaborating on developing a wireless charging standard for all vehicles. When they achieve a common standard, the receiver of any electric vehicle will be charged by the charging wires found in any road. It certainly seems that this challenge will soon be overcome and that within a decade the majority of vehicles on the road will be EVs."
+                    },
+                    "questions": [
+                        {
+                            "id": 20,
+                            "question": "The phrase \"this decision\" in paragraph 1 refers to the decision to ----.",
+                            "options": [
+                                "charge EVs wirelessly",
+                                "purchase an EV",
+                                "research wireless charging in EVs",
+                                "construct roads that keep EVs' batteries charged"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap 1. paragrafta geçiyor: \"...consumers would have no reason to be unsure about whether or not to purchase an electric vehicle (EV). ... making **this decision** easy.\"[cite: 126, 127]. Yani tüketicilerin elektrikli araç alıp almama kararı.",
+                                "wrong": {
+                                    "0": "Kablosuz şarj bir karar değil, bir teknolojidir.",
+                                    "2": "Araştırma şirketlerin işidir, tüketicinin kararı değildir.",
+                                    "3": "Yol inşaatı hükümetin/şirketlerin kararıdır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "question": "The word \"prevalent\" in paragraph 2 is closest in meaning to ----.",
+                            "options": [
+                                "inexpensive",
+                                "safe",
+                                "quick",
+                                "widespread"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Prevalent\" kelimesi yaygın, hakim demektir. Cümlede \"if dynamic charging becomes prevalent... problem... will be solved\" deniyor[cite: 133]. Yani teknoloji yaygınlaşırsa (widespread) sorun çözülür.",
+                                "wrong": {
+                                    "0": "\"Inexpensive\" ucuz demektir.",
+                                    "1": "\"Safe\" güvenli demektir.",
+                                    "2": "\"Quick\" hızlı demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "question": "Which of the following is TRUE according to paragraph 2?",
+                            "options": [
+                                "In 2020, there was a 5% decrease in the sales of electric cars compared to previous years.",
+                                "Anxiety about getting their vehicle charged caused about 20% of EV drivers to go back to a non-EV.",
+                                "In the US, the number of EVs has been rising while the number of charging stations has remained steady.",
+                                "The US is steadily moving toward having enough charging points for EVs."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap 2. paragrafta: \"...one in five EV owners switched back to a gas-powered vehicle because of the difficulty of finding charging points.\"[cite: 131]. Beşte bir (one in five), %20 demektir.",
+                                "wrong": {
+                                    "0": "Paragrafta satışların %5 düştüğü değil, toplam satışların %5'inden azını oluşturduğu yazıyor.",
+                                    "2": "Şarj istasyonlarının sayısının sabit kaldığına dair bilgi yok, sadece yetersiz olduğu söyleniyor.",
+                                    "3": "Paragrafta ABD'de şarj noktalarının yetersiz olduğu (not enough) söyleniyor, yeterli olmaya doğru gidildiği değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "question": "From paragraph 3, it can be understood that in roads where there is dynamic charging,",
+                            "options": [
+                                "the process works more efficiently if cars are able to keep moving",
+                                "EV drivers have to enable their vehicles to receive the charge the road provides",
+                                "drivers of gas-powered cars do not need to take any special precautions",
+                                "the charge provided by the road can also be used to charge a cell phone"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap 3. paragrafta: \"...wires in the pavement send magnetic frequencies to a vehicle's receiver.\"[cite: 135]. Araçların şarj olabilmesi için bir 'alıcıya' (receiver) sahip olması veya bunu etkinleştirmesi gerekir.",
+                                "wrong": {
+                                    "0": "Paragrafta dururken de şarj oldukları yazıyor (stops on a pavement), hareket halinin daha verimli olduğu yazmıyor.",
+                                    "2": "Paragrafta benzinli araçlara zarar vermediği yazıyor, ama sürücülerin önlem alıp almaması gerektiği vurgulanmıyor.",
+                                    "3": "Cep telefonu örneği sadece teknolojiyi açıklamak için benzetme olarak verilmiş, yolun telefonu şarj ettiği söylenmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "question": "Which comparison between Europe and the US is CORRECT according to paragraph 4?",
+                            "options": [
+                                "The electric roads in the US are more difficult to damage than the electric highways in Europe.",
+                                "While some electric highways in Europe are already in use, the US has not started testing its electric streets yet.",
+                                "Electric highways in Europe are expensive to build, but the US plans to make them at the same cost of normal roads.",
+                                "Although Europe plans to build thousands of kilometers of electric highways in the next fifteen years, the US will keep its projects small."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap 4. paragrafta: Avrupa \"taking the lead\" (liderliği alıyor) ve projeler \"developed\" (geliştirildi/kullanımda). ABD ise \"will work... to test\" (test etmek için çalışacak)[cite: 139, 142]. Yani ABD henüz test aşamasına başlamadı (gelecek zaman kipi).",
+                                "wrong": {
+                                    "0": "Yolların dayanıklılığı karşılaştırılmamış.",
+                                    "2": "Maliyet karşılaştırması yok, sadece ABD projesinin ekstra maliyet getirmeyeceği söyleniyor.",
+                                    "3": "ABD'nin projelerini küçük tutacağı söylenmiyor, başarılı olursa genişletecekleri (quickly expand) belirtiliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "question": "In paragraph 5, the reader can understand that \"interoperability\" means ----.",
+                            "options": [
+                                "any electric vehicle will be able to be charged on any road that provides a charge",
+                                "the difficult process of changing standard roads to roads that provide a charge",
+                                "working together to make sure that the charging wires in every road are working properly",
+                                "increasing the number of EVs to make them the most common type of vehicle"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap 5. paragrafta: \"When they achieve a common standard, the receiver of **any electric vehicle** will be charged by the charging wires found in **any road**.\"[cite: 148]. Birlikte çalışabilirlik (interoperability), her aracın her yolda şarj olabilmesi demektir.",
+                                "wrong": {
+                                    "1": "Yolları dönüştürmek değil, standart uyumuyla ilgili.",
+                                    "2": "Tellerin çalışıp çalışmadığını kontrol etmek değil.",
+                                    "3": "Araç sayısını artırmak değil, uyumluluğu sağlamak."
+                                }
+                            }
+                        },
+                        {
+                            "id": 26,
+                            "question": "The main purpose of the author is to ----.",
+                            "options": [
+                                "point out the progress in charging EVs wirelessly",
+                                "discuss why charging EVs wirelessly is environmentally friendly",
+                                "warn about the disadvantages of purchasing an EV due to the current state of wireless charging",
+                                "prove that EVs are more convenient than vehicles that use petrol due to dynamic charging"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Yazar metin boyunca kablosuz şarj teknolojisindeki gelişmeleri, projeleri ve gelecekteki potansiyeli anlatıyor[cite: 127, 133, 148].",
+                                "wrong": {
+                                    "1": "Çevresel faydadan sadece kısaca bahsedilmiş (sustainable), ana odak bu değil.",
+                                    "2": "Dezavantajları uyarmıyor, aksine gelecekte çözüleceğini müjdeliyor.",
+                                    "3": "Benzinli araçlardan daha uygun olduğunu kanıtlamaya çalışmıyor, şarj sorununun nasıl çözüldüğünü anlatıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 2: Protecting Newly-Hatched Baby Sea Turtles",
+                    "passage": {
+                        "title": "Protecting Newly-Hatched Baby Sea Turtles",
+                        "text": "While on a beach on Hatteras Island, an island off the coast of North Carolina, USA, I was near a turtle nest and asked a man who was walking his dog, \"Wouldn't it be nice to know exactly when the baby sea turtles will come out?\" He smiled and said, \"Well, we're working on that.\" That unexpected conversation generated a partnership to develop TurtleSense, an inexpensive way to remotely monitor turtle nest activity. Humans can best protect baby sea turtles as they make their way to the sea if they know precisely when the baby turtles will appear. We found that by placing a simple sensor in a nest, we could detect activity in the nest indicating when the baby turtles would emerge from the sand and move toward the water.\n\nFor sea turtles, there is only one time in their lives when they are in great danger. A They spend their lives in the ocean, where they have few natural predators. However, adult females come ashore a few times each summer to lay their eggs. B Once they lay and bury them in the sand, they return to the water. A few weeks later, turtles break out of their eggs and \"hatchlings\" come out, usually as a massive group, and move toward the sea. C One danger is hatchlings must avoid trash left by beachgoers as well as birds waiting to prey on them. They may also become disoriented because of light pollution from hotels and restaurants and fail to reach the water. Hatteras beaches receive heavy recreational use, including off-road vehicles, too. D Beach closures to protect turtle nests have led to conflict with those wanting to use the beach. Our goal is to protect hatchlings while still permitting other uses of the beach as much as possible.\n\nWe have had significant success in doing this using TurtleSense. This gadget is a type of accelerometer - a device that measures vibrations in a system and how quickly they are changing. TurtleSense is made up of a sensor connected to a microprocessor on a very small circuit board which is protected by a plastic ball the size of a turtle egg. The mornings after eggs were laid, we buried the device in 74 turtle nests beneath the top 10 eggs. A cable connected the sensor to a small communication tower near the nests. The tower transmitted motion data to cellphone towers, enabling researchers to remotely monitor any activity within the nests.\n\nOur research indicates that vibrations and motion play an important role in sea turtle sibling communication. In a sea turtle nest, when the temperature is right and motion activity stops, this quieting down signals that all the eggs have hatched and the time to leave the nest has come. We used TurtleSense data to develop a method for predicting this. Once hatching begins, we estimate hatchlings will emerge from the nest an average of 3.7 days later. When hatching ends, we can revise this prediction date, narrowing the time window. Turtles in deep nests will typically come out two nights after hatching is complete while those in shallower nests usually emerge one night after hatching ends.\n\nSeeing hatchlings appear and move toward the waves is inspiring. By making it possible to pinpoint baby turtle emergence dates, my colleagues and I hope that TurtleSense will enable more people to observe them. The sensors could also help facilitate protective measures, such as monitoring nests and turning off lights near the water. This research allowed us to monitor previously unseen developmental events in the early lives of sea turtles and helped us begin to understand how turtles use vibration to communicate. Plans for constructing the sensors and communication towers are all open source and available online at the Nerds without Borders website."
+                    },
+                    "questions": [
+                        {
+                            "id": 27,
+                            "question": "From paragraph 1, the reader can understand that ----.",
+                            "options": [
+                                "the number of turtles that come to Hatteras Island had decreased considerably before TurtleSense was developed",
+                                "the author and the man on the beach had worked together on other projects before deciding to develop TurtleSense",
+                                "knowing the exact moment when turtles leave their nests is not enough to provide protection for them",
+                                "before TurtleSense, there was no effective way to understand when newborn turtles would leave their nests"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "1. paragrafta yazar \"Yavruların ne zaman çıkacağını bilmek harika olmaz mıydı?\" diye soruyor. Bu da daha önce bunu tam olarak bilmenin (effective way) mümkün olmadığını gösterir[cite: 239, 241].",
+                                "wrong": {
+                                    "0": "Kaplumbağa sayısının azaldığına dair bilgi 1. paragrafta yok.",
+                                    "1": "Adamla orada tanıştılar (unexpected conversation), daha önce çalışmadılar.",
+                                    "2": "Tam tersine, ne zaman çıkacaklarını bilirlerse onları en iyi şekilde koruyabileceklerini (can best protect) söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "question": "Where would the following sentence best fit in paragraph 2? \"This journey is, in fact, a highly vulnerable moment for many reasons.\"",
+                            "options": [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cümle \"Bu yolculuk (this journey) aslında çok savunmasız bir andır\" diyor. Bu cümle, yavruların denize doğru hareket ettiğini anlatan cümleden sonra [C] ve tehlikelerin (One danger is...) sıralandığı cümleden önce gelmelidir[cite: 247, 248].",
+                                "wrong": {
+                                    "0": "A noktası okyanustaki yaşamlarını anlatıyor, yolculuk henüz başlamadı.",
+                                    "1": "B noktası annelerin yumurta bırakmasını anlatıyor.",
+                                    "3": "D noktası plaj kapanmalarını anlatıyor, tehlikelerin ortası."
+                                }
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "question": "According to paragraph 2, the author believes that ----.",
+                            "options": [
+                                "sea turtles should always have priority in using the beaches because their survival is at risk",
+                                "the needs of sea turtles have to be balanced with those who want to make use of the beaches",
+                                "it is not necessary to close the beaches, but the number of tourists and off-road vehicles must be decreased",
+                                "there must be more protections for turtles both when females lay eggs and hatchlings leave their nests"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cevap 2. paragrafın sonunda: \"Our goal is to protect hatchlings while still permitting other uses of the beach as much as possible.\"[cite: 252]. Yani hem kaplumbağaları korumak hem de insanların plajı kullanmasına izin vermek (denge/balance) istiyorlar.",
+                                "wrong": {
+                                    "0": "Her zaman öncelik kaplumbağalarda demiyor, denge arıyor.",
+                                    "2": "Turist sayısını azaltmaktan bahsetmiyor, çatışmayı çözmekten bahsediyor.",
+                                    "3": "Sadece yavruların çıkış anına odaklanılıyor, yumurtlama anına değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "question": "According to paragraph 3, TurtleSense",
+                            "options": [
+                                "is about the size of a sea turtle egg and detects movement around it",
+                                "was put in many nests because the device was being used for the first time",
+                                "works best if it is put at the top of a nest that has lots of eggs in it",
+                                "does not need any wires as it can send signals to cellphones"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cevap 3. paragrafta: \"...protected by a plastic ball the size of a turtle egg.\" ve \"detect activity in the nest\"[cite: 256]. Yumurta boyutunda ve hareketi algılıyor.",
+                                "wrong": {
+                                    "1": "İlk kez kullanıldığı için çok yuvaya kondu denmiyor.",
+                                    "2": "En üste değil, en üstteki 10 yumurtanın altına (beneath the top 10 eggs) konuyor.",
+                                    "3": "Kuleye bağlanmak için bir kablosu var (A cable connected the sensor)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "question": "In paragraph 4, \"this\" refers to ----.",
+                            "options": [
+                                "TurtleSense data",
+                                "the time hatchlings leave the nest",
+                                "motion activity",
+                                "sea turtle sibling communication"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragrafta \"time to leave the nest has come. We used TurtleSense data to develop a method for predicting **this**.\" deniyor[cite: 261, 262]. \"This\", yuvayı terk etme zamanını (time to leave) işaret ediyor.",
+                                "wrong": {
+                                    "0": "Veriyi tahmin etmiyorlar, veriyi kullanarak zamanı tahmin ediyorlar.",
+                                    "2": "Hareket aktivitesini değil, sonucu (çıkış zamanını) tahmin ediyorlar.",
+                                    "3": "İletişimi değil, çıkış anını tahmin ediyorlar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "question": "Which of the statements is TRUE according to paragraph 4?",
+                            "options": [
+                                "Generally, it's about four days from when TurtleSense first detects motion to when turtles leave their nests.",
+                                "When turtles in eggs feel motion around them, they try to break out of their shells and leave the nest right away.",
+                                "It is quite unpredictable when turtles will leave their nests after hatching ends and the nest quiets down.",
+                                "Hatchlings that are in shallower nests usually come out one day later than those that are in deeper nests."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragrafta \"average of 3.7 days later\" deniyor[cite: 263]. 3.7 gün, yaklaşık dört gündür (about four days).",
+                                "wrong": {
+                                    "1": "Hemen (right away) çıkmazlar, birkaç gün sürer.",
+                                    "2": "Tahmin edilemez değil, artık tahmin edilebiliyor (we can revise this prediction date).",
+                                    "3": "Sığ (shallow) yuvalar 1 gece sonra, derin (deep) yuvalar 2 gece sonra çıkar. Sığ olanlar daha ERKEN çıkar, daha geç değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "question": "The word \"pinpoint\" in paragraph 5 is closest in meaning to",
+                            "options": [
+                                "adjust",
+                                "decrease",
+                                "delay",
+                                "identify"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"Pinpoint\" tam olarak belirlemek, saptamak demektir. Tarihleri tespit etmek (identify) anlamında kullanılmıştır[cite: 267].",
+                                "wrong": {
+                                    "0": "\"Adjust\" ayarlamak demektir.",
+                                    "1": "\"Decrease\" azaltmak demektir.",
+                                    "2": "\"Delay\" geciktirmek demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 34,
+                            "question": "What is the main purpose of the text?",
+                            "options": [
+                                "To offer possible solutions to the problems that hotels and restaurants face because of sea turtles",
+                                "To show that scientists and the tourism industry can work together in order to solve conservation problems",
+                                "To explain a device that protects sea turtles by accurately predicting hatching dates",
+                                "To discuss why sea turtles need to be protected and suggest measures that will keep them safe"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metnin ana amacı TurtleSense adlı cihazı, nasıl çalıştığını ve kaplumbağaların çıkış tarihini tahmin ederek onları nasıl koruduğunu anlatmaktır[cite: 240, 241, 267].",
+                                "wrong": {
+                                    "0": "Otellerin sorunlarına çözüm aramıyor.",
+                                    "1": "Turizm endüstrisi ile işbirliği ana odak değil.",
+                                    "3": "Genel koruma önlemleri değil, spesifik bir cihaz (TurtleSense) anlatılıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 3: Musician Siblings Who Became Rock Stars - in Astronomy",
+                    "passage": {
+                        "title": "Musician Siblings Who Became Rock Stars - in Astronomy",
+                        "text": "Brother and sister William and Caroline Herschel left their musical careers to become astronomers. Whatever history lost musically, it gained scientifically. Until the Herschels, watching the skies had largely been limited to observing the planets visible to the naked eye. With improved telescopes of William's design, the siblings made the first systematic observations of the stars beyond the solar system, setting the course for the scientific discipline of astronomy.\n\nNo one could have guessed their eventual profession during their childhood in Hanover, Germany. Their father played in the city's military band. He insisted on a musical education for his 10 children as a means toward social advancement. William, 12 years older than his sister, followed his father into music. But, as the Seven Years' War with France got closer to Hanover, William fled to London, arriving there in 1758 at the age of 20. He found work as a music copyist, then tutored and performed until finding work as church organist in Bath in 1766. Located around 100 miles west of London, Bath had a lively intellectual scene. William joined the Bath Philosophical Society, and through lectures, discussions, and readings became familiar with the latest findings in science and physics. He studied the relationship between acoustics and mathematics. These interests led to physics, then to optics, which introduced him to astronomy. However great his love for music was, it was no match for his desire to learn \"the construction of the heavens.\"\n\nTo manage his commitments to both music and astronomy, William invited his 22-year-old sister, Caroline, to join him in Bath after the death of their father. She eagerly accepted the offer, arriving in England in 1772. Although she was also a musician, she worked at her brother's side and became equally fascinated by the night sky and astronomy. A working arrangement soon developed between the two: William made observations while Caroline did the detailed work of calculating the locations, an important step toward a disciplined, mathematical approach to modern astronomy.\n\nFrustrated by the performance of his telescopes, William set out to make one he designed himself. The metal mirrors needed intense polishing since large glass mirrors were not available at the time. Caroline wrote about William's commitment to this task: \"My time was taken up with copying Music, besides attendance on my Brother when polishing, that by way of keeping him alive I fed him by putting food into his mouth. This was once the case when at the finishing of a 2.3-meter mirror, he had not left his hands from it for 16 hours.\" Due to such dedication to his work, by the end of the 1770s William was considered the leading telescope manufacturer of his time.\n\nA couple of years later, while studying double stars (two stars that appear close together when viewed from Earth), William noted an object that slowly moved across background stars over several nights. He thought it was a comet, but it eventually became clear he had found a planet. At first, he called it Georgium Sidus, Latin for \"George's star,\" in honor of King George III. However, naming the new planet for the British monarch raised hackles in other countries, especially in France, which was often at war with Britain, so William changed its name to \"Uranus\", a sky god from Greek mythology who was respected by all astronomers. Uranus was the first planet discovered using a telescope, causing William to win international fame. He was also made court astronomer by the king, with an annual pension of £200.\n\nRegarding his sister, Caroline eventually abandoned her musical career to take up the life of a full-time astronomer. In 1783, she and her brother began their 20-year survey of the night sky to find deep-sky objects. William kept his eye on the sky for many hours at a time while Caroline recorded her brother's observations and confirmed measurements. During this time, Caroline was making her own discoveries, the first of which was in August 1786, when she made history as the first woman to discover a comet. The following year, the king recognized Caroline's talents by awarding her £50 a year, making her the first woman to be given a salary as an astronomer. Caroline's uniqueness was in her ability to get her work recognized. William's public acknowledgment of Caroline's work helped, but Caroline also knew how to win the approval of her male peers by combining scientific accuracy with charm and social skill.\n\nAlthough William's 1788 marriage caused some tension between the siblings, they continued to work together. William and Caroline surveyed almost the entire sky visible from southern England, creating a list of 2,500 new sky objects including nebulae, star clusters, and galaxies. Their discoveries became the foundation for the New General Catalogue of Nebulae and Clusters of Stars (NGC), which is still used today. Caroline continued to work with her brother until his death in 1822, after which she returned to Germany. She revised William's three catalogs of nebulae and star clusters, for which she received a gold medal from the Astronomical Society in 1828-a first for a woman. Caroline died in 1848, and her gravestone reads: \"The eyes of her who is glorified here below turned to the starry heavens.\""
+                    },
+                    "questions": [
+                        {
+                            "id": 35,
+                            "question": "In paragraph 1, the writer emphasizes that William and Caroline Herschel ----.",
+                            "options": [
+                                "were two of the most talented musicians who had ever lived",
+                                "focused on different things compared to earlier sky-watchers",
+                                "cooperated to make the best telescopes the world had known until that time",
+                                "were the first people to carefully record how the planets moved in relation to the sun"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "1. paragrafta Herschel kardeşlerden önce gözlemin çıplak gözle görülen gezegenlerle sınırlı olduğu, ancak onların güneş sistemi dışındaki yıldızları (stars beyond the solar system) sistematik olarak gözlemlediği belirtiliyor. Yani öncekilerden farklı şeylere odaklandılar[cite: 350, 351].",
+                                "wrong": {
+                                    "0": "Müzik kariyerlerini bıraktıkları söyleniyor, en yetenekli oldukları değil.",
+                                    "2": "Teleskop yapmaları vurgulanıyor ama paragrafın ana vurgusu astronomi disiplininin yönünü değiştirmeleri.",
+                                    "3": "Güneş'e göre gezegen hareketlerini değil, güneş sistemi dışındaki yıldızları kaydettiler."
+                                }
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "question": "Which sentence best restates the essential information given in this sentence from paragraph 2? \"No one could have guessed their eventual profession during their childhood in Hanover, Germany.\"",
+                            "options": [
+                                "When they were children in Hanover, Germany, it would have been impossible to predict what their profession would turn out to be.",
+                                "It was difficult for children in Hanover, Germany at that time to imagine what job they would do when they were growing up.",
+                                "They were able to keep the profession they were dreaming about secret from everyone in Hanover, Germany when they were children.",
+                                "Hanover, Germany was a hard place to live, so no one expected that these children from there would gain such an important profession."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru: \"No one could have guessed\" (kimse tahmin edemezdi) ifadesi \"impossible to predict\" (tahmin etmek imkansızdı) ile tam örtüşüyor[cite: 353].",
+                                "wrong": {
+                                    "1": "O dönemdeki tüm çocuklar için zor olduğunu söylüyor, ama metin sadece bu iki kardeşi kastediyor.",
+                                    "2": "Mesleklerini sır (secret) olarak sakladıklarını söylüyor, oysa metinde böyle bir sır yok.",
+                                    "3": "Hanover'ın yaşaması zor bir yer olduğunu vurguluyor, metinde bu yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 37,
+                            "question": "It can be inferred from paragraph 2 that ----.",
+                            "options": [
+                                "William's father hoped that William might become interested in science",
+                                "William gave up a secure job in London to become part of the Philosophical Society in Bath",
+                                "William met the world's leading astronomer during his early years in Bath",
+                                "William's interest in astronomy developed after his relocation to Bath"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Metinde William'ın Bath'a taşındıktan sonra felsefe topluluğuna katıldığı ve optik/astronomi ile burada tanıştığı (introduced him to astronomy) yazıyor[cite: 357, 358]. Yani ilgi Bath'a taşındıktan sonra gelişti.",
+                                "wrong": {
+                                    "0": "Babası müzik eğitimi konusunda ısrarcıydı, bilim değil.",
+                                    "1": "İşini bırakıp gitmedi, orada orgcu olarak iş buldu.",
+                                    "2": "Önde gelen bir astronomla tanıştığına dair bilgi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 38,
+                            "question": "According to paragraphs 3 & 4, it is FALSE that ---.",
+                            "options": [
+                                "Caroline was happy to come to Bath and quickly became interested in her brother's work",
+                                "William and Caroline's working method ended up having a significant effect on the field of astronomy",
+                                "William preferred metal mirrors to glass mirrors because of his great ability to polish metal mirrors",
+                                "William's ability to focus on a task for an extended period of time contributed to his making the best telescopes"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metinde William'ın metal ayna kullandığı çünkü o dönemde büyük cam aynaların mevcut olmadığı (since large glass mirrors were not available) yazıyor. Tercih sebebi yeteneği değil, zorunluluktu[cite: 365].",
+                                "wrong": {
+                                    "0": "DOĞRU: Caroline teklifi hevesle (eagerly) kabul etti ve büyülendi (fascinated).",
+                                    "1": "DOĞRU: Çalışma yöntemleri modern astronomiye adım oldu.",
+                                    "3": "DOĞRU: 16 saat elini çekmeden çalışması en iyi teleskopları yapmasını sağladı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "question": "In paragraph 5, the phrase \"raised hackles\" is closest in meaning to ----.",
+                            "options": [
+                                "caused confusion",
+                                "upset",
+                                "gained support",
+                                "increased competition"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Raised hackles\" deyimi birini kızdırmak, sinirlendirmek veya tüylerini diken diken etmek demektir. Metinde gezegene İngiliz kralının adının verilmesinin, savaşta oldukları Fransa'yı kızdırdığı anlatılıyor[cite: 373]. (Not: Orijinal belgede şıkların formatı karışıktır, 'upset' doğru anlamdır).",
+                                "wrong": {
+                                    "0": "\"Caused confusion\" kafa karışıklığı yarattı demektir.",
+                                    "2": "\"Gained support\" destek kazandı demektir (tam tersi).",
+                                    "3": "\"Increased competition\" rekabeti artırdı demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "question": "The phrase \"this time\" in paragraph 6 refers to ----.",
+                            "options": [
+                                "the period when Caroline was balancing her musical career and being an astronomer",
+                                "the 20-year period when Caroline and William were surveying the night sky",
+                                "before Caroline and William started working together",
+                                "the year 1783"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragrafın başında 1783'te 20 yıllık bir gökyüzü taramasına başladıkları söyleniyor. Sonrasında \"During **this time**...\" diyerek bu 20 yıllık süreç kastediliyor[cite: 377, 379].",
+                                "wrong": {
+                                    "0": "Müzik kariyerini çoktan bırakmıştı (abandoned her musical career).",
+                                    "2": "Birlikte çalıştıkları dönemden bahsediliyor.",
+                                    "3": "Sadece 1783 yılını değil, devam eden süreci kapsıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "question": "The main idea of paragraph 6 is that ----.",
+                            "options": [
+                                "William would not have been able to succeed without the assistance of Caroline",
+                                "William enabled Caroline to work together with him on some projects in the field of astronomy",
+                                "Caroline used her outgoing personality to become well-known in the scientific community of her time",
+                                "Caroline made significant contributions to the field of astronomy working with William and on her own"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Paragraf Caroline'ın hem kardeşiyle çalışmasını (surveying the sky) hem de kendi keşiflerini (first woman to discover a comet), maaş almasını ve tanınmasını anlatıyor. Yani hem birlikte hem tek başına katkı sağladı[cite: 376, 379, 381].",
+                                "wrong": {
+                                    "0": "Paragraf William'ın başarısız olacağına odaklanmıyor, Caroline'ın başarılarına odaklanıyor.",
+                                    "1": "Sadece William'ın izin vermesi değil, Caroline'ın kendi başarıları da var.",
+                                    "2": "Sadece kişiliği değil, bilimsel doğruluğu (scientific accuracy) da etkiliydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 42,
+                            "question": "According to the text, it is TRUE that ----.",
+                            "options": [
+                                "the Seven Years' War led to the death of some of William and Caroline's family members",
+                                "the king gave William a larger annual salary than any other scientist of that time",
+                                "no woman before Caroline had discovered a comet or received a gold medal from the Astronomical Society",
+                                "the stress caused by William's marriage had a lasting impact on William and Caroline's cooperation"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metinde Caroline'ın \"kuyruklu yıldız keşfeden ilk kadın\" ve \"Astronomical Society'den madalya alan ilk kadın\" olduğu açıkça belirtiliyor[cite: 379, 403].",
+                                "wrong": {
+                                    "0": "Savaş yüzünden William kaçtı, aile üyelerinin öldüğü yazmıyor.",
+                                    "1": "Maaşın diğer bilim insanlarından yüksek olduğu yazmıyor.",
+                                    "3": "Evlilik gerginlik yaratsa da \"they continued to work together\" (birlikte çalışmaya devam ettiler) deniyor, işbirlikleri bozulmadı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "question": "The text mainly discusses ----",
+                            "options": [
+                                "how William and Caroline Herschel left a notable mark on the field of astronomy",
+                                "how William and Caroline Herschel's background in music enabled them to become successful astronomers",
+                                "why William and Caroline Herschel moved from Germany to England and how this influenced their careers",
+                                "why William and Caroline Herschel's telescope design was better than other designs and led to new discoveries"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metin genel olarak iki kardeşin müzikten astronomiye geçişini ve astronomi alanında yaptıkları büyük, kalıcı katkıları (notable mark) anlatıyor[cite: 349, 351, 405].",
+                                "wrong": {
+                                    "1": "Müzik geçmişlerinin başarılarını sağladığı ana fikir değil, sadece bir detay.",
+                                    "2": "Taşınma sadece bir arka plan bilgisi.",
+                                    "3": "Teleskop tasarımı sadece bir araçtı, ana konu yaptıkları keşifler ve bıraktıkları miras."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

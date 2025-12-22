@@ -1,0 +1,980 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: The Great Pyramids of Giza",
+                    "passage": {
+                        "title": "The Great Pyramids of Giza",
+                        "text": "The Great Pyramid of Giza, built around 2560 BC, is the only one of the Seven Wonders of the Ancient World that (1)_____ largely intact. For over 3,800 years, it was the tallest man-made structure in the world. (2)_____ over 2 million stone blocks, some weighing as much as 80 tons, it is a masterpiece of engineering. Archaeologists and historians have long debated (3)_____ the ancient Egyptians managed to transport these massive stones without modern machinery. Most theories suggest that the workers (4)_____ a complex system of ramps and sledges. Recent discoveries of worker villages indicate that the pyramids were built by skilled laborers, (5)_____ slaves as previously thought. These workers were well-fed and respected, (6)_____ suggests the project was a source of national pride. (7)_____ centuries of study, many secrets of the pyramid, such as the purpose of certain internal shafts, (8)_____ a mystery. Researchers continue (9)_____ new technologies to explore hidden chambers within the structure. What these chambers contain (10)_____ to be seen, but they may hold the key to understanding ancient Egyptian beliefs."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "remains",
+                                "remaining",
+                                "remained",
+                                "has remained"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Remains\" (A) doğru çünkü cümle genel bir gerçekten bahsediyor (Geniş Zaman - Present Simple). Ayrıca özne \"the only one\" (tekil) olduğu için fiile -s takısı gelmeli.",
+                                "wrong": {
+                                    "1": "\"Remaining\" tek başına yüklem olamaz.",
+                                    "2": "\"Remained\" geçmiş zaman bildirir ama piramit hala ayakta.",
+                                    "3": "\"Has remained\" süreç bildirir, ancak burada genel bir durum (intact olması) ifade ediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "Consists",
+                                "Consisting",
+                                "Consisted",
+                                "To consist"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Consisting\" (B) doğru çünkü burada bir kısaltma (reduction) var. Orijinal yapı \"which consists of\" şeklindedir; atılınca geriye aktif anlam taşıyan \"-ing\" kalır.",
+                                "wrong": {
+                                    "0": "\"Consists\" ana fiildir ama cümlede zaten \"is\" ana fiili var.",
+                                    "2": "\"Consisted\" geçmiş zaman fiilidir.",
+                                    "3": "\"To consist\" amaç bildirir, anlam uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "that",
+                                "what",
+                                "how",
+                                "which"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"How\" (C) doğru çünkü arkeologlar Mısırlıların bu taşları 'nasıl' taşıdığını tartışıyorlar. Bir yöntem/metot sorusu var.",
+                                "wrong": {
+                                    "0": "\"That\" kullanılsaydı tartışılan şey bir gerçeğin kendisi olurdu, yöntemi değil.",
+                                    "1": "\"What\" (ne) sorusu burada anlamsız olur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "must use",
+                                "should have used",
+                                "must have used",
+                                "had to use"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Must have used\" (C) doğru çünkü geçmişe yönelik güçlü bir tahmin yapılıyor (kullanmış olmalılar). Kanıtlara dayanarak geçmiş çıkarımı yaparken bu yapı kullanılır.",
+                                "wrong": {
+                                    "0": "\"Must use\" şu an veya gelecek için zorunluluk bildirir.",
+                                    "1": "\"Should have used\" yapmalıydı ama yapmadı (pişmanlık) anlamı katar.",
+                                    "3": "\"Had to use\" geçmişte zorunluluk bildirir, tahmin değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "not",
+                                "no",
+                                "nor",
+                                "none"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Not\" (A) doğru çünkü iki isim grubu arasında düzeltme/zıtlık yapılıyor: \"skilled laborers, not slaves\" (köleler değil, vasıflı işçiler).",
+                                "wrong": {
+                                    "1": "\"No\" sıfat olarak isimden önce gelir.",
+                                    "2": "\"Nor\" genellikle \"neither\" ile kullanılır.",
+                                    "3": "\"None\" zamirdir (hiçbiri), buradaki yapıya uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "that",
+                                "which",
+                                "this",
+                                "what"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Which\" (B) doğru çünkü virgülden sonra gelerek kendinden önceki tüm cümleyi niteleyen bir bağlaç görevi görüyor.",
+                                "wrong": {
+                                    "0": "\"That\" virgülden sonra kullanılmaz.",
+                                    "2": "\"This\" iki cümleyi bağlamak için tek başına yetersizdir.",
+                                    "3": "\"What\" noun clause yapar, relative clause değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "While",
+                                "Since",
+                                "Despite",
+                                "Unless"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"Despite\" (C) doğru çünkü \"yüzyıllarca süren çalışmalara RAĞMEN sırlar çözülemedi\" anlamı var. Kendisinden sonra isim öbeği gelmiş.",
+                                "wrong": {
+                                    "0": "\"While\" kendisinden sonra tam cümle ister.",
+                                    "1": "\"Since\" anlamı uymuyor.",
+                                    "3": "\"Unless\" koşul bildirir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "are staying",
+                                "stay",
+                                "will stay",
+                                "stayed"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Stay\" (B) doğru çünkü \"remain\" (kalmak) anlamında kullanılmış. Genel bir durumu anlattığı için Geniş Zaman (Simple Present) kullanılır.",
+                                "wrong": {
+                                    "0": "\"Are staying\" şimdiki zaman bildirir, geçici bir durum algısı yaratır.",
+                                    "2": "\"Will stay\" gelecek zaman bildirir.",
+                                    "3": "\"Stayed\" geçmiş zaman bildirir ama gizem hala devam ediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "using",
+                                "to use",
+                                "use",
+                                "used"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"To use\" doğru çünkü 'continue' fiilinden sonra hem '-ing' hem 'to + fiil' gelebilir. Burada amaç vurgusu yapıldığı için 'to use' daha uygun.",
+                                "wrong": {
+                                    "0": "\"Using\" de gramer olarak doğru olabilir, ancak 'continue to' yapısı amaç bildirirken daha yaygındır.",
+                                    "2": "\"Use\" yalın fiil, 'continue' dan sonra kullanılamaz.",
+                                    "3": "\"Used\" geçmiş zaman, yapıya uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "remains",
+                                "remaining",
+                                "is remained",
+                                "will remain"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"Remains\" doğru çünkü 'remains to be seen' deyimsel bir ifadedir ve 'henüz görülmeye ihtiyaç duyuyor, sonucu belli değil' anlamına gelir.",
+                                "wrong": {
+                                    "1": "\"Remaining\" tek başına yüklem olamaz.",
+                                    "2": "\"Is remained\" yanlış çünkü 'remain' pasif yapılamaz.",
+                                    "3": "\"Will remain\" deyimsel ifadeyle uyumsuz."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "statement": "Most people assume that possessing superior intelligence and confidence in your abilities guarantees success.",
+                            "options": [
+                                "The belief that exceptional intelligence and trust in your abilities ensures high achievement is common.",
+                                "People generally think anyone who has high self-esteem can develop themselves mentally and attain wealth.",
+                                "Whether or not you have an above-average intellect and a positive opinion of your abilities determines your chance of success.",
+                                "It is thought that you can certainly achieve considerable success if you are determined to raise your intellectual level and the amount of confidence you have in your skills."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu seçenek doğru çünkü orijinal cümledeki 'Most people assume' ifadesi 'The belief... is common' ile; 'possessing superior intelligence' ifadesi 'exceptional intelligence' ile ve 'guarantees success' ifadesi 'ensures high achievement' ile tam eşleşiyor.",
+                                "wrong": {
+                                    "1": "Orijinal cümlede 'wealth' (zenginlik) geçmiyor.",
+                                    "2": "C şıkkı 'determines' (belirler) diyor ama orijinal cümle 'guarantees' (garanti eder) diyor.",
+                                    "3": "D şıkkı bir koşul cümlesi kurmuş, orijinalde koşul yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "statement": "Children who constantly feel afraid or who are often hungry or sick have so little energy that they cannot develop their cognitive abilities.",
+                            "options": [
+                                "A lack of energy in a child resulting from fear, hunger or illness can bring about mental capacities which fail to progress.",
+                                "Children with poor mental skills generally grew up in abusive homes where they were mistreated and inadequately fed and cared for.",
+                                "Unsafe environments for children usually result in too little food and a great deal of illness, and these factors affect their academic development.",
+                                "If children spend a great deal of time feeling frightened or are generally ill or poorly fed, they will have to work harder than their peers to increase their mental abilities."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı orijinali tam karşılıyor: Enerji eksikliği -> zihinsel kapasitenin gelişememesi. Nedenleri de (fear, hunger, illness) doğru sıralanmış.",
+                                "wrong": {
+                                    "1": "B şıkkı 'abusive homes' gibi orijinalde olmayan detaylar eklemiş.",
+                                    "2": "C şıkkı 'academic development' diyor ama orijinalde 'cognitive abilities' deniyor.",
+                                    "3": "D şıkkı 'daha çok çalışmaları gerekir' diyor, orijinalde 'geliştiremezler' diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "statement": "While American children prefer tasks they choose for themselves, Asian kids show more motivation when their choices are made for them by an authority.",
+                            "options": [
+                                "Children in Asia accept people in authority telling them what to do, but kids in America rarely do what authorities tell them to do.",
+                                "American children, who are highly-motivated self-learners, have less respect for those in positions of authority than Asian kids do.",
+                                "Asian children who have strong motivation listen to suggestions made by people who lead them, but high achieving American children make their own decisions.",
+                                "Unlike American children, who like to decide what they will do for themselves, Asian kids are more excited about something if someone in charge tells them what to do."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı zıtlığı doğru veriyor. Amerikalı çocuklar kendi seçtiklerini severken, Asyalı çocukların bir otorite söylediğinde daha motive olduğunu anlatıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı Amerikalı çocukların otoriteyi nadiren dinlediğini söylüyor, bu yanlış.",
+                                    "1": "B şıkkı 'daha az saygı duyduğunu' iddia ediyor, bu bilgi yok.",
+                                    "2": "C şıkkı başarılı (high achieving) Amerikalı çocuklardan bahsediyor, orijinalde genel konuşulmuş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "statement": "Disapproving of childhood fear or anger does not stop kids from having those feelings but may cause them to hide how they feel.",
+                            "options": [
+                                "Not wanting to make kids cover up their emotions, adults hesitate to push them to quit being afraid or annoyed.",
+                                "Children are sensitive to criticism about their fears or rage because they cannot control their reactions to many events.",
+                                "If people tell children not to be afraid or angry, they might not show how they feel even though they continue to experience these emotions.",
+                                "Being encouraged not to feel frightened or upset enables children to overcome these emotions although they may still struggle with them."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı orijinal anlamı koruyor: Çocuklara korkma/kızma demek duyguyu bitirmiyor ama duygularını göstermemelerine neden olabilir.",
+                                "wrong": {
+                                    "0": "A şıkkı yetişkinlerin tereddüt ettiğinden bahsediyor, orijinalde sonuç odaklı bir cümle var.",
+                                    "1": "B şıkkı çocukların eleştiriye hassas olduğundan bahsediyor.",
+                                    "3": "D şıkkı duyguların üstesinden gelmelerini sağladığını söylüyor, orijinalde tam tersi söyleniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "statement": "On account of children spending an increasingly greater amount of time in the digital world, it’s crucial for adults to enter it.",
+                            "options": [
+                                "Becoming familiar with technology is vital for adults due to the growing amount of time kids engage with it.",
+                                "It’s essential for not only children but also adults to stay up to date with what’s happening in the world of technology.",
+                                "Adults have kept up with the latest technology; otherwise, children, who use it continuously, would be far ahead of them.",
+                                "Although new technology is extremely difficult for adults, they need to spend as much time with it as kids do if they hope to understand today’s children."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı orijinali tam yansıtıyor: Çocukların teknolojiyle geçirdiği artan zaman yüzünden yetişkinlerin buna aşina olması hayati önem taşır.",
+                                "wrong": {
+                                    "1": "B şıkkı 'sadece çocuklar değil yetişkinler de...' diyor, odak kaymış.",
+                                    "2": "C şıkkı 'aksi takdirde çocuklar onları geçer' diyor, bu kıyaslama yok.",
+                                    "3": "D şıkkı 'yetişkinler için zor olsa da' gibi ekstra bir yorum eklemiş."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "statement": "Inventing their own games, children of the past created their own fun without any costly equipment.",
+                            "options": [
+                                "Long ago, children were forced to invent games that didn’t make use of anything that involved any expense.",
+                                "Over the years, children have gotten used to coming up with simple, low-cost activities that are really creative.",
+                                "Children used to make up unique, creative activities that did not need any expensive supplies.",
+                                "At one time, children’s games were not as enjoyable because kids did not have the chance to buy the things they wanted."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı orijinali en iyi özetliyor: Geçmişteki çocuklar pahalı malzemelere ihtiyaç duymadan yaratıcı aktiviteler uydururlardı.",
+                                "wrong": {
+                                    "0": "A şıkkı çocukların buna 'zorlandığını' söylüyor, orijinalde zorlama yok.",
+                                    "1": "B şıkkı 'yıllar içinde alıştılar' diyor, orijinalde geçmişe dair kesin bir tespit var.",
+                                    "3": "D şıkkı oyunların 'zevkli olmadığını' söylüyor, bu yanlış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "statement": "Rather than play their own games, children now rely on technology for the majority of their activities, limiting challenges to both their imaginations and their bodies.",
+                            "options": [
+                                "Due to a lack of mental and physical determination in today’s children, their activities are almost all done on the computer instead of the real world.",
+                                "Not allowed to have fun as children did in the past, modern kids make great use of technology, but it does not fully develop their bodies or their minds.",
+                                "Technology, not their own creativity, is the basis for most of the games kids play these days, and this results in fewer chances to develop their creativity and physical strength.",
+                                "Children of today are so dependent on technology for entertainment that they rarely play traditional games, which were much better at developing their strength and coordination."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı orijinal anlamı veriyor: Kendi yaratıcılıkları yerine teknolojiyi temel alıyorlar, bu da yaratıcılık ve fiziksel gücü geliştirme şansını azaltıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'mental ve fiziksel kararlılık eksikliği yüzünden' diyor, orijinalde neden bu değil.",
+                                    "1": "B şıkkı 'geçmişteki gibi eğlenmelerine izin verilmiyor' diyor.",
+                                    "3": "D şıkkı geleneksel oyunların 'daha iyi olduğunu' savunuyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "statement": "Video games offer ways for kids to collaborate and to learn basic principles of teamwork while boosting their logical thinking skills.",
+                            "options": [
+                                "Having a positive impact on critical thinking, video games are useful for kids because they enable them to better compete against others.",
+                                "As children playing video games sharpen their ability to think, they acquire knowledge which will help them succeed in the real world.",
+                                "Video games are marketed to children despite harming their cognitive abilities, but they may help them learn to cooperate and to be successful team members.",
+                                "Children’s video games provide opportunities to work together with other kids and discover how to be part of a team as well as to improve their ability to think logically."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı orijinaldeki üç unsuru da içeriyor: 1. İşbirliği, 2. Takım çalışması, 3. Mantıksal düşünme.",
+                                "wrong": {
+                                    "0": "A şıkkı 'başkalarıyla rekabet' diyor, orijinalde işbirliği var.",
+                                    "1": "B şıkkı sadece düşünme yeteneğine odaklanmış.",
+                                    "2": "C şıkkı oyunların 'zarar verdiğini' söylüyor, orijinal cümle olumlu."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "statement": "Rising university costs are causing students to insist on greater openness about the way universities spend money.",
+                            "options": [
+                                "As universities force students to pay more, students are more likely to protest university policies.",
+                                "As university students are being asked to pay more, they expect their schools to provide higher quality education.",
+                                "Students should be allowed to find out how universities are using the rising amount they are required to pay for fees.",
+                                "Students are paying higher universities fees, so they are demanding more information about how their money is spent."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı orijinali tam karşılıyor: Masraflar arttığı için, paranın nasıl harcandığına dair daha fazla bilgi talep ediyorlar.",
+                                "wrong": {
+                                    "0": "A şıkkı 'protesto etme ihtimalleri artıyor' diyor, protesto kelimesi yok.",
+                                    "1": "B şıkkı 'daha kaliteli eğitim bekliyorlar' diyor.",
+                                    "2": "C şıkkı 'öğrenmelerine izin verilmeli' diyor, bu bir öneri cümlesi olurdu."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading_comprehension",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Tell Me Another One, Daddy",
+                            "text": "Most parents know about the benefits of reading stories from books with their young children. Parents are given this message in pediatricians’ offices, on TV, and even through billboards on city buses. Reading books to young children on a daily basis advances their language skills, extends their learning about the world, and boosts their own reading later in school. Reading books with children is clearly a good idea, yet what most parents aren’t aware of is that most of the benefits which result from reading good books can be gained through telling family stories. There are also some others which are unique to verbal storytelling.\n\nOver the last 25 years, a great deal of research on family storytelling has shown that when parents share more family stories with their children, especially when they tell those stories in a detailed and responsive way, their children profit in many ways. For instance, experimental studies show that when parents discuss everyday events with their preschool children in detail, their children tell richer, more complete stories earlier than children whose parents don’t interact in this way. Children of these parents also demonstrate better understanding of other people’s thoughts and emotions. These skills serve children well in their school years, both when reading complex material and while learning to get along with others. In the preteen years, children whose families collaboratively discuss everyday events and family history more often have higher self-esteem. Those with a stronger knowledge of family history through stories told by their families also have better coping skills and lower rates of depression. Family storytelling can help children grow into teens who feel connected to the important people in their lives.\n\nBest of all, unlike stories from books, family stories are always free and completely portable. You don’t need to go to a library or use the Internet to share a story about your day, about their day, about your childhood or their grandma’s. In research on family storytelling, each one of these kinds of stories is linked to benefits for your child. Furthermore, family stories often continue to be part of a parent’s daily interactions with their children into adolescence, which is past the age of parents reading a bedtime story.\n\nAll families have stories to tell, regardless of their culture or their circumstances. Of course, not all of these stories are idyllic ones. In fact, stories of life’s more difficult moments can teach children and adolescents a great deal according to recent research, if these stories are told in a way that is sensitive to the child’s level of understanding. Telling the story about the time your house caught fire is fine, but look for the good that came out of it. For example, your family ended up at a neighbor’s house who you hardly knew, and a close friendship resulted.\n\nHolidays are a perfect time for family storytelling. While having your holiday meal, share a story with your children about past holidays. Leave in the funny bits, the sad bits, and the unpleasant parts because kids can understand when a story has been changed for them. Then invite everyone else to tell a story, too. Don’t forget the youngest and the oldest storytellers in the group. Their stories may not be as coherent, but they can be the truest, and the most revealing. But do not limit your storytelling to special occasions. Family stories can be told nearly anywhere. They only need your time and creativity. They will inspire, protect, and bind your family together. Finally, be generous with your stories, remembering that your children will probably keep them for a lifetime.",
+                            "questions": [
+                                {
+                                    "id": 16,
+                                    "question": "The passage mainly discusses ----.",
+                                    "options": [
+                                        "the similar and contrasting benefits of reading books and telling stories to children",
+                                        "the factors that have led to the increase of verbal story telling in recent years",
+                                        "methods that parents can use to make sure their stories are appropriate for children of different ages",
+                                        "reasons why families should share verbal stories with children of all ages"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metin boyunca aile hikayeleri anlatmanın (verbal storytelling) çocuklara sağladığı duygusal ve bilişsel faydalar anlatılıyor. D şıkkı 'Reasons why families should share verbal stories' (Ailelerin neden sözlü hikayeler anlatması gerektiğinin nedenleri) bunu en iyi özetleyen şıktır.",
+                                        "wrong": {
+                                            "0": "Sadece kitap okumakla karşılaştırma yapılıyor ama ana odak bu değil, aile hikayelerinin değeri.",
+                                            "1": "Sözlü hikaye anlatımının artış nedenleri tartışılmıyor.",
+                                            "2": "Metotlardan ziyade faydalar üzerinde duruluyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 17,
+                                    "question": "The word others in paragraph 1 refers to ----.",
+                                    "options": [
+                                        "parents",
+                                        "benefits",
+                                        "good books",
+                                        "family stories"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cümleye bakalım: 'most of the benefits... can be gained through telling family stories. There are also some others...' Burada 'others' kelimesi 'other benefits' (diğer faydalar) yerine kullanılmıştır.",
+                                        "wrong": {
+                                            "0": "Ebeveynlere referans vermiyor.",
+                                            "2": "Kitaplara referans vermiyor.",
+                                            "3": "Hikayelere referans vermiyor, hikayelerin sağladığı faydalara referans veriyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 18,
+                                    "question": "In paragraph 2, the author mentions all the following benefits of storytelling EXCEPT ----.",
+                                    "options": [
+                                        "an increased ability to comprehend what others are feeling",
+                                        "higher grades in a wide variety of subjects in later school years",
+                                        "a stronger sense of confidence in themselves",
+                                        "less chance of suffering from a serious emotional problem"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 2'de okul başarısından genel olarak bahsediliyor ('serve children well in their school years') ancak 'higher grades' (daha yüksek notlar) spesifik olarak söylenmiyor. Bu yüzden B şıkkı metinde geçmeyen detaydır.",
+                                        "wrong": {
+                                            "0": "Metinde geçiyor: 'understanding of other people’s thoughts and emotions'.",
+                                            "2": "Metinde geçiyor: 'have higher self-esteem'.",
+                                            "3": "Metinde geçiyor: 'lower rates of depression'."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 19,
+                                    "question": "In paragraph 3, the author points out that stories from books and family stories differ in that ----.",
+                                    "options": [
+                                        "family stories are easier to access than stories from books but they lack the variety that books have",
+                                        "family stories are nearly unlimited in number but the number of age-appropriate books is limited",
+                                        "sharing family stories still appeals to young people at an age when being read to no longer appeals to them",
+                                        "young people no longer want a family story before going to bed but might read a book before sleeping"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 3'ün sonunda: '[family stories] continue to be part of a parent’s daily interactions... into adolescence, which is past the age of parents reading a bedtime story.' Yani kitap okuma yaşı geçse bile aile hikayeleri ergenlikte de ilgi çekmeye devam eder.",
+                                        "wrong": {
+                                            "0": "Kitapların çeşitliliğinin eksik olduğu söylenmiyor.",
+                                            "1": "Kitap sayısının sınırlı olduğu söylenmiyor.",
+                                            "3": "Gençlerin yatmadan önce kitap okumak istedikleri söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 20,
+                                    "question": "The word idyllic in paragraph 4 could best be replaced by ----.",
+                                    "options": [
+                                        "pleasant",
+                                        "accurate",
+                                        "emotional",
+                                        "long"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Idyllic\" huzurlu, mutlu, masalsı demektir. Metinde 'not all stories are idyllic... difficult moments' (tüm hikayeler toz pembe değildir, zor anlar da vardır) diyerek zıtlık kuruluyor. En yakın anlam 'pleasant' (hoş/keyifli) kelimesidir.",
+                                        "wrong": {
+                                            "1": "Accurate (doğru) anlamca uymaz.",
+                                            "2": "Emotional (duygusal) anlamca uymaz.",
+                                            "3": "Long (uzun) anlamca uymaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "In paragraph 4, the author mainly wants to stress that ----.",
+                                    "options": [
+                                        "the stories that families tell vary greatly from one culture to another",
+                                        "emotional children may be deeply impacted by stories, so consider carefully which stories you share",
+                                        "we should teach children that every negative event always is followed by a positive event",
+                                        "children can deal with stories with sad events if they see positive things which resulted from them"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragrafın ana fikri: Kötü olaylar bile (difficult moments) anlatılabilir, yeter ki sonucu iyi bağlansın. Kanıt: 'Look for the good that came out of it.' Bu da D şıkkını doğrular.",
+                                        "wrong": {
+                                            "0": "Kültür farkı ana konu değil.",
+                                            "1": "Çocukların etkileneceği için anlatmayın denmiyor, nasıl anlatılacağı söyleniyor.",
+                                            "2": "Her kötü olayın iyi bittiğini öğretmeliyiz demiyor, anlatırken iyi yanını bulun diyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "In paragraph 5, the author implies that ----.",
+                                    "options": [
+                                        "children will probably not be interested in a story if they think it is not accurate",
+                                        "kids do not enjoy long stories, so keep stories brief at special events like holiday meals",
+                                        "the stories of very young and very old people are often boring, but they are still important for families",
+                                        "adults may not remember the stories their parents told, but they will have happy memories of listening to them"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 5'te 'Leave in the funny bits... sad bits... because kids can understand when a story has been changed for them' deniyor. Yani çocuklar hikaye değiştirildiğinde anlar ve dürüstlük ister. Bu da A şıkkını (doğru olmadığını düşünürlerse ilgilenmezler) destekler.",
+                                        "wrong": {
+                                            "1": "Kısa tutun denmiyor.",
+                                            "2": "Yaşlıların hikayeleri sıkıcıdır denmiyor, tam tersi 'truest and most revealing' deniyor.",
+                                            "3": "Hatırlamayacakları söylenmiyor, 'keep them for a lifetime' (ömür boyu saklarlar) deniyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Why Taiwan Is Right to Ban iPads for Kids",
+                            "text": "Being a parent has suddenly become more stressful if you live in Taiwan. Parents who fail to follow the new \"Child and Youth Welfare Protection Act\" may be fined $1500. As much as I dislike governments which interfere in our private lives, I was happy when I learned of this law, which penalizes parents for allowing children under the age of two to use iPads and other electronic gadgets. It’s true that the measure seems to infringe on personal privacy. Dealing with a mother-in-law’s advice was difficult enough, but now politicians are also restricting how parents raise kids. Nevertheless, I believe that the new Taiwanese legislation will cause parents to think twice before giving their iPad to their young child.\n\nThe fact is that although doctors' advice on screen-time has been clear for years, it has been completely ignored by most parents. The American Academy of Pediatrics (AAP) recommends that \"entertainment media should be avoided for children under age two because a child's brain develops rapidly during this time, and they learn best by interacting with people, not screens.\" For older children, they recommend limiting screen-time to two hours per day. And, despite what ads say, online videos aimed at very young children do not improve their development. While most parents are aware of experts’ advice and doubtful of advertisers’ claims, they simply disregard the viewing guidelines. Research has shown that most American children have between five and seven hours of screen-time a day, roughly triple the AAP's maximum. British psychologist Aric Sigman says that the average seven-year-old in his country has spent the equivalent of an entire year of his/her life in front of a screen. Australia was no better; a study there found that 80% of 16-year-olds exceed the recommended screen-time allowance.\n\nThe AAP guidelines are vitally important. Dismissing them, researchers believe, can cause children to have impaired brain development, an increased risk of attention problems, behavioral difficulties, obesity and sleep loss, leading to poor bodily development and lack of success in school. Yet many parents continue to let their kids use devices extensively because the option of a digital babysitter is simply too tempting. In addition, there is a misperception that electronic media can be educational for children. As a result, for most parents the practical advantages and perceived educational benefits of entertaining children with screen media outweigh the long-term harm they refuse to consider.\n\nIt’s true that there are some reasons to question the guidelines. Every new medium, from novels to TV, has been accused of ruining the young, and there could be some exaggeration in the opposition to digital media. Since technology is increasingly dominating our lives, children who are able to write code or use Photoshop have a significant advantage as adults. Furthermore, a number of academics make a distinction between harmful and beneficial screen-time. They argue that harm is reduced if parents make screen-time a shared experience and if children still have lots of time to play in the real world. Similarly, the Harvard Family Research Project says that \"young children may benefit from computer use\" if the software is sufficiently interactive.\n\nHowever, such positive studies can also be exaggerated. It is worth noting, for instance, that even the Harvard study emphasizes that \"excessive screen time harms healthy growth and development, regardless of content\". The AAP decided their guidelines were still valid and parents should continue following them when it carefully reviewed them in 2011. The alternative to this is to risk their child's well-being. Unfortunately, most children have double or triple the accepted healthy level of screen-time. Even an educational app is unlikely to make a meaningful difference in that case. As a result, I praise the Taiwanese government’s boldness even if they are interfering in parents’ lives.",
+                            "questions": [
+                                {
+                                    "id": 23,
+                                    "question": "The writer mainly argues that ----.",
+                                    "options": [
+                                        "despite evidence of its dangers, parents still allow their children excessive screen time",
+                                        "there is an ongoing debate about whether using technological devices is useful or harmful for kids",
+                                        "families and politicians must continue to cooperate to protect kids from the harm that technology can lead to",
+                                        "the Taiwanese government is concerned about its citizens and has passed a law which will improve their lives"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Yazarın temel argümanı, ebeveynlerin tehlikelerin kanıtlarına rağmen çocuklarına aşırı ekran süresi tanıdığı ve bu yüzden devlet müdahalesinin haklı olduğudur. A şıkkı bu sorunu (parental failure) en iyi özetleyen seçenektir.",
+                                        "wrong": {
+                                            "1": "Yazar tartışmanın ortasında değil, net bir taraf tutuyor (yasağı destekliyor).",
+                                            "2": "Politikacıların işbirliğinden değil, müdahalesinden bahsediliyor.",
+                                            "3": "Yazarın asıl derdi hükümeti övmekten çok, ebeveynlerin sorumsuzluğunu vurgulamak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "The phrase infringe on in paragraph 1 is closest in meaning to ----.",
+                                    "options": [
+                                        "deceive",
+                                        "debate",
+                                        "reduce",
+                                        "restore"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Infringe on\" ihlal etmek, kısıtlamak demektir. Metinde 'infringe on personal privacy' (kişisel gizliliği ihlal etmek/kısıtlamak) anlamında kullanılmış. Şıklarda buna en yakın etkiyi yaratan 'Reduce' (azaltmak) kelimesidir.",
+                                        "wrong": {
+                                            "0": "Deceive: Kandırmak.",
+                                            "1": "Debate: Tartışmak.",
+                                            "3": "Restore: Geri getirmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "In paragraph 1, it can be inferred that the writer thinks ----.",
+                                    "options": [
+                                        "the new law should be changed since it puts too much pressure on parents",
+                                        "paying a $1500 fine is a reasonable punishment for giving an iPad to a young child",
+                                        "the new law should also include older children",
+                                        "the new law will increase tensions between parents and grandparents"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Yazar paragrafın sonunda yasanın caydırıcı olacağını düşünüyor ('cause parents to think twice'). Ancak A şıkkı çeldiricidir. Yazar yasayı destekliyor ('I was happy'). Şıkları incelediğimizde, A şıkkı 'yasa değişmeli' diyor, bu yazarın görüşüne ters. B şıkkı cezanın 'makul' olduğunu ima ediyor. Yazar yasadan mutlu olduğuna göre cezayı da destekliyor demektir. Ancak 'reasonable punishment' ifadesi doğrudan geçmiyor. Yine de yazarın 'happy' olması, cezayı onayladığı anlamına gelir. (Not: Bu soru aslında çeldiricili, ancak yazarın olumlu tutumuna en yakın şık aranmalıdır.)",
+                                        "wrong": {
+                                            "0": "Yazar yasanın değişmesini istemiyor, destekliyor.",
+                                            "2": "Daha büyük çocuklar kapsama alınsın demiyor.",
+                                            "3": "Kayınvalidelerle gerilim ana konu değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "When discussing the AAP guidelines in paragraph 2, the writer points out that ----.",
+                                    "options": [
+                                        "the AAP has not done an effective job at publicizing their guidelines",
+                                        "interacting with devices for up to two hours a day is acceptable for kids under two",
+                                        "a few computer programs have succeeded in improving brain development in children under two",
+                                        "most parents do not follow these guidelines even though they have been informed of them"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Yazar 2. paragrafta açıkça belirtiyor: 'Most parents are aware of experts’ advice... simply disregard the viewing guidelines.' Yani ebeveynler bilmelerine rağmen kurallara uymuyorlar. Cevap D.",
+                                        "wrong": {
+                                            "0": "AAP'nin işini iyi yapmadığı söylenmiyor.",
+                                            "1": "2 yaş altı için 'avoided' (kaçınılmalı) deniyor.",
+                                            "2": "Programların gelişimi artırdığı iddiası reddediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "From the writer’s discussion of the amount of screen time for children in paragraph 2, the reader can conclude that ----.",
+                                    "options": [
+                                        "screen time use for children in all three countries mentioned was not controlled nearly enough",
+                                        "American parents are much less strict about limiting screen time than British and Australian parents are",
+                                        "British parents are more aware of the psychological effects of screen time than American or Australian parents",
+                                        "Australian parents limit screen time use for younger children but not older ones"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragrafta ABD, İngiltere ve Avustralya örnekleri veriliyor ve hepsinde limitlerin çok aşıldığı belirtiliyor. Bu da A şıkkını (hiçbirinde yeterince kontrol edilmediğini) doğrular.",
+                                        "wrong": {
+                                            "1": "Ülkeler arası bir 'daha az katı' kıyaslaması yapılmıyor, hepsi kötü durumda.",
+                                            "2": "İngiliz ebeveynlerin daha bilinçli olduğu söylenmiyor.",
+                                            "3": "Avustralya'da küçük çocuklar için limit olduğu söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "Which of the following is NOT included in paragraph 3?",
+                                    "options": [
+                                        "Effects on learning if parents fail to follow the AAP guidelines",
+                                        "Negative physical results of not following the AAP guidelines",
+                                        "Reasons that parents have for ignoring the AAP guidelines",
+                                        "Reasons why the writer thinks it is acceptable not to obey the AAP guidelines"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 3'te kurallara uymamanın öğrenmeye etkileri (A), fiziksel etkileri (B) ve ebeveynlerin neden uymadığı (C) anlatılıyor. Ancak yazar kurallara uymamanın 'kabul edilebilir' olduğunu söylemiyor, aksine eleştiriyor. Bu yüzden D şıkkı paragrafta yoktur.",
+                                        "wrong": {
+                                            "0": "Var: 'lack of success in school'.",
+                                            "1": "Var: 'obesity and sleep loss'.",
+                                            "2": "Var: 'digital babysitter'."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "The main idea of paragraph 4 is that ----.",
+                                    "options": [
+                                        "today’s children need to be competent at using technology",
+                                        "critics of the AAP guidelines have some support for their opinions",
+                                        "technology is not harmful if parents carefully direct their children’s use of it",
+                                        "today’s children interact with screens similar to the way kids used to interact with novels and TVs"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 4, karşıt görüşleri sunuyor: 'It’s true that there are some reasons to question the guidelines.' Yani eleştirenlerin de kendince haklı dayanakları olduğunu belirtiyor. Cevap B.",
+                                        "wrong": {
+                                            "0": "Teknoloji yetkinliği sadece bir argüman, ana fikir değil.",
+                                            "2": "Zararlı olmadığı ana fikir değil, sadece bir görüş olarak sunuluyor.",
+                                            "3": "Roman/TV benzetmesi sadece bir örnek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "The word this in paragraph 5 refers to ----.",
+                                    "options": [
+                                        "the AAP’s decision",
+                                        "the AAP guidelines still being valid",
+                                        "parents’ following the AAP guidelines",
+                                        "carefully reviewing the AAP guidelines in 2011"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cümle: 'parents should continue following them... The alternative to THIS is to risk their child's well-being.' Burada 'THIS', bir önceki cümlede önerilen eyleme, yani kuralları takip etmeye (following the guidelines) referans verir.",
+                                        "wrong": {
+                                            "0": "Karara referans vermiyor.",
+                                            "1": "Kuralların geçerli olmasına değil, ebeveynin eylemine referans veriyor.",
+                                            "3": "İncelemeye referans vermiyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Upgrading the Megacity",
+                            "text": "Istanbul is renowned as a bridge between East and West. Because most technical innovations in Turkey first see the light of day here, the city is a bright spot for the growing country. Siemens technology supports this journey into the future with upgrades for the city’s power and infrastructure.\n\nBringing the infrastructure up to the latest standards and making life in Istanbul even more attractive are Siemens’ main objectives. That begins with the morning \"intercontinental\" ferry crossing. The Bosphorus ferries, in spite of travelling at a modest 25 km/h, are one of the fastest means of getting around in Istanbul. They are used every day by approximately 250,000 travelers, and each vessel has a capacity of about 1,800 people.\n\nFor decades the Bosphorus ferries have served as one of the main components in Istanbul’s traffic infrastructure and as one of its tourist attractions. Yet, many of the ferries are showing their age. In these ferries, the propellers are turned directly by heavy diesel engines. \"The poor efficiency of this outdated technology is bad for the environment and harmful for the engines,\" explains Emre Goren, a sales specialist at Siemens’ Drive Technologies Division. \"With conventional drive engineering, variable adjustment of the engine speed isn’t possible, so the engines wear out faster. That also means they must be serviced more frequently.\" Siemens technology allows Bosphorus ferries to use much less fuel. That’s why IDO, the company that operates the ferries, has chosen diesel-electric drive systems from Siemens for the latest generation of Bosphorus ferries. These systems convert the power of four diesel engines into electrical energy, which is then finely adjusted to serve the needs of each propeller. Individual diesel engines can thus be shut off, such as while maneuvering to moor at a landing. It means maximum efficiency with less dirty emissions, better fuel efficiency, and cost savings. And thanks to the reduced level of engine vibration, passengers enjoy a more comfortable trip. \"Some of our captains were doubtful when Siemens delivered the first diesel-electric drives for ferries in Turkey to us,\" says Nejdet Oguz, Chief Engineer on the Kadıköy, one of the new Bosphorus ferries. “However, we can maneuver the ferries with greater certainty now and save on diesel fuel, and the ferries need less maintenance work than before, which means we can go home earlier to our families,\" says Oguz.\n\nSiemens has also set standards in Istanbul’s business district, where its advanced building technology ensures an uninterrupted power supply. An example is the Tekfen Tower, which is home to the trading operations of several international banks. A power failure in such a setting, where millions of dollars in shares are traded every second, would be a disaster. That’s why Siemens is present. During a period of dangerous grid fluctuations, which unfortunately still happen now and then in Istanbul, generators and batteries that are independent of the grid can supply the building with power. The system is monitored by digital systems, meaning that fewer people are needed than originally planned. Instead of a team of eight people continuously monitoring the electric infrastructure, only two people are required.\n\nWhen everything runs smoothly, most of the power for Istanbul comes from a nearby plant in Ambarli, where gas turbines and steam turbines deliver reliable energy. In 2006, Siemens succeeded in increasing the output of two of the plant’s gas turbines by almost 5% by optimizing design. During the modernization phase, the overall lifespan of the gas turbines was extended together with their maintenance intervals, which has reduced operational costs. At plants of this scale, even small improvements have significant effects. By 2020, however, Turkey’s energy requirements will likely double, as Devrim Aslan, Sales and Marketing Manager at Siemens Energy explains. That means more capacity is needed, which is why some major users like Tekfen Tower have made themselves energy independent.",
+                            "questions": [
+                                {
+                                    "id": 31,
+                                    "question": "The phrase at a modest in paragraph 2 could best be replaced by ---.",
+                                    "options": [
+                                        "at a slow pace of",
+                                        "at a distance of",
+                                        "at the risky speed of",
+                                        "for hours at"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Modest\" kelimesi burada 'mütevazı, çok yüksek olmayan' anlamındadır. Hız bağlamında 'yavaş' (slow pace) anlamına gelir. Metin, yavaş olmalarına rağmen (in spite of) en hızlı ulaşım aracı olduklarını söylüyor.",
+                                        "wrong": {
+                                            "1": "Mesafe belirtmiyor.",
+                                            "2": "Riskli hız demiyor.",
+                                            "3": "Süre belirtmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "In paragraph 3, it is stated that ferries that use conventional diesel engines without Siemens technology --- than ferries that use diesel-electric drive systems from Siemens.",
+                                    "options": [
+                                        "need repair more often",
+                                        "have more propellers",
+                                        "are heavier",
+                                        "attract more tourists"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 3'te eski motorlar için: 'must be serviced more frequently' (daha sık bakıma girmeli) deniyor. Bu da 'need repair more often' ile aynı anlamdadır.",
+                                        "wrong": {
+                                            "1": "Pervane sayısı karşılaştırılmıyor.",
+                                            "2": "Ağırlık karşılaştırılmıyor.",
+                                            "3": "Turist sayısı teknolojiye bağlanmıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 33,
+                                    "question": "From paragraph 3, it can be understood that Siemens engine technology ---.",
+                                    "options": [
+                                        "causes a ferry to vibrate forcefully",
+                                        "has been installed in the oldest generation of Bosphorus ferries as well the latest ones",
+                                        "allows the engine speed of a ferry to be varied",
+                                        "does not require diesel fuel to be used in a ferry"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragraf 3'te eski sistemde hız ayarının mümkün olmadığı söyleniyor. Siemens teknolojisinin getirdiği yenilik tam da budur. Dizel-elektrik sistem bu ayarı sağlar.",
+                                        "wrong": {
+                                            "0": "Tam tersi, titreşimi azaltıyor.",
+                                            "1": "Sadece en yeni nesil ('latest generation') feribotlara takıldığı söyleniyor.",
+                                            "3": "Dizel yakıt kullanıyor ama tasarruf ediyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "According to paragraph 4, Tekfen Tower ---.",
+                                    "options": [
+                                        "suffered millions of dollars of losses due to a recent power failure",
+                                        "signed an agreement with Siemens after a dangerous grid fluctuation",
+                                        "always generates and uses its own electricity rather than depending on the city’s power plant",
+                                        "is provided with electricity by its own systems in case of a power failure"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 4: 'generators... that are independent of the grid can supply the building with power.' Yani elektrik kesildiğinde kendi sistemleri devreye giriyor.",
+                                        "wrong": {
+                                            "0": "Zarar görmesini ENGELLEMEK için sistem var, zarar gördü denmiyor.",
+                                            "1": "Anlaşma zamanı belirtilmemiş.",
+                                            "2": "Sadece dalgalanma olduğunda kendi elektriğini kullanıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "From paragraph 4, it can be understood that in Tekfen Tower, ---.",
+                                    "options": [
+                                        "a team of eight people constantly monitors the electric infrastructure",
+                                        "monitoring the electric infrastructure by digital systems has reduced the number of people needed for constant monitoring",
+                                        "a team of two people continuously monitors the electric infrastructure despite the need for a team of eight",
+                                        "two people out of eight have been fired since only six people are needed to monitor the electric infrastructure"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 4: Dijital sistemler sayesinde 8 kişi yerine 2 kişi yetiyor.",
+                                        "wrong": {
+                                            "0": "Sürekli 8 kişi izlemiyor, planlanan buydu ama sayı düştü.",
+                                            "2": "8 kişiye ihtiyaç varken 2 kişi izliyor demiyor.",
+                                            "3": "Kovulma (fired) ifadesi metinde yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 36,
+                                    "question": "In paragraph 5, it is stated that in the Ambarli plant, ---.",
+                                    "options": [
+                                        "there are only two gas turbines that operate",
+                                        "two gas turbines improved by Siemens do not need maintenance until 2020",
+                                        "steam turbines are no longer used due to the presence of improved gas turbines",
+                                        "the duration between maintenance times of two gas turbines improved by Siemens used to be shorter"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 5: 'maintenance intervals [were extended]' (bakım aralıkları uzatıldı). Bu demektir ki eskiden bakım aralıkları daha kısaydı.",
+                                        "wrong": {
+                                            "0": "Sadece 2 türbin olduğu söylenmiyor.",
+                                            "1": "2020'ye kadar bakım gerekmiyor demiyor.",
+                                            "2": "Buhar türbinlerinin kullanılmadığı söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "From the text, we CANNOT understand that ---.",
+                                    "options": [
+                                        "diesel power can be turned into electrical energy",
+                                        "Siemens type engines make captains’ jobs easier",
+                                        "Devrim Aslan is doubtful whether Turkey’s energy requirements will double by 2020",
+                                        "Siemens’ presence in Tekfen Tower helps prevent financial loss"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde Devrim Aslan enerji ihtiyacının ikiye katlanacağını 'açıklıyor'. Bu konuda şüphe duyduğuna dair bir ifade yok. Bu yüzden C şıkkı metinden çıkarılamaz.",
+                                        "wrong": {
+                                            "0": "Metinde var.",
+                                            "1": "Metinde var.",
+                                            "3": "Metinde var."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "Paper versus Pixel",
+                            "text": "A well-educated, studious young man, living in the Chinese imperial court of the Eastern Han Dynasty, Cai invented fiber-plant based paper in 105 A.D. At the time, writing and drawing were done primarily on silk, which was elegant but expensive, or on bamboo, which was convenient but not durable. Seeking a more practical alternative, Cai came up with the idea of mashing bits of tree bark and hemp fiber together in a little water and then letting it dry into sheets in the sun. The experiment was a success. Except for a few industrial tweaks, Cai’s method is still pretty much the way paper gets made today.\n\nCai killed himself some years later, having been involved in a scandal from which he saw no exit. However, his invention took on a life of its own. The craft of papermaking spread quickly throughout China and made its way through the Middle East into Europe. Within a few centuries, paper had replaced animal skins and wooden tablets as the world’s preferred medium for writing and reading. With his creation of the printing press around 1450, the goldsmith Gutenberg mechanized the work of the scribe, a person who made copies of written documents, replacing inky fingers with inky machines. But it was Cai who gave us our reading material and, some would say, our world.\n\nPaper, whose uses extend from the artistic to the bureaucratic to the hygienic, may be the single most versatile invention in history. However, we rarely give it its credit. The wide availability of the stuff has led us to take it for granted. Even with the arrival of digital technology, paper use continued going up. However, recently it has plummeted with more global use of digital technology. As a result, in 2011 Scottish novelist Ewan Morrison declared that within 25 years the digital revolution would bring about the end of paper books and that the future of books and periodicals lay in “e-publishing”. However, new facts suggest that words will continue to appear on sheets of paper for a good long while. E-book sales, which skyrocketed after the launch of Amazon’s e-book reader in late 2007, have fallen back to earth in recent months while sales of paperbacks have remained surprisingly resilient. Printed books still account for about three-quarters of overall book sales in the United States, and if sales of used books, which have been booming, are taken into account, that percentage likely rises higher.\n\nThe differences between page and screen go beyond the simple pleasure of touching good paper stock. To the human mind, a sequence of pages bound together into a physical object is very different from a flat screen that displays only a single “page” of information at a time. The physical presence of the printed pages, and the ability to flip back and forth through them, turns out to be important to the mind’s ability to navigate written works. We quickly develop a mental map of the contents of a printed text.\n\nHowever, many people choose e-books because of their numerous advantages. When your eyes feel strained after reading a paper book too long, you have little choice but to stop reading. With an e-book, you can just change the font size and keep going. Those who own a lot of books know how much space they can fill up, but with an e-reader, your whole bookshelf is located on a small device. E-books normally include multi-lingual dictionaries which allow the user to get the meaning of words while reading. This is particularly valuable while reading a text in a non-native tongue.\n\nWe were probably mistaken to think of words on screens as substitutes for words on paper. They seem to be different things, suited to different kinds of reading and providing different sorts of aesthetic and intellectual experiences allowing for differing preferences. This year in the U.S., 2 billion books and 350 million magazines will roll off the presses, which tells us Cai is not turning in his grave just yet.",
+                            "questions": [
+                                {
+                                    "id": 38,
+                                    "question": "The word tweaks in paragraph 1 is closest in meaning to ----.",
+                                    "options": [
+                                        "modifications",
+                                        "relations",
+                                        "incidents",
+                                        "products"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Tweak\" küçük ayar, değişiklik demektir. Metinde 'Except for a few industrial tweaks' (birkaç endüstriyel değişiklik dışında) metodun aynı kaldığı söyleniyor. 'Modifications' en yakın anlamlıdır.",
+                                        "wrong": {
+                                            "1": "Relations: İlişkiler.",
+                                            "2": "Incidents: Olaylar.",
+                                            "3": "Products: Ürünler."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "Based on the information in paragraph 2, it can be understood that ----.",
+                                    "options": [
+                                        "the mechanization of bookmaking made no great change in the appearance of the book",
+                                        "the invention of paper enabled China to develop their civilization and spread their culture quickly",
+                                        "the production of documents required intensive physical labor before Gutenberg’s invention",
+                                        "the invention of the printing press surpassed that of paper, which took Cai by surprise"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragrafta Gutenberg'in matbaayı icat ederek 'inky fingers' yerine makineleri getirdiği, yani yazmanların fiziksel emeğini makineleştirdiği anlatılıyor. Bu da C şıkkını doğrular.",
+                                        "wrong": {
+                                            "0": "Büyük değişiklik yapmadı demiyor.",
+                                            "1": "Çin'in kültürünü yayması vurgulanmıyor.",
+                                            "3": "Gutenberg'in icadının kağıdı geçtiği söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "The word versatile in paragraph 3 is closest in meaning to ----.",
+                                    "options": [
+                                        "acceptable",
+                                        "offensive",
+                                        "identical",
+                                        "functional"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Versatile\" çok yönlü, birçok işe yarayan demektir. Metinde kağıdın sanattan bürokrasiye kadar kullanım alanı olduğu belirtiliyor. Şıklarda buna en yakın olan 'functional' kelimesidir.",
+                                        "wrong": {
+                                            "0": "Acceptable: Kabul edilebilir.",
+                                            "1": "Offensive: Saldırgan/Kaba.",
+                                            "2": "Identical: Özdeş."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "According to paragraph 3, when digital technology first came out ----.",
+                                    "options": [
+                                        "people started to write on paper less in general",
+                                        "people got less dependent on paper",
+                                        "paper consumption did not decrease",
+                                        "it increased worker productivity and reduced costs"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metin: 'Even with the arrival of digital technology, paper use continued going up.' Yani dijital teknoloji geldiğinde bile kağıt kullanımı artmaya devam etti (azalmadı).",
+                                        "wrong": {
+                                            "0": "Daha az yazmaya başladılar denmiyor.",
+                                            "1": "Daha az bağımlı oldular denmiyor.",
+                                            "3": "Verimliliği artırdığı söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "One can infer from paragraph 3 that ----.",
+                                    "options": [
+                                        "recent facts have so far proven Ewan Morrison wrong",
+                                        "more people prefer used books rather than new or electronic books",
+                                        "e-publishing may soon bring an end to the publication of paperbacks",
+                                        "Amazon’s e-reader is one of the factors leading to the increase in sales of printed books"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Ewan Morrison kağıt kitapların biteceğini öngörmüştü ama metin 'sales of paperbacks have remained surprisingly resilient' diyor. Yani Morrison'ın tahmini şu ana kadar yanlış çıktı.",
+                                        "wrong": {
+                                            "1": "İkinci el kitapları YENİ kitaplara tercih ettikleri söylenmiyor.",
+                                            "2": "E-yayıncılığın bitireceği çürütülüyor.",
+                                            "3": "Amazon e-okuyucunun basılı kitap satışını artırdığı söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "What is the main idea of paragraph 4?",
+                                    "options": [
+                                        "There is not a lot to distinguish e-books from physical books besides the physical bulk and feel.",
+                                        "Unlike traditional books, e-books offer a variety of features.",
+                                        "No current technology can give the pleasure of the printed page in terms of touch.",
+                                        "When we hold a physical publication in our hands, it makes it easier to understand how it is organized."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 4'te basılı sayfaların 'physical presence' ve sayfaları çevirme yeteneğinin 'mental map' oluşturmaya yardımcı olduğu anlatılıyor.",
+                                        "wrong": {
+                                            "0": "Fark yok demiyor, çok fark var diyor.",
+                                            "1": "E-kitap özelliklerinden Paragraf 5 bahsediyor.",
+                                            "2": "Hiçbir teknoloji dokunma hissini veremez demiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 44,
+                                    "question": "In paragraph 5, the author mentions all of the following benefits of e-books EXCEPT ----.",
+                                    "options": [
+                                        "reading foreign books",
+                                        "storage",
+                                        "benefits to the environment",
+                                        "font adjustments"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragraf 5'te yabancı dil desteği, depolama alanı ve yazı tipi ayarı geçiyor. Ancak çevreye faydası (benefits to the environment) bu paragrafta geçmiyor.",
+                                        "wrong": {
+                                            "0": "Metinde var.",
+                                            "1": "Metinde var.",
+                                            "3": "Metinde var."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 45,
+                                    "question": "Which of these statements is NOT MENTIONED in the text?",
+                                    "options": [
+                                        "Cai committed suicide after being involved in a scandal.",
+                                        "Gutenberg received help from scribes when he was developing the printing press.",
+                                        "People often undervalue paper as it is very common and can be found everywhere.",
+                                        "Digital or printed reading is a matter of personal taste and preference."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metinde Gutenberg'in yazmanların (scribes) işini makineleştirdiği söyleniyor, ancak yazmanların ona YARDIM ETTİĞİ söylenmiyor. Bu yüzden B şıkkı metinde yoktur.",
+                                        "wrong": {
+                                            "0": "Var.",
+                                            "2": "Var.",
+                                            "3": "Var."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

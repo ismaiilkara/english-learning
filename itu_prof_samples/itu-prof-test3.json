@@ -1,0 +1,1117 @@
+{
+    "id": 3,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Deep Sea Exploration",
+                    "passage": {
+                        "title": "Deep Sea Exploration",
+                        "text": "The deep ocean, (1)_____ covers more than 60% of our planet, remains (2)_____ unexplored part of Earth. (3)_____ a depth of 200 meters, sunlight cannot penetrate, and the environment becomes one of crushing pressure and near-freezing temperatures. (4)_____ these extreme conditions, scientists (5)_____ that life can thrive in the most unexpected ways. They have found bizarre creatures (6)_____ feed on chemicals from hydrothermal vents (7)_____ sunlight. Exploring this realm is incredibly difficult. (8)_____ we develop more advanced robotic submarines, we cannot (9)_____ reach the deepest trenches. Many scientists believe that (10)_____ discoveries, perhaps even new medicines, are waiting to be found in these dark waters."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "that",
+                                "it",
+                                "what",
+                                "which"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Burada 'which' kullanmalıyız çünkü 'The deep ocean' (derin okyanus) cansız bir varlık. Ayrıca virgülden sonra geldiği için 'that' kullanılamaz, açıklayıcı (non-restrictive) bir ilgi cümlesi kuruyoruz.",
+                                "wrong": {
+                                    "0": "'that' virgülden sonra gelen açıklayıcı cümlelerde (non-restrictive clauses) kullanılmaz.",
+                                    "1": "'it' bir zamirdir ama burada iki cümleyi bağlayan bir ilgi zamirine (relative pronoun) ihtiyacımız var.",
+                                    "2": "'what' genellikle 'şey' anlamındadır ve kendinden önce gelen bir ismi (antecedent) nitelemez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "the most large",
+                                "the largest",
+                                "larger than",
+                                "larger"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümlede 'dünyanın keşfedilmemiş EN BÜYÜK parçası' dememiz gerekiyor. 'Large' tek heceli olduğu için 'the largest' şeklinde üstünlük (superlative) eki alır.",
+                                "wrong": {
+                                    "0": "Tek heceli sıfatlarda 'most' kullanılmaz, '-est' takısı gelir.",
+                                    "2": "'larger than' karşılaştırma (comparative) yapar, ama burada bir kıyaslama değil en üstün olma durumu var.",
+                                    "3": "'larger' sadece 'daha büyük' demek, 'en büyük' anlamını vermez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "Over",
+                                "Below",
+                                "Through",
+                                "In"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "200 metrenin 'altında' güneş ışığı giremez demek istiyoruz. Seviye veya derinlik belirtirken 'Below' (altında) kullanılır.",
+                                "wrong": {
+                                    "0": "'Over' üzerinde demektir, anlamca uymaz.",
+                                    "2": "'Through' içinden/boyunca demektir.",
+                                    "3": "'In' içinde demektir, derinlik seviyesi belirtirken 'below' daha uygundur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "Despite",
+                                "However",
+                                "While",
+                                "Because of"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Bu zorlu koşullara RAĞMEN' dememiz gerekiyor. 'Despite'tan sonra bir isim öbeği (these extreme conditions) gelir ve zıtlık belirtir.",
+                                "wrong": {
+                                    "1": "'However' bir bağlaçtır ve genellikle cümleye başlarken virgülle ayrılır, doğrudan isim öbeği almaz.",
+                                    "2": "'While' kendinden sonra tam cümle (özne + yüklem) ister.",
+                                    "3": "'Because of' sebep bildirir, burada zıtlık (koşullar kötü ama yaşam var) gerekiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "are discovered",
+                                "have discovered",
+                                "had discovered",
+                                "will discover"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Bilim insanları yaşamın gelişebileceğini 'keşfettiler' ve bu keşfin etkisi hala devam ediyor. Bu yüzden Present Perfect Tense (have discovered) en uygunudur.",
+                                "wrong": {
+                                    "0": "'are discovered' edilgen (passive) yapıdır, 'keşfedilirler' anlamına gelir ama bilim insanları işi yapan öznedir.",
+                                    "2": "'had discovered' geçmişin geçmişi (past perfect) için kullanılır, burada zaman sıralaması gerektiren bir durum yok.",
+                                    "3": "'will discover' gelecek zaman bildirir ama keşif yapılmış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "who",
+                                "which",
+                                "they",
+                                "what"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "'Creatures' (yaratıklar) insan dışı varlıklar olduğu için onları tanımlarken 'which' veya 'that' kullanırız. Şıklarda 'which' var.",
+                                "wrong": {
+                                    "0": "'who' insanlar için kullanılır.",
+                                    "2": "'they' bir kişi zamiridir, ilgi zamiri (relative pronoun) olarak cümleyi bağlayamaz.",
+                                    "3": "'what' kendinden önceki ismi nitelemez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "instead of",
+                                "rather",
+                                "without",
+                                "better than"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Bu yaratıklar güneş ışığı 'yerine' kimyasallarla besleniyor. Bir şeyin alternatifi belirtilirken 'instead of' kullanılır.",
+                                "wrong": {
+                                    "1": "'rather' tek başına genellikle kullanılmaz, 'rather than' kalıbı gerekir.",
+                                    "2": "'without' -sız/-siz demektir (güneş ışıksız), ama burada kaynak değişimi vurgulanıyor.",
+                                    "3": "'better than' karşılaştırma yapar, yerine geçme anlamı vermez."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "If",
+                                "Unless",
+                                "When",
+                                "As"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Anlam: 'Daha gelişmiş robotlar yapmazsak (unless), en derin hendeklere ulaşamayız.' Olumsuz koşul cümlesi (If... not) anlamını 'Unless' verir.",
+                                "wrong": {
+                                    "0": "'If' koyarsak: 'Yaparsak ulaşamayız' gibi mantıksız bir anlam çıkar.",
+                                    "2": "'When' zaman belirtir: 'Yaptığımızda ulaşamayız' yine mantıksız olur.",
+                                    "3": "'As' -dıkça/-dikçe anlamı verebilir ama ana cümledeki olumsuzlukla (cannot) mantık bağı 'Unless' kadar güçlü değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "hope to",
+                                "hope for",
+                                "be hopeful",
+                                "hopefully"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cümle yapısı: 'cannot hope to reach' (ulaşmayı umamayız). Fiilden (reach) önce mastar (infinitive) yapısı 'hope to' ile kurulur.",
+                                "wrong": {
+                                    "1": "'hope for'dan sonra genellikle isim gelir (hope for success).",
+                                    "2": "'be hopeful' sıfat yapısıdır, buraya uymaz.",
+                                    "3": "'hopefully' zarftır ve cümle yapısını bozar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "amaze",
+                                "amazed",
+                                "amazing",
+                                "amazement"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Discoveries' (keşifler) ismini niteleyecek bir sıfata ihtiyacımız var. Keşifler insanı şaşırttığı (etken olduğu) için '-ing' takısı alır: 'amazing' (şaşırtıcı).",
+                                "wrong": {
+                                    "0": "'amaze' fiildir.",
+                                    "1": "'amazed' şaşırmış (kişi) demektir; keşifler şaşırmaz, şaşırtır.",
+                                    "3": "'amazement' isimdir."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatement Questions",
+                    "questions": [
+                        {
+                            "id": 1,
+                            "statement": "Babies who walk and talk early are generally thought to be the brightest, but actually these developmental steps are a function of motor development and not related to IQ.",
+                            "options": [
+                                "Contrary to popular belief, walking and talking at a young age are not a sign of high IQ but rather of motor development.",
+                                "Although early speech and walking abilities primarily show physical development, they may also signal above average intelligence.",
+                                "Babies who grow up in a healthy environment learn to speak and walk quickly, but their level of IQ only becomes clear later despite what people believe.",
+                                "People often think babies who manage their first words faster than others are extremely clever whereas babies who display physical skills early may not have such a high IQ."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümlede, bebeklerin erken yürümesi/konuşmasının zeka (IQ) ile değil, motor gelişimle ilgili olduğu ve bunun genel inancın aksine olduğu söyleniyor. A şıkkı 'Contrary to popular belief' (Popüler inancın aksine) diyerek bunu tam karşılıyor.",
+                                "wrong": {
+                                    "1": "B şıkkı zekayı da işaret edebileceğini ('may also signal') söylüyor, oysa orijinal cümle 'not related to IQ' (IQ ile ilgisi yok) diyor.",
+                                    "2": "C şıkkı 'sağlıklı çevre' gibi orijinalde olmayan bir bilgi eklemiş.",
+                                    "3": "D şıkkı fiziksel beceri gösterenlerin IQ'sunun yüksek olmayabileceğini söyleyerek anlamı değiştiriyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "statement": "Studies show that the more babies communicate physically, the better they will communicate verbally.",
+                            "options": [
+                                "Research has shown that if a baby has a physical disability, it is likely to impact its verbal proficiency, too.",
+                                "Studies prove that the link between babies’ ability to communicate clearly and their physical skills is increasing.",
+                                "Babies’ verbal skills are increasing since they’re being encouraged to communicate physically, according to research.",
+                                "Research indicates that a baby that conveys more information using physical means will eventually have greater verbal abilities."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümle 'Ne kadar çok fiziksel iletişim, o kadar iyi sözlü iletişim' diyor (doğru orantı). D şıkkı bunu 'conveys more information using physical means... greater verbal abilities' diyerek tam olarak ifade ediyor.",
+                                "wrong": {
+                                    "0": "A şıkkı fiziksel engellilikten bahsediyor, orijinalde bu yok.",
+                                    "1": "B şıkkı bağlantının arttığını söylüyor, becerinin değil.",
+                                    "2": "C şıkkı teşvik edilmekten (encouraged) bahsediyor, orijinalde yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "statement": "Length at birth is not as accurate a predictor of a baby’s adult height as doubling the child's height at age two is.",
+                            "options": [
+                                "Instead of considering length at birth to estimate a child’s height, it is better to double a child’s height at age two.",
+                                "When predicting adult height, you should not only look at birth length but also multiply a child’s height at age two by two.",
+                                "The longer a child is at birth, the harder it is to predict its full height, but doubling height at age two is generally accurate.",
+                                "A correct estimate of children’s full height can be made by either looking at their length at birth or multiplying their height by two at age two."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümlede doğum boyunun, 2 yaşındaki boyun iki katı kadar iyi bir tahmin aracı olmadığı (kıyaslama) söyleniyor. A şıkkı 'doğum boyuna bakmak yerine 2 yaşındakini ikiye katlamak daha iyidir' diyerek bu kıyaslamayı doğru veriyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'sadece ona değil buna da bak' diyor, oysa orijinal cümle birinin diğerinden daha iyi olduğunu söylüyor.",
+                                    "2": "C şıkkı 'çocuk ne kadar uzunsa tahmin o kadar zordur' gibi uydurma bir bilgi içeriyor.",
+                                    "3": "D şıkkı iki yöntemi de geçerli sayıyor ('either... or'), ama orijinal cümle biri diğerinden daha doğru diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "statement": "Telephone operators used to be men but due to their inappropriate comments to female callers, women replaced them.",
+                            "options": [
+                                "Women had already taken the job of being telephone operators when men spoke rudely to female callers.",
+                                "The worse male telephone operators spoke to female callers, the more women wished they could have their jobs.",
+                                "Male operators speaking improperly to women was the reason why women took over the job of telephone operator from men.",
+                                "For telephone operators, companies have been preferring women to men as a result of women’s better treatment of female callers."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümle neden-sonuç ilişkisi kuruyor: Erkekler uygunsuz konuştuğu için (neden), kadınlar onların yerini aldı (sonuç). C şıkkı bu ilişkiyi 'was the reason why' (sebebiydi) diyerek net veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı zamanlamayı yanlış veriyor ('çoktan almıştı').",
+                                    "1": "B şıkkı kadınların işi 'istediğinden' bahsediyor, orijinalde bu yok.",
+                                    "3": "D şıkkı şirketlerin tercihinden bahsediyor, orijinal cümledeki 'değiştirme' eylemini tam karşılamıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "statement": "Mobile phone use grew so quickly in Jordan that in 2004 the government eliminated telephone booths, which were being used less and less.",
+                            "options": [
+                                "Phone booths were used less as mobile phone use increased in Jordan, so the government decreased the number of these booths in 2004.",
+                                "Due to the great popularity of mobile phones, in 2004 Jordan got rid of its telephone booths, whose usage had declined considerably.",
+                                "The high use of mobile phones in Jordan, which could have impacted the usage of telephone booths, was the reason for the country to stop servicing these booths in 2004.",
+                                "In Jordan in 2004, the government realized the fast rise in usage of mobile phones might lead to a lack of need for phone booths, so they decided not to have these booths anymore."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: Cep telefonları arttı -> kulübeler az kullanıldı -> hükümet kaldırdı. B şıkkı 'got rid of' (kurtuldu/kaldırdı) ve 'usage had declined' (kullanım düşmüştü) diyerek bu süreci doğru özetliyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'sayısını azalttı' diyor, orijinalde 'eliminated' (tamamen kaldırdı) deniyor.",
+                                    "2": "C şıkkı 'servis vermeyi durdurdu' diyor, kaldırmaktan biraz farklı.",
+                                    "3": "D şıkkı 'fark etti... ihtiyaç kalmayabilir' gibi bir olasılık ve düşünce süreci ekliyor, orijinalde eylem kesin."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "statement": "Bell is widely recognized as the inventor of the telephone outside of one country, Italy, where Meucci receives credit for the invention.",
+                            "options": [
+                                "With the exception of Italy, which claims that Meucci is responsible for inventing the phone, Bell is generally seen as the inventor of this device.",
+                                "Throughout the world, Bell is known as the inventor of the phone, but Italy has recently shown how important Meucci was in its development.",
+                                "Italy insists that Meucci invented the phone, and they have persuaded many that Bell is not the real inventor even though most of the world believes he is.",
+                                "Although almost the whole world believes that Bell invented the phone, Italians are making a great effort to convince everyone that Meucci came up with this invention."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümle: İtalya hariç (outside of one country) Bell mucit olarak bilinir; İtalya'da Meucci bilinir. A şıkkı 'With the exception of Italy' (İtalya istisnasıyla) diyerek bu anlamı tam veriyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'recently shown' (son zamanlarda gösterdi) diyerek zaman ekliyor.",
+                                    "2": "C şıkkı 'ikna ettiler' diyor, orijinalde iknadan bahsedilmiyor.",
+                                    "3": "D şıkkı 'ikna etmek için çaba harcıyorlar' diyor, orijinalde sadece durum tespiti var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "statement": "In 1860, an article about a telephone-like device invented by Antonio Meucci was reportedly published in a New York newspaper, but no copy of it has survived.",
+                            "options": [
+                                "It has been said that in 1860 the New York paper that received a description of Antonio Meucci’s device resembling a phone refused to publish an article about it.",
+                                "It might be difficult to find Antonio Meucci’s article about a device that had many similarities to a telephone, which was first printed by a New York newspaper in 1860.",
+                                "It is claimed that an article about a device of Antonio Meucci’s which was similar to a telephone appeared in a newspaper in New York in 1860, yet no one has a copy of it.",
+                                "In 1860, a New York newspaper is said to have reported on Antonio Meucci’s new machine that worked like a telephone, but no examples of the device are available today."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 1860'ta bir makalenin yayınlandığı söyleniyor (reportedly) ama kopyası günümüze kalmadı (no copy survived). C şıkkı 'It is claimed that... yet no one has a copy' diyerek bunu karşılıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'yayınlamayı reddetti' diyor, tam tersi.",
+                                    "1": "B şıkkı 'bulmak zor olabilir' diyor, orijinalde 'hiç kalmadı' diyor.",
+                                    "3": "D şıkkı 'cihazın örneği kalmadı' diyor, oysa kaybolan cihaz değil 'makalenin kopyası'."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "statement": "Competition on the internet will not only bring about innovations but also allow for more convenient access to information.",
+                            "options": [
+                                "Creative developments and easier access to knowledge will result from online competition.",
+                                "Although competition on the internet will result in amazing new programs, it will also lead to too much data.",
+                                "Companies attempting to provide the best internet services will soon produce useful ideas that lead to improved technology.",
+                                "A competitive atmosphere on the internet will lead to more people reaching information but could hold back new advances."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümle: Rekabet sadece yenilik (innovation) getirmeyecek, ayrıca bilgiye kolay erişim (convenient access) sağlayacak. A şıkkı 'Creative developments' (yenilik) ve 'easier access' (kolay erişim) diyerek iki sonucu da doğru veriyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'çok fazla veri' gibi negatif bir sonuç eklemiş.",
+                                    "2": "C şıkkı sadece teknolojiye odaklanmış, erişim kısmını atlamış.",
+                                    "3": "D şıkkı 'gelişmeleri engelleyebilir' diyor, orijinalde tam tersi (gelişme getirecek)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "statement": "Internet access may become much more costly, meaning only the rich will have access to the most up-to-date resources.",
+                            "options": [
+                                "Useful internet programs may be found just in the hands of wealthy people due to the way they abuse their power.",
+                                "Paying for internet access can be a challenge for everyone except the wealthy, who can afford expensive applications.",
+                                "People with lots of money are aiming to gain greater control over the internet so that they will be the only ones who are able to reach recent information.",
+                                "The cost of internet access might rise significantly, which will limit everyone other than rich people from reaching the latest developments available."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümle: Erişim pahalanabilir, bu da sadece zenginlerin en güncel kaynaklara ulaşabileceği anlamına gelir. D şıkkı 'limit everyone other than rich people' (zenginler dışındaki herkesi kısıtlar) diyerek bu anlamı veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı zenginlerin 'güçlerini kötüye kullanmasından' bahsediyor.",
+                                    "1": "B şıkkı pahalı 'uygulamalardan' bahsediyor, konu genel internet erişimi.",
+                                    "2": "C şıkkı zenginlerin bunu 'hedeflediğini' söylüyor, orijinalde bu bir amaç değil, olası bir sonuç."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "statement": "By 2040 artificial intelligence may be able to help us better manage e-mail overload and scheduling difficulties, making these problems a thing of the past.",
+                            "options": [
+                                "Artificial intelligence isn’t developing so fast that it will prevent many e-mails or problems related to scheduling in 2040.",
+                                "Artificial intelligence may keep developing in 2040, enabling it to sort out many e-mails for us as well as organize our schedules.",
+                                "It’s possible that in 2040 we will be able to handle lots of e-mails and won’t have trouble with scheduling as artificial intelligence will have developed enough to deal with these problems.",
+                                "Advances in artificial intelligence could produce solutions to annoyances like unwanted e-mails and other computer-related problems in the year 2040."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 2040'ta yapay zeka e-posta ve programlama sorunlarını çözebilir. B şıkkı 'sort out e-mails' ve 'organize schedules' diyerek bu sorunların çözüleceğini anlatıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı olumsuz (yapamayacak) diyor.",
+                                    "2": "C şıkkı özne olarak 'biz'i alıyor, ama orijinalde işi yapan yapay zeka. Ayrıca anlam biraz dolaylı.",
+                                    "3": "D şıkkı 'computer-related problems' diyerek konuyu çok genelliyor, programlamadan bahsetmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 11,
+                            "statement": "A few decades from now, people will look back at contemporary internet surveillance the way people today look back on child labour, an outdated practice that most people no longer accept.",
+                            "options": [
+                                "People have finally banned child labour, but it would have been better if they had forbidden being watched while using the internet.",
+                                "Just as child labour is no longer tolerated today, being monitored when using the internet will no longer be accepted in a few decades.",
+                                "Letting internet activity be monitored is even worse than putting children to work, and this unacceptable practice will be abandoned in the next few decades.",
+                                "People should have learned a lesson from child labour; however, they will still put up with people tracking them when they are on the internet in the next few decades."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: Gelecekte insanlar internet izlemeye, bugünkü çocuk işçiliğine baktığımız gibi (kabul edilemez olarak) bakacaklar. B şıkkı 'Just as child labour...' (Tıpkı çocuk işçiliği gibi...) diyerek bu analojiyi doğru kuruyor.",
+                                "wrong": {
+                                    "0": "A şıkkı bir pişmanlık ifadesi içeriyor.",
+                                    "2": "C şıkkı izlemenin 'daha kötü' olduğunu söylüyor, kıyaslama eşitlik üzerine.",
+                                    "3": "D şıkkı insanların buna 'katlanacağını' söylüyor, orijinalde kabul edilmeyeceği vurgulanıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "After 1492, a global exchange of previously local crops occurred.",
+                            "options": [
+                                "Some countries started to sell their crops abroad for cash in the years after 1492.",
+                                "It was not until after 1492 that the world understood the importance of crops that were grown in distant places.",
+                                "Countries realized the value of the crops they grew themselves after 1492, when they started trading them abroad.",
+                                "After 1492, many places in the world sent their own crops to new places and received crops from faraway locations."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 1492'den sonra yerel ürünlerin küresel değişimi oldu. D şıkkı 'sent their own crops... received crops' (kendi ürünlerini yolladı, yenilerini aldı) diyerek 'exchange' (değişim) kelimesini açıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı sadece 'nakit için satmaktan' bahsediyor.",
+                                    "1": "B şıkkı 'önemini anladılar' diyor, eylem (takas) eksik.",
+                                    "2": "C şıkkı 'değerini fark ettiler' diyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "After its introduction to Europe in the 1500s, the potato added variety to the European diet and eventually became an important part of Europeans’ diet by the 1700s.",
+                            "options": [
+                                "The potato, an integral part of Europeans’ diet in the 1700s, failed to achieve popularity when introduced to Europe in the 1500s.",
+                                "Europeans did not eat enough food before the potato was brought to them in the 1500s, so in the 1700s they were eating a lot of potatoes.",
+                                "The potato increased the range of foods eaten by Europeans after its arrival in the 1500s, and by the 1700s it had become one of Europe’s basic foods.",
+                                "The European diet lacked diversity before the potato came in the 1500s, but in the 1700s many different types of potatoes were part of the European diet."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Orijinal cümle: 1500'lerde geldi, çeşitlilik kattı, 1700'lerde önemli hale geldi. C şıkkı 'increased the range of foods' (çeşitliliği artırdı) ve 'basic foods' (temel gıda oldu) diyerek bu süreci doğru anlatıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 1500'lerde 'başarısız oldu' diyor.",
+                                    "1": "B şıkkı 'yeterince yemek yemiyorlardı' diyor.",
+                                    "3": "D şıkkı 'farklı patates türlerinden' bahsediyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "In the 1800s, Europe was so dependent on the potato that when the potato crop failed, millions of people died of starvation.",
+                            "options": [
+                                "In the 1800s, many Europeans were very poor, so when their potato crop failed, they had nothing to eat and millions died from a lack of food.",
+                                "A failed potato crop meant millions of deaths in Europe in the 1800s because of the great importance of this crop in the European diet.",
+                                "In Europe in the 1800s, potatoes usually provided plenty of food and the population rose, but when there was a poor crop millions of people died.",
+                                "The reason why so many people in Europe died of starvation in the 1800s was that they ate too many potatoes, which led to serious health problems and millions of death."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal cümle: O kadar bağımlılardı ki (so dependent), hasat kötü gidince milyonlar öldü. B şıkkı 'because of the great importance' (büyük önemi yüzünden) diyerek bağımlılığı ifade ediyor ve sonucu bağlıyor.",
+                                "wrong": {
+                                    "0": "A şıkkı 'çok fakirlerdi' diyor, orijinalde neden fakirlik değil bağımlılık.",
+                                    "2": "C şıkkı 'nüfus arttı' bilgisini ekliyor.",
+                                    "3": "D şıkkı 'çok patates yemekten öldüler' gibi yanlış bir neden sunuyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Despite tremendous gains in agricultural productivity, famines continued all over the world in the 20th century.",
+                            "options": [
+                                "Greatly improved agricultural output was not able to prevent widespread famines in the 20th century.",
+                                "Famines in the 20th century wouldn’t have been so common if farming had been a great deal more productive.",
+                                "The large number of famines in the 20th century was brought about by the radical changes in producing crops.",
+                                "Famines have been increasing in number since the beginning of the 20th century even though farmers have made some gains in their crops."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümle: Tarımsal üretkenlikteki devasa artışlara RAĞMEN kıtlıklar devam etti. A şıkkı 'Improved output was not able to prevent' (Artan çıktı engelleyemedi) diyerek bu zıtlığı veriyor.",
+                                "wrong": {
+                                    "1": "B şıkkı 'daha üretken olsaydı kıtlık olmazdı' diyor, oysa zaten üretkendi.",
+                                    "2": "C şıkkı kıtlığın sebebini 'değişikliklere' bağlıyor.",
+                                    "3": "D şıkkı kıtlıkların 'arttığını' söylüyor, orijinalde 'devam ettiği' yazıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Choosing the Sex of a Baby",
+                            "paragraphs": [
+                                "Many couples trying to have a child know whether they want a girl or a boy. Now with the growing popularity of in vitro fertilization (IVF), more and more parents-to-be are gaining the ability to determine, with almost 100% certainty, the gender of their baby. Recently model Chrissy Teigen and her husband, singer John Legend, announced they chose the gender of their baby, a daughter. Whether couples should be given this choice and what consequences such choices may lead to have become two highly debated topics.",
+                                "Doctors have been dealing with these questions for years. In 1999, the American Society for Reproductive Medicine (ASRM) issued a report saying that using IVF for sex selection should 'not be encouraged'. But in 2015, the group suggested that each hospital should develop their own policies as to whether or not to offer the service. 'From my own personal perspective, I don't think there's anything unethical about any of it despite the years of controversy,' said Dr. Mark Sauer, chief of reproductive endocrinology and infertility at Columbia University Medical Center. Sauer points out that many people’s concerns about IVF date back to the first IVF baby born in 1978 since, in their opinion, the procedure is upsetting a natural process. Their opposition has grown stronger as IVF has enabled people to have more and more control over the child to be born.",
+                                "One apprehension related to sex selection is its possible harmful effect on the unborn baby. Some doctors argue that manipulating the embryo during the screening brings about significant risk. In conventional IVF, a doctor takes a woman's eggs and fertilizes them in a Petri dish. After the resulting embryos grow for a few days, the doctor implants one or more of them in the woman. Couples now have the option of adding a screening step to their IVF cycle, which provides a great deal of information about the embryos. This knowledge enables doctors to determine which embryos are strongest and to eliminate embryos likely to have diseases such as Down syndrome. In addition, this screening allows parents to learn the sex of the embryo. There is growing evidence that IVF is safe with or without screening, Sauer said. A 2015 study looked at more than a million assisted reproductive technology procedures between 2000 and 2011 and found no evidence of greater risk for IVF babies who had extra screening.",
+                                "Another concern is the possibility of gender bias. So far there is no proof, at least in the US, that sex selection is leading to a surplus of girls or boys. But there are concerns, particularly in some Asian countries, that societies which value boys more than girls will misuse this technology. In addition, even if sex selection does not skew the gender ratio, there is a philosophical concern that parents should not have control over their offspring in this way. 'Some people argue that sex selection undermines the concept of unconditional love by making parents’ love conditional upon the child being a boy or a girl,' Sauer said. At this point, a number of countries, including the United Kingdom and Canada, have placed bans on sex selection for 'social uses', allowing it only when it is used to avoid the risk of sex-linked diseases, such as Fragile X syndrome, which affects girls. However, ethicists are challenging these types of bans, arguing that sex selection will not lead to gender imbalance in the population."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "question": "The text mainly discusses ----.",
+                                    "options": [
+                                        "how sex selection in IVF has improved from the 1970s till today",
+                                        "how sex selection leads to numerous health problems and gender bias",
+                                        "the long debate about IVF and worries about the consequences of sex selection",
+                                        "reasons why IVF is becoming more popular and the results of its popularity"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metnin geneli IVF ile cinsiyet seçiminin yarattığı etik tartışmalar, endişeler ve farklı görüşler üzerine kurulu. İlk paragrafın son cümlesi bunu özetliyor: 'Whether couples should be given this choice and what consequences such choices may lead to have become two highly debated topics.'",
+                                        "wrong": {
+                                            "0": "Gelişim süreci (tarihçe) sadece kısaca geçiyor, ana odak değil.",
+                                            "1": "Metin sağlık problemlerine yol açtığını değil, bu konudaki endişeleri ve aksi yöndeki kanıtları (Dr. Sauer) tartışıyor.",
+                                            "3": "Popülerlikten bahsediliyor ama asıl konu popülerliğin sonuçları değil, cinsiyet seçiminin etik boyutu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "question": "In paragraph 1, the writer mentions Chrissy Tiegen and John Legend to ----.",
+                                    "options": [
+                                        "criticize a recent decision they made",
+                                        "illustrate a recent trend",
+                                        "praise the advances taking place in IVF",
+                                        "prove that IVF is still not an exact science"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Yazar, bu ünlü çifti cinsiyet seçiminin artık mümkün olduğunu ve yapıldığını göstermek için bir örnek olarak kullanıyor. 'Recently... announced they chose the gender...'",
+                                        "wrong": {
+                                            "0": "Yazar onları eleştirmiyor, sadece haber veriyor.",
+                                            "2": "Övme amacı yok, durum tespiti var.",
+                                            "3": "Bilimin kesin olmadığını değil, tam tersine %100'e yakın kesinlikte olduğunu söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "question": "The phrase Their opposition in paragraph 2 refers to ---.",
+                                    "options": [
+                                        "their opposition to a natural process",
+                                        "their opposition to IVF",
+                                        "their opposition to many people’s concerns",
+                                        "their opposition to Dr Mark Sauer"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cümle: 'many people’s concerns about IVF... Their opposition has grown stronger'. Burada 'Onların muhalefeti' ifadesi, IVF'e karşı endişe duyan insanların IVF'e karşı duruşunu kastediyor.",
+                                        "wrong": {
+                                            "0": "Doğal sürece değil, doğal süreci bozan şeye (IVF) karşılar.",
+                                            "2": "Kendi endişelerine karşı olamazlar.",
+                                            "3": "Doktora kişisel bir muhalefet değil, yönteme muhalefet söz konusu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "question": "In paragraph 2, the writer shows that ----.",
+                                    "options": [
+                                        "IVF procedures improved significantly between 1978 and 2015",
+                                        "the 1999 report of the American Society for Reproductive Medicine caused people to begin questioning IVF",
+                                        "Dr Mark Sauer did not approve of IVF when it first began, but ASRM’s most recent report changed his opinion",
+                                        "the opinion of ASRM on sex selection during IVF changed somewhat between 1999 and 2015"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 2'de ASRM'nin 1999'da 'teşvik edilmemeli' dediği, ancak 2015'te kararı hastanelere bıraktığı belirtiliyor. Bu bir görüş değişikliğidir.",
+                                        "wrong": {
+                                            "0": "Prosedürlerin teknik gelişiminden değil, kurumun politikasından bahsediliyor.",
+                                            "1": "İnsanlar 1978'den beri sorguluyor, rapor başlatmadı.",
+                                            "2": "Dr. Sauer en başından beri etik dışı bulmadığını söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "question": "The word apprehension in paragraph 3 could best be replaced by ----.",
+                                    "options": [
+                                        "guideline",
+                                        "intention",
+                                        "trend",
+                                        "worry"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "'Apprehension' endişe, korku demektir. Paragrafta 'risk' ve 'harmful effect' (zararlı etki) bağlamında kullanıldığı için 'worry' (endişe) ile eş anlamlıdır.",
+                                        "wrong": {
+                                            "0": "'Guideline' rehber ilke demek.",
+                                            "1": "'Intention' niyet demek.",
+                                            "2": "'Trend' eğilim demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "question": "According to paragraph 3, if screening is added to conventional IVF, ----.",
+                                    "options": [
+                                        "there is significant risk for the embryo",
+                                        "parents are very unlikely to end up with a baby that has Down syndrome",
+                                        "doctors benefit financially but couples gain few advantages",
+                                        "couples need to make sure the doctor uses the latest screening technology"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 3: 'eliminate embryos likely to have diseases such as Down syndrome'. Tarama sayesinde Down sendromlu embriyolar elenebiliyor, yani ailenin bu hastalığa sahip bir bebeği olma ihtimali düşüyor.",
+                                        "wrong": {
+                                            "0": "Paragrafın sonunda araştırmaların ekstra risk bulmadığı ('found no evidence of greater risk') söyleniyor.",
+                                            "2": "Çiftler hastalıkları eleme ve cinsiyet öğrenme avantajı kazanıyor.",
+                                            "3": "Teknoloji uyarısı metinde yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "question": "The word skew in paragraph 4 is closest in meaning to ----.",
+                                    "options": [
+                                        "alter",
+                                        "reduce",
+                                        "make disappear",
+                                        "provide a solution for"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "'Skew' eğmek, saptırmak, değiştirmek demektir. Cinsiyet oranını bozmak/değiştirmek anlamında 'alter' (değiştirmek) en yakın anlamdır.",
+                                        "wrong": {
+                                            "1": "'Reduce' azaltmak demek.",
+                                            "2": "'Make disappear' yok etmek demek.",
+                                            "3": "'Provide a solution for' çözüm sağlamak demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "question": "From Paragraph 4, the reader can understand that the United Kingdom and Canada do not allow sex selection for social uses, but ----.",
+                                    "options": [
+                                        "in other countries, such as the US, it is legal",
+                                        "governments in some Asian countries are encouraging it",
+                                        "their laws have not been enough to prevent gender imbalance",
+                                        "parents are happier if they are allowed to choose the sex of their child"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Metinde İngiltere ve Kanada'nın yasakladığı söyleniyor. ABD için ise 'So far there is no proof, at least in the US...' denilerek ABD'de bu uygulamanın yapıldığı ve henüz olumsuz kanıt olmadığı ima ediliyor. Yasaklanan ülkelerden bahsedip 'en azından ABD'de kanıt yok' denmesi, ABD'de serbest olduğunu gösterir.",
+                                        "wrong": {
+                                            "1": "Asya ülkelerinde teşvik edildiği değil, kötüye kullanım endişesi olduğu yazıyor.",
+                                            "2": "Yasaların yetersiz olduğu bilgisi yok.",
+                                            "3": "Ebeveyn mutluluğundan bahsedilmiyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Red Phone Boxes That Ring No More",
+                            "paragraphs": [
+                                "In 2002 there were 92,000 phone boxes across the UK. Today 57,500 remain, of which just 9,400 are traditional red models. Mobile phones mean most of those are now little used. Yet the classic red kiosk still inspires affection. Beating the Routemaster double-decker bus and the national flag of the UK in second and third places, it was voted the greatest British design of all time earlier this year according to a poll of 20,000 people.",
+                                "Telephone kiosks first appeared in the 1900s. These were usually inside shops and hotels, providing a quiet area from which to make calls. Localised designs for outdoor kiosks came into use, but it was not until 1921 that the first standardised version, the cream-colored K1, was used. In 1924, the General Post Office ran a competition to design a new uniform kiosk. The winner was Sir Giles Gilbert Scott's K2; the first one made currently stands outside London's Royal Academy of Art. In 1968, the more modern-looking K3, which became a target for vandals, came into use. At first it was painted yellow, but this didn't catch on, so it followed the K2 and moved to red.",
+                                "Unused boxes have now become collectors’ items. Row after row of retired red telephone boxes remain in a yard near Merstham, awaiting their fate. There are about 70 red phone boxes in the Merstham yard. Costing between £2,000 and £10,000 when fully restored, they are not a cheap adornment. Renovated boxes have gone to Greece, Australia, Italy, France, Switzerland, Abu Dhabi and the US. Not all red phone boxes end up in restoration yards, of which there are several around the UK. In fact, the supply is dwindling as people have started to use them for various purposes instead of renovating them. That is likely to push up costs for collectors.",
+                                "Two phone boxes near Brighton's Pavilion have been turned into a street cafe. Another red box in North Yorkshire is being used as a replacement for a local shop which closed down. It operates on an 'honesty' basis, with users leaving money after taking goods stored inside. The greenhouse-like qualities of a red box in Knipe, Cumbria, allowed villagers to use it to grow tomatoes. Other phone boxes in central London have been used as mobile phone-charging points powered by solar panels. They have been mounted to the roof to collect renewable energy in order to power a range of phone models.",
+                                "The appeal of the red telephone box is based on its sentimental value. 'They're a reminder of a time when things were built to last and to show the pride people had in their communities and the things that they had to share, including public telephones. Up to 90 years later they are still standing,' says Lewis, the restoration manager in the Merstham yard. 'Also, everyone in the world knows them. If you went to New York and didn't see a yellow cab, it would be a total let-down. It's the same with red phone boxes when someone comes to visit Britain.'"
+                            ],
+                            "questions": [
+                                {
+                                    "id": 9,
+                                    "question": "In paragraph 1, the writer points out that ---.",
+                                    "options": [
+                                        "with so many mobile phones around, it's surprising that the number of phone boxes in the UK is still so high",
+                                        "the Routemaster Double Decker Bus came second in a recent survey, followed by the national flag of the UK",
+                                        "all classic red telephone kiosks have gained official recognition for the first time this year",
+                                        "although the public loves traditional red models of payphones, there aren’t enough of them in the UK"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 1: 'Beating the Routemaster... and the national flag... in second and third places'. Kırmızı kulübe birinci oldu, otobüs ikinci, bayrak üçüncü. B şıkkı bunu doğru aktarıyor.",
+                                        "wrong": {
+                                            "0": "Metin sayının yüksekliğine şaşırmıyor, sadece istatistik veriyor.",
+                                            "2": "İlk defa tanınma kazandığı söylenmiyor.",
+                                            "3": "Yeterince yok demiyor, sadece sayısının azaldığını söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "question": "In paragraph 2, it is implied that ---.",
+                                    "options": [
+                                        "before 1921, there were so few telephone kiosks that they couldn’t meet the growing demand",
+                                        "the K1, which was designed many years before the K3 was introduced, is much more durable than the K3",
+                                        "the colour of the kiosk which won the competition ran by the General Post Office was red",
+                                        "the cream-coloured telephone boxes were so unpopular that a competition had to be held to design a better one"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Paragraf 2'de 1924'teki yarışmayı K2'nin kazandığı ve K3'ün de sonradan K2'yi takip ederek 'moved to red' (kırmızıya geçtiği) söyleniyor. Bu, kazanan modelin (K2) renginin kırmızı olduğunu gösterir.",
+                                        "wrong": {
+                                            "0": "Talep karşılayamama bilgisi yok.",
+                                            "1": "Dayanıklılık karşılaştırması yok.",
+                                            "3": "K1'in popüler olmadığı için yarışma yapıldığı doğrudan söylenmiyor, 'standardised version' (K1) zaten vardı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 11,
+                                    "question": "The word dwindling in paragraph 3 is closest in meaning to ----.",
+                                    "options": [
+                                        "collecting",
+                                        "destroying",
+                                        "preparing",
+                                        "decreasing"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "'Dwindling' azalmak, giderek küçülmek demektir. 'Decreasing' ile eş anlamlıdır.",
+                                        "wrong": {
+                                            "0": "'Collecting' toplamak demek.",
+                                            "1": "'Destroying' yok etmek demek.",
+                                            "2": "'Preparing' hazırlamak demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 12,
+                                    "question": "From paragraph 4, one can understand that ---.",
+                                    "options": [
+                                        "there isn’t a cashier working in the telephone box which has taken the place of a local shop",
+                                        "more mobile phone-charging points are needed as power supply is a growing problem for smartphone users",
+                                        "the phone box which has been turned into a street café caused a local shop to close down",
+                                        "a telephone box can have greenhouse-like qualities as long as you grow vegetables in it"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 4'te dükkan yerine kullanılan kulübenin 'honesty basis' (dürüstlük esası) ile çalıştığı, kullanıcıların parayı bırakıp ürünü aldığı söyleniyor. Bu, başında bir kasiyer olmadığını gösterir.",
+                                        "wrong": {
+                                            "1": "Güç kaynağı sorunundan bahsedilmiyor.",
+                                            "2": "Kafe dükkanı kapattırmadı, zaten kapanan dükkanın yerine başka bir kulübe geçti.",
+                                            "3": "Sebze yetiştirirsen sera olur demiyor, sera özellikleri olduğu için domates yetiştirildi diyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 13,
+                                    "question": "The word they in paragraph 4 refers to ----.",
+                                    "options": [
+                                        "a range of phone models",
+                                        "solar panels",
+                                        "mobile phone-charging points",
+                                        "other phone boxes"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cümle: 'Other phone boxes... have been used as mobile phone-charging points powered by solar panels. They have been mounted to the roof'. Çatıya monte edilen ve enerji toplayan şeyler güneş panelleridir (solar panels).",
+                                        "wrong": {
+                                            "0": "Telefon modelleri enerji toplamaz.",
+                                            "2": "Şarj noktaları kulübenin kendisi, çatıya monte edilen parça değil.",
+                                            "3": "Diğer kulübeler çatıya monte edilmez."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 14,
+                                    "question": "From paragraph 5, the reader can understand that Lewis believes ----.",
+                                    "options": [
+                                        "as the yellow cab is a symbol of New York, so the red phone box is a symbol of Britain",
+                                        "it is hard to find a classic red kiosk in Britain these days, just like it is hard to find a yellow cab in New York",
+                                        "red phone boxes are still so common in Britain that you can’t miss them when you go there",
+                                        "people had to share their public telephones in the past, which was quite annoying"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Lewis şöyle diyor: 'If you went to New York and didn't see a yellow cab, it would be a total let-down. It's the same with red phone boxes'. Yani sarı taksi NY için neyse, kırmızı kulübe İngiltere için odur (sembol).",
+                                        "wrong": {
+                                            "1": "Zor bulunurlar demiyor, sembolik önemlerini kıyaslıyor.",
+                                            "2": "Çok yaygın demiyor, görülmezse hayal kırıklığı olur diyor.",
+                                            "3": "Paylaşmanın sinir bozucu olduğunu söylemiyor, gurur kaynağı olduğunu söylüyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 15,
+                                    "question": "Which of the following is FALSE according to the text?",
+                                    "options": [
+                                        "In the early 1900s, the telephone boxes had different colors with different designs.",
+                                        "The telephone kiosk standing outside London’s Royal Academy of Art was designed by Sir Giles Gilbert Scott.",
+                                        "Phone boxes are being renovated in countries such as France and Greece and being used in a variety of ways.",
+                                        "The Merstham yard is not the only restoration yard in the UK where disused phone boxes are renovated."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde 'Renovated boxes have gone to Greece, Australia, Italy, France...' deniyor. Yani İngiltere'de restore edilip bu ülkelere gönderiliyorlar. Bu ülkelerde restore edilmiyorlar.",
+                                        "wrong": {
+                                            "0": "DOĞRU: Metinde 1900'lerde 'Localised designs' (yerel tasarımlar) olduğu, standardın 1921'de geldiği yazıyor.",
+                                            "1": "DOĞRU: Paragraf 2'de bu bilgi var.",
+                                            "3": "DOĞRU: Paragraf 3'te 'of which there are several around the UK' deniyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "Internet Access Growing, But Too Slowly",
+                            "paragraphs": [
+                                "Nearly half of the global population was using the internet by the end of 2015, but too many people still did not have access according to a new report. The International Telecommunication Union (ITU), a United Nations body, reported that of the world’s 7.2 billion people, 3.2 billion were online. However, fewer than one in ten people were online in countries such as Somalia and Nepal, which are part of a group of nations described as the 'least developed countries' by the United Nations. These countries are also lagging in 3G coverage, with fewer than one in five people having access to it whereas four out of five people in the rest of the world can now access a 3G network. The report focused on growth in Information and Communication Technology (ICT) sector over the past 15 years. 'Over the past 15 years, the ICT revolution has driven development in a large number of countries in an unprecedented way,' said Brahima Sanou, director of the ITU telecommunication development bureau. 'Looking ahead, ICT will play an even more significant role in achieving future development goals as the world moves faster and faster towards a global digital society.'",
+                                "Because of the growing importance of the internet in so many areas of life, in 2014 the United Nations set a goal that everyone, even those in the least developed countries, should have internet access by 2020. However, according to a study by the Alliance For Affordable Internet (A4AI), the world is currently likely to miss that target. By how much? According to A4AI, universal access will not take place until 2042 if we do not make greater efforts. In its report, the alliance stated that without urgent action, in 2020 just 16% of people in the world’s poorest countries and 53% of the world as a whole will be connected. They claim this lack of access will prevent development in large areas of the world, contributing to lost opportunities for economic growth. It will also cause hundreds of millions to miss out on online education, health services, political participation, and much, much more.",
+                                "The UN calculates that for any person to afford to get online, internet access needs to cost 5% or less of that person’s income. Income inequality is one of the most important factors limiting internet access. To illustrate, most countries who participated in A4AI studies provide some type of internet access to its citizens, but far fewer, only one in three, make it affordable for the lowest 25% of their income earners. Due to a gender wage gap, women are 20% less likely to get online in much of the world.",
+                                "The report recommends reducing taxes to bring down the cost of phones and basic internet packages. They also say countries should increase subsidies for internet access since many low-income families cannot pay the full cost themselves. What’s more, the alliance wants a new target for internet that is lower than the amount the UN calculated. They hope people in even the poorest countries will be able to get 1GB of data each month for about 2% of their average monthly income. 'Our report must serve as a wake-up call to policymakers and business leaders,' said A4AI executive director Sonia Jorge in a statement. 'If we are serious about achieving universal access by the end of 2020, we need to condense almost 30 years’ worth of work into less than five years.'"
+                            ],
+                            "questions": [
+                                {
+                                    "id": 16,
+                                    "question": "The main idea of the text is that ----.",
+                                    "options": [
+                                        "internet access has been increasing, but it has not led to improvements in areas like education and health care",
+                                        "the internet is greatly benefiting society, but people with low income need to be provided access to it",
+                                        "society has not been transformed as people hoped despite the large increase in internet access",
+                                        "people with low income need to demand cheap access to the internet so that they can also make use of it"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metin internetin gelişiminden ve faydasından bahsediyor (driven development), ancak fakir ülkelerdeki erişim eksikliğinin büyük bir sorun olduğunu ve çözülmesi gerektiğini vurguluyor. B şıkkı bu iki noktayı birleştiriyor.",
+                                        "wrong": {
+                                            "0": "Gelişmelere yol açmadığını söylemiyor, erişim olmazsa bu fırsatların kaçacağını söylüyor.",
+                                            "2": "Toplumun dönüşmediğini söylemiyor.",
+                                            "3": "İnsanların talep etmesi gerektiğinden değil, politika yapıcıların (policymakers) adım atması gerektiğinden bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 17,
+                                    "question": "In paragraph 1, the word lagging is closest in meaning to ----.",
+                                    "options": [
+                                        "investing",
+                                        "accelerating",
+                                        "falling behind",
+                                        "advertising"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "'Lagging' geride kalmak demektir. Bu ülkelerin 3G kapsamasında diğerlerinin gerisinde kaldığını anlatıyor.",
+                                        "wrong": {
+                                            "0": "'Investing' yatırım yapmak demek.",
+                                            "1": "'Accelerating' hızlanmak demek.",
+                                            "3": "'Advertising' reklam yapmak demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 18,
+                                    "question": "From paragraph 1, the reader understands that one positive aspect of internet use in the last fifteen years is its impact on ----.",
+                                    "options": [
+                                        "the least developed countries such as Somalia and Nepal",
+                                        "the companies that provide 3G coverage",
+                                        "reducing population growth",
+                                        "bringing about development in many parts of the world"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 1: 'the ICT revolution has driven development in a large number of countries'. Bilişim devrimi birçok ülkede kalkınmayı sağladı.",
+                                        "wrong": {
+                                            "0": "Somali ve Nepal için olumlu değil, oralarda erişimin az olduğu söyleniyor.",
+                                            "1": "Şirketlerden bahsedilmiyor.",
+                                            "2": "Nüfus artışını azaltmaktan bahsedilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 19,
+                                    "question": "Which of the following statements is TRUE according to paragraph 2?",
+                                    "options": [
+                                        "Unless there are significant changes, the UN goal of internet access for all will be missed by more than two decades.",
+                                        "If efforts are not increased, less than half the world will have been connected to the internet by 2042.",
+                                        "Although a lack of internet access affects business negatively, development will still move forward rapidly in other ways.",
+                                        "Access to government services such as education and health care are not nearly as important as greater economic growth."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Hedef 2020 idi. Metin 'universal access will not take place until 2042' (2042'ye kadar gerçekleşmeyecek) diyor. 2020 ile 2042 arasında 22 yıl var, yani 'more than two decades' (iki on yıldan fazla) gecikme olacak.",
+                                        "wrong": {
+                                            "1": "2042'de herkes bağlanmış olacak, yarısından azı değil.",
+                                            "2": "Erişim eksikliğinin gelişmeyi engelleyeceği ('prevent development') söyleniyor.",
+                                            "3": "Ekonomik büyüme kadar eğitim ve sağlık da önemli, biri diğerinden az önemli denmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 20,
+                                    "question": "The phrase far fewer in paragraph 3 refers to far fewer ----.",
+                                    "options": [
+                                        "citizens",
+                                        "studies",
+                                        "countries",
+                                        "factors"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cümle: 'most countries... provide... but far fewer... make it affordable'. Çoğu ülke sağlıyor ama çok daha azı (ülke) bunu uygun fiyatlı yapıyor.",
+                                        "wrong": {
+                                            "0": "Vatandaşlar değil, ülkeler karşılaştırılıyor.",
+                                            "1": "Çalışmalar değil.",
+                                            "3": "Faktörler değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "According to paragraph 3, if a woman makes $100 a month, getting on the internet should not cost more than ---- dollars a month; otherwise, the woman will probably not use the internet.",
+                                    "options": [
+                                        "5",
+                                        "33",
+                                        "25",
+                                        "20"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "BM hesaplamasına göre erişilebilir olması için gelirin %5'i veya daha azı olmalı. 100 doların %5'i 5 dolardır.",
+                                        "wrong": {
+                                            "1": "Hesaplama hatası.",
+                                            "2": "Paragrafta '%25 en düşük gelir grubu' ifadesi geçiyor ama oran %5.",
+                                            "3": "Kadınların %20 daha az girme ihtimali var, bu maliyet oranı değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "The word subsidies in paragraph 4 could best be replaced by----.",
+                                    "options": [
+                                        "aid",
+                                        "applications",
+                                        "infrastructure",
+                                        "options"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "'Subsidies' devlet yardımı/sübvansiyon demektir. Düşük gelirli aileler ödeyemediği için devletin 'aid' (yardım) yapması gerekir.",
+                                        "wrong": {
+                                            "1": "'Applications' başvurular demek.",
+                                            "2": "'Infrastructure' altyapı demek.",
+                                            "3": "'Options' seçenekler demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "According to paragraphs 3 and 4, the A4AI report recommends all of the following EXCEPT ----.",
+                                    "options": [
+                                        "decreasing the amount of money that goes to the government on basic internet packages",
+                                        "making the cost of the internet for low-income earners less than half the price that the UN suggested",
+                                        "a new campaign with the goal of making the internet completely free within 30 years",
+                                        "increasing the pace of internet reforms so that goals are met in a much shorter amount of time"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "A4AI internetin tamamen 'bedava' (free) olmasını değil, 'uygun fiyatlı' (affordable - gelirin %2'si) olmasını öneriyor. Ayrıca 30 yıl değil, 2020 hedefi için acil eylem istiyorlar.",
+                                        "wrong": {
+                                            "0": "Vergileri düşürmek (reducing taxes) öneriliyor.",
+                                            "1": "BM %5 önermişti, onlar %2 öneriyor. Yarısından az. Doğru.",
+                                            "3": "30 yıllık işi 5 yıla sığdırmak (condense) öneriliyor. Doğru."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 4,
+                            "title": "A Key to the European Revolution",
+                            "paragraphs": [
+                                "The agricultural revolution was one of the most important events in human history, leading to the rise of modern civilization. In the first study of its kind, an international team of scientists has now found that after agriculture arrived in Europe 8,500 years ago, people’s DNA underwent widespread changes, altering their height, digestive and immune systems, and skin color. Researchers had found indirect clues of some of these alterations by studying the DNA of living Europeans. But the new study makes it possible to study the changes that occurred over thousands of years more efficiently. Scientists had relied mainly on the DNA of living Europeans to understand European history before this new study of ancient DNA. 'For decades we’ve been struggling to figure out what happened in the past,' said Rasmus Nielsen, a geneticist at the University of California, Berkeley, who was not involved in the new study. 'And now we have a time machine.'",
+                                "The new study conducted by David Reich, a geneticist at Harvard Medical School, and his colleagues analyzed the DNA of 230 people who lived between 8,500 and 2,300 years ago. The study has revealed that before the rise of agriculture, Europe was home to a population of hunter-gatherers. Then a wave of people arrived whose DNA shows that they were people from the Near East. It is likely that they brought agriculture with them. Finally, the Yamnaya, who could also have introduced agriculture to the Europeans, migrated from the lands known today as Russia to Europe.",
+                                "The enormous sample size has provided enough data to study individual genetic variations. Dr. Reich and his colleagues first tracked changes in the color of European skin. The original hunter-gatherers, descendants of people who had come from Africa, had dark skin as recently as 9,000 years ago. Farmers arriving from Anatolia were lighter, and this trait spread through Europe. Later, a new gene variant emerged that lightened European skin even more. Why? Scientists have long thought that light skin helped capture more vitamin D in sunlight at high latitudes. But early hunter-gatherers managed well with dark skin. Dr. Reich suggests that they got enough vitamin D from the meat they ate. He hypothesizes that it was the shift to agriculture that may have triggered the change in skin color.",
+                                "The new collection of ancient DNA also allowed Dr. Reich and his colleagues to track the puzzling evolution of height in Europe. After studying 169 height-related genes, they found that Anatolian farmers were relatively tall, and the Yamnaya even taller. Northern Europeans inherited a larger amount of Yamnaya DNA, making them taller, too. But in southern Europe, people grew shorter after the rise of agriculture. Dr. Reich said the reason why natural selection favored short height in the south and not in the north was hazy. Whatever the reason, this evolutionary history still shapes differences in height across the continent today.",
+                                "Dr. Reich and other researchers continue to gather even more ancient European DNA, which will allow them to understand more effects of natural selection. In order to track historic changes in the human genome across the globe and observe natural selection over tens of thousands of years, other researchers are doing the same on other continents. 'I think in the future we can do this for everywhere in the world, not just Europe,' Dr. Reich said."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 24,
+                                    "question": "One can understand from paragraph 1 that ---.",
+                                    "options": [
+                                        "an international team of scientists has conducted the first research studying the DNA of living Europeans",
+                                        "using the DNA of living subjects to understand the European history was insufficient",
+                                        "the changes in people’s DNA make it hard to study the relationship between evolution and agriculture",
+                                        "the new study explains the changes agriculture has gone through over thousands of years"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Paragraf 1: 'Scientists had relied mainly on the DNA of living Europeans... struggling to figure out what happened'. Eskiden yaşayanların DNA'sına güveniyorlardı ve geçmişi çözmekte zorlanıyorlardı. Bu, eski yöntemin yetersiz olduğunu gösterir.",
+                                        "wrong": {
+                                            "0": "İlk kez 'yaşayan' değil, ilk kez 'bu türde' (antik DNA ile) bir çalışma yapıldı.",
+                                            "2": "Zorlaştırdığını değil, yeni çalışma sayesinde daha verimli çalışılabildiğini söylüyor.",
+                                            "3": "Tarımın değişimini değil, insanların DNA'sındaki değişimi açıklıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "According to paragraph 1, Rasmus Nielson ---.",
+                                    "options": [
+                                        "believes a lot of information about the past can be acquired by studying ancient DNA",
+                                        "is a geneticist who doubts whether Europeans have undergone significant changes",
+                                        "wishes they had analyzed the DNA of ancient people they had gathered decades earlier",
+                                        "hopes that the new study will uncover mysteries about the recent history of agriculture"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Rasmus Nielsen yeni çalışmayı bir 'zaman makinesi'ne (time machine) benzetiyor. Bu benzetme, geçmiş hakkında çok fazla bilgi elde edilebileceğine inandığını gösterir.",
+                                        "wrong": {
+                                            "1": "Değişimden şüphe duymuyor, geçmişi anlamakta zorlandıklarını söylüyor.",
+                                            "2": "Keşke daha önce yapsaydık demiyor.",
+                                            "3": "Tarımın yakın tarihi değil, insan genetiğinin tarihi konu."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "It is mentioned in paragraph 2 that the DNA of modern Europeans comes from all of these sources EXCEPT ---.",
+                                    "options": [
+                                        "hunter-gatherers",
+                                        "Near Eastern people",
+                                        "the Yamnaya",
+                                        "modern Russians"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Metinde Yamnayaların 'Rusya olarak bilinen topraklardan' geldiği yazıyor, ancak ataları olarak 'Modern Ruslar' sayılmıyor. Yamnayalar antik bir gruptur.",
+                                        "wrong": {
+                                            "0": "Hunter-gatherers (Avcı-toplayıcılar) metinde geçiyor.",
+                                            "1": "Near Eastern people (Yakın Doğulular) metinde geçiyor.",
+                                            "2": "Yamnaya metinde geçiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "The word hazy in paragraph 4 could best be replaced by ---.",
+                                    "options": [
+                                        "primary",
+                                        "common",
+                                        "unclear",
+                                        "sufficient"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "'Hazy' puslu, belirsiz demektir. Bilim insanı sebebin 'hazy' olduğunu söylüyor, yani tam olarak bilinmiyor/net değil (unclear).",
+                                        "wrong": {
+                                            "0": "'Primary' birincil demek.",
+                                            "1": "'Common' yaygın demek.",
+                                            "3": "'Sufficient' yeterli demek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 28,
+                                    "question": "One can understand from paragraph 4 that ---.",
+                                    "options": [
+                                        "Dr. Reich is disappointed that his study fails to explain differences in height across Europe",
+                                        "the history of the evolution of height in Europe no longer has a significant effect on the continent",
+                                        "Northern Europeans are taller than South Europeans due to a healthier diet",
+                                        "genetic variations for greater height in Northern Europeans are related to the Yamnaya"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Paragraf 4: 'Northern Europeans inherited a larger amount of Yamnaya DNA, making them taller'. Kuzey Avrupalıların uzun olmasının sebebi Yamnaya DNA'sıdır.",
+                                        "wrong": {
+                                            "0": "Hayal kırıklığı belirtilmiyor.",
+                                            "1": "Hala etkiliyor ('still shapes differences').",
+                                            "2": "Diyetten değil, genetik mirastan bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "What does doing the same refer to in paragraph 5?",
+                                    "options": [
+                                        "Gathering more ancient DNA",
+                                        "Understanding more effects of natural selection",
+                                        "Tracking historic changes in the human genome",
+                                        "Observing natural selection"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cümle: 'In order to track historic changes... other researchers are doing the same'. Araştırmacılar aynı şeyi yapıyor, yani tarihsel değişiklikleri izlemeye çalışıyorlar (bu amaçla DNA topluyorlar).",
+                                        "wrong": {
+                                            "0": "DNA toplamak bir araç, 'doing the same' daha geniş kapsamlı olan araştırmayı/izlemeyi kastediyor.",
+                                            "1": "Doğal seçilimi anlamak bir sonuç.",
+                                            "3": "Gözlemlemek sürecin bir parçası."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "Which of the following statements is TRUE according to the text?",
+                                    "options": [
+                                        "Rasmus Nielsen was one of the scientists who contributed to the new study.",
+                                        "It isn’t definite who brought agriculture to Europe, but there are theories about it.",
+                                        "Hunter-gatherers had darker skin because of the amount of time they spent outside.",
+                                        "Dr. Reich says that it will take over tens of thousands of years to observe natural selection in Europe."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Metinde 'Likely they (Near East) brought agriculture... Yamnaya could also have introduced'. Tarımı kimin getirdiği konusunda 'muhtemelen' ve 'olabilir' ifadeleri kullanılıyor, yani kesin değil, teoriler var.",
+                                        "wrong": {
+                                            "0": "Rasmus Nielsen çalışmaya dahil değildi ('not involved').",
+                                            "2": "Dışarıda zaman geçirdikleri için değil, genetik mirasları (Afrika kökeni) yüzünden koyu tenliydiler.",
+                                            "3": "Gözlemlemenin o kadar süreceğini değil, on binlerce yıllık süreci gözlemlediklerini söylüyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

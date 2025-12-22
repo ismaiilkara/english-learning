@@ -1,0 +1,971 @@
+{
+    "id": 1,
+    "title": "ITU Proficiency Exam",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "The Human Brain",
+                    "passage": {
+                        "title": "The Human Brain",
+                        "text": "The human brain is the most complex organ in the body, (1)_____ of billions of neurons that communicate through trillions of connections. It controls everything from our basic survival instincts to our most complex thoughts and emotions. Despite (2)_____ only about 2% of a person's body weight, the brain consumes roughly 20% of the body's energy. Scientists (3)_____ the brain for centuries, yet much about how it works remains a mystery. One fascinating ability is neuroplasticity, (4)_____ refers to the brain's ability to reorganize itself by forming new neural connections. This means that the brain (5)_____ throughout a person's life, allowing us to learn new skills and recover from injuries. If we (6)_____ this adaptability, learning a new language or playing an instrument (7)_____ impossible. Sleep is also crucial for brain health; (8)_____ we sleep, the brain clears out toxins that accumulate during the day. (9)_____ protecting this vital organ is essential, many people neglect habits like regular exercise and proper nutrition, (10)_____ are known to boost cognitive function."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "composed",
+                                "composing",
+                                "composes",
+                                "is composed"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Composed of' İngilizcede 'den oluşmak' anlamına gelen bir kalıptır. Burada 'which is composed of' yapısının kısaltması olarak (reduced relative clause) sadece 'composed' sıfat görevi görür.",
+                                "wrong": {
+                                    "1": "'Composing' (oluşturan) aktif anlam taşır, beyin nöronları oluşturmaz, onlardan oluşur.",
+                                    "2": "'Composes' geniş zaman fiilidir, ancak cümlede zaten 'is' ana fiili var.",
+                                    "3": "'is composed' kullanılırsa cümlede iki tane ana fiil (is ... is composed) olur, bağlaçsız bu yanlıştır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "weighting",
+                                "it weighs",
+                                "weighing",
+                                "weighed"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Despite' bir edattır (preposition) ve edatlardan sonra gelen fiiller her zaman -ing takısı alır (gerund). Bu yüzden 'weighing' doğrudur.",
+                                "wrong": {
+                                    "0": "'Weighting' diye bir fiil kullanımı yaygın değildir (ağırlıklandırma anlamı dışında), fiil 'weigh'dir.",
+                                    "1": "'it weighs' tam bir cümledir; Despite arkasından tam cümle almaz (Despite the fact that... hariç).",
+                                    "3": "'weighed' geçmiş zaman veya pasif yapıdır, edat sonrası uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "have been studying",
+                                "are studying",
+                                "study",
+                                "were studying"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'For centuries' (yüzyıllardır) ifadesi, eylemin geçmişte başlayıp hala devam ettiğini gösterir. Bu durum için Present Perfect Continuous (have been studying) kullanılır.",
+                                "wrong": {
+                                    "1": "'are studying' sadece şu anı anlatır, yüzyıllık süreci kapsamaz.",
+                                    "2": "'study' genel bir gerçektir, süreci vurgulamaz.",
+                                    "3": "'were studying' geçmişte yapıp bitirdikleri anlamına gelir, ama hala çalışıyorlar."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "what",
+                                "that",
+                                "who",
+                                "which"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Virgül ile ayrılmış bir açıklama cümlesi (non-defining relative clause) var. 'Neuroplasticity' cansız bir kavram olduğu için 'which' kullanılır.",
+                                "wrong": {
+                                    "0": "'What' ilgi zamiri (relative pronoun) olarak isimden sonra kullanılmaz.",
+                                    "1": "Virgülden sonra 'that' asla kullanılmaz.",
+                                    "2": "'Who' insanlar için kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "can change",
+                                "could change",
+                                "changed",
+                                "was changing"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Cümle genel bir bilimsel gerçeği ve yeteneği (ability) anlatıyor. 'This means' (bu demektir ki) ifadesi de geniş zamanı işaret ediyor. Yetenek bildiren 'can change' en uygundur.",
+                                "wrong": {
+                                    "1": "'could change' geçmiş yetenek veya düşük olasılık bildirir.",
+                                    "2": "'changed' geçmiş zaman, ama olay genel geçer bir durum.",
+                                    "3": "'was changing' geçmişte süregelen durumdur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "don't have",
+                                "didn't have",
+                                "hadn't had",
+                                "wouldn't have"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Gerçekte bu yeteneğe sahibiz, ancak cümle 'eğer sahip olmasaydık' diyor. Gerçek dışı şimdiki zaman durumu (Unreal Present) olduğu için Type 2 Conditional kullanılır. If kısmında Past Simple (didn't have) gerekir.",
+                                "wrong": {
+                                    "0": "'don't have' gerçek bir durumu anlatır (Type 1), ama bağlam varsayımsal.",
+                                    "2": "'hadn't had' geçmişte olmuş bitmiş bir olayı anlatır (Type 3).",
+                                    "3": "'wouldn't have' If cümlesinin içinde (if clause) kullanılmaz, ana cümlede kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "will be",
+                                "were",
+                                "would be",
+                                "is"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Bir önceki sorudaki Type 2 Conditional yapısının devamı. If kısmı Past Simple ise, ana cümle 'would + fiil' yapısında olmalıdır.",
+                                "wrong": {
+                                    "0": "'will be' Type 1 (gerçek durumlar) için kullanılır.",
+                                    "1": "'were' fiil olarak tek başına 'would' olmadan ana cümlede kullanılmaz.",
+                                    "3": "'is' geniş zaman, conditional yapısına uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "While",
+                                "During",
+                                "Unless",
+                                "Despite"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'We sleep' (biz uyuruz) bir özne ve fiil içeren tam cümledir. Tam cümlelerden önce zaman belirtmek için 'While' (iken) kullanılır.",
+                                "wrong": {
+                                    "1": "'During' arkasından sadece isim alır (örn: During sleep).",
+                                    "2": "'Unless' (olmadıkça) koşul bildirir, anlamca uymaz.",
+                                    "3": "'Despite' (rağmen) zıtlık bildirir, anlamca uymaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "However",
+                                "Therefore",
+                                "Although",
+                                "Because"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "İki cümle arasında zıtlık var: 'Önemli olması' (essential) vs. 'İhmal edilmesi' (neglect). 'Although' (-mesine rağmen) bu zıtlığı bağlar.",
+                                "wrong": {
+                                    "0": "'However' iki cümleyi noktalama işaretiyle ayırarak bağlar, cümlenin başına bu şekilde gelmez.",
+                                    "1": "'Therefore' sonuç bildirir, zıtlık değil.",
+                                    "3": "'Because' sebep bildirir, 'önemli olduğu için ihmal ediyorlar' mantıksız olur."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "what",
+                                "who",
+                                "that",
+                                "which"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Regular exercise and proper nutrition' cansız varlıklardır ve virgül sonrası açıklama yapılıyor. Bu yüzden 'which' kullanılır.",
+                                "wrong": {
+                                    "0": "'what' relative clause olarak bu şekilde kullanılmaz.",
+                                    "1": "'who' insanlar için kullanılır.",
+                                    "2": "Virgülden sonra 'that' kullanılmaz."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Restatements",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "Doctors still do not have a complete understanding of how pain works, limiting their ability to treat patients effectively.",
+                            "options": [
+                                "If doctors could better figure out how pain works, they would be able to help patients more.",
+                                "Doctors would better comprehend pain if they were more sympathetic towards their patients.",
+                                "If doctors have suffered a lot of pain, they are better prepared to help patients deal with their pain.",
+                                "Doctors are quite successful at keeping pain under control despite the fact that they do not really know what causes pain."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal cümle neden-sonuç ilişkisi kuruyor: Bilgi eksikliği (cause) -> Sınırlı tedavi (effect). A şıkkı bunu 'If clause' ile tersten ifade ediyor: 'Eğer anlasalardı, daha çok yardım ederlerdi.'",
+                                "wrong": {
+                                    "1": "'sympathetic' (sempatik/anlayışlı) olma durumu orijinal cümlede yok.",
+                                    "2": "Doktorların acı çekmiş olması (suffered pain) şartı orijinalde yok.",
+                                    "3": "'Quite successful' (bayağı başarılı) ifadesi, orijinaldeki 'limiting ability' (sınırlı yetenek) ile çelişiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Exercise helps you lose weight, sleep better and boost your mood, all of which can result in reduced pain.",
+                            "options": [
+                                "All types of pain are related to a lack of exercise, which leads to weight gain, poor sleep quality and a lower happiness level.",
+                                "Increased happiness leads to less discomfort, and the best way to achieve this is by exercising more, watching your weight and getting sufficient rest.",
+                                "The amount of discomfort you have, the number of kilos you lose, the quality of your sleep and your mood level are all determined by the type of exercise you do.",
+                                "You can decrease the pain you are experiencing by losing some weight, sleeping more soundly and making yourself happier, and exercise is useful for achieving each of these."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümle: Egzersiz A, B ve C'yi sağlar -> bunlar da acıyı azaltır. D şıkkı: Acıyı A, B, C yaparak azaltabilirsin ve egzersiz bunları başarmana yarar. Anlam birebir örtüşüyor.",
+                                "wrong": {
+                                    "0": "'All types of pain' (her türlü acı) diyerek genelleme yapmış, orijinalde bu yok.",
+                                    "1": "Mutluluğun anahtarının sadece egzersiz olduğunu söylüyor, yapı farklı.",
+                                    "2": "Acı miktarının 'egzersiz türüne' (type of exercise) bağlı olduğunu söylemiş, orijinalde sadece egzersizden bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "The amount of pain you have, whether great or small, drops when you concentrate on music you really like.",
+                            "options": [
+                                "Focusing on your favorite music reduces the pain you are experiencing, even if it is severe.",
+                                "Learning to appreciate a very wide range of music will enable you to better deal with your pain.",
+                                "Listening to music you enjoy is an effective way to decrease your pain, except when the pain you experience becomes extreme.",
+                                "Greater awareness of the types of music that minimize pain will help you overcome the strong pain you have been struggling with."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Eş anlamlı kelimeler kullanılmış: Concentrate -> Focusing, Like -> Favorite, Drops -> Reduces, Great or small -> Even if it is severe.",
+                                "wrong": {
+                                    "1": "'Wide range of music' (geniş müzik yelpazesi) orijinalde yok, sadece sevdiğin müzik var.",
+                                    "2": "'Except when extreme' (aşırı olduğu durumlar hariç) diyerek yanlış bir istisna eklemiş. Orijinalde 'whether great or small' (büyük de olsa küçük de olsa) diyor.",
+                                    "3": "'Types of music' (müzik türleri) vurgusu yanlış, odaklanmak (concentrate) anahtar kelime."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "Many people believe that their pain is just something they have to live with, yet pain should never be ignored.",
+                            "options": [
+                                "Lots of people who experience pain think they are required to tolerate it, but it would be better if they paid attention to it.",
+                                "Although a lot of people are always complaining about pain, it is actually a natural part of life that they need to get used to.",
+                                "Despite the fact that most people prefer not to deal with the pain they are feeling, it can become so strong that they have to treat it.",
+                                "It is never a good idea to pretend pain does not exist, but a large number of people have painful conditions that they must get accustomed to."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal: İnanıyorlar ki yaşamaları gerek (tolerate), ama göz ardı edilmemeli (pay attention). A şıkkı bu zıtlığı tam karşılıyor.",
+                                "wrong": {
+                                    "1": "İnsanların 'şikayet ettiğini' söylüyor, orijinalde 'kabullenmekten' bahsediliyor.",
+                                    "2": "Acının 'çok güçlendiği' için tedavi edilmesi gerektiğini söylüyor, orijinalde şiddet artışından bahsedilmiyor.",
+                                    "3": "İnsanların 'alışması gerektiğini' (must get accustomed) söylüyor, orijinal cümle tam tersini, yani göz ardı etmemeleri gerektiğini söylüyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "Tobacco products are the only ones that will kill half of their users even though they are used as their producers suggested.",
+                            "options": [
+                                "The ongoing misuse of tobacco products leads to the death of 50% of those who use them.",
+                                "Half of tobacco users use tobacco products as suggested, but others die from consuming them.",
+                                "Tobacco products are unique because they were created in order to kill 50% of people who use them.",
+                                "Half of the people who use tobacco products will die from them despite using them in the way they were meant to be used."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Orijinal cümledeki ironiyi yakalıyor: Üreticinin önerdiği gibi (meant to be used) kullanılsa bile (despite) kullanıcıların yarısı ölecektir.",
+                                "wrong": {
+                                    "0": "'Misuse' (yanlış kullanım) diyor, orijinalde 'suggested' (önerildiği gibi) kullanım var.",
+                                    "1": "Sadece diğerlerinin (others) öldüğünü söylüyor, oran yanlış.",
+                                    "2": "'Created in order to kill' (öldürmek amacıyla üretildi) diyor, amaçtan bahsedilmiyor, sonuçtan bahsediliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "As smoking results in productive soil being wasted for growing tobacco and in people becoming addicted, there has always been opposition to it.",
+                            "options": [
+                                "Ever since smoking began, it has been opposed because tobacco plants use up good farm land and tobacco results in addiction.",
+                                "Because tobacco plants harm rich soil and tobacco destroys people’s lives, there has been a growing resistance to smoking.",
+                                "People are against both growing tobacco and using it for smoking because tobacco is such a strongly addictive substance.",
+                                "As the effects of smoking became clearer, more and more people were against it as tobacco plants used up fertile land and tobacco caused people to become addicted."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Orijinal: Sigara verimli toprağı harcadığı ve bağımlılık yaptığı için (Neden), her zaman karşıtlık olmuştur (Sonuç). A şıkkı: Başladığından beri karşı çıkıldı (Always opposed), çünkü iyi tarım arazisini tüketiyor ve bağımlılık yapıyor.",
+                                "wrong": {
+                                    "1": "'Growing resistance' (artan direniş) diyor, orijinalde 'always' (her zaman) var.",
+                                    "2": "Toprak israfından bahsetmemiş, sadece bağımlılığa odaklanmış.",
+                                    "3": "'Became clearer' (netleştikçe) diyerek zamanla artan bir durumdan bahsetmiş, oysa orijinalde başından beri (always) var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "Murad IV, Sultan of the Ottoman Empire from 1623 to 1640, was among the first leaders to ban smoking by claiming it was a threat to public morals and health.",
+                            "options": [
+                                "By forbidding people to smoke, Ottoman Sultan Murad IV (1623-40) improved both the minds and the bodies of his citizens.",
+                                "Arguing that smoking could ruin behavior and harm the body, Ottoman Sultan Murad IV (1623-40) imposed one of the first bans on smoking.",
+                                "Because of poor public health and declining moral standards, Ottoman Sultan Murad IV (1623-40), one of the earlier sultans, decided to prohibit smoking.",
+                                "By the time Ottoman Sultan Murad IV (1623-40) came to power, it was known that smoking harmed people’s morals and their health, so he was one of the first to ban it."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Orijinal: Yasakladı çünkü ahlak ve sağlığa tehditti. B şıkkı: Davranışı bozduğunu ve vücuda zarar verdiğini savunarak (claiming/arguing) yasak koydu.",
+                                "wrong": {
+                                    "0": "Vatandaşların zihnini ve bedenini 'iyileştirdiği' (improved) sonucuna varmış, orijinalde sadece yasaklama nedeni var.",
+                                    "2": "Sağlık ve ahlakın 'kötü olduğu için' (because of poor...) yasakladığını söylüyor, orijinalde sigaranın buna tehdit olduğu için yasaklandığı yazıyor.",
+                                    "3": "Tahta çıktığında bu zararların 'bilindiğini' (it was known) söylüyor, orijinalde bunu Murad IV'ün iddia ettiği (claiming) yazıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "The world is accustomed to a throwaway lifestyle, but that’s neither healthy for the planet nor sustainable.",
+                            "options": [
+                                "People in every country used to produce lots of waste, and that is why the world has so many unsolvable environmental issues.",
+                                "People all over the world are used to disposing many things, but this way of life damages the environment and cannot continue.",
+                                "Everyone throws out everything, which is why we keep having so many health problems.",
+                                "So many people are unaware that just getting rid of things is extremely harmful and cannot go on."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Eşleştirmeler: Accustomed to -> Used to, Throwaway lifestyle -> Disposing many things, Not healthy for planet -> Damages environment, Not sustainable -> Cannot continue.",
+                                "wrong": {
+                                    "0": "'Used to' (eskiden yapardı) kalıbını kullanmış, oysa alışkanlık devam ediyor. Ayrıca 'unsolvable' (çözülemez) ifadesi abartı.",
+                                    "2": "Sadece sağlık problemlerine odaklanmış, sürdürülebilirlik (sustainable) kısmı eksik.",
+                                    "3": "İnsanların 'farkında olmadığını' (unaware) söylüyor, orijinalde alışkanlıktan bahsediliyor, farkındalıktan değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "Due to the hazardous nature of mining, autonomous robots are being used much more frequently in this field.",
+                            "options": [
+                                "The great danger of mining has resulted in the widespread use of autonomous robots in this field.",
+                                "The more dangerous mining has become, the more autonomous robots have been used in this field.",
+                                "Autonomous robots have gained a positive reputation in mining on account of the dangers they bravely face.",
+                                "People have become aware of the extreme risks involved in mining and wonder if autonomous robots could be used more in this area."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Neden: Hazardous nature (Great danger). Sonuç: Used much more frequently (Widespread use). A şıkkı bu neden-sonuç ilişkisini doğru veriyor.",
+                                "wrong": {
+                                    "1": "'Daha tehlikeli oldukça, daha çok kullanıldı' gibi orantısal bir yapı kurmuş (The more... the more), orijinalde sadece tehlikeli olduğu için kullanıldığı yazıyor.",
+                                    "2": "Robotların 'cesurca' yüzleşmesinden ve 'ün kazanmasından' bahsediyor, yorum katılmış.",
+                                    "3": "İnsanların 'merak ettiğini' (wonder) söylüyor, oysa robotlar halihazırda kullanılıyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 1: The Peak-End Rule",
+                    "questions": [
+                        {
+                            "id": 20,
+                            "question": "The author mainly discusses how ____.",
+                            "options": [
+                                "the Peak-End rule has led to changes in medical practices",
+                                "the Peak-End rule has changed over time",
+                                "our perception of an experience affects our behavior and memories",
+                                "unpleasant memories affect people’s lives for many years after they take place"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf IV'te ana fikir veriliyor: 'our perceptions about an experience are mainly determined by how it feels at its most intense... and how it feels at the end.' (Deneyim hakkındaki algımız en yoğun an ve son an ile belirlenir). Bu da C şıkkındaki algı-hafıza ilişkisini doğrular.",
+                                "wrong": {
+                                    "0": "Tıbbi uygulamaların değiştiğinden değil, sadece bir deneyden (kolonoskopi) örnek verilmiş.",
+                                    "1": "Kuralın zamanla değiştiği anlatılmıyor.",
+                                    "3": "Kötü anıların yıllarca süren etkisinden bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 21,
+                            "question": "Which of the following is FALSE about the experiment mentioned in paragraphs I and II?",
+                            "options": [
+                                "According to the pain meter, the second trial was as painful as the first one for the first minute.",
+                                "According to most of the participants, the first trial caused more discomfort than the second one.",
+                                "The two trials lasted different amounts of time.",
+                                "The water was colder in the second trial."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Parçada I. deneyde suyun 14°C olduğu, II. deneyde ise önce 14°C sonra 15°C'ye çıktığı söyleniyor. 15°C, 14°C'den daha sıcaktır. D şıkkı 'suyun ikinci deneyde daha soğuk olduğunu' söylüyor, bu YANLIŞTIR.",
+                                "wrong": {
+                                    "0": "DOĞRU: İlk 60 saniye her ikisinde de aynıydı (14°C).",
+                                    "1": "DOĞRU: Katılımcılar kısa olanı (ilkini) daha acı verici buldular çünkü sonu kötü bitti.",
+                                    "2": "DOĞRU: Biri 60, diğeri 90 saniye sürdü."
+                                }
+                            }
+                        },
+                        {
+                            "id": 22,
+                            "question": "The word “it” in paragraph II refers to ____.",
+                            "options": [
+                                "participants’ experience",
+                                "the 90-second trial",
+                                "the first trial",
+                                "the 30 more seconds of pain"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Cümle: 'choose to repeat the 90-second trial, even though IT involved 30 more seconds...' Burada 'IT', 30 saniye daha fazla süren '90 saniyelik denemeye' atıfta bulunuyor.",
+                                "wrong": {
+                                    "0": "Katılımcıların deneyimi 30 saniye içermez, deneme (trial) içerir.",
+                                    "2": "İlk deneme 60 saniyeydi, 30 saniye fazlası yoktu.",
+                                    "3": "Acı acıyı içermez, deneme acıyı içerir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 23,
+                            "question": "In paragraph III, the reader understands that ____.",
+                            "options": [
+                                "the length of a colonoscopy was not the key factor in determining patients’ reaction to it",
+                                "everyone should have a colonoscopy done even though it is a painful procedure",
+                                "longer colonoscopies are generally more effective than shorter ones",
+                                "the most unpleasant part of a colonoscopy is the end of the procedure"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf III: 'the duration of the procedure did not predict how they felt about it afterwards.' (İşlemin süresi, sonrasında nasıl hissettiklerini belirlemedi). Bu cümle A şıkkını doğrudan destekler.",
+                                "wrong": {
+                                    "1": "Herkesin yaptırması gerektiği tavsiyesi yok.",
+                                    "2": "Daha etkili (effective) olduğuna dair bilgi yok.",
+                                    "3": "En kötü kısmın sonu olduğu değil, sonun algıyı etkilediği söyleniyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 24,
+                            "question": "The phrase beside the point in paragraph IV is closest in meaning to ----.",
+                            "options": [
+                                "not very important",
+                                "unattractive",
+                                "equally significant",
+                                "in need of research"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "'Beside the point' deyimi 'konu dışı, önemsiz' anlamına gelir. Parçada 'sürenin önemsiz olduğu' (duration is beside the point) anlatılıyor.",
+                                "wrong": {
+                                    "1": "Çekici olmayan anlamı katmaz.",
+                                    "2": "Eşit derecede önemli demek değildir.",
+                                    "3": "Araştırmaya muhtaç demek değildir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 25,
+                            "question": "In paragraph V, all of the following are mentioned as possible applications of the Peak-End rule EXCEPT ____.",
+                            "options": [
+                                "making operations last longer",
+                                "developing less painful procedures for difficult operations",
+                                "taking shorter holidays but filling them with special events",
+                                "organizing special times into separate, memorable activities"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Metinde operasyonları uzatmak (A), tatilleri bölmek (C/D) tartışılıyor. Ancak operasyonların kendisini 'daha az acılı hale getirmekten' (developing less painful procedures) bir uygulama olarak bahsedilmiyor; tam tersine 'daha fazla toplam acı olsa bile' anının iyi kalması tartışılıyor.",
+                                "wrong": {
+                                    "0": "Bahsediliyor: 'surgeons should extend painful operations'.",
+                                    "2": "Bahsediliyor: 'organise your time so it is broken up into... distinct... experiences'.",
+                                    "3": "Bahsediliyor: 'mentally package our time'."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 2: Electronic Cigarettes",
+                    "questions": [
+                        {
+                            "id": 26,
+                            "question": "The main purpose of the article is to ____.",
+                            "options": [
+                                "compare the effects of traditional cigarettes and e-cigarettes",
+                                "discuss how popular e-cigarettes will become in the future",
+                                "help the reader understand why e-cigarettes are growing in popularity so quickly",
+                                "explain why the writer does not recommend using e-cigarettes"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Yazar makale boyunca e-sigaranın bilinmeyen tehlikelerini, toksik içeriklerini ve gençlere etkisini anlatıyor. Son paragrafta 'I'm not comfortable promoting a consumer product...' diyerek neden tavsiye etmediğini özetliyor.",
+                                "wrong": {
+                                    "0": "Karşılaştırma var ama amaç sadece bu değil, uyarı yapmak.",
+                                    "1": "Gelecek popülaritesi sadece ilk paragrafta geçiyor.",
+                                    "2": "Popülarite artışı bir gözlem, makalenin ana amacı bunu açıklamak değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 27,
+                            "question": "Which of the following sentences best summarizes paragraph I?",
+                            "options": [
+                                "E-cigarettes provide a good alternative to traditional cigarettes and are quickly gaining in popularity.",
+                                "Although sales of e-cigarettes have been increasing, many questions remain about this product.",
+                                "Doctors have been unable to prevent e-cigarettes from becoming more and more popular.",
+                                "Despite e-cigarette’s recent gains in popularity, nicotine replacement therapies are more effective."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf I, satışların patladığını (increasing sales) ama doktorların endişeli olduğunu ve güvenlik kontrollerinin eksik olduğunu (questions remain) anlatıyor.",
+                                "wrong": {
+                                    "0": "Sadece popülerliğini anlatmıyor, 'medicine' olmadığını da vurguluyor.",
+                                    "2": "Doktorların engellemeye çalıştığı yazmıyor.",
+                                    "3": "Diğer terapilerin daha etkili olduğu karşılaştırması yapılmamış."
+                                }
+                            }
+                        },
+                        {
+                            "id": 28,
+                            "question": "Which of the following statements is TRUE according to paragraph I?",
+                            "options": [
+                                "Recent research shows that nicotine is a more dangerous substance than tar.",
+                                "The biggest advantage of e-cigarettes is that they reduce a person’s dependence on nicotine.",
+                                "Market experts expect e-cigarette sales to increase about three times in 2014, as they did in 2013.",
+                                "Doctors do not have sufficient awareness of the financial and physical effects of smoking."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Metinde 2012'de 3.5 milyon, 2013'te 10 milyon satış olduğu (yaklaşık 3 katı) ve analistlerin 2014'te 'similar sales increase' (benzer artış) beklediği yazıyor. Bu da yaklaşık 3 kat artış demektir.",
+                                "wrong": {
+                                    "0": "Nikotinin katrandan tehlikeli olduğu söylenmiyor.",
+                                    "1": "Bağımlılığı azalttığı değil, nikotini zararsız vermeye çalıştığı söyleniyor.",
+                                    "3": "Doktorların farkındalığı eksik değil, aksine maliyetleri düşürmek için çaresizler (desperate)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 29,
+                            "question": "From paragraph II, the reader understands that ____.",
+                            "options": [
+                                "a greater variety of and more long-term studies about e-cigarettes are needed",
+                                "the research on e-cigarettes contains many factual errors",
+                                "studies on e-cigarettes are often contradictory to each other",
+                                "research on e-cigarettes have only been done by groups who are opposed to e-cigarettes"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf II: 'only about 200 references... no long-term studies on the effects' (sadece 200 kaynak var, uzun vadeli çalışma yok). Bu, daha fazla çalışmaya ihtiyaç olduğunu gösterir.",
+                                "wrong": {
+                                    "1": "Hatalı bilgi içerdiği söylenmiyor.",
+                                    "2": "Çelişkili oldukları söylenmiyor.",
+                                    "3": "Sadece karşıt grupların yaptığı söylenmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 30,
+                            "question": "The word jeopardizing in paragraph II is closest in meaning to ____.",
+                            "options": [
+                                "discussing",
+                                "examining",
+                                "maintaining",
+                                "threatening"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Jeopardizing', 'tehlikeye atmak' demektir. 'Threatening' (tehdit etmek/tehlike oluşturmak) en yakın anlamlı kelimedir.",
+                                "wrong": {
+                                    "0": "Tartışmak.",
+                                    "1": "İncelemek.",
+                                    "2": "Sürdürmek/Korumak."
+                                }
+                            }
+                        },
+                        {
+                            "id": 31,
+                            "question": "The main purpose of paragraph III is to ____.",
+                            "options": [
+                                "reveal the damage that e-cigarettes could have on youth",
+                                "question the conclusions of an article in the Journal of Adolescent Health",
+                                "point out a group of people who could possibly benefit from e-cigarettes",
+                                "explain the recent jump in smoking among youth"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Paragraf III, e-sigaraların gençler için (youth) nasıl bir 'gateway' (geçiş kapısı) olabileceğini ve reklamların gençleri hedeflediğini anlatarak zararları ortaya koyuyor.",
+                                "wrong": {
+                                    "1": "Makalenin sonuçlarını sorgulamıyor, onları kanıt olarak kullanıyor.",
+                                    "2": "Fayda sağlayacak grubu değil, risk altındaki grubu anlatıyor.",
+                                    "3": "Gençlerde sigara artışını açıklamıyor, e-sigara farkındalığının artışını açıklıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 32,
+                            "question": "The word reticence in paragraph IV could best be replaced by ____.",
+                            "options": [
+                                "preference",
+                                "warning",
+                                "hesitation",
+                                "debate"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Doktorların e-sigarayı önerme konusundaki 'reticence'ı (çekimserliği). 'Hesitation' (tereddüt) eş anlamlıdır.",
+                                "wrong": {
+                                    "0": "Tercih.",
+                                    "1": "Uyarı.",
+                                    "3": "Tartışma."
+                                }
+                            }
+                        },
+                        {
+                            "id": 33,
+                            "question": "In paragraph IV, it is implied that the writer wishes that ____.",
+                            "options": [
+                                "doctors would try harder to convince people to quit smoking",
+                                "doctors would make use of new treatments more quickly",
+                                "doctors had not encouraged people to smoke cigarettes without realizing their effects",
+                                "there were not so many restrictions on nicotine replacement treatments"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Yazar, geçmişte doktorların sigaranın zararını bilmeden önererek mesleğin itibarına zarar verdiğini söylüyor ('harmed the reputation... by encouraging smoking'). Aynı hatayı yapmak istemediğini ima ediyor.",
+                                "wrong": {
+                                    "0": "Daha çok çabalamaları gerektiğini ima etmiyor.",
+                                    "1": "Yeni tedavileri hızlı kullanmayı değil, emin olmadan kullanmamayı savunuyor.",
+                                    "3": "Kısıtlamalardan şikayet etmiyor, e-sigaranın da kısıtlanması gerektiğini savunuyor."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 3: Rachel Carson",
+                    "questions": [
+                        {
+                            "id": 34,
+                            "question": "Which of the following statements about Rachel Carson is supported by paragraph I?",
+                            "options": [
+                                "She received her fondness of writing from her mother.",
+                                "She could not decide what to study while she was at university.",
+                                "Before publishing her first book, she wrote and edited for various publications.",
+                                "She stopped writing for a while after her 1952 book The Sea around Us was published."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf I: 'she wrote articles about nature for a newspaper... wrote in journals... edited scientific articles.' (Gazete ve dergilere yazdı, makaleler düzenledi).",
+                                "wrong": {
+                                    "0": "Annesinden doğa sevgisini aldı, yazma sevgisini değil.",
+                                    "1": "Ne okuyacağına karar veremediği yazmıyor.",
+                                    "3": "Yazmayı bırakmadı, diğer işlerinden istifa edip tamamen yazmaya yöneldi ('resigned from her other work and devoted herself to writing')."
+                                }
+                            }
+                        },
+                        {
+                            "id": 35,
+                            "question": "The word profligate in paragraph II is closest in meaning to ____.",
+                            "options": [
+                                "accidental",
+                                "careful",
+                                "required",
+                                "widespread"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Profligate' normalde 'savurgan/aşırı' demektir. Metinde 'spraying large areas' (geniş alanların ilaçlanması) bağlamında kullanıldığı için, seçenekler arasında en yakını 'widespread' (yaygın/kapsamlı) kelimesidir.",
+                                "wrong": {
+                                    "0": "Kazara.",
+                                    "1": "Dikkatli.",
+                                    "2": "Gerekli."
+                                }
+                            }
+                        },
+                        {
+                            "id": 36,
+                            "question": "The phrase All these events at the beginning of paragraph III refers to all of the following things mentioned in paragraph II EXCEPT ____.",
+                            "options": [
+                                "World War II",
+                                "spraying large areas of land to eliminate fire ants",
+                                "the Great Cranberry Scandal",
+                                "meetings with chemical company representatives"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Rachel Carson'ı kitap yazmaya iten olaylar II. Dünya Savaşı sonrasında gerçekleşen olaylardır (ilaçlama, skandal, toplantılar). II. Dünya Savaşı sadece bir zaman belirtecidir ('after World War II'), onu harekete geçiren spesifik bir olay değildir.",
+                                "wrong": {
+                                    "1": "Ateş karıncaları için ilaçlama bir etkendi.",
+                                    "2": "Kızılcık skandalı bir etkendi.",
+                                    "3": "Temsilcilerle olan toplantılar onu cesaretlendirdi (negatif anlamda)."
+                                }
+                            }
+                        },
+                        {
+                            "id": 37,
+                            "question": "In paragraph III, it is implied that ____.",
+                            "options": [
+                                "the reason why pesticides caused cancer was not clearly understood at that time",
+                                "there were only a few incidents of pesticide exposure for Carson to investigate",
+                                "Carson’s struggle with cancer affected the quality of the book she was writing",
+                                "Carson’s cancer was not as serious as doctors thought when they first discovered it"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Metinde 'doctors who were trying to make a connection... by using the limited research' (sınırlı araştırmayı kullanarak bağlantı kurmaya çalışan doktorlar) ifadesi geçiyor. Bu, bağlantının o dönemde tam anlaşılmadığını veya kanıtlanmadığını ima eder.",
+                                "wrong": {
+                                    "1": "Yüzlerce olayı (hundreds of incidents) araştırdığı yazıyor.",
+                                    "2": "Kalitesini etkilediği değil, yayınlanmasını geciktirdiği (delayed) yazıyor.",
+                                    "3": "Kanserinin kötü huylu (malignant) ve ciddi olduğu belirtiliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 38,
+                            "question": "According to paragraph IV, Carson believed that “biocides” ____.",
+                            "options": [
+                                "had changed how people looked at the natural world",
+                                "destroyed many useful things as well as the insects that harm crops",
+                                "were not like pesticides, which did lots of damage to the environment",
+                                "could be improved over time and have fewer negative effects"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf IV: 'because they destroy many more things than the pests that they target' (hedefledikleri zararlılardan çok daha fazlasını yok ettikleri için). Bu da B şıkkını doğrular.",
+                                "wrong": {
+                                    "0": "İnsanların bakışını değiştirmesi gereken şey kitaptır, 'biocides' değil.",
+                                    "2": "Pestisitlere 'biocide' denmesini öneriyor, farklı bir şey olduklarını söylemiyor.",
+                                    "3": "Geliştirilebileceklerinden bahsedilmiyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 39,
+                            "question": "The word them in paragraph IV refers to ____.",
+                            "options": [
+                                "pests",
+                                "chemical industry representatives",
+                                "inaccurate reports",
+                                "public officials"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Cümle: 'accused chemical industry representatives of intentionally spreading inaccurate reports and public officials of accepting THEM...' (Raporları yaymakla... ve yetkilileri ONLARI kabul etmekle...). 'Them' burada 'inaccurate reports'a (hatalı raporlar) gönderme yapar.",
+                                "wrong": {
+                                    "0": "Zararlıları kabul etmek anlamsız.",
+                                    "1": "Temsilcileri kabul etmek değil, yaydıkları raporları kabul etmek.",
+                                    "3": "Kamu görevlileri kabul eden taraf."
+                                }
+                            }
+                        },
+                        {
+                            "id": 40,
+                            "question": "The word backfired in paragraph V could best be replaced by ____.",
+                            "options": [
+                                "was ignored",
+                                "was debated",
+                                "provided information",
+                                "failed"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Backfire', 'geri tepmek' veya 'ters tepmek' demektir; yani amaçlananın tersi bir sonuç vermek (failed). Endüstrinin saldırısı kitabı durdurmak yerine ilgiyi artırdı.",
+                                "wrong": {
+                                    "0": "Göz ardı edilmedi.",
+                                    "1": "Tartışılmadı.",
+                                    "2": "Bilgi sağlamadı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 41,
+                            "question": "Which of the following statements is TRUE according to the article?",
+                            "options": [
+                                "Carson convinced the US government not to use pesticides to destroy fire ants.",
+                                "Too much use of the pesticide aminotriazole led to a ban in cranberry sales in 1957.",
+                                "A biotic approach to pest control makes use of many chemical pesticides.",
+                                "Silent Spring convinced many people in the chemical industry to stop using pesticides."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf II: 'cranberries were found to contain high levels... The sale of all cranberry products was stopped.' (Yüksek seviyede pestisit bulundu ve satışlar durduruldu).",
+                                "wrong": {
+                                    "0": "Hükümetin ateş karıncalarını yok etme planını durdurduğuna dair bilgi yok, sadece bu olay Carson'ı endişelendirdi.",
+                                    "2": "Biyotik yaklaşım kimyasala alternatiftir, kimyasal kullanmaz.",
+                                    "3": "Kimya endüstrisi ikna olmadı, aksine karşı çıktı."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Text 4: RP-VITA Is Saving Lives",
+                    "questions": [
+                        {
+                            "id": 42,
+                            "question": "The passage is mainly about ____.",
+                            "options": [
+                                "the latest developments in medical technology",
+                                "the capabilities of a new medical robot",
+                                "how robots are becoming more like people every day",
+                                "some difficulties of using advanced technology in medicine"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Metin, RP-VITA adlı yeni bir tıbbi robotun özelliklerini, neler yapabildiğini ve gelecekteki potansiyelini anlatıyor.",
+                                "wrong": {
+                                    "0": "Genel tıbbi teknolojiden değil, spesifik bir robottan bahsediyor.",
+                                    "2": "İnsanlara benzemesi ana konu değil.",
+                                    "3": "Zorluklar sadece bir paragrafta geçiyor, ana konu değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 43,
+                            "question": "The word far-fetched in paragraph I could best be replaced by ____.",
+                            "options": [
+                                "dangerous",
+                                "deadly",
+                                "unbelievable",
+                                "expensive"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "'Far-fetched', 'inanması güç, zorlama' anlamına gelir. Hikayenin gerçek olamayacak kadar inanılmaz (unbelievable) göründüğünü ama gerçek olduğunu söylüyor.",
+                                "wrong": {
+                                    "0": "Tehlikeli.",
+                                    "1": "Ölümcül.",
+                                    "3": "Pahalı."
+                                }
+                            }
+                        },
+                        {
+                            "id": 44,
+                            "question": "According to paragraph II, one reason that the RP-VITA is not commonly used yet is that ____.",
+                            "options": [
+                                "people need more training to use the machine properly",
+                                "there are similar robots with almost the same capabilities",
+                                "it is still dependent on a remote control system",
+                                "it is still in the process of being approved by the FDA"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "(Bu sorunun seçenekleri metinle tam uyuşmuyor olabilir ancak metinden çıkarım yaparak): Paragraf II'de robotun otonom olduğu ve joystick ile sürülmeye ihtiyacı olmadığı (doesn't need to be driven by remote-control) vurgulanıyor. C şıkkı bunun tam tersini iddia etse de, bağlamda 'henüz yaygın olmamasının' sebebi olarak teknik bir bağımlılık veya yanlış algı kastediliyor olabilir. Ancak metne en sadık yorum; robotun 'Remote Presence' (Uzaktan Varlık) sistemi olmasıdır. Not: Metinde yaygın kullanılmama sebebi Paragraf II'de açıkça belirtilmemiştir, ancak Paragraf III'te insan yardımına ihtiyaç duyduğu belirtilir.",
+                                "wrong": {
+                                    "0": "Eğitim ihtiyacından bahsedilmiyor.",
+                                    "1": "Benzer robotlardan değil, bunun 'ilk' olduğundan bahsediliyor.",
+                                    "3": "FDA tarafından onaylandığı (approved) açıkça yazıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 45,
+                            "question": "In paragraph II, the author mentions “floor 3, room 12” ____.",
+                            "options": [
+                                "to show that RP-VITA can make its way to a specific place",
+                                "to show that the large size of hospitals makes robots’ work very difficult",
+                                "because a telepresence robot was being used there",
+                                "because the child with the rare blood disease had been in that bed"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "Yazar bu örneği, robotun otonom navigasyon yeteneğini göstermek için veriyor: Doktora sadece odayı söylemesi yetiyor, robot yolu kendi buluyor.",
+                                "wrong": {
+                                    "1": "Zorluğu değil, kolaylığı vurguluyor.",
+                                    "2": "Spesifik bir olaydan değil, yetenekten bahsediyor.",
+                                    "3": "Hasta çocuk örneği Paragraf I'deydi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 46,
+                            "question": "According to paragraph III, which of the following statements is TRUE?",
+                            "options": [
+                                "Autonomous robots would be better if both business and academic experts had developed them.",
+                                "Autonomous robots have difficulty operating in environments which aren’t always the same.",
+                                "It is difficult for autonomous robots to detect soft noises like the sound coming from a stethoscope.",
+                                "Developers of autonomous robots have begun testing the robotic arm they recently designed."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "Paragraf III: 'The challenge is getting that technology to work reliably in unpredictable environments...' (Zorluk, tahmin edilemeyen ortamlarda güvenilir çalışmasını sağlamaktır).",
+                                "wrong": {
+                                    "0": "Zaten hem endüstri hem üniversiteler çalışıyor.",
+                                    "2": "Sesleri duyamadığı için değil, stetoskopu tutacak eli olmadığı için hemşireye ihtiyaç duyuyor.",
+                                    "3": "Robot kolu henüz tasarım aşamasında, test edildiği yazmıyor ('still some way off')."
+                                }
+                            }
+                        },
+                        {
+                            "id": 47,
+                            "question": "In paragraph IV, the phrase the other refers to ____.",
+                            "options": [
+                                "the development of autonomous navigation",
+                                "the challenge of a robot moving by itself without getting stuck",
+                                "the challenge of making sense of the environment",
+                                "the recent advances in areas such as computer vision"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "Paragraf IV'te iki zorluktan bahsediliyor: 1. Kendi başına hareket etmek, 2. Çevreyi anlamlandırmak (make sense of its environment). 'Overcome the other' ifadesi ikinci zorluğa atıfta bulunur.",
+                                "wrong": {
+                                    "0": "Navigasyon genel konu.",
+                                    "1": "Bu ilk zorluktu.",
+                                    "3": "Bilgisayar görüşü, sorunu çözen araçtır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 48,
+                            "question": "The word demographic in paragraph V could best be replaced by ____.",
+                            "options": [
+                                "medical device",
+                                "type of technology",
+                                "medical staff",
+                                "group of people"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "'Demographic', belirli bir nüfus grubu demektir. Burada 'elderly' (yaşlılar) grubunu kastediyor.",
+                                "wrong": {
+                                    "0": "Cihaz değil.",
+                                    "1": "Teknoloji değil.",
+                                    "2": "Personel değil."
+                                }
+                            }
+                        },
+                        {
+                            "id": 49,
+                            "question": "Which of the following statements is supported by the text?",
+                            "options": [
+                                "More and more children are suffering from strange diseases.",
+                                "The RP-VITA is useful for patient follow up but not for surgical procedures.",
+                                "More recently built hospitals have better designs and are more robot friendly.",
+                                "Patients using the RP-VITA quickly feel comfortable using it."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "Paragraf V: 'Any concerns rapidly disappear... forget you're interacting with a piece of technology.' (Endişeler hızla kaybolur, teknolojiyle konuştuğunuzu unutursunuz).",
+                                "wrong": {
+                                    "0": "Hastalıkların arttığına dair bilgi yok.",
+                                    "1": "Cerrahi işlem yapamadığı söylenmiyor, stetoskop tutamadığı söyleniyor.",
+                                    "2": "Hastane tasarımlarının değiştiği söylenmiyor, genel hastane yapısından bahsediliyor."
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

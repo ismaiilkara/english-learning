@@ -1,0 +1,877 @@
+{
+    "id": 1,
+    "title": "Proficiency Exam Analysis",
+    "sections": {
+        "reading": {
+            "parts": [
+                {
+                    "type": "cloze",
+                    "title": "Cloze Test: Empathy",
+                    "passage": {
+                        "title": "Empathy",
+                        "text": "Since its introduction into the English language, the word empathy (1)_____ a wide range of (sometimes conflicting) definitions. Definitions of empathy (2)_____ a broad range, including caring for other people and having a desire to help them, experiencing emotions that match another person's emotions, and understanding what another person is thinking or feeling. Because empathy involves understanding the emotional states of other people, the way it is characterized derives from the way emotions are characterized. (3)_____, if emotions are characterized by bodily feelings, then understanding the bodily feelings of another will be considered central to empathy. (4)_____, if emotions are characterized by a combination of beliefs and desires, then understanding those beliefs and desires will be more essential to empathy. The ability to imagine (5)_____ as another person is a sophisticated process. However, the basic capacity to recognize emotions in others may be innate and may be achieved unconsciously. Studies in animal behavior indicate that empathy is not restricted to humans; nevertheless, the interpretation of such research depends in part on (6)_____ wide a definition of empathy researchers adopt. Empathy-like behaviors have been observed in primates, both in captivity and in the wild, and (7)_____ in bonobos, perhaps the most empathic primate. One study demonstrated prosocial behavior elicited by empathy in rodents. Rodents demonstrate empathy for cage mates in pain. Empathy is not (8)_____ to humans, but that empathy has deep evolutionary, biochemical, and neurological foundations. Even the most advanced forms of empathy in humans are built on more basic forms and remain connected to core mechanisms related with emotional communication, social attachment, and parental care. Compassion and sympathy are terms related with empathy. A person feels compassion when they notice others are in need, and this feeling motivates that person to help. (9)_____ empathy, compassion has a wide range of definitions and supposed facets, which (10)_____ with some definitions of empathy. Sympathy is a feeling of care and understanding for someone in need. Some include in sympathy an empathic concern for another person, and the wish to see them better off or happier."
+                    },
+                    "questions": [
+                        {
+                            "id": 1,
+                            "options": [
+                                "has been having",
+                                "has had",
+                                "was having",
+                                "had had"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"has had\" (Present Perfect Simple) doğru çünkü cümlenin başında \"Since its introduction\" (tanıtıldığından beri) ifadesi var. \"Since\" geçmişten bugüne gelen bir süreci anlatır, bu yüzden Present Perfect Tense kullanılır.",
+                                "wrong": {
+                                    "0": "\"has been having\" genellikle 'have' fiili sahiplik bildirdiğinde continuous (ing) almaz.",
+                                    "2": "\"was having\" geçmişte devam eden bir olaydır, ama burada 'since' ile günümüze gelen bir süreç var.",
+                                    "3": "\"had had\" (Past Perfect) geçmişin de geçmişini anlatır, burada öyle bir durum yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "options": [
+                                "suppress",
+                                "divert",
+                                "encompass",
+                                "surrender"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"encompass\" (kapsamak/içermek) kelimesi doğru. Cümle, empati tanımlarının geniş bir yelpazeyi \"kapsadığını\" söylüyor.",
+                                "wrong": {
+                                    "0": "\"suppress\" baskılamak demektir, anlamca uymaz.",
+                                    "1": "\"divert\" yönünü değiştirmek demektir.",
+                                    "3": "\"surrender\" teslim olmak demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 3,
+                            "options": [
+                                "In contrast",
+                                "Nonetheless",
+                                "Now that",
+                                "For instance"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"For instance\" (Örneğin) doğru. Bir önceki cümlede duyguların nasıl karakterize edildiğinden bahsedildi, bu cümlede ise buna özel bir \"örnek\" veriliyor.",
+                                "wrong": {
+                                    "0": "\"In contrast\" zıtlık bildirir, burada zıtlık yok, açıklama var.",
+                                    "1": "\"Nonetheless\" yine de/buna rağmen demektir.",
+                                    "2": "\"Now that\" -dığı için/madem ki anlamındadır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 4,
+                            "options": [
+                                "On the other hand",
+                                "In terms of",
+                                "By means of",
+                                "No matter"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"On the other hand\" (Öte yandan) doğru. Bir önceki cümlede \"bedensel hisler\" örneği verildi, bu cümlede ise buna alternatif/zıt bir bakış açısı olan \"inanç ve arzular\" örneği veriliyor.",
+                                "wrong": {
+                                    "1": "\"In terms of\" ...açısından demektir, bağlaç olarak cümle başlatmaz.",
+                                    "2": "\"By means of\" ...aracılığıyla demektir.",
+                                    "3": "\"No matter\" ne olursa olsun demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 5,
+                            "options": [
+                                "the one",
+                                "oneself",
+                                "one's",
+                                "the ones"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"oneself\" (kendini) doğru. \"Imagine oneself as another person\" (kendini başka biri olarak hayal etmek) kalıbıdır. Eylemi yapan ve etkilenen aynı olduğunda reflexive pronoun kullanılır.",
+                                "wrong": {
+                                    "0": "\"the one\" belirli bir kişi/nesne için kullanılır.",
+                                    "2": "\"one's\" iyelik (sahiplik) bildirir (birinin...).",
+                                    "3": "\"the ones\" çoğul nesneler için kullanılır."
+                                }
+                            }
+                        },
+                        {
+                            "id": 6,
+                            "options": [
+                                "what",
+                                "which",
+                                "how much",
+                                "how"
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "\"how\" doğru. \"How wide\" (ne kadar geniş) kalıbı, bir sıfatın derecesini belirtmek için kullanılır.",
+                                "wrong": {
+                                    "0": "\"what\" sıfattan önce gelerek derece belirtmez (what wide denmez).",
+                                    "1": "\"which\" hangisi demektir.",
+                                    "2": "\"how much\" miktar sorar ama sıfatın (wide) önüne doğrudan gelmez, 'how' yeterlidir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 7,
+                            "options": [
+                                "in particular",
+                                "in return",
+                                "on behalf",
+                                "on time"
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "\"in particular\" (özellikle) doğru. Primatlardan bahsedip, ardından özel bir tür olan Bonobo'ları vurguluyor.",
+                                "wrong": {
+                                    "1": "\"in return\" karşılığında demektir.",
+                                    "2": "\"on behalf\" adına/temsilen demektir.",
+                                    "3": "\"on time\" zamanında demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 8,
+                            "options": [
+                                "reminiscent",
+                                "trivial",
+                                "unique",
+                                "spoiled"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"unique\" (özgü/eşsiz) doğru. Cümle \"Empati insanlara özgü değildir\" (hayvanlarda da vardır) demek istiyor.",
+                                "wrong": {
+                                    "0": "\"reminiscent\" andıran/hatırlatan demektir.",
+                                    "1": "\"trivial\" önemsiz demektir.",
+                                    "3": "\"spoiled\" şımarık/bozulmuş demektir."
+                                }
+                            }
+                        },
+                        {
+                            "id": 9,
+                            "options": [
+                                "Unlike",
+                                "Like",
+                                "As",
+                                "Such as"
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "\"Like\" (Gibi) doğru. Cümle \"Empati GİBİ, şefkatin de geniş tanımları vardır\" diyerek iki kavram arasındaki benzerliği vurguluyor.",
+                                "wrong": {
+                                    "0": "\"Unlike\" aksine demektir, ama cümlenin devamında benzerlikten bahsediliyor.",
+                                    "2": "\"As\" olarak demektir (As empathy = empati olarak).",
+                                    "3": "\"Such as\" örneğin demektir, cümle başında bu şekilde kullanılmaz."
+                                }
+                            }
+                        },
+                        {
+                            "id": 10,
+                            "options": [
+                                "overestimate",
+                                "underline",
+                                "overlap",
+                                "undermine"
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "\"overlap\" (örtüşmek) doğru. Şefkatin bazı yönlerinin, empatinin tanımlarıyla örtüştüğünü/benzeştiğini anlatıyor.",
+                                "wrong": {
+                                    "0": "\"overestimate\" abartmak/gözünde büyütmek demektir.",
+                                    "1": "\"underline\" altını çizmek/vurgulamak demektir.",
+                                    "3": "\"undermine\" baltalamak/zayıflatmak demektir."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "restatement",
+                    "title": "Sentence Comprehension",
+                    "questions": [
+                        {
+                            "id": 11,
+                            "statement": "The sense of marriage as a permanent institution has been weakened, allowing individuals to consider leaving marriages more readily than in the past.",
+                            "options": [
+                                "The idea of marriage as an institution to make society stronger is weaker now, and this causes a lot of people to keep away from marriage.",
+                                "People used to be more prepared for marriage because they were brainwashed about the merits of marriage as a permanent institution.",
+                                "The number of those who see marriage as an institution lasting one's lifetime has declined, as a result of which people are more prone to divorce than in the past.",
+                                "Marriage is not as strong an institution as it used to be because people have begun to see it as something that has to be continued for a long time."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümledeki \"permanent institution... weakened\" (kalıcı kurum algısı zayıfladı) ifadesi, şıkta \"institution lasting one's lifetime has declined\" ile; \"leaving marriages more readily\" (daha kolay terk etme) ifadesi ise \"more prone to divorce\" (boşanmaya daha meyilli) ile tam örtüşüyor.",
+                                "wrong": {
+                                    "0": "A şıkkı insanların evlilikten 'uzak durduğunu' (keep away) söylüyor, oysa orijinal cümle evlilikten 'ayrılmanın' (boşanmanın) kolaylaştığını söylüyor.",
+                                    "1": "B şıkkı 'beyin yıkama' (brainwashed) gibi orijinalde olmayan yorumlar içeriyor.",
+                                    "3": "D şıkkı neden-sonuç ilişkisini ters kurmuş; insanlar onu uzun süreli gördüğü için zayıflamadı, tam tersi."
+                                }
+                            }
+                        },
+                        {
+                            "id": 12,
+                            "statement": "Adoptive families were often told by social workers to assimilate their children, thinking that this would override concerns about ethnic identity and origin.",
+                            "options": [
+                                "Social workers thought that an assimilation strategy would stop concerns about ethnic identity and origin, so they told adoptive families to assimilate their children.",
+                                "Social workers were concerned about ethnic identity and origin, and as a result, they forced adopted children to imitate their adoptive families' culture.",
+                                "Because of concerns about ethnic identity and origin, many adoptive families refused to follow the behavior patterns recommended by social workers.",
+                                "As social workers had concerns about the safety of newly adopted children, they asked adoptive families to warn their new family members about assimilation policies."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Orijinal cümledeki \"thinking that this would override concerns\" (endişeleri gidereceğini düşünerek) kısmı, şıkta \"thought that... strategy would stop concerns\" olarak; \"told... to assimilate\" kısmı ise aynen korunarak verilmiş.",
+                                "wrong": {
+                                    "1": "B şıkkı 'forced' (zorladı) kelimesini kullanmış, orijinalde 'told' (söyledi/tavsiye etti) var.",
+                                    "2": "C şıkkı ailelerin 'reddettiğini' (refused) söylüyor, orijinalde ailenin tepkisi yok.",
+                                    "3": "D şıkkı konuyu 'güvenlik' (safety) olarak değiştirmiş, alakasız."
+                                }
+                            }
+                        },
+                        {
+                            "id": 13,
+                            "statement": "Prospective adoptive parents are required to undergo careful assessment and must show that they will make suitable parents.",
+                            "options": [
+                                "Adoptive parents have been persuaded to go through careful assessment, and now they understand why they must show that they will be good parents.",
+                                "People who want to adopt children have to be evaluated cautiously and prove their appropriateness for parenthood.",
+                                "Parents who are likely to adopt children are obliged to go through detailed assessment so that they can understand the difficulty of parenthood.",
+                                "People who have adopted children are expected to undergo continuous training and assessment to make sure they maintain their parenting skills."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinaldeki \"Prospective... parents\" (müstakbel ebeveynler) = \"People who want to adopt\"; \"undergo careful assessment\" (dikkatli değerlendirmeden geçmek) = \"evaluated cautiously\"; \"show that they will make suitable parents\" = \"prove their appropriateness\". Anlam birebir aynı.",
+                                "wrong": {
+                                    "0": "A şıkkı 'ikna edildiler' (persuaded) diyor, orijinalde zorunluluk (required) var.",
+                                    "2": "C şıkkı amacın 'zorluğu anlamak' olduğunu söylüyor, yanlış.",
+                                    "3": "D şıkkı 'sürekli eğitim' (continuous training) eklemiş, orijinalde yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 14,
+                            "statement": "As Rome was ruled by a few powerful families, every senator's duty was to produce a son to inherit the estate and family name, but a large family was an expensive luxury, so adoption was a good solution.",
+                            "options": [
+                                "The mighty families that governed Rome were not many, and every senator wanted to have a son to protect the estate and family name, and although having a large family was very expensive, adoption did not seem to be a good solution.",
+                                "The powerful families that governed Rome needed sons to protect their estate and family name, but the high cost of adopting a child forced them to have large families with a lot of boys and girls.",
+                                "A small number of mighty families governed Rome, so every senator had to have a son to inherit the estate and family name, yet having a large family was costly, which made adoption a good solution.",
+                                "Even though the powerful families that governed Rome were in need of sons to protect their estate and family name, the high cost of both adopting a child and having a large family caused them to look for other solutions."
+                            ],
+                            "answer": 2,
+                            "explanation": {
+                                "correct": "C şıkkı doğru. Orijinal cümledeki neden-sonuç zincirini (Az sayıda aile yönetiyor -> oğul lazım -> büyük aile pahalı -> evlat edinmek çözüm) eksiksiz ve doğru sırayla veriyor.",
+                                "wrong": {
+                                    "0": "A şıkkı evlat edinmenin iyi bir çözüm 'olmadığını' söylüyor (did not seem...), tam tersi.",
+                                    "1": "B şıkkı evlat edinmenin pahalı olduğunu söylüyor, oysa pahalı olan 'büyük aile'.",
+                                    "3": "D şıkkı 'başka çözümler aradılar' diyor, orijinalde çözümün evlat edinme olduğu net."
+                                }
+                            }
+                        },
+                        {
+                            "id": 15,
+                            "statement": "The presence of clowns in health care settings is a program used in many countries to reduce the distress of children who are undergoing surgery.",
+                            "options": [
+                                "Health care institutions in many countries use clowns so that the suffering experienced by children having surgery is decreased.",
+                                "In many countries around the world, there are health institutions that plan on employing clowns so as to minimize the pain experienced by children after surgical operations.",
+                                "There are clowns in many health care centers in many parts of this country and they help reduce the number of children with a phobia of hospitals.",
+                                "The number of children that are scared of going to hospital can be decreased substantially if there are more clowns in hospitals."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. Orijinaldeki \"reduce distress\" (sıkıntıyı azaltmak) = \"suffering... is decreased\"; \"program used in many countries\" = \"institutions in many countries use clowns\".",
+                                "wrong": {
+                                    "1": "B şıkkı 'planlıyorlar' (plan on employing) diyor, oysa program zaten kullanımda.",
+                                    "2": "C şıkkı sadece 'bu ülkeden' (this country) bahsediyor ve 'fobi'ye odaklanıyor.",
+                                    "3": "D şıkkı 'eğer daha fazla palyaço olursa' diye bir koşul ekliyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 16,
+                            "statement": "Further research is needed to determine the effects of clowns in hospitals, taking into account age, gender, parental presence, and diverse hospital settings.",
+                            "options": [
+                                "Additional research that focuses on age, sex, parents' presence, and diverse hospital settings is needed to improve the conditions of clowns in hospitals.",
+                                "Hospitals are required to employ at least one clown in order that the effects of age, sex, parents' presence, and diverse hospital settings can be reduced significantly.",
+                                "By taking into account age, sex, parents' presence, and diverse hospital settings, recent research has managed to find out the effects of clowns in hospitals.",
+                                "More research has to be done that does not ignore factors like age, sex, parents' presence, and diverse hospital settings so that the effects of clowns in hospitals can be understood."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. \"Further research is needed\" = \"More research has to be done\"; \"determine the effects\" = \"effects... can be understood\"; \"taking into account\" = \"does not ignore\".",
+                                "wrong": {
+                                    "0": "A şıkkı amacın palyaçoların 'koşullarını iyileştirmek' olduğunu söylüyor, yanlış.",
+                                    "1": "B şıkkı hastanelere palyaço istihdam etme zorunluluğu getiriyor, alakasız.",
+                                    "2": "C şıkkı araştırmanın bunu 'başardığını' (managed to find out) söylüyor, oysa daha araştırmaya ihtiyaç var."
+                                }
+                            }
+                        },
+                        {
+                            "id": 17,
+                            "statement": "Hospital clowns may help pediatric patients to handle the feelings of fear, helplessness and sadness, thus supporting the healing process.",
+                            "options": [
+                                "It is possible that hospital clowns will help child patients to get over the feelings of fear, helplessness and sadness, as a result of which the healing process can be improved.",
+                                "Hospital clowns are able to help child patients to fight fear, helplessness and sadness, but this does not mean they are also able to speed up the healing process.",
+                                "Helping pediatric patients to overcome the feelings of fear, helplessness and sadness is only one of the things that hospital clowns are capable of doing.",
+                                "In order to support the healing process of pediatric patients, hospitals are recommended to use clowns who can help fight fear, helplessness and sadness."
+                            ],
+                            "answer": 0,
+                            "explanation": {
+                                "correct": "A şıkkı doğru. \"may help... handle\" = \"possible... help... get over\"; \"thus supporting the healing process\" = \"as a result of which the healing process can be improved\".",
+                                "wrong": {
+                                    "1": "B şıkkı iyileşme sürecini hızlandırdığı anlamına 'gelmez' diyor, orijinal cümle desteklediğini söylüyor.",
+                                    "2": "C şıkkı 'yaptıkları şeylerden sadece biri' diyerek kapsamı değiştiriyor.",
+                                    "3": "D şıkkı bir 'tavsiye' (recommended) cümlesi kurmuş, orijinal durum tespiti yapıyor."
+                                }
+                            }
+                        },
+                        {
+                            "id": 18,
+                            "statement": "Children who require hospitalization represent a special responsibility for the health care system for a number of reasons.",
+                            "options": [
+                                "The fact that children in need of hospitalization should be taken care of with great caution by the health care system requires no further explanation.",
+                                "There are several reasons why children who have to stay in hospital for treatment require special responsibility from the health care system.",
+                                "Children in hospitals need special care, but the health care system's awareness of this need is far from being sufficient.",
+                                "The reasons why the health care system should be more careful about the hospitalization of child patients should be explained more clearly."
+                            ],
+                            "answer": 1,
+                            "explanation": {
+                                "correct": "B şıkkı doğru. Orijinal cümledeki \"special responsibility... for a number of reasons\" yapısı, şıkta \"several reasons why... require special responsibility\" olarak tam karşılık bulmuş.",
+                                "wrong": {
+                                    "0": "A şıkkı 'daha fazla açıklamaya gerek yok' diyor, orijinalde 'birçok nedenden dolayı' deniyor.",
+                                    "2": "C şıkkı sistemin farkındalığının 'yetersiz' olduğunu söylüyor, bu yorum orijinalde yok.",
+                                    "3": "D şıkkı nedenlerin 'daha net açıklanması gerektiğini' söylüyor, orijinalde böyle bir gereklilik kipi yok."
+                                }
+                            }
+                        },
+                        {
+                            "id": 19,
+                            "statement": "Some critics have said that the new device's keyboard does not perform as well as those on the previous versions.",
+                            "options": [
+                                "There are some critics who say that the keyboard of the new device works so well that the keyboards of the future versions will have to imitate it.",
+                                "The new device's keyboard is not at all as effective as those of the older versions, but some critics seem to have overlooked this defect.",
+                                "One thing that many critics emphasize is the fact that the newer version of the device obviously has a better-functioning keyboard than the previous ones.",
+                                "According to some critics, the previous versions of the device had keyboards performing better than that of the new one."
+                            ],
+                            "answer": 3,
+                            "explanation": {
+                                "correct": "D şıkkı doğru. \"New device... does not perform as well as previous\" (Yeni cihaz eskisi kadar iyi çalışmıyor) demek, \"Previous versions... performing better than new one\" (Eski versiyonlar yenisinden daha iyi çalışıyor) demekle aynıdır.",
+                                "wrong": {
+                                    "0": "A şıkkı yeni klavyenin 'çok iyi' olduğunu söylüyor, tam tersi.",
+                                    "1": "B şıkkı eleştirmenlerin bunu 'gözden kaçırdığını' söylüyor, oysa orijinalde eleştirmenler bunu bizzat söylüyor.",
+                                    "2": "C şıkkı yenisinin 'daha iyi' olduğunu söylüyor, tam tersi."
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "reading",
+                    "title": "Reading Comprehension Section",
+                    "texts": [
+                        {
+                            "id": 1,
+                            "title": "Adopting Children from Abroad",
+                            "paragraphs": [
+                                "The reasons Americans adopt children from around the world are likely as diverse as the families who adopt. Each family has its own story. Many are drawn to a particular country. For example, those who see images of a tsunami or an earthquake want to do something to help as in Haiti, where adoptions from the US increased after the devastating 2010 earthquake. Some may select a country in which they have family ties or one they have visited. Others may choose a country from which friends or relatives adopted and had a positive experience. Families may also choose a country that offers them the possibility of a child who has a similar ethnic background. Also, since it is a fact that some countries such as China are likely to have more girls available for adoption, some families choose to focus on those.",
+                                "In some cases, decisions may be based on a family's particular circumstances or their perceptions about the adoption process itself. For example, some American families may worry that the process in the US may take too long or that restrictions on people hoping to adopt, such as age limits, may prevent them from adopting. Others may be concerned that an American birth mother may take an active role in their new child's life, which could be confusing to the child. Certain fears are completely unfounded, however, such as worrying that the American mother may easily reclaim the child or that the mother of a child in the US foster care system is more likely to have been exposed to drugs or alcohol than one outside the US.",
+                                "Americans adopting children from other countries is not new. Following World War II, many Americans adopted European children orphaned by the war, and the trend of adopting children left without parents due to war continued through later conflicts. After the Korean War, for instance, a large number of US families adopted Korean children, and this trend continued through the late 1980s. Until 1988, South Korean adoptions accounted for more than 60 percent of all US international adoptions. Since then, however, more families have shifted their attention to China and countries of the former Soviet Union. Beginning in 2000, an explosion in the number of children adopted abroad and brought to the United States occurred. Almost 200,000 children were adopted internationally by US families in the past 10 years. In the prior 10 years, less than 105,000 children were adopted internationally. The upward trend, however, has slowed recently. In 2009, 12,753 children were adopted internationally, down from a peak of 22,990 in 2004. The reasons for the downward trend are likely multifaceted and may include factors such as adoption rules becoming more restrictive in other countries and the global recession. Unfortunately, however, this comes at a time when an increase in the number of children outside the US being placed in orphanages or foster care is occurring.",
+                                "It is important to note that while international adoptions have increased over the last decade, more children adopted in the United States come from the US than through international adoptions. In 2007, roughly 2 percent of all children living in the United States were adopted children, and merely 25 percent of those came through international adoptions. As stated before, the reasons that Americans choose to adopt internationally or domestically are wide-ranging and diverse, but in general, families believe that by opening their homes, they can provide a wonderful new life to a child from a disadvantaged background. And because of a desire to expand their families by helping children around the world, many Americans will continue to adopt internationally."
+                            ],
+                            "questions": [
+                                {
+                                    "id": 20,
+                                    "question": "The word many in paragraph I refers to",
+                                    "options": [
+                                        "reasons",
+                                        "children",
+                                        "families",
+                                        "stories"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Metinde \"Each family has its own story. Many are drawn to a particular country\" deniyor. Burada \"Many\" (çoğu) kelimesi bir önceki cümledeki \"families\" (aileler) öznesine atıfta bulunuyor. Yani 'Birçok aile belirli bir ülkeye ilgi duyar'.",
+                                        "wrong": {
+                                            "0": "Nedenler ülkeye ilgi duymaz.",
+                                            "1": "Çocuklar ülkeye ilgi duymaz, evlat edinilen onlardır.",
+                                            "3": "Hikayeler ülkeye ilgi duymaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 21,
+                                    "question": "Which of the following is not mentioned in the text as a factor that affects Americans' adoption decisions?",
+                                    "options": [
+                                        "Massive disasters around the world",
+                                        "Physical characteristics of the children",
+                                        "Flexibility of adoption processes",
+                                        "Family connections and ethnic background"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Parçada çocukların boyu, göz rengi gibi 'fiziksel özelliklerinden' (physical characteristics) tercih sebebi olarak bahsedilmiyor. 'Ethnic background' (etnik köken) ve 'girls' (cinsiyet) geçiyor ama genel fiziksel özellikler geçmiyor.",
+                                        "wrong": {
+                                            "0": "Paragraf 1'de \"tsunami or an earthquake\" (dev afetler) geçiyor.",
+                                            "2": "Paragraf 2'de \"process... take too long\" veya \"restrictions\" (süreç esnekliği/zorluğu) geçiyor.",
+                                            "3": "Paragraf 1'de \"family ties\" (aile bağları) ve \"similar ethnic background\" geçiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 22,
+                                    "question": "According to the author of the text, it is a misconception that ----",
+                                    "options": [
+                                        "a US birth mother can easily get the adopted child back",
+                                        "the adoption process in the US has certain rules",
+                                        "alcohol is more easily available in the US than in other countries",
+                                        "unmarried couples can't adopt American children"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 2'nin sonunda geçiyor: \"Certain fears are completely unfounded... such as worrying that the American mother may easily reclaim the child\". Yazar, biyolojik annenin çocuğu geri alabileceği korkusunun yersiz (unfounded/misconception) olduğunu söylüyor.",
+                                        "wrong": {
+                                            "1": "Kuralların olması bir yanlış anlaşılma değil, gerçektir.",
+                                            "2": "Alkolün bulunabilirliği değil, annenin alkole maruz kalma ihtimali tartışılıyor.",
+                                            "3": "Parçada evli olmayan çiftlerle ilgili bir bilgi yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 23,
+                                    "question": "As highlighted in paragraph III, Americans ---",
+                                    "options": [
+                                        "have been adopting foreign children for many years",
+                                        "adopted a record number of children just after World War II",
+                                        "tend to feel guilty about the Korean War",
+                                        "have adopted more and more South Korean kids since the late 1980s"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 3'ün başında: \"Americans adopting children from other countries is not new.\" Yani bu durum yeni değil, Amerikalılar bunu uzun yıllardır yapıyor.",
+                                        "wrong": {
+                                            "1": "Rekor sayı 2. Dünya Savaşı sonrası değil, 2004 yılındadır (peak of 22,990 in 2004).",
+                                            "2": "Parçada suçluluk duygusundan (guilty) bahsedilmiyor.",
+                                            "3": "Metin, 1980'lerden sonra ilginin Çin ve eski Sovyetler Birliği'ne kaydığını söylüyor (shifted their attention to China)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 24,
+                                    "question": "It is stated in the passage that 2004 was the year when ----.",
+                                    "options": [
+                                        "the upward international adoption trend slowed",
+                                        "children from China became more preferable",
+                                        "a record number of foreign kids were adopted",
+                                        "the Soviet Union put a ban on international adoptions"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 3'te geçiyor: \"...down from a peak of 22,990 in 2004.\" Peak kelimesi zirve/rekor anlamına gelir. En çok evlat edinme bu yılda yapılmıştır.",
+                                        "wrong": {
+                                            "0": "Trend 2004'ten sonra yavaşlamıştır, 2004'te zirvedeydi.",
+                                            "1": "Çin'e ilgi 1988'den sonra başladı, 2004'e özgü değil.",
+                                            "3": "Sovyetler Birliği yasağından bahsedilmiyor, sadece ilginin oraya kaydığından bahsediliyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 25,
+                                    "question": "The word multifaceted in paragraph III could best be replaced by ----.",
+                                    "options": [
+                                        "invisible",
+                                        "unimportant",
+                                        "tiny",
+                                        "various"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Multifaceted\" çok yönlü demektir. Parçada düşüşün nedenlerinin \"multifaceted\" olduğu söyleniyor ve birkaç farklı neden sayılıyor. Bu bağlamda \"various\" (çeşitli) en uygun karşılıktır.",
+                                        "wrong": {
+                                            "0": "\"invisible\" görünmez demektir.",
+                                            "1": "\"unimportant\" önemsiz demektir.",
+                                            "2": "\"tiny\" çok küçük demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 26,
+                                    "question": "The word merely in paragraph IV is closest in meaning to ----.",
+                                    "options": [
+                                        "costly",
+                                        "annually",
+                                        "only",
+                                        "recently"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Merely\" sadece/yalnızca demektir. Cümlede \"merely 25 percent\" (sadece %25'i) deniyor. \"Only\" eş anlamlıdır.",
+                                        "wrong": {
+                                            "0": "\"costly\" pahalı demektir.",
+                                            "1": "\"annually\" yıllık olarak demektir.",
+                                            "3": "\"recently\" son zamanlarda demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 27,
+                                    "question": "In paragraph IV, the author emphasizes the fact that ----.",
+                                    "options": [
+                                        "most adopted children in the US come from the US",
+                                        "international adoptions cause serious problems in the US",
+                                        "approximately 2 percent of Americans want international adoptions to stop",
+                                        "American orphans must be adopted only by American parents"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 4'te geçiyor: \"more children adopted in the United States come from the US than through international adoptions.\" Yani ABD içinde evlat edinilen çocukların çoğu yine ABD içinden gelmektedir, yurt dışından değil.",
+                                        "wrong": {
+                                            "1": "Yazar sorunlardan değil, istatistikten bahsediyor.",
+                                            "2": "%2 evlat edinilen çocuk oranıdır, durmasını isteyenlerin oranı değil.",
+                                            "3": "Yazar kimin kimi evlat edinmesi gerektiğine dair bir kural koymuyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "title": "Clown Doctors",
+                            "paragraphs": [
+                                "Professional clown Michael Christensen doesn't just confine his act to the Big Apple Circus he co-founded. He also brings laughter to a place that is often badly in need of it: pediatric hospitals. Christensen's national organization, Clown Care, sends costumed circus performers on nearly 225,000 visits to ill children.",
+                                "Born in Washington in 1947, Michael Christensen trained to be a traditional actor. But he got hooked on the circus spirit during the early 1970s, when he learned how to juggle from a politically radical ensemble of street performers. When performing with them, he met and befriended juggler Paul Binder, who later became his lifelong business partner. Together, the two set off for the streets of Europe, where they performed their juggling act everywhere from Paris to Istanbul. By 1977, the two had returned to America and raised funds to start their own one-ring circus under a small green canvas tent in New York. They called it The Big Apple Circus. \"We took off,\" Christensen recalls. \"What started out as a couple of barefaced Americans juggling on the streets of Europe has ended up becoming a great New York institution.\"",
+                                "Today, more than 500,000 fans see the show every year during its 38-week tour. Christensen stresses that despite its success, the Big Apple Circus remains a non-profit operation. \"We both decided when we created the circus that we wanted it to serve the communities in which we performed. This is important having a direct, positive, supportive relationship with the community.\" In that spirit, the duo launched \"Circus of the Senses\" in 1983, a special edition of the Big Apple Circus adapted for visually and hearing impaired children. They also started \"Beyond the Ring,\" an afterschool program which teaches kids clowning, acrobatics and juggling. Christensen says circus arts offer children life skills such as teamwork, determination, and calmness in the face of the unexpected. \"If a club falls and hits the ground, or you drop it while juggling, instead of being embarrassed that you've made a mistake, accept it, and find some fun thing to do with that,\" he says. \"These aren't mistakes. These are things that happen, and they can be the source of fun and delight.\"",
+                                "But it was personal grief over the loss of his brother to cancer and the search for a larger purpose in life that inspired Christensen to start Clown Care, which brings pairs of clowns and the humor they offer into pediatric hospitals. There are now over 80 clown doctors in facilities throughout America, and internationally, hospital clowning has become an established profession. Christensen says the work keeps him humble. \"In the first week, I came in contact with a nine-year-old who was heading to Philadelphia for a heart and lung transplant. And I entertained him for 10 minutes, laughing through his oxygen mask and respirator. And four hours later, he passed away,\" says Christensen.",
+                                "Christensen believes that clowns achieve much of their humor-and perhaps their healing power-by acting in ways that seem inappropriate. He might enter a sick child's room and walk right into a wall, or parody doctors by giving a medical exam to a rubber chicken. He is also aware that children-especially sick children-are often given little power over their own lives. So he always asks for the permission of the child before entering the room, and sometimes switches roles with a child by acting helpless when at the bedside. \"Now, all of a sudden, I am the one who needs the help and they become the all-knowing authority. And before you know it, they are sitting up in the bed taking charge. And medical people say it is a turning point in some illnesses when patients begin to assume responsibility.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 28,
+                                    "question": "According to the text, Michael Christensen ----.",
+                                    "options": [
+                                        "is not happy to be working as a clown",
+                                        "was the son of a traditional actor",
+                                        "had to sell the Big Apple Circus to be able to work in pediatric hospitals",
+                                        "became fascinated by the circus spirit in the early 1970s"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 2'de: \"But he got hooked on the circus spirit during the early 1970s\". \"Get hooked\" deyimi büyülenmek/tutulmak/bağlanmak (become fascinated) anlamındadır.",
+                                        "wrong": {
+                                            "0": "Mutsuz olduğu söylenmiyor, tam tersi işini tutkuyla yapıyor.",
+                                            "1": "Kendisi aktör eğitimi aldı, babasının aktör olduğu söylenmiyor.",
+                                            "2": "Sirki sattığı söylenmiyor, hala 'co-founded' olarak bahsediliyor ve kar amacı gütmediği vurgulanıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 29,
+                                    "question": "The word ensemble in paragraph II is closest in meaning to ----.",
+                                    "options": [
+                                        "struggle",
+                                        "opinion",
+                                        "group",
+                                        "success"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Ensemble\" topluluk/grup demektir. Metinde \"ensemble of street performers\" (sokak sanatçıları grubu) olarak geçiyor.",
+                                        "wrong": {
+                                            "0": "\"struggle\" mücadele demektir.",
+                                            "1": "\"opinion\" fikir demektir.",
+                                            "3": "\"success\" başarı demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 30,
+                                    "question": "As stated in the text, Michael Christensen and Paul Binder ----.",
+                                    "options": [
+                                        "attract half a million people to their circus show every year",
+                                        "had to return to America in 1977 because they had run out of money",
+                                        "went to Europe so that they could teach children how to juggle",
+                                        "failed to continue their business partnership"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 3'ün başında: \"Today, more than 500,000 fans see the show every year\". Onların kurduğu sirk her yıl yarım milyondan fazla izleyici çekiyor.",
+                                        "wrong": {
+                                            "1": "Paraları bittiği için döndükleri söylenmiyor.",
+                                            "2": "Avrupa'ya performans sergilemek için gittiler, öğretmek için değil.",
+                                            "3": "\"Lifelong business partner\" (hayat boyu iş ortağı) oldular, yani ortaklıkları bitmedi."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 31,
+                                    "question": "The phrase took off in paragraph II is closest in meaning to ----.",
+                                    "options": [
+                                        "described",
+                                        "succeeded",
+                                        "left",
+                                        "surrendered"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"Take off\" mecazi anlamda işlerin açılması, başarılı olmak (succeeded) demektir. \"We took off... becoming a great New York institution\" diyerek başarının başladığını anlatıyor.",
+                                        "wrong": {
+                                            "0": "\"described\" tarif etmek.",
+                                            "2": "\"left\" ayrılmak (uçağın kalkması anlamında kullanılır ama burada iş başarısı kastediliyor).",
+                                            "3": "\"surrendered\" teslim olmak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 32,
+                                    "question": "In paragraph III, Michael Christensen suggests that ----.",
+                                    "options": [
+                                        "some communities do not allow supportive relationships",
+                                        "\"Circus of the Senses\" is an afterschool program which teaches kids how to clown",
+                                        "children should be taught that it's normal to make mistakes",
+                                        "\"Beyond the Ring\" has been designed for visually impaired kids"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 3'ün sonunda: \"These aren't mistakes. These are things that happen, and they can be the source of fun...\" Christensen çocuklara hatadan utanmamayı, bunu kabullenip eğlenceye dönüştürmeyi (normal olduğunu) öğütlüyor.",
+                                        "wrong": {
+                                            "0": "Toplulukların izin vermediği söylenmiyor.",
+                                            "1": "Okul sonrası programın adı \"Beyond the Ring\", \"Circus of the Senses\" değil.",
+                                            "3": "Görme engelliler için olan \"Circus of the Senses\"dir, \"Beyond the Ring\" değil."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 33,
+                                    "question": "The word grief in paragraph IV could best be replaced by ----.",
+                                    "options": [
+                                        "misery",
+                                        "ambition",
+                                        "finance",
+                                        "benefit"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Grief\" keder/yas demektir. Kardeşini kaybettikten sonra duyduğu üzüntüyü anlatıyor. \"Misery\" (acı/keder) buna en yakın anlamdır.",
+                                        "wrong": {
+                                            "1": "\"ambition\" hırs.",
+                                            "2": "\"finance\" finans.",
+                                            "3": "\"benefit\" fayda."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 34,
+                                    "question": "As we understand from paragraph V, Michael Christensen switches roles with sick children ----.",
+                                    "options": [
+                                        "as he thinks it would be inappropriate to act in another way",
+                                        "so that he himself can feel the pain they are experiencing",
+                                        "to give them a chance to feel in control of their lives",
+                                        "although hospital administrations do not seem to like it"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 5'in sonunda: \"...patients begin to assume responsibility.\" ve \"they become the all-knowing authority\". Rolleri değişerek çocuklara kontrol hissi ve yetki veriyor.",
+                                        "wrong": {
+                                            "0": "Başka türlü davranmayı uygunsuz bulduğu için değil, terapötik amaçla yapıyor.",
+                                            "1": "Acıyı hissetmek için değil, çocuğu güçlendirmek için yapıyor.",
+                                            "3": "Hastane yönetiminin hoşlanmadığına dair bir bilgi yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 35,
+                                    "question": "Which of the following sentences is TRUE?",
+                                    "options": [
+                                        "There are eighty clown doctors only in New York.",
+                                        "\"Circus of the Senses\" was started in 1977.",
+                                        "The Big Apple Circus is still a non-profit operation.",
+                                        "Clown Care is a for-profit investment company."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 3'te: \"Christensen stresses that despite its success, the Big Apple Circus remains a non-profit operation.\" Sirk hala kar amacı gütmeyen bir kuruluştur.",
+                                        "wrong": {
+                                            "0": "Sadece NY'da değil, \"throughout America\" (tüm Amerika'da).",
+                                            "1": "Circus of the Senses 1983'te başladı, 1977'de değil.",
+                                            "3": "Clown Care kar amacı güden bir yatırım şirketi değildir."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "title": "BlackBerry in the Soup",
+                            "paragraphs": [
+                                "The BlackBerry smart phone's unique data encryption standards have made it a must-have tool by business executives, government officials, and others concerned about just who might be monitoring their communications. But those standards are putting BlackBerry's manufacturer, Research in Motion, into hot water with governments around the world.",
+                                "To the surprise of many, the business-friendly United Arab Emirates started it off. Last August, they announced that they would suspend BlackBerry Messenger, also called BBM, as well as BlackBerry email and mobile browsing services. Their Telecommunications Regulatory Authority said the services pose a security threat because data sent with the BlackBerry is encrypted and stored abroad. Saudi Arabia, the Arab world's largest economy, soon followed suit, ordering phones operating within the kingdom to stop BBM. India and Indonesia were next up. Officials in Indonesia issued conflicting statements as to whether the BlackBerry would face a similar ban, while India asked Research in Motion to host a data server in that country, or face a possible ban.",
+                                "\"The future is a little foggy for Research in Motion these days,\" says David Callaway, the editor of a financial news website, referring both to the BlackBerry's decreasing market share and increasing government pressure. \"I think what's happening is that one of them reached out and the others responded by making their concerns public. The BlackBerry is still the most popular device in those countries, at least with the citizens that states are most eager to check on,\" says Callaway.",
+                                "The reason cited by each of the nations considering a ban is security. They are concerned that encrypted data stored on servers in another nation may make it easier for terrorists to plot and execute an attack. However, human rights groups see a different concern at work, noting that the BlackBerry makes it much more difficult for despotic regimes to track and monitor freedom and democracy supporters.",
+                                "News reports say Research in Motion is working on a deal with Saudi Arabia to offer some increased monitoring functions in exchange for lifting the ban. Such a deal, in Callaway's opinion, would not be a good thing - either for Research in Motion or for the larger issue of free communications. \"I think if you see Research in Motion buckle under to these demands, you're going to see other countries making demands from other technology companies,\" he says. \"We saw the issues with Google and China last year. Now if we start seeing BlackBerry admit defeat, I think we're going to see a lot of these countries, under the guise of stopping terrorism, really make a leap for more control over technological innovation.\""
+                            ],
+                            "questions": [
+                                {
+                                    "id": 36,
+                                    "question": "As we learn from paragraph I, the BlackBerry smart phone is popular with a lot of people ----",
+                                    "options": [
+                                        "in spite of the fact that it's overly expensive",
+                                        "who are worried about the safety of their communications",
+                                        "although it doesn't comply with data encryption standards",
+                                        "but is not favored by business executives"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 1'de: \"...concerned about just who might be monitoring their communications.\" İletişimlerinin izlenmesinden endişe eden (güvenlik kaygısı duyan) kişiler arasında popülerdir.",
+                                        "wrong": {
+                                            "0": "Pahalı olduğundan bahsedilmiyor.",
+                                            "2": "Şifreleme standartlarına uyuyor, hatta bu yüzden popüler.",
+                                            "3": "İş dünyasında popüler olmadığı yanlış, \"must-have tool by business executives\" deniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 37,
+                                    "question": "As we understand from paragraph II, the United Arab Emirates' decision about BlackBerry services",
+                                    "options": [
+                                        "is not supported by their Telecommunications Regulatory Authority",
+                                        "does not include email and mobile browsing services",
+                                        "resulted from a financial conflict",
+                                        "was not something expected"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 2'nin başında: \"To the surprise of many...\" Birçok kişi için sürpriz oldu, yani beklenmiyordu (not expected).",
+                                        "wrong": {
+                                            "0": "Otorite (TRA) bizzat kararı açıklayan kurumdur.",
+                                            "1": "Email ve tarayıcı hizmetlerini DE kapsıyor (as well as...).",
+                                            "2": "Finansal değil, güvenlik (security threat) gerekçesiyle alındı."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 38,
+                                    "question": "According to the text, ---- is not very sure about what kind of action to take about BlackBerry services.",
+                                    "options": [
+                                        "China",
+                                        "Saudi Arabia",
+                                        "Indonesia",
+                                        "India"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 2'de: \"Officials in Indonesia issued conflicting statements...\" Endonezya çelişkili ifadeler verdi, yani ne yapacakları konusunda bir belirsizlik/kararsızlık var.",
+                                        "wrong": {
+                                            "0": "Çin bu paragrafta bu bağlamda geçmiyor.",
+                                            "1": "Suudi Arabistan kesin karar verdi (stop BBM).",
+                                            "3": "Hindistan net bir talepte bulundu (sunucu barındırma)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 39,
+                                    "question": "As we can infer from the text, David Callaway ----",
+                                    "options": [
+                                        "believes Research in Motion should not admit defeat",
+                                        "works as a consultant for the Saudi Arabian government",
+                                        "used to work for Research in Motion",
+                                        "wants governments to increase their pressure on Research in Motion"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 5'te: \"Such a deal... would not be a good thing... if we start seeing BlackBerry admit defeat, I think we're going to see...\" Callaway, şirketin boyun eğmesinin (defeat) kötü sonuçlar doğuracağına inanıyor, yani pes etmemeliler.",
+                                        "wrong": {
+                                            "1": "O bir haber sitesi editörü, danışman değil.",
+                                            "2": "Eski çalışan olduğu söylenmiyor.",
+                                            "3": "Baskının artmasını değil, iletişimin özgür kalmasını istiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 40,
+                                    "question": "In paragraph IV, the author of the text aims to ----.",
+                                    "options": [
+                                        "explain why some countries are considering a ban on BlackBerry services",
+                                        "underline the fact that most Arab governments are despotic",
+                                        "draw attention to the fact that only a few countries have banned BlackBerry services",
+                                        "disprove the idea that BlackBerry encryption system is flawed"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Paragraf 4 iki farklı bakış açısını sunuyor: Devletlerin 'güvenlik/terör' gerekçesi ve insan hakları gruplarının 'despot rejimlerin izleme isteği' gerekçesi. Yani yasaklama düşüncesinin altındaki nedenleri (why) açıklıyor.",
+                                        "wrong": {
+                                            "1": "Yazarın amacı rejimleri yargılamak değil, yasağın nedenlerini analiz etmek.",
+                                            "2": "Yasaklayan ülke sayısına odaklanmıyor.",
+                                            "3": "Sistemin hatalı olduğunu çürütmeye çalışmıyor, sistemin çok güvenli olduğu için sorun yarattığını anlatıyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 41,
+                                    "question": "The word track in paragraph IV could best be replaced by ----.",
+                                    "options": [
+                                        "trust",
+                                        "abandon",
+                                        "commit",
+                                        "follow"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"Track\" izlemek/takip etmek demektir. Rejimlerin muhalifleri 'izlemesi' anlamında kullanılmış. \"Follow\" (takip etmek) en yakın anlamlıdır.",
+                                        "wrong": {
+                                            "0": "\"trust\" güvenmek.",
+                                            "1": "\"abandon\" terk etmek.",
+                                            "2": "\"commit\" işlemek (suç) veya adamak."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 42,
+                                    "question": "The phrase buckle under in paragraph V is closest in meaning to ----.",
+                                    "options": [
+                                        "combine",
+                                        "admire",
+                                        "surrender",
+                                        "develop"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Buckle under\" baskıya dayanamayıp boyun eğmek/çökmek demektir. Callaway şirketin taleplere boyun eğmesinden bahsediyor. \"Surrender\" (teslim olmak) doğru karşılıktır.",
+                                        "wrong": {
+                                            "0": "\"combine\" birleşmek.",
+                                            "1": "\"admire\" hayran olmak.",
+                                            "3": "\"develop\" geliştirmek."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 43,
+                                    "question": "Which of the following sentences is TRUE according to the text?",
+                                    "options": [
+                                        "The American government has cancelled its contract with Research in Motion.",
+                                        "Google and China had a conflict last year.",
+                                        "Saudi Arabia is the world's largest economy.",
+                                        "David Callaway intends to start a new a financial news website."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Cevap Paragraf 5'in sonunda: \"We saw the issues with Google and China last year.\" Geçen yıl Google ve Çin arasında sorunlar yaşandığı belirtiliyor.",
+                                        "wrong": {
+                                            "0": "Amerikan hükümetinin iptal kararı yok.",
+                                            "2": "Metin \"Arab world's largest economy\" (Arap dünyasının en büyüğü) diyor, dünyanın değil.",
+                                            "3": "Callaway zaten bir sitenin editörü, yeni site kuracağı söylenmiyor."
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

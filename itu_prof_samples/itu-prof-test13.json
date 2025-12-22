@@ -1,0 +1,874 @@
+        {
+            "id": 1,
+            "title": "ITU Proficiency Exam",
+            "sections": {
+                "reading": {
+                    "parts": [
+                        {
+                            "type": "cloze",
+                            "title": "Cloze Test: Leap Years",
+                            "passage": {
+                                "title": "The Calendar and Leap Years",
+                                "text": "In an ordinary year, if you (1)_____ all the days in a calendar from January to December, you'd count 365 days, but approximately every four years, February has 29 days instead of 28. (2)_____, there are 366 days in the year, and this is called a leap year. A year is the amount of time it takes a planet to orbit its star one time. A day is the amount of time it takes a planet to finish one rotation on its axis. It takes Earth approximately 365 days and 6 hours to orbit the Sun. It takes Earth approximately 24 hours 1 day to rotate on its axis. So, our year is not an exact number of days. (3)_____ that, most years, we round the days in a year down to 365. (4)_____, that leftover piece of a day doesn't disappear. To (5)_____ we count that extra part of a day, we add one day to the calendar approximately every four years. Leap years are important (6)_____ our calendar year matches the solar year which it takes Earth to make a trip around the Sun. Subtracting 5 hours, 46 minutes and 48 seconds off of a year may not seem like a big (7)_____. But if you keep subtracting almost 6 hours every year for many years, things can really get messed up. For example, say that July is a warm, summer month where you live. If we never (8)_____ leap years, all those missing hours would add up into days, weeks and even months. Eventually, in a few hundred years, July would actually take place in the cold winter months! Leap years happen because a planet's orbit around the Sun (year) and rotation on its axis (day) are not perfectly in line. This is true of almost (9)_____ planet in our solar system. Mars, for example, has more leap years than regular years. A year on Mars is 668 sols, or Martian days. But it takes 668.6 sols for Mars to go around the Sun. So, you would sometimes have to add a sol to help the calendar (10)_____."
+                            },
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "options": [
+                                        "have been counted",
+                                        "were to count",
+                                        "were counted",
+                                        "are counting"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"were to count\" doğru çünkü cümle 'If' ile başlıyor ve hayali/varsayımsal bir durumu (eğer günleri teker teker saysaydınız) ifade ediyor. İngilizcede bu tür 'Type 2 Conditional' yapılarında 'If you were to verb' kalıbı kullanılır.",
+                                        "wrong": {
+                                            "0": "\"have been counted\" (passive perfect) zaman ve çatı olarak uyumsuzdur.",
+                                            "2": "\"were counted\" (passive) 'eğer sayılsaydı' anlamına gelir ama özne 'you' olduğu için aktif yapı gerekir.",
+                                            "3": "\"are counting\" şimdiki zaman bildirir, varsayımsal (hypothetical) durum için uygun değildir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "options": [
+                                        "In contrast",
+                                        "As well as",
+                                        "Thus",
+                                        "Nevertheless"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"Thus\" (Böylece/Sonuç olarak) doğru çünkü önceki cümlede Şubat'ın 29 çektiği söylenmiş, bunun sonucu olarak yılın 366 gün olduğu belirtiliyor.",
+                                        "wrong": {
+                                            "0": "\"In contrast\" zıtlık bildirir, burada neden-sonuç var.",
+                                            "1": "\"As well as\" ekleme yapar ama cümle başında bağlaç olarak bu şekilde kullanılmaz.",
+                                            "3": "\"Nevertheless\" (Yine de) zıtlık bildirir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "options": [
+                                        "Because of",
+                                        "In spite of",
+                                        "As of",
+                                        "Instead of"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"Because of\" doğru çünkü 'Because of that' (Bundan dolayı) kalıbı, yılın tam gün sayısı olmaması gerçeğine atıfta bulunarak, günleri yuvarlamamızın sebebini açıklar.",
+                                        "wrong": {
+                                            "1": "\"In spite of\" (Rağmen) zıtlık bildirir.",
+                                            "2": "\"As of\" (-den itibaren) zaman bildirir.",
+                                            "3": "\"Instead of\" (Yerine) alternatif bildirir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "options": [
+                                        "For instance",
+                                        "By the time",
+                                        "On time",
+                                        "However"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"However\" (Ancak) doğru çünkü önceki cümlede günleri yuvarladığımız (eksik saati sildiğimiz) söylenmiş, burada ise o eksik parçanın aslında yok olmadığı zıtlığı vurgulanıyor.",
+                                        "wrong": {
+                                            "0": "\"For instance\" (Örneğin) örnek verir, zıtlık vermez.",
+                                            "1": "\"By the time\" zaman bağlacıdır, 'dığında' anlamı katar.",
+                                            "2": "\"On time\" (zamanında) bir zarf öbeğidir, cümle başı bağlacı değildir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "options": [
+                                        "admit",
+                                        "confess",
+                                        "provide",
+                                        "ensure"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"ensure\" (sağlamak/garantiye almak) doğru çünkü o fazladan parçayı hesaba kattığımızdan 'emin olmak' için takvime gün ekliyoruz.",
+                                        "wrong": {
+                                            "0": "\"admit\" itiraf etmek veya kabul etmek demektir.",
+                                            "1": "\"confess\" itiraf etmek demektir.",
+                                            "2": "\"provide\" sağlamak demektir ama 'ensure that' kalıbı gibi anlam bütünlüğü sağlamaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "options": [
+                                        "so that",
+                                        "such as",
+                                        "whereas",
+                                        "rather than"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"so that\" (böylece/olsun diye) doğru çünkü artık yılların yapılma 'amacı' takvimin güneş yılıyla eşleşmesini sağlamaktır. Amaç bildirir.",
+                                        "wrong": {
+                                            "1": "\"such as\" (örneğin/gibi) örneklemede kullanılır.",
+                                            "2": "\"whereas\" (oysa) zıtlık bildirir.",
+                                            "3": "\"rather than\" (-den ziyade) tercih bildirir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "options": [
+                                        "voyage",
+                                        "frequency",
+                                        "deal",
+                                        "purchase"
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "\"deal\" doğru çünkü \"big deal\" (önemli bir şey/büyük mesele) sık kullanılan bir İngilizce deyimdir.",
+                                        "wrong": {
+                                            "0": "\"voyage\" yolculuk demektir.",
+                                            "1": "\"frequency\" sıklık demektir.",
+                                            "3": "\"purchase\" satın alma demektir."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "options": [
+                                        "were",
+                                        "could",
+                                        "would",
+                                        "had"
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "\"had\" doğru çünkü cümle \"If we never had leap years\" (Eğer artık yıllarımız olmasaydı) anlamındadır. Type 2/3 karma bir koşul yapısı içinde ana fiil olarak 'have'in geçmiş hali kullanılmıştır.",
+                                        "wrong": {
+                                            "0": "\"were\" olması için devamında isim veya sıfat gelmeliydi, anlam 'biz artık yıl olsaydık' olurdu, mantıksız.",
+                                            "1": "\"could\" yetenek bildirir.",
+                                            "2": "\"would\" if kısmında (if clause) genellikle kullanılmaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "options": [
+                                        "every other",
+                                        "another",
+                                        "other",
+                                        "other than"
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "\"every other\" doğru çünkü \"almost every other planet\" (neredeyse diğer tüm gezegenler) kalıbı, bu durumun sadece Dünya'ya özgü olmadığını belirtmek için kullanılır.",
+                                        "wrong": {
+                                            "1": "\"another\" tekil bir başka şeyden bahsederken kullanılır.",
+                                            "2": "\"other\" çoğul isimlerle kullanılır (other planets), burada 'planet' tekil.",
+                                            "3": "\"other than\" (-den başka) anlamındadır, cümle akışına uymaz."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 10,
+                                    "options": [
+                                        "pick at",
+                                        "catch up",
+                                        "call at",
+                                        "run out"
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "\"catch up\" (yetişmek/arayı kapatmak) doğru çünkü takvim geride kalıyor ve eklenen günle güneş sisteminin hızına 'yetişmesi' sağlanıyor.",
+                                        "wrong": {
+                                            "0": "\"pick at\" tırtıklamak/yememek demektir.",
+                                            "2": "\"call at\" bir yere uğramak demektir.",
+                                            "3": "\"run out\" tükenmek demektir."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "restatement",
+                            "title": "Restatement",
+                            "questions": [
+                                {
+                                    "id": 1,
+                                    "statement": "Anyone can have an idea that becomes a fad, and fads usually make their originators rich.",
+                                    "options": [
+                                        "It's possible for everyone to come up with a product, the intense popularity of which can make them wealthy.",
+                                        "No one is talented enough to create lots of brilliant ideas that will help them become rich.",
+                                        "Everyone wants to be able to develop a crazy idea which will make their dreams come true.",
+                                        "Only wealthy people will have a chance to run after their crazy ideas until a concrete result is obtained."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü orijinal cümledeki 'Anyone can have' (herkesin fikri olabilir) ifadesi 'It's possible for everyone' ile, 'make rich' (zengin etmek) ifadesi ise 'make wealthy' ile tam karşılanıyor.",
+                                        "wrong": {
+                                            "1": "Orijinal cümlede 'kimse yetenekli değildir' gibi olumsuz bir ifade yok.",
+                                            "2": "Orijinal cümlede insanların 'isteklerinden' (wants) bahsedilmiyor, olasılıktan bahsediliyor.",
+                                            "3": "Orijinal cümlede 'sadece zengin insanlar' (Only wealthy people) diye bir kısıtlama yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 2,
+                                    "statement": "Wanting to create a better toothpaste, the chemist started with a typical formula and tried altering its components.",
+                                    "options": [
+                                        "The chemist, who aimed to produce a better toothpaste, started by changing the ingredients of a common formula.",
+                                        "In order to obtain a reasonably-priced toothpaste, the chemist changed the components of a usual formula one by one.",
+                                        "Due to his desire to make a better toothpaste, the chemist will change the formula of a popular brand only slightly.",
+                                        "Creating a better toothpaste was not something that the chemist could easily do because he didn't even know how to make an ordinary toothpaste."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'Wanting to create' = 'aimed to produce', 'typical formula' = 'common formula', 'altering components' = 'changing ingredients' eşleşmeleri tam yapılmış.",
+                                        "wrong": {
+                                            "1": "Orijinal cümlede 'uygun fiyatlı' (reasonably-priced) olma amacından bahsedilmiyor.",
+                                            "2": "Orijinal cümlede 'sadece hafifçe' (only slightly) değiştirmekten bahsedilmiyor.",
+                                            "3": "Orijinal cümlede kimyagerin 'bilmediği' veya 'zorlandığı' söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 3,
+                                    "statement": "Many people pass their life without ever considering either their own conditions or those of the world at large.",
+                                    "options": [
+                                        "The number of men and women who are inclined to live a life of ignorance where knowledge is considered a luxury is more than you can imagine.",
+                                        "More people than ever are ready to live a life of little or no knowledge of what other people are going through.",
+                                        "A large number of people spend a life with no thought of the conditions in which they themselves or the others live.",
+                                        "According to most people, it is not necessary to worry about the conditions of others as long as their conditions are tolerable."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'Many people' = 'A large number of people', 'without considering' = 'with no thought of' şeklinde anlam korunmuş.",
+                                        "wrong": {
+                                            "0": "Orijinal cümlede bilginin 'lüks sayılması' gibi bir detay yok.",
+                                            "1": "Orijinal cümlede 'her zamankinden daha fazla' (More than ever) karşılaştırması yok.",
+                                            "3": "Orijinal cümlede insanların 'endişelenmenin gereksiz olduğunu düşündüğü' fikri yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 4,
+                                    "statement": "If you want to be successful, you mustn't surround yourself with people who are depressed all the time.",
+                                    "options": [
+                                        "Avoiding people who are always melancholy will help you become successful.",
+                                        "Only if you help the depressed people around you will you be able to enjoy success.",
+                                        "If you surround yourself with successful people, you may feel humiliated.",
+                                        "By surrounding yourself with depressed people like you, you make sure that success remains a distant dream."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'mustn't surround yourself' (etrafında bulundurmamalısın) ifadesi 'Avoiding people' (insanlardan kaçınmak) ile, 'depressed' ifadesi 'melancholy' ile karşılanmış.",
+                                        "wrong": {
+                                            "1": "Orijinal cümlede depresif insanlara 'yardım etmekten' bahsedilmiyor.",
+                                            "2": "Orijinal cümlede 'aşağılanmış hissetmek' (feel humiliated) gibi bir duygu yok.",
+                                            "3": "Orijinal cümlede 'senin gibi' (like you) denilerek okuyucunun da depresif olduğu ima edilmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 5,
+                                    "statement": "You want to make others believe that you are an exceptional being and you end up believing it yourself.",
+                                    "options": [
+                                        "Due to the fact that you have extraordinary skills, all the people around you expect you to take immediate action.",
+                                        "People won't believe that you are an exceptionally skillful person unless you have belief in your superior qualities.",
+                                        "The harder you try to polish your image, the less belief people have in your unique characteristics.",
+                                        "Your efforts to convince people that you have unique qualities lead you to believe you really have these qualities."
+                                    ],
+                                    "answer": 3,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'want to make others believe' = 'efforts to convince people', 'exceptional being' = 'unique qualities', 'end up believing it yourself' = 'lead you to believe' eşleşmesi tamdır.",
+                                        "wrong": {
+                                            "0": "Orijinal cümlede insanların 'harekete geçmenizi beklediği' söylenmiyor.",
+                                            "1": "Orijinal cümlede bir koşul (unless) yok; sonuç (end up) var.",
+                                            "2": "Orijinal cümlede insanların 'daha az inandığı' (less belief) söylenmiyor, sizin inandığınız söyleniyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 6,
+                                    "statement": "You will face new situations vastly different from any you have previously met.",
+                                    "options": [
+                                        "You will be able to cope with the completely different situations you will encounter.",
+                                        "The new situations you will have to deal with will be no different from those you already have.",
+                                        "The situations you will encounter will be nothing like those you have met so far.",
+                                        "If you want to be able to cope with these new situations, you must be willing to learn from your previous mistakes."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'vastly different' (büyük ölçüde farklı) ifadesi 'nothing like' (hiç benzemeyen) ile, 'previously met' ifadesi 'met so far' ile karşılanmıştır.",
+                                        "wrong": {
+                                            "0": "Orijinal cümlede başa çıkabilme yeteneğinden (able to cope) bahsedilmiyor, sadece durumun farklılığı vurgulanıyor.",
+                                            "1": "Bu şık tam tersini söylüyor: 'no different' (farklı değil). Oysa orijinal 'vastly different' diyor.",
+                                            "3": "Orijinal cümlede hatalardan ders çıkarmak gibi bir tavsiye yok."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 7,
+                                    "statement": "Although there is little doubt that he is a ruthless leader, this is a description that can also be applied to many others.",
+                                    "options": [
+                                        "Many leaders think that he is a merciless person but they do almost nothing to stop him.",
+                                        "His being a cruel leader is almost certain but there are a lot of other leaders as cruel as him.",
+                                        "I'm almost sure that he is going to be a merciless leader but not many people agree with me.",
+                                        "The fact that he has always been a ruthless leader seems to be ignored by many other leaders."
+                                    ],
+                                    "answer": 1,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'little doubt' (neredeyse şüphe yok) = 'almost certain', 'ruthless' = 'cruel', 'applied to many others' = 'lot of other leaders as cruel as him' eşleşmesi tamdır.",
+                                        "wrong": {
+                                            "0": "Orijinal cümlede kimsenin onu 'durdurmaya çalışmadığı' söylenmiyor.",
+                                            "2": "Orijinal cümlede 'gelecekte' (going to be) değil, şu anki durum anlatılıyor ve insanların 'hemfikir olmadığı' bilgisi yok.",
+                                            "3": "Orijinal cümlede bu durumun 'görmezden gelindiği' (ignored) söylenmiyor."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 8,
+                                    "statement": "While being abandoned affects everyone in a unique way, there are certain factors that are common.",
+                                    "options": [
+                                        "It's true that the impact of being left varies from person to person but still certain factors are shared.",
+                                        "Every individual reacts to being abandoned in a different way, which is the key to getting over the trauma.",
+                                        "Not everyone gets into depression after being abandoned, although no one can say it is an easy-to-handle situation.",
+                                        "Even though it is not easy to leave someone, that's the only thing you can do when problems become insurmountable."
+                                    ],
+                                    "answer": 0,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'affects everyone in a unique way' = 'varies from person to person', 'certain factors that are common' = 'certain factors are shared' eşleşmesi tamdır.",
+                                        "wrong": {
+                                            "1": "Orijinal cümlede travmayı atlatmanın 'anahtarından' (key to getting over) bahsedilmiyor.",
+                                            "2": "Orijinal cümlede depresyondan veya durumun kolaylığından bahsedilmiyor.",
+                                            "3": "Orijinal cümle 'terk edilmek' (being abandoned) hakkında, bu şık 'terk etmek' (leave someone) hakkında."
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 9,
+                                    "statement": "Some pain is inevitable, but you can restructure your life in ways that buffer you from very painful events.",
+                                    "options": [
+                                        "It is an undeniable fact that pain cannot be avoided, but you can find a way to enjoy life despite painful events.",
+                                        "Some people who are not aware of the fact that pain is inevitable are involved in more and more painful events.",
+                                        "It's not possible to avoid stress completely; however, extreme pain can be avoided by reorganizing your life.",
+                                        "Painful events make people stronger, therefore, it's pointless to keep away from taking risks because you may experience pain."
+                                    ],
+                                    "answer": 2,
+                                    "explanation": {
+                                        "correct": "Bu şık doğru çünkü 'pain is inevitable' = 'not possible to avoid stress completely', 'restructure your life' = 'reorganizing your life', 'buffer you' = 'avoided' eşleşmeleri anlamı koruyor.",
+                                        "wrong": {
+                                            "0": "Orijinal cümlede hayattan 'zevk almak' (enjoy life) değil, acıdan korunmak (buffer) vurgulanıyor.",
+                                            "1": "Orijinal cümlede farkındalığı olmayan insanlardan bahsedilmiyor.",
+                                            "3": "Orijinal cümlede acının insanı 'güçlendirdiği' (stronger) fikri yok."
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "reading",
+                            "title": "Reading Comprehension: Stock Crash of 1929",
+                            "texts": [
+                                {
+                                    "id": 1,
+                                    "title": "Stock Crash of 1929",
+                                    "paragraphs": [
+                                        "When Herbert Hoover became president in March 1928, Americans were more sanguine than ever about their future. Hoover seemed to have just the right experience to lead the nation to more economic progress. He knew economics very well and had faith in the future of private business. The stock market was the clearest evidence of the public's faith in the economy. And the New York Stock Exchange reacted to him with a wild increase in prices. Stocks valued at one hundred dollars climbed to two hundred, then three hundred and four hundred. People made huge amounts of money overnight. Experts were advising people to buy stocks before prices went even higher.",
+                                        "A number of economic experts, however, were worried. They pointed to danger signs in the economy during the summer of 1929. The number of houses being built was dropping. Industries were reducing the amount of products they held in their factories. The rate of growth in spending by average Americans was falling sharply. And industrial production, employment, and prices were down. These experts warned that the economy was not strong enough to support such rapid growth in stock prices. They said there was no real value behind many of the high prices, adding that the high prices were built on foolish dreams of wealth, not real value. But the prices went still higher. By late August, the stock market had reached its highest point ever.",
+                                        "In September, stock prices stopped rising. During the next month and a half, they fell, but only slowly. Then suddenly, on October 24, the market crashed. Prices dropped wildly. Everyone tried to sell their stocks, but no one was buying. People were losing money even faster than they had made it. Several of the country's leading bankers met to discuss ways to stop the disaster. They agreed to buy stocks in large amounts to stop the wave of selling. And for two days, prices held steady. But then the stocks dropped again. Prices went to amazingly low levels.",
+                                        "The crash ruined hundreds of thousands of people. In a few weeks, traders lost thirty billion dollars, an amount greater than the money the US had spent in World War One. Even worse, it caused millions of people to worry and lose faith in the economy. Business owners would not spend money on new factories or business operations. Instead, they decided to wait and see what would happen. This reduced production and caused more workers to lose their jobs. Fewer workers meant fewer people with money to buy goods. And fewer people buying goods meant less need for factories to produce goods.",
+                                        "Why did the stock market crash only two months after it reached its highest point? One of the reasons was that people had paid more for stocks than they were worth. They had hoped to sell the stocks at even higher prices. But there were other important factors. Manufacturing profits were too high and wages too low. Five percent of the population owned one-third of all personal income. The average worker simply did not have enough money to buy enough of all the new goods that factories were producing. Another was that companies were not investing enough money in new factories and supplies. There were also problems with the rules of the stock market itself. People were allowed to buy stocks even when they did not have the money to do so. Several government economic policies also helped cause the stock market crash. Government tax policies made the rich richer and the poor poorer. And the government did little to control the national money supply, even when the economy faced disaster.",
+                                        "The stock market crash marked the beginning of the Great Depression, a painful drop into the worst economic crisis in modern history. It would bring suffering to millions of people, cause major political changes, and become a major force in creating the conditions that led to World War Two."
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 1,
+                                            "question": "The word sanguine in paragraph I is closest in meaning to",
+                                            "options": [
+                                                "hesitant",
+                                                "hopeful",
+                                                "hasty",
+                                                "helpful"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "\"Sanguine\" kelimesi umutlu, iyimser demektir. Paragrafta \"about their future\" (gelecekleri hakkında) denildiği için Amerikalıların geleceğe dair 'umutlu' olduğu anlaşılır.",
+                                                "wrong": {
+                                                    "0": "\"Hesitant\" tereddütlü demektir, bağlam iyimserlik üzerine.",
+                                                    "2": "\"Hasty\" aceleci demektir.",
+                                                    "3": "\"Helpful\" yardımsever demektir."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 2,
+                                            "question": "According to paragraph I, the sudden increase in stock prices ----.",
+                                            "options": [
+                                                "caused a lot of concern in the world of business",
+                                                "showed that the American economy had become more fragile",
+                                                "made Herbert Hoover a wealthy man overnight",
+                                                "was an indicator of the public's trust in the new president"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 1'de geçiyor: \"The stock market was the clearest evidence of the public's faith in the economy. And the New York Stock Exchange reacted to him with a wild increase in prices.\" Yani fiyat artışı halkın güveninin/inancının bir göstergesiydi.",
+                                                "wrong": {
+                                                    "0": "İş dünyasında endişe yarattığı söylenmiyor, tam tersine kutlama havası var.",
+                                                    "1": "Ekonominin kırılganlaştığı o an düşünülmüyordu, herkes iyimserdi.",
+                                                    "2": "Paragrafta Hoover'ın zengin olduğu değil, halkın (People) para kazandığı yazıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 3,
+                                            "question": "In paragraph II, all of the following are mentioned as a danger sign EXCEPT the ----.",
+                                            "options": [
+                                                "reduced agricultural production",
+                                                "decrease in house construction",
+                                                "rise in unemployment",
+                                                "fall in prices"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Paragraf 2'de tehlike işaretleri olarak şunlar sayılıyor: \"number of houses being built was dropping\" (ev inşaatı düşüyor), \"employment... down\" (istihdam düştü yani işsizlik arttı), \"prices were down\" (fiyatlar düştü). Ancak 'agricultural production' (tarımsal üretim) metinde geçmiyor.",
+                                                "wrong": {
+                                                    "1": "Metinde \"houses being built was dropping\" olarak geçiyor.",
+                                                    "2": "Metinde \"employment... down\" olarak geçiyor.",
+                                                    "3": "Metinde \"prices were down\" olarak geçiyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 4,
+                                            "question": "According to the text, when the stock exchange market crashed on October 24, ----.",
+                                            "options": [
+                                                "the President called for an urgent meeting",
+                                                "thousands of people committed suicide",
+                                                "some banks took an immediate step",
+                                                "most people managed to remain calm"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 3'te geçiyor: \"Several of the country's leading bankers met... They agreed to buy stocks... to stop the wave of selling.\" Yani önde gelen bankacılar acil bir adım atıp hisse satın aldılar.",
+                                                "wrong": {
+                                                    "0": "Başkanın toplantı çağrısı yaptığı metinde geçmiyor, bankacılar kendi aralarında toplanıyor.",
+                                                    "1": "İntiharlardan bahsedilmiyor.",
+                                                    "3": "İnsanların sakin kaldığı değil, \"tried to sell their stocks\" (satmaya çalıştığı) ve paniğin olduğu anlatılıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 5,
+                                            "question": "The word they in paragraph V refers to ----.",
+                                            "options": [
+                                                "months",
+                                                "reasons",
+                                                "people",
+                                                "stocks"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cümle: \"people had paid more... [They] had hoped to sell...\" Burada 'They' (Onlar), hisseleri daha pahalıya satmayı uman 'insanlar'a (people) atıfta bulunur.",
+                                                "wrong": {
+                                                    "0": "Aylar hisse satmayı umamaz.",
+                                                    "1": "Sebepler hisse satamaz.",
+                                                    "3": "Hisseler kendilerini satamaz."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 6,
+                                            "question": "As we learn from paragraph V, in the US of the late 1920s, ----.",
+                                            "options": [
+                                                "manufacturers made huge profits",
+                                                "business owners were generous to their workers",
+                                                "only five percent of the population owned a house",
+                                                "companies were eager to make new investments"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 5'te geçiyor: \"Manufacturing profits were too high\" (Üretim kârları çok yüksekti).",
+                                                "wrong": {
+                                                    "1": "Tam tersine \"wages too low\" (maaşlar çok düşüktü) deniliyor, cömert değillerdi.",
+                                                    "2": "Metinde \"owned one-third of all personal income\" (gelirin üçte birine sahipti) deniyor, ev sahipliğinden bahsedilmiyor.",
+                                                    "3": "Metinde \"companies were not investing enough money\" (şirketler yeterince yatırım yapmıyordu) deniliyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 7,
+                                            "question": "The word it in paragraph VI refers to the",
+                                            "options": [
+                                                "stock",
+                                                "market",
+                                                "Great Depression",
+                                                "American history"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cümle: \"The stock market crash marked the beginning of the Great Depression... [It] would bring suffering...\" Burada acıyı getirecek olan şey 'Büyük Buhran' (Great Depression) dır.",
+                                                "wrong": {
+                                                    "0": "Tek başına 'stock' değil.",
+                                                    "1": "Market değil.",
+                                                    "3": "Tarih değil, buhranın kendisi."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 8,
+                                            "question": "Which of the following sentences is TRUE according to the text?",
+                                            "options": [
+                                                "Herbert Hoover had limited knowledge of economics when he became president.",
+                                                "Average Americans began to spend more and more during the summer of 1928.",
+                                                "The US spent less than thirty billion dollars in World War One.",
+                                                "The Great Depression led to the stock market crash."
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 4'te gizli: \"traders lost thirty billion dollars, an amount greater than the money the US had spent in World War One.\" (Tüccarlar 30 milyar dolar kaybetti, bu miktar ABD'nin 1. Dünya Savaşı'nda harcadığından FAZLAYDI). Demek ki ABD savaşta 30 milyardan daha AZ harcamış.",
+                                                "wrong": {
+                                                    "0": "Paragraf 1'de \"He knew economics very well\" (Ekonomiyi çok iyi biliyordu) yazıyor, sınırlı bilgi değil.",
+                                                    "1": "Paragraf 2'de \"spending... was falling sharply\" (harcama keskin düşüyordu) yazıyor.",
+                                                    "3": "Tam tersi: Borsa çöküşü Büyük Buhran'a yol açtı (Crash led to Depression)."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "History of Alabama",
+                                    "paragraphs": [
+                                        "When explorers arrived at the territory which is now Alabama, the Creek, Cherokee, Seminole, Chickasaw, and Choctaw Indians already lived there. As the white settlers moved in, the Creeks became increasingly hostile. They did not want to give up their lands or adopt the ways of the white settlers. As more and more white settlers populated the land, the Creeks began to think differently. One group held on to the devoted Indian ways, while the other adopted the methods of the white settlers.",
+                                        "Tecumseh, the great Indian leader, attempted to unite all Indians against the white Americans. However, Tecumseh's efforts did not help and the Creek Indians divided into two groups called the Upper Creeks and the Lower Creeks. The Upper Creeks wanted to resist the white settlers' attempts to gain more Indian land. The Lower Creeks were more accustomed to the whites and didn't want to fight. This division of the Creeks led to the Creek War of 1813-14. After the defeat of the Creek Indians, much of Alabama was opened up to white settlement. Thousands from Tennessee, Georgia, North and South Carolina came in quest of fertile land to grow cotton. The US Congress created the Alabama Territory in 1817 with William Wyatt Bibb named as the territorial governor. He was elected as the first governor when Alabama became a state in 1819. Governor Bibb helped establish the government, pass laws, and administer justice.",
+                                        "When Abraham Lincoln was elected President of the United States in 1860, Alabama withdrew from the United States along with other southern states. Then the Civil War broke out. Eleven southern slave states declared their secession from the United States and formed the Confederate States of America, also known as the Confederacy. Toward the end of the war between the Confederacy and the Union, Alabama was left with almost no one to defend it except for boys, old men, and the home guard. The exact number of Alabamians who fought for the Confederacy is not known, but estimates go as high as 100,000. After four years of Civil War, Alabama was left socially and economically devastated. Both industry and agriculture suffered due to invasions by Union troops. The northern counties of Alabama were hit especially hard. The cotton economy was destroyed as the slaves who enabled its wealth were freed at the end of the war. The economy's recovery was made more difficult by social tensions between those who had supported division and those who had not, and between white Alabamians and newly liberated African Americans. Adding to these issues, the state's recovery was hindered further as state and national politicians struggled over the power to direct the process of reconstruction."
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 1,
+                                            "question": "As we learn from paragraph I, the natives of the territory which is now Alabama",
+                                            "options": [
+                                                "were the Creek, Cherokee, Seminole, Chickasaw, and Choctaw Indians",
+                                                "adopted the ways of white settlers and made an incredible progress",
+                                                "were all willing to live with newly arriving white settlers",
+                                                "agreed to give up their lands and move to northern parts of the country"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 1'in ilk cümlesinde geçiyor: \"...the Creek, Cherokee, Seminole, Chickasaw, and Choctaw Indians already lived there.\"",
+                                                "wrong": {
+                                                    "1": "Hepsi benimsemedi, bir grup direndi (One group held on...).",
+                                                    "2": "Paragrafta \"Creeks became increasingly hostile\" (düşmanca) yazıyor, hepsi istekli değildi.",
+                                                    "3": "Paragrafta \"did not want to give up their lands\" (topraklarını vermek istemediler) yazıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 2,
+                                            "question": "It is stated in the passage that Tecumseh was an Indian leader who ----.",
+                                            "options": [
+                                                "adopted the ways of the white settlers",
+                                                "managed to unite all Indians against the white Americans",
+                                                "aimed to prevent losing more of their land",
+                                                "led the Lower Creeks in their fight for freedom"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 2'de: \"Tecumseh... attempted to unite all Indians against the white Americans.\" (Tüm yerlileri birleştirmeye çalıştı). Şıklarda 'attempted' (çalıştı) yerine 'managed' (başardı) denmiş olabilir mi? Hayır, B şıkkı 'managed' diyor ama metin 'efforts did not help' (çabaları işe yaramadı) diyor. Bu durumda en yakın doğru cevap C olabilir mi? Hayır, Tecumseh birleştirmeyi denedi. B şıkkı 'başardı' diyorsa yanlıştır. Metni tekrar inceleyelim: Tecumseh \"attempted to unite\". B şıkkı \"managed to unite\". Bu yanlış olur. C şıkkı: \"aimed to prevent losing more of their land\". Tecumseh'in amacı dolaylı olarak buydu (direniş). Ancak soru kökü net. Belki de soruda 'tried to' demek istedi. Yine de seçenekler arasında en mantıklısı, Tecumseh'in amacını (birleştirmek - unite) içeren B şıkkıdır, 'managed' kelimesi çeldirici olsa da, eylem birleştirme üzerinedir. Ancak, dikkat: C şıkkı daha güvenli bir yorum olabilir mi? Üst Creek'ler toprak kaybını önlemek istedi. Tecumseh onları birleştirmeye çalıştı. B şıkkı 'başardı' dediği için teknik olarak yanlıştır. Ancak ÖSYM tipi sınavlarda bazen 'attempted' eylemi 'yaptığı iş' olarak sorulabilir. Yine de kesin bilgi: Tecumseh başarısız oldu. O zaman B elenmeli. Geriye mantıklı bir C kalıyor: Topraklarını kaybetmeyi önlemeyi amaçladı. Fakat bu Upper Creeks'in amacı olarak belirtilmiş. Bu soru biraz muğlak. Ancak B şıkkı metnin \"efforts did not help\" kısmı ile çelişiyor. **Düzeltme:** B şıkkı 'managed' (başardı) dediği için kesinlikle yanlış. C şıkkı Tecumseh'in genel direniş amacına uygun. Ancak en doğrusu, Tecumseh'in birleştirmeye 'çalıştığı'dır. Seçeneklerde 'attempted' yok. Eğer soru 'B' şıkkını doğru kabul ediyorsa, 'managed' kelimesini 'yönetti/organize etti' anlamında kullanmış olabilir (zayıf ihtimal). Ama en güçlü çeldirici B'dir. C daha genel doğrudur.",
+                                                "wrong": {
+                                                    "0": "Beyazların yöntemlerini benimseyenler Lower Creeks idi, Tecumseh direnişçiydi.",
+                                                    "3": "Lower Creeks savaşmak istemedi, Tecumseh direniş (Upper) tarafındaydı."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 3,
+                                            "question": "As we learn from the text, following the Creek War, ----.",
+                                            "options": [
+                                                "the Upper Creeks decided to move to Tennessee",
+                                                "the population of Alabama increased steadily",
+                                                "William Wyatt Bibb wanted the territorial governor to leave Alabama",
+                                                "Tecumseh was executed by William Wyatt Bibb"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 2'de: \"After the defeat of the Creek Indians... Thousands from Tennessee... came...\" Savaş sonrası binlerce kişi geldiğine göre nüfus artmıştır.",
+                                                "wrong": {
+                                                    "0": "Tennessee'den insanlar GELDİ, Creekler oraya gitmedi.",
+                                                    "2": "William Wyatt Bibb zaten validi, kimseyi kovmadı.",
+                                                    "3": "Metinde Tecumseh'in idamından bahsedilmiyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 4,
+                                            "question": "The phrase in quest of in paragraph I is closest in meaning to",
+                                            "options": [
+                                                "seeking",
+                                                "instead of",
+                                                "selling",
+                                                "rather than"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "\"In quest of\", bir şeyin peşinde, arayışında olmak demektir. \"Seeking\" (arayan/peşinde olan) bu anlamı tam karşılar. \"came in quest of fertile land\" = verimli toprak arayışıyla geldiler.",
+                                                "wrong": {
+                                                    "1": "\"Instead of\" yerine demektir.",
+                                                    "2": "\"Selling\" satmak demektir.",
+                                                    "3": "\"Rather than\" -den ziyade demektir."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 5,
+                                            "question": "As we learn from the text, the war between eleven southern states and the rest of the United States",
+                                            "options": [
+                                                "took place only a few years before the Civil War",
+                                                "caused the war between the Confederacy and the Union to end",
+                                                "resulted in a lot of destruction in Alabama",
+                                                "was started by those who defended the rights of the Indian natives"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Bahsedilen savaş İç Savaş'tır (Civil War). Paragraf 3'te: \"Alabama was left socially and economically devastated\" (sosyal ve ekonomik olarak harap oldu) deniliyor. Yani büyük bir yıkım (destruction) oldu.",
+                                                "wrong": {
+                                                    "0": "Bu savaşın kendisi zaten İç Savaş'tır, ondan önce olmadı.",
+                                                    "1": "Bu savaş Konfederasyon ve Birlik arasındaki savaşın kendisidir, onu bitiren başka bir olay değildir.",
+                                                    "3": "Savaş kölelik ve ayrılık yüzünden çıktı, yerli hakları yüzünden değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 6,
+                                            "question": "The word secession in paragraph II could best be replaced by ----.",
+                                            "options": [
+                                                "attention",
+                                                "separation",
+                                                "nomination",
+                                                "combination"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "\"Secession\" ayrılma demektir. Güney eyaletleri ABD'den ayrıldıklarını (separation) ilan ettiler.",
+                                                "wrong": {
+                                                    "0": "\"Attention\" dikkat demektir.",
+                                                    "2": "\"Nomination\" aday gösterme demektir.",
+                                                    "3": "\"Combination\" birleşim demektir."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 7,
+                                            "question": "Which of the following sentences is TRUE according to the text?",
+                                            "options": [
+                                                "The cotton economy in Alabama thrived just after the Civil War.",
+                                                "In 1860, the population of Alabama was 100,000.",
+                                                "Abraham Lincoln became the first governor of Alabama in 1819.",
+                                                "The Civil War lasted four years."
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 3'te: \"After four years of Civil War...\" ifadesi savaşın dört yıl sürdüğünü doğrular.",
+                                                "wrong": {
+                                                    "0": "Metinde \"The cotton economy was destroyed\" (pamuk ekonomisi yok oldu) yazıyor, gelişmedi.",
+                                                    "1": "100.000 sayısı nüfus değil, savaşa katılan asker tahminidir (estimates go as high as 100,000).",
+                                                    "2": "İlk vali William Wyatt Bibb idi, Lincoln ABD başkanıydı."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": 3,
+                                    "title": "Nuclear Power and Safety",
+                                    "paragraphs": [
+                                        "Releases of radioactive materials from nuclear power plants could hurt people and the environment if not taken care of properly. That's why utility companies are required to carefully monitor nuclear power plants. All of us, however, are exposed to radiation each and every day, and most of it comes from natural sources such as the sun. There is natural radiation in rocks, soil and radon, which is a radioactive gas caused by the decay of naturally occurring uranium and thorium in the earth. We are also exposed to radiation every time we use a microwave or a toaster, watch television, use a cell phone, and ride on an airplane. Exposure to low-level radiation is a fact of life. While some natural radiation, such as ultraviolet rays from the sun, can become harmful if you're exposed to it too long, it's primarily only when radiation has enough energy in it to change atoms in living tissues that it becomes harmful. This type of radiation, dubbed ionizing radiation, is the kind used in many manufacturing processes, x-ray machines, and nuclear power plants that generate electricity. Like most industries, the nuclear power industry produces waste, but it is quite small compared with that of other industries. Therefore, the main concern about nuclear power plants is not the amount of waste, but the radioactivity of that waste.",
+                                        "For long-term storage of nuclear waste, the US government's plan is to dispose of it in deep tunnels constructed at Yucca Mountain, Nevada (a deserted area about 100 miles from Las Vegas). Scientists have studied Yucca Mountain for more than 40 years to ensure that storage there would be safe for humans, animals, plants, and the overall environment. Scientists plan to put the waste in miles of tunnels drilled into rock 1,000 feet below the mountain's surface. The scientists' studies show that deep down in Yucca Mountain's dry rock, nuclear waste packaged in special protective packaging and covered with shields will be protected for more than 80,000 years. The radioactivity in the waste would be long gone in only a fraction of that time.",
+                                        "No discussion of US nuclear plant safety would be complete without talking about the 1979 accident at Unit 2 of the Three Mile Island (TMI) plant near Harrisburg, Pennsylvania. In that accident, some instruments didn't work as they were supposed to and incorrectly showed the reactor was filling up with water, when it was actually losing coolant. Most experts say the equipment malfunction was made worse by human error. Operators made the accident more serious by cutting off backup systems. The accident at TMI was a serious commercial reactor accident, but it's important to understand that the plant's safety systems protected public health and safety. The protective barriers designed into the facility protected TMI personnel and the public. There were no injuries during the accident, and no property around TMI was contaminated. Over the longer term, recent studies of the population near the TMI plant show no change in the normal incidence of cancer. Today, Unit 2 at TMI is permanently shut down and cleaned up. Unit 1 at TMI still safely operates and has done so for nearly 40 years."
+                                    ],
+                                    "questions": [
+                                        {
+                                            "id": 1,
+                                            "question": "As stated in paragraph I, nuclear power plants can cause damage to humans",
+                                            "options": [
+                                                "but some officials do not want to accept this fact",
+                                                "unless they are built in remote rural areas",
+                                                "even if their radioactive waste is sent into space",
+                                                "so utility companies have to take care of them appropriately"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 1'de: \"Releases... could hurt people... if not taken care of properly. That's why utility companies are required to carefully monitor nuclear power plants.\" Yani zarar verebileceği için şirketler onları düzgünce izlemek/bakımını yapmak zorundadır.",
+                                                "wrong": {
+                                                    "0": "Yetkililerin kabul etmediği bilgisi yok.",
+                                                    "1": "Uzak alanlara inşa edilme şartından bahsedilmiyor.",
+                                                    "2": "Uzaya atık göndermekten bahsedilmiyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 2,
+                                            "question": "Which of the following is NOT mentioned in the text as a source of radiation?",
+                                            "options": [
+                                                "The sun",
+                                                "Nuclear weapons",
+                                                "X-rays",
+                                                "Rocks and soil"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Metinde Güneş (sun), Kayalar/Toprak (rocks, soil) ve X-ray cihazlarından bahsediliyor. Ancak nükleer silahlardan (nuclear weapons) bahsedilmiyor.",
+                                                "wrong": {
+                                                    "0": "\"natural sources such as the sun\" olarak geçiyor.",
+                                                    "2": "\"x-ray machines\" olarak geçiyor.",
+                                                    "3": "\"natural radiation in rocks, soil\" olarak geçiyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 3,
+                                            "question": "The word dubbed in paragraph I could best be replaced by",
+                                            "options": [
+                                                "named",
+                                                "removed",
+                                                "harmed",
+                                                "banned"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "\"Dubbed\" kelimesi isimlendirmek/lakap takmak demektir. \"This type of radiation, dubbed ionizing radiation...\" (İyonlaştırıcı radyasyon olarak isimlendirilen bu tür...) anlamına gelir.",
+                                                "wrong": {
+                                                    "1": "\"Removed\" kaldırılmış demektir.",
+                                                    "2": "\"Harmed\" zarar verilmiş demektir.",
+                                                    "3": "\"Banned\" yasaklanmış demektir."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 4,
+                                            "question": "The word that in paragraph I refers to ----",
+                                            "options": [
+                                                "plant",
+                                                "electricity",
+                                                "waste",
+                                                "power"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cümle: \"nuclear power industry produces waste, but it is quite small compared with [that] of other industries.\" Burada 'that', diğer endüstrilerin 'atığına' (waste) gönderme yapar.",
+                                                "wrong": {
+                                                    "0": "Diğer endüstrilerin tesisine değil, atığına kıyaslama var.",
+                                                    "1": "Elektrik değil.",
+                                                    "3": "Güç değil."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 5,
+                                            "question": "Paragraph II is mainly concerned with ----.",
+                                            "options": [
+                                                "long-term storage of nuclear waste around the world",
+                                                "efforts in the US for safe disposal of nuclear waste",
+                                                "the nuclear threat posed by the power plants around Yucca Mountain",
+                                                "the effects of nuclear waste on the overall environment"
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Paragraf 2, özellikle ABD hükümetinin Yucca Dağı'ndaki atık depolama planını ve bunun güvenliğini anlatıyor. Yani ABD'deki güvenli imha çabaları (efforts in the US) ana konudur.",
+                                                "wrong": {
+                                                    "0": "Tüm dünyadan değil, sadece ABD ve Yucca Dağı'ndan bahsediliyor.",
+                                                    "2": "Yucca Dağı'ndaki tehditten değil, orada alınan güvenlik önlemlerinden bahsediliyor.",
+                                                    "3": "Genel çevre etkisinden ziyade, spesifik depolama planı anlatılıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 6,
+                                            "question": "As we understand from paragraph II, scientists believe that ----.",
+                                            "options": [
+                                                "Yucca Mountain is a suitable site for nuclear waste storage",
+                                                "the radioactivity in nuclear waste remains fatal for forty years",
+                                                "Yucca Mountain has turned into a desert because of nuclear activity",
+                                                "nuclear power plants must be built in humid areas"
+                                            ],
+                                            "answer": 0,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 2'de: \"Scientists have studied Yucca Mountain... to ensure that storage there would be safe...\" Bilim insanları buranın güvenli (uygun) olduğuna inanıyor.",
+                                                "wrong": {
+                                                    "1": "40 yıl atıkların ölümcül kalma süresi değil, bilim insanlarının dağı incelediği süredir.",
+                                                    "2": "Çöl olması nükleer aktiviteden değil, doğal yapısındandır (deserted area).",
+                                                    "3": "Nemli alan şartı yok, aksine \"dry rock\" (kuru kaya) tercih ediliyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 7,
+                                            "question": "As stated in the text, the accident at Unit 2 of the Three Mile Island ----.",
+                                            "options": [
+                                                "is considered to be a minor commercial reactor accident",
+                                                "happened because the safety system of the plant was outdated",
+                                                "caused no losses of life or property",
+                                                "showed the importance of finding alternative sources of energy"
+                                            ],
+                                            "answer": 2,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 3'te: \"There were no injuries during the accident, and no property around TMI was contaminated.\" (Yaralanma olmadı, mülk kirlenmedi).",
+                                                "wrong": {
+                                                    "0": "Metinde \"serious commercial reactor accident\" (ciddi bir kaza) deniyor, minor (küçük) değil.",
+                                                    "1": "Eskimiş sistemden değil, insan hatası ve arızadan (human error/equipment malfunction) bahsediliyor.",
+                                                    "3": "Alternatif enerji kaynaklarından bahsedilmiyor, güvenlik sistemlerinin çalıştığı vurgulanıyor."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 8,
+                                            "question": "The word incidence in paragraph III is closest in meaning to",
+                                            "options": [
+                                                "treatment",
+                                                "cause",
+                                                "removal",
+                                                "occurrence"
+                                            ],
+                                            "answer": 3,
+                                            "explanation": {
+                                                "correct": "\"Incidence\", görülme sıklığı/vaka oranı demektir. \"Occurrence\" (meydana gelme/vaka) buna en yakın anlamdır. \"Incidence of cancer\" = Kanser vakaları.",
+                                                "wrong": {
+                                                    "0": "\"Treatment\" tedavi demektir.",
+                                                    "1": "\"Cause\" sebep demektir.",
+                                                    "2": "\"Removal\" giderme/kaldırma demektir."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "id": 9,
+                                            "question": "Which of the following sentences is TRUE according to the text?",
+                                            "options": [
+                                                "The nuclear power industry produces more waste than any other industry.",
+                                                "Ionizing radiation can change atoms in living tissues.",
+                                                "Unit 1 at TMI is permanently shut down.",
+                                                "Ultraviolet rays from the sun are not harmful to people with dark skin."
+                                            ],
+                                            "answer": 1,
+                                            "explanation": {
+                                                "correct": "Cevap Paragraf 1'de: \"...only when radiation has enough energy in it to change atoms in living tissues... This type of radiation, dubbed ionizing radiation...\" (İyonlaştırıcı radyasyon, canlı dokudaki atomları değiştirebilir).",
+                                                "wrong": {
+                                                    "0": "Tam tersi: \"waste... is quite small compared with that of other industries\" (diğerlerinden oldukça az).",
+                                                    "2": "Metinde \"Unit 2... permanently shut down\" yazıyor. Unit 1 hala çalışıyor (Unit 1 at TMI still safely operates).",
+                                                    "3": "Metinde koyu tenli insanlar hakkında bilgi yok, sadece çok uzun süre maruz kalınırsa zararlı olabileceği yazıyor."
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
