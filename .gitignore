@@ -18,5 +18,5 @@ Screenshot*.heic
 Screenshot*.png
 
 # Private folders - not for public
-tools/
 social-media-tools/
+tools/

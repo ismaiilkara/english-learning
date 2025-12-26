@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30-Day Grammar Calendar</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            font-family: 'Inter', sans-serif;
+            padding: 40px;
+        }
+
+        .download-btn {
+            display: block;
+            margin: 0 auto 30px;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .calendar {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1rem;
+        }
+
+        .week {
+            margin-bottom: 30px;
+        }
+
+        .week-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #fbbf24;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .days {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+        }
+
+        .day {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 15px;
+            transition: all 0.3s;
+        }
+
+        .day:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
+        .day-name {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .day-topic {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.4;
+        }
+
+        .day-subtopic {
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.5);
+            margin-top: 5px;
+        }
+
+        .emoji {
+            font-size: 1.2rem;
+            margin-right: 5px;
+        }
+
+        /* Color coding */
+        .tenses {
+            border-left: 3px solid #22c55e;
+        }
+
+        .clauses {
+            border-left: 3px solid #3b82f6;
+        }
+
+        .advanced {
+            border-left: 3px solid #a855f7;
+        }
+
+        .review {
+            border-left: 3px solid #f59e0b;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+        }
+
+        @media (max-width: 768px) {
+            .days {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button class="download-btn" onclick="downloadCalendar()">📥 PNG Olarak İndir</button>
+
+    <div class="calendar" id="calendar">
+        <div class="header">
+            <h1>📚 30-DAY GRAMMAR MASTERY</h1>
+            <p>IELTS • TOEFL • PTE Hazırlık Programı</p>
+        </div>
+
+        <!-- WEEK 1 -->
+        <div class="week">
+            <div class="week-title">📅 HAFTA 1 (22-29 Aralık)</div>
+            <div class="days">
+                <div class="day tenses">
+                    <div class="day-name">Pazartesi</div>
+                    <div class="day-topic">12 Tense Review</div>
+                    <div class="day-subtopic">Simple, Continuous, Perfect</div>
+                </div>
+                <div class="day tenses">
+                    <div class="day-name">Salı</div>
+                    <div class="day-topic">Perfect Tenses</div>
+                    <div class="day-subtopic">Present/Past/Future Perfect</div>
+                </div>
+                <div class="day tenses">
+                    <div class="day-name">Çarşamba</div>
+                    <div class="day-topic">Passive Voice + Causatives</div>
+                    <div class="day-subtopic">Have/Get something done</div>
+                </div>
+                <div class="day tenses">
+                    <div class="day-name">Perşembe</div>
+                    <div class="day-topic">Reported Speech</div>
+                    <div class="day-subtopic">Statements, Questions, Commands</div>
+                </div>
+                <div class="day tenses">
+                    <div class="day-name">Cuma</div>
+                    <div class="day-topic">Conditionals</div>
+                    <div class="day-subtopic">0, 1, 2, 3 + Mixed Conditionals</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WEEK 2 -->
+        <div class="week">
+            <div class="week-title">📅 HAFTA 2 (30 Aralık - 6 Ocak)</div>
+            <div class="days">
+                <div class="day clauses">
+                    <div class="day-name">Pazartesi</div>
+                    <div class="day-topic">Relative Clauses</div>
+                    <div class="day-subtopic">Defining / Non-defining</div>
+                </div>
+                <div class="day clauses">
+                    <div class="day-name">Salı</div>
+                    <div class="day-topic">Participle Clauses</div>
+                    <div class="day-subtopic">-ing, -ed, Having done</div>
+                </div>
+                <div class="day advanced">
+                    <div class="day-name">Çarşamba</div>
+                    <div class="day-topic">Inversion + Emphasis</div>
+                    <div class="day-subtopic">Not only, Rarely, Seldom</div>
+                </div>
+                <div class="day advanced">
+                    <div class="day-name">Perşembe</div>
+                    <div class="day-topic">Subjunctive Mood</div>
+                    <div class="day-subtopic">Suggest, Recommend, Insist</div>
+                </div>
+                <div class="day advanced">
+                    <div class="day-name">Cuma</div>
+                    <div class="day-topic">Modals: Speculation</div>
+                    <div class="day-subtopic">Must/Can't/Might have done</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WEEK 3 -->
+        <div class="week">
+            <div class="week-title">📅 HAFTA 3 (7-13 Ocak)</div>
+            <div class="days">
+                <div class="day clauses">
+                    <div class="day-name">Pazartesi</div>
+                    <div class="day-topic">Articles (Advanced)</div>
+                    <div class="day-subtopic">Zero article, Special cases</div>
+                </div>
+                <div class="day clauses">
+                    <div class="day-name">Salı</div>
+                    <div class="day-topic">Quantifiers + Determiners</div>
+                    <div class="day-subtopic">Few/Little, Each/Every</div>
+                </div>
+                <div class="day clauses">
+                    <div class="day-name">Çarşamba</div>
+                    <div class="day-topic">Gerunds vs Infinitives</div>
+                    <div class="day-subtopic">Verb patterns, Meaning change</div>
+                </div>
+                <div class="day advanced">
+                    <div class="day-name">Perşembe</div>
+                    <div class="day-topic">Parallel Structure</div>
+                    <div class="day-subtopic">Writing coherence</div>
+                </div>
+                <div class="day clauses">
+                    <div class="day-name">Cuma</div>
+                    <div class="day-topic">Noun Clauses</div>
+                    <div class="day-subtopic">That/What/Whether clauses</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WEEK 4 -->
+        <div class="week">
+            <div class="week-title">📅 HAFTA 4 (14-20 Aralık)</div>
+            <div class="days">
+                <div class="day clauses">
+                    <div class="day-name">Pazartesi</div>
+                    <div class="day-topic">Adverbial Clauses</div>
+                    <div class="day-subtopic">Time, Reason, Condition</div>
+                </div>
+                <div class="day advanced">
+                    <div class="day-name">Salı</div>
+                    <div class="day-topic">Cohesive Devices</div>
+                    <div class="day-subtopic">Linking words, Transitions</div>
+                </div>
+                <div class="day review">
+                    <div class="day-name">Çarşamba</div>
+                    <div class="day-topic">Common Errors Review</div>
+                    <div class="day-subtopic">Top 20 mistakes</div>
+                </div>
+                <div class="day advanced">
+                    <div class="day-name">Perşembe</div>
+                    <div class="day-topic">Complex Sentences</div>
+                    <div class="day-subtopic">Combining ideas effectively</div>
+                </div>
+                <div class="day review">
+                    <div class="day-name">Cuma</div>
+                    <div class="day-topic">🎯 FINAL REVIEW</div>
+                    <div class="day-subtopic">Practice Test + Q&A</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #22c55e;"></div>
+                <span>Temel Zamanlar</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #3b82f6;"></div>
+                <span>Clause Yapıları</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #a855f7;"></div>
+                <span>İleri Düzey</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #f59e0b;"></div>
+                <span>Tekrar & Test</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        async function downloadCalendar() {
+            const calendar = document.getElementById('calendar');
+            const canvas = await html2canvas(calendar, { scale: 2, backgroundColor: null });
+            const link = document.createElement('a');
+            link.download = 'grammar-calendar-30-days.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+    </script>
+</body>
+
+</html>

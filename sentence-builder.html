@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentence Builder - English Learning Hub</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        [x-cloak] {
+            display: none !important;
+        }
+
+        .word-chip {
+            user-select: none;
+            cursor: grab;
+            transition: all 0.2s ease;
+        }
+
+        .word-chip:active {
+            cursor: grabbing;
+            transform: scale(1.05);
+        }
+
+        .word-chip.dragging {
+            opacity: 0.5;
+            transform: scale(1.1);
+        }
+
+        .drop-slot {
+            min-width: 100px;
+            min-height: 44px;
+            border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.2s ease;
+        }
+
+        .drop-slot.drag-over {
+            border-bottom-color: #ec4899;
+            background: rgba(236, 72, 153, 0.1);
+        }
+
+        .drop-slot.filled {
+            border-bottom-color: #22c55e;
+        }
+
+        .word-bank-chip {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .word-bank-chip:hover {
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.3), rgba(139, 92, 246, 0.3));
+            border-color: rgba(236, 72, 153, 0.5);
+        }
+
+        .placed-word {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            animation: placeWord 0.3s ease;
+        }
+
+        @keyframes placeWord {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .correct-answer {
+            background: linear-gradient(135deg, #22c55e, #16a34a) !important;
+            border-color: #22c55e !important;
+        }
+
+        .wrong-answer {
+            background: linear-gradient(135deg, #ef4444, #dc2626) !important;
+            border-color: #ef4444 !important;
+        }
+
+        .pulse-glow {
+            animation: pulseGlow 2s infinite;
+        }
+
+        @keyframes pulseGlow {
+
+            0%,
+            100% {
+                box-shadow: 0 0 20px rgba(236, 72, 153, 0.3);
+            }
+
+            50% {
+                box-shadow: 0 0 40px rgba(236, 72, 153, 0.6);
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-800 min-h-screen">
+
+    <div x-data="sentenceBuilderApp()" x-init="init()" x-cloak class="min-h-screen">
+
+        <!-- Top Navigation -->
+        <nav class="bg-black/40 backdrop-blur-xl border-b border-white/10 p-4">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <h1 class="text-2xl font-bold text-white flex items-center gap-2">
+                    🎓 <span class="bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">English
+                        Learning Hub</span>
+                </h1>
+                <div class="flex gap-4">
+                    <a href="index.html"
+                        class="px-6 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20">
+                        📘 Grammar
+                    </a>
+                    <a href="itu-prof.html"
+                        class="px-6 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20">
+                        🎯 ITU PROF
+                    </a>
+                    <a href="vocabulary.html"
+                        class="px-6 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20">
+                        📚 Vocabulary
+                    </a>
+                    <span class="px-6 py-2 rounded-full text-white font-semibold bg-pink-500">
+                        🧩 Sentence Builder
+                    </span>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="max-w-5xl mx-auto p-8">
+
+            <!-- Header -->
+            <div class="text-center mb-8">
+                <h2 class="text-4xl font-bold text-white mb-2 flex items-center justify-center gap-4">
+                    🧩 <span>Sentence Builder</span>
+                </h2>
+                <p class="text-white/60 text-lg">Drag and drop words to form the correct sentence</p>
+            </div>
+
+            <!-- Difficulty Filter -->
+            <div class="flex justify-center gap-4 mb-6">
+                <button @click="filterDifficulty = 'all'; filterSentences()"
+                    :class="filterDifficulty === 'all' ? 'bg-pink-500' : 'bg-white/10 hover:bg-white/20'"
+                    class="px-6 py-2 rounded-full text-white font-semibold transition-all">
+                    All
+                </button>
+                <button @click="filterDifficulty = 'medium'; filterSentences()"
+                    :class="filterDifficulty === 'medium' ? 'bg-yellow-500' : 'bg-white/10 hover:bg-white/20'"
+                    class="px-6 py-2 rounded-full text-white font-semibold transition-all">
+                    🟡 Medium
+                </button>
+                <button @click="filterDifficulty = 'hard'; filterSentences()"
+                    :class="filterDifficulty === 'hard' ? 'bg-red-500' : 'bg-white/10 hover:bg-white/20'"
+                    class="px-6 py-2 rounded-full text-white font-semibold transition-all">
+                    🔴 Hard
+                </button>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="bg-white/10 rounded-full h-3 overflow-hidden mb-2">
+                <div class="bg-gradient-to-r from-pink-500 to-yellow-500 h-full transition-all duration-500"
+                    :style="`width: ${(currentIndex + 1) / filteredSentences.length * 100}%`">
+                </div>
+            </div>
+            <p class="text-white/60 text-sm text-center mb-8">
+                Sentence <span x-text="currentIndex + 1"></span> of <span x-text="filteredSentences.length"></span>
+                <span class="ml-2 px-2 py-1 rounded-full text-xs"
+                    :class="currentSentence?.difficulty === 'hard' ? 'bg-red-500/30 text-red-300' : 'bg-yellow-500/30 text-yellow-300'"
+                    x-text="currentSentence?.difficulty === 'hard' ? '🔴 Hard' : '🟡 Medium'">
+                </span>
+                <span class="ml-4 text-pink-400">Score: <span x-text="score"></span></span>
+            </p>
+
+            <!-- Question Card -->
+            <div x-show="!showResults" class="bg-black/30 backdrop-blur-xl rounded-2xl p-8 border border-white/10">
+
+                <!-- Question Text -->
+                <div class="mb-8 text-center">
+                    <p class="text-white/60 text-sm mb-2">Form the correct sentence:</p>
+                    <p class="text-2xl text-white font-medium" x-text="currentSentence?.question"></p>
+                </div>
+
+                <!-- Drop Zone - Sentence Building Area -->
+                <div class="bg-black/20 rounded-xl p-6 mb-8 border-2 border-dashed border-white/20">
+                    <p class="text-white/40 text-sm mb-4 text-center">I</p>
+                    <div class="flex flex-wrap gap-3 min-h-[60px] justify-center items-center">
+                        <template x-for="(slot, index) in slots" :key="index">
+                            <div class="flex items-center gap-1">
+                                <div @dragover.prevent="handleDragOver($event, index)"
+                                    @dragleave.prevent="handleDragLeave($event, index)"
+                                    @drop.prevent="handleDrop($event, index)" @click="removeFromSlot(index)" :class="{
+                                        'drag-over': dragOverSlot === index,
+                                        'filled': slot !== null
+                                    }"
+                                    class="drop-slot px-4 py-2 rounded-lg flex items-center justify-center text-white font-medium cursor-pointer">
+                                    <span x-show="slot !== null"
+                                        class="placed-word px-4 py-2 rounded-lg text-white font-medium" x-text="slot">
+                                    </span>
+                                    <span x-show="slot === null" class="text-white/30">___</span>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                    <p class="text-white/40 text-sm mt-4 text-center">.</p>
+                </div>
+
+                <!-- Word Bank -->
+                <div class="mb-8">
+                    <p class="text-white/60 text-sm mb-4 text-center">Available words (drag or click to place):</p>
+                    <div class="flex flex-wrap gap-3 justify-center">
+                        <template x-for="(word, index) in availableWords" :key="index">
+                            <div :id="'word-' + index" draggable="true"
+                                @dragstart="handleDragStart($event, word, index)" @dragend="handleDragEnd($event)"
+                                @click="placeWord(word, index)"
+                                class="word-chip word-bank-chip px-5 py-3 rounded-xl text-white font-medium text-lg hover:scale-105">
+                                <span x-text="word"></span>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="flex justify-center gap-4">
+                    <button @click="checkAnswer()" :disabled="!allSlotsFilled()"
+                        :class="allSlotsFilled() ? 'bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 pulse-glow' : 'bg-white/10 cursor-not-allowed'"
+                        class="text-white font-bold py-3 px-8 rounded-full transition-all">
+                        Check Answer ✓
+                    </button>
+                    <button @click="resetCurrentSentence()"
+                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-full transition-all">
+                        Reset 🔄
+                    </button>
+                </div>
+
+                <!-- Feedback -->
+                <div x-show="showFeedback" x-transition class="mt-6">
+                    <div :class="isCorrect ? 'bg-green-500/20 border-green-500' : 'bg-red-500/20 border-red-500'"
+                        class="p-4 rounded-xl border text-white text-center">
+                        <span x-show="isCorrect">✅ Correct! Great job!</span>
+                        <div x-show="!isCorrect">
+                            <span>❌ Not quite.</span>
+                            <p class="mt-2 text-sm text-white/80">Correct answer: <span
+                                    class="text-green-400 font-medium"
+                                    x-text="'I ' + currentSentence?.answer.join(' ') + '.'"></span></p>
+                        </div>
+                    </div>
+
+                    <button @click="nextSentence()"
+                        class="mt-4 w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-bold py-3 px-8 rounded-full transition-all">
+                        <span
+                            x-text="currentIndex < filteredSentences.length - 1 ? 'Next Sentence →' : 'See Results ✓'"></span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Results Card -->
+            <div x-show="showResults" x-transition
+                class="bg-gradient-to-r from-pink-500/20 to-purple-500/20 backdrop-blur-xl rounded-2xl p-8 border border-pink-500/30 text-center">
+                <div class="text-6xl mb-4">🎉</div>
+                <h3 class="text-3xl font-bold text-white mb-2">Congratulations!</h3>
+                <p class="text-xl text-white/80">
+                    Your Score: <span class="text-pink-400 font-bold" x-text="score"></span> / <span
+                        x-text="filteredSentences.length"></span>
+                </p>
+                <p class="text-lg text-white/60 mt-2" x-text="getScoreMessage()"></p>
+                <button @click="restart()"
+                    class="mt-6 bg-white/20 hover:bg-white/30 text-white font-bold py-3 px-8 rounded-full transition-all">
+                    Try Again 🔄
+                </button>
+            </div>
+
+        </main>
+    </div>
+
+    <script>
+        function sentenceBuilderApp() {
+            return {
+                sentences: [
+                    // MEDIUM - 10 sentences
+                    {
+                        question: "Do you know what time their flight will get to the airport?",
+                        answer: ["have", "no", "idea", "when", "they", "are", "arriving"],
+                        shuffled: ["no", "leaving", "are", "when", "arriving", "idea", "have", "they"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "She said she would come to the party, but she didn't.",
+                        answer: ["was", "supposed", "to", "come", "but", "she", "never", "showed", "up"],
+                        shuffled: ["was", "supposed", "showed", "come", "never", "but", "to", "up", "she"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "I don't know why they cancelled the meeting.",
+                        answer: ["have", "no", "clue", "why", "the", "meeting", "was", "called", "off"],
+                        shuffled: ["have", "called", "clue", "was", "meeting", "off", "why", "no", "the"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "He exercises every day because he wants to be healthy.",
+                        answer: ["work", "out", "daily", "in", "order", "to", "stay", "fit"],
+                        shuffled: ["out", "daily", "work", "stay", "order", "fit", "in", "to"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "The movie was so boring that I fell asleep.",
+                        answer: ["couldn't", "stay", "awake", "because", "the", "movie", "was", "tedious"],
+                        shuffled: ["stay", "couldn't", "was", "awake", "movie", "because", "tedious", "the"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "She asked me if I could help her with her homework.",
+                        answer: ["was", "asked", "to", "give", "her", "a", "hand", "with", "her", "assignment"],
+                        shuffled: ["her", "was", "hand", "give", "assignment", "to", "her", "with", "a", "asked"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "They have been waiting for hours.",
+                        answer: ["have", "been", "here", "for", "what", "seems", "like", "forever"],
+                        shuffled: ["like", "have", "seems", "for", "been", "forever", "here", "what"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "He is too young to understand the situation.",
+                        answer: ["am", "not", "old", "enough", "to", "comprehend", "this", "situation"],
+                        shuffled: ["not", "comprehend", "am", "enough", "old", "situation", "this", "to"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "We haven't seen each other for a long time.",
+                        answer: ["haven't", "met", "up", "with", "them", "in", "quite", "a", "while"],
+                        shuffled: ["in", "haven't", "up", "a", "while", "met", "them", "with", "quite"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "She regrets not studying harder for the exam.",
+                        answer: ["wish", "she", "had", "put", "more", "effort", "into", "preparing"],
+                        shuffled: ["put", "wish", "more", "had", "into", "effort", "preparing", "she"],
+                        difficulty: "medium"
+                    },
+                    // HARD - 10 sentences (5 inversion + 5 complex regular - mixed)
+                    {
+                        question: "Despite being wealthy, he lives very modestly.",
+                        answer: ["may", "be", "rich", "but", "he", "leads", "a", "simple", "lifestyle"],
+                        shuffled: ["leads", "may", "lifestyle", "but", "rich", "a", "be", "simple", "he"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "No sooner had he arrived than the meeting started.",
+                        answer: ["had", "barely", "gotten", "there", "when", "the", "meeting", "commenced"],
+                        shuffled: ["gotten", "had", "commenced", "when", "barely", "meeting", "the", "there"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "She would rather have stayed home than gone to the party.",
+                        answer: ["would", "have", "preferred", "staying", "home", "to", "attending", "the", "party"],
+                        shuffled: ["preferred", "would", "the", "staying", "have", "attending", "home", "party", "to"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "Hardly had she finished speaking when everyone applauded.",
+                        answer: ["had", "just", "finished", "speaking", "when", "the", "audience", "erupted", "in", "applause"],
+                        shuffled: ["finished", "had", "applause", "when", "speaking", "erupted", "just", "audience", "in", "the"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "By the time we arrive, they will have already left.",
+                        answer: ["expect", "them", "to", "have", "departed", "before", "we", "even", "get", "there"],
+                        shuffled: ["have", "expect", "there", "departed", "them", "even", "before", "to", "we", "get"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "Not only did she win, but she also broke the record.",
+                        answer: ["didn't", "just", "win", "but", "also", "shattered", "the", "previous", "record"],
+                        shuffled: ["also", "didn't", "shattered", "but", "just", "previous", "win", "record", "the"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "It must have been difficult for her to make that decision.",
+                        answer: ["can", "only", "imagine", "how", "challenging", "that", "decision", "must", "have", "been"],
+                        shuffled: ["imagine", "can", "been", "how", "only", "must", "challenging", "have", "decision", "that"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "Under no circumstances should you reveal this information.",
+                        answer: ["mustn't", "disclose", "this", "information", "under", "any", "circumstances", "whatsoever"],
+                        shuffled: ["disclose", "mustn't", "whatsoever", "information", "any", "this", "under", "circumstances"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "He couldn't have passed the exam without your help.",
+                        answer: ["believe", "your", "assistance", "was", "crucial", "for", "him", "to", "succeed"],
+                        shuffled: ["was", "believe", "succeed", "assistance", "crucial", "your", "him", "for", "to"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "Were it not for his help, we would have failed.",
+                        answer: ["would", "have", "failed", "miserably", "without", "his", "invaluable", "assistance"],
+                        shuffled: ["failed", "would", "invaluable", "miserably", "have", "assistance", "his", "without"],
+                        difficulty: "hard"
+                    }
+                ],
+                filteredSentences: [],
+                filterDifficulty: 'all',
+                currentIndex: 0,
+                slots: [],
+                availableWords: [],
+                draggedWord: null,
+                draggedIndex: null,
+                dragOverSlot: null,
+                showFeedback: false,
+                isCorrect: false,
+                score: 0,
+                showResults: false,
+
+                init() {
+                    this.filterSentences();
+                },
+
+                filterSentences() {
+                    if (this.filterDifficulty === 'all') {
+                        this.filteredSentences = [...this.sentences];
+                    } else {
+                        this.filteredSentences = this.sentences.filter(s => s.difficulty === this.filterDifficulty);
+                    }
+                    this.restart();
+                },
+
+                get currentSentence() {
+                    return this.filteredSentences[this.currentIndex];
+                },
+
+                setupCurrentSentence() {
+                    if (!this.currentSentence) return;
+                    const answerLength = this.currentSentence.answer.length;
+                    this.slots = Array(answerLength).fill(null);
+                    this.availableWords = [...this.currentSentence.shuffled];
+                    this.showFeedback = false;
+                },
+
+                handleDragStart(event, word, index) {
+                    this.draggedWord = word;
+                    this.draggedIndex = index;
+                    event.target.classList.add('dragging');
+                    event.dataTransfer.effectAllowed = 'move';
+                },
+
+                handleDragEnd(event) {
+                    event.target.classList.remove('dragging');
+                    this.draggedWord = null;
+                    this.draggedIndex = null;
+                    this.dragOverSlot = null;
+                },
+
+                handleDragOver(event, slotIndex) {
+                    if (this.slots[slotIndex] === null) {
+                        this.dragOverSlot = slotIndex;
+                    }
+                },
+
+                handleDragLeave(event, slotIndex) {
+                    if (this.dragOverSlot === slotIndex) {
+                        this.dragOverSlot = null;
+                    }
+                },
+
+                handleDrop(event, slotIndex) {
+                    if (this.slots[slotIndex] === null && this.draggedWord) {
+                        this.slots[slotIndex] = this.draggedWord;
+                        this.availableWords.splice(this.draggedIndex, 1);
+                    }
+                    this.dragOverSlot = null;
+                },
+
+                placeWord(word, index) {
+                    // Find first empty slot
+                    const emptySlotIndex = this.slots.findIndex(s => s === null);
+                    if (emptySlotIndex !== -1) {
+                        this.slots[emptySlotIndex] = word;
+                        this.availableWords.splice(index, 1);
+                    }
+                },
+
+                removeFromSlot(slotIndex) {
+                    if (this.slots[slotIndex] !== null && !this.showFeedback) {
+                        this.availableWords.push(this.slots[slotIndex]);
+                        this.slots[slotIndex] = null;
+                    }
+                },
+
+                allSlotsFilled() {
+                    return this.slots.every(s => s !== null);
+                },
+
+                checkAnswer() {
+                    if (!this.allSlotsFilled()) return;
+
+                    const userAnswer = this.slots.join(' ');
+                    const correctAnswer = this.currentSentence.answer.join(' ');
+
+                    this.isCorrect = userAnswer === correctAnswer;
+                    if (this.isCorrect) this.score++;
+                    this.showFeedback = true;
+                },
+
+                nextSentence() {
+                    if (this.currentIndex < this.filteredSentences.length - 1) {
+                        this.currentIndex++;
+                        this.setupCurrentSentence();
+                    } else {
+                        this.showResults = true;
+                    }
+                },
+
+                resetCurrentSentence() {
+                    this.setupCurrentSentence();
+                },
+
+                restart() {
+                    this.currentIndex = 0;
+                    this.score = 0;
+                    this.showResults = false;
+                    this.showFeedback = false;
+                    this.setupCurrentSentence();
+                },
+
+                getScoreMessage() {
+                    const percentage = (this.score / this.filteredSentences.length) * 100;
+                    if (percentage === 100) return "Perfect! You're a master! 🏆";
+                    if (percentage >= 80) return "Excellent work! Keep it up! 🌟";
+                    if (percentage >= 60) return "Good job! Room for improvement! 💪";
+                    if (percentage >= 40) return "Keep practicing! You'll get there! 📚";
+                    return "Don't give up! Practice makes perfect! 🎯";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
