@@ -175,6 +175,23 @@
                 <span class="ml-4 text-pink-400">Score: <span x-text="score"></span></span>
             </p>
 
+            <!-- Navigation Buttons -->
+            <div x-show="!showResults" class="flex justify-between items-center mb-4">
+                <button @click="goToPrevious()" :disabled="currentIndex === 0"
+                    :class="currentIndex === 0 ? 'bg-white/5 text-white/30 cursor-not-allowed' : 'bg-white/10 hover:bg-white/20 text-white'"
+                    class="font-semibold py-2 px-6 rounded-full transition-all flex items-center gap-2">
+                    ← Previous
+                </button>
+                <span class="text-white/60 text-sm">
+                    <span x-text="currentIndex + 1"></span> / <span x-text="filteredSentences.length"></span>
+                </span>
+                <button @click="goToNext()" :disabled="currentIndex === filteredSentences.length - 1"
+                    :class="currentIndex === filteredSentences.length - 1 ? 'bg-white/5 text-white/30 cursor-not-allowed' : 'bg-white/10 hover:bg-white/20 text-white'"
+                    class="font-semibold py-2 px-6 rounded-full transition-all flex items-center gap-2">
+                    Next →
+                </button>
+            </div>
+
             <!-- Question Card -->
             <div x-show="!showResults" class="bg-black/30 backdrop-blur-xl rounded-2xl p-8 border border-white/10">
 
@@ -515,6 +532,20 @@
 
                 resetCurrentSentence() {
                     this.setupCurrentSentence();
+                },
+
+                goToPrevious() {
+                    if (this.currentIndex > 0) {
+                        this.currentIndex--;
+                        this.setupCurrentSentence();
+                    }
+                },
+
+                goToNext() {
+                    if (this.currentIndex < this.filteredSentences.length - 1) {
+                        this.currentIndex++;
+                        this.setupCurrentSentence();
+                    }
                 },
 
                 restart() {
