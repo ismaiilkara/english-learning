@@ -186,7 +186,6 @@
 
                 <!-- Drop Zone - Sentence Building Area -->
                 <div class="bg-black/20 rounded-xl p-6 mb-8 border-2 border-dashed border-white/20">
-                    <p class="text-white/40 text-sm mb-4 text-center">I</p>
                     <div class="flex flex-wrap gap-3 min-h-[60px] justify-center items-center">
                         <template x-for="(slot, index) in slots" :key="index">
                             <div class="flex items-center gap-1">
@@ -205,7 +204,6 @@
                             </div>
                         </template>
                     </div>
-                    <p class="text-white/40 text-sm mt-4 text-center">.</p>
                 </div>
 
                 <!-- Word Bank -->
@@ -245,7 +243,7 @@
                             <span>❌ Not quite.</span>
                             <p class="mt-2 text-sm text-white/80">Correct answer: <span
                                     class="text-green-400 font-medium"
-                                    x-text="'I ' + currentSentence?.answer.join(' ') + '.'"></span></p>
+                                    x-text="currentSentence?.answer.join(' ')"></span></p>
                         </div>
                     </div>
 
@@ -282,124 +280,124 @@
                 sentences: [
                     // MEDIUM - 10 sentences
                     {
-                        question: "Do you know what time their flight will get to the airport?",
-                        answer: ["have", "no", "idea", "when", "they", "are", "arriving"],
-                        shuffled: ["no", "leaving", "are", "when", "arriving", "idea", "have", "they"],
+                        question: "A: Do you know what time their flight arrives?",
+                        answer: ["I", "have", "no", "idea", "when", "they", "are", "arriving."],
+                        shuffled: ["no", "leaving", "are", "when", "arriving.", "idea", "have", "I", "they"],
                         difficulty: "medium"
                     },
                     {
-                        question: "She said she would come to the party, but she didn't.",
-                        answer: ["was", "supposed", "to", "come", "but", "she", "never", "showed", "up"],
-                        shuffled: ["was", "supposed", "showed", "come", "never", "but", "to", "up", "she"],
+                        question: "A: Did Sarah come to the party last night?",
+                        answer: ["She", "was", "supposed", "to", "come", "but", "never", "showed", "up."],
+                        shuffled: ["was", "supposed", "showed", "come", "never", "but", "to", "up.", "She"],
                         difficulty: "medium"
                     },
                     {
-                        question: "I don't know why they cancelled the meeting.",
-                        answer: ["have", "no", "clue", "why", "the", "meeting", "was", "called", "off"],
-                        shuffled: ["have", "called", "clue", "was", "meeting", "off", "why", "no", "the"],
+                        question: "A: Why was the meeting cancelled?",
+                        answer: ["I", "have", "no", "clue", "why", "the", "meeting", "was", "called", "off."],
+                        shuffled: ["have", "called", "clue", "was", "meeting", "off.", "why", "no", "the", "I"],
                         difficulty: "medium"
                     },
                     {
-                        question: "He exercises every day because he wants to be healthy.",
-                        answer: ["work", "out", "daily", "in", "order", "to", "stay", "fit"],
-                        shuffled: ["out", "daily", "work", "stay", "order", "fit", "in", "to"],
+                        question: "A: Why does John go to the gym every day?",
+                        answer: ["He", "works", "out", "daily", "in", "order", "to", "stay", "fit."],
+                        shuffled: ["out", "daily", "works", "stay", "order", "fit.", "in", "to", "He"],
                         difficulty: "medium"
                     },
                     {
-                        question: "The movie was so boring that I fell asleep.",
-                        answer: ["couldn't", "stay", "awake", "because", "the", "movie", "was", "tedious"],
-                        shuffled: ["stay", "couldn't", "was", "awake", "movie", "because", "tedious", "the"],
+                        question: "A: Did you enjoy the movie?",
+                        answer: ["I", "couldn't", "stay", "awake", "because", "the", "movie", "was", "tedious."],
+                        shuffled: ["stay", "couldn't", "was", "awake", "movie", "because", "tedious.", "the", "I"],
                         difficulty: "medium"
                     },
                     {
-                        question: "She asked me if I could help her with her homework.",
-                        answer: ["was", "asked", "to", "give", "her", "a", "hand", "with", "her", "assignment"],
-                        shuffled: ["her", "was", "hand", "give", "assignment", "to", "her", "with", "a", "asked"],
+                        question: "A: Why did Emma call you yesterday?",
+                        answer: ["I", "was", "asked", "to", "give", "her", "a", "hand", "with", "her", "assignment."],
+                        shuffled: ["her", "was", "hand", "give", "assignment.", "to", "her", "with", "a", "asked", "I"],
                         difficulty: "medium"
                     },
                     {
-                        question: "They have been waiting for hours.",
-                        answer: ["have", "been", "here", "for", "what", "seems", "like", "forever"],
-                        shuffled: ["like", "have", "seems", "for", "been", "forever", "here", "what"],
+                        question: "A: How long have they been at the airport?",
+                        answer: ["They", "have", "been", "here", "for", "what", "seems", "like", "forever."],
+                        shuffled: ["like", "have", "seems", "for", "been", "forever.", "here", "what", "They"],
                         difficulty: "medium"
                     },
                     {
-                        question: "He is too young to understand the situation.",
-                        answer: ["am", "not", "old", "enough", "to", "comprehend", "this", "situation"],
-                        shuffled: ["not", "comprehend", "am", "enough", "old", "situation", "this", "to"],
+                        question: "A: Does your little brother understand what's happening?",
+                        answer: ["He", "is", "not", "old", "enough", "to", "comprehend", "this", "situation."],
+                        shuffled: ["not", "comprehend", "is", "enough", "old", "situation.", "this", "to", "He"],
                         difficulty: "medium"
                     },
                     {
-                        question: "We haven't seen each other for a long time.",
-                        answer: ["haven't", "met", "up", "with", "them", "in", "quite", "a", "while"],
-                        shuffled: ["in", "haven't", "up", "a", "while", "met", "them", "with", "quite"],
+                        question: "A: When did you last see your old classmates?",
+                        answer: ["We", "haven't", "met", "up", "in", "quite", "a", "while."],
+                        shuffled: ["in", "haven't", "up", "a", "while.", "met", "We", "quite"],
                         difficulty: "medium"
                     },
                     {
-                        question: "She regrets not studying harder for the exam.",
-                        answer: ["wish", "she", "had", "put", "more", "effort", "into", "preparing"],
-                        shuffled: ["put", "wish", "more", "had", "into", "effort", "preparing", "she"],
+                        question: "A: How does Lisa feel about her exam results?",
+                        answer: ["She", "wishes", "she", "had", "put", "more", "effort", "into", "preparing."],
+                        shuffled: ["put", "wishes", "more", "had", "into", "effort", "preparing.", "she", "She"],
                         difficulty: "medium"
                     },
                     // HARD - 10 sentences (5 inversion + 5 complex regular - mixed)
                     {
-                        question: "Despite being wealthy, he lives very modestly.",
-                        answer: ["may", "be", "rich", "but", "he", "leads", "a", "simple", "lifestyle"],
-                        shuffled: ["leads", "may", "lifestyle", "but", "rich", "a", "be", "simple", "he"],
+                        question: "A: I heard Mr. Thompson is a billionaire but lives in a small apartment.",
+                        answer: ["He", "may", "be", "rich", "but", "he", "leads", "a", "simple", "lifestyle."],
+                        shuffled: ["leads", "may", "lifestyle.", "but", "rich", "a", "be", "simple", "he", "He"],
                         difficulty: "hard"
                     },
                     {
-                        question: "No sooner had he arrived than the meeting started.",
-                        answer: ["had", "barely", "gotten", "there", "when", "the", "meeting", "commenced"],
-                        shuffled: ["gotten", "had", "commenced", "when", "barely", "meeting", "the", "there"],
+                        question: "A: Did James miss the beginning of the meeting?",
+                        answer: ["He", "had", "barely", "gotten", "there", "when", "the", "meeting", "commenced."],
+                        shuffled: ["gotten", "had", "commenced.", "when", "barely", "meeting", "the", "there", "He"],
                         difficulty: "hard"
                     },
                     {
-                        question: "She would rather have stayed home than gone to the party.",
-                        answer: ["would", "have", "preferred", "staying", "home", "to", "attending", "the", "party"],
-                        shuffled: ["preferred", "would", "the", "staying", "have", "attending", "home", "party", "to"],
+                        question: "A: Did Maria enjoy the party last night?",
+                        answer: ["She", "would", "have", "preferred", "staying", "home", "to", "attending", "the", "party."],
+                        shuffled: ["preferred", "would", "the", "staying", "have", "attending", "home", "party.", "to", "She"],
                         difficulty: "hard"
                     },
                     {
-                        question: "Hardly had she finished speaking when everyone applauded.",
-                        answer: ["had", "just", "finished", "speaking", "when", "the", "audience", "erupted", "in", "applause"],
-                        shuffled: ["finished", "had", "applause", "when", "speaking", "erupted", "just", "audience", "in", "the"],
+                        question: "A: How did the audience react to the speaker's final words?",
+                        answer: ["She", "had", "just", "finished", "speaking", "when", "the", "audience", "erupted", "in", "applause."],
+                        shuffled: ["finished", "had", "applause.", "when", "speaking", "erupted", "just", "audience", "in", "the", "She"],
                         difficulty: "hard"
                     },
                     {
-                        question: "By the time we arrive, they will have already left.",
-                        answer: ["expect", "them", "to", "have", "departed", "before", "we", "even", "get", "there"],
-                        shuffled: ["have", "expect", "there", "departed", "them", "even", "before", "to", "we", "get"],
+                        question: "A: Will they still be there when we arrive tomorrow?",
+                        answer: ["I", "expect", "them", "to", "have", "departed", "before", "we", "even", "get", "there."],
+                        shuffled: ["have", "expect", "there.", "departed", "them", "even", "before", "to", "we", "get", "I"],
                         difficulty: "hard"
                     },
                     {
-                        question: "Not only did she win, but she also broke the record.",
-                        answer: ["didn't", "just", "win", "but", "also", "shattered", "the", "previous", "record"],
-                        shuffled: ["also", "didn't", "shattered", "but", "just", "previous", "win", "record", "the"],
+                        question: "A: I heard Anna won the competition. Is that true?",
+                        answer: ["She", "didn't", "just", "win", "but", "also", "shattered", "the", "previous", "record."],
+                        shuffled: ["also", "didn't", "shattered", "but", "just", "previous", "win", "record.", "the", "She"],
                         difficulty: "hard"
                     },
                     {
-                        question: "It must have been difficult for her to make that decision.",
-                        answer: ["can", "only", "imagine", "how", "challenging", "that", "decision", "must", "have", "been"],
-                        shuffled: ["imagine", "can", "been", "how", "only", "must", "challenging", "have", "decision", "that"],
+                        question: "A: Do you think it was hard for her to quit her job?",
+                        answer: ["I", "can", "only", "imagine", "how", "challenging", "that", "decision", "must", "have", "been."],
+                        shuffled: ["imagine", "can", "been.", "how", "only", "must", "challenging", "have", "decision", "that", "I"],
                         difficulty: "hard"
                     },
                     {
-                        question: "Under no circumstances should you reveal this information.",
-                        answer: ["mustn't", "disclose", "this", "information", "under", "any", "circumstances", "whatsoever"],
-                        shuffled: ["disclose", "mustn't", "whatsoever", "information", "any", "this", "under", "circumstances"],
+                        question: "A: Can I tell my friends about this secret project?",
+                        answer: ["You", "mustn't", "disclose", "this", "information", "under", "any", "circumstances", "whatsoever."],
+                        shuffled: ["disclose", "mustn't", "whatsoever.", "information", "any", "this", "under", "circumstances", "You"],
                         difficulty: "hard"
                     },
                     {
-                        question: "He couldn't have passed the exam without your help.",
-                        answer: ["believe", "your", "assistance", "was", "crucial", "for", "him", "to", "succeed"],
-                        shuffled: ["was", "believe", "succeed", "assistance", "crucial", "your", "him", "for", "to"],
+                        question: "A: How did Tom manage to pass that difficult exam?",
+                        answer: ["I", "believe", "your", "assistance", "was", "crucial", "for", "him", "to", "succeed."],
+                        shuffled: ["was", "believe", "succeed.", "assistance", "crucial", "your", "him", "for", "to", "I"],
                         difficulty: "hard"
                     },
                     {
-                        question: "Were it not for his help, we would have failed.",
-                        answer: ["would", "have", "failed", "miserably", "without", "his", "invaluable", "assistance"],
-                        shuffled: ["failed", "would", "invaluable", "miserably", "have", "assistance", "his", "without"],
+                        question: "A: What would have happened if David hadn't helped you?",
+                        answer: ["We", "would", "have", "failed", "miserably", "without", "his", "invaluable", "assistance."],
+                        shuffled: ["failed", "would", "invaluable", "miserably", "have", "assistance.", "his", "without", "We"],
                         difficulty: "hard"
                     }
                 ],
