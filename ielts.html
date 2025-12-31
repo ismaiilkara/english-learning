@@ -7,34 +7,59 @@
     <title>IELTS Practice - English Learning Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+        * {
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        html, body {
+            background: linear-gradient(135deg, #0c0c1d 0%, #1a1a3e 50%, #0d1f3c 100%);
             min-height: 100vh;
         }
 
+        body.no-scroll {
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .section-btn {
+            transition: all 0.3s ease;
+        }
+
+        .section-btn:hover {
+            transform: translateY(-4px);
+        }
+
         .passage-text {
-            line-height: 1.8;
+            line-height: 1.9;
         }
 
         .passage-text p {
-            margin-bottom: 1rem;
-            text-indent: 0;
+            margin-bottom: 1.25rem;
         }
 
         .paragraph-label {
-            color: #ec4899;
+            color: #f472b6;
             font-weight: bold;
             margin-right: 0.5rem;
         }
 
         .question-card {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
         }
 
         .radio-option:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.08);
         }
 
         .radio-option.selected {
@@ -54,7 +79,7 @@
 
         .fill-input {
             background: rgba(0, 0, 0, 0.3);
-            border: 2px solid rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.15);
         }
 
         .fill-input:focus {
@@ -73,221 +98,624 @@
         }
 
         ::-webkit-scrollbar {
-            width: 8px;
+            width: 6px;
         }
 
         ::-webkit-scrollbar-track {
-            background: rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.02);
         }
 
         ::-webkit-scrollbar-thumb {
-            background: rgba(255, 255, 255, 0.2);
-            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 3px;
+        }
+
+        .fade-in {
+            animation: fadeIn 0.4s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .section-btn:hover {
+                transform: none;
+            }
         }
     </style>
 </head>
 
 <body class="text-white" x-data="ieltsApp()">
 
-    <!-- Navigation -->
-    <nav class="bg-black/30 backdrop-blur-xl border-b border-white/10 px-8 py-4 sticky top-0 z-50">
-        <div class="flex items-center justify-between">
-            <div class="flex items-center gap-6">
-                <a href="index.html" class="text-2xl font-bold">
-                    🎓 <span class="bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">IELTS
-                        Practice</span>
+    <!-- ==================== TEST LIST VIEW ==================== -->
+    <div x-show="currentView === 'list'" class="min-h-screen">
+        
+        <!-- Header -->
+        <header class="glass-card sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+                <a href="index.html" class="flex items-center gap-3 text-white/60 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                    <span>Ana Sayfa</span>
                 </a>
-                <!-- Test Set Selector -->
-                <select x-model="selectedTestSet" @change="loadTestSet()"
-                    class="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white">
-                    <template x-for="test in testSets" :key="test.id">
-                        <option :value="test.id" x-text="test.name" class="bg-gray-800"></option>
-                    </template>
-                </select>
-                <!-- Passage Selector -->
-                <select x-model="currentPassageIndex" @change="loadPassage()"
-                    class="bg-white/10 border border-white/20 rounded-lg px-4 py-2 text-white">
-                    <template x-for="(passage, index) in currentPassages" :key="index">
-                        <option :value="index" x-text="'Passage ' + (index + 1)" class="bg-gray-800"></option>
-                    </template>
-                </select>
+                <h1 class="text-xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent">
+                    🎓 IELTS Practice Tests
+                </h1>
+                <div class="w-24"></div>
             </div>
-            <!-- Section Tabs -->
-            <div class="flex gap-2">
-                <button @click="currentSection = 'reading'"
-                    :class="currentSection === 'reading' ? 'bg-pink-500' : 'bg-white/10 hover:bg-white/20'"
-                    class="px-6 py-2 rounded-full font-semibold transition-all">
-                    📖 Reading
-                </button>
-                <button @click="currentSection = 'listening'"
-                    :class="currentSection === 'listening' ? 'bg-green-500' : 'bg-white/10 hover:bg-white/20'"
-                    class="px-6 py-2 rounded-full font-semibold transition-all">
-                    🎧 Listening
-                </button>
-                <button class="px-6 py-2 rounded-full font-semibold bg-white/10 opacity-50 cursor-not-allowed" disabled>
-                    ✍️ Writing
-                </button>
-                <button class="px-6 py-2 rounded-full font-semibold bg-white/10 opacity-50 cursor-not-allowed" disabled>
-                    🗣️ Speaking
-                </button>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-5xl mx-auto px-6 py-12">
+            
+            <!-- Page Title -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-white mb-4">Cambridge IELTS Tests</h2>
+                <p class="text-white/50 text-lg">Seç ve pratik yapmaya başla</p>
             </div>
-        </div>
-    </nav>
 
-    <!-- Main Content - Reading Section -->
-    <div x-show="currentSection === 'reading'" class="flex h-[calc(100vh-72px)]">
-
-        <!-- Left Panel - Passage -->
-        <div class="w-1/2 p-6 overflow-auto border-r border-white/10">
-            <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                <h2 class="text-2xl font-bold mb-4 text-pink-400" x-text="currentPassage?.title"></h2>
-                <p class="text-white/60 text-sm mb-4 italic" x-text="currentPassage?.subtitle"></p>
-                <div class="passage-text text-white/90 text-lg" x-html="currentPassage?.content"></div>
-            </div>
-        </div>
-
-        <!-- Right Panel - Questions -->
-        <div class="w-1/2 p-6 overflow-auto">
+            <!-- Tests Grid -->
             <div class="space-y-6">
+                    <template x-for="(test, index) in testSets" :key="test.id">
+                    <div class="glass-card rounded-2xl p-6 fade-in" :style="'animation-delay: ' + (index * 0.1) + 's'">
+                        
+                        <!-- Test Header -->
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center text-2xl font-bold">
+                                <span x-text="test.id"></span>
+                            </div>
+                                <div>
+                                <h3 class="text-xl font-bold text-white" x-text="test.name"></h3>
+                                <p class="text-white/50 text-sm" x-text="test.subtitle"></p>
+                                </div>
+                            </div>
 
-                <!-- Questions Section -->
-                <template x-for="(section, sectionIndex) in currentPassage?.questions" :key="sectionIndex">
-                    <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
+                        <!-- Section Buttons -->
+                        <div class="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
+                            
+                            <!-- Reading -->
+                            <button @click="openSection(test.id, 'reading')" 
+                                class="section-btn group relative overflow-hidden rounded-xl p-5 text-left"
+                                style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.15) 0%, rgba(236, 72, 153, 0.05) 100%); border: 1px solid rgba(236, 72, 153, 0.2);">
+                                <div class="relative z-10">
+                                    <div class="text-3xl mb-3">📖</div>
+                                    <h4 class="font-semibold text-white mb-1">Reading</h4>
+                                    <p class="text-xs text-white/50">3 Passages • 40 Questions</p>
+                                </div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-pink-500/20 to-pink-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        </button>
 
-                        <!-- Section Header -->
-                        <div class="mb-6">
-                            <h3 class="text-xl font-bold text-yellow-400 mb-2" x-text="section.title"></h3>
-                            <p class="text-white/60 text-sm" x-text="section.instructions"></p>
+                            <!-- Listening -->
+                            <button @click="openSection(test.id, 'listening')" 
+                                class="section-btn group relative overflow-hidden rounded-xl p-5 text-left"
+                                style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15) 0%, rgba(34, 197, 94, 0.05) 100%); border: 1px solid rgba(34, 197, 94, 0.2);">
+                                <div class="relative z-10">
+                                    <div class="text-3xl mb-3">🎧</div>
+                                    <h4 class="font-semibold text-white mb-1">Listening</h4>
+                                    <p class="text-xs text-white/50">4 Parts • 40 Questions</p>
+                </div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-green-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            </button>
+
+                            <!-- Writing -->
+                            <button @click="openSection(test.id, 'writing')" 
+                                class="section-btn group relative overflow-hidden rounded-xl p-5 text-left"
+                                style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(59, 130, 246, 0.05) 100%); border: 1px solid rgba(59, 130, 246, 0.2);">
+                                <div class="relative z-10">
+                                    <div class="text-3xl mb-3">✍️</div>
+                                    <h4 class="font-semibold text-white mb-1">Writing</h4>
+                                    <p class="text-xs text-white/50">2 Tasks • 60 Minutes</p>
+            </div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            </button>
+
+                            <!-- Speaking -->
+                            <button @click="openSection(test.id, 'speaking')" 
+                                class="section-btn group relative overflow-hidden rounded-xl p-5 text-left"
+                                style="background: linear-gradient(135deg, rgba(249, 115, 22, 0.15) 0%, rgba(249, 115, 22, 0.05) 100%); border: 1px solid rgba(249, 115, 22, 0.2);">
+                                <div class="relative z-10">
+                                    <div class="text-3xl mb-3">🗣️</div>
+                                    <h4 class="font-semibold text-white mb-1">Speaking</h4>
+                                    <p class="text-xs text-white/50">3 Parts • 15 Minutes</p>
+            </div>
+                                <div class="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-orange-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            </button>
+
                         </div>
+                    </div>
+                        </template>
+                    </div>
 
-                        <!-- TRUE/FALSE/NOT GIVEN Questions -->
-                        <template x-if="section.type === 'tfng'">
-                            <div class="space-y-4">
-                                <template x-for="(q, qIndex) in section.items" :key="qIndex">
-                                    <div class="question-card rounded-xl p-4">
-                                        <p class="text-white mb-3">
-                                            <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                            <span x-text="q.text"></span>
-                                        </p>
-                                        <div class="flex gap-3">
-                                            <template x-for="option in ['TRUE', 'FALSE', 'NOT GIVEN']" :key="option">
-                                                <button @click="!submitted && setAnswer(q.number, option)" :class="{
+        </main>
+    </div>
+
+
+<!-- ==================== READING SECTION VIEW ==================== -->
+    <div x-show="currentView === 'reading'" class="h-screen flex flex-col overflow-hidden">
+        
+        <!-- Header -->
+        <header class="glass-card flex-shrink-0 z-50">
+            <div class="max-w-7xl mx-auto px-3 md:px-6 py-3 md:py-4 flex flex-col md:flex-row items-center gap-3 md:justify-between">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                    <button @click="currentView = 'list'" class="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                        </svg>
+                        <span class="hidden sm:inline">Testlere Dön</span>
+                    </button>
+                    <div class="text-pink-400 font-semibold md:hidden">📖 Reading</div>
+                </div>
+                
+                <div class="flex flex-col sm:flex-row items-center gap-2 md:gap-4 w-full md:w-auto">
+                    <span class="text-white font-semibold text-sm md:text-base hidden md:block" x-text="currentTestData?.name + ' - Reading'"></span>
+                    <div class="flex gap-2 flex-wrap justify-center">
+                                <template x-for="(passage, index) in currentPassages" :key="index">
+                            <button @click="currentPassageIndex = index; loadPassage(); showPassagePanel = true"
+                                :class="currentPassageIndex === index ? 'bg-pink-500 text-white' : 'bg-white/10 hover:bg-white/20 text-white/70'"
+                                class="px-3 md:px-4 py-1.5 md:py-2 rounded-lg font-semibold transition-all text-xs md:text-sm">
+                                <span x-text="'Passage ' + (index + 1)"></span>
+                            </button>
+                        </template>
+                    </div>
+                    </div>
+
+                <div class="text-pink-400 font-semibold hidden md:block">📖 Reading</div>
+            </div>
+            
+            <!-- Mobile Panel Toggle -->
+            <div class="md:hidden flex border-t border-white/10">
+                <button @click="showPassagePanel = true" 
+                    :class="showPassagePanel ? 'bg-pink-500/20 text-pink-400 border-b-2 border-pink-500' : 'text-white/60'"
+                    class="flex-1 py-2 text-sm font-medium transition-all">
+                    📖 Passage
+                        </button>
+                <button @click="showPassagePanel = false"
+                    :class="!showPassagePanel ? 'bg-yellow-500/20 text-yellow-400 border-b-2 border-yellow-500' : 'text-white/60'"
+                    class="flex-1 py-2 text-sm font-medium transition-all">
+                    ❓ Questions
+                        </button>
+                    </div>
+        </header>
+
+        <!-- Content -->
+        <div class="flex flex-1 min-h-0">
+
+                <!-- Left Panel - Passage -->
+            <div class="w-full md:w-1/2 h-full overflow-y-auto border-r border-white/10"
+                 :class="{'hidden md:block': !showPassagePanel}">
+                <div class="p-4 md:p-6">
+                    <div class="glass-card rounded-2xl p-4 md:p-6">
+                        <h2 class="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-pink-400" x-text="currentPassage?.title"></h2>
+                        <p class="text-white/50 text-xs md:text-sm mb-4 md:mb-6 italic" x-text="currentPassage?.subtitle"></p>
+                        <div class="passage-text text-white/85 text-sm md:text-[15px]" x-html="currentPassage?.content"></div>
+                    </div>
+                    </div>
+                </div>
+
+                <!-- Right Panel - Questions -->
+            <div class="w-full md:w-1/2 h-full overflow-y-auto"
+                 :class="{'hidden md:block': showPassagePanel}">
+                <div class="p-4 md:p-6 space-y-4 md:space-y-6">
+                        <template x-for="(section, sectionIndex) in currentPassage?.questions" :key="sectionIndex">
+                        <div class="glass-card rounded-2xl p-6">
+
+                                <!-- Section Header -->
+                                <div class="mb-6">
+                                <h3 class="text-lg font-bold text-yellow-400 mb-2" x-text="section.title"></h3>
+                                <p class="text-white/50 text-sm" x-text="section.instructions"></p>
+                                </div>
+
+                            <!-- TRUE/FALSE/NOT GIVEN -->
+                                <template x-if="section.type === 'tfng'">
+                                    <div class="space-y-4">
+                                    <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
+                                                <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span x-text="q.text"></span>
+                                                </p>
+                                            <div class="flex gap-2">
+                                                <template x-for="option in ['TRUE', 'FALSE', 'NOT GIVEN']" :key="option">
+                                                        <button @click="!submitted && setAnswer(q.number, option)"
+                                                            :class="{
                                                         'selected': answers[q.number] === option && !submitted,
                                                         'correct': submitted && q.answer === option,
                                                         'incorrect': submitted && answers[q.number] === option && q.answer !== option
-                                                    }"
-                                                    class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                    :disabled="submitted">
-                                                    <span x-text="option"></span>
-                                                </button>
-                                            </template>
-                                        </div>
+                                                        }"
+                                                        class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                            :disabled="submitted">
+                                                            <span x-text="option"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
                                     </div>
                                 </template>
-                            </div>
-                        </template>
 
-                        <!-- MATCHING PARAGRAPHS Questions -->
-                        <template x-if="section.type === 'matching'">
-                            <div class="space-y-4">
-                                <template x-for="(q, qIndex) in section.items" :key="qIndex">
-                                    <div class="question-card rounded-xl p-4">
-                                        <p class="text-white mb-3">
-                                            <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                            <span x-text="q.text"></span>
-                                        </p>
-                                        <div class="flex gap-2 flex-wrap">
-                                            <template x-for="option in section.options" :key="option">
-                                                <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                        'selected': answers[q.number] === option && !submitted,
-                                                        'correct': submitted && q.answer === option,
-                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
-                                                    }"
-                                                    class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                    :disabled="submitted">
-                                                    <span x-text="option"></span>
-                                                </button>
-                                            </template>
+                            <!-- YES/NO/NOT GIVEN -->
+                            <template x-if="section.type === 'yesNoNotGiven'">
+                                <div class="space-y-4">
+                                    <template x-for="q in section.items" :key="q.number">
+                                        <div class="question-card rounded-xl p-4">
+                                            <p class="text-white mb-3">
+                                                <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                <span x-text="q.text"></span>
+                                            </p>
+                                            <div class="flex gap-2">
+                                                <template x-for="option in ['YES', 'NO', 'NOT GIVEN']" :key="option">
+                                                    <button @click="!submitted && setAnswer(q.number, option)"
+                                                        :class="{
+                                                            'selected': answers[q.number] === option && !submitted,
+                                                            'correct': submitted && q.answer === option,
+                                                            'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                        }"
+                                                        class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                        :disabled="submitted">
+                                                        <span x-text="option"></span>
+                                                    </button>
+                                                </template>
+                                            </div>
                                         </div>
-                                    </div>
-                                </template>
-                            </div>
-                        </template>
-
-                        <!-- MATCHING PEOPLE Questions -->
-                        <template x-if="section.type === 'matchPeople'">
-                            <div class="space-y-4">
-                                <!-- People List -->
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
-                                    <p class="text-white/80 font-semibold mb-2">List of People:</p>
-                                    <template x-for="(person, idx) in section.people" :key="idx">
-                                        <p class="text-white/70"><span class="text-pink-400 font-bold"
-                                                x-text="person.letter + '.'"></span> <span x-text="person.name"></span>
-                                        </p>
                                     </template>
                                 </div>
-                                <template x-for="(q, qIndex) in section.items" :key="qIndex">
-                                    <div class="question-card rounded-xl p-4">
-                                        <p class="text-white mb-3">
-                                            <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                            <span x-text="q.text"></span>
-                                        </p>
-                                        <div class="flex gap-2">
-                                            <template x-for="person in section.people" :key="person.letter">
-                                                <button @click="!submitted && setAnswer(q.number, person.letter)"
-                                                    :class="{
+                            </template>
+
+                            <!-- MATCHING -->
+                                <template x-if="section.type === 'matching'">
+                                    <div class="space-y-4">
+                                    <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
+                                                <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span x-text="q.text"></span>
+                                                </p>
+                                                <div class="flex gap-2 flex-wrap">
+                                                    <template x-for="option in section.options" :key="option">
+                                                        <button @click="!submitted && setAnswer(q.number, option)"
+                                                            :class="{
+                                                        'selected': answers[q.number] === option && !submitted,
+                                                        'correct': submitted && q.answer === option,
+                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                        }"
+                                                        class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                            :disabled="submitted">
+                                                            <span x-text="option"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                            <!-- MATCH PEOPLE -->
+                                <template x-if="section.type === 'matchPeople'">
+                                    <div class="space-y-4">
+                                        <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                        <p class="text-white/70 font-semibold mb-2">List of People:</p>
+                                        <template x-for="person in section.people" :key="person.letter">
+                                            <p class="text-white/60">
+                                                <span class="text-pink-400 font-bold" x-text="person.letter + '.'"></span>
+                                                <span x-text="person.name"></span>
+                                                </p>
+                                            </template>
+                                        </div>
+                                    <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
+                                                <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span x-text="q.text"></span>
+                                                </p>
+                                                <div class="flex gap-2">
+                                                    <template x-for="person in section.people" :key="person.letter">
+                                                    <button @click="!submitted && setAnswer(q.number, person.letter)"
+                                                            :class="{
                                                         'selected': answers[q.number] === person.letter && !submitted,
                                                         'correct': submitted && q.answer === person.letter,
                                                         'incorrect': submitted && answers[q.number] === person.letter && q.answer !== person.letter
-                                                    }"
-                                                    class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                    :disabled="submitted">
-                                                    <span x-text="person.letter"></span>
-                                                </button>
-                                            </template>
+                                                        }"
+                                                        class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                            :disabled="submitted">
+                                                            <span x-text="person.letter"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                            <!-- NOTES COMPLETION -->
+                                <template x-if="section.type === 'notes'">
+                                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                                    <h4 class="text-lg font-semibold text-white mb-4" x-text="section.noteTitle"></h4>
+                                            <div class="space-y-3">
+                                                <template x-for="(item, itemIndex) in section.items" :key="itemIndex">
+                                                    <div>
+                                                        <template x-if="item.isHeader">
+                                                    <p class="text-yellow-400 font-semibold mt-4 mb-2" x-text="item.text"></p>
+                                                        </template>
+                                                        <template x-if="!item.isHeader">
+                                                    <p class="text-white/85 flex items-center gap-2 flex-wrap">
+                                                                <span>•</span>
+                                                        <template x-for="(part, partIndex) in item.parts" :key="partIndex">
+                                                                    <span>
+                                                                        <template x-if="part.type === 'text'">
+                                                                            <span x-text="part.value"></span>
+                                                                        </template>
+                                                                        <template x-if="part.type === 'blank'">
+                                                                    <span class="inline-flex items-center gap-1">
+                                                                        <span class="text-pink-400 font-bold" x-text="part.number"></span>
+                                                                        <input type="text" x-model="answers[part.number]" :disabled="submitted"
+                                                                            :class="{
+                                                                                'correct': submitted && isCorrectFill(section, part.number),
+                                                                                'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
+                                                                            }"
+                                                                            class="fill-input w-32 px-3 py-1 rounded text-white text-center" placeholder="...">
+                                                                        <span x-show="submitted && !isCorrectFill(section, part.number)"
+                                                                                    class="text-green-400 text-sm ml-1"
+                                                                                    x-text="'(' + section.answers[part.number] + ')'"></span>
+                                                                            </span>
+                                                                        </template>
+                                                                    </span>
+                                                                </template>
+                                                            </p>
+                                                        </template>
+                                                    </div>
+                                                </template>
                                         </div>
                                     </div>
                                 </template>
+
+                            <!-- SUMMARY COMPLETION -->
+                                <template x-if="section.type === 'summary'">
+                                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                                    <h4 class="text-lg font-semibold text-white mb-4" x-text="section.summaryTitle"></h4>
+                                    <p class="text-white/85 leading-relaxed">
+                                                <template x-for="(part, partIndex) in section.parts" :key="partIndex">
+                                                    <span>
+                                                        <template x-if="part.type === 'text'">
+                                                            <span x-text="part.value"></span>
+                                                        </template>
+                                                        <template x-if="part.type === 'blank'">
+                                                            <span class="inline-flex items-center gap-1 mx-1">
+                                                        <span class="text-pink-400 font-bold" x-text="part.number"></span>
+                                                        <input type="text" x-model="answers[part.number]" :disabled="submitted"
+                                                            :class="{
+                                                                'correct': submitted && isCorrectFill(section, part.number),
+                                                                'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
+                                                            }"
+                                                            class="fill-input w-28 px-3 py-1 rounded text-white text-center" placeholder="...">
+                                                        <span x-show="submitted && !isCorrectFill(section, part.number)"
+                                                                    class="text-green-400 text-sm ml-1"
+                                                                    x-text="'(' + section.answers[part.number] + ')'"></span>
+                                                            </span>
+                                                        </template>
+                                                    </span>
+                                                </template>
+                                            </p>
+                                    </div>
+                                </template>
+
+                            <!-- MULTIPLE CHOICE -->
+                                <template x-if="section.type === 'multipleChoice'">
+                                    <div class="space-y-6">
+                                    <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-4">
+                                                <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span x-text="q.text"></span>
+                                                </p>
+                                                <div class="space-y-2">
+                                                    <template x-for="option in q.options" :key="option.letter">
+                                                    <button @click="!submitted && setAnswer(q.number, option.letter)"
+                                                            :class="{
+                                                        'selected': answers[q.number] === option.letter && !submitted,
+                                                        'correct': submitted && q.answer === option.letter,
+                                                        'incorrect': submitted && answers[q.number] === option.letter && q.answer !== option.letter
+                                                        }"
+                                                        class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
+                                                            :disabled="submitted">
+                                                            <span class="font-bold mr-2" x-text="option.letter"></span>
+                                                            <span x-text="option.text"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                            <!-- SENTENCE COMPLETION -->
+                                <template x-if="section.type === 'sentenceCompletion'">
+                                    <div class="space-y-4">
+                                        <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                        <p class="text-white/70 font-semibold mb-2">Sentence Endings:</p>
+                                        <template x-for="ending in section.endings" :key="ending.letter">
+                                            <p class="text-white/60 mb-1">
+                                                <span class="text-pink-400 font-bold" x-text="ending.letter + '.'"></span>
+                                                    <span x-text="ending.text"></span>
+                                                </p>
+                                            </template>
+                                        </div>
+                                    <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
+                                                <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span x-text="q.text"></span>
+                                                </p>
+                                                <div class="flex gap-2 flex-wrap">
+                                                    <template x-for="ending in section.endings" :key="ending.letter">
+                                                    <button @click="!submitted && setAnswer(q.number, ending.letter)"
+                                                            :class="{
+                                                        'selected': answers[q.number] === ending.letter && !submitted,
+                                                        'correct': submitted && q.answer === ending.letter,
+                                                        'incorrect': submitted && answers[q.number] === ending.letter && q.answer !== ending.letter
+                                                        }"
+                                                        class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                            :disabled="submitted">
+                                                            <span x-text="ending.letter"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
                             </div>
                         </template>
 
-                        <!-- NOTE COMPLETION Questions -->
-                        <template x-if="section.type === 'notes'">
-                            <div class="space-y-4">
+                        <!-- Submit / Results -->
+                    <div class="glass-card rounded-2xl p-6">
+                            <template x-if="!submitted">
+                                <button @click="submitAnswers()"
+                                    class="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
+                                    Submit Answers ✓
+                                </button>
+                            </template>
+                            <template x-if="submitted">
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold mb-2">
+                                        <span class="text-green-400" x-text="score"></span>
+                                    <span class="text-white/50" x-text="'/ ' + totalQuestions"></span>
+                                    </div>
+                                <p class="text-white/50 mb-4">Correct Answers</p>
+                                    <button @click="resetQuiz()"
+                                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
+                                        Try Again 🔄
+                                    </button>
+                                </div>
+                            </template>
+                        </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+
+
+<!-- ==================== LISTENING SECTION VIEW ==================== -->
+    <div x-show="currentView === 'listening'" class="h-screen flex flex-col overflow-hidden">
+        
+        <!-- Header -->
+        <header class="glass-card flex-shrink-0 z-50">
+            <div class="max-w-7xl mx-auto px-3 md:px-6 py-3 md:py-4 flex items-center justify-between">
+                <button @click="currentView = 'list'" class="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                    <span class="hidden sm:inline">Testlere Dön</span>
+                </button>
+                
+                <span class="text-white font-semibold text-sm md:text-base" x-text="currentTestData?.name + ' - Listening'"></span>
+
+                <div class="text-green-400 font-semibold">🎧 <span class="hidden sm:inline">Listening</span></div>
+            </div>
+
+            <!-- Mobile Panel Toggle -->
+            <div class="md:hidden flex border-t border-white/10">
+                <button @click="showVideoPanel = true" 
+                    :class="showVideoPanel ? 'bg-green-500/20 text-green-400 border-b-2 border-green-500' : 'text-white/60'"
+                    class="flex-1 py-2 text-sm font-medium transition-all">
+                    🎬 Video
+                </button>
+                <button @click="showVideoPanel = false"
+                    :class="!showVideoPanel ? 'bg-yellow-500/20 text-yellow-400 border-b-2 border-yellow-500' : 'text-white/60'"
+                    class="flex-1 py-2 text-sm font-medium transition-all">
+                    ❓ Questions
+                </button>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <div class="flex flex-1 min-h-0">
+
+                <!-- Left Panel - Video -->
+            <div class="w-full md:w-1/2 h-full overflow-y-auto border-r border-white/10"
+                 :class="{'hidden md:block': !showVideoPanel}">
+                <div class="glass-card rounded-2xl p-6">
+                    <h2 class="text-2xl font-bold mb-4 text-green-400" x-text="listeningData?.title || 'IELTS Listening'"></h2>
+                    
+                        <div class="relative w-full" style="padding-bottom: 56.25%;">
+                            <iframe x-show="listeningData?.videoUrl" :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
+                                class="absolute top-0 left-0 w-full h-full rounded-xl" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <div class="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
+                            <h3 class="text-lg font-semibold text-yellow-400 mb-2">📋 Instructions</h3>
+                        <p class="text-white/70 text-sm leading-relaxed">
+                            1. Watch the video and listen carefully.<br>
+                            2. Answer the questions as you listen.<br>
+                            3. You can pause and rewind as needed.<br>
+                            4. Submit when ready.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Panel - Questions -->
+            <div class="w-full md:w-1/2 h-full overflow-y-auto"
+                 :class="{'hidden md:block': showVideoPanel}">
+                <div class="p-4 md:p-6 space-y-4 md:space-y-6">
+
+                    <!-- Part Selector -->
+                    <div class="glass-card rounded-2xl p-3 md:p-4 sticky top-0 z-10">
+                            <div class="flex gap-2 flex-wrap justify-center">
+                                <template x-for="(part, index) in listeningData?.parts" :key="index">
+                                    <button @click="selectListeningPart(index)"
+                                        :class="currentListeningPartIndex === index ? 'bg-green-500 text-white' : 'bg-white/10 hover:bg-white/20 text-white/70'"
+                                    class="px-5 py-2 rounded-lg font-semibold transition-all text-sm">
+                                        <span x-text="part.title"></span>
+                                    </button>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Part Header -->
+                    <div class="glass-card rounded-2xl p-6">
+                        <h3 class="text-xl font-bold text-green-400 mb-2" x-text="currentListeningPart?.title + ' - ' + currentListeningPart?.description"></h3>
+                        <p class="text-white/50 text-sm" x-text="currentListeningPart?.instructions"></p>
+                        </div>
+
+                        <!-- Notes Type Questions -->
+                        <template x-if="currentListeningPart?.type === 'notes'">
+                        <div class="glass-card rounded-2xl p-6">
                                 <div class="bg-white/5 rounded-xl p-4 border border-white/10">
-                                    <h4 class="text-lg font-semibold text-white mb-4" x-text="section.noteTitle"></h4>
+                                <h4 class="text-lg font-semibold text-white mb-4" x-text="currentListeningPart?.noteTitle"></h4>
                                     <div class="space-y-3">
-                                        <template x-for="(item, itemIndex) in section.items" :key="itemIndex">
+                                    <template x-for="(item, itemIndex) in currentListeningPart?.items" :key="itemIndex">
                                             <div>
                                                 <template x-if="item.isHeader">
-                                                    <p class="text-yellow-400 font-semibold mt-4 mb-2"
-                                                        x-text="item.text"></p>
+                                                <p class="text-yellow-400 font-semibold mt-4 mb-2" x-text="item.text"></p>
                                                 </template>
                                                 <template x-if="!item.isHeader">
-                                                    <p class="text-white/90 flex items-center gap-2 flex-wrap">
+                                                <p class="text-white/85 flex items-center gap-2 flex-wrap">
                                                         <span>•</span>
-                                                        <template x-for="(part, partIndex) in item.parts"
-                                                            :key="partIndex">
+                                                    <template x-for="(part, partIndex) in item.parts" :key="partIndex">
                                                             <span>
                                                                 <template x-if="part.type === 'text'">
                                                                     <span x-text="part.value"></span>
                                                                 </template>
                                                                 <template x-if="part.type === 'blank'">
                                                                     <span class="inline-flex items-center gap-1">
-                                                                        <span class="text-pink-400 font-bold"
-                                                                            x-text="part.number"></span>
-                                                                        <input type="text"
-                                                                            x-model="answers[part.number]"
-                                                                            :disabled="submitted" :class="{
-                                                                                'correct': submitted && isCorrectFill(section, part.number),
-                                                                                'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
-                                                                            }"
-                                                                            class="fill-input w-32 px-3 py-1 rounded text-white text-center"
-                                                                            placeholder="...">
-                                                                        <span
-                                                                            x-show="submitted && !isCorrectFill(section, part.number)"
+                                                                    <span class="text-green-400 font-bold" x-text="part.number"></span>
+                                                                    <input type="text" x-model="listeningAnswers[part.number]" :disabled="listeningSubmitted"
+                                                                        :class="{
+                                                                        'correct': listeningSubmitted && isCorrectListeningFill(part.number),
+                                                                        'incorrect': listeningSubmitted && !isCorrectListeningFill(part.number) && listeningAnswers[part.number]
+                                                                        }"
+                                                                        class="fill-input w-32 px-3 py-1 rounded text-white text-center" placeholder="...">
+                                                                    <span x-show="listeningSubmitted && !isCorrectListeningFill(part.number)"
                                                                             class="text-green-400 text-sm ml-1"
-                                                                            x-text="'(' + section.answers[part.number] + ')'"></span>
+                                                                            x-text="'(' + currentListeningPart?.answers[part.number] + ')'"></span>
                                                                     </span>
                                                                 </template>
                                                             </span>
@@ -298,485 +726,355 @@
                                         </template>
                                     </div>
                                 </div>
-                            </div>
-                        </template>
 
-                        <!-- SUMMARY COMPLETION Questions -->
-                        <template x-if="section.type === 'summary'">
-                            <div class="space-y-4">
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/10">
-                                    <h4 class="text-lg font-semibold text-white mb-4" x-text="section.summaryTitle">
-                                    </h4>
-                                    <p class="text-white/90 leading-relaxed">
-                                        <template x-for="(part, partIndex) in section.parts" :key="partIndex">
-                                            <span>
-                                                <template x-if="part.type === 'text'">
-                                                    <span x-text="part.value"></span>
-                                                </template>
-                                                <template x-if="part.type === 'blank'">
-                                                    <span class="inline-flex items-center gap-1 mx-1">
-                                                        <span class="text-pink-400 font-bold"
-                                                            x-text="part.number"></span>
-                                                        <input type="text" x-model="answers[part.number]"
-                                                            :disabled="submitted" :class="{
-                                                                'correct': submitted && isCorrectFill(section, part.number),
-                                                                'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
-                                                            }"
-                                                            class="fill-input w-28 px-3 py-1 rounded text-white text-center"
-                                                            placeholder="...">
-                                                        <span x-show="submitted && !isCorrectFill(section, part.number)"
-                                                            class="text-green-400 text-sm ml-1"
-                                                            x-text="'(' + section.answers[part.number] + ')'"></span>
-                                                    </span>
-                                                </template>
-                                            </span>
-                                        </template>
-                                    </p>
-                                </div>
-                            </div>
-                        </template>
-
-                        <!-- MULTIPLE CHOICE Questions -->
-                        <template x-if="section.type === 'multipleChoice'">
-                            <div class="space-y-6">
-                                <template x-for="(q, qIndex) in section.items" :key="qIndex">
-                                    <div class="question-card rounded-xl p-4">
-                                        <p class="text-white mb-4">
-                                            <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                            <span x-text="q.text"></span>
-                                        </p>
-                                        <div class="space-y-2">
-                                            <template x-for="option in q.options" :key="option.letter">
-                                                <button @click="!submitted && setAnswer(q.number, option.letter)"
-                                                    :class="{
-                                                        'selected': answers[q.number] === option.letter && !submitted,
-                                                        'correct': submitted && q.answer === option.letter,
-                                                        'incorrect': submitted && answers[q.number] === option.letter && q.answer !== option.letter
-                                                    }"
-                                                    class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
-                                                    :disabled="submitted">
-                                                    <span class="font-bold mr-2" x-text="option.letter"></span>
-                                                    <span x-text="option.text"></span>
-                                                </button>
-                                            </template>
-                                        </div>
-                                    </div>
-                                </template>
-                            </div>
-                        </template>
-
-                        <!-- SENTENCE COMPLETION Questions -->
-                        <template x-if="section.type === 'sentenceCompletion'">
-                            <div class="space-y-4">
-                                <!-- Endings List -->
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
-                                    <p class="text-white/80 font-semibold mb-2">Sentence Endings:</p>
-                                    <template x-for="(ending, idx) in section.endings" :key="idx">
-                                        <p class="text-white/70 mb-1">
-                                            <span class="text-pink-400 font-bold" x-text="ending.letter + '.'"></span>
-                                            <span x-text="ending.text"></span>
-                                        </p>
-                                    </template>
-                                </div>
-                                <template x-for="(q, qIndex) in section.items" :key="qIndex">
-                                    <div class="question-card rounded-xl p-4">
-                                        <p class="text-white mb-3">
-                                            <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                            <span x-text="q.text"></span>
-                                        </p>
-                                        <div class="flex gap-2 flex-wrap">
-                                            <template x-for="ending in section.endings" :key="ending.letter">
-                                                <button @click="!submitted && setAnswer(q.number, ending.letter)"
-                                                    :class="{
-                                                        'selected': answers[q.number] === ending.letter && !submitted,
-                                                        'correct': submitted && q.answer === ending.letter,
-                                                        'incorrect': submitted && answers[q.number] === ending.letter && q.answer !== ending.letter
-                                                    }"
-                                                    class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                    :disabled="submitted">
-                                                    <span x-text="ending.letter"></span>
-                                                </button>
-                                            </template>
-                                        </div>
-                                    </div>
-                                </template>
-                            </div>
-                        </template>
-
-                        <!-- YES/NO/NOT GIVEN Questions -->
-                        <template x-if="section.type === 'yesNoNotGiven'">
-                            <div class="space-y-4">
-                                <template x-for="(q, qIndex) in section.items" :key="qIndex">
-                                    <div class="question-card rounded-xl p-4">
-                                        <p class="text-white mb-3">
-                                            <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                            <span x-text="q.text"></span>
-                                        </p>
-                                        <div class="flex gap-3">
-                                            <template x-for="option in ['YES', 'NO', 'NOT GIVEN']" :key="option">
-                                                <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                        'selected': answers[q.number] === option && !submitted,
-                                                        'correct': submitted && q.answer === option,
-                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
-                                                    }"
-                                                    class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                    :disabled="submitted">
-                                                    <span x-text="option"></span>
-                                                </button>
-                                            </template>
-                                        </div>
-                                    </div>
-                                </template>
-                            </div>
-                        </template>
-
-                    </div>
-                </template>
-
-                <!-- Submit / Results -->
-                <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                    <template x-if="!submitted">
-                        <button @click="submitAnswers()"
-                            class="w-full bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
-                            Submit Answers ✓
-                        </button>
-                    </template>
-                    <template x-if="submitted">
-                        <div class="text-center">
-                            <div class="text-4xl font-bold mb-2">
-                                <span class="text-green-400" x-text="score"></span>
-                                <span class="text-white/60" x-text="'/ ' + totalQuestions"></span>
-                            </div>
-                            <p class="text-white/60 mb-4">Correct Answers</p>
-                            <button @click="resetQuiz()"
-                                class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
-                                Try Again 🔄
-                            </button>
-                        </div>
-                    </template>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Main Content - Listening Section -->
-    <div x-show="currentSection === 'listening'" class="flex h-[calc(100vh-72px)]">
-
-        <!-- Left Panel - Video -->
-        <div class="w-1/2 p-6 overflow-auto border-r border-white/10">
-            <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                <h2 class="text-2xl font-bold mb-4 text-green-400" x-text="listeningData?.title || 'IELTS Listening'">
-                </h2>
-
-                <!-- YouTube Video Embed -->
-                <div class="relative w-full" style="padding-bottom: 56.25%;">
-                    <iframe x-show="listeningData?.videoUrl" :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
-                        class="absolute top-0 left-0 w-full h-full rounded-xl" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-
-                <!-- Instructions -->
-                <div class="mt-6 p-4 bg-white/5 rounded-xl border border-white/10">
-                    <h3 class="text-lg font-semibold text-yellow-400 mb-2">📋 Instructions</h3>
-                    <p class="text-white/80 text-sm leading-relaxed">
-                        1. Watch the video and listen carefully to the audio.<br>
-                        2. Answer the questions in the right panel as you listen.<br>
-                        3. You can pause and rewind the video as needed.<br>
-                        4. Submit your answers when you're ready.
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Right Panel - Questions -->
-        <div class="w-1/2 p-6 overflow-auto">
-            <div class="space-y-6">
-
-                <!-- Part Selector - At Top -->
-                <div class="bg-black/30 backdrop-blur-xl rounded-2xl p-4 border border-white/10 sticky top-0 z-10">
-                    <div class="flex gap-2 flex-wrap justify-center">
-                        <template x-for="(part, index) in listeningData?.parts" :key="index">
-                            <button @click="currentListeningPartIndex = index; loadListeningPart()"
-                                :class="currentListeningPartIndex === index ? 'bg-green-500 text-white' : 'bg-white/10 hover:bg-white/20 text-white/70'"
-                                class="px-6 py-3 rounded-lg font-semibold transition-all">
-                                <span x-text="part.title"></span>
-                            </button>
-                        </template>
-                    </div>
-                </div>
-
-                <!-- Part Header -->
-                <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                    <h3 class="text-xl font-bold text-green-400 mb-2"
-                        x-text="currentListeningPart?.title + ' - ' + currentListeningPart?.description"></h3>
-                    <p class="text-white/60 text-sm" x-text="currentListeningPart?.instructions"></p>
-                </div>
-
-                <!-- Notes Type Questions -->
-                <template x-if="currentListeningPart?.type === 'notes'">
-                    <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
-                            <h4 class="text-lg font-semibold text-white mb-4" x-text="currentListeningPart?.noteTitle">
-                            </h4>
-                            <div class="space-y-3">
-                                <template x-for="(item, itemIndex) in currentListeningPart?.items" :key="itemIndex">
-                                    <div>
-                                        <template x-if="item.isHeader">
-                                            <p class="text-yellow-400 font-semibold mt-4 mb-2" x-text="item.text"></p>
-                                        </template>
-                                        <template x-if="!item.isHeader">
-                                            <p class="text-white/90 flex items-center gap-2 flex-wrap">
-                                                <span>•</span>
-                                                <template x-for="(part, partIndex) in item.parts" :key="partIndex">
-                                                    <span>
-                                                        <template x-if="part.type === 'text'">
-                                                            <span x-text="part.value"></span>
-                                                        </template>
-                                                        <template x-if="part.type === 'blank'">
-                                                            <span class="inline-flex items-center gap-1">
-                                                                <span class="text-green-400 font-bold"
-                                                                    x-text="part.number"></span>
-                                                                <input type="text"
-                                                                    x-model="listeningAnswers[part.number]"
-                                                                    :disabled="listeningSubmitted" :class="{
-                                                                        'correct': listeningSubmitted && isCorrectListeningFill(part.number),
-                                                                        'incorrect': listeningSubmitted && !isCorrectListeningFill(part.number) && listeningAnswers[part.number]
-                                                                    }"
-                                                                    class="fill-input w-32 px-3 py-1 rounded text-white text-center"
-                                                                    placeholder="...">
-                                                                <span
-                                                                    x-show="listeningSubmitted && !isCorrectListeningFill(part.number)"
-                                                                    class="text-green-400 text-sm ml-1"
-                                                                    x-text="'(' + currentListeningPart?.answers[part.number] + ')'"></span>
-                                                            </span>
-                                                        </template>
-                                                    </span>
-                                                </template>
-                                            </p>
-                                        </template>
-                                    </div>
-                                </template>
-                            </div>
-                        </div>
-
-                        <!-- Table Section (for Part 1 guitar lesson table) -->
-                        <template x-if="currentListeningPart?.tableSection">
-                            <div class="bg-white/5 rounded-xl p-4 border border-white/10 mt-4">
-                                <h4 class="text-lg font-semibold text-white mb-4 text-center"
-                                    x-text="currentListeningPart?.tableSection.title"></h4>
-                                <table class="w-full">
-                                    <thead>
-                                        <tr class="border-b border-white/20">
-                                            <template x-for="header in currentListeningPart?.tableSection.headers"
-                                                :key="header">
-                                                <th class="text-left py-3 px-4 text-yellow-400 font-semibold"
-                                                    x-text="header"></th>
-                                            </template>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <template x-for="(row, rowIndex) in currentListeningPart?.tableSection.rows"
-                                            :key="rowIndex">
-                                            <tr class="border-b border-white/10">
-                                                <td class="py-4 px-4 text-white/80" x-text="row.time"></td>
-                                                <td class="py-4 px-4 text-white/80" x-text="row.activity"></td>
-                                                <td class="py-4 px-4 text-white/90">
-                                                    <template x-for="(part, partIndex) in row.notes" :key="partIndex">
-                                                        <span>
-                                                            <template x-if="part.type === 'text'">
-                                                                <span x-text="part.value"></span>
-                                                            </template>
-                                                            <template x-if="part.type === 'blank'">
-                                                                <span class="inline-flex items-center gap-1">
-                                                                    <span class="text-green-400 font-bold"
-                                                                        x-text="part.number"></span>
-                                                                    <input type="text"
-                                                                        x-model="listeningAnswers[part.number]"
-                                                                        :disabled="listeningSubmitted" :class="{
+                            <!-- Table Section -->
+                                <template x-if="currentListeningPart?.tableSection">
+                                    <div class="bg-white/5 rounded-xl p-4 border border-white/10 mt-4">
+                                    <h4 class="text-lg font-semibold text-white mb-4 text-center" x-text="currentListeningPart?.tableSection.title"></h4>
+                                        <table class="w-full">
+                                            <thead>
+                                                <tr class="border-b border-white/20">
+                                                <template x-for="header in currentListeningPart?.tableSection.headers" :key="header">
+                                                    <th class="text-left py-3 px-4 text-yellow-400 font-semibold" x-text="header"></th>
+                                                    </template>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            <template x-for="(row, rowIndex) in currentListeningPart?.tableSection.rows" :key="rowIndex">
+                                                    <tr class="border-b border-white/10">
+                                                    <td class="py-4 px-4 text-white/70" x-text="row.time"></td>
+                                                    <td class="py-4 px-4 text-white/70" x-text="row.activity"></td>
+                                                    <td class="py-4 px-4 text-white/85">
+                                                        <template x-for="(part, partIndex) in row.notes" :key="partIndex">
+                                                                <span>
+                                                                    <template x-if="part.type === 'text'">
+                                                                        <span x-text="part.value"></span>
+                                                                    </template>
+                                                                    <template x-if="part.type === 'blank'">
+                                                                        <span class="inline-flex items-center gap-1">
+                                                                        <span class="text-green-400 font-bold" x-text="part.number"></span>
+                                                                        <input type="text" x-model="listeningAnswers[part.number]" :disabled="listeningSubmitted"
+                                                                            :class="{
                                                                             'correct': listeningSubmitted && isCorrectTableFill(part.number),
                                                                             'incorrect': listeningSubmitted && !isCorrectTableFill(part.number) && listeningAnswers[part.number]
-                                                                        }"
-                                                                        class="fill-input w-28 px-3 py-1 rounded text-white text-center"
-                                                                        placeholder="...">
-                                                                    <span
-                                                                        x-show="listeningSubmitted && !isCorrectTableFill(part.number)"
-                                                                        class="text-green-400 text-sm ml-1"
-                                                                        x-text="'(' + currentListeningPart?.tableSection.tableAnswers[part.number] + ')'"></span>
+                                                                            }"
+                                                                            class="fill-input w-28 px-3 py-1 rounded text-white text-center" placeholder="...">
+                                                                        <span x-show="listeningSubmitted && !isCorrectTableFill(part.number)"
+                                                                                class="text-green-400 text-sm ml-1"
+                                                                                x-text="'(' + currentListeningPart?.tableSection.tableAnswers[part.number] + ')'"></span>
+                                                                        </span>
+                                                                    </template>
                                                                 </span>
                                                             </template>
-                                                        </span>
-                                                    </template>
-                                                </td>
-                                            </tr>
-                                        </template>
-                                    </tbody>
-                                </table>
+                                                        </td>
+                                                    </tr>
+                                                </template>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </template>
                             </div>
                         </template>
-                    </div>
-                </template>
 
-                <!-- Multiple Choice Questions -->
-                <template x-if="currentListeningPart?.type === 'multipleChoice'">
-                    <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                        <div class="space-y-6">
-                            <template x-for="(q, qIndex) in currentListeningPart?.items" :key="qIndex">
-                                <div>
-                                    <!-- Regular Multiple Choice  -->
-                                    <template x-if="!q.type">
-                                        <div class="question-card rounded-xl p-4">
-                                            <p class="text-white mb-4">
-                                                <span class="text-green-400 font-bold" x-text="q.number + '.'"></span>
-                                                <span x-text="q.text"></span>
-                                            </p>
-                                            <div class="space-y-2">
-                                                <template x-for="option in q.options" :key="option.letter">
-                                                    <button
-                                                        @click="!listeningSubmitted && setListeningAnswer(q.number, option.letter)"
-                                                        :class="{
+                        <!-- Multiple Choice / Complex Questions -->
+                        <template x-if="currentListeningPart?.type === 'multipleChoice' || currentListeningPart?.type === 'complex'">
+                        <div class="glass-card rounded-2xl p-6">
+                                <div class="space-y-6">
+                                    <template x-for="(q, qIndex) in currentListeningPart?.items" :key="qIndex">
+                                        <div>
+                                        <!-- Regular MC -->
+                                            <template x-if="!q.type">
+                                                <div class="question-card rounded-xl p-4">
+                                                    <p class="text-white mb-4">
+                                                    <span class="text-green-400 font-bold" x-text="q.number + '.'"></span>
+                                                        <span x-text="q.text"></span>
+                                                    </p>
+                                                    <div class="space-y-2">
+                                                        <template x-for="option in q.options" :key="option.letter">
+                                                        <button @click="!listeningSubmitted && setListeningAnswer(q.number, option.letter)"
+                                                                :class="{
                                                             'selected': listeningAnswers[q.number] === option.letter && !listeningSubmitted,
                                                             'correct': listeningSubmitted && q.answer === option.letter,
                                                             'incorrect': listeningSubmitted && listeningAnswers[q.number] === option.letter && q.answer !== option.letter
-                                                        }"
-                                                        class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
-                                                        :disabled="listeningSubmitted">
-                                                        <span class="font-bold mr-2" x-text="option.letter"></span>
-                                                        <span x-text="option.text"></span>
-                                                    </button>
-                                                </template>
-                                            </div>
-                                        </div>
-                                    </template>
+                                                            }"
+                                                            class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
+                                                                :disabled="listeningSubmitted">
+                                                            <span class="font-bold mr-2" x-text="option.letter"></span>
+                                                                <span x-text="option.text"></span>
+                                                            </button>
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </template>
 
-                                    <!-- Choose Two Group -->
-                                    <template x-if="q.type === 'chooseTwoGroup'">
-                                        <div class="question-card rounded-xl p-4 mb-4">
-                                            <div class="mb-4">
-                                                <p class="text-green-400 font-bold text-lg mb-2">
-                                                    Questions <span x-text="q.questionNumbers.join(' and ')"></span>
-                                                </p>
-                                                <p class="text-white/80 text-sm mb-3">Choose TWO letters, A-E.</p>
-                                                <p class="text-white mb-4" x-text="q.text"></p>
-                                            </div>
-                                            <div class="space-y-2">
-                                                <template x-for="option in q.options" :key="option.letter">
-                                                    <button
-                                                        @click="!listeningSubmitted && toggleChooseTwoAnswer(q.questionNumbers, option.letter)"
-                                                        :class="{
+                                            <!-- Choose Two Group -->
+                                            <template x-if="q.type === 'chooseTwoGroup'">
+                                                <div class="question-card rounded-xl p-4 mb-4">
+                                                    <div class="mb-4">
+                                                        <p class="text-green-400 font-bold text-lg mb-2">
+                                                        Questions <span x-text="q.questionNumbers.join(' and ')"></span>
+                                                        </p>
+                                                    <p class="text-white/70 text-sm mb-3">Choose TWO letters, A-E.</p>
+                                                        <p class="text-white mb-4" x-text="q.text"></p>
+                                                    </div>
+                                                    <div class="space-y-2">
+                                                        <template x-for="option in q.options" :key="option.letter">
+                                                        <button @click="!listeningSubmitted && toggleChooseTwoAnswer(q.questionNumbers, option.letter)"
+                                                                :class="{
                                                             'selected': isChooseTwoSelected(q.questionNumbers, option.letter) && !listeningSubmitted,
                                                             'correct': listeningSubmitted && q.answers.includes(option.letter),
                                                             'incorrect': listeningSubmitted && isChooseTwoSelected(q.questionNumbers, option.letter) && !q.answers.includes(option.letter)
-                                                        }"
-                                                        class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all flex items-center gap-3"
-                                                        :disabled="listeningSubmitted">
-                                                        <span
-                                                            class="w-6 h-6 rounded border-2 flex items-center justify-center text-xs"
-                                                            :class="isChooseTwoSelected(q.questionNumbers, option.letter) ? 'bg-green-500 border-green-500' : 'border-white/40'">
-                                                            <span
-                                                                x-show="isChooseTwoSelected(q.questionNumbers, option.letter)">✓</span>
-                                                        </span>
-                                                        <span class="font-bold" x-text="option.letter + '.'"></span>
-                                                        <span x-text="option.text"></span>
-                                                    </button>
-                                                </template>
-                                            </div>
-                                        </div>
-                                    </template>
-
-                                    <!-- Matching Group -->
-                                    <template x-if="q.type === 'matchingGroup'">
-                                        <div class="question-card rounded-xl p-4 mb-4">
-                                            <div class="mb-4">
-                                                <p class="text-green-400 font-bold text-lg mb-2" x-text="q.title"></p>
-                                                <p class="text-white mb-2" x-text="q.text"></p>
-                                                <p class="text-white/60 text-sm" x-text="q.instructions"></p>
-                                            </div>
-
-                                            <!-- Options Box -->
-                                            <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
-                                                <p class="text-yellow-400 font-semibold mb-3">Footwear</p>
-                                                <div class="flex flex-wrap gap-2">
-                                                    <template x-for="option in q.options" :key="option.letter">
-                                                        <div class="bg-white/10 px-3 py-2 rounded-lg text-sm">
-                                                            <span class="text-green-400 font-bold"
-                                                                x-text="option.letter + '.'"></span>
-                                                            <span class="text-white/80" x-text="option.text"></span>
-                                                        </div>
-                                                    </template>
+                                                            }"
+                                                            class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all flex items-center gap-3"
+                                                                :disabled="listeningSubmitted">
+                                                            <span class="w-6 h-6 rounded border-2 flex items-center justify-center text-xs"
+                                                                    :class="isChooseTwoSelected(q.questionNumbers, option.letter) ? 'bg-green-500 border-green-500' : 'border-white/40'">
+                                                                <span x-show="isChooseTwoSelected(q.questionNumbers, option.letter)">✓</span>
+                                                                </span>
+                                                            <span class="font-bold" x-text="option.letter + '.'"></span>
+                                                                <span x-text="option.text"></span>
+                                                            </button>
+                                                        </template>
+                                                    </div>
                                                 </div>
-                                            </div>
+                                            </template>
 
-                                            <!-- Items to Match -->
-                                            <div class="space-y-3">
-                                                <template x-for="item in q.items" :key="item.number">
-                                                    <div class="flex items-center gap-4 p-3 bg-white/5 rounded-lg">
-                                                        <span class="text-green-400 font-bold w-8"
-                                                            x-text="item.number"></span>
-                                                        <span class="text-white flex-1" x-text="item.label"></span>
-                                                        <select x-model="listeningAnswers[item.number]"
-                                                            :disabled="listeningSubmitted" :class="{
+                                            <!-- Matching Group -->
+                                            <template x-if="q.type === 'matchingGroup'">
+                                                <div class="question-card rounded-xl p-4 mb-4">
+                                                    <div class="mb-4">
+                                                    <p class="text-green-400 font-bold text-lg mb-2" x-text="q.title"></p>
+                                                        <p class="text-white mb-2" x-text="q.text"></p>
+                                                    <p class="text-white/50 text-sm" x-text="q.instructions"></p>
+                                                    </div>
+                                                    <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                                    <p class="text-yellow-400 font-semibold mb-3">Options:</p>
+                                                        <div class="flex flex-wrap gap-2">
+                                                            <template x-for="option in q.options" :key="option.letter">
+                                                                <div class="bg-white/10 px-3 py-2 rounded-lg text-sm">
+                                                                <span class="text-green-400 font-bold" x-text="option.letter + '.'"></span>
+                                                                <span class="text-white/70" x-text="option.text"></span>
+                                                                </div>
+                                                            </template>
+                                                        </div>
+                                                    </div>
+                                                    <div class="space-y-3">
+                                                        <template x-for="item in q.items" :key="item.number">
+                                                        <div class="flex items-center gap-4 p-3 bg-white/5 rounded-lg">
+                                                            <span class="text-green-400 font-bold w-8" x-text="item.number"></span>
+                                                            <span class="text-white flex-1" x-text="item.label"></span>
+                                                            <select x-model="listeningAnswers[item.number]" :disabled="listeningSubmitted"
+                                                                :class="{
                                                                 'correct': listeningSubmitted && listeningAnswers[item.number] === q.answers[item.number],
                                                                 'incorrect': listeningSubmitted && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
-                                                            }"
-                                                            class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
-                                                            <option value="" class="bg-gray-800">-</option>
-                                                            <template x-for="option in q.options" :key="option.letter">
-                                                                <option :value="option.letter" x-text="option.letter"
-                                                                    class="bg-gray-800"></option>
-                                                            </template>
-                                                        </select>
-                                                        <span
-                                                            x-show="listeningSubmitted && listeningAnswers[item.number] !== q.answers[item.number]"
-                                                            class="text-green-400 text-sm"
-                                                            x-text="'(' + q.answers[item.number] + ')'"></span>
+                                                                }"
+                                                                class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
+                                                                    <option value="" class="bg-gray-800">-</option>
+                                                                <template x-for="option in q.options" :key="option.letter">
+                                                                    <option :value="option.letter" x-text="option.letter" class="bg-gray-800"></option>
+                                                                    </template>
+                                                                </select>
+                                                            <span x-show="listeningSubmitted && listeningAnswers[item.number] !== q.answers[item.number]"
+                                                                class="text-green-400 text-sm" x-text="'(' + q.answers[item.number] + ')'"></span>
+                                                            </div>
+                                                        </template>
                                                     </div>
-                                                </template>
-                                            </div>
+                                                </div>
+                                            </template>
+
+                                            <!-- Flowchart -->
+                                            <template x-if="q.type === 'flowchart'">
+                                                <div class="question-card rounded-xl p-4 mb-4">
+                                                    <div class="mb-4">
+                                                        <p class="text-green-400 font-bold text-lg mb-2" x-text="q.title"></p>
+                                                        <p class="text-white/50 text-sm" x-text="q.instructions"></p>
+                                                    </div>
+                                                    <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                                        <p class="text-yellow-400 font-semibold mb-3">Options:</p>
+                                                        <div class="flex flex-wrap gap-2">
+                                                            <template x-for="option in q.options" :key="option.letter">
+                                                                <div class="bg-white/10 px-3 py-2 rounded-lg text-sm">
+                                                                    <span class="text-green-400 font-bold" x-text="option.letter + '.'"></span>
+                                                                    <span class="text-white/70" x-text="option.text"></span>
+                                                                </div>
+                                                            </template>
+                                                        </div>
+                                                    </div>
+                                                    <div class="space-y-3">
+                                                        <template x-for="item in q.items" :key="item.number">
+                                                            <div class="flex items-center gap-4 p-3 bg-white/5 rounded-lg">
+                                                                <span class="text-green-400 font-bold w-8" x-text="item.number"></span>
+                                                                <span class="text-white flex-1" x-text="item.text"></span>
+                                                                <select x-model="listeningAnswers[item.number]" :disabled="listeningSubmitted"
+                                                                    :class="{
+                                                                        'correct': listeningSubmitted && listeningAnswers[item.number] === q.answers[item.number],
+                                                                        'incorrect': listeningSubmitted && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
+                                                                    }"
+                                                                    class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
+                                                                    <option value="" class="bg-gray-800">-</option>
+                                                                    <template x-for="option in q.options" :key="option.letter">
+                                                                        <option :value="option.letter" x-text="option.letter" class="bg-gray-800"></option>
+                                                                    </template>
+                                                                </select>
+                                                                <span x-show="listeningSubmitted && listeningAnswers[item.number] !== q.answers[item.number]"
+                                                                    class="text-green-400 text-sm" x-text="'(' + q.answers[item.number] + ')'"></span>
+                                                            </div>
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </template>
+
+                                            <!-- Regular Multiple Choice (for complex type) -->
+                                            <template x-if="q.type === 'multipleChoice'">
+                                                <div class="question-card rounded-xl p-4 mb-4">
+                                                    <div class="mb-4">
+                                                        <p class="text-green-400 font-bold text-lg mb-2" x-text="q.title"></p>
+                                                        <p class="text-white/50 text-sm" x-text="q.instructions"></p>
+                                                    </div>
+                                                    <div class="space-y-6">
+                                                        <template x-for="mcItem in q.items" :key="mcItem.number">
+                                                            <div class="bg-white/5 rounded-xl p-4">
+                                                                <p class="text-white mb-4">
+                                                                    <span class="text-green-400 font-bold" x-text="mcItem.number + '.'"></span>
+                                                                    <span x-text="mcItem.text"></span>
+                                                                </p>
+                                                                <div class="space-y-2">
+                                                                    <template x-for="option in mcItem.options" :key="option.letter">
+                                                                        <button @click="!listeningSubmitted && setListeningAnswer(mcItem.number, option.letter)"
+                                                                            :class="{
+                                                                                'selected': listeningAnswers[mcItem.number] === option.letter && !listeningSubmitted,
+                                                                                'correct': listeningSubmitted && mcItem.answer === option.letter,
+                                                                                'incorrect': listeningSubmitted && listeningAnswers[mcItem.number] === option.letter && mcItem.answer !== option.letter
+                                                                            }"
+                                                                            class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
+                                                                            :disabled="listeningSubmitted">
+                                                                            <span class="font-bold mr-2" x-text="option.letter"></span>
+                                                                            <span x-text="option.text"></span>
+                                                                        </button>
+                                                                    </template>
+                                                                </div>
+                                                            </div>
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </template>
                                         </div>
                                     </template>
                                 </div>
+                            </div>
+                        </template>
+
+                    <!-- Submit / Results -->
+                    <div class="glass-card rounded-2xl p-6">
+                            <template x-if="!listeningSubmitted">
+                                <button @click="submitListeningAnswers()"
+                                    class="w-full bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
+                                    Submit Answers ✓
+                                </button>
+                            </template>
+                            <template x-if="listeningSubmitted">
+                                <div class="text-center">
+                                    <div class="text-4xl font-bold mb-2">
+                                        <span class="text-green-400" x-text="listeningScore"></span>
+                                    <span class="text-white/50" x-text="'/ ' + listeningTotalQuestions"></span>
+                                    </div>
+                                <p class="text-white/50 mb-4">Correct Answers</p>
+                                    <button @click="resetListeningQuiz()"
+                                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
+                                        Try Again 🔄
+                                    </button>
+                                </div>
                             </template>
                         </div>
+                </div>
+            </div>
                     </div>
-                </template>
-
-                <!-- Submit / Results for Listening -->
-                <div class="bg-black/20 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-                    <template x-if="!listeningSubmitted">
-                        <button @click="submitListeningAnswers()"
-                            class="w-full bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
-                            Submit Answers ✓
-                        </button>
-                    </template>
-                    <template x-if="listeningSubmitted">
-                        <div class="text-center">
-                            <div class="text-4xl font-bold mb-2">
-                                <span class="text-green-400" x-text="listeningScore"></span>
-                                <span class="text-white/60" x-text="'/ ' + listeningTotalQuestions"></span>
-                            </div>
-                            <p class="text-white/60 mb-4">Correct Answers</p>
-                            <button @click="resetListeningQuiz()"
-                                class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
-                                Try Again 🔄
-                            </button>
-                        </div>
-                    </template>
                 </div>
 
+
+    <!-- ==================== WRITING SECTION VIEW ==================== -->
+    <div x-show="currentView === 'writing'" class="min-h-screen flex flex-col">
+        <header class="glass-card sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+                <button @click="currentView = 'list'" class="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                    <span>Testlere Dön</span>
+                </button>
+                <span class="text-white font-semibold" x-text="currentTestData?.name + ' - Writing'"></span>
+                <div class="text-blue-400 font-semibold">✍️ Writing</div>
+            </div>
+        </header>
+
+        <div class="flex-1 flex items-center justify-center p-6">
+            <div class="text-center max-w-lg">
+                <div class="text-8xl mb-8">✍️</div>
+                        <h2 class="text-3xl font-bold text-white mb-4">Writing Section</h2>
+                <p class="text-white/50 text-lg mb-8">Coming soon! Practice your IELTS Writing tasks here.</p>
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="space-y-3 text-left">
+                        <div class="flex items-center gap-3 text-blue-300">
+                            <span class="text-2xl">📊</span>
+                            <span>Task 1: Graph/Chart description (20 min)</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-blue-300">
+                            <span class="text-2xl">📝</span>
+                            <span>Task 2: Essay writing (40 min)</span>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    <!-- ==================== SPEAKING SECTION VIEW ==================== -->
+    <div x-show="currentView === 'speaking'" class="min-h-screen flex flex-col">
+        <header class="glass-card sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+                <button @click="currentView = 'list'" class="flex items-center gap-2 text-white/60 hover:text-white transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                    <span>Testlere Dön</span>
+                </button>
+                <span class="text-white font-semibold" x-text="currentTestData?.name + ' - Speaking'"></span>
+                <div class="text-orange-400 font-semibold">🗣️ Speaking</div>
+            </div>
+        </header>
+
+        <div class="flex-1 flex items-center justify-center p-6">
+            <div class="text-center max-w-lg">
+                <div class="text-8xl mb-8">🗣️</div>
+                        <h2 class="text-3xl font-bold text-white mb-4">Speaking Section</h2>
+                <p class="text-white/50 text-lg mb-8">Coming soon! Practice your IELTS Speaking skills here.</p>
+                <div class="glass-card rounded-2xl p-6">
+                    <div class="space-y-3 text-left">
+                        <div class="flex items-center gap-3 text-orange-300">
+                            <span class="text-2xl">🎤</span>
+                            <span>Part 1: Introduction & Interview (4-5 min)</span>
+                        </div>
+                        <div class="flex items-center gap-3 text-orange-300">
+                            <span class="text-2xl">🎯</span>
+                            <span>Part 2: Long Turn - Cue Card (3-4 min)</span>
+                    </div>
+                        <div class="flex items-center gap-3 text-orange-300">
+                            <span class="text-2xl">💬</span>
+                            <span>Part 3: Discussion (4-5 min)</span>
+                </div>
+            </div>
+                </div>
             </div>
         </div>
-
     </div>
+
 
     <script>
         function ieltsApp() {
             return {
-                selectedTestSet: 1,
-                currentSection: 'reading',
+                currentView: 'list', // list, reading, listening, writing, speaking
+                selectedTestId: null,
                 currentPassageIndex: 0,
                 currentPassage: null,
                 currentPassages: [],
@@ -784,7 +1082,9 @@
                 submitted: false,
                 score: 0,
                 totalQuestions: 0,
-                loading: true,
+                currentTestData: null,
+                showPassagePanel: true, // for mobile toggle
+                showVideoPanel: true, // for mobile listening toggle
 
                 // Listening state
                 listeningData: null,
@@ -796,30 +1096,27 @@
                 listeningTotalQuestions: 0,
 
                 testSets: [
-                    { id: 1, name: "Test 1", file: "ielts-tests/test1.json" }
+                    { id: 1, name: "Test 1", subtitle: "Cambridge 19 - Test 2", file: "ielts-tests/test1.json" },
+                    { id: 2, name: "Test 2", subtitle: "Cambridge 19 - Test 3", file: "ielts-tests/test2.json" }
                 ],
 
-                async init() {
-                    await this.loadTestSet();
-                },
+                async openSection(testId, section) {
+                    this.selectedTestId = testId;
+                    const testConfig = this.testSets.find(t => t.id === testId);
+                    this.currentTestData = testConfig;
 
-                async loadTestSet() {
-                    this.loading = true;
-                    const testConfig = this.testSets.find(t => t.id === parseInt(this.selectedTestSet));
                     if (testConfig && testConfig.file) {
                         try {
                             const response = await fetch(testConfig.file);
                             const testData = await response.json();
 
-                            // Load Reading
-                            if (testData.reading && testData.reading.passages.length > 0) {
+                            if (section === 'reading' && testData.reading) {
                                 this.currentPassages = testData.reading.passages;
                                 this.currentPassageIndex = 0;
                                 this.loadPassage();
                             }
 
-                            // Load Listening
-                            if (testData.listening) {
+                            if (section === 'listening' && testData.listening) {
                                 this.listeningData = testData.listening;
                                 this.currentListeningPartIndex = 0;
                                 this.loadListeningPart();
@@ -828,7 +1125,8 @@
                             console.error('Error loading test:', error);
                         }
                     }
-                    this.loading = false;
+
+                    this.currentView = section;
                 },
 
                 // Reading functions
@@ -854,8 +1152,7 @@
                     this.totalQuestions = 0;
 
                     this.currentPassage?.questions.forEach(section => {
-                        if (section.type === 'tfng' || section.type === 'matching' || section.type === 'matchPeople' ||
-                            section.type === 'multipleChoice' || section.type === 'sentenceCompletion' || section.type === 'yesNoNotGiven') {
+                        if (['tfng', 'matching', 'matchPeople', 'multipleChoice', 'sentenceCompletion', 'yesNoNotGiven'].includes(section.type)) {
                             section.items.forEach(item => {
                                 this.totalQuestions++;
                                 if (this.answers[item.number] === item.answer) {
@@ -886,10 +1183,15 @@
                 getYoutubeEmbedUrl(url) {
                     if (!url) return '';
                     const videoId = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/);
-                    if (videoId && videoId[1]) {
-                        return `https://www.youtube.com/embed/${videoId[1]}`;
-                    }
-                    return '';
+                    return videoId && videoId[1] ? `https://www.youtube.com/embed/${videoId[1]}` : '';
+                },
+
+                selectListeningPart(index) {
+                    this.currentListeningPartIndex = index;
+                    this.currentListeningPart = null;
+                    this.$nextTick(() => {
+                        this.loadListeningPart();
+                    });
                 },
 
                 loadListeningPart() {
@@ -917,24 +1219,16 @@
                     return userAnswer === correctAnswer;
                 },
 
-                // Choose Two Group functions
                 toggleChooseTwoAnswer(questionNumbers, letter) {
-                    const selectedLetters = [];
-                    questionNumbers.forEach(num => {
-                        if (this.listeningAnswers[num]) {
-                            selectedLetters.push(this.listeningAnswers[num]);
-                        }
-                    });
+                    const selectedLetters = questionNumbers.map(num => this.listeningAnswers[num]).filter(Boolean);
 
                     if (selectedLetters.includes(letter)) {
-                        // Remove the letter
                         questionNumbers.forEach(num => {
                             if (this.listeningAnswers[num] === letter) {
                                 this.listeningAnswers[num] = null;
                             }
                         });
                     } else if (selectedLetters.length < 2) {
-                        // Add the letter to first empty slot
                         for (const num of questionNumbers) {
                             if (!this.listeningAnswers[num]) {
                                 this.listeningAnswers[num] = letter;
@@ -956,22 +1250,32 @@
                     const part = this.currentListeningPart;
                     if (!part) return;
 
-                    if (part.type === 'multipleChoice') {
+                    if (part.type === 'multipleChoice' || part.type === 'complex') {
                         part.items.forEach(item => {
                             if (item.type === 'chooseTwoGroup') {
-                                // Count as 2 questions
                                 this.listeningTotalQuestions += 2;
                                 const userAnswers = item.questionNumbers.map(n => this.listeningAnswers[n]).filter(Boolean);
                                 item.answers.forEach(ans => {
-                                    if (userAnswers.includes(ans)) {
-                                        this.listeningScore++;
-                                    }
+                                    if (userAnswers.includes(ans)) this.listeningScore++;
                                 });
                             } else if (item.type === 'matchingGroup') {
-                                // Count each matching item
                                 item.items.forEach(matchItem => {
                                     this.listeningTotalQuestions++;
                                     if (this.listeningAnswers[matchItem.number] === item.answers[matchItem.number]) {
+                                        this.listeningScore++;
+                                    }
+                                });
+                            } else if (item.type === 'flowchart') {
+                                item.items.forEach(flowItem => {
+                                    this.listeningTotalQuestions++;
+                                    if (this.listeningAnswers[flowItem.number] === item.answers[flowItem.number]) {
+                                        this.listeningScore++;
+                                    }
+                                });
+                            } else if (item.type === 'multipleChoice') {
+                                item.items.forEach(mcItem => {
+                                    this.listeningTotalQuestions++;
+                                    if (this.listeningAnswers[mcItem.number] === mcItem.answer) {
                                         this.listeningScore++;
                                     }
                                 });
@@ -982,8 +1286,7 @@
                                 }
                             }
                         });
-                    } else if (part.type === 'notes' || part.type === 'table') {
-                        // Check regular notes answers
+                    } else if (part.type === 'notes') {
                         if (part.answers) {
                             Object.keys(part.answers).forEach(num => {
                                 this.listeningTotalQuestions++;
@@ -992,8 +1295,7 @@
                                 }
                             });
                         }
-                        // Check table section answers
-                        if (part.tableSection && part.tableSection.tableAnswers) {
+                        if (part.tableSection?.tableAnswers) {
                             Object.keys(part.tableSection.tableAnswers).forEach(num => {
                                 this.listeningTotalQuestions++;
                                 if (this.isCorrectTableFill(parseInt(num))) {
