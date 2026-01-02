@@ -209,6 +209,101 @@
                 ]
             }
         ]
+    },
+    "listening": {
+        "videoUrl": "https://www.youtube.com/watch?v=QNGuik4AE-Y",
+        "title": "Cambridge 19 Test 2 - IELTS Listening",
+        "sharedWith": "academic-test1",
+        "parts": [
+            {
+                "id": 1,
+                "title": "Part 1",
+                "description": "Questions 1-10",
+                "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+                "noteTitle": "Guitar Group",
+                "type": "notes",
+                "items": [
+                    {"isHeader": true, "text": "Guitar Group Details"},
+                    {"parts": [{"type": "text", "value": "Coordinator: Gary "}, {"type": "blank", "number": 1}]},
+                    {"parts": [{"type": "text", "value": "Level: "}, {"type": "blank", "number": 2}]},
+                    {"parts": [{"type": "text", "value": "Place: the "}, {"type": "blank", "number": 3}]},
+                    {"parts": [{"type": "text", "value": "Street: "}, {"type": "blank", "number": 4}, {"type": "text", "value": " Street"}]},
+                    {"parts": [{"type": "text", "value": "Time: Thursday morning at "}, {"type": "blank", "number": 5}, {"type": "text", "value": " am"}]},
+                    {"parts": [{"type": "text", "value": "Recommended website: 'The perfect "}, {"type": "blank", "number": 6}, {"type": "text", "value": "'"}]}
+                ],
+                "answers": {"1": "Mathieson", "2": "beginners", "3": "college", "4": "New", "5": "11", "6": "instrument"},
+                "tableSection": {
+                    "title": "A typical 45-minute guitar lesson",
+                    "headers": ["Time", "Activity", "Notes"],
+                    "rows": [
+                        {"time": "5 minutes", "activity": "tuning guitars", "notes": [{"type": "text", "value": "using an app or by "}, {"type": "blank", "number": 7}]},
+                        {"time": "10 minutes", "activity": "strumming chords using our thumbs", "notes": [{"type": "text", "value": "keeping time while the teacher is "}, {"type": "blank", "number": 8}]},
+                        {"time": "15 minutes", "activity": "playing songs", "notes": [{"type": "text", "value": "often listening to a "}, {"type": "blank", "number": 9}, {"type": "text", "value": " of a song"}]},
+                        {"time": "10 minutes", "activity": "playing single notes and simple tunes", "notes": [{"type": "text", "value": "playing together, then "}, {"type": "blank", "number": 10}]},
+                        {"time": "5 minutes", "activity": "noting things to practise at home", "notes": []}
+                    ],
+                    "tableAnswers": {"7": "ear", "8": "clapping", "9": "recording", "10": "alone"}
+                }
+            },
+            {
+                "id": 2,
+                "title": "Part 2",
+                "description": "Questions 11-20",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "type": "multipleChoice",
+                "items": [
+                    {"number": 11, "text": "What made David leave London and move to Northsea?", "options": [{"letter": "A", "text": "He was eager to develop a hobby."}, {"letter": "B", "text": "He wanted to work shorter hours."}, {"letter": "C", "text": "He found his job in website design unsatisfying."}], "answer": "A"},
+                    {"number": 12, "text": "The Lifeboat Institution in Northsea was built with money provided by", "options": [{"letter": "A", "text": "a local organisation."}, {"letter": "B", "text": "a local resident."}, {"letter": "C", "text": "the local council."}], "answer": "B"},
+                    {"number": 13, "text": "In his health assessment, the doctor was concerned about the fact that David", "options": [{"letter": "A", "text": "might be colour blind."}, {"letter": "B", "text": "was rather short-sighted."}, {"letter": "C", "text": "had undergone eye surgery."}], "answer": "A"},
+                    {"number": 14, "text": "After arriving at the lifeboat station, they aim to launch the boat within", "options": [{"letter": "A", "text": "five minutes."}, {"letter": "B", "text": "six to eight minutes."}, {"letter": "C", "text": "eight and a half minutes."}], "answer": "B"},
+                    {"number": 15, "text": "As a 'helmsman', David has the responsibility of deciding", "options": [{"letter": "A", "text": "who will be the members of his crew."}, {"letter": "B", "text": "what equipment it will be necessary to take."}, {"letter": "C", "text": "if the lifeboat should be launched."}], "answer": "C"},
+                    {"number": 16, "text": "As well as going out on the lifeboat, David", "options": [{"letter": "A", "text": "gives talks on safety at sea."}, {"letter": "B", "text": "helps with fundraising."}, {"letter": "C", "text": "recruits new volunteers."}], "answer": "A"},
+                    {"type": "chooseTwoGroup", "questionNumbers": [17, 18], "text": "Which TWO things does David say about the lifeboat volunteer training?", "options": [{"letter": "A", "text": "The residential course developed his leadership skills."}, {"letter": "B", "text": "The training in use of ropes and knots was quite brief."}, {"letter": "C", "text": "The training exercises have built up his mental strength."}, {"letter": "D", "text": "The casualty care activities were particularly challenging for him."}, {"letter": "E", "text": "The wave tank activities provided practice in survival techniques."}], "answers": ["C", "E"]},
+                    {"type": "chooseTwoGroup", "questionNumbers": [19, 20], "text": "Which TWO things does David find most motivating about the work he does?", "options": [{"letter": "A", "text": "working as part of a team"}, {"letter": "B", "text": "experiences when working in winter"}, {"letter": "C", "text": "being thanked by those he has helped"}, {"letter": "D", "text": "the fact that it keeps him fit"}, {"letter": "E", "text": "the chance to develop new equipment"}], "answers": ["A", "B"]}
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Part 3",
+                "description": "Questions 21-30",
+                "instructions": "Choose the correct letter, A, B or C.",
+                "type": "multipleChoice",
+                "items": [
+                    {"number": 21, "text": "At first, Don thought the topic of recycling footwear might be too", "options": [{"letter": "A", "text": "limited in scope."}, {"letter": "B", "text": "hard to research."}, {"letter": "C", "text": "boring for listeners."}], "answer": "A"},
+                    {"number": 22, "text": "When discussing trainers, Bella and Don disagree about", "options": [{"letter": "A", "text": "how popular they are among young people."}, {"letter": "B", "text": "how suitable they are for school."}, {"letter": "C", "text": "how quickly they wear out."}], "answer": "B"},
+                    {"number": 23, "text": "Bella says that she sometimes recycles shoes because", "options": [{"letter": "A", "text": "they no longer fit."}, {"letter": "B", "text": "she no longer likes them."}, {"letter": "C", "text": "they are no longer in fashion."}], "answer": "B"},
+                    {"number": 24, "text": "What did the article say that confused Don?", "options": [{"letter": "A", "text": "Public consumption of footwear has risen."}, {"letter": "B", "text": "Less footwear is recycled now than in the past."}, {"letter": "C", "text": "People dispose of more footwear than they used to."}], "answer": "B"},
+                    {"type": "matchingGroup", "questionNumbers": [25, 26, 27, 28], "title": "Questions 25-28", "text": "What reasons did the recycling manager give for rejecting footwear, according to the students?", "instructions": "Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 25-28.", "items": [{"number": 25, "label": "the high-heeled shoes"}, {"number": 26, "label": "the ankle boots"}, {"number": 27, "label": "the baby shoes"}, {"number": 28, "label": "the trainers"}], "options": [{"letter": "A", "text": "They are not made for indoor use."}, {"letter": "B", "text": "They are too badly worn."}, {"letter": "C", "text": "They include non-leather parts."}, {"letter": "D", "text": "They are the wrong size."}, {"letter": "E", "text": "They have unusual fastenings."}, {"letter": "F", "text": "They are not a matching pair."}], "answers": {"25": "C", "26": "B", "27": "D", "28": "F"}},
+                    {"number": 29, "text": "What does Bella think about the fact that some shoes are exported abroad?", "options": [{"letter": "A", "text": "She is surprised they don't go to poor people."}, {"letter": "B", "text": "She feels it's wrong to sell them for a profit."}, {"letter": "C", "text": "She approves of the attempt to reduce waste."}], "answer": "A"},
+                    {"number": 30, "text": "Don and Bella agree that when presenting their findings they will need to", "options": [{"letter": "A", "text": "provide fewer statistics."}, {"letter": "B", "text": "leave out some slides."}, {"letter": "C", "text": "make some points clearer."}], "answer": "C"}
+                ]
+            },
+            {
+                "id": 4,
+                "title": "Part 4",
+                "description": "Questions 31-40",
+                "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+                "noteTitle": "Noise in the Ocean",
+                "type": "notes",
+                "items": [
+                    {"isHeader": true, "text": "Underwater noise"},
+                    {"parts": [{"type": "text", "value": "• Comes mainly from ships that carry "}, {"type": "blank", "number": 31}]},
+                    {"parts": [{"type": "text", "value": "• The noise from a ship can be detected around 100 "}, {"type": "blank", "number": 32}, {"type": "text", "value": " away"}]},
+                    {"isHeader": true, "text": "Sound production and hearing in whales"},
+                    {"parts": [{"type": "text", "value": "• Baleen whales: make sounds through their "}, {"type": "blank", "number": 33}]},
+                    {"parts": [{"type": "text", "value": "• Toothed whales: use nasal sacs and also have a special "}, {"type": "blank", "number": 34}, {"type": "text", "value": " in their head for hearing"}]},
+                    {"isHeader": true, "text": "Effects of noise on whales"},
+                    {"parts": [{"type": "text", "value": "• In general, low-frequency sounds interfere with whale "}, {"type": "blank", "number": 35}]},
+                    {"parts": [{"type": "text", "value": "• Noise also causes higher levels of "}, {"type": "blank", "number": 36}]},
+                    {"parts": [{"type": "text", "value": "• Whales have to make their songs louder and longer (similar to humans talking in a "}, {"type": "blank", "number": 37}, {"type": "text", "value": ")"}]},
+                    {"parts": [{"type": "text", "value": "• Whales may also change their "}, {"type": "blank", "number": 38}, {"type": "text", "value": " to avoid too much noise"}]},
+                    {"isHeader": true, "text": "Solutions?"},
+                    {"parts": [{"type": "text", "value": "• Ships need better propellers as current ones produce "}, {"type": "blank", "number": 39}, {"type": "text", "value": " in the water"}]},
+                    {"parts": [{"type": "text", "value": "• In the future, we may have large ships powered by "}, {"type": "blank", "number": 40}]}
+                ],
+                "answers": {"31": "cargo", "32": "kilometres", "33": "throat", "34": "organ", "35": "communication", "36": "stress", "37": "crowd", "38": "routes", "39": "bubbles", "40": "sails"}
+            }
+        ]
     }
 }
 
