@@ -546,7 +546,7 @@
                                             <div class="question-card rounded-xl p-4">
                                                 <p class="text-white mb-4">
                                                 <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                                    <span x-text="q.text"></span>
+                                                    <span x-text="q.text || q.question"></span>
                                                 </p>
                                                 <div class="space-y-2">
                                                     <template x-for="option in q.options" :key="option.letter">
