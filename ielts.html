@@ -153,21 +153,59 @@
         <main class="max-w-5xl mx-auto px-6 py-12">
             
             <!-- Page Title -->
-            <div class="text-center mb-12">
+            <div class="text-center mb-8">
                 <h2 class="text-4xl font-bold text-white mb-4">Cambridge IELTS Tests</h2>
-                <p class="text-white/50 text-lg">Seç ve pratik yapmaya başla</p>
+                <p class="text-white/50 text-lg mb-8">Seç ve pratik yapmaya başla</p>
+                
+                <!-- Category Tabs -->
+                <div class="flex justify-center gap-3 mb-6">
+                    <button @click="selectedCategory = 'academic'" 
+                        :class="selectedCategory === 'academic' ? 'bg-gradient-to-r from-purple-500 to-pink-500 text-white' : 'bg-white/10 text-white/60 hover:bg-white/20'"
+                        class="px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                        📚 Academic
+                        <span class="text-xs bg-white/20 px-2 py-0.5 rounded-full" x-text="academicTests.length"></span>
+                    </button>
+                    <button @click="selectedCategory = 'general'" 
+                        :class="selectedCategory === 'general' ? 'bg-gradient-to-r from-green-500 to-teal-500 text-white' : 'bg-white/10 text-white/60 hover:bg-white/20'"
+                        class="px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                        📋 General Training
+                        <span class="text-xs bg-white/20 px-2 py-0.5 rounded-full" x-text="generalTests.length"></span>
+                    </button>
+                </div>
+                
+                <!-- Category Description -->
+                <div class="glass-card rounded-xl p-4 max-w-2xl mx-auto mb-8">
+                    <template x-if="selectedCategory === 'academic'">
+                        <div class="flex items-center gap-3 text-left">
+                            <span class="text-3xl">🎓</span>
+                                <div>
+                                <p class="text-white font-semibold">IELTS Academic</p>
+                                <p class="text-white/50 text-sm">Üniversite ve profesyonel kayıt için akademik İngilizce</p>
+                                </div>
+                            </div>
+                    </template>
+                    <template x-if="selectedCategory === 'general'">
+                        <div class="flex items-center gap-3 text-left">
+                            <span class="text-3xl">🌍</span>
+                            <div>
+                                <p class="text-white font-semibold">IELTS General Training</p>
+                                <p class="text-white/50 text-sm">Göç ve iş başvuruları için günlük İngilizce</p>
+                            </div>
+                        </div>
+                    </template>
+                </div>
             </div>
 
             <!-- Tests Grid -->
             <div class="space-y-6">
-                    <template x-for="(test, index) in testSets" :key="test.id">
+                    <template x-for="(test, index) in currentTests" :key="test.id">
                     <div class="glass-card rounded-2xl p-6 fade-in" :style="'animation-delay: ' + (index * 0.1) + 's'">
                         
                         <!-- Test Header -->
                         <div class="flex items-center gap-4 mb-6">
                             <div class="w-14 h-14 rounded-xl bg-gradient-to-br from-pink-500 to-purple-600 flex items-center justify-center text-2xl font-bold">
                                 <span x-text="test.id"></span>
-                            </div>
+            </div>
                                 <div>
                                 <h3 class="text-xl font-bold text-white" x-text="test.name"></h3>
                                 <p class="text-white/50 text-sm" x-text="test.subtitle"></p>
@@ -197,7 +235,7 @@
                                     <div class="text-3xl mb-3">🎧</div>
                                     <h4 class="font-semibold text-white mb-1">Listening</h4>
                                     <p class="text-xs text-white/50">4 Parts • 40 Questions</p>
-                </div>
+                    </div>
                                 <div class="absolute inset-0 bg-gradient-to-r from-green-500/20 to-green-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                             </button>
 
@@ -211,7 +249,7 @@
                                     <p class="text-xs text-white/50">2 Tasks • 60 Minutes</p>
             </div>
                                 <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-blue-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            </button>
+                        </button>
 
                             <!-- Speaking -->
                             <button @click="openSection(test.id, 'speaking')" 
@@ -223,7 +261,7 @@
                                     <p class="text-xs text-white/50">3 Parts • 15 Minutes</p>
             </div>
                                 <div class="absolute inset-0 bg-gradient-to-r from-orange-500/20 to-orange-500/0 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            </button>
+                        </button>
 
                         </div>
                     </div>
@@ -246,22 +284,27 @@
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
                         </svg>
                         <span class="hidden sm:inline">Testlere Dön</span>
-                    </button>
+                        </button>
                     <div class="text-pink-400 font-semibold md:hidden">📖 Reading</div>
                 </div>
                 
                 <div class="flex flex-col sm:flex-row items-center gap-2 md:gap-4 w-full md:w-auto">
-                    <span class="text-white font-semibold text-sm md:text-base hidden md:block" x-text="currentTestData?.name + ' - Reading'"></span>
+                    <span class="text-white font-semibold text-sm md:text-base hidden md:block">
+                        <span x-text="currentTestData?.name"></span>
+                        <span class="text-white/50"> - Reading</span>
+                        <span x-show="currentTestData?.type === 'general'" class="ml-2 bg-green-500/20 text-green-400 text-xs px-2 py-0.5 rounded">GT</span>
+                    </span>
                     <div class="flex gap-2 flex-wrap justify-center">
-                                <template x-for="(passage, index) in currentPassages" :key="index">
+                        <template x-for="(passage, index) in currentPassages" :key="index">
                             <button @click="currentPassageIndex = index; loadPassage(); showPassagePanel = true"
                                 :class="currentPassageIndex === index ? 'bg-pink-500 text-white' : 'bg-white/10 hover:bg-white/20 text-white/70'"
                                 class="px-3 md:px-4 py-1.5 md:py-2 rounded-lg font-semibold transition-all text-xs md:text-sm">
-                                <span x-text="'Passage ' + (index + 1)"></span>
-                            </button>
+                                <span x-show="!passage.sectionNumber" x-text="'Passage ' + (index + 1)"></span>
+                                <span x-show="passage.sectionNumber" x-text="'S' + passage.sectionNumber + '-' + passage.id"></span>
+                        </button>
                         </template>
                     </div>
-                    </div>
+                </div>
 
                 <div class="text-pink-400 font-semibold hidden md:block">📖 Reading</div>
             </div>
@@ -291,7 +334,23 @@
                     <div class="glass-card rounded-2xl p-4 md:p-6">
                         <h2 class="text-xl md:text-2xl font-bold mb-3 md:mb-4 text-pink-400" x-text="currentPassage?.title"></h2>
                         <p class="text-white/50 text-xs md:text-sm mb-4 md:mb-6 italic" x-text="currentPassage?.subtitle"></p>
-                        <div class="passage-text text-white/85 text-sm md:text-[15px]" x-html="currentPassage?.content"></div>
+                        
+                        <!-- Standard content (HTML string) -->
+                        <template x-if="currentPassage?.content">
+                            <div class="passage-text text-white/85 text-sm md:text-[15px]" x-html="currentPassage?.content"></div>
+                        </template>
+                        
+                        <!-- Paragraphs (for passages with labeled sections like A, B, C) -->
+                        <template x-if="currentPassage?.paragraphs">
+                            <div class="passage-text text-white/85 text-sm md:text-[15px] space-y-4">
+                                <template x-for="para in currentPassage.paragraphs" :key="para.label">
+                                    <div class="mb-4">
+                                        <span class="text-pink-400 font-bold text-lg mr-2" x-text="para.label"></span>
+                                        <span x-text="para.content"></span>
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
                     </div>
                     </div>
                 </div>
@@ -339,12 +398,12 @@
 
                             <!-- YES/NO/NOT GIVEN -->
                             <template x-if="section.type === 'yesNoNotGiven'">
-                                <div class="space-y-4">
+                                    <div class="space-y-4">
                                     <template x-for="q in section.items" :key="q.number">
-                                        <div class="question-card rounded-xl p-4">
-                                            <p class="text-white mb-3">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
                                                 <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                                <span x-text="q.text"></span>
+                                                    <span x-text="q.text"></span>
                                             </p>
                                             <div class="flex gap-2">
                                                 <template x-for="option in ['YES', 'NO', 'NOT GIVEN']" :key="option">
@@ -372,7 +431,7 @@
                                             <div class="question-card rounded-xl p-4">
                                                 <p class="text-white mb-3">
                                                 <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
-                                                    <span x-text="q.text"></span>
+                                                    <span x-text="q.text || q.statement"></span>
                                                 </p>
                                                 <div class="flex gap-2 flex-wrap">
                                                     <template x-for="option in section.options" :key="option">
@@ -531,8 +590,8 @@
                                     </div>
                                 </template>
 
-                            <!-- SENTENCE COMPLETION -->
-                                <template x-if="section.type === 'sentenceCompletion'">
+                            <!-- SENTENCE COMPLETION (with endings) -->
+                                <template x-if="section.type === 'sentenceCompletion' && section.endings">
                                     <div class="space-y-4">
                                         <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
                                         <p class="text-white/70 font-semibold mb-2">Sentence Endings:</p>
@@ -565,6 +624,146 @@
                                                 </div>
                                             </div>
                                         </template>
+                                    </div>
+                                </template>
+
+                            <!-- SENTENCE COMPLETION (fill in blank - GT) -->
+                                <template x-if="section.type === 'sentenceCompletion' && !section.endings">
+                                    <div class="space-y-4">
+                                        <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <div class="flex items-center gap-3 flex-wrap">
+                                                    <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span class="text-white flex-1" x-text="q.sentence"></span>
+                                                    <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                        :class="{
+                                                            'correct': submitted && isCorrectFillItem(q.number, q.answer),
+                                                            'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                        }"
+                                                        class="fill-input w-36 px-3 py-2 rounded-lg text-white" placeholder="...">
+                                                    <span x-show="submitted && !isCorrectFillItem(q.number, q.answer)"
+                                                        class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                            <!-- TRUE/FALSE/NOT GIVEN (GT) -->
+                                <template x-if="section.type === 'trueFalseNotGiven'">
+                                    <div class="space-y-4">
+                                        <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
+                                                    <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span x-text="q.statement"></span>
+                                                </p>
+                                                <div class="flex gap-2 flex-wrap">
+                                                    <template x-for="option in ['TRUE', 'FALSE', 'NOT GIVEN']" :key="option">
+                                                        <button @click="!submitted && setAnswer(q.number, option)"
+                                                            :class="{
+                                                        'selected': answers[q.number] === option && !submitted,
+                                                        'correct': submitted && q.answer === option,
+                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                            }"
+                                                            class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                            :disabled="submitted">
+                                                            <span x-text="option"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                            <!-- NOTE COMPLETION (GT) -->
+                                <template x-if="section.type === 'noteCompletion'">
+                                    <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                                        <h4 class="text-lg font-semibold text-white mb-4" x-text="section.title"></h4>
+                                        <div class="space-y-3">
+                                            <template x-for="q in section.items" :key="q.number">
+                                                <div class="flex items-center gap-3 flex-wrap p-2 bg-white/5 rounded-lg">
+                                                    <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    <span class="text-white flex-1" x-text="q.note"></span>
+                                                    <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                        :class="{
+                                                            'correct': submitted && isCorrectFillItem(q.number, q.answer),
+                                                            'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                        }"
+                                                        class="fill-input w-36 px-3 py-2 rounded-lg text-white" placeholder="...">
+                                                    <span x-show="submitted && !isCorrectFillItem(q.number, q.answer)"
+                                                        class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
+                                                </div>
+                                            </template>
+                                        </div>
+                                    </div>
+                                </template>
+
+                            <!-- MATCHING HEADINGS (GT) -->
+                                <template x-if="section.type === 'matchingHeadings'">
+                                    <div class="space-y-4">
+                                        <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                            <p class="text-white/70 font-semibold mb-2">List of Headings:</p>
+                                            <template x-for="heading in section.headings" :key="heading.number">
+                                                <p class="text-white/60 mb-1">
+                                                    <span class="text-pink-400 font-bold" x-text="heading.number + '.'"></span>
+                                                    <span x-text="heading.text"></span>
+                                                </p>
+                                            </template>
+                                        </div>
+                                        <template x-for="q in section.items" :key="q.number">
+                                            <div class="question-card rounded-xl p-4">
+                                                <p class="text-white mb-3">
+                                                    <span class="text-pink-400 font-bold" x-text="q.number + '.'"></span>
+                                                    Section <span class="text-yellow-400 font-bold" x-text="q.section"></span>
+                                                </p>
+                                                <div class="flex gap-2 flex-wrap">
+                                                    <template x-for="heading in section.headings" :key="heading.number">
+                                                        <button @click="!submitted && setAnswer(q.number, heading.number)"
+                                                            :class="{
+                                                                'selected': answers[q.number] === heading.number && !submitted,
+                                                                'correct': submitted && q.answer === heading.number,
+                                                                'incorrect': submitted && answers[q.number] === heading.number && q.answer !== heading.number
+                                                            }"
+                                                            class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                            :disabled="submitted">
+                                                            <span x-text="heading.number"></span>
+                                                        </button>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </template>
+
+                            <!-- SUMMARY COMPLETION (GT with blanks) -->
+                                <template x-if="section.type === 'summaryCompletion'">
+                                    <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                                        <h4 class="text-lg font-semibold text-white mb-4" x-text="section.title"></h4>
+                                        
+                                        <!-- Summary paragraph with inline blanks -->
+                                        <template x-if="section.summary">
+                                            <p class="text-white/85 leading-relaxed mb-4" x-html="renderSummaryWithBlanks(section)"></p>
+                                        </template>
+                                        
+                                        <!-- Answer inputs list -->
+                                        <div class="space-y-3 mt-4 border-t border-white/10 pt-4">
+                                            <p class="text-yellow-400 font-semibold text-sm mb-2">Your Answers:</p>
+                                            <template x-for="q in section.items" :key="q.number">
+                                                <div class="flex items-center gap-3 flex-wrap p-2 bg-white/5 rounded-lg">
+                                                    <span class="text-pink-400 font-bold w-8" x-text="q.number + '.'"></span>
+                                                    <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                        :class="{
+                                                            'correct': submitted && isCorrectFillItem(q.number, q.answer),
+                                                            'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                        }"
+                                                        class="fill-input w-36 px-3 py-2 rounded-lg text-white" placeholder="...">
+                                                    <span x-show="submitted && !isCorrectFillItem(q.number, q.answer)"
+                                                        class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
+                                                </div>
+                                            </template>
+                                        </div>
                                     </div>
                                 </template>
 
@@ -907,8 +1106,8 @@
                                                                 <span class="text-white flex-1" x-text="item.text"></span>
                                                                 <select x-model="listeningAnswers[item.number]" :disabled="listeningSubmitted"
                                                                     :class="{
-                                                                        'correct': listeningSubmitted && listeningAnswers[item.number] === q.answers[item.number],
-                                                                        'incorrect': listeningSubmitted && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
+                                                                'correct': listeningSubmitted && listeningAnswers[item.number] === q.answers[item.number],
+                                                                'incorrect': listeningSubmitted && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
                                                                     }"
                                                                     class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
                                                                     <option value="" class="bg-gray-800">-</option>
@@ -1074,10 +1273,13 @@
         function ieltsApp() {
             return {
                 currentView: 'list', // list, reading, listening, writing, speaking
+                selectedCategory: 'academic', // academic, general
                 selectedTestId: null,
                 currentPassageIndex: 0,
+                currentSectionIndex: 0, // for General Training sections
                 currentPassage: null,
                 currentPassages: [],
+                currentSections: [], // for General Training
                 answers: {},
                 submitted: false,
                 score: 0,
@@ -1095,10 +1297,24 @@
                 listeningScore: 0,
                 listeningTotalQuestions: 0,
 
-                testSets: [
-                    { id: 1, name: "Test 1", subtitle: "Cambridge 19 - Test 2", file: "ielts-tests/test1.json" },
-                    { id: 2, name: "Test 2", subtitle: "Cambridge 19 - Test 3", file: "ielts-tests/test2.json" }
+                // Academic Tests
+                academicTests: [
+                    { id: 1, name: "Test 1", subtitle: "Cambridge 19 - Test 2", file: "ielts-tests/test1.json", type: "academic" },
+                    { id: 2, name: "Test 2", subtitle: "Cambridge 19 - Test 3", file: "ielts-tests/test2.json", type: "academic" }
                 ],
+
+                // General Training Tests
+                generalTests: [
+                    { id: 101, name: "General Test 1", subtitle: "Cambridge 19 GT - Test 1", file: "ielts-tests/general/test1.json", type: "general" }
+                ],
+
+                get currentTests() {
+                    return this.selectedCategory === 'academic' ? this.academicTests : this.generalTests;
+                },
+
+                get testSets() {
+                    return [...this.academicTests, ...this.generalTests];
+                },
 
                 async openSection(testId, section) {
                     this.selectedTestId = testId;
@@ -1111,7 +1327,26 @@
                             const testData = await response.json();
 
                             if (section === 'reading' && testData.reading) {
+                                // Check if it's General Training format (has sections)
+                                if (testData.reading.sections) {
+                                    this.currentSections = testData.reading.sections;
+                                    this.currentSectionIndex = 0;
+                                    // Flatten passages from sections for GT
+                                    this.currentPassages = [];
+                                    testData.reading.sections.forEach((sec, secIdx) => {
+                                        sec.passages.forEach((passage, passIdx) => {
+                                            this.currentPassages.push({
+                                                ...passage,
+                                                sectionNumber: secIdx + 1,
+                                                sectionTitle: sec.title,
+                                                questionRange: sec.questionRange
+                                            });
+                                        });
+                                    });
+                                } else {
+                                    // Academic format (passages directly)
                                 this.currentPassages = testData.reading.passages;
+                                }
                                 this.currentPassageIndex = 0;
                                 this.loadPassage();
                             }
@@ -1146,20 +1381,68 @@
                     return userAnswer === correctAnswer;
                 },
 
+                isCorrectFillItem(number, correctAnswer) {
+                    const userAnswer = (this.answers[number] || '').toLowerCase().trim();
+                    const correct = (correctAnswer || '').toLowerCase().trim();
+                    return userAnswer === correct;
+                },
+
+                renderSummaryWithBlanks(section) {
+                    if (!section.summary) return '';
+                    let html = section.summary;
+                    // Replace {number} placeholders with underlined numbers
+                    section.items.forEach(item => {
+                        const placeholder = '{' + item.number + '}';
+                        const replacement = `<span class="text-pink-400 font-bold border-b-2 border-pink-400 px-2">${item.number}</span>`;
+                        html = html.replace(placeholder, replacement);
+                    });
+                    return html;
+                },
+
                 submitAnswers() {
                     this.submitted = true;
                     this.score = 0;
                     this.totalQuestions = 0;
 
                     this.currentPassage?.questions.forEach(section => {
-                        if (['tfng', 'matching', 'matchPeople', 'multipleChoice', 'sentenceCompletion', 'yesNoNotGiven'].includes(section.type)) {
+                        // Multiple choice style questions (select from options)
+                        if (['tfng', 'matching', 'matchPeople', 'multipleChoice', 'yesNoNotGiven', 'trueFalseNotGiven', 'matchingHeadings'].includes(section.type)) {
                             section.items.forEach(item => {
                                 this.totalQuestions++;
                                 if (this.answers[item.number] === item.answer) {
                                     this.score++;
                                 }
                             });
-                        } else if (section.type === 'notes' || section.type === 'summary') {
+                        } 
+                        // Sentence completion with endings (select from options)
+                        else if (section.type === 'sentenceCompletion' && section.endings) {
+                            section.items.forEach(item => {
+                                this.totalQuestions++;
+                                if (this.answers[item.number] === item.answer) {
+                                    this.score++;
+                                }
+                            });
+                        }
+                        // Fill in blank style questions (GT)
+                        else if (section.type === 'sentenceCompletion' && !section.endings) {
+                            section.items.forEach(item => {
+                                this.totalQuestions++;
+                                if (this.isCorrectFillItem(item.number, item.answer)) {
+                                    this.score++;
+                                }
+                            });
+                        }
+                        // Note completion and summary completion (GT)
+                        else if (section.type === 'noteCompletion' || section.type === 'summaryCompletion') {
+                            section.items.forEach(item => {
+                                this.totalQuestions++;
+                                if (this.isCorrectFillItem(item.number, item.answer)) {
+                                    this.score++;
+                                }
+                            });
+                        }
+                        // Notes and summary (Academic)
+                        else if (section.type === 'notes' || section.type === 'summary') {
                             if (section.answers) {
                                 Object.keys(section.answers).forEach(num => {
                                     this.totalQuestions++;

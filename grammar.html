@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Lessons - English Learning Hub</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        [x-cloak] {
+            display: none !important;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0c0a1d 0%, #1a1333 50%, #0f172a 100%);
+            min-height: 100vh;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .topic-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .topic-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .category-tenses {
+            border-left: 4px solid #22c55e;
+        }
+
+        .category-clauses {
+            border-left: 4px solid #3b82f6;
+        }
+
+        .category-modals {
+            border-left: 4px solid #a855f7;
+        }
+
+        .category-other {
+            border-left: 4px solid #f59e0b;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .glow-green {
+            box-shadow: 0 0 30px rgba(34, 197, 94, 0.3);
+        }
+
+        .glow-blue {
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .glow-purple {
+            box-shadow: 0 0 30px rgba(168, 85, 247, 0.3);
+        }
+
+        .glow-yellow {
+            box-shadow: 0 0 30px rgba(245, 158, 11, 0.3);
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div x-data="grammarLessons()" x-init="init()" x-cloak class="min-h-screen flex flex-col">
+
+        <!-- Top Navigation -->
+        <nav class="bg-black/40 backdrop-blur-xl border-b border-white/10 p-4 sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold text-white flex items-center gap-2">
+                    🎓 <span class="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent">Grammar
+                        Lessons</span>
+                </a>
+                <div class="flex gap-3">
+                    <a href="ielts.html"
+                        class="px-5 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20 text-sm">
+                        📝 IELTS
+                    </a>
+                    <a href="vocabulary.html"
+                        class="px-5 py-2 rounded-full text-white font-semibold transition-all bg-white/10 hover:bg-white/20 text-sm">
+                        📚 Vocabulary
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto">
+
+            <!-- Hero Section (List View) -->
+            <div x-show="currentView === 'list'" x-cloak class="py-12 px-6">
+                <div class="max-w-7xl mx-auto text-center mb-12">
+                    <div class="text-7xl mb-4 floating">📚</div>
+                    <h1 class="text-5xl font-extrabold text-white mb-4">
+                        <span class="bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400 bg-clip-text text-transparent">
+                            Grammar Mastery
+                        </span>
+                    </h1>
+                    <p class="text-xl text-white/60 max-w-2xl mx-auto">
+                        IELTS, TOEFL ve genel İngilizce için kapsamlı gramer dersleri
+                    </p>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="max-w-7xl mx-auto mb-8">
+                    <div class="flex flex-wrap justify-center gap-3">
+                        <button @click="activeCategory = 'all'"
+                            :class="activeCategory === 'all' ? 'bg-white text-gray-900' : 'bg-white/10 text-white hover:bg-white/20'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            Tümü
+                        </button>
+                        <button @click="activeCategory = 'tenses'"
+                            :class="activeCategory === 'tenses' ? 'bg-green-500 text-white' : 'bg-green-500/20 text-green-300 hover:bg-green-500/30'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            ⏰ Tenses
+                        </button>
+                        <button @click="activeCategory = 'clauses'"
+                            :class="activeCategory === 'clauses' ? 'bg-blue-500 text-white' : 'bg-blue-500/20 text-blue-300 hover:bg-blue-500/30'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            📝 Clauses & Structures
+                        </button>
+                        <button @click="activeCategory = 'modals'"
+                            :class="activeCategory === 'modals' ? 'bg-purple-500 text-white' : 'bg-purple-500/20 text-purple-300 hover:bg-purple-500/30'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            🎯 Modals & Others
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Topics Grid -->
+                <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+                    <template x-for="topic in filteredTopics" :key="topic.id">
+                        <button @click="openTopic(topic)"
+                            :class="'category-' + topic.category"
+                            class="topic-card glass-card rounded-2xl p-6 cursor-pointer group text-left w-full">
+                            
+                            <!-- Icon & Title -->
+                            <div class="flex items-start gap-4 mb-4">
+                                <div class="text-4xl" x-text="topic.icon"></div>
+                                <div class="flex-1">
+                                    <h3 class="text-xl font-bold text-white group-hover:text-green-400 transition-colors"
+                                        x-text="topic.title"></h3>
+                                    <p class="text-white/50 text-sm mt-1" x-text="topic.subtitle"></p>
+                                </div>
+                            </div>
+
+                            <!-- Tags -->
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span x-show="topic.hasVideo"
+                                    class="px-3 py-1 rounded-full bg-red-500/20 text-red-300 text-xs font-medium">
+                                    🎬 Video
+                                </span>
+                                <span x-show="topic.hasPdf"
+                                    class="px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-medium">
+                                    📄 PDF
+                                </span>
+                                <span :class="{
+                                    'bg-green-500/20 text-green-300': topic.category === 'tenses',
+                                    'bg-blue-500/20 text-blue-300': topic.category === 'clauses',
+                                    'bg-purple-500/20 text-purple-300': topic.category === 'modals'
+                                }" class="px-3 py-1 rounded-full text-xs font-medium" x-text="topic.categoryLabel">
+                                </span>
+                            </div>
+
+                            <!-- Watch Button -->
+                            <div class="flex justify-end">
+                                <span class="text-white/40 group-hover:text-green-400 transition-colors text-sm font-medium flex items-center gap-1">
+                                    İzle <span class="text-lg">→</span>
+                                </span>
+                            </div>
+                        </button>
+                    </template>
+                </div>
+
+                <!-- Drive Link Notice -->
+                <div class="max-w-3xl mx-auto mt-12 px-4">
+                    <div class="glass-card rounded-2xl p-6 text-center">
+                        <p class="text-white/60 mb-3">
+                            📁 Tüm ders videolarına Google Drive'dan da ulaşabilirsiniz:
+                        </p>
+                        <a href="https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3" 
+                           target="_blank"
+                           class="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-3 px-6 rounded-full transition-all">
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0L1.75 6v12L12 24l10.25-6V6L12 0zm0 3.5l6.5 3.75L12 11 5.5 7.25 12 3.5z"/>
+                            </svg>
+                            Google Drive'ı Aç
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Topic Detail View -->
+            <template x-if="currentView === 'detail' && currentTopic">
+                <div class="flex-1 flex flex-col">
+                    
+                    <!-- Back Button & Title -->
+                    <div class="bg-black/30 backdrop-blur-xl border-b border-white/10 p-4">
+                        <div class="max-w-5xl mx-auto flex items-center gap-4">
+                            <button @click="currentView = 'list'; currentTopic = null"
+                                class="bg-white/10 hover:bg-white/20 text-white p-3 rounded-xl transition-all">
+                                ← Geri
+                            </button>
+                            <div class="flex items-center gap-3">
+                                <span class="text-3xl" x-text="currentTopic.icon"></span>
+                                <div>
+                                    <h2 class="text-2xl font-bold text-white" x-text="currentTopic.title"></h2>
+                                    <p class="text-white/50 text-sm" x-text="currentTopic.subtitle"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video & Resources -->
+                    <div class="flex-1 p-6 overflow-auto">
+                        <div class="max-w-5xl mx-auto space-y-6">
+                            
+                            <!-- Video Section -->
+                            <div x-show="currentTopic.hasVideo" class="glass-card rounded-2xl overflow-hidden">
+                                <div class="p-4 border-b border-white/10 flex items-center justify-between flex-wrap gap-3">
+                                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                                        🎬 Ders Videosu
+                                    </h3>
+                                    
+                                    <!-- Video Selection Buttons (for multiple videos) -->
+                                    <div x-show="hasMultipleVideos" class="flex gap-2">
+                                        <template x-for="(video, index) in currentTopic.videos" :key="index">
+                                            <button @click="selectVideo(index)"
+                                                :class="selectedVideoIndex === index ? 'bg-green-500 text-white' : 'bg-white/10 text-white/70 hover:bg-white/20'"
+                                                class="px-4 py-2 rounded-full text-sm font-semibold transition-all"
+                                                x-text="video.label">
+                                            </button>
+                                        </template>
+                                    </div>
+                                </div>
+                                
+                                <!-- Video Player -->
+                                <div class="p-6">
+                                    <template x-if="currentVideoUrl">
+                                        <div class="video-container rounded-xl overflow-hidden">
+                                            <iframe :src="currentVideoUrl" 
+                                                frameborder="0" 
+                                                allowfullscreen
+                                                allow="autoplay; encrypted-media"></iframe>
+                                        </div>
+                                    </template>
+                                    
+                                    <template x-if="!currentVideoUrl && currentTopic.driveUrl">
+                                        <div class="text-center py-8">
+                                            <div class="text-6xl mb-4">🎬</div>
+                                            <p class="text-white/60 mb-4">Video Google Drive'da barındırılmaktadır</p>
+                                            <a :href="currentTopic.driveUrl" target="_blank"
+                                                class="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-full transition-all">
+                                                ▶️ Videoyu İzle
+                                            </a>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+
+                            <!-- PDF Section -->
+                            <div x-show="currentTopic.hasPdf" class="glass-card rounded-2xl overflow-hidden">
+                                <div class="p-4 border-b border-white/10">
+                                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                                        📄 PDF Notlar
+                                    </h3>
+                                </div>
+                                <div class="p-6">
+                                    <a :href="currentTopic.pdfUrl" target="_blank"
+                                        class="inline-flex items-center gap-3 bg-blue-500/20 hover:bg-blue-500/30 border border-blue-500/30 text-blue-300 font-medium py-4 px-6 rounded-xl transition-all w-full">
+                                        <span class="text-3xl">📥</span>
+                                        <div class="flex-1">
+                                            <p class="font-bold" x-text="currentTopic.title + '.pdf'"></p>
+                                            <p class="text-sm text-blue-300/60">PDF'i indir veya görüntüle</p>
+                                        </div>
+                                        <span class="text-2xl">→</span>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Tips Section -->
+                            <div class="glass-card rounded-2xl overflow-hidden">
+                                <div class="p-4 border-b border-white/10">
+                                    <h3 class="text-lg font-bold text-white flex items-center gap-2">
+                                        💡 İpuçları
+                                    </h3>
+                                </div>
+                                <div class="p-6">
+                                    <ul class="space-y-3 text-white/70">
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-400">✓</span>
+                                            <span>Videoyu izlerken not alın</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-400">✓</span>
+                                            <span>PDF'deki örnekleri defterinize yazın</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-400">✓</span>
+                                            <span>Kendi cümlelerinizi oluşturmaya çalışın</span>
+                                        </li>
+                                        <li class="flex items-start gap-3">
+                                            <span class="text-green-400">✓</span>
+                                            <span>Anlamadığınız kısımları tekrar izleyin</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-black/30 border-t border-white/10 p-4 text-center">
+            <p class="text-white/40 text-sm">
+                Made with 💚 for English Learners
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function grammarLessons() {
+            return {
+                currentView: 'list',
+                activeCategory: 'all',
+                currentTopic: null,
+                selectedVideoIndex: 0,
+                
+                // Google Drive folder base URL
+                driveFolder: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3',
+                
+                topics: [
+                    // TENSES
+                    {
+                        id: 'simple-present',
+                        title: 'Simple Present Tense',
+                        subtitle: 'Geniş zaman yapısı ve kullanımı',
+                        icon: '🕐',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1nJCxjZm2nqtxq-fz2_5BU2_Ds_B4vnn-/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1nJCxjZm2nqtxq-fz2_5BU2_Ds_B4vnn-/view?usp=sharing'
+                    },
+                    {
+                        id: 'past-tense',
+                        title: 'Past Tense',
+                        subtitle: 'Geçmiş zaman yapısı ve kullanımı',
+                        icon: '⏮️',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1wYBAp-6UMUPgqJcDR4JwYU5j-W0hrm-K/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1wYBAp-6UMUPgqJcDR4JwYU5j-W0hrm-K/view?usp=sharing'
+                    },
+                    {
+                        id: 'past-continuous',
+                        title: 'Past Continuous',
+                        subtitle: 'Geçmişte süregelen eylemler',
+                        icon: '🔄',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1PQoVAzGwLE0EDRYGZL0EOZitvGUlKwE6/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1PQoVAzGwLE0EDRYGZL0EOZitvGUlKwE6/view?usp=sharing'
+                    },
+                    {
+                        id: 'present-perfect',
+                        title: 'Present Perfect',
+                        subtitle: 'Yakın geçmiş ve deneyimler',
+                        icon: '✅',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1UyjWBQqBaix743vOjExUviTS2ezX4GpY/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1UyjWBQqBaix743vOjExUviTS2ezX4GpY/view?usp=sharing'
+                    },
+                    {
+                        id: 'present-perfect-continuous',
+                        title: 'Present Perfect Continuous',
+                        subtitle: 'Süregelen eylemler',
+                        icon: '🔁',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1J4QpbNfSP2Ko0AhreLvsREliXVd8GkPl/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1J4QpbNfSP2Ko0AhreLvsREliXVd8GkPl/view?usp=sharing'
+                    },
+                    {
+                        id: 'past-perfect',
+                        title: 'Past Perfect',
+                        subtitle: 'Geçmişin geçmişi',
+                        icon: '⏪',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1t43E_t0Et3OxixOLojhlanRvw3eAqWyw/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1t43E_t0Et3OxixOLojhlanRvw3eAqWyw/view?usp=sharing'
+                    },
+                    {
+                        id: 'past-perfect-continuous',
+                        title: 'Past Perfect Continuous',
+                        subtitle: 'Geçmişte süregelen eylemler',
+                        icon: '⏳',
+                        category: 'tenses',
+                        categoryLabel: 'Tenses',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1fb5B8OkZRsHEr2ygBaGieXK_m8_ytGLZ/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1fb5B8OkZRsHEr2ygBaGieXK_m8_ytGLZ/view?usp=sharing'
+                    },
+                    
+                    // CLAUSES & STRUCTURES
+                    {
+                        id: 'passive-voice',
+                        title: 'Passive Voice',
+                        subtitle: 'Edilgen yapı (Part 1 & 2)',
+                        icon: '🔀',
+                        category: 'clauses',
+                        categoryLabel: 'Structures',
+                        hasVideo: true,
+                        hasPdf: false,
+                        videos: [
+                            { label: 'Part 1', embedUrl: 'https://drive.google.com/file/d/14SAkJIaA64iHONtnz78y0rQyE0UBIM6a/preview' },
+                            { label: 'Part 2', embedUrl: 'https://drive.google.com/file/d/1ADEAy2P-Lg8PuUIR0RSmbt4YWuVrkFwS/preview' }
+                        ],
+                        driveUrl: 'https://drive.google.com/file/d/14SAkJIaA64iHONtnz78y0rQyE0UBIM6a/view?usp=sharing'
+                    },
+                    {
+                        id: 'conditionals',
+                        title: 'Conditionals',
+                        subtitle: 'Koşul cümleleri (0, 1, 2, 3)',
+                        icon: '🔮',
+                        category: 'clauses',
+                        categoryLabel: 'Structures',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1GJbGef2PGHa_j_ls9rNNU4fd2LWKQVxY/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1GJbGef2PGHa_j_ls9rNNU4fd2LWKQVxY/view?usp=sharing'
+                    },
+                    {
+                        id: 'relative-clauses',
+                        title: 'Relative Clauses',
+                        subtitle: 'İlgi cümleleri (who, which, that)',
+                        icon: '🔗',
+                        category: 'clauses',
+                        categoryLabel: 'Structures',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/11eGK66MdhY0sy-cu3paL0lJ-za26S7ij/preview',
+                        driveUrl: 'https://drive.google.com/file/d/11eGK66MdhY0sy-cu3paL0lJ-za26S7ij/view?usp=sharing'
+                    },
+                    {
+                        id: 'participle-clauses',
+                        title: 'Participle Clauses',
+                        subtitle: 'Ortaç cümleleri (-ing, -ed)',
+                        icon: '📎',
+                        category: 'clauses',
+                        categoryLabel: 'Structures',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/10fvljlqjKvRvyQ6PpB77cM0tbmdRJ7D1/preview',
+                        driveUrl: 'https://drive.google.com/file/d/10fvljlqjKvRvyQ6PpB77cM0tbmdRJ7D1/view?usp=sharing'
+                    },
+                    {
+                        id: 'conjunctions',
+                        title: 'Conjunctions',
+                        subtitle: 'Bağlaçlar (3 video)',
+                        icon: '🔧',
+                        category: 'clauses',
+                        categoryLabel: 'Structures',
+                        hasVideo: true,
+                        hasPdf: false,
+                        videos: [
+                            { label: 'Part 1', embedUrl: 'https://drive.google.com/file/d/1pAIiU42E8BWGZI6BHEX5TWMvPaWOxDaR/preview' },
+                            { label: 'Part 2', embedUrl: 'https://drive.google.com/file/d/1268_wiFLXuEGF_AndNeIQPEZptR-54FK/preview' },
+                            { label: 'Part 3', embedUrl: 'https://drive.google.com/file/d/1zZi9391sF0CuDbGRTcZCITSvhr0QCtvS/preview' }
+                        ],
+                        driveUrl: 'https://drive.google.com/file/d/1pAIiU42E8BWGZI6BHEX5TWMvPaWOxDaR/view?usp=sharing'
+                    },
+                    {
+                        id: 'comparatives-superlatives',
+                        title: 'Comparatives & Superlatives',
+                        subtitle: 'Karşılaştırma yapıları',
+                        icon: '📊',
+                        category: 'clauses',
+                        categoryLabel: 'Structures',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1a4CbSYwAPACWH_uXqzcsMzLbj0A8PlBI/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1a4CbSYwAPACWH_uXqzcsMzLbj0A8PlBI/view?usp=sharing'
+                    },
+                    
+                    // MODALS & OTHERS
+                    {
+                        id: 'modals-possibility',
+                        title: 'Modals: Possibility in the Past',
+                        subtitle: 'Must/Can\'t/Might + Have + V3',
+                        icon: '🎲',
+                        category: 'modals',
+                        categoryLabel: 'Modals',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1iUXj3RuxOEAKLqz9Ok3JbLrziBBMUgPn/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1iUXj3RuxOEAKLqz9Ok3JbLrziBBMUgPn/view?usp=sharing'
+                    },
+                    {
+                        id: 'would',
+                        title: 'Would',
+                        subtitle: 'Would kullanımları',
+                        icon: '💭',
+                        category: 'modals',
+                        categoryLabel: 'Modals',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1jQXhjUUCXrDHcDM-ZKEWIigv6nOFHpHP/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1jQXhjUUCXrDHcDM-ZKEWIigv6nOFHpHP/view?usp=sharing'
+                    },
+                    {
+                        id: 'used-to',
+                        title: 'Used To',
+                        subtitle: 'Geçmiş alışkanlıklar',
+                        icon: '🕰️',
+                        category: 'modals',
+                        categoryLabel: 'Others',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1CuItWhQckJmbHy-Yy0PogPygQ6uD4o9g/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1CuItWhQckJmbHy-Yy0PogPygQ6uD4o9g/view?usp=sharing'
+                    },
+                    {
+                        id: 'quantifiers',
+                        title: 'Quantifiers & Indefinite Pronouns',
+                        subtitle: 'Some, any, much, many, few, little',
+                        icon: '🔢',
+                        category: 'modals',
+                        categoryLabel: 'Others',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1TmzSrT6IKEMZ0Hd3RftaHY4TzeuXH7Eq/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1TmzSrT6IKEMZ0Hd3RftaHY4TzeuXH7Eq/view?usp=sharing'
+                    },
+                    {
+                        id: 'pronouns',
+                        title: 'Possessive & Object Pronouns',
+                        subtitle: 'İyelik ve nesne zamirleri',
+                        icon: '👤',
+                        category: 'modals',
+                        categoryLabel: 'Others',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/12_sbEItaTAsVVzIaCkhKR88KrgJDnPQZ/preview',
+                        driveUrl: 'https://drive.google.com/file/d/12_sbEItaTAsVVzIaCkhKR88KrgJDnPQZ/view?usp=sharing'
+                    },
+                    {
+                        id: 'reflexive-pronouns',
+                        title: 'Reflexive Pronouns',
+                        subtitle: 'Dönüşlü zamirler (myself, yourself)',
+                        icon: '🪞',
+                        category: 'modals',
+                        categoryLabel: 'Others',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1lBmvlwrtchw-ijYw-3o8yy-YQ0qE6bHH/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1lBmvlwrtchw-ijYw-3o8yy-YQ0qE6bHH/view?usp=sharing'
+                    },
+                    {
+                        id: 'prepositions-place',
+                        title: 'Place Prepositions',
+                        subtitle: 'Yer edatları (in, on, at, under)',
+                        icon: '📍',
+                        category: 'modals',
+                        categoryLabel: 'Prepositions',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1QPiCqiZQZAifZx-RaZxrrHVhnAT2MWoV/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1QPiCqiZQZAifZx-RaZxrrHVhnAT2MWoV/view?usp=sharing'
+                    },
+                    {
+                        id: 'prepositions-time',
+                        title: 'Time Prepositions',
+                        subtitle: 'Zaman edatları (in, on, at)',
+                        icon: '⏱️',
+                        category: 'modals',
+                        categoryLabel: 'Prepositions',
+                        hasVideo: true,
+                        hasPdf: false,
+                        embedUrl: 'https://drive.google.com/file/d/1COen1OZ83Suuw0ksVCsDFGNwZQipOMXK/preview',
+                        driveUrl: 'https://drive.google.com/file/d/1COen1OZ83Suuw0ksVCsDFGNwZQipOMXK/view?usp=sharing'
+                    },
+                    
+                    // PDF Only Resources
+                    {
+                        id: 'irregular-verbs',
+                        title: 'Irregular Verbs',
+                        subtitle: 'Düzensiz fiiller listesi',
+                        icon: '📋',
+                        category: 'tenses',
+                        categoryLabel: 'Reference',
+                        hasVideo: false,
+                        hasPdf: true,
+                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                    },
+                    {
+                        id: 'phrasal-verbs',
+                        title: 'Phrasal Verbs',
+                        subtitle: 'Öbek fiiller',
+                        icon: '🔤',
+                        category: 'modals',
+                        categoryLabel: 'Reference',
+                        hasVideo: false,
+                        hasPdf: true,
+                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                    },
+                    {
+                        id: 'verbs-with-prepositions',
+                        title: 'Verbs with Prepositions',
+                        subtitle: 'Edatlı fiiller',
+                        icon: '🔗',
+                        category: 'modals',
+                        categoryLabel: 'Reference',
+                        hasVideo: false,
+                        hasPdf: true,
+                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                    },
+                    {
+                        id: 'grammar-structures',
+                        title: 'Grammar Structures',
+                        subtitle: 'Genel gramer yapıları özeti',
+                        icon: '📚',
+                        category: 'clauses',
+                        categoryLabel: 'Reference',
+                        hasVideo: false,
+                        hasPdf: true,
+                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                    }
+                ],
+
+                init() {
+                    // Any initialization
+                },
+
+                get filteredTopics() {
+                    if (this.activeCategory === 'all') {
+                        return this.topics;
+                    }
+                    return this.topics.filter(t => t.category === this.activeCategory);
+                },
+
+                openTopic(topic) {
+                    this.currentTopic = topic;
+                    this.currentView = 'detail';
+                    this.selectedVideoIndex = 0;
+                },
+
+                get currentVideoUrl() {
+                    if (!this.currentTopic) return null;
+                    // If topic has multiple videos array
+                    if (this.currentTopic.videos && this.currentTopic.videos.length > 0) {
+                        return this.currentTopic.videos[this.selectedVideoIndex]?.embedUrl;
+                    }
+                    // Single video (embedUrl)
+                    return this.currentTopic.embedUrl;
+                },
+
+                get hasMultipleVideos() {
+                    return this.currentTopic?.videos && this.currentTopic.videos.length > 1;
+                },
+
+                selectVideo(index) {
+                    this.selectedVideoIndex = index;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
+
