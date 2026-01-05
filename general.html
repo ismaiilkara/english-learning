@@ -1331,52 +1331,14 @@
                     }
                 },
 
-                async discoverTests() {
-                    // Discover Academic Tests
-                    let academicId = 1;
-                    while (true) {
-                        const file = `ielts-tests/academic/academic-test${academicId}.json`;
-                        try {
-                            const response = await fetch(`${file}?v=${new Date().getTime()}`, { method: 'HEAD' });
-                            if (response.ok) {
-                                this.academicTests.push({
-                                    id: academicId,
-                                    name: `Test ${academicId}`,
-                                    subtitle: `Cambridge 19 - Test ${academicId + 1}`,
-                                    file: file,
-                                    type: 'academic'
-                                });
-                                academicId++;
-                            } else {
-                                break;
-                            }
-                        } catch (e) {
-                            break;
-                        }
-                    }
-
-                    // Discover General Training Tests
-                    let generalId = 1;
-                    while (true) {
-                        const file = `ielts-tests/general/general-test${generalId}.json`;
-                        try {
-                            const response = await fetch(`${file}?v=${new Date().getTime()}`, { method: 'HEAD' });
-                            if (response.ok) {
-                                this.generalTests.push({
-                                    id: generalId,
-                                    name: `General Test ${generalId}`,
-                                    subtitle: `Cambridge 19 GT - Test ${generalId}`,
-                                    file: file,
-                                    type: 'general'
-                                });
-                                generalId++;
-                            } else {
-                                break;
-                            }
-                        } catch (e) {
-                            break;
-                        }
-                    }
+                discoverTests() {
+                    // Hardcoded test list for instant loading (no HTTP requests)
+                    this.generalTests = [
+                        { id: 1, name: 'General Test 1', file: 'ielts-tests/general/general-test1.json', type: 'general' },
+                        { id: 2, name: 'General Test 2', file: 'ielts-tests/general/general-test2.json', type: 'general' },
+                        { id: 3, name: 'General Test 3', file: 'ielts-tests/general/general-test3.json', type: 'general' },
+                        { id: 4, name: 'General Test 4', file: 'ielts-tests/general/general-test4.json', type: 'general' }
+                    ];
                 },
 
                 get currentTests() {

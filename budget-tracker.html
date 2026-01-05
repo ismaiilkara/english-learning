@@ -485,6 +485,15 @@
     <div class="container">
         <h1>💰 Personal Budget Tracker</h1>
 
+        <!-- Backup Buttons -->
+        <div style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;">
+            <button class="btn btn-primary" onclick="exportData()" style="padding: 8px 16px; font-size: 0.85rem;">💾
+                Export Backup</button>
+            <button class="btn btn-secondary" onclick="document.getElementById('importFile').click()"
+                style="padding: 8px 16px; font-size: 0.85rem;">📂 Import Backup</button>
+            <input type="file" id="importFile" accept=".txt,.json" style="display: none;" onchange="importData(event)">
+        </div>
+
         <!-- Summary -->
         <div class="card summary-card" style="margin-bottom: 25px;">
             <div class="summary-grid">
@@ -897,6 +906,123 @@
                 closeDebtModal();
             }
         });
+
+        // Export data to text file
+        function exportData() {
+            const date = new Date().toLocaleDateString('en-GB').replace(/\//g, '-');
+            let content = '='.repeat(50) + '\n';
+            content += 'PERSONAL BUDGET TRACKER BACKUP\n';
+            content += 'Date: ' + new Date().toLocaleString('en-GB') + '\n';
+            content += '='.repeat(50) + '\n\n';
+
+            // Summary
+            let totalPlanned = 0;
+            let totalSpent = 0;
+            data.expenses.forEach(exp => {
+                const spent = (exp.spendings || []).reduce((sum, s) => sum + s.amount, 0);
+                totalPlanned += exp.amount;
+                totalSpent += spent;
+            });
+            content += 'SUMMARY\n';
+            content += '-'.repeat(30) + '\n';
+            content += 'Total Budget: €' + totalPlanned + '\n';
+            content += 'Total Spent: €' + totalSpent + '\n';
+            content += 'Remaining: €' + (totalPlanned - totalSpent) + '\n\n';
+
+            // Expenses by category
+            content += 'EXPENSES BY CATEGORY\n';
+            content += '-'.repeat(30) + '\n';
+            data.expenses.forEach(exp => {
+                const spent = (exp.spendings || []).reduce((sum, s) => sum + s.amount, 0);
+                content += '\n[' + exp.name + '] Budget: €' + exp.amount + ' | Spent: €' + spent + ' | Remaining: €' + (exp.amount - spent) + '\n';
+                if (exp.spendings && exp.spendings.length > 0) {
+                    exp.spendings.forEach(s => {
+                        content += '  - ' + s.description + ': €' + s.amount + ' (' + s.date + ')\n';
+                    });
+                }
+            });
+
+            // Debts
+            content += '\nDEBTS (Ismail & Marti)\n';
+            content += '-'.repeat(30) + '\n';
+            if (data.debts.length === 0) {
+                content += 'No debts recorded.\n';
+            } else {
+                const ismailOwes = data.debts.filter(d => d.from === 'ismail').reduce((sum, d) => sum + d.amount, 0);
+                const martiOwes = data.debts.filter(d => d.from === 'spouse').reduce((sum, d) => sum + d.amount, 0);
+                content += 'Ismail owes Marti: €' + ismailOwes + '\n';
+                content += 'Marti owes Ismail: €' + martiOwes + '\n';
+                content += 'Net: ' + (martiOwes > ismailOwes ? 'Marti owes €' + (martiOwes - ismailOwes) : (ismailOwes > martiOwes ? 'Ismail owes €' + (ismailOwes - martiOwes) : 'Even')) + '\n\n';
+                data.debts.forEach(d => {
+                    content += '  - ' + (d.from === 'ismail' ? 'Ismail' : 'Marti') + ' -> ' + (d.from === 'ismail' ? 'Marti' : 'Ismail') + ': €' + d.amount + ' (' + d.reason + ', ' + d.date + ')\n';
+                });
+            }
+
+            // JSON backup at the end
+            content += '\n' + '='.repeat(50) + '\n';
+            content += 'RAW DATA (for import)\n';
+            content += '='.repeat(50) + '\n';
+            content += '<!--JSON_START-->\n';
+            content += JSON.stringify(data, null, 2) + '\n';
+            content += '<!--JSON_END-->\n';
+
+            // Download
+            const blob = new Blob([content], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'budget-backup-' + date + '.txt';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Import data from text file
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const content = e.target.result;
+                try {
+                    // Try to extract JSON from backup file
+                    const jsonMatch = content.match(/<!--JSON_START-->\n([\s\S]*?)\n<!--JSON_END-->/);
+                    if (jsonMatch) {
+                        const imported = JSON.parse(jsonMatch[1]);
+                        if (imported.expenses && Array.isArray(imported.expenses)) {
+                            data = imported;
+                            // Ensure spendings arrays exist
+                            data.expenses.forEach(exp => {
+                                if (!exp.spendings) exp.spendings = [];
+                            });
+                            if (!data.debts) data.debts = [];
+                            saveData();
+                            renderAll();
+                            alert('Data imported successfully!');
+                        } else {
+                            throw new Error('Invalid format');
+                        }
+                    } else {
+                        // Try direct JSON parse
+                        const imported = JSON.parse(content);
+                        if (imported.expenses) {
+                            data = imported;
+                            data.expenses.forEach(exp => {
+                                if (!exp.spendings) exp.spendings = [];
+                            });
+                            if (!data.debts) data.debts = [];
+                            saveData();
+                            renderAll();
+                            alert('Data imported successfully!');
+                        }
+                    }
+                } catch (err) {
+                    alert('Error importing file. Please use a valid backup file.');
+                }
+            };
+            reader.readAsText(file);
+            event.target.value = ''; // Reset input
+        }
     </script>
 </body>
 
