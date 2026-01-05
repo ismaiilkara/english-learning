@@ -1,0 +1,426 @@
+{
+    "id": 2,
+    "name": "IELTS General Training - Test 2",
+    "subtitle": "Cambridge IELTS 19 General Training Test 2",
+    "type": "general",
+    "reading": {
+        "title": "General Training Reading Test 2",
+        "sections": [
+            {
+                "id": 1,
+                "title": "Section 1",
+                "questionRange": "Questions 1-14",
+                "passages": [
+                    {
+                        "id": "1a",
+                        "title": "Local campsites",
+                        "content": "<p><strong>A Prettycoat Farm:</strong> This well-known campsite in the wild near Browbourne is a winner with campers who are looking for time out from their fast-paced jobs in the capital. Despite its limited facilities, the site, with its large tent pitches, is an ideal base for exploring the area and driving to the rock museum, the craft workshops or Gaydon Castle. Just follow the signs.</p><p><strong>B Newgammon Wild:</strong> This campsite looks like it's going to be a winner. It only opened last year, but already the website has some very positive reviews from the handful of campers who know about it so far. It offers splendid views over some of the country's most attractive beaches, which can be accessed by steep, narrow cliff steps. You need a good level of fitness for these, and don't forget to leave some energy for the return trip at the end of the day.</p><p><strong>C Oakerly Estate:</strong> You won't be disappointed when you reach Oakerly, despite the problems of getting there by car on such narrow roads. You'll see quite a lot of motorhomes when you hit the clifftop, but there's still plenty of room for tents on the spacious lawn that also offers a camp kitchen, restaurant and bar. Make sure you stay safe and pitch your tent within the white line around the cliff edge, though.</p><p><strong>D South Turnbull:</strong> The emphasis at this site is on back-to-basics camping. It's advisable to come in a group as there are few facilities and you need to do all your own cooking. The area is rather exposed, and in periods of bad weather it can't be reached at all so check on the website before you go.</p><p><strong>E Boxer Trepis:</strong> The 20-metre high rockfaces that surround this site are especially attractive to rock climbers, who come here to camp from hundreds of miles away so that they can attempt the climb - and not always with success, according to the website! It's not compulsory, of course, and there are plenty of other activities for campers to get involved in, such as birdwatching and bathing in the sea.</p>",
+                        "questions": [
+                            {
+                                "type": "matching",
+                                "instructions": "Look at the five descriptions of campsites, A-E. For which campsite are the following statements true? Write the correct letter, A-E.",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E"
+                                ],
+                                "items": [
+                                    {
+                                        "number": 1,
+                                        "statement": "The site is impossible to get to at certain times.",
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 2,
+                                        "statement": "It is in a convenient place for going by car to various tourist spots.",
+                                        "answer": "A"
+                                    },
+                                    {
+                                        "number": 3,
+                                        "statement": "You should camp somewhere inside the marked zone.",
+                                        "answer": "C"
+                                    },
+                                    {
+                                        "number": 4,
+                                        "statement": "Campers who enjoy a particular physical challenge come here.",
+                                        "answer": "E"
+                                    },
+                                    {
+                                        "number": 5,
+                                        "statement": "The difficult journey to the site is worth the effort.",
+                                        "answer": "C"
+                                    },
+                                    {
+                                        "number": 6,
+                                        "statement": "Few people have heard of this site.",
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 7,
+                                        "statement": "Some physical effort is needed to enjoy nearby coastal areas.",
+                                        "answer": "B"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1b",
+                        "title": "Durridge Heights (DH) Newsletter",
+                        "content": "<p><strong>Water penetration:</strong> As a result of the recent heavy rains, water has seeped through the walls of some flats and reached a critical level. A decision has been taken to deal with this immediately. Scaffolding will be put up on the middle section of the southern wall, and the brickwork there will be sealed temporarily with a waterproof covering to prevent any further water getting in until the major building works take place next year.</p><p><strong>Fire safety:</strong> Following our fire safety inspection, the front doors of individual flats were upgraded or replaced in order to satisfy fire safety regulations. As advised in the previous Newsletter, the decoration of the hall side of the front doors will be incorporated into the Fire Safety Project and will be carried out in due course by the company PRQ Builders.</p><p><strong>Internal redecorations:</strong> The corridor walls on the inside of the building are redecorated every three years on a rolling basis and are being done this year. Please look out for signs indicating where the paint is wet. If you have children, make sure they keep away from the walls. DH cannot be held responsible for any spoilt clothing.</p><p><strong>Air fresheners:</strong> We have received a small number of complaints about smells in the corridors. DH installed air fresheners some years ago. However, they were costly and the liquid in their spray stained the carpets. At present, we would prefer to ask residents to make sure smells cannot escape their front door and to seal rubbish bags when they put them in the corridor for collection and disposal by the caretaker.</p><p><strong>Noise and DIY:</strong> While most leaseholders observe the regulations on noise, we have received complaints from others about out-of-hours drilling. Please note that any work involving hammers or electrical tools can only take place between 9.00 am and 5.30 pm on weekdays and between 9.00 am and 12.30 pm on a Saturday. There can be no exceptions to this rule. If you are planning to undertake such work during these hours, it is still polite to inform your neighbours of this so that they can make any necessary arrangements.</p>",
+                        "questions": [
+                            {
+                                "type": "trueFalseNotGiven",
+                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "items": [
+                                    {
+                                        "number": 8,
+                                        "statement": "The water penetration in some flats is being treated as an emergency.",
+                                        "answer": "TRUE"
+                                    },
+                                    {
+                                        "number": 9,
+                                        "statement": "The southern wall will undergo a permanent repair this year.",
+                                        "answer": "FALSE"
+                                    },
+                                    {
+                                        "number": 10,
+                                        "statement": "Some people have failed to pay attention to 'wet paint' signs.",
+                                        "answer": "NOT GIVEN"
+                                    },
+                                    {
+                                        "number": 11,
+                                        "statement": "Air fresheners have caused some damage in the past.",
+                                        "answer": "TRUE"
+                                    },
+                                    {
+                                        "number": 12,
+                                        "statement": "Residents are responsible for removing their own rubbish from the building.",
+                                        "answer": "FALSE"
+                                    },
+                                    {
+                                        "number": 13,
+                                        "statement": "Some residents have reported problems with noisy neighbours.",
+                                        "answer": "TRUE"
+                                    },
+                                    {
+                                        "number": 14,
+                                        "statement": "DIY can take place outside the stated hours if your neighbour agrees.",
+                                        "answer": "FALSE"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Section 2",
+                "questionRange": "Questions 15-27",
+                "passages": [
+                    {
+                        "id": "2a",
+                        "title": "A day in the life of a care worker",
+                        "content": "<p>Care workers in Britain provide elderly and disabled people with the opportunity to remain independent at home, rather than moving into a care home. For those interested in the work, here is what a typical day could be like for a trained care worker.</p><p>Care workers often start early, as the first client of the day may need help getting out of bed and putting on their clothes; they may suffer from a <strong>condition</strong> that prevents them from doing this easily. Providing these services helps clients to look and feel as good as possible when beginning their day.</p><p>The care worker may then help to cook breakfast for the client, and this is often a good time to enjoy a <strong>conversation</strong> and catch up on how they are feeling. Many clients appreciate being able to chat to someone regularly, as some may have no family members or friends living nearby.</p><p>Next, the care worker may take the opportunity to do some basic housework for the client. Housework is often something that elderly people or people with disabilities may not be able to do themselves. Even something as simple as <strong>hoovering</strong> the living room can make a huge difference to a client's day. Of course, there may be the breakfast dishes to do as well.</p><p>Later in the morning, the care worker may move on to another client in order to help them prepare their <strong>midday</strong> meal. Care workers try to ensure this is healthy because it is so important to keep clients fit and well. When that's finished, the care worker may help the client to carry out their <strong>shopping</strong> by going with them to the local supermarket.</p><p>During the afternoon, a care worker may help a third client with an outdoor activity, which could involve going for a short walk in the local area or taking the <strong>laundry</strong> to the launderette. Elderly people may not feel confident going far on their own, so having company can be a great help.</p><p>The care worker may participate in cooking dinner with their last client and, before going home, they may also get out their client's medication. This ensures the client remembers to take it before going to bed.</p>",
+                        "questions": [
+                            {
+                                "type": "sentenceCompletion",
+                                "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the text for each answer.",
+                                "items": [
+                                    {
+                                        "number": 15,
+                                        "sentence": "You may have to help the client get up and dressed if they have a .................... that makes this challenging.",
+                                        "answer": "condition"
+                                    },
+                                    {
+                                        "number": 16,
+                                        "sentence": "The next task may be cooking breakfast and it's nice to have some .................... at this time.",
+                                        "answer": "conversation"
+                                    },
+                                    {
+                                        "number": 17,
+                                        "sentence": "It may be a good idea to do some housework after this, such as .................... and washing up.",
+                                        "answer": "hoovering"
+                                    },
+                                    {
+                                        "number": 18,
+                                        "sentence": "You may then visit a second client and help them get a .................... lunch ready.",
+                                        "answer": "healthy"
+                                    },
+                                    {
+                                        "number": 19,
+                                        "sentence": "Lunch may be followed by some ....................",
+                                        "answer": "shopping"
+                                    },
+                                    {
+                                        "number": 20,
+                                        "sentence": "Afterwards, a third client may need help with an activity that involves going out of their home, such as doing their ....................",
+                                        "answer": "laundry"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2b",
+                        "title": "How to find a good balance between your work and your personal life",
+                        "content": "<p>A good work-life balance is beneficial to everyone. But how can it be achieved? The first step is to take a serious look at the amount of time you are devoting to work and set about reducing it. The main benefit most people notice once they stop working too much is an improvement in their general health and <strong>wellbeing</strong>.</p><p><strong>Tips for a healthy work-life balance:</strong></p><p>A recent study showed office workers spend approximately 1,700 hours a year in front of a computer. Ensure that your workstation is set up so you're as comfortable as possible and this will help to minimise the chance of any <strong>injuries</strong>.</p><p>Whether it's making a hot drink, going for a walk or simply chatting with a colleague, regular breaks are vital. Your brain needs a break roughly every 90 minutes or concentration declines, leaving you with difficulty focusing and feeling sleepy.</p><p>Setting goals for both your professional and personal life is great. Remember though, to make these <strong>realistic</strong>, because setting an unattainable goal is the quickest way to damage your confidence.</p><p>Activities such as sports and gymnastics are known to decrease tension and increase endurance, two important factors towards achieving a healthy work-life balance. They also boost your belief that you can do whatever you are faced with.</p><p>Sometimes it's easier said than done, but if you're juggling numerous pieces of work on a daily basis, learning to <strong>prioritise</strong> is key. Try to break down your work into various categories, depending on how urgent and important each piece of work is. This will help you to plan your day and achieve more.</p><p>Ensure you have time to do the things that make you happy. If you've got nothing nice to look forward to and can only see a long line of work days ahead of you, this can easily become overwhelming and ultimately hinder your <strong>productivity</strong>.</p><p>It's there for a reason and there are no prizes for giving it up, so make sure you take your annual <strong>holiday</strong> entitlement. You don't have to be going on an exotic foreign trip - maybe you just fancy a rest day watching films or you want to take some time off to spend with a friend you don't see enough.</p><p>Family, friends and favourite <strong>pets</strong> are the ultimate life enhancers. From evenings out to simply taking a walk in the sunshine, spending time with the ones you love is the best way to unwind fully and feel the effects of a good work-life balance.</p>",
+                        "questions": [
+                            {
+                                "type": "sentenceCompletion",
+                                "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the text for each answer.",
+                                "items": [
+                                    {
+                                        "number": 21,
+                                        "sentence": "People who cut down the hours they work gain most from feeling better physically and experiencing an increased sense of ....................",
+                                        "answer": "wellbeing"
+                                    },
+                                    {
+                                        "number": 22,
+                                        "sentence": "It is important that those who work at desks avoid .................... by checking their chair, work surface and screen are in the best position.",
+                                        "answer": "injuries"
+                                    },
+                                    {
+                                        "number": 23,
+                                        "sentence": "Having targets to work towards is useful but they should be ....................",
+                                        "answer": "realistic"
+                                    },
+                                    {
+                                        "number": 24,
+                                        "sentence": "When there are many different tasks to do, the ability to .................... them is vital.",
+                                        "answer": "prioritise"
+                                    },
+                                    {
+                                        "number": 25,
+                                        "sentence": "People who give up all treats in their personal time may find their .................... decreases.",
+                                        "answer": "productivity"
+                                    },
+                                    {
+                                        "number": 26,
+                                        "sentence": "It is wise to use the full amount of .................... allowance every year.",
+                                        "answer": "holiday"
+                                    },
+                                    {
+                                        "number": 27,
+                                        "sentence": "Making time to do things with close companions, relatives or .................... is a great way to relax.",
+                                        "answer": "pets"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Section 3",
+                "questionRange": "Questions 28-40",
+                "passages": [
+                    {
+                        "id": "3",
+                        "title": "City's 'Henry' programme gives children choices while helping parents stay in the driving seat",
+                        "content": "<p>Leeds has become the first city in the UK to report a drop in childhood obesity after introducing a programme called 'Henry' to help parents set boundaries for their children and put them off sweets and junk food. Only a few cities in the world, notably Amsterdam, have managed to cut child obesity. As in Amsterdam, the decline in Leeds is most marked among families living in the most deprived areas, where the problem is worst and hardest to tackle.</p><p>'The improvement in the most deprived children in Leeds is startling,' said Susan Jebb, a professor of diet and population health at Oxford University, whose team has analysed the city's data. Over four years, obesity has dropped from 11.5% to 10.5% and the trajectory is steadily downwards. Among the more affluent families, there was also a decline from 6.8% to 6%. Overall the drop was from 9.4% to 8.8%. The data comes from the national child measurement programme (NCMP), which requires all children to be weighed at the start and end of primary school. The biggest decline in obesity in Leeds is 6.4% in the reception class, at about the age of four.</p><p>No such data has been reported elsewhere in the UK, where childhood obesity is a major concern. The measurement programme shares the progress made in each city with those considered comparable. For Leeds, the 15 closest 'neighbours' at the start of its study period in 2009 were Sheffield, Kirklees, Bristol, Newcastle upon Tyne, Coventry, Bolton, Wakefield, Derby, Bradford, Dudley, Medway, Liverpool, Swindon, County Durham and Warrington. The obesity rates there and across the country have not shifted. Susan Jebb added that the dropping rate in Leeds appeared to be a trend. 'This is four years, not one rogue data point,' she said at the European Congress on Obesity in Glasgow where she presented the research.</p><p>Jebb, a former government adviser, says they cannot be sure what has turned the tide in Leeds - but it could involve a programme called 'Henry' that the city introduced as the core of its obesity strategy in 2009, focusing particularly on the youngest children and poorest families. 'Henry' (Health, Exercise, Nutrition for the Really Young) supports parents in setting boundaries for their children and taking a positive stance on issues from healthy eating to bedtimes.</p><p>'Henry's' chief executive, Kim Roberts, said the drop in obesity in Leeds was 'unprecedented ... The indicators are that this isn't happening in other cities'. The programme encourages authoritative rather than authoritarian parenting, she said. 'Authoritarian parenting is when children are told what to eat and what to do, such as being banned from leaving the table until they have eaten their sprouts,' said Roberts. 'Permissive parenting is asking children what they want to do. But 'Henry' encourages a third approach known as authoritative parenting, where parents make it clear they are in charge, but also respond to their children.' Instead of being asked what vegetable they want with dinner, children might be asked whether they would like carrots or broccoli. Instead of being told to go to bed, they are asked where they want to read their story beforehand.</p><p>Lisa, who joined a 'Henry' parenting course when her oldest daughter was two, is enthusiastic about her family's experience of the programme. She learned a lot about healthy eating, saved money by planning meals and lost two stone herself. 'I think it made me a better parent because of all the parenting skills stuff. I was able to share some of the ideas with my partner and as a result the kids became calmer and happier, which helped us feel less stressed too,' she said.</p><p>Janice Burberry, the head of public health at Leeds city council, said the early years were a good time to intervene to support families. 'Parents want to do the best for their children,' she said. 'We wanted to focus on prevention because it's very, very difficult when obesity has taken hold to tackle it. We understand that there is no magic bullet here. Parents are experts in their own lives, and they know what they can and can't achieve. The strategy of 'Henry' is about sitting alongside parents and thinking through what's right for them.'</p><p>The public health minister, Seema Kennedy, was enthusiastic. 'There are some fantastic pockets of work happening in early years already, and while still in the early phases, it is encouraging to see what can be achieved locally through interventions like this,' she said. 'I know how hard it can be for busy parents to make healthy choices for their families, so anything that can make it easier is a real lifeline.'</p>",
+                        "questions": [
+                            {
+                                "type": "multipleChoice",
+                                "items": [
+                                    {
+                                        "number": 28,
+                                        "question": "In the first paragraph, what does the writer say about Amsterdam?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "Its 'Henry' programme was recommended to Leeds experts."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It was the first world city to reduce obesity levels in children."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It has experienced more severe childhood obesity levels than Leeds."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "Its pattern of success in cutting childhood obesity is like that of Leeds."
+                                            }
+                                        ],
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 29,
+                                        "question": "How did Susan Jebb respond to the fall in childhood obesity among poorer children in Leeds?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "She said she had expected it."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "She said she was amazed by the figures."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "She wanted to review some of her team's data."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "She felt some results were more interesting than others."
+                                            }
+                                        ],
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 30,
+                                        "question": "According to the writer, the NCMP data indicate that",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "children should be weighed more frequently."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "most primary school children need to lose weight."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "children from wealthy families have less weight to lose than others."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "the youngest children show the highest levels of weight loss."
+                                            }
+                                        ],
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 31,
+                                        "question": "What links the 15 places listed in the third paragraph?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "They are not representative of the country overall."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "They all joined the 'Henry' programme at the same time."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "Their childhood obesity levels have remained the same since 2009."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "They are battling childhood obesity in a different way from Leeds."
+                                            }
+                                        ],
+                                        "answer": "C"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "matchPeople",
+                                "instructions": "Look at the following statements and the list of people below. Match each statement with the correct person, A-D.",
+                                "people": [
+                                    {
+                                        "letter": "A",
+                                        "name": "Susan Jebb"
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "name": "Kim Roberts"
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "name": "Janice Burberry"
+                                    },
+                                    {
+                                        "letter": "D",
+                                        "name": "Seema Kennedy"
+                                    }
+                                ],
+                                "items": [
+                                    {
+                                        "number": 32,
+                                        "text": "The aim in Leeds was to take steps to stop weight gain among children before it became a real problem.",
+                                        "answer": "C"
+                                    },
+                                    {
+                                        "number": 33,
+                                        "text": "Childhood obesity levels in Leeds have fallen consistently over a period of time.",
+                                        "answer": "A"
+                                    },
+                                    {
+                                        "number": 34,
+                                        "text": "Something that simplifies the struggle to get children to eat well is very helpful to parents.",
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 35,
+                                        "text": "Parents in general are realistic about their potential to make changes to their children's lifestyle.",
+                                        "answer": "C"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "summaryCompletion",
+                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
+                                "title": "The 'Henry' programme",
+                                "summary": "'Henry' was used in Leeds from 2009 in the fight against childhood obesity. The programme focuses on situations such as mealtimes and bedtimes, and it encourages parents to set firm {36} during these periods. According to Kim Roberts, 'Henry' aims to help people become more {37} as parents. In this way, they do not instruct children to do things, nor give them total freedom of choice as in a {38} parenting style. Instead, they allow children to make some decisions for themselves. This might be a choice of vegetable at the dinner table or a decision about where a {39} should be enjoyed in the evening. Lisa, a parent who joined the programme, felt enthusiastic about her children's responses to it and the effect it had overall on her family.",
+                                "items": [
+                                    {
+                                        "number": 36,
+                                        "answer": "boundaries"
+                                    },
+                                    {
+                                        "number": 37,
+                                        "answer": "authoritative"
+                                    },
+                                    {
+                                        "number": 38,
+                                        "answer": "permissive"
+                                    },
+                                    {
+                                        "number": 39,
+                                        "answer": "story"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "multipleChoice",
+                                "items": [
+                                    {
+                                        "number": 40,
+                                        "question": "Which title is the most suitable for the text?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "A look at what 'Henry' has achieved in Leeds"
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "'Henry's the best,' according to Leeds children"
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "Leeds parents discuss how 'Henry' has helped them"
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It's all about saying 'no', according to 'Henry'"
+                                            }
+                                        ],
+                                        "answer": "A"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

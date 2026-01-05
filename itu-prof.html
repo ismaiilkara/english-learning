@@ -22,9 +22,9 @@
             text-align: center;
             margin: 0 2px;
             padding: 0 4px;
-            background: rgba(236, 72, 153, 0.1);
-            border-bottom: 2px solid #ec4899;
-            color: #ec4899;
+            background: rgba(59, 130, 246, 0.1);
+            border-bottom: 2px solid #3b82f6;
+            color: #3b82f6;
             font-weight: bold;
         }
 
@@ -49,20 +49,30 @@
     </style>
 </head>
 
-<body class="bg-gradient-to-br from-indigo-900 via-slate-800 to-gray-800 min-h-screen text-white overflow-hidden">
+<body class="bg-gradient-to-br from-black via-gray-900 to-black min-h-screen text-white overflow-hidden">
 
     <div x-data="ituProfApp()" x-init="init()" x-cloak class="h-screen flex flex-col">
 
-        <!-- Top Navigation -->
+        <!-- Unified Top Navigation -->
         <nav class="bg-black/30 backdrop-blur-xl border-b border-white/10 p-3 z-50">
-            <div class="w-full px-6 flex items-center justify-between">
-                <h1 class="text-xl font-bold text-white flex items-center gap-2">
-                    🎓 <span class="bg-gradient-to-r from-pink-400 to-yellow-400 bg-clip-text text-transparent">English
+            <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+                <a href="index.html" class="text-xl font-bold text-white flex items-center gap-2">
+                    🎓 <span class="bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text text-transparent">English
                         Learning Hub</span>
-                </h1>
-                <div class="flex gap-4">
-                    <a href="index.html" class="text-sm font-semibold opacity-60 hover:opacity-100 transition-opacity">←
-                        Back to Grammar</a>
+                </a>
+                <div class="flex gap-2 flex-wrap">
+                    <a href="ielts.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">📝
+                        IELTS</a>
+                    <a href="itu-prof.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold bg-blue-500/20 text-blue-400 border border-blue-500/50">🎯
+                        ITU PROF</a>
+                    <a href="grammar.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">📚
+                        Grammar</a>
+                    <a href="vocabulary.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">📖
+                        Vocabulary</a>
                 </div>
             </div>
         </nav>
@@ -80,7 +90,7 @@
                     <template x-for="test in ituTests" :key="test.id">
                         <button @click="selectTest(test)"
                             class="w-full text-left p-4 rounded-xl border border-white/5 hover:bg-white/5 hover:border-white/10 transition-all duration-200 group">
-                            <h3 class="font-bold text-white group-hover:text-pink-400 transition-colors">
+                            <h3 class="font-bold text-white group-hover:text-green-400 transition-colors">
                                 ITU PROF <span x-text="test.title"></span>
                             </h3>
                             <p class="text-xs text-white/50 mt-1">Reading & Restatement</p>
@@ -94,7 +104,7 @@
 
                 <!-- Background decoration -->
                 <div
-                    class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-pink-500/10 via-transparent to-transparent pointer-events-none">
+                    class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-green-500/5 via-transparent to-transparent pointer-events-none">
                 </div>
 
                 <!-- Welcome Screen -->
@@ -120,19 +130,19 @@
                                 ← Back
                             </button>
                             <h2 class="text-xl font-bold text-white flex items-center gap-2">
-                                <span class="text-pink-500">📝</span> <span x-text="selectedTest?.title"></span>
+                                <span class="text-green-500">📝</span> <span x-text="selectedTest?.title"></span>
                             </h2>
                         </div>
 
                         <!-- Section Tabs (Compact) -->
                         <div class="flex gap-1 bg-white/5 p-1 rounded-lg">
                             <button @click="ituActiveSection = 'reading'"
-                                :class="ituActiveSection === 'reading' ? 'bg-pink-600 text-white shadow-lg' : 'text-white/60 hover:text-white hover:bg-white/5'"
+                                :class="ituActiveSection === 'reading' ? 'bg-green-600 text-white shadow-lg' : 'text-white/60 hover:text-white hover:bg-white/5'"
                                 class="px-4 py-1.5 rounded-md font-medium transition-all text-sm">
                                 Reading
                             </button>
                             <button @click="ituActiveSection = 'listening'"
-                                :class="ituActiveSection === 'listening' ? 'bg-pink-600 text-white shadow-lg' : 'text-white/60 hover:text-white hover:bg-white/5'"
+                                :class="ituActiveSection === 'listening' ? 'bg-green-600 text-white shadow-lg' : 'text-white/60 hover:text-white hover:bg-white/5'"
                                 class="px-4 py-1.5 rounded-md font-medium transition-all text-sm">
                                 Listening
                             </button>
@@ -156,7 +166,7 @@
                                             x-text="getTotalQuestions()"></span></span>
                                 </div>
                                 <div
-                                    class="inline-flex items-center gap-2 bg-pink-500/20 text-pink-400 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
+                                    class="inline-flex items-center gap-2 bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
                                     <span x-text="getCurrentSectionName()"></span>
                                 </div>
                             </div>
@@ -165,7 +175,7 @@
                             <div class="flex flex-wrap gap-1">
                                 <template x-for="(q, idx) in allQuestions" :key="idx">
                                     <button @click="currentQuestionIndex = idx" :class="{
-                                            'bg-pink-500 text-white': idx === currentQuestionIndex,
+                                            'bg-green-500 text-white': idx === currentQuestionIndex,
                                             'bg-green-500/50 text-white': testSubmitted && allAnswers[idx] === q.answer && idx !== currentQuestionIndex,
                                             'bg-red-500/50 text-white': testSubmitted && allAnswers[idx] !== undefined && allAnswers[idx] !== q.answer && idx !== currentQuestionIndex,
                                             'bg-blue-500/30 text-blue-300': !testSubmitted && allAnswers[idx] !== undefined && idx !== currentQuestionIndex,
@@ -197,7 +207,7 @@
 
                                 <!-- Cloze Passage -->
                                 <div x-show="getCurrentSection() === 'cloze'">
-                                    <h3 class="text-lg font-bold text-pink-400 mb-4">📖 Cloze Passage</h3>
+                                    <h3 class="text-lg font-bold text-green-400 mb-4">📖 Cloze Passage</h3>
                                     <div class="text-white/90 leading-loose text-base" x-html="formatClozeText()"></div>
                                 </div>
 
@@ -212,7 +222,7 @@
 
                                 <!-- Reading Passage -->
                                 <div x-show="getCurrentSection() === 'reading'">
-                                    <h3 class="text-lg font-bold text-pink-400 mb-4"
+                                    <h3 class="text-lg font-bold text-green-400 mb-4"
                                         x-text="getCurrentReadingText()?.title"></h3>
                                     <template x-for="(para, idx) in getCurrentReadingText()?.paragraphs" :key="idx">
                                         <p class="text-white/90 leading-loose text-base mb-4 text-justify"
@@ -246,7 +256,7 @@
                                                 'bg-green-500/20 border-green-500': testSubmitted && idx === getCurrentQuestion()?.answer,
                                                 'bg-red-500/20 border-red-500': testSubmitted && allAnswers[currentQuestionIndex] === idx && idx !== getCurrentQuestion()?.answer,
                                                 'opacity-50': testSubmitted && idx !== getCurrentQuestion()?.answer && allAnswers[currentQuestionIndex] !== idx,
-                                                'bg-pink-600 border-pink-500': !testSubmitted && allAnswers[currentQuestionIndex] === idx,
+                                                'bg-green-600 border-green-500': !testSubmitted && allAnswers[currentQuestionIndex] === idx,
                                                 'bg-white/5 hover:bg-white/10 border-white/10': !testSubmitted && allAnswers[currentQuestionIndex] !== idx
                                             }" class="w-full text-left p-4 rounded-xl border-2 transition-all">
                                             <div class="flex items-start gap-4">
@@ -254,7 +264,7 @@
                                                     :class="{
                                                         'bg-green-500 text-white': testSubmitted && idx === getCurrentQuestion()?.answer,
                                                         'bg-red-500 text-white': testSubmitted && allAnswers[currentQuestionIndex] === idx && idx !== getCurrentQuestion()?.answer,
-                                                        'bg-white text-pink-600': !testSubmitted && allAnswers[currentQuestionIndex] === idx,
+                                                        'bg-white text-green-600': !testSubmitted && allAnswers[currentQuestionIndex] === idx,
                                                         'bg-white/10 text-white/50': !testSubmitted && allAnswers[currentQuestionIndex] !== idx
                                                     }">
                                                     <span x-text="['A', 'B', 'C', 'D'][idx]"></span>

@@ -1,0 +1,788 @@
+{
+    "id": 1,
+    "title": "Listening Test 1",
+    "listening": {
+        "videoUrl": "https://www.youtube.com/watch?v=QNGuik4AE-Y",
+        "title": "Cambridge 19 Test 2 - IELTS Listening",
+        "parts": [
+            {
+                "id": 1,
+                "title": "Part 1",
+                "description": "Questions 1-10",
+                "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
+                "noteTitle": "Guitar Group",
+                "type": "notes",
+                "items": [
+                    {
+                        "isHeader": true,
+                        "text": "Guitar Group Details"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Coordinator: Gary "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 1
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Level: "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 2
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Place: the "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 3
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Street: "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 4
+                            },
+                            {
+                                "type": "text",
+                                "value": " Street"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Time: Thursday morning at "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 5
+                            },
+                            {
+                                "type": "text",
+                                "value": " am"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Recommended website: 'The perfect "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 6
+                            },
+                            {
+                                "type": "text",
+                                "value": "'"
+                            }
+                        ]
+                    }
+                ],
+                "answers": {
+                    "1": "Mathieson",
+                    "2": "beginners",
+                    "3": "college",
+                    "4": "New",
+                    "5": "11",
+                    "6": "instrument"
+                },
+                "tableSection": {
+                    "title": "A typical 45-minute guitar lesson",
+                    "headers": [
+                        "Time",
+                        "Activity",
+                        "Notes"
+                    ],
+                    "rows": [
+                        {
+                            "time": "5 minutes",
+                            "activity": "tuning guitars",
+                            "notes": [
+                                {
+                                    "type": "text",
+                                    "value": "using an app or by "
+                                },
+                                {
+                                    "type": "blank",
+                                    "number": 7
+                                }
+                            ]
+                        },
+                        {
+                            "time": "10 minutes",
+                            "activity": "strumming chords using our thumbs",
+                            "notes": [
+                                {
+                                    "type": "text",
+                                    "value": "keeping time while the teacher is "
+                                },
+                                {
+                                    "type": "blank",
+                                    "number": 8
+                                }
+                            ]
+                        },
+                        {
+                            "time": "15 minutes",
+                            "activity": "playing songs",
+                            "notes": [
+                                {
+                                    "type": "text",
+                                    "value": "often listening to a "
+                                },
+                                {
+                                    "type": "blank",
+                                    "number": 9
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " of a song"
+                                }
+                            ]
+                        },
+                        {
+                            "time": "10 minutes",
+                            "activity": "playing single notes and simple tunes",
+                            "notes": [
+                                {
+                                    "type": "text",
+                                    "value": "playing together, then "
+                                },
+                                {
+                                    "type": "blank",
+                                    "number": 10
+                                }
+                            ]
+                        },
+                        {
+                            "time": "5 minutes",
+                            "activity": "noting things to practise at home",
+                            "notes": []
+                        }
+                    ],
+                    "tableAnswers": {
+                        "7": "ear",
+                        "8": "clapping",
+                        "9": "recording",
+                        "10": "alone"
+                    }
+                },
+                "transcript": "GARY: Hello, Gary speaking.\n\nWOMAN: Hello, I'm calling about the guitar group that's advertised on the website.\nGARY: Right. Well, I'm the coordinator, so I can give you some information.\nWOMAN: Is it a course?\nGARY: No, it's a group for people who can already play a bit and want to play together.\nWOMAN: I see. My name's Mary, by the way. What's your surname, Gary?\nGARY: It's POUNCE, P-O-U-N-C-E.\nMARY: Right. And what level should I be?\nGARY: Well, we have three different groups. One is for intermediate players.\nMARY: That's me.\nGARY: Good. We meet in the library in Arnos Vale.\nMARY: Oh, I know it. It's on Hadley Street, isn't it?\nGARY: That's right. We're there on Thursday mornings.\nMARY: What time?\nGARY: From 10.30 till 11.15.\nMARY: OK. And is there a website I can look at?\nGARY: Well, I'd recommend a site called 'The perfect player'. It's got lots of information for guitarists.\nMARY: Thanks. What do you do in the sessions?\nGARY: Well, we spend about five minutes tuning our guitars, either using an app or a digital tuner. Then we do ten minutes' strumming – practicing different rhythms while the teacher plays the chords.\nMARY: Right.\nGARY: Then we spend about 15 minutes on songs we all know. Usually we listen to a recording first.\nMARY: That sounds like fun.\nGARY: It is. Then we spend ten minutes playing together, then we have a solo where one person plays and the rest of us listen.\nMARY: I'd be too nervous for that!\nGARY: You don't have to do it! Finally, we spend five minutes noting things to practice at home.\nMARY: OK. Well, I think I'll come along next Thursday."
+            },
+            {
+                "id": 2,
+                "title": "Part 2",
+                "description": "Questions 11-20",
+                "type": "complex",
+                "items": [
+                    {
+                        "type": "multipleChoice",
+                        "instructions": "Choose the correct letter, A, B or C.",
+                        "items": [
+                            {
+                                "number": 11,
+                                "text": "What made David leave London and move to Northsea?",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "He was eager to develop a hobby."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "He wanted to work shorter hours."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "He found his job in website design unsatisfying."
+                                    }
+                                ],
+                                "answer": "A"
+                            },
+                            {
+                                "number": 12,
+                                "text": "The Lifeboat Institution in Northsea was built with money provided by",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "a local organisation."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "a local resident."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "the local council."
+                                    }
+                                ],
+                                "answer": "B"
+                            },
+                            {
+                                "number": 13,
+                                "text": "In his health assessment, the doctor was concerned about the fact that David",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "might be colour blind."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "was rather short-sighted."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "had undergone eye surgery."
+                                    }
+                                ],
+                                "answer": "A"
+                            },
+                            {
+                                "number": 14,
+                                "text": "After arriving at the lifeboat station, they aim to launch the boat within",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "five minutes."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "six to eight minutes."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "eight and a half minutes."
+                                    }
+                                ],
+                                "answer": "B"
+                            },
+                            {
+                                "number": 15,
+                                "text": "As a 'helmsman', David has the responsibility of deciding",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "who will be the members of his crew."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "what equipment it will be necessary to take."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "if the lifeboat should be launched."
+                                    }
+                                ],
+                                "answer": "C"
+                            },
+                            {
+                                "number": 16,
+                                "text": "As well as going out on the lifeboat, David",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "gives talks on safety in schools."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "helps with fundraising events."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "recruits new volunteers."
+                                    }
+                                ],
+                                "answer": "B"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "chooseTwoGroup",
+                        "questionNumbers": [
+                            17,
+                            18
+                        ],
+                        "text": "Which TWO things does David say about the lifeboat volunteers?",
+                        "options": [
+                            {
+                                "letter": "A",
+                                "text": "They are required to wear a uniform."
+                            },
+                            {
+                                "letter": "B",
+                                "text": "They are entitled to payment for their work."
+                            },
+                            {
+                                "letter": "C",
+                                "text": "They are given extensive training."
+                            },
+                            {
+                                "letter": "D",
+                                "text": "They are expected to live nearby."
+                            },
+                            {
+                                "letter": "E",
+                                "text": "They are from a wide variety of backgrounds."
+                            }
+                        ],
+                        "answers": [
+                            "C",
+                            "E"
+                        ]
+                    },
+                    {
+                        "type": "chooseTwoGroup",
+                        "questionNumbers": [
+                            19,
+                            20
+                        ],
+                        "text": "What TWO things does David say about the lifeboat itself?",
+                        "options": [
+                            {
+                                "letter": "A",
+                                "text": "It can be operated by a small team."
+                            },
+                            {
+                                "letter": "B",
+                                "text": "It has standard navigation equipment."
+                            },
+                            {
+                                "letter": "C",
+                                "text": "It is designed to be able to turn over safely."
+                            },
+                            {
+                                "letter": "D",
+                                "text": "It carries high-quality medical supplies."
+                            },
+                            {
+                                "letter": "E",
+                                "text": "It has to be fully serviced every year."
+                            }
+                        ],
+                        "answers": [
+                            "C",
+                            "D"
+                        ]
+                    }
+                ],
+                "transcript": "DAVID: My name's David and I'm a volunteer with the Lifeboat Institution in Northsea. I used to live in London and had a job in website design. I worked long hours and I was getting a bit fed up with it. I'd always had a hobby – sailing – and I wanted to do more of that, so I decided to move to Northsea. I've got a much better work-life balance now.\n\nWhen I arrived, I went to see the local lifeboat station. It's a new building, and it's very impressive. It was actually paid for by a local resident who'd won a lot of money and wanted to do something for the town.\n\nI decided to apply to be a volunteer. First, I had a health assessment. The doctor was happy with my general health, but he was a bit concerned that I was short-sighted. However, once I'd explained that I always wear contact lenses, he said that was fine.\n\nI had to do some training, of course. We had a residential course, which was very good. It really helped to build my mental strength, which is so important when you're out at sea in a storm. We also had a session in a wave tank, which was great for practicing survival techniques.\n\nWhen we get a call-out, we have to get to the station as quickly as possible. Our target is to launch the boat within six to eight minutes of getting the call. Once we're on the boat, my role is as 'helmsman'. That means I have the responsibility of deciding if the lifeboat should be launched, depending on the weather conditions.\n\nAs well as going out on the lifeboat, I also give talks on safety at sea to local groups. It's a great way to meet people and raise awareness of what we do. I find the work very motivating, especially working as part of a team. There's a real sense of community among the volunteers. We also get a lot of support from the local people, and it's always nice when we're thanked by those we've helped."
+            },
+            {
+                "id": 3,
+                "title": "Part 3",
+                "description": "Questions 21-30",
+                "type": "complex",
+                "items": [
+                    {
+                        "type": "multipleChoice",
+                        "instructions": "Choose the correct letter, A, B or C.",
+                        "title": "Work Experience for Veterinary Science Students",
+                        "items": [
+                            {
+                                "number": 21,
+                                "text": "What does 'work placement' involve?",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "Working in a zoo or wildlife park."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "Working on a farm or in a stable."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "Working in a veterinary surgery."
+                                    }
+                                ],
+                                "answer": "B"
+                            },
+                            {
+                                "number": 22,
+                                "text": "What is the main reason for doing a work placement?",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "To gain practical experience."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "To help decide on a career path."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "To improve job prospects."
+                                    }
+                                ],
+                                "answer": "A"
+                            },
+                            {
+                                "number": 23,
+                                "text": "What does the tutor suggest about organising a placement?",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "Start looking early."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "Ask family and friends for contacts."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "Use the internet to find opportunities."
+                                    }
+                                ],
+                                "answer": "A"
+                            },
+                            {
+                                "number": 24,
+                                "text": "What should students do if they encounter problems during their placement?",
+                                "options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "Contact the university immediately."
+                                    },
+                                    {
+                                        "letter": "B",
+                                        "text": "Speak to the employer first."
+                                    },
+                                    {
+                                        "letter": "C",
+                                        "text": "Try to resolve it themselves."
+                                    }
+                                ],
+                                "answer": "B"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "matchingGroup",
+                        "title": "Questions 25-30",
+                        "description": "What does the tutor say about the following placement types?",
+                        "instructions": "Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+                        "options": [
+                            {
+                                "letter": "A",
+                                "text": "It is compulsory."
+                            },
+                            {
+                                "letter": "B",
+                                "text": "It is recommended."
+                            },
+                            {
+                                "letter": "C",
+                                "text": "It focuses on small animals."
+                            },
+                            {
+                                "letter": "D",
+                                "text": "It involves working with horses."
+                            },
+                            {
+                                "letter": "E",
+                                "text": "It can be done abroad."
+                            },
+                            {
+                                "letter": "F",
+                                "text": "It is usually unpaid."
+                            },
+                            {
+                                "letter": "G",
+                                "text": "It requires specific vaccinations."
+                            },
+                            {
+                                "letter": "H",
+                                "text": "It is popular with students."
+                            }
+                        ],
+                        "items": [
+                            {
+                                "number": 25,
+                                "label": "Dairy farm"
+                            },
+                            {
+                                "number": 26,
+                                "label": "Pig farm"
+                            },
+                            {
+                                "number": 27,
+                                "label": "Sheep farm"
+                            },
+                            {
+                                "number": 28,
+                                "label": "Stables"
+                            },
+                            {
+                                "number": 29,
+                                "label": "Kennels"
+                            },
+                            {
+                                "number": 30,
+                                "label": "Animal shelter"
+                            }
+                        ],
+                        "answers": {
+                            "25": "A",
+                            "26": "G",
+                            "27": "H",
+                            "28": "D",
+                            "29": "C",
+                            "30": "F"
+                        }
+                    }
+                ],
+                "transcript": "DON: Hi Bella. Have you had any more ideas for our project on recycling footwear?\nBELLA: Yes. I've been doing some research. I found an article that said 300 million pairs of shoes are thrown away every year in the UK.\nDON: That's incredible. I thought the topic might be too limited in scope, but there's actually a lot to look at.\nBELLA: I know. And when it comes to trainers, I think they're especially interesting because they're so popular among young people.\nDON: True, but we don't always agree on everything. For example, you think they're suitable for school, but I think they wear out too quickly.\nBELLA: Well, they are comfortable. I sometimes recycle my shoes because they no longer fit.\nDON: I do it because I've grown out of them. I was confused by one article I read, though. It said that although public consumption of footwear has risen, less footwear is recycled now than in the past.\nBELLA: That's strange. I wonder why. I spoke to a recycling manager and he gave me some reasons why they have to reject footwear.\nDON: What did he say?\nBELLA: Well, for high-heeled shoes, it's often because one shoe is missing.\nDON: And for ankle boots?\nBELLA: They're often rejected because the stitching is broken.\nDON: What about baby shoes?\nBELLA: He said they're often brand new, so they're not really being recycled – they're just being given away.\nDON: And trainers?\nBELLA: They're often too dirty to be reused.\nDON: I see. I also read about a project to make 'new' shoes out of old shoes, but it failed.\nBELLA: Why?\nDON: Because the shoes in the 'new' pairs were not completely alike.\nBELLA: I suppose that's a problem. But I think we can present our topic from a new angle.\nDON: I agree."
+            },
+            {
+                "id": 4,
+                "title": "Part 4",
+                "description": "Questions 31-40",
+                "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
+                "noteTitle": "The History of the Pencil",
+                "type": "notes",
+                "items": [
+                    {
+                        "isHeader": true,
+                        "text": "Graphite"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "was discovered in Cumbria, UK in "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 31
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "was used by locals for marking "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 32
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "was wrapped in "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 33
+                            },
+                            {
+                                "type": "text",
+                                "value": " or string"
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Early Pencils"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "were hollowed-out sticks of "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 34
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "were first mass-produced in Nuremberg, Germany in 1662"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "modern pencil 'leads' are a mixture of graphite and "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 35
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Pencil Hardness"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "H stands for 'Hard', B stands for 'Black'"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "HB is the standard pencil used in schools"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "numbers indicate the degree of hardness or blackness"
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Famous Pencil Users"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "John Steinbeck used up to 60 pencils a day"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Roald Dahl always used yellow pencils with "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 36
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Vincent van Gogh used only "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 37
+                            },
+                            {
+                                "type": "text",
+                                "value": " pencils"
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Interesting Facts"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "pencils can write underwater and in "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 38
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "one pencil can draw a line "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 39
+                            },
+                            {
+                                "type": "text",
+                                "value": " miles long"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "March 30th is National Pencil Day"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "the yellow colour of pencils dates back to the "
+                            },
+                            {
+                                "type": "blank",
+                                "number": 40
+                            },
+                            {
+                                "type": "text",
+                                "value": " World Exhibition"
+                            }
+                        ]
+                    }
+                ],
+                "answers": {
+                    "31": "1564",
+                    "32": "sheep",
+                    "33": "string",
+                    "34": "wood",
+                    "35": "clay",
+                    "36": "erasers",
+                    "37": "Faber",
+                    "38": "space",
+                    "39": "35",
+                    "40": "1889"
+                },
+                "transcript": "LECTURER: Today I'm going to talk about tardigrades. They are microscopic animals, also known as 'water bears', because of the way they walk. They are also called 'moss piglets'. There are more than 1,000 species, and they are between 0.05 and 1.2 millimetres long.\n\nIn terms of physical appearance, they have a head and a round body with four pairs of legs. Each leg has claws for gripping. They don't have respiratory organs. Instead, their body is filled with a liquid that carries both oxygen and blood. Their mouth is shaped like a tube, with teeth called stylets.\n\nTardigrades are found all over the world, often at the bottom of a lake or on plants. They are very resilient and can exist in very low or high temperatures. In dry conditions, they roll into a ball called a 'tun'. This is a state known as cryptobiosis. They stay alive with a much lower metabolism than usual. A type of protein ensures their DNA is not damaged. Research is underway to find out how many days they can stay alive in space.\n\nWhen it comes to feeding, they consume liquids, for example from moss or algae. Some species also eat other tardigrades. Finally, in terms of their conservation status, they are not considered to be endangered."
+            }
+        ]
+    }
+}
