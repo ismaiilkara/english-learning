@@ -1271,6 +1271,9 @@
                 listeningScore: 0,
                 listeningTotalQuestions: 0,
 
+                // Cache for loaded test data (lazy loading)
+                testDataCache: {},
+
                 // Academic Tests (auto-discovered)
                 academicTests: [],
 
@@ -1326,8 +1329,16 @@
                     if (testConfig) {
                         try {
                             if (section === 'reading' && testConfig.file) {
-                                const response = await fetch(`${testConfig.file}?v=${new Date().getTime()}`);
-                                const testData = await response.json();
+                                // Lazy loading with cache
+                                let testData;
+                                const cacheKey = `reading_${testConfig.id}`;
+                                if (this.testDataCache[cacheKey]) {
+                                    testData = this.testDataCache[cacheKey];
+                                } else {
+                                    const response = await fetch(testConfig.file);
+                                    testData = await response.json();
+                                    this.testDataCache[cacheKey] = testData;
+                                }
 
                                 if (testData.reading) {
                                     this.currentTestId = testConfig.id; // for localStorage
@@ -1364,8 +1375,16 @@
                             }
 
                             if (section === 'listening') {
-                                const response = await fetch(`ielts-tests/listening/test${testConfig.id}.json?v=${new Date().getTime()}`);
-                                const testData = await response.json();
+                                // Lazy loading with cache
+                                let testData;
+                                const cacheKey = `listening_${testConfig.id}`;
+                                if (this.testDataCache[cacheKey]) {
+                                    testData = this.testDataCache[cacheKey];
+                                } else {
+                                    const response = await fetch(`ielts-tests/listening/test${testConfig.id}.json`);
+                                    testData = await response.json();
+                                    this.testDataCache[cacheKey] = testData;
+                                }
 
                                 if (testData.listening) {
                                     this.listeningData = testData.listening;
