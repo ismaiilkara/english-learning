@@ -1330,6 +1330,7 @@
                                 const testData = await response.json();
 
                                 if (testData.reading) {
+                                    this.currentTestId = testConfig.id; // for localStorage
                                     // Check if it's General Training format (has sections)
                                     if (testData.reading.sections) {
                                         this.currentSections = testData.reading.sections;
@@ -1349,6 +1350,13 @@
                                     } else {
                                         // Academic format (passages directly)
                                         this.currentPassages = testData.reading.passages;
+                                    }
+                                    // Load saved answers from localStorage
+                                    const savedReadingAnswers = localStorage.getItem(`reading_answers_academic_test${testConfig.id}`);
+                                    if (savedReadingAnswers) {
+                                        this.answers = JSON.parse(savedReadingAnswers);
+                                    } else {
+                                        this.answers = {};
                                     }
                                     this.currentPassageIndex = 0;
                                     this.loadPassage();
@@ -1384,11 +1392,16 @@
                 // Reading functions
                 loadPassage() {
                     this.currentPassage = this.currentPassages[this.currentPassageIndex];
-                    this.resetQuiz();
+                    // Don't reset answers - they should persist from localStorage
+                    this.submitted = false;
                 },
 
                 setAnswer(number, value) {
                     this.answers[number] = value;
+                    // Save to localStorage
+                    if (this.currentTestId) {
+                        localStorage.setItem(`reading_answers_academic_test${this.currentTestId}`, JSON.stringify(this.answers));
+                    }
                 },
 
                 isCorrectFill(section, number) {

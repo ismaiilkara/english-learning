@@ -21,3 +21,8 @@ Screenshot*.png
 social-media-tools/
 tools/
 cevaplar.html
+
+# Budget project - separate project
+budget-tracker.html
+budget-manifest.json
+budget-sw.js
