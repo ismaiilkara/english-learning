@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haftalık Ders Programı</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        h1 {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 2rem;
+        }
+
+        .schedule-container {
+            width: 1080px;
+            background: linear-gradient(145deg, #1e1e30 0%, #0f0f1a 100%);
+            border-radius: 30px;
+            padding: 50px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h2 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #00d4ff, #7b2cbf);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.1rem;
+        }
+
+        .days-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .day-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 20px 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .day-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .day-name {
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .lesson-item {
+            padding: 12px;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .lesson-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .lesson-time {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 5px;
+        }
+
+        .lesson-name {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        /* Grammar - Purple */
+        .grammar {
+            background: linear-gradient(135deg, #7b2cbf 0%, #9d4edd 100%);
+        }
+
+        /* Speaking - Green */
+        .speaking {
+            background: linear-gradient(135deg, #00b894 0%, #00cec9 100%);
+        }
+
+        /* TOEFL Speaking - Orange */
+        .toefl-speaking {
+            background: linear-gradient(135deg, #e17055 0%, #fdcb6e 100%);
+        }
+
+        /* TOEFL Writing - Blue */
+        .toefl-writing {
+            background: linear-gradient(135deg, #0984e3 0%, #74b9ff 100%);
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 6px;
+        }
+
+        .legend-text {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .download-btn {
+            margin-top: 30px;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: white;
+            background: linear-gradient(135deg, #00d4ff 0%, #7b2cbf 100%);
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(123, 44, 191, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>📅 Haftalık Ders Programı</h1>
+
+    <div class="schedule-container" id="schedule">
+        <div class="header">
+            <h2>📚 İngilizce Eğitim Programı</h2>
+            <p>Dil Bilgisi • Speaking • TOEFL Hazırlık</p>
+        </div>
+
+        <div class="days-grid">
+            <!-- Pazartesi -->
+            <div class="day-card">
+                <div class="day-name">PAZARTESİ</div>
+                <div class="lesson-item grammar">
+                    <div class="lesson-time">16:00 - 17:00</div>
+                    <div class="lesson-name">📖 Dil Bilgisi</div>
+                </div>
+                <div class="lesson-item speaking">
+                    <div class="lesson-time">17:00 - 18:00</div>
+                    <div class="lesson-name">🗣️ Speaking</div>
+                </div>
+                <div class="lesson-item toefl-speaking">
+                    <div class="lesson-name">🎯 TOEFL</div>
+                    <div class="lesson-name" style="font-size: 0.7rem;">Writing + Speaking</div>
+                </div>
+            </div>
+
+            <!-- Salı -->
+            <div class="day-card">
+                <div class="day-name">SALI</div>
+                <div class="lesson-item grammar">
+                    <div class="lesson-time">16:00 - 17:00</div>
+                    <div class="lesson-name">📖 Dil Bilgisi</div>
+                </div>
+                <div class="lesson-item speaking">
+                    <div class="lesson-time">17:00 - 18:00</div>
+                    <div class="lesson-name">🗣️ Speaking</div>
+                </div>
+                <div class="lesson-item toefl-writing">
+                    <div class="lesson-name">📚 TOEFL</div>
+                    <div class="lesson-name" style="font-size: 0.7rem;">Reading + Listening</div>
+                </div>
+            </div>
+
+            <!-- Çarşamba -->
+            <div class="day-card">
+                <div class="day-name">ÇARŞAMBA</div>
+                <div class="lesson-item grammar">
+                    <div class="lesson-time">16:00 - 17:00</div>
+                    <div class="lesson-name">📖 Dil Bilgisi</div>
+                </div>
+                <div class="lesson-item speaking">
+                    <div class="lesson-time">17:00 - 18:00</div>
+                    <div class="lesson-name">🗣️ Speaking</div>
+                </div>
+                <div class="lesson-item toefl-speaking">
+                    <div class="lesson-name">🎯 TOEFL</div>
+                    <div class="lesson-name" style="font-size: 0.7rem;">Writing + Speaking</div>
+                </div>
+            </div>
+
+            <!-- Perşembe -->
+            <div class="day-card">
+                <div class="day-name">PERŞEMBE</div>
+                <div class="lesson-item grammar">
+                    <div class="lesson-time">16:00 - 17:00</div>
+                    <div class="lesson-name">📖 Dil Bilgisi</div>
+                </div>
+                <div class="lesson-item speaking">
+                    <div class="lesson-time">17:00 - 18:00</div>
+                    <div class="lesson-name">🗣️ Speaking</div>
+                </div>
+                <div class="lesson-item toefl-writing">
+                    <div class="lesson-name">📚 TOEFL</div>
+                    <div class="lesson-name" style="font-size: 0.7rem;">Reading + Listening</div>
+                </div>
+            </div>
+
+            <!-- Cuma -->
+            <div class="day-card">
+                <div class="day-name">CUMA</div>
+                <div class="lesson-item grammar">
+                    <div class="lesson-time">16:00 - 17:00</div>
+                    <div class="lesson-name">📖 Dil Bilgisi</div>
+                </div>
+                <div class="lesson-item speaking">
+                    <div class="lesson-time">17:00 - 18:00</div>
+                    <div class="lesson-name">🗣️ Speaking</div>
+                </div>
+                <div class="lesson-item toefl-speaking">
+                    <div class="lesson-name">🎯 TOEFL</div>
+                    <div class="lesson-name" style="font-size: 0.7rem;">Writing + Speaking</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color grammar"></div>
+                <span class="legend-text">Dil Bilgisi (1 saat)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color speaking"></div>
+                <span class="legend-text">Speaking (1 saat)</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color toefl-speaking"></div>
+                <span class="legend-text">TOEFL Writing + Speaking</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color toefl-writing"></div>
+                <span class="legend-text">TOEFL Reading + Listening</span>
+            </div>
+        </div>
+    </div>
+
+    <button class="download-btn" onclick="downloadImage()">📥 PNG Olarak İndir</button>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script>
+        async function downloadImage() {
+            const element = document.getElementById('schedule');
+            const canvas = await html2canvas(element, {
+                scale: 2,
+                backgroundColor: null
+            });
+
+            const link = document.createElement('a');
+            link.download = 'haftalik-program.png';
+            link.href = canvas.toDataURL('image/png');
+            link.click();
+        }
+    </script>
+</body>
+
+</html>
+</script>
+</body>
+
+</html>

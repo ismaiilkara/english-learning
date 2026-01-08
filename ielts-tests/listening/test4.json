@@ -176,7 +176,12 @@
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "tableAnswers": {
+                        "8": "quiz",
+                        "9": "tickets",
+                        "10": "poster"
+                    }
                 },
                 "answers": {
                     "1": "collecting",

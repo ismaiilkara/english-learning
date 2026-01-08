@@ -413,6 +413,7 @@
                                                                             x-text="part.number"></span>
                                                                         <input type="text"
                                                                             x-model="answers[part.number]"
+                                                                            @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                                             :disabled="submitted" :class="{
                                                                                 'correct': submitted && isCorrectFill(section, part.number),
                                                                                 'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
@@ -451,6 +452,7 @@
                                                         <span class="text-gray-400 font-bold"
                                                             x-text="part.number"></span>
                                                         <input type="text" x-model="answers[part.number]"
+                                                            @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                             :disabled="submitted" :class="{
                                                                 'correct': submitted && isCorrectFill(section, part.number),
                                                                 'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
@@ -544,6 +546,7 @@
                                                 <span class="text-gray-400 font-bold" x-text="q.number + '.'"></span>
                                                 <span class="text-white flex-1" x-text="q.sentence"></span>
                                                 <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                     :class="{
                                                             'correct': submitted && isCorrectFillItem(q.number, q.answer),
                                                             'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
@@ -595,6 +598,7 @@
                                                 <span class="text-gray-400 font-bold" x-text="q.number + '.'"></span>
                                                 <span class="text-white flex-1" x-text="q.note"></span>
                                                 <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                     :class="{
                                                             'correct': submitted && isCorrectFillItem(q.number, q.answer),
                                                             'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
@@ -666,6 +670,7 @@
                                                 <span class="text-gray-400 font-bold w-8"
                                                     x-text="q.number + '.'"></span>
                                                 <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                     :class="{
                                                             'correct': submitted && isCorrectFillItem(q.number, q.answer),
                                                             'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
@@ -685,10 +690,16 @@
                     <!-- Submit / Results -->
                     <div class="glass-card rounded-2xl p-6">
                         <template x-if="!submitted">
-                            <button @click="submitAnswers()"
-                                class="w-full bg-gradient-to-r from-gray-500 to-gray-500 hover:from-gray-600 hover:to-gray-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
-                                Submit Answers ✓
-                            </button>
+                            <div class="flex flex-col gap-3">
+                                <button @click="submitAnswers()"
+                                    class="w-full bg-gradient-to-r from-gray-500 to-gray-500 hover:from-gray-600 hover:to-gray-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
+                                    Submit Answers ✓
+                                </button>
+                                <button @click="clearReadingAnswers()"
+                                    class="w-full bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                    Clear Answers
+                                </button>
+                            </div>
                         </template>
                         <template x-if="submitted">
                             <div class="text-center">
@@ -697,10 +708,16 @@
                                     <span class="text-white/50" x-text="'/ ' + totalQuestions"></span>
                                 </div>
                                 <p class="text-white/50 mb-4">Correct Answers</p>
-                                <button @click="resetQuiz()"
-                                    class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
-                                    Try Again 🔄
-                                </button>
+                                <div class="flex flex-col gap-2">
+                                    <button @click="resetQuiz()"
+                                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
+                                        Try Again 🔄
+                                    </button>
+                                    <button @click="clearReadingAnswers()"
+                                        class="bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                        Clear Answers
+                                    </button>
+                                </div>
                             </div>
                         </template>
                     </div>
@@ -1136,10 +1153,16 @@
                     <!-- Submit / Results -->
                     <div class="glass-card rounded-2xl p-6">
                         <template x-if="!listeningSubmitted">
-                            <button @click="submitListeningAnswers()"
-                                class="w-full bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
-                                Submit Answers ✓
-                            </button>
+                            <div class="flex flex-col gap-3">
+                                <button @click="submitListeningAnswers()"
+                                    class="w-full bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
+                                    Submit Answers ✓
+                                </button>
+                                <button @click="clearListeningAnswers()"
+                                    class="w-full bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                    Clear Answers
+                                </button>
+                            </div>
                         </template>
                         <template x-if="listeningSubmitted">
                             <div class="text-center">
@@ -1148,10 +1171,16 @@
                                     <span class="text-white/50" x-text="'/ ' + listeningTotalQuestions"></span>
                                 </div>
                                 <p class="text-white/50 mb-4">Correct Answers</p>
-                                <button @click="resetListeningQuiz()"
-                                    class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
-                                    Try Again 🔄
-                                </button>
+                                <div class="flex flex-col gap-2">
+                                    <button @click="resetListeningQuiz()"
+                                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
+                                        Try Again 🔄
+                                    </button>
+                                    <button @click="clearListeningAnswers()"
+                                        class="bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                        Clear Answers
+                                    </button>
+                                </div>
                             </div>
                         </template>
                     </div>
@@ -1369,6 +1398,20 @@
                                     } else {
                                         this.answers = {};
                                     }
+                                    // Load submitted state from localStorage
+                                    const savedSubmitted = localStorage.getItem(`reading_submitted_academic_test${testConfig.id}`);
+                                    this.submitted = savedSubmitted === 'true';
+
+                                    // Load saved score from localStorage
+                                    if (this.submitted) {
+                                        const savedScore = localStorage.getItem(`reading_score_academic_test${testConfig.id}`);
+                                        if (savedScore) {
+                                            const scoreData = JSON.parse(savedScore);
+                                            this.score = scoreData.score;
+                                            this.totalQuestions = scoreData.totalQuestions;
+                                        }
+                                    }
+
                                     this.currentPassageIndex = 0;
                                     this.loadPassage();
                                 }
@@ -1397,6 +1440,9 @@
                                     } else {
                                         this.listeningAnswers = {};
                                     }
+                                    // Load submitted state from localStorage
+                                    const savedSubmitted = localStorage.getItem(`listening_submitted_test${testConfig.id}`);
+                                    this.listeningSubmitted = savedSubmitted === 'true';
                                     this.loadListeningPart();
                                 }
                             }
@@ -1411,8 +1457,7 @@
                 // Reading functions
                 loadPassage() {
                     this.currentPassage = this.currentPassages[this.currentPassageIndex];
-                    // Don't reset answers - they should persist from localStorage
-                    this.submitted = false;
+                    // Don't reset answers or submitted state - they persist from localStorage
                 },
 
                 setAnswer(number, value) {
@@ -1452,6 +1497,12 @@
                     this.submitted = true;
                     this.score = 0;
                     this.totalQuestions = 0;
+
+                    // Save answers and submitted state to localStorage
+                    if (this.currentTestId) {
+                        localStorage.setItem(`reading_answers_academic_test${this.currentTestId}`, JSON.stringify(this.answers));
+                        localStorage.setItem(`reading_submitted_academic_test${this.currentTestId}`, 'true');
+                    }
 
                     this.currentPassage?.questions.forEach(section => {
                         // Multiple choice style questions (select from options)
@@ -1502,6 +1553,14 @@
                             }
                         }
                     });
+
+                    // Save score to localStorage
+                    if (this.currentTestId) {
+                        localStorage.setItem(`reading_score_academic_test${this.currentTestId}`, JSON.stringify({
+                            score: this.score,
+                            totalQuestions: this.totalQuestions
+                        }));
+                    }
                 },
 
                 resetQuiz() {
@@ -1509,6 +1568,19 @@
                     this.submitted = false;
                     this.score = 0;
                     this.totalQuestions = 0;
+                },
+
+                clearReadingAnswers() {
+                    this.answers = {};
+                    this.submitted = false;
+                    this.score = 0;
+                    this.totalQuestions = 0;
+                    // Clear from localStorage
+                    if (this.currentTestId) {
+                        localStorage.removeItem(`reading_answers_academic_test${this.currentTestId}`);
+                        localStorage.removeItem(`reading_submitted_academic_test${this.currentTestId}`);
+                        localStorage.removeItem(`reading_score_academic_test${this.currentTestId}`);
+                    }
                 },
 
                 // Listening functions
@@ -1529,8 +1601,7 @@
                 loadListeningPart() {
                     if (this.listeningData && this.listeningData.parts) {
                         this.currentListeningPart = this.listeningData.parts[this.currentListeningPartIndex];
-                        // Don't reset answers - they should persist from localStorage
-                        this.listeningSubmitted = false;
+                        // Don't reset answers or submitted state - they persist from localStorage
                     }
                 },
 
@@ -1587,6 +1658,11 @@
                     this.listeningSubmitted = true;
                     this.listeningScore = 0;
                     this.listeningTotalQuestions = 0;
+
+                    // Save submitted state to localStorage
+                    if (this.currentTestId) {
+                        localStorage.setItem(`listening_submitted_test${this.currentTestId}`, 'true');
+                    }
 
                     const part = this.currentListeningPart;
                     if (!part) return;
@@ -1652,6 +1728,18 @@
                     this.listeningSubmitted = false;
                     this.listeningScore = 0;
                     this.listeningTotalQuestions = 0;
+                },
+
+                clearListeningAnswers() {
+                    this.listeningAnswers = {};
+                    this.listeningSubmitted = false;
+                    this.listeningScore = 0;
+                    this.listeningTotalQuestions = 0;
+                    // Clear from localStorage
+                    if (this.currentTestId) {
+                        localStorage.removeItem(`listening_answers_test${this.currentTestId}`);
+                        localStorage.removeItem(`listening_submitted_test${this.currentTestId}`);
+                    }
                 }
             };
         }

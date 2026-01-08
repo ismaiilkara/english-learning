@@ -98,6 +98,10 @@
                             {
                                 "type": "blank",
                                 "number": 5
+                            },
+                            {
+                                "type": "text",
+                                "value": " outside"
                             }
                         ]
                     },
@@ -117,7 +121,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " outside"
+                                "value": " minibus, number 289"
                             }
                         ]
                     }
@@ -150,7 +154,20 @@
                         },
                         {
                             "time": "Organic shop",
-                            "activity": "beans and a 8 [blank] for dessert",
+                            "activity": [
+                                {
+                                    "type": "text",
+                                    "value": "beans and a "
+                                },
+                                {
+                                    "type": "blank",
+                                    "number": 8
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " for dessert"
+                                }
+                            ],
                             "notes": [
                                 {
                                     "type": "text",
@@ -173,6 +190,10 @@
                                 {
                                     "type": "blank",
                                     "number": 10
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " tart"
                                 }
                             ]
                         }
@@ -462,7 +483,7 @@
                         ]
                     },
                     {
-                        "type": "flowchart",
+                        "type": "notesFillIn",
                         "title": "Questions 26-30",
                         "instructions": "Choose FIVE answers from the box and write the correct letter, A-H, next to Questions 26-30.",
                         "options": [
@@ -502,23 +523,70 @@
                         "items": [
                             {
                                 "number": 26,
-                                "text": "Choose mice which are all the same"
+                                "parts": [
+                                    {
+                                        "type": "text",
+                                        "value": "Choose mice which are all the same "
+                                    },
+                                    {
+                                        "type": "blank",
+                                        "number": 26
+                                    }
+                                ]
                             },
                             {
                                 "number": 27,
-                                "text": "Divide the mice into two groups, each with a different"
+                                "parts": [
+                                    {
+                                        "type": "text",
+                                        "value": "Divide the mice into two groups, each with a different "
+                                    },
+                                    {
+                                        "type": "blank",
+                                        "number": 27
+                                    }
+                                ]
                             },
                             {
                                 "number": 28,
-                                "text": "Feed group B the same, but also sugar contained in"
+                                "contextText": "Put each group in a separate cage. Feed group A commercial mouse food.",
+                                "parts": [
+                                    {
+                                        "type": "text",
+                                        "value": "Feed group B the same, but also sugar contained in "
+                                    },
+                                    {
+                                        "type": "blank",
+                                        "number": 28
+                                    }
+                                ]
                             },
                             {
                                 "number": 29,
-                                "text": "Place them in a weighing chamber to prevent"
+                                "contextText": "Take measurements using an electronic scale.",
+                                "parts": [
+                                    {
+                                        "type": "text",
+                                        "value": "Place them in a weighing chamber to prevent "
+                                    },
+                                    {
+                                        "type": "blank",
+                                        "number": 29
+                                    }
+                                ]
                             },
                             {
                                 "number": 30,
-                                "text": "Do all necessary"
+                                "parts": [
+                                    {
+                                        "type": "text",
+                                        "value": "Do all necessary "
+                                    },
+                                    {
+                                        "type": "blank",
+                                        "number": 30
+                                    }
+                                ]
                             }
                         ],
                         "answers": {
@@ -703,6 +771,14 @@
                     {
                         "isHeader": true,
                         "text": "The study concluded:"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "soil should be seen as an important natural process."
+                            }
+                        ]
                     },
                     {
                         "parts": [

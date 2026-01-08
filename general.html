@@ -275,13 +275,15 @@
                                             <div class="flex gap-2">
                                                 <template x-for="option in ['TRUE', 'FALSE', 'NOT GIVEN']"
                                                     :key="option">
-                                                    <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                        'selected': answers[q.number] === option && !submitted,
-                                                        'correct': submitted && q.answer === option,
-                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, option)"
+                                                        :class="{
+                                                        'selected': answers[q.number] === option && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === option,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === option && q.answer !== option
                                                         }"
                                                         class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
@@ -302,13 +304,15 @@
                                             </p>
                                             <div class="flex gap-2">
                                                 <template x-for="option in ['YES', 'NO', 'NOT GIVEN']" :key="option">
-                                                    <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                            'selected': answers[q.number] === option && !submitted,
-                                                            'correct': submitted && q.answer === option,
-                                                            'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, option)"
+                                                        :class="{
+                                                            'selected': answers[q.number] === option && !passageSubmitted[currentPassageIndex],
+                                                            'correct': passageSubmitted[currentPassageIndex] && q.answer === option,
+                                                            'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === option && q.answer !== option
                                                         }"
                                                         class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
@@ -329,13 +333,15 @@
                                             </p>
                                             <div class="flex gap-2 flex-wrap">
                                                 <template x-for="option in section.options" :key="option">
-                                                    <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                        'selected': answers[q.number] === option && !submitted,
-                                                        'correct': submitted && q.answer === option,
-                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, option)"
+                                                        :class="{
+                                                        'selected': answers[q.number] === option && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === option,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === option && q.answer !== option
                                                         }"
                                                         class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
@@ -366,14 +372,15 @@
                                             </p>
                                             <div class="flex gap-2">
                                                 <template x-for="person in section.people" :key="person.letter">
-                                                    <button @click="!submitted && setAnswer(q.number, person.letter)"
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, person.letter)"
                                                         :class="{
-                                                        'selected': answers[q.number] === person.letter && !submitted,
-                                                        'correct': submitted && q.answer === person.letter,
-                                                        'incorrect': submitted && answers[q.number] === person.letter && q.answer !== person.letter
+                                                        'selected': answers[q.number] === person.letter && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === person.letter,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === person.letter && q.answer !== person.letter
                                                         }"
                                                         class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="person.letter"></span>
                                                     </button>
                                                 </template>
@@ -413,14 +420,16 @@
                                                                             x-text="part.number"></span>
                                                                         <input type="text"
                                                                             x-model="answers[part.number]"
-                                                                            :disabled="submitted" :class="{
-                                                                                'correct': submitted && isCorrectFill(section, part.number),
-                                                                                'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
+                                                                            @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
+                                                                            :disabled="passageSubmitted[currentPassageIndex]"
+                                                                            :class="{
+                                                                                'correct': passageSubmitted[currentPassageIndex] && isCorrectFill(section, part.number),
+                                                                                'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFill(section, part.number) && answers[part.number]
                                                                             }"
                                                                             class="fill-input w-32 px-3 py-1 rounded text-white text-center"
                                                                             placeholder="...">
                                                                         <span
-                                                                            x-show="submitted && !isCorrectFill(section, part.number)"
+                                                                            x-show="passageSubmitted[currentPassageIndex] && !isCorrectFill(section, part.number)"
                                                                             class="text-green-400 text-sm ml-1"
                                                                             x-text="'(' + section.answers[part.number] + ')'"></span>
                                                                     </span>
@@ -451,13 +460,15 @@
                                                         <span class="text-gray-400 font-bold"
                                                             x-text="part.number"></span>
                                                         <input type="text" x-model="answers[part.number]"
-                                                            :disabled="submitted" :class="{
-                                                                'correct': submitted && isCorrectFill(section, part.number),
-                                                                'incorrect': submitted && !isCorrectFill(section, part.number) && answers[part.number]
+                                                            @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
+                                                            :disabled="passageSubmitted[currentPassageIndex]" :class="{
+                                                                'correct': passageSubmitted[currentPassageIndex] && isCorrectFill(section, part.number),
+                                                                'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFill(section, part.number) && answers[part.number]
                                                             }"
                                                             class="fill-input w-28 px-3 py-1 rounded text-white text-center"
                                                             placeholder="...">
-                                                        <span x-show="submitted && !isCorrectFill(section, part.number)"
+                                                        <span
+                                                            x-show="passageSubmitted[currentPassageIndex] && !isCorrectFill(section, part.number)"
                                                             class="text-green-400 text-sm ml-1"
                                                             x-text="'(' + section.answers[part.number] + ')'"></span>
                                                     </span>
@@ -479,14 +490,15 @@
                                             </p>
                                             <div class="space-y-2">
                                                 <template x-for="option in q.options" :key="option.letter">
-                                                    <button @click="!submitted && setAnswer(q.number, option.letter)"
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, option.letter)"
                                                         :class="{
-                                                        'selected': answers[q.number] === option.letter && !submitted,
-                                                        'correct': submitted && q.answer === option.letter,
-                                                        'incorrect': submitted && answers[q.number] === option.letter && q.answer !== option.letter
+                                                        'selected': answers[q.number] === option.letter && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === option.letter,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === option.letter && q.answer !== option.letter
                                                         }"
                                                         class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span class="font-bold mr-2" x-text="option.letter"></span>
                                                         <span x-text="option.text"></span>
                                                     </button>
@@ -518,14 +530,15 @@
                                             </p>
                                             <div class="flex gap-2 flex-wrap">
                                                 <template x-for="ending in section.endings" :key="ending.letter">
-                                                    <button @click="!submitted && setAnswer(q.number, ending.letter)"
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, ending.letter)"
                                                         :class="{
-                                                        'selected': answers[q.number] === ending.letter && !submitted,
-                                                        'correct': submitted && q.answer === ending.letter,
-                                                        'incorrect': submitted && answers[q.number] === ending.letter && q.answer !== ending.letter
+                                                        'selected': answers[q.number] === ending.letter && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === ending.letter,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === ending.letter && q.answer !== ending.letter
                                                         }"
                                                         class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="ending.letter"></span>
                                                     </button>
                                                 </template>
@@ -544,14 +557,17 @@
                                                 <span class="text-gray-400 font-bold" x-text="q.number + '.'"></span>
                                                 <span class="text-white"
                                                     x-text="q.textBefore || q.sentence || ''"></span>
-                                                <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                <input type="text" x-model="answers[q.number]"
+                                                    :disabled="passageSubmitted[currentPassageIndex]"
+                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                     :class="{
-                                                            'correct': submitted && isCorrectFillItem(q.number, q.answer),
-                                                            'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                            'correct': passageSubmitted[currentPassageIndex] && isCorrectFillItem(q.number, q.answer),
+                                                            'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
                                                         }" class="fill-input w-36 px-3 py-2 rounded-lg text-white"
                                                     placeholder="...">
                                                 <span class="text-white" x-text="q.textAfter || ''"></span>
-                                                <span x-show="submitted && !isCorrectFillItem(q.number, q.answer)"
+                                                <span
+                                                    x-show="passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer)"
                                                     class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
                                             </div>
                                         </div>
@@ -571,13 +587,15 @@
                                             <div class="flex gap-2 flex-wrap">
                                                 <template x-for="option in ['TRUE', 'FALSE', 'NOT GIVEN']"
                                                     :key="option">
-                                                    <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                        'selected': answers[q.number] === option && !submitted,
-                                                        'correct': submitted && q.answer === option,
-                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, option)"
+                                                        :class="{
+                                                        'selected': answers[q.number] === option && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === option,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === option && q.answer !== option
                                                             }"
                                                         class="radio-option px-4 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
@@ -597,14 +615,17 @@
                                             <div class="flex items-center gap-3 flex-wrap p-2 bg-white/5 rounded-lg">
                                                 <span class="text-gray-400 font-bold" x-text="q.number + '.'"></span>
                                                 <span class="text-white" x-text="q.textBefore || q.note || ''"></span>
-                                                <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                <input type="text" x-model="answers[q.number]"
+                                                    :disabled="passageSubmitted[currentPassageIndex]"
+                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                     :class="{
-                                                            'correct': submitted && isCorrectFillItem(q.number, q.answer),
-                                                            'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                            'correct': passageSubmitted[currentPassageIndex] && isCorrectFillItem(q.number, q.answer),
+                                                            'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
                                                         }" class="fill-input w-36 px-3 py-2 rounded-lg text-white"
                                                     placeholder="...">
                                                 <span class="text-white" x-text="q.textAfter || ''"></span>
-                                                <span x-show="submitted && !isCorrectFillItem(q.number, q.answer)"
+                                                <span
+                                                    x-show="passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer)"
                                                     class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
                                             </div>
                                         </template>
@@ -634,14 +655,15 @@
                                             </p>
                                             <div class="flex gap-2 flex-wrap">
                                                 <template x-for="heading in section.headings" :key="heading.number">
-                                                    <button @click="!submitted && setAnswer(q.number, heading.number)"
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, heading.number)"
                                                         :class="{
-                                                                'selected': answers[q.number] === heading.number && !submitted,
-                                                                'correct': submitted && q.answer === heading.number,
-                                                                'incorrect': submitted && answers[q.number] === heading.number && q.answer !== heading.number
+                                                                'selected': answers[q.number] === heading.number && !passageSubmitted[currentPassageIndex],
+                                                                'correct': passageSubmitted[currentPassageIndex] && q.answer === heading.number,
+                                                                'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === heading.number && q.answer !== heading.number
                                                             }"
                                                         class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="heading.number"></span>
                                                     </button>
                                                 </template>
@@ -662,13 +684,15 @@
                                             </p>
                                             <div class="flex gap-2 flex-wrap">
                                                 <template x-for="option in section.options" :key="option">
-                                                    <button @click="!submitted && setAnswer(q.number, option)" :class="{
-                                                        'selected': answers[q.number] === option && !submitted,
-                                                        'correct': submitted && q.answer === option,
-                                                        'incorrect': submitted && answers[q.number] === option && q.answer !== option
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, option)"
+                                                        :class="{
+                                                        'selected': answers[q.number] === option && !passageSubmitted[currentPassageIndex],
+                                                        'correct': passageSubmitted[currentPassageIndex] && q.answer === option,
+                                                        'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === option && q.answer !== option
                                                         }"
                                                         class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
-                                                        :disabled="submitted">
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
@@ -700,14 +724,17 @@
                                                 <span class="text-gray-400 font-bold w-8"
                                                     x-text="q.number + '.'"></span>
                                                 <span class="text-white" x-text="q.textBefore || ''"></span>
-                                                <input type="text" x-model="answers[q.number]" :disabled="submitted"
+                                                <input type="text" x-model="answers[q.number]"
+                                                    :disabled="passageSubmitted[currentPassageIndex]"
+                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
                                                     :class="{
-                                                            'correct': submitted && isCorrectFillItem(q.number, q.answer),
-                                                            'incorrect': submitted && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                            'correct': passageSubmitted[currentPassageIndex] && isCorrectFillItem(q.number, q.answer),
+                                                            'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
                                                         }" class="fill-input w-36 px-3 py-2 rounded-lg text-white"
                                                     placeholder="...">
                                                 <span class="text-white" x-text="q.textAfter || ''"></span>
-                                                <span x-show="submitted && !isCorrectFillItem(q.number, q.answer)"
+                                                <span
+                                                    x-show="passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer)"
                                                     class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
                                             </div>
                                         </template>
@@ -720,23 +747,37 @@
 
                     <!-- Submit / Results -->
                     <div class="glass-card rounded-2xl p-6">
-                        <template x-if="!submitted">
-                            <button @click="submitAnswers()"
-                                class="w-full bg-gradient-to-r from-gray-500 to-gray-500 hover:from-gray-600 hover:to-gray-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
-                                Submit Answers ✓
-                            </button>
+                        <template x-if="!passageSubmitted[currentPassageIndex]">
+                            <div class="flex flex-col gap-3">
+                                <button @click="submitAnswers()"
+                                    class="w-full bg-gradient-to-r from-gray-500 to-gray-500 hover:from-gray-600 hover:to-gray-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
+                                    Submit Answers ✓
+                                </button>
+                                <button @click="clearReadingAnswers()"
+                                    class="w-full bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                    Clear Answers
+                                </button>
+                            </div>
                         </template>
-                        <template x-if="submitted">
+                        <template x-if="passageSubmitted[currentPassageIndex]">
                             <div class="text-center">
                                 <div class="text-4xl font-bold mb-2">
-                                    <span class="text-green-400" x-text="score"></span>
-                                    <span class="text-white/50" x-text="'/ ' + totalQuestions"></span>
+                                    <span class="text-green-400"
+                                        x-text="passageScores[currentPassageIndex]?.score || 0"></span>
+                                    <span class="text-white/50"
+                                        x-text="'/ ' + (passageScores[currentPassageIndex]?.totalQuestions || 0)"></span>
                                 </div>
                                 <p class="text-white/50 mb-4">Correct Answers</p>
-                                <button @click="resetQuiz()"
-                                    class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
-                                    Try Again 🔄
-                                </button>
+                                <div class="flex flex-col gap-2">
+                                    <button @click="resetQuiz()"
+                                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
+                                        Try Again 🔄
+                                    </button>
+                                    <button @click="clearReadingAnswers()"
+                                        class="bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                        Clear Answers
+                                    </button>
+                                </div>
                             </div>
                         </template>
                     </div>
@@ -784,54 +825,56 @@
         <!-- Content -->
         <div class="flex flex-1 min-h-0">
 
-            <!-- Left Panel - Video -->
-            <div class="w-full md:w-1/2 h-full overflow-y-auto border-r border-white/10"
+            <!-- Left Panel - Video (Narrower) -->
+            <div class="w-full md:w-1/3 h-full overflow-y-auto border-r border-white/10"
                 :class="{'hidden md:block': !showVideoPanel}">
-                <div class="glass-card rounded-2xl p-6">
-                    <h2 class="text-2xl font-bold mb-4 text-green-400"
-                        x-text="listeningData?.title || 'IELTS Listening'"></h2>
+                <div class="p-3">
+                    <div class="glass-card rounded-xl p-3">
+                        <h2 class="text-lg font-bold mb-2 text-green-400"
+                            x-text="listeningData?.title || 'IELTS Listening'"></h2>
 
-                    <div class="relative w-full" style="padding-bottom: 56.25%;">
-                        <iframe x-show="listeningData?.videoUrl" :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
-                            class="absolute top-0 left-0 w-full h-full rounded-xl" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
-                    </div>
+                        <div class="relative w-full" style="padding-bottom: 56.25%;">
+                            <iframe x-show="listeningData?.videoUrl" :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
+                                class="absolute top-0 left-0 w-full h-full rounded-lg" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
 
-                    <!-- Transcript Toggle -->
-                    <div class="mt-6">
-                        <button @click="showTranscript = !showTranscript"
-                            class="w-full p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 transition-all flex items-center justify-between">
-                            <span class="text-lg font-semibold text-yellow-400">📜 Transcript</span>
-                            <span class="text-white/50" x-text="showTranscript ? '▲ Hide' : '▼ Show'"></span>
-                        </button>
-                        <div x-show="showTranscript"
-                            class="mt-2 p-4 bg-white/5 rounded-xl border border-white/10 max-h-96 overflow-y-auto">
-                            <template x-if="currentListeningPart?.transcript">
-                                <div class="text-white/80 text-sm leading-relaxed whitespace-pre-line"
-                                    x-text="currentListeningPart?.transcript">
-                                </div>
-                            </template>
-                            <template x-if="!currentListeningPart?.transcript">
-                                <p class="text-white/50 text-sm italic">No transcript available for this part.</p>
-                            </template>
+                        <!-- Transcript Toggle -->
+                        <div class="mt-3">
+                            <button @click="showTranscript = !showTranscript"
+                                class="w-full p-2 bg-white/5 rounded-lg border border-white/10 hover:bg-white/10 transition-all flex items-center justify-between text-sm">
+                                <span class="font-semibold text-yellow-400">📜 Transcript</span>
+                                <span class="text-white/50 text-xs" x-text="showTranscript ? '▲' : '▼'"></span>
+                            </button>
+                            <div x-show="showTranscript"
+                                class="mt-2 p-3 bg-white/5 rounded-lg border border-white/10 max-h-64 overflow-y-auto">
+                                <template x-if="currentListeningPart?.transcript">
+                                    <div class="text-white/80 text-xs leading-relaxed whitespace-pre-line"
+                                        x-text="currentListeningPart?.transcript">
+                                    </div>
+                                </template>
+                                <template x-if="!currentListeningPart?.transcript">
+                                    <p class="text-white/50 text-xs italic">No transcript available for this part.</p>
+                                </template>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right Panel - Questions -->
-            <div class="w-full md:w-1/2 h-full overflow-y-auto" :class="{'hidden md:block': showVideoPanel}">
-                <div class="p-4 md:p-6 space-y-4 md:space-y-6">
+            <!-- Right Panel - Questions (Wider) -->
+            <div class="w-full md:w-2/3 h-full overflow-y-auto" :class="{'hidden md:block': showVideoPanel}">
+                <div class="p-3 md:p-4 space-y-3 md:space-y-4">
 
                     <!-- Part Selector -->
-                    <div class="glass-card rounded-2xl p-3 md:p-4 sticky top-0 z-10">
-                        <div class="flex gap-2 flex-wrap justify-center">
+                    <div class="glass-card rounded-xl p-2 sticky top-0 z-10">
+                        <div class="flex gap-1.5 flex-wrap justify-center">
                             <template x-for="(part, index) in listeningData?.parts" :key="index">
                                 <button @click="selectListeningPart(index)"
                                     :class="currentListeningPartIndex === index ? 'bg-green-500 text-white' : 'bg-white/10 hover:bg-white/20 text-white/70'"
-                                    class="px-5 py-2 rounded-lg font-semibold transition-all text-sm">
+                                    class="px-3 py-1.5 rounded-md font-semibold transition-all text-xs">
                                     <span x-text="part.title"></span>
                                 </button>
                             </template>
@@ -842,24 +885,25 @@
 
                     <!-- Notes Type Questions -->
                     <template x-if="currentListeningPart?.type === 'notes'">
-                        <div class="glass-card rounded-2xl p-6">
-                            <div class="bg-white/5 rounded-xl p-4 border border-white/10">
-                                <h4 class="text-lg font-semibold text-white mb-4"
+                        <div class="glass-card rounded-xl p-3">
+                            <div class="bg-white/5 rounded-lg p-3 border border-white/10">
+                                <h4 class="text-base font-semibold text-white mb-3"
                                     x-text="currentListeningPart?.noteTitle"></h4>
-                                <div class="space-y-3">
+                                <div class="space-y-1.5">
                                     <template x-for="(item, itemIndex) in currentListeningPart?.items" :key="itemIndex">
                                         <div>
                                             <template x-if="item.isHeader">
-                                                <p class="text-yellow-400 font-semibold mt-4 mb-2" x-text="item.text">
+                                                <p class="text-yellow-400 font-semibold text-sm mt-2 mb-1"
+                                                    x-text="item.text">
                                                 </p>
                                             </template>
                                             <template x-if="item.isSubHeader">
-                                                <p class="text-yellow-300/80 font-medium mt-2 mb-1 ml-2"
+                                                <p class="text-yellow-300/80 font-medium text-sm mt-1 mb-0.5 ml-2"
                                                     x-text="item.text">
                                                 </p>
                                             </template>
                                             <template x-if="!item.isHeader && !item.isSubHeader">
-                                                <p class="text-white/85 flex items-center gap-2 flex-wrap">
+                                                <p class="text-white/85 text-sm flex items-center gap-1.5 flex-wrap">
                                                     <span>•</span>
                                                     <template x-for="(part, partIndex) in item.parts" :key="partIndex">
                                                         <span>
@@ -868,20 +912,21 @@
                                                             </template>
                                                             <template x-if="part.type === 'blank'">
                                                                 <span class="inline-flex items-center gap-1">
-                                                                    <span class="text-green-400 font-bold"
+                                                                    <span class="text-green-400 font-bold text-xs"
                                                                         x-text="part.number"></span>
                                                                     <input type="text"
                                                                         x-model="listeningAnswers[part.number]"
                                                                         @input="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
-                                                                        :disabled="listeningSubmitted" :class="{
-                                                                        'correct': listeningSubmitted && isCorrectListeningFill(part.number),
-                                                                        'incorrect': listeningSubmitted && !isCorrectListeningFill(part.number) && listeningAnswers[part.number]
+                                                                        :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                        :class="{
+                                                                        'correct': listeningPartSubmitted[currentListeningPartIndex] && isCorrectListeningFill(part.number),
+                                                                        'incorrect': listeningPartSubmitted[currentListeningPartIndex] && !isCorrectListeningFill(part.number) && listeningAnswers[part.number]
                                                                         }"
-                                                                        class="fill-input w-32 px-3 py-1 rounded text-white text-center"
+                                                                        class="fill-input w-28 px-2 py-0.5 rounded text-white text-center text-sm"
                                                                         placeholder="...">
                                                                     <span
-                                                                        x-show="listeningSubmitted && !isCorrectListeningFill(part.number)"
-                                                                        class="text-green-400 text-sm ml-1"
+                                                                        x-show="listeningPartSubmitted[currentListeningPartIndex] && !isCorrectListeningFill(part.number)"
+                                                                        class="text-green-400 text-xs ml-1"
                                                                         x-text="'(' + currentListeningPart?.answers[part.number] + ')'"></span>
                                                                 </span>
                                                             </template>
@@ -896,15 +941,15 @@
 
                             <!-- Table Section -->
                             <template x-if="currentListeningPart?.tableSection">
-                                <div class="bg-white/5 rounded-xl p-4 border border-white/10 mt-4">
-                                    <h4 class="text-lg font-semibold text-white mb-4 text-center"
+                                <div class="bg-white/5 rounded-lg p-3 border border-white/10 mt-3">
+                                    <h4 class="text-base font-semibold text-white mb-2 text-center"
                                         x-text="currentListeningPart?.tableSection.title"></h4>
-                                    <table class="w-full">
+                                    <table class="w-full text-sm">
                                         <thead>
                                             <tr class="border-b border-white/20">
                                                 <template x-for="header in currentListeningPart?.tableSection.headers"
                                                     :key="header">
-                                                    <th class="text-left py-3 px-4 text-yellow-400 font-semibold"
+                                                    <th class="text-left py-2 px-2 text-yellow-400 font-semibold text-xs"
                                                         x-text="header"></th>
                                                 </template>
                                             </tr>
@@ -913,32 +958,91 @@
                                             <template x-for="(row, rowIndex) in currentListeningPart?.tableSection.rows"
                                                 :key="rowIndex">
                                                 <tr class="border-b border-white/10">
-                                                    <td class="py-4 px-4 text-white/70" x-text="row.time"></td>
-                                                    <td class="py-4 px-4 text-white/70" x-text="row.activity"></td>
-                                                    <td class="py-4 px-4 text-white/85">
-                                                        <template x-for="(part, partIndex) in row.notes"
-                                                            :key="partIndex">
+                                                    <!-- Column 1: Date/Time -->
+                                                    <td class="py-2 px-2 text-white/70 text-sm" x-text="row.time"></td>
+
+                                                    <!-- Column 2: Event/Activity -->
+                                                    <td class="py-2 px-2 text-white/70 text-sm">
+                                                        <template x-if="typeof row.activity === 'string'">
+                                                            <span x-text="row.activity"></span>
+                                                        </template>
+                                                        <template x-if="Array.isArray(row.activity)">
                                                             <span>
-                                                                <template x-if="part.type === 'text'">
-                                                                    <span x-text="part.value"></span>
+                                                                <template x-for="(part, partIndex) in row.activity"
+                                                                    :key="partIndex">
+                                                                    <span>
+                                                                        <template x-if="part.type === 'text'">
+                                                                            <span x-text="part.value"></span>
+                                                                        </template>
+                                                                        <template x-if="part.type === 'blank'">
+                                                                            <span
+                                                                                class="inline-flex items-center gap-1">
+                                                                                <span
+                                                                                    class="text-green-400 font-bold text-xs"
+                                                                                    x-text="part.number"></span>
+                                                                                <input type="text"
+                                                                                    x-model="listeningAnswers[part.number]"
+                                                                                    @input="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
+                                                                                    :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                                    :class="{
+                                                                                    'correct': listeningPartSubmitted[currentListeningPartIndex] && isCorrectTableFill(part.number),
+                                                                                    'incorrect': listeningPartSubmitted[currentListeningPartIndex] && !isCorrectTableFill(part.number) && listeningAnswers[part.number]
+                                                                                    }"
+                                                                                    class="fill-input w-24 px-2 py-0.5 rounded text-white text-center text-sm"
+                                                                                    placeholder="...">
+                                                                                <span
+                                                                                    x-show="listeningPartSubmitted[currentListeningPartIndex] && !isCorrectTableFill(part.number)"
+                                                                                    class="text-green-400 text-xs ml-1"
+                                                                                    x-text="'(' + currentListeningPart?.tableSection.tableAnswers[part.number] + ')'"></span>
+                                                                            </span>
+                                                                        </template>
+                                                                    </span>
                                                                 </template>
-                                                                <template x-if="part.type === 'blank'">
-                                                                    <span class="inline-flex items-center gap-1">
-                                                                        <span class="text-green-400 font-bold"
-                                                                            x-text="part.number"></span>
-                                                                        <input type="text"
-                                                                            x-model="listeningAnswers[part.number]"
-                                                                            @input="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
-                                                                            :disabled="listeningSubmitted" :class="{
-                                                                            'correct': listeningSubmitted && isCorrectTableFill(part.number),
-                                                                            'incorrect': listeningSubmitted && !isCorrectTableFill(part.number) && listeningAnswers[part.number]
-                                                                            }"
-                                                                            class="fill-input w-28 px-3 py-1 rounded text-white text-center"
-                                                                            placeholder="...">
-                                                                        <span
-                                                                            x-show="listeningSubmitted && !isCorrectTableFill(part.number)"
-                                                                            class="text-green-400 text-sm ml-1"
-                                                                            x-text="'(' + currentListeningPart?.tableSection.tableAnswers[part.number] + ')'"></span>
+                                                            </span>
+                                                        </template>
+                                                    </td>
+
+                                                    <!-- Column 3: Location (if exists) -->
+                                                    <template x-if="row.location !== undefined">
+                                                        <td class="py-2 px-2 text-white/70 text-sm"
+                                                            x-text="row.location"></td>
+                                                    </template>
+
+                                                    <!-- Column 3 or 4: Notes/Help needed -->
+                                                    <td class="py-2 px-2 text-white/85 text-sm">
+                                                        <template x-if="typeof row.notes === 'string'">
+                                                            <span x-text="row.notes"></span>
+                                                        </template>
+                                                        <template x-if="Array.isArray(row.notes)">
+                                                            <span>
+                                                                <template x-for="(part, partIndex) in row.notes"
+                                                                    :key="partIndex">
+                                                                    <span>
+                                                                        <template x-if="part.type === 'text'">
+                                                                            <span x-text="part.value"></span>
+                                                                        </template>
+                                                                        <template x-if="part.type === 'blank'">
+                                                                            <span
+                                                                                class="inline-flex items-center gap-1">
+                                                                                <span
+                                                                                    class="text-green-400 font-bold text-xs"
+                                                                                    x-text="part.number"></span>
+                                                                                <input type="text"
+                                                                                    x-model="listeningAnswers[part.number]"
+                                                                                    @input="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
+                                                                                    :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                                    :class="{
+                                                                                    'correct': listeningPartSubmitted[currentListeningPartIndex] && isCorrectTableFill(part.number),
+                                                                                    'incorrect': listeningPartSubmitted[currentListeningPartIndex] && !isCorrectTableFill(part.number) && listeningAnswers[part.number]
+                                                                                    }"
+                                                                                    class="fill-input w-24 px-2 py-0.5 rounded text-white text-center text-sm"
+                                                                                    placeholder="...">
+                                                                                <span
+                                                                                    x-show="listeningPartSubmitted[currentListeningPartIndex] && !isCorrectTableFill(part.number)"
+                                                                                    class="text-green-400 text-xs ml-1"
+                                                                                    x-text="'(' + currentListeningPart?.tableSection.tableAnswers[part.number] + ')'"></span>
+                                                                            </span>
+                                                                        </template>
                                                                     </span>
                                                                 </template>
                                                             </span>
@@ -956,30 +1060,30 @@
                     <!-- Multiple Choice / Complex Questions -->
                     <template
                         x-if="currentListeningPart?.type === 'multipleChoice' || currentListeningPart?.type === 'complex'">
-                        <div class="glass-card rounded-2xl p-6">
-                            <div class="space-y-6">
+                        <div class="glass-card rounded-xl p-3">
+                            <div class="space-y-3">
                                 <template x-for="(q, qIndex) in currentListeningPart?.items" :key="qIndex">
                                     <div>
                                         <!-- Regular MC -->
                                         <template x-if="!q.type">
-                                            <div class="question-card rounded-xl p-4">
-                                                <p class="text-white mb-4">
+                                            <div class="question-card rounded-lg p-3">
+                                                <p class="text-white text-sm mb-2">
                                                     <span class="text-green-400 font-bold"
                                                         x-text="q.number + '.'"></span>
                                                     <span x-text="q.text"></span>
                                                 </p>
-                                                <div class="space-y-2">
+                                                <div class="space-y-1.5">
                                                     <template x-for="option in q.options" :key="option.letter">
                                                         <button
-                                                            @click="!listeningSubmitted && setListeningAnswer(q.number, option.letter)"
+                                                            @click="!listeningPartSubmitted[currentListeningPartIndex] && setListeningAnswer(q.number, option.letter)"
                                                             :class="{
-                                                            'selected': listeningAnswers[q.number] === option.letter && !listeningSubmitted,
-                                                            'correct': listeningSubmitted && q.answer === option.letter,
-                                                            'incorrect': listeningSubmitted && listeningAnswers[q.number] === option.letter && q.answer !== option.letter
+                                                            'selected': listeningAnswers[q.number] === option.letter && !listeningPartSubmitted[currentListeningPartIndex],
+                                                            'correct': listeningPartSubmitted[currentListeningPartIndex] && q.answer === option.letter,
+                                                            'incorrect': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[q.number] === option.letter && q.answer !== option.letter
                                                             }"
-                                                            class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
-                                                            :disabled="listeningSubmitted">
-                                                            <span class="font-bold mr-2" x-text="option.letter"></span>
+                                                            class="radio-option w-full text-left px-3 py-2 rounded-md border border-white/20 text-xs transition-all"
+                                                            :disabled="listeningPartSubmitted[currentListeningPartIndex]">
+                                                            <span class="font-bold mr-1" x-text="option.letter"></span>
                                                             <span x-text="option.text"></span>
                                                         </button>
                                                     </template>
@@ -1000,14 +1104,14 @@
                                                 <div class="space-y-2">
                                                     <template x-for="option in q.options" :key="option.letter">
                                                         <button
-                                                            @click="!listeningSubmitted && toggleChooseTwoAnswer(q.questionNumbers, option.letter)"
+                                                            @click="!listeningPartSubmitted[currentListeningPartIndex] && toggleChooseTwoAnswer(q.questionNumbers, option.letter)"
                                                             :class="{
-                                                            'selected': isChooseTwoSelected(q.questionNumbers, option.letter) && !listeningSubmitted,
-                                                            'correct': listeningSubmitted && q.answers.includes(option.letter),
-                                                            'incorrect': listeningSubmitted && isChooseTwoSelected(q.questionNumbers, option.letter) && !q.answers.includes(option.letter)
+                                                            'selected': isChooseTwoSelected(q.questionNumbers, option.letter) && !listeningPartSubmitted[currentListeningPartIndex],
+                                                            'correct': listeningPartSubmitted[currentListeningPartIndex] && q.answers.includes(option.letter),
+                                                            'incorrect': listeningPartSubmitted[currentListeningPartIndex] && isChooseTwoSelected(q.questionNumbers, option.letter) && !q.answers.includes(option.letter)
                                                             }"
                                                             class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all flex items-center gap-3"
-                                                            :disabled="listeningSubmitted">
+                                                            :disabled="listeningPartSubmitted[currentListeningPartIndex]">
                                                             <span
                                                                 class="w-6 h-6 rounded border-2 flex items-center justify-center text-xs"
                                                                 :class="isChooseTwoSelected(q.questionNumbers, option.letter) ? 'bg-green-500 border-green-500' : 'border-white/40'">
@@ -1051,9 +1155,10 @@
                                                             <span class="text-white flex-1" x-text="item.label"></span>
                                                             <select x-model="listeningAnswers[item.number]"
                                                                 @change="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
-                                                                :disabled="listeningSubmitted" :class="{
-                                                                'correct': listeningSubmitted && listeningAnswers[item.number] === q.answers[item.number],
-                                                                'incorrect': listeningSubmitted && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
+                                                                :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                :class="{
+                                                                'correct': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] === q.answers[item.number],
+                                                                'incorrect': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
                                                                 }"
                                                                 class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
                                                                 <option value="" class="bg-gray-800">-</option>
@@ -1065,7 +1170,7 @@
                                                                 </template>
                                                             </select>
                                                             <span
-                                                                x-show="listeningSubmitted && listeningAnswers[item.number] !== q.answers[item.number]"
+                                                                x-show="listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] !== q.answers[item.number]"
                                                                 class="text-green-400 text-sm"
                                                                 x-text="'(' + q.answers[item.number] + ')'"></span>
                                                         </div>
@@ -1101,9 +1206,10 @@
                                                                 x-text="item.number"></span>
                                                             <span class="text-white flex-1" x-text="item.text"></span>
                                                             <select x-model="listeningAnswers[item.number]"
-                                                                :disabled="listeningSubmitted" :class="{
-                                                                'correct': listeningSubmitted && listeningAnswers[item.number] === q.answers[item.number],
-                                                                'incorrect': listeningSubmitted && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
+                                                                :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                :class="{
+                                                                'correct': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] === q.answers[item.number],
+                                                                'incorrect': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] && listeningAnswers[item.number] !== q.answers[item.number]
                                                                     }"
                                                                 class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
                                                                 <option value="" class="bg-gray-800">-</option>
@@ -1115,7 +1221,7 @@
                                                                 </template>
                                                             </select>
                                                             <span
-                                                                x-show="listeningSubmitted && listeningAnswers[item.number] !== q.answers[item.number]"
+                                                                x-show="listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] !== q.answers[item.number]"
                                                                 class="text-green-400 text-sm"
                                                                 x-text="'(' + q.answers[item.number] + ')'"></span>
                                                         </div>
@@ -1144,14 +1250,14 @@
                                                                 <template x-for="option in mcItem.options"
                                                                     :key="option.letter">
                                                                     <button
-                                                                        @click="!listeningSubmitted && setListeningAnswer(mcItem.number, option.letter)"
+                                                                        @click="!listeningPartSubmitted[currentListeningPartIndex] && setListeningAnswer(mcItem.number, option.letter)"
                                                                         :class="{
-                                                                                'selected': listeningAnswers[mcItem.number] === option.letter && !listeningSubmitted,
-                                                                                'correct': listeningSubmitted && mcItem.answer === option.letter,
-                                                                                'incorrect': listeningSubmitted && listeningAnswers[mcItem.number] === option.letter && mcItem.answer !== option.letter
+                                                                                'selected': listeningAnswers[mcItem.number] === option.letter && !listeningPartSubmitted[currentListeningPartIndex],
+                                                                                'correct': listeningPartSubmitted[currentListeningPartIndex] && mcItem.answer === option.letter,
+                                                                                'incorrect': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[mcItem.number] === option.letter && mcItem.answer !== option.letter
                                                                             }"
                                                                         class="radio-option w-full text-left px-4 py-3 rounded-lg border border-white/20 text-sm transition-all"
-                                                                        :disabled="listeningSubmitted">
+                                                                        :disabled="listeningPartSubmitted[currentListeningPartIndex]">
                                                                         <span class="font-bold mr-2"
                                                                             x-text="option.letter"></span>
                                                                         <span x-text="option.text"></span>
@@ -1171,23 +1277,37 @@
 
                     <!-- Submit / Results -->
                     <div class="glass-card rounded-2xl p-6">
-                        <template x-if="!listeningSubmitted">
-                            <button @click="submitListeningAnswers()"
-                                class="w-full bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
-                                Submit Answers ✓
-                            </button>
+                        <template x-if="!listeningPartSubmitted[currentListeningPartIndex]">
+                            <div class="flex flex-col gap-3">
+                                <button @click="submitListeningAnswers()"
+                                    class="w-full bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white font-bold py-4 px-8 rounded-xl transition-all text-lg">
+                                    Submit Answers ✓
+                                </button>
+                                <button @click="clearListeningAnswers()"
+                                    class="w-full bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                    Clear Answers
+                                </button>
+                            </div>
                         </template>
-                        <template x-if="listeningSubmitted">
+                        <template x-if="listeningPartSubmitted[currentListeningPartIndex]">
                             <div class="text-center">
                                 <div class="text-4xl font-bold mb-2">
-                                    <span class="text-green-400" x-text="listeningScore"></span>
-                                    <span class="text-white/50" x-text="'/ ' + listeningTotalQuestions"></span>
+                                    <span class="text-green-400"
+                                        x-text="listeningPartScores[currentListeningPartIndex]?.score || 0"></span>
+                                    <span class="text-white/50"
+                                        x-text="'/ ' + (listeningPartScores[currentListeningPartIndex]?.totalQuestions || 0)"></span>
                                 </div>
                                 <p class="text-white/50 mb-4">Correct Answers</p>
-                                <button @click="resetListeningQuiz()"
-                                    class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
-                                    Try Again 🔄
-                                </button>
+                                <div class="flex flex-col gap-2">
+                                    <button @click="resetListeningQuiz()"
+                                        class="bg-white/10 hover:bg-white/20 text-white font-bold py-3 px-8 rounded-xl transition-all">
+                                        Try Again 🔄
+                                    </button>
+                                    <button @click="clearListeningAnswers()"
+                                        class="bg-red-500/20 hover:bg-red-500/30 text-red-400 font-medium py-2 px-6 rounded-xl transition-all text-sm">
+                                        Clear Answers
+                                    </button>
+                                </div>
                             </div>
                         </template>
                     </div>
@@ -1289,9 +1409,8 @@
                 currentPassages: [],
                 currentSections: [], // for General Training
                 answers: {},
-                submitted: false,
-                score: 0,
-                totalQuestions: 0,
+                passageSubmitted: {}, // per-passage passageSubmitted[currentPassageIndex] state: { passageIndex: true/false }
+                passageScores: {}, // per-passage scores: { passageIndex: { score, totalQuestions } }
                 currentTestData: null,
                 showPassagePanel: true, // for mobile toggle
                 showVideoPanel: true, // for mobile listening toggle
@@ -1303,9 +1422,8 @@
                 currentListeningPart: null,
                 currentTestId: null, // for localStorage tracking
                 listeningAnswers: {},
-                listeningSubmitted: false,
-                listeningScore: 0,
-                listeningTotalQuestions: 0,
+                listeningPartSubmitted: {}, // per-part passageSubmitted[currentPassageIndex] state: { partIndex: true/false }
+                listeningPartScores: {}, // per-part scores: { partIndex: { score, totalQuestions } }
 
                 // Cache for loaded test data (lazy loading)
                 testDataCache: {},
@@ -1400,6 +1518,21 @@
                                     } else {
                                         this.answers = {};
                                     }
+                                    // Load per-passage passageSubmitted[currentPassageIndex] states from localStorage
+                                    const savedPassageSubmitted = localStorage.getItem(`reading_passage_passageSubmitted[currentPassageIndex]_test${testConfig.id}`);
+                                    if (savedPassageSubmitted) {
+                                        this.passageSubmitted = JSON.parse(savedPassageSubmitted);
+                                    } else {
+                                        this.passageSubmitted = {};
+                                    }
+                                    // Load per-passage scores from localStorage
+                                    const savedPassageScores = localStorage.getItem(`reading_passage_scores_test${testConfig.id}`);
+                                    if (savedPassageScores) {
+                                        this.passageScores = JSON.parse(savedPassageScores);
+                                    } else {
+                                        this.passageScores = {};
+                                    }
+
                                     this.currentPassageIndex = 0;
                                     this.loadPassage();
                                 }
@@ -1428,6 +1561,21 @@
                                     } else {
                                         this.listeningAnswers = {};
                                     }
+                                    // Load per-part submitted states from localStorage
+                                    const savedPartSubmitted = localStorage.getItem(`listening_part_submitted_test${testConfig.id}`);
+                                    if (savedPartSubmitted) {
+                                        this.listeningPartSubmitted = JSON.parse(savedPartSubmitted);
+                                    } else {
+                                        this.listeningPartSubmitted = {};
+                                    }
+                                    // Load per-part scores from localStorage
+                                    const savedPartScores = localStorage.getItem(`listening_part_scores_test${testConfig.id}`);
+                                    if (savedPartScores) {
+                                        this.listeningPartScores = JSON.parse(savedPartScores);
+                                    } else {
+                                        this.listeningPartScores = {};
+                                    }
+
                                     this.loadListeningPart();
                                 }
                             }
@@ -1442,8 +1590,7 @@
                 // Reading functions
                 loadPassage() {
                     this.currentPassage = this.currentPassages[this.currentPassageIndex];
-                    // Don't reset answers - they should persist from localStorage
-                    this.submitted = false;
+                    // Don't reset submitted state - it persists from localStorage
                 },
 
                 setAnswer(number, value) {
@@ -1480,44 +1627,44 @@
                 },
 
                 submitAnswers() {
-                    this.submitted = true;
-                    this.score = 0;
-                    this.totalQuestions = 0;
+                    const passageIndex = this.currentPassageIndex;
+                    let score = 0;
+                    let totalQuestions = 0;
 
                     this.currentPassage?.questions.forEach(section => {
                         // Multiple choice style questions (select from options)
                         if (['tfng', 'matching', 'matchPeople', 'multipleChoice', 'yesNoNotGiven', 'trueFalseNotGiven', 'matchingHeadings', 'sectionMatching'].includes(section.type)) {
                             section.items.forEach(item => {
-                                this.totalQuestions++;
+                                totalQuestions++;
                                 if (this.answers[item.number] === item.answer) {
-                                    this.score++;
+                                    score++;
                                 }
                             });
                         }
                         // Sentence completion with endings (select from options)
                         else if (section.type === 'sentenceCompletion' && section.endings) {
                             section.items.forEach(item => {
-                                this.totalQuestions++;
+                                totalQuestions++;
                                 if (this.answers[item.number] === item.answer) {
-                                    this.score++;
+                                    score++;
                                 }
                             });
                         }
                         // Fill in blank style questions (GT)
                         else if (section.type === 'sentenceCompletion' && !section.endings) {
                             section.items.forEach(item => {
-                                this.totalQuestions++;
+                                totalQuestions++;
                                 if (this.isCorrectFillItem(item.number, item.answer)) {
-                                    this.score++;
+                                    score++;
                                 }
                             });
                         }
                         // Note completion and summary completion (GT)
                         else if (section.type === 'noteCompletion' || section.type === 'summaryCompletion') {
                             section.items.forEach(item => {
-                                this.totalQuestions++;
+                                totalQuestions++;
                                 if (this.isCorrectFillItem(item.number, item.answer)) {
-                                    this.score++;
+                                    score++;
                                 }
                             });
                         }
@@ -1525,21 +1672,44 @@
                         else if (section.type === 'notes' || section.type === 'summary') {
                             if (section.answers) {
                                 Object.keys(section.answers).forEach(num => {
-                                    this.totalQuestions++;
+                                    totalQuestions++;
                                     if (this.isCorrectFill(section, parseInt(num))) {
-                                        this.score++;
+                                        score++;
                                     }
                                 });
                             }
                         }
                     });
+
+                    // Save to per-passage state
+                    this.passageSubmitted[passageIndex] = true;
+                    this.passageScores[passageIndex] = { score, totalQuestions };
+
+                    // Save all data to localStorage
+                    if (this.currentTestId) {
+                        localStorage.setItem(`reading_answers_test${this.currentTestId}`, JSON.stringify(this.answers));
+                        localStorage.setItem(`reading_passage_passageSubmitted[currentPassageIndex]_test${this.currentTestId}`, JSON.stringify(this.passageSubmitted));
+                        localStorage.setItem(`reading_passage_scores_test${this.currentTestId}`, JSON.stringify(this.passageScores));
+                    }
                 },
 
                 resetQuiz() {
+                    // Reset only current passage
+                    const passageIndex = this.currentPassageIndex;
+                    delete this.passageSubmitted[passageIndex];
+                    delete this.passageScores[passageIndex];
+                },
+
+                clearReadingAnswers() {
                     this.answers = {};
-                    this.submitted = false;
-                    this.score = 0;
-                    this.totalQuestions = 0;
+                    this.passageSubmitted = {};
+                    this.passageScores = {};
+                    // Clear from localStorage
+                    if (this.currentTestId) {
+                        localStorage.removeItem(`reading_answers_test${this.currentTestId}`);
+                        localStorage.removeItem(`reading_passage_passageSubmitted[currentPassageIndex]_test${this.currentTestId}`);
+                        localStorage.removeItem(`reading_passage_scores_test${this.currentTestId}`);
+                    }
                 },
 
                 // Listening functions
@@ -1560,8 +1730,7 @@
                 loadListeningPart() {
                     if (this.listeningData && this.listeningData.parts) {
                         this.currentListeningPart = this.listeningData.parts[this.currentListeningPartIndex];
-                        // Don't reset answers - they should persist from localStorage
-                        this.listeningSubmitted = false;
+                        // Don't reset passageSubmitted[currentPassageIndex] state - it should persist from localStorage
                     }
                 },
 
@@ -1615,9 +1784,9 @@
                 },
 
                 submitListeningAnswers() {
-                    this.listeningSubmitted = true;
-                    this.listeningScore = 0;
-                    this.listeningTotalQuestions = 0;
+                    const partIndex = this.currentListeningPartIndex;
+                    let score = 0;
+                    let totalQuestions = 0;
 
                     const part = this.currentListeningPart;
                     if (!part) return;
@@ -1625,64 +1794,97 @@
                     if (part.type === 'multipleChoice' || part.type === 'complex') {
                         part.items.forEach(item => {
                             if (item.type === 'chooseTwoGroup') {
-                                this.listeningTotalQuestions += 2;
+                                totalQuestions += 2;
                                 const userAnswers = item.questionNumbers.map(n => this.listeningAnswers[n]).filter(Boolean);
                                 item.answers.forEach(ans => {
-                                    if (userAnswers.includes(ans)) this.listeningScore++;
+                                    if (userAnswers.includes(ans)) score++;
                                 });
                             } else if (item.type === 'matchingGroup') {
                                 item.items.forEach(matchItem => {
-                                    this.listeningTotalQuestions++;
+                                    totalQuestions++;
                                     if (this.listeningAnswers[matchItem.number] === item.answers[matchItem.number]) {
-                                        this.listeningScore++;
+                                        score++;
                                     }
                                 });
                             } else if (item.type === 'flowchart') {
                                 item.items.forEach(flowItem => {
-                                    this.listeningTotalQuestions++;
+                                    totalQuestions++;
                                     if (this.listeningAnswers[flowItem.number] === item.answers[flowItem.number]) {
-                                        this.listeningScore++;
+                                        score++;
                                     }
                                 });
                             } else if (item.type === 'multipleChoice') {
                                 item.items.forEach(mcItem => {
-                                    this.listeningTotalQuestions++;
+                                    totalQuestions++;
                                     if (this.listeningAnswers[mcItem.number] === mcItem.answer) {
-                                        this.listeningScore++;
+                                        score++;
                                     }
                                 });
                             } else if (item.number) {
-                                this.listeningTotalQuestions++;
+                                totalQuestions++;
                                 if (this.listeningAnswers[item.number] === item.answer) {
-                                    this.listeningScore++;
+                                    score++;
                                 }
                             }
                         });
                     } else if (part.type === 'notes') {
                         if (part.answers) {
                             Object.keys(part.answers).forEach(num => {
-                                this.listeningTotalQuestions++;
+                                totalQuestions++;
                                 if (this.isCorrectListeningFill(parseInt(num))) {
-                                    this.listeningScore++;
+                                    score++;
                                 }
                             });
                         }
                         if (part.tableSection?.tableAnswers) {
                             Object.keys(part.tableSection.tableAnswers).forEach(num => {
-                                this.listeningTotalQuestions++;
+                                totalQuestions++;
                                 if (this.isCorrectTableFill(parseInt(num))) {
-                                    this.listeningScore++;
+                                    score++;
                                 }
                             });
                         }
                     }
+
+                    // Save to per-part state
+                    this.listeningPartSubmitted[partIndex] = true;
+                    this.listeningPartScores[partIndex] = { score, totalQuestions };
+
+                    // Save all data to localStorage
+                    if (this.currentTestId) {
+                        localStorage.setItem(`listening_answers_test${this.currentTestId}`, JSON.stringify(this.listeningAnswers));
+                        localStorage.setItem(`listening_part_submitted_test${this.currentTestId}`, JSON.stringify(this.listeningPartSubmitted));
+                        localStorage.setItem(`listening_part_scores_test${this.currentTestId}`, JSON.stringify(this.listeningPartScores));
+                    }
+                },
+
+                // Check if current part is submitted
+                isCurrentPartSubmitted() {
+                    return this.listeningPartSubmitted[this.currentListeningPartIndex] === true;
+                },
+
+                // Get current part score
+                getCurrentPartScore() {
+                    return this.listeningPartScores[this.currentListeningPartIndex] || { score: 0, totalQuestions: 0 };
                 },
 
                 resetListeningQuiz() {
+                    // Reset only current part
+                    const partIndex = this.currentListeningPartIndex;
+                    delete this.listeningPartSubmitted[partIndex];
+                    delete this.listeningPartScores[partIndex];
+                },
+
+                clearListeningAnswers() {
                     this.listeningAnswers = {};
-                    this.listeningSubmitted = false;
-                    this.listeningScore = 0;
-                    this.listeningTotalQuestions = 0;
+                    this.listeningPartSubmitted = {};
+                    this.listeningPartScores = {};
+                    // Clear from localStorage
+                    if (this.currentTestId) {
+                        localStorage.removeItem(`listening_answers_test${this.currentTestId}`);
+                        localStorage.removeItem(`listening_part_submitted_test${this.currentTestId}`);
+                        localStorage.removeItem(`listening_part_scores_test${this.currentTestId}`);
+                    }
                 }
             };
         }
