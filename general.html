@@ -853,14 +853,14 @@
                                 <span class="text-white/50 text-xs" x-text="showTranscript ? '▲' : '▼'"></span>
                             </button>
                             <div x-show="showTranscript"
-                                class="mt-2 p-3 bg-white/5 rounded-lg border border-white/10 max-h-64 overflow-y-auto">
+                                class="mt-2 p-4 bg-white/5 rounded-lg border border-white/10 max-h-96 overflow-y-auto">
                                 <template x-if="currentListeningPart?.transcript">
-                                    <div class="text-white/80 text-xs leading-relaxed whitespace-pre-line"
+                                    <div class="text-white/90 text-base leading-relaxed whitespace-pre-line"
                                         x-text="currentListeningPart?.transcript">
                                     </div>
                                 </template>
                                 <template x-if="!currentListeningPart?.transcript">
-                                    <p class="text-white/50 text-xs italic">No transcript available for this part.</p>
+                                    <p class="text-white/50 text-sm italic">No transcript available for this part.</p>
                                 </template>
                             </div>
                         </div>
@@ -1462,7 +1462,8 @@
                         { id: 1, name: 'General Test 1', file: 'ielts-tests/general/general-test1.json', type: 'general' },
                         { id: 2, name: 'General Test 2', file: 'ielts-tests/general/general-test2.json', type: 'general' },
                         { id: 3, name: 'General Test 3', file: 'ielts-tests/general/general-test3.json', type: 'general' },
-                        { id: 4, name: 'General Test 4', file: 'ielts-tests/general/general-test4.json', type: 'general' }
+                        { id: 4, name: 'General Test 4', file: 'ielts-tests/general/general-test4.json', type: 'general' },
+                        { id: 5, name: 'General Test 5', file: 'ielts-tests/general/general-test5.json', type: 'general' }
                     ];
                 },
 
