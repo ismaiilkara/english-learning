@@ -13,14 +13,9 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "Five walks in the
-
-
-
- countryside","content": "<p><strong>A Ch
-
-
-sterton Woods</strong></p><p>This 3-mile walk takes you through ancient woodland. There are no steep hills and it's perfect for a leisurely afternoon. The path is well-shaded by trees throughout, making it ideal for hot summer days. Dogs are welcome but must be kept on leads at all times.</p><p><strong>B Highfield Ridge</strong></p><p>A challenging 5-mile route with spectacular views. The path climbs steeply in places so a reasonable level of fitness is required. There is little shelter from the sun along the exposed ridge. Several benches are placed at viewpoints where you can rest and admire the scenery.</p><p><strong>C Riverside Trail</strong></p><p>Follow the river for 4 miles through meadows and past a bird hide where you can observe local wildlife. Dogs may run freely in designated areas. Picnic tables are available at the halfway point.</p><p><strong>D Lakeside Loop</strong></p><p>An easy 2-mile circular walk around the lake. The wildlife observation platform offers excellent views of nesting waterfowl. There is one short steep section near the dam. Dogs must be on leads near the wildlife areas.</p><p><strong>E Moorland Path</strong></p><p>A 6-mile route across open moorland with very little shade. The terrain is mostly flat but can be boggy after rain. You may choose to take the shorter 3-mile alternative if conditions are difficult. Dogs are not permitted due to ground-nesting birds.</p>","questions": [
+                        "title": "Five walks in the countryside",
+                        "content": "<p><strong>A Chesterton Woods</strong></p><p>This 3-mile walk takes you through ancient woodland. There are no steep hills and it's perfect for a leisurely afternoon. The path is well-shaded by trees throughout, making it ideal for hot summer days. Dogs are welcome but must be kept on leads at all times.</p><p><strong>B Highfield Ridge</strong></p><p>A challenging 5-mile route with spectacular views. The path climbs steeply in places so a reasonable level of fitness is required. There is little shelter from the sun along the exposed ridge. Several benches are placed at viewpoints where you can rest and admire the scenery.</p><p><strong>C Riverside Trail</strong></p><p>Follow the river for 4 miles through meadows and past a bird hide where you can observe local wildlife. Dogs may run freely in designated areas. Picnic tables are available at the halfway point.</p><p><strong>D Lakeside Loop</strong></p><p>An easy 2-mile circular walk around the lake. The wildlife observation platform offers excellent views of nesting waterfowl. There is one short steep section near the dam. Dogs must be on leads near the wildlife areas.</p><p><strong>E Moorland Path</strong></p><p>A 6-mile route across open moorland with very little shade. The terrain is mostly flat but can be boggy after rain. You may choose to take the shorter 3-mile alternative if conditions are difficult. Dogs are not permitted due to ground-nesting birds.</p>",
+                        "questions": [
                             {
                                 "type": "matching",
                                 "title": "Questions 1-6",
@@ -206,41 +201,6 @@ sterton Woods</strong></p><p>This 3-mile walk takes you through ancient woodland
                                     "Type of plumber",
                                     "Challenges",
                                     "Skills needed"
-                                ],
-                                "rows": [
-                                    {
-                                        "cells": [
-                                            "Residential plumber",
-                                            "Works in 22 ___ spaces; must be careful about drilling into floors",
-                                            "Needs to consider how other 23 ___ may be affected"
-                                        ],
-                                        "answers": {
-                                            "22": "narrow",
-                                            "23": "tradespeople"
-                                        }
-                                    },
-                                    {
-                                        "cells": [
-                                            "Commercial plumber",
-                                            "Must be able to follow 24 ___; may need to X-ray floors and walls to avoid damaging 25 ___",
-                                            "Has the 26 ___ to understand complex documents"
-                                        ],
-                                        "answers": {
-                                            "24": "instructions",
-                                            "25": "(reinforcing) steel",
-                                            "26": "cognitive ability"
-                                        }
-                                    },
-                                    {
-                                        "cells": [
-                                            "Service plumber",
-                                            "Needs to find out what the problem is; often customers are upset or facing 27 ___",
-                                            "Needs good mechanical and people skills"
-                                        ],
-                                        "answers": {
-                                            "27": "inconvenience"
-                                        }
-                                    }
                                 ],
                                 "items": [
                                     {
