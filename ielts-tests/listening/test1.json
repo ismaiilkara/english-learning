@@ -1,31 +1,27 @@
 {
-    "id": 1,
-    "title": "Listening Test 1",
     "listening": {
-        "videoUrl": "https://www.youtube.com/watch?v=QNGuik4AE-Y",
-        "title": "Cambridge 19 Test 2 - IELTS Listening",
+        "videoUrl": "https://www.youtube.com/watch?v=rIEHBs6m2jw",
+        "title": "Listening Test 5",
         "parts": [
             {
-                "id": 1,
-                "title": "Part 1",
-                "description": "Questions 1-10",
-                "instructions": "Complete the notes below. Write ONE WORD AND/OR A NUMBER for each answer.",
-                "noteTitle": "Guitar Group",
+                "part": 1,
+                "title": "Easy Life Cleaning Services",
                 "type": "notes",
+                "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
                 "items": [
                     {
                         "isHeader": true,
-                        "text": "Guitar Group Details"
+                        "text": "Easy Life Cleaning Services"
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Basic cleaning package offered"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Coordinator: Gary "
-                            },
-                            {
-                                "type": "blank",
-                                "number": 1
+                                "value": "• Cleaning all surfaces"
                             }
                         ]
                     },
@@ -33,7 +29,43 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Level: "
+                                "value": "• Cleaning the"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 1
+                            },
+                            {
+                                "type": "text",
+                                "value": "throughout the apartment"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• Cleaning shower, sinks, toilet etc."
+                            }
+                        ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Additional services agreed"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• Every week"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "  – Cleaning the"
                             },
                             {
                                 "type": "blank",
@@ -45,11 +77,15 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Place: the "
+                                "value": "  – Ironing clothes –"
                             },
                             {
                                 "type": "blank",
                                 "number": 3
+                            },
+                            {
+                                "type": "text",
+                                "value": "only"
                             }
                         ]
                     },
@@ -57,7 +93,15 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Street: "
+                                "value": "• Every month"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "  – Cleaning all the"
                             },
                             {
                                 "type": "blank",
@@ -65,7 +109,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " Street"
+                                "value": "from the inside"
                             }
                         ]
                     },
@@ -73,23 +117,23 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Time: Thursday morning at "
+                                "value": "  – Washing down the"
                             },
                             {
                                 "type": "blank",
                                 "number": 5
-                            },
-                            {
-                                "type": "text",
-                                "value": " am"
                             }
                         ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Other possibilities"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Recommended website: 'The perfect "
+                                "value": "• They can organise a plumber or an"
                             },
                             {
                                 "type": "blank",
@@ -97,255 +141,276 @@
                             },
                             {
                                 "type": "text",
-                                "value": "'"
+                                "value": "if necessary."
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• A special cleaning service is available for customers who are allergic to"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 7
+                            }
+                        ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Information on the cleaners"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• Before being hired, all cleaners have a background check carried out by the"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 8
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• References are required."
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• All cleaners are given"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 9
+                            },
+                            {
+                                "type": "text",
+                                "value": "for two weeks."
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• Customers send a"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 10
+                            },
+                            {
+                                "type": "text",
+                                "value": "after each visit."
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• Usually, each customer has one regular cleaner."
                             }
                         ]
                     }
                 ],
                 "answers": {
-                    "1": "Mathieson",
-                    "2": "beginners",
-                    "3": "college",
-                    "4": "New",
-                    "5": "11",
-                    "6": "instrument"
+                    "1": "floor",
+                    "2": "fridge",
+                    "3": "shirts",
+                    "4": "windows",
+                    "5": "balcony",
+                    "6": "electrician",
+                    "7": "dust",
+                    "8": "police",
+                    "9": "training",
+                    "10": "review"
                 },
-                "tableSection": {
-                    "title": "A typical 45-minute guitar lesson",
-                    "headers": [
-                        "Time",
-                        "Activity",
-                        "Notes"
-                    ],
-                    "rows": [
-                        {
-                            "time": "5 minutes",
-                            "activity": "tuning guitars",
-                            "notes": [
-                                {
-                                    "type": "text",
-                                    "value": "using an app or by "
-                                },
-                                {
-                                    "type": "blank",
-                                    "number": 7
-                                }
-                            ]
-                        },
-                        {
-                            "time": "10 minutes",
-                            "activity": "strumming chords using our thumbs",
-                            "notes": [
-                                {
-                                    "type": "text",
-                                    "value": "keeping time while the teacher is "
-                                },
-                                {
-                                    "type": "blank",
-                                    "number": 8
-                                }
-                            ]
-                        },
-                        {
-                            "time": "15 minutes",
-                            "activity": "playing songs",
-                            "notes": [
-                                {
-                                    "type": "text",
-                                    "value": "often listening to a "
-                                },
-                                {
-                                    "type": "blank",
-                                    "number": 9
-                                },
-                                {
-                                    "type": "text",
-                                    "value": " of a song"
-                                }
-                            ]
-                        },
-                        {
-                            "time": "10 minutes",
-                            "activity": "playing single notes and simple tunes",
-                            "notes": [
-                                {
-                                    "type": "text",
-                                    "value": "playing together, then "
-                                },
-                                {
-                                    "type": "blank",
-                                    "number": 10
-                                }
-                            ]
-                        },
-                        {
-                            "time": "5 minutes",
-                            "activity": "noting things to practise at home",
-                            "notes": []
-                        }
-                    ],
-                    "tableAnswers": {
-                        "7": "ear",
-                        "8": "clapping",
-                        "9": "recording",
-                        "10": "alone"
-                    }
-                },
-                "transcript": "GARY: Hello, Gary speaking.\n\nWOMAN: Hello, I'm calling about the guitar group that's advertised on the website.\nGARY: Right. Well, I'm the coordinator, so I can give you some information.\nWOMAN: Is it a course?\nGARY: No, it's a group for people who can already play a bit and want to play together.\nWOMAN: I see. My name's Mary, by the way. What's your surname, Gary?\nGARY: It's POUNCE, P-O-U-N-C-E.\nMARY: Right. And what level should I be?\nGARY: Well, we have three different groups. One is for intermediate players.\nMARY: That's me.\nGARY: Good. We meet in the library in Arnos Vale.\nMARY: Oh, I know it. It's on Hadley Street, isn't it?\nGARY: That's right. We're there on Thursday mornings.\nMARY: What time?\nGARY: From 10.30 till 11.15.\nMARY: OK. And is there a website I can look at?\nGARY: Well, I'd recommend a site called 'The perfect player'. It's got lots of information for guitarists.\nMARY: Thanks. What do you do in the sessions?\nGARY: Well, we spend about five minutes tuning our guitars, either using an app or a digital tuner. Then we do ten minutes' strumming – practicing different rhythms while the teacher plays the chords.\nMARY: Right.\nGARY: Then we spend about 15 minutes on songs we all know. Usually we listen to a recording first.\nMARY: That sounds like fun.\nGARY: It is. Then we spend ten minutes playing together, then we have a solo where one person plays and the rest of us listen.\nMARY: I'd be too nervous for that!\nGARY: You don't have to do it! Finally, we spend five minutes noting things to practice at home.\nMARY: OK. Well, I think I'll come along next Thursday."
+                "transcript": "JACINTA: Hello, Easy Life Cleaning Services, Jacinta speaking.\n\nCLIENT: Oh hello. I'm looking for a cleaning service for my apartment – do you do domestic cleaning?\n\nJACINTA: Sure.\n\nCLIENT: Well, it's just a one-bedroom flat. Do you have a basic cleaning package?\n\nJACINTA: Yes. For a one-bedroom flat we're probably looking at about two hours for a clean. So we'd do a thorough clean of all surfaces in each room, and polish them where necessary. Does your apartment have carpets?\n\nCLIENT: No, I don't have any, but the floor would need cleaning.\n\nJACINTA: Of course – we'd do that in every room. And we'd do a thorough clean of the kitchen and bathroom.\n\nCLIENT: OK.\n\nJACINTA: Then we have some additional services which you can request if you want – so for example, we can clean your oven for you every week.\n\nCLIENT: Actually, I hardly ever use that, but can you do the fridge?\n\nJACINTA: Sure. Would you like that done every week?\n\nCLIENT: Yes, definitely. And would ironing clothes be an additional service you can do?\n\nJACINTA: Yes, of course.\n\nCLIENT: It wouldn't be much, just my shirts for work that week.\n\nJACINTA: That's fine. And we could also clean your microwave if you want.\n\nCLIENT: No, I wipe that out pretty regularly so there's no need for that.\n\nJACINTA: We also offer additional services that you might want a bit less often, say every month. So for example, if the inside of your windows need cleaning, we could do that.\n\nCLIENT: Yes, that'd be good. I'm on the fifteenth floor, so the outside gets done regularly by specialists, but the inside does get a bit grubby.\n\nJACINTA: And we could arrange for your curtains to get cleaned if necessary.\n\nCLIENT: No, they're OK. But would you be able to do something about the balcony? It's quite small and I don't use it much, but it could do with a wash every month or so.\n\nJACINTA: Yes, we can get the pressure washer onto that.\n\nCLIENT: Now if you're interested, we do offer some other possibilities to do with general maintenance. For example, if you have a problem with water and you need a plumber in a hurry, we can put you in touch with a reliable one who can come out straightaway. And the same thing if you need an electrician.\n\nJACINTA: Right. That's good to know. I've only just moved here so I don't have any of those sorts of contacts.\n\nCLIENT: And I don't know if this is of interest to you, but we also offer a special vacuum cleaning system which can improve the indoor air quality of your home by capturing up to 99% of all the dust in the air. So if you're troubled by allergies, this can make a big difference.\n\nJACINTA: Right. In fact, I don't have that sort of problem, but I'll bear it in mind. Now can you tell me a bit about your cleaning staff?\n\nCLIENT: Of course. So all our cleaners are very carefully selected. When they apply to us, they have to undergo a security check with the police to make sure they don't have any sort of criminal background, and, of course, they have to provide references as well. Then if we think they might be suitable for the job, we give them training for it. That lasts for two weeks so it's very thorough, and at the end of it, they have a test. If they pass that, we take them on, but we monitor them very carefully – we ask all our clients to complete a review of their performance after every visit and to email it to us. So we can pick up any problems straightaway and deal with them.\n\nJACINTA: OK, well that all sounds good. And will I always have the same cleaner?\n\nCLIENT: Yes, we do our best to organise it that way, and we usually manage it.\n\nJACINTA: Good. That's fine. Right, so I'd like to go ahead and..."
             },
             {
-                "id": 2,
-                "title": "Part 2",
-                "description": "Questions 11-20",
+                "part": 2,
+                "title": "Hotel Management",
                 "type": "complex",
                 "items": [
                     {
                         "type": "multipleChoice",
+                        "title": "Questions 11-14",
                         "instructions": "Choose the correct letter, A, B or C.",
                         "items": [
                             {
                                 "number": 11,
-                                "text": "What made David leave London and move to Northsea?",
+                                "text": "Many hotel managers are unaware that their staff often leave because of",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "He was eager to develop a hobby."
+                                        "text": "a lack of training."
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "He wanted to work shorter hours."
+                                        "text": "long hours."
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "He found his job in website design unsatisfying."
+                                        "text": "low pay."
                                     }
                                 ],
                                 "answer": "A"
                             },
                             {
                                 "number": 12,
-                                "text": "The Lifeboat Institution in Northsea was built with money provided by",
+                                "text": "What is the impact of high staff turnover on managers?",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "a local organisation."
+                                        "text": "an increased workload"
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "a local resident."
+                                        "text": "low morale"
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "the local council."
+                                        "text": "an inability to meet targets"
                                     }
                                 ],
-                                "answer": "B"
+                                "answer": "A"
                             },
                             {
                                 "number": 13,
-                                "text": "In his health assessment, the doctor was concerned about the fact that David",
+                                "text": "What mistake should managers always avoid?",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "might be colour blind."
+                                        "text": "failing to treat staff equally"
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "was rather short-sighted."
+                                        "text": "reorganising shifts without warning"
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "had undergone eye surgery."
+                                        "text": "neglecting to have enough staff during busy periods"
                                     }
                                 ],
                                 "answer": "A"
                             },
                             {
                                 "number": 14,
-                                "text": "After arriving at the lifeboat station, they aim to launch the boat within",
+                                "text": "What unexpected benefit did Dunwich Hotel notice after improving staff retention rates?",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "five minutes."
+                                        "text": "a fall in customer complaints"
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "six to eight minutes."
+                                        "text": "an increase in loyalty club membership"
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "eight and a half minutes."
-                                    }
-                                ],
-                                "answer": "B"
-                            },
-                            {
-                                "number": 15,
-                                "text": "As a 'helmsman', David has the responsibility of deciding",
-                                "options": [
-                                    {
-                                        "letter": "A",
-                                        "text": "who will be the members of his crew."
-                                    },
-                                    {
-                                        "letter": "B",
-                                        "text": "what equipment it will be necessary to take."
-                                    },
-                                    {
-                                        "letter": "C",
-                                        "text": "if the lifeboat should be launched."
+                                        "text": "a rise in spending per customer"
                                     }
                                 ],
                                 "answer": "C"
-                            },
-                            {
-                                "number": 16,
-                                "text": "As well as going out on the lifeboat, David",
-                                "options": [
-                                    {
-                                        "letter": "A",
-                                        "text": "gives talks on safety in schools."
-                                    },
-                                    {
-                                        "letter": "B",
-                                        "text": "helps with fundraising events."
-                                    },
-                                    {
-                                        "letter": "C",
-                                        "text": "recruits new volunteers."
-                                    }
-                                ],
-                                "answer": "B"
                             }
                         ]
                     },
                     {
-                        "type": "chooseTwoGroup",
-                        "questionNumbers": [
-                            17,
-                            18
-                        ],
-                        "text": "Which TWO things does David say about the lifeboat volunteers?",
+                        "type": "matchingGroup",
+                        "title": "Questions 15-20",
+                        "text": "Which way of reducing staff turnover was used in each of the following hotels?",
+                        "instructions": "Write the correct letter, A, B or C, next to Questions 15-20.",
                         "options": [
                             {
                                 "letter": "A",
-                                "text": "They are required to wear a uniform."
+                                "text": "improving relationships and teamwork"
                             },
                             {
                                 "letter": "B",
-                                "text": "They are entitled to payment for their work."
+                                "text": "offering incentives and financial benefits"
                             },
                             {
                                 "letter": "C",
-                                "text": "They are given extensive training."
+                                "text": "providing career opportunities"
+                            }
+                        ],
+                        "items": [
+                            {
+                                "number": 15,
+                                "label": "The Sun Club"
+                            },
+                            {
+                                "number": 16,
+                                "label": "The Portland"
+                            },
+                            {
+                                "number": 17,
+                                "label": "Bluewater Hotels"
+                            },
+                            {
+                                "number": 18,
+                                "label": "Pentlow Hotels"
+                            },
+                            {
+                                "number": 19,
+                                "label": "Green Planet"
+                            },
+                            {
+                                "number": 20,
+                                "label": "The Amesbury"
+                            }
+                        ],
+                        "answers": {
+                            "15": "A",
+                            "16": "C",
+                            "17": "B",
+                            "18": "C",
+                            "19": "B",
+                            "20": "A"
+                        }
+                    }
+                ],
+                "transcript": "As many of you here today have worked in the hotel industry for some time, I'm sure you have experienced the problem of high staff turnover in your hotels. Every hotel relies on having loyal and experienced members of staff who make sure that everything runs smoothly. If staff are constantly changing, it can make life difficult for everyone. But why do staff leave frequently in many hotels? Of course, many hotel jobs, such as cleaning, are low-skilled and are not well-paid. A lot of managers think it's this and the long hours that are the main causes of high staff turnover – but what they don't realise is that it's the lack of training in many hotel jobs which is a huge factor.\n\nSo, what kind of problems does a high turnover of staff cause? Well, having to recruit new staff all the time can be very time-consuming, and managers may have to cover some duties while waiting for new staff to arrive. This means they don't have time to think about less immediate problems such as how to improve their service. When staff leave, it can also severely affect the colleagues they leave behind. It has a negative effect on remaining staff, who may start to feel that they too should be thinking about leaving.\n\nSo, what can be done to change this situation? Firstly, managers should stop making basic errors which leave their staff feeling upset and resentful. When organising shifts, for example, make sure you never give certain staff preferential treatment. All staff should be given some choice about when they work, and everyone should have to work some evening and weekend shifts. If you treat staff fairly, they'll be more likely to step in and help when extra staff are needed.\n\nKeeping staff happy has other tangible benefits for the business. Take the Dunwich Hotel as an example. It had been experiencing a problem with staff complaints and in order to deal with this, invested in staff training and improved staff conditions. Not only did the level of complaints fall, but they also noticed a significant increase in the amount each customer spent during their stay. They have now introduced a customer loyalty scheme which is going really well.\n\nNow I'd like to look at some ways you can reduce staff turnover in your hotels, and I'll do this by giving some examples of hotels where I've done some training recently.\n\nThe Sun Club received feedback which showed that staff thought managers didn't value their opinions. They weren't made to feel they were partners who were contributing to the success of the business as a whole. This situation has changed. Junior staff at all levels are regularly invited to meetings where their ideas are welcomed.\n\nA year ago, The Portland recognised the need to invest in staff retention. Their first step was to introduce a scheme for recognising talent amongst their employees. The hope is that organising training for individuals with management potential will encourage them to stay with the business.\n\nAt Bluewater, managers decided to recognise 50 high achievers from across the company's huge hotel chain. As a reward, they're sent on an all-expenses-paid trip abroad every year. Fun is an important element in the trips, but there's also the opportunity to learn something useful. This year's trip included a visit to a brewery, where staff learned about the new beer that would be served in the hotel.\n\nPentlow Hotels identified that retention of junior reception staff was an issue. In order to encourage them to see that working in a hotel could be worthwhile and rewarding, with good prospects, they introduced a management programme. These staff were given additional responsibilities and the chance to work in various roles in the hotel.\n\nGreen Planet wanted to be seen as a caring employer. To make life easier for staff, many of whom had childcare responsibilities, the hotel began issuing vouchers to help cover the cost of childcare.\n\nLouise Marsh at The Amesbury has one of the best staff retention rates in the business. Since she joined the company, she has made a huge effort to achieve this by creating a co-operative and supportive environment. For her, the staff are part of a large family where everyone is valued."
+            },
+            {
+                "part": 3,
+                "title": "Thomas's Sporting Activities",
+                "type": "complex",
+                "items": [
+                    {
+                        "type": "chooseTwoGroup",
+                        "title": "Questions 21-22",
+                        "text": "Which TWO points do Thomas and Jeanne make about Thomas's sporting activities at school?",
+                        "instructions": "Choose TWO letters, A-E.",
+                        "options": [
+                            {
+                                "letter": "A",
+                                "text": "He should have felt more positive about them."
+                            },
+                            {
+                                "letter": "B",
+                                "text": "The training was too challenging for him."
+                            },
+                            {
+                                "letter": "C",
+                                "text": "He could have worked harder at them."
                             },
                             {
                                 "letter": "D",
-                                "text": "They are expected to live nearby."
+                                "text": "His parents were disappointed in him."
                             },
                             {
                                 "letter": "E",
-                                "text": "They are from a wide variety of backgrounds."
+                                "text": "His fellow students admired him."
                             }
                         ],
                         "answers": [
@@ -355,224 +420,140 @@
                     },
                     {
                         "type": "chooseTwoGroup",
-                        "questionNumbers": [
-                            19,
-                            20
-                        ],
-                        "text": "What TWO things does David say about the lifeboat itself?",
+                        "title": "Questions 23-24",
+                        "text": "Which TWO feelings did Thomas experience when he was in Kenya?",
+                        "instructions": "Choose TWO letters, A-E.",
                         "options": [
                             {
                                 "letter": "A",
-                                "text": "It can be operated by a small team."
+                                "text": "disbelief"
                             },
                             {
                                 "letter": "B",
-                                "text": "It has standard navigation equipment."
+                                "text": "relief"
                             },
                             {
                                 "letter": "C",
-                                "text": "It is designed to be able to turn over safely."
+                                "text": "stress"
                             },
                             {
                                 "letter": "D",
-                                "text": "It carries high-quality medical supplies."
+                                "text": "gratitude"
                             },
                             {
                                 "letter": "E",
-                                "text": "It has to be fully serviced every year."
+                                "text": "homesickness"
                             }
                         ],
                         "answers": [
-                            "C",
+                            "A",
                             "D"
-                        ]
-                    }
-                ],
-                "transcript": "DAVID: My name's David and I'm a volunteer with the Lifeboat Institution in Northsea. I used to live in London and had a job in website design. I worked long hours and I was getting a bit fed up with it. I'd always had a hobby – sailing – and I wanted to do more of that, so I decided to move to Northsea. I've got a much better work-life balance now.\n\nWhen I arrived, I went to see the local lifeboat station. It's a new building, and it's very impressive. It was actually paid for by a local resident who'd won a lot of money and wanted to do something for the town.\n\nI decided to apply to be a volunteer. First, I had a health assessment. The doctor was happy with my general health, but he was a bit concerned that I was short-sighted. However, once I'd explained that I always wear contact lenses, he said that was fine.\n\nI had to do some training, of course. We had a residential course, which was very good. It really helped to build my mental strength, which is so important when you're out at sea in a storm. We also had a session in a wave tank, which was great for practicing survival techniques.\n\nWhen we get a call-out, we have to get to the station as quickly as possible. Our target is to launch the boat within six to eight minutes of getting the call. Once we're on the boat, my role is as 'helmsman'. That means I have the responsibility of deciding if the lifeboat should be launched, depending on the weather conditions.\n\nAs well as going out on the lifeboat, I also give talks on safety at sea to local groups. It's a great way to meet people and raise awareness of what we do. I find the work very motivating, especially working as part of a team. There's a real sense of community among the volunteers. We also get a lot of support from the local people, and it's always nice when we're thanked by those we've helped."
-            },
-            {
-                "id": 3,
-                "title": "Part 3",
-                "description": "Questions 21-30",
-                "type": "complex",
-                "items": [
-                    {
-                        "type": "multipleChoice",
-                        "instructions": "Choose the correct letter, A, B or C.",
-                        "title": "Work Experience for Veterinary Science Students",
-                        "items": [
-                            {
-                                "number": 21,
-                                "text": "What does 'work placement' involve?",
-                                "options": [
-                                    {
-                                        "letter": "A",
-                                        "text": "Working in a zoo or wildlife park."
-                                    },
-                                    {
-                                        "letter": "B",
-                                        "text": "Working on a farm or in a stable."
-                                    },
-                                    {
-                                        "letter": "C",
-                                        "text": "Working in a veterinary surgery."
-                                    }
-                                ],
-                                "answer": "B"
-                            },
-                            {
-                                "number": 22,
-                                "text": "What is the main reason for doing a work placement?",
-                                "options": [
-                                    {
-                                        "letter": "A",
-                                        "text": "To gain practical experience."
-                                    },
-                                    {
-                                        "letter": "B",
-                                        "text": "To help decide on a career path."
-                                    },
-                                    {
-                                        "letter": "C",
-                                        "text": "To improve job prospects."
-                                    }
-                                ],
-                                "answer": "A"
-                            },
-                            {
-                                "number": 23,
-                                "text": "What does the tutor suggest about organising a placement?",
-                                "options": [
-                                    {
-                                        "letter": "A",
-                                        "text": "Start looking early."
-                                    },
-                                    {
-                                        "letter": "B",
-                                        "text": "Ask family and friends for contacts."
-                                    },
-                                    {
-                                        "letter": "C",
-                                        "text": "Use the internet to find opportunities."
-                                    }
-                                ],
-                                "answer": "A"
-                            },
-                            {
-                                "number": 24,
-                                "text": "What should students do if they encounter problems during their placement?",
-                                "options": [
-                                    {
-                                        "letter": "A",
-                                        "text": "Contact the university immediately."
-                                    },
-                                    {
-                                        "letter": "B",
-                                        "text": "Speak to the employer first."
-                                    },
-                                    {
-                                        "letter": "C",
-                                        "text": "Try to resolve it themselves."
-                                    }
-                                ],
-                                "answer": "B"
-                            }
                         ]
                     },
                     {
                         "type": "matchingGroup",
                         "title": "Questions 25-30",
-                        "description": "What does the tutor say about the following placement types?",
+                        "text": "What comment do the students make about the development of each of the following items of sporting equipment?",
                         "instructions": "Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
                         "options": [
                             {
                                 "letter": "A",
-                                "text": "It is compulsory."
+                                "text": "It could cause excessive sweating."
                             },
                             {
                                 "letter": "B",
-                                "text": "It is recommended."
+                                "text": "The material was being mass produced for another purpose."
                             },
                             {
                                 "letter": "C",
-                                "text": "It focuses on small animals."
+                                "text": "People often needed to make their own."
                             },
                             {
                                 "letter": "D",
-                                "text": "It involves working with horses."
+                                "text": "It often had to be replaced."
                             },
                             {
                                 "letter": "E",
-                                "text": "It can be done abroad."
+                                "text": "The material was expensive."
                             },
                             {
                                 "letter": "F",
-                                "text": "It is usually unpaid."
+                                "text": "It was unpopular among spectators."
                             },
                             {
                                 "letter": "G",
-                                "text": "It requires specific vaccinations."
+                                "text": "It caused injuries."
                             },
                             {
                                 "letter": "H",
-                                "text": "It is popular with students."
+                                "text": "No one using it liked it at first."
                             }
                         ],
                         "items": [
                             {
                                 "number": 25,
-                                "label": "Dairy farm"
+                                "label": "the table tennis bat"
                             },
                             {
                                 "number": 26,
-                                "label": "Pig farm"
+                                "label": "the cricket helmet"
                             },
                             {
                                 "number": 27,
-                                "label": "Sheep farm"
+                                "label": "the cycle helmet"
                             },
                             {
                                 "number": 28,
-                                "label": "Stables"
+                                "label": "the golf club"
                             },
                             {
                                 "number": 29,
-                                "label": "Kennels"
+                                "label": "the hockey stick"
                             },
                             {
                                 "number": 30,
-                                "label": "Animal shelter"
+                                "label": "the football"
                             }
                         ],
                         "answers": {
-                            "25": "A",
-                            "26": "G",
-                            "27": "H",
+                            "25": "B",
+                            "26": "F",
+                            "27": "A",
                             "28": "D",
                             "29": "C",
-                            "30": "F"
+                            "30": "G"
                         }
                     }
                 ],
-                "transcript": "DON: Hi Bella. Have you had any more ideas for our project on recycling footwear?\nBELLA: Yes. I've been doing some research. I found an article that said 300 million pairs of shoes are thrown away every year in the UK.\nDON: That's incredible. I thought the topic might be too limited in scope, but there's actually a lot to look at.\nBELLA: I know. And when it comes to trainers, I think they're especially interesting because they're so popular among young people.\nDON: True, but we don't always agree on everything. For example, you think they're suitable for school, but I think they wear out too quickly.\nBELLA: Well, they are comfortable. I sometimes recycle my shoes because they no longer fit.\nDON: I do it because I've grown out of them. I was confused by one article I read, though. It said that although public consumption of footwear has risen, less footwear is recycled now than in the past.\nBELLA: That's strange. I wonder why. I spoke to a recycling manager and he gave me some reasons why they have to reject footwear.\nDON: What did he say?\nBELLA: Well, for high-heeled shoes, it's often because one shoe is missing.\nDON: And for ankle boots?\nBELLA: They're often rejected because the stitching is broken.\nDON: What about baby shoes?\nBELLA: He said they're often brand new, so they're not really being recycled – they're just being given away.\nDON: And trainers?\nBELLA: They're often too dirty to be reused.\nDON: I see. I also read about a project to make 'new' shoes out of old shoes, but it failed.\nBELLA: Why?\nDON: Because the shoes in the 'new' pairs were not completely alike.\nBELLA: I suppose that's a problem. But I think we can present our topic from a new angle.\nDON: I agree."
+                "transcript": "JEANNE: Hi Thomas, how are you enjoying the course so far?\n\nTHOMAS: Yeah, I think it's good.\n\nJEANNE: Remind me – why did you decide to study sports science? Didn't you want to be a professional athlete when you were at school?\n\nTHOMAS: Yeah – that was my goal, and all my classmates assumed I would achieve it; they thought I was brilliant.\n\nJEANNE: That must have been a nice feeling.\n\nTHOMAS: Mm, I thought I could win anything. There was no one who could run faster than me.\n\nJEANNE: Exactly – so what happened? Did your mum and dad want you to be more 'academic'?\n\nTHOMAS: Not at all. Perhaps they should have pushed me harder, though.\n\nJEANNE: What do you mean?\n\nTHOMAS: I think I should have practised more.\n\nJEANNE: What makes you say that?\n\nTHOMAS: Well, I went out to Kenya for a couple of weeks to train...\n\nJEANNE: Really! I didn't know that.\n\nTHOMAS: I was chosen to go there out of loads of kids and run with some of the top teenage athletes in the world. And... I was so calm about it. I just kept thinking how fortunate I was. What a great chance this was! Everyone back home was so proud of me. But once we started competing, I very quickly realised I wasn't good enough.\n\nJEANNE: That must have been a huge shock.\n\nTHOMAS: I thought 'this can't be happening'! I was used to winning.\n\nJEANNE: I'm sorry to hear that.\n\nTHOMAS: It's OK. I'm over it now and I think it's much better to do a university course and this one has such a variety of sports-related areas. It's going to be good.\n\nJEANNE: Oh, I agree – I chose it because of that.\n\nTHOMAS: So Jeanne – have you thought of any ideas for the discussion session next week on technology and sport?\n\nJEANNE: We have to cover more than one sport, don't we?\n\nTHOMAS: Yeah.\n\nJEANNE: You know – we always think technology is about the future, but we could gather some ideas about past developments in sport.\n\nTHOMAS: Look at early types of equipment perhaps?\n\nJEANNE: Uh, I remember reading something about table tennis bats once – how they ended up being covered with pimpled rubber.\n\nTHOMAS: Cos they were just wooden at first, I'd imagine.\n\nJEANNE: Yeah. In about the 1920s, a factory was making rolls of the rubber in bulk for something like horse harnesses.\n\nTHOMAS: Really!\n\nJEANNE: Yeah – and someone realised that it'd make a perfect covering for the wooden bats.\n\nTHOMAS: So what about cricket – that's had a few innovative changes. Maybe the pads they wear on their legs?\n\nJEANNE: I don't think they've changed much but, I'm just looking on the internet... and it says that when the first cricket helmet came in, in 1978, the Australian batsman who first wore it was booed and jeered by people watching because it was so ugly!\n\nTHOMAS: Wow, players have to protect themselves from getting hurt! I mean everyone wears one now.\n\nJEANNE: Mm, unlike the cycle helmet.\n\nTHOMAS: Well, unless you're a professional, but you're right, many ordinary bikers don't wear a helmet.\n\nJEANNE: Hey, look at these pictures of original helmet designs. This one looks like an upside-down bowl!\n\nTHOMAS: Yet, the woman's laughing – she's so proud to be wearing it!\n\nJEANNE: It says serious cyclists ended up with wet hair from all the hard exercise.\n\nTHOMAS: I guess that's why they have large air vents in them now so that the skin can breathe more easily.\n\nJEANNE: OK, so we've done helmets. What about golf balls or better still golf clubs – they've changed a lot.\n\nTHOMAS: Yeah – I remember my great grandfather telling me that because a club was made entirely of wood, it would easily break and players had to get another.\n\nJEANNE: There's no wood at all in them now, is there?\n\nTHOMAS: No – they're much more powerful.\n\nJEANNE: The same must be true of hockey sticks.\n\nTHOMAS: I don't think so because players still use wooden sticks today. What it does say here, though, is that when the game started you had to produce a stick yourself.\n\nJEANNE: I guess they just weren't being manufactured. So, one more perhaps. What about football?\n\nTHOMAS: Well, I know the first balls were made of animal skin.\n\nJEANNE: Yeah, they covered them with pieces of leather that were stitched together, but... the balls let in water when it rained.\n\nTHOMAS: Oh, that would have made them much heavier.\n\nJEANNE: That's right. You can imagine the damage to players' necks when the ball was headed.\n\nTHOMAS: How painful that must have been!\n\nJEANNE: Yeah, well, I think we can put together some useful ideas..."
             },
             {
-                "id": 4,
-                "title": "Part 4",
-                "description": "Questions 31-40",
-                "instructions": "Complete the notes below. Write ONE WORD ONLY for each answer.",
-                "noteTitle": "The History of the Pencil",
+                "part": 4,
+                "title": "Maple Syrup",
                 "type": "notes",
+                "instructions": "Write ONE WORD ONLY for each answer.",
                 "items": [
                     {
                         "isHeader": true,
-                        "text": "Graphite"
+                        "text": "Maple syrup"
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "What is maple syrup?"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "was discovered in Cumbria, UK in "
+                                "value": "• made from the sap of the maple tree"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• colour described as"
                             },
                             {
                                 "type": "blank",
@@ -584,11 +565,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "was used by locals for marking "
-                            },
-                            {
-                                "type": "blank",
-                                "number": 32
+                                "value": "• added to food or used in cooking"
                             }
                         ]
                     },
@@ -596,7 +573,59 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "was wrapped in "
+                                "value": "• very"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 32
+                            },
+                            {
+                                "type": "text",
+                                "value": "compared to refined sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "The maple tree"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• has many species"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• needs sunny days and cool nights"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• needs moist soil but does not need fertiliser as well"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• maple leaf has been on the Canadian flag since 1964"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• best growing conditions and"
                             },
                             {
                                 "type": "blank",
@@ -604,23 +633,43 @@
                             },
                             {
                                 "type": "text",
-                                "value": " or string"
+                                "value": "are in Canada and North America"
                             }
                         ]
                     },
                     {
-                        "isHeader": true,
-                        "text": "Early Pencils"
+                        "isSubHeader": true,
+                        "text": "Early maple sugar producers"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "were hollowed-out sticks of "
+                                "value": "• made holes in the tree trunks"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• used tree bark to make containers for collection"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "• used hot"
                             },
                             {
                                 "type": "blank",
                                 "number": 34
+                            },
+                            {
+                                "type": "text",
+                                "value": "to heat the sap"
                             }
                         ]
                     },
@@ -628,7 +677,19 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "were first mass-produced in Nuremberg, Germany in 1662"
+                                "value": "• sweetened food and drink with sugar"
+                            }
+                        ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Today's maple syrup"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "The trees"
                             }
                         ]
                     },
@@ -636,23 +697,15 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "modern pencil 'leads' are a mixture of graphite and "
+                                "value": "• Tree trunks may not have the correct"
                             },
                             {
                                 "type": "blank",
                                 "number": 35
-                            }
-                        ]
-                    },
-                    {
-                        "isHeader": true,
-                        "text": "Pencil Hardness"
-                    },
-                    {
-                        "parts": [
+                            },
                             {
                                 "type": "text",
-                                "value": "H stands for 'Hard', B stands for 'Black'"
+                                "value": "until they have been growing for 40 years."
                             }
                         ]
                     },
@@ -660,7 +713,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "HB is the standard pencil used in schools"
+                                "value": "• The changing temperature and movement of water within the tree produces the sap."
                             }
                         ]
                     },
@@ -668,19 +721,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "numbers indicate the degree of hardness or blackness"
-                            }
-                        ]
-                    },
-                    {
-                        "isHeader": true,
-                        "text": "Famous Pencil Users"
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "John Steinbeck used up to 60 pencils a day"
+                                "value": "The production"
                             }
                         ]
                     },
@@ -688,11 +729,15 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Roald Dahl always used yellow pencils with "
+                                "value": "• A tap is drilled into the trunk and a"
                             },
                             {
                                 "type": "blank",
                                 "number": 36
+                            },
+                            {
+                                "type": "text",
+                                "value": "carries the sap into a bucket."
                             }
                         ]
                     },
@@ -700,31 +745,27 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Vincent van Gogh used only "
+                                "value": "• Large pans of sap called evaporators are heated by means of a"
                             },
                             {
                                 "type": "blank",
                                 "number": 37
-                            },
-                            {
-                                "type": "text",
-                                "value": " pencils"
                             }
                         ]
-                    },
-                    {
-                        "isHeader": true,
-                        "text": "Interesting Facts"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "pencils can write underwater and in "
+                                "value": "• A lot of"
                             },
                             {
                                 "type": "blank",
                                 "number": 38
+                            },
+                            {
+                                "type": "text",
+                                "value": "is produced during the evaporation process."
                             }
                         ]
                     },
@@ -732,7 +773,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "one pencil can draw a line "
+                                "value": "• 'Sugar sand' is removed because it makes the syrup look"
                             },
                             {
                                 "type": "blank",
@@ -740,7 +781,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " miles long"
+                                "value": "and affects the taste."
                             }
                         ]
                     },
@@ -748,7 +789,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "March 30th is National Pencil Day"
+                                "value": "• The syrup is ready for use."
                             }
                         ]
                     },
@@ -756,7 +797,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "the yellow colour of pencils dates back to the "
+                                "value": "• A huge quantity of sap is needed to make a"
                             },
                             {
                                 "type": "blank",
@@ -764,24 +805,24 @@
                             },
                             {
                                 "type": "text",
-                                "value": " World Exhibition"
+                                "value": "of maple syrup."
                             }
                         ]
                     }
                 ],
                 "answers": {
-                    "31": "1564",
-                    "32": "sheep",
-                    "33": "string",
-                    "34": "wood",
-                    "35": "clay",
-                    "36": "erasers",
-                    "37": "Faber",
-                    "38": "space",
-                    "39": "35",
-                    "40": "1889"
+                    "31": "golden",
+                    "32": "healthy",
+                    "33": "climate",
+                    "34": "rock",
+                    "35": "diameter",
+                    "36": "tube",
+                    "37": "fire",
+                    "38": "steam",
+                    "39": "cloudy",
+                    "40": "litre"
                 },
-                "transcript": "LECTURER: Today I'm going to talk about tardigrades. They are microscopic animals, also known as 'water bears', because of the way they walk. They are also called 'moss piglets'. There are more than 1,000 species, and they are between 0.05 and 1.2 millimetres long.\n\nIn terms of physical appearance, they have a head and a round body with four pairs of legs. Each leg has claws for gripping. They don't have respiratory organs. Instead, their body is filled with a liquid that carries both oxygen and blood. Their mouth is shaped like a tube, with teeth called stylets.\n\nTardigrades are found all over the world, often at the bottom of a lake or on plants. They are very resilient and can exist in very low or high temperatures. In dry conditions, they roll into a ball called a 'tun'. This is a state known as cryptobiosis. They stay alive with a much lower metabolism than usual. A type of protein ensures their DNA is not damaged. Research is underway to find out how many days they can stay alive in space.\n\nWhen it comes to feeding, they consume liquids, for example from moss or algae. Some species also eat other tardigrades. Finally, in terms of their conservation status, they are not considered to be endangered."
+                "transcript": "Hello everyone. Today we're going to look at another natural food product and that's maple syrup. What is this exactly? Well, maple syrup looks rather like clear honey, but it's not made by bees; it's produced from the plant fluid – or sap – inside the maple tree and that makes maple syrup a very natural product. Maple syrup is a thick, golden, sweet-tasting liquid that can be bought in bottles or jars and poured onto food such as waffles and ice cream or used in the baking of cakes and pastries. It contains no preservatives or added ingredients, and it provides a healthy alternative to refined sugar.\n\nLet's just talk a bit about the maple tree itself, which is where maple syrup comes from. So, there are many species of maple tree, and they'll grow without fertilizer in areas where there's plenty of moisture in the soil. However, they'll only do this if another important criterion is fulfilled, which is that they must have full or partial sun exposure during the day and very cool nights – and I'll talk more about that in a minute. There are only certain parts of the world that provide all these conditions: one is Canada, and by that, I mean all parts of Canada, and the other is the north-eastern states of North America. In these areas, the climate suits the trees perfectly. In fact, Canada produces over two-thirds of the world's maple syrup, which is why the five-pointed maple leaf is a Canadian symbol and has featured on the flag since 1964.\n\nSo how did maple syrup production begin? Well, long before Europeans settled in these parts of the world, the indigenous communities had started producing maple sugar. They bored holes in the trunks of maple trees and used containers made of tree bark to collect the liquid sap as it poured out. As they were unable to keep the liquid for any length of time – they didn't have storage facilities in those days – they boiled the liquid by placing pieces of rock that had become scorching hot from the sun into the sap. They did this until it turned into sugar, and they were then able to use this to sweeten their food and drinks. Since that time, improvements have been made to the process, but it has changed very little overall.\n\nSo let's look at the production of maple syrup today. Clearly, the maple forests are a valuable resource in many Canadian and North American communities. The trees have to be well looked after and they cannot be used to make syrup until the trunks reach a diameter of around 25 centimetres. This can take anything up to 40 years. As I've already mentioned, maple trees need the right conditions to grow and also to produce sap. Why is this? Well, what happens is that during a cold night, the tree absorbs water from the soil, and that rises through the tree's vascular system. But then in the warmer daytime, the change in temperature causes the water to be pushed back down to the bottom of the tree. This continual movement – up and down – leads to the formation of the sap needed for maple syrup production.\n\nWhen the tree is ready, it can be tapped and this involves drilling a small hole into the trunk and inserting a tube into it that ends in a bucket. The trees can often take several taps, though the workers take care not to cause any damage to the healthy growth of the tree itself. The sap that comes out of the trees consists of 98 percent water and 2 percent sugar and other nutrients. It has to be boiled so that much of that water evaporates, and this process has to take place immediately, using what are called evaporators. These are basically extremely large pans – the sap is poured into these, a fire is built and the pans are then heated until the sap boils. As it does this, the water evaporates, and the syrup begins to form. The evaporation process creates large quantities of steam, and the sap becomes thicker and denser, and, at just the right moment, when the sap is thick enough to be called maple syrup, the worker removes it from the heat. After this process, something called 'sugar sand' has to be filtered out as this builds up during the boiling and gives the syrup a cloudy appearance and a slightly gritty taste. Once this has been done, the syrup is ready to be packaged so that it can be used for a whole variety of products. It takes 40 litres of sap to produce one litre of maple syrup so you can get an idea of how much is needed!"
             }
         ]
     }

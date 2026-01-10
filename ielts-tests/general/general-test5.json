@@ -1,10 +1,10 @@
 {
-    "id": 6,
-    "name": "IELTS General Training - Test 6",
-    "subtitle": "Cambridge IELTS 17 General Training Test 4",
+    "id": 5,
+    "name": "IELTS General Training - Test 5",
+    "subtitle": "Cambridge IELTS 17 General Training Test 3",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 6",
+        "title": "General Training Reading Test 5",
         "sections": [
             {
                 "id": 1,
@@ -13,64 +13,57 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "Outdoor Activities For All The Family",
-                        "content": "<p><strong>A Perry Forest</strong></p><p>Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults. Every Saturday and Sunday throughout the year our experts lead several walks. So whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill we have something for you.</p><p><strong>B Pugsley Beach Nature Reserve</strong></p><p>The reserve has plenty of wildlife whatever the time of year with its numerous species of birds and plants that grow hardly anywhere else but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close up views of all this and hot drinks and snacks are available to help you keep warm.</p><p><strong>C Marston Hill</strong></p><p>If you ever wonder what wildlife trusts do for the environment come to Marston Hall where our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures. They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.</p><p><strong>D Craven Discovery Centre</strong></p><p>Here at the discovery centre youngsters are introduced to the animals in our petting zoo where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile the adults can take part in our woodland activities such as learning basic woodworking skills.</p><p><strong>E Shelford Family Wild Outing</strong></p><p>Go birdwatching or catch insects as daylight fades then have a gentle jog along the River Wale by moonlight and end by toasting marshmallows on a campfire. It's all part of a Family Wild Outing in Shelford organised by the local wildlife trust. Ideal for both adults and children.</p><p><strong>F Garston Park</strong></p><p>Come to Garston Park when the sun has set and explore the solar system. Ideal for children and their parents who are interested in astronomy. Our experts will help you to find your way among the stars and then we gather in the visitor centre for refreshments. Please note that events are cancelled if the weather is cloudy.</p>",
+                        "title": "Helping pupils to choose optional subjects when they're aged 14-15: what some pupils say",
+                        "content": "<p><strong>A Krishnan</strong></p><p>I'm studying Spanish, because it's important to learn foreign languages – and I'm very pleased when I can watch a video in class and understand it. Mr Peckham really pushes us, and offers us extra assignments, to help us improve. That's good for me, because otherwise I'd be quite lazy.</p><p><strong>B Lucy</strong></p><p>History is my favourite subject, and it's fascinating to see how what we learn about the past is relevant to what's going on in the world now. It's made me understand much more about politics, for instance. My plan is to study history at university, and maybe go into the diplomatic service, so I can apply a knowledge of history.</p><p><strong>C Mark</strong></p><p>Thursdays are my favourite days, because that's when we have computing. It's the high spot of the week for me – I love learning how to program. I began when I was about eight, so when I started doing it at school, I didn't think I'd have any problem with it, but I was quite wrong! When I leave school, I'm going into my family retail business, so sadly I can't see myself becoming a programmer.</p><p><strong>D Violeta</strong></p><p>My parents both work in leisure and tourism, and they've always talked about their work a lot at home. I find it fascinating. I'm studying it at school, and the teacher is very knowledgeable, though I think we spend too much time listening to her. I'd like to meet more people working in the sector, and learn from their experience.</p><p><strong>E Walid</strong></p><p>I've always been keen on art, so I chose it as an optional subject, though I was afraid the lessons might be a bit dull. I needn't have worried, though – our teacher gets us to do lots of fun things, so there's no risk of getting bored. At the end of the year the class puts on an exhibition for the school, and I'm looking forward to showing some of my work to other people.</p>",
                         "questions": [
                             {
                                 "type": "matching",
-                                "title": "Questions 1-7",
-                                "instructions": "The text above has 6 advertisements A-F. Which advertisement mentions the following?",
+                                "title": "Questions 1-6",
+                                "instructions": "Look at the five comments about lessons, A-E, on page 16. For which comments are the following statements true? Write the correct letter, A-E, in boxes 1-6 on your answer sheet. NB You may use any letter more than once.",
                                 "options": [
                                     "A",
                                     "B",
                                     "C",
                                     "D",
-                                    "E",
-                                    "F"
+                                    "E"
                                 ],
                                 "optionLabels": {
-                                    "A": "Perry Forest",
-                                    "B": "Pugsley Beach Nature Reserve",
-                                    "C": "Marston Hill",
-                                    "D": "Craven Discovery Centre",
-                                    "E": "Shelford Family Wild Outing",
-                                    "F": "Garston Park"
+                                    "A": "Krishnan",
+                                    "B": "Lucy",
+                                    "C": "Mark",
+                                    "D": "Violeta",
+                                    "E": "Walid"
                                 },
                                 "items": [
                                     {
                                         "number": 1,
-                                        "statement": "running in the evening",
-                                        "answer": "E"
+                                        "statement": "This pupil is interested in the subject despite the way it is taught.",
+                                        "answer": "D"
                                     },
                                     {
                                         "number": 2,
-                                        "statement": "seeing newborn animals",
+                                        "statement": "This pupil is hoping to have a career that makes use of the subject.",
                                         "answer": "B"
                                     },
                                     {
                                         "number": 3,
-                                        "statement": "parents and children doing different activities at the same time",
-                                        "answer": "D"
+                                        "statement": "This pupil finds the subject harder than they expected.",
+                                        "answer": "C"
                                     },
                                     {
                                         "number": 4,
-                                        "statement": "choosing from alternative routes",
-                                        "answer": "A"
+                                        "statement": "This pupil finds the lessons very entertaining.",
+                                        "answer": "E"
                                     },
                                     {
                                         "number": 5,
-                                        "statement": "learning about how other people help animals",
-                                        "answer": "C"
+                                        "statement": "This pupil appreciates the benefit of doing challenging work.",
+                                        "answer": "A"
                                     },
                                     {
                                         "number": 6,
-                                        "statement": "an event occurring only at a certain time of the year",
+                                        "statement": "This pupil has realised the connection between two things.",
                                         "answer": "B"
-                                    },
-                                    {
-                                        "number": 7,
-                                        "statement": "identifying where animals have been",
-                                        "answer": "C"
                                     }
                                 ]
                             }
@@ -78,48 +71,53 @@
                     },
                     {
                         "id": "1b",
-                        "title": "Hinchingbrooke School Sixth Form",
-                        "content": "<p>Hinchingbrooke School consists of the lower school for students aged 11 to 16 and the sixth form for ages 16 to 18+. In the sixth form we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace. We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.</p><p>While the majority of sixth form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area. We pride ourselves on giving these external students a particularly warm welcome. We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.</p><p>If you are an internal student please apply through the MyChoice16 application system. This is also where external students need to view course information. If you are an external student whose current school does use this application for online applications please see our website for an application form to the school. We hold an annual open evening in the autumn term when you can come and view our facilities and ask any questions you may have.</p><p>Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud of and each of our students is treated as an individual. You will be assigned a professional sixth form tutor who will provide you with support and guidance and will responsible for helping you make sensible choices about your future career path.</p><p>You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself in agreement with your tutor and subject teachers and your progress towards achieving these targets will be monitored in your tutor meetings.</p>",
+                        "title": "It's almost time for the next Ripton Festival!",
+                        "content": "<p>As usual, the festival will be held in the last weekend of June, this year on Saturday to Monday, 27-29 June. Ever since last year's festival, the committee has been hard at work to make this year's the best ever! The theme is Ripton through the ages. Scenes will be acted out showing how the town has developed since it was first established. But there's also plenty that's up-to-date, from the latest music to local crafts.</p><p>The Craft Fair is a regular part of the festival. Come and meet professional artists, designers and craftsmen and women, who will display their jewellery, paintings, ceramics, and much more. They'll also take orders, so if you want one of them to make something especially for you, just ask! You'll get it within a month of the festival ending.</p><p>The Saturday barbecue will start at 2 pm and continue until 10 pm, with a bouncy castle for kids. The barbecue will be held in Palmer's Field, or in the town hall if there's rain. Book your tickets now, as they always sell out very quickly. Entry for under 16s is free all day; adults can come for free until 6 pm and pay £5 after that. There'll be live music throughout, with local amateur bands in the afternoon and professional musicians in the evening.</p><p>On Sunday we're delighted to introduce an afternoon of boat races, arranged by the Ripton Rowing Club. The spectator area by the bridge has plenty of room to stand and cheer the boats home, in addition to a number of benches. The winners of the races will be presented with trophies by the mayor of Ripton.</p><p>All money raised by the festival will go to support the sports clubs in Ripton.</p>",
                         "questions": [
                             {
                                 "type": "trueFalseNotGiven",
-                                "title": "Questions 8-14",
-                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "title": "Questions 7-14",
+                                "instructions": "Do the following statements agree with the information given in the text on page 18? In boxes 7-14 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
                                 "items": [
                                     {
+                                        "number": 7,
+                                        "statement": "The festival is held every year.",
+                                        "answer": "TRUE"
+                                    },
+                                    {
                                         "number": 8,
-                                        "statement": "Some sixth-form students intend to start work immediately after leaving school.",
+                                        "statement": "This year's festival focuses on the town's history.",
                                         "answer": "TRUE"
                                     },
                                     {
                                         "number": 9,
-                                        "statement": "An increasing number of students are accepted at medical school.",
-                                        "answer": "TRUE"
+                                        "statement": "Goods displayed in the craft fair are unlike ones found in shops.",
+                                        "answer": "NOT GIVEN"
                                     },
                                     {
                                         "number": 10,
-                                        "statement": "Most sixth-form students come from other schools.",
+                                        "statement": "The barbecue will be cancelled if it rains.",
                                         "answer": "FALSE"
                                     },
                                     {
                                         "number": 11,
-                                        "statement": "External applicants have an interview before they can be accepted.",
-                                        "answer": "NOT GIVEN"
+                                        "statement": "Adults can attend the barbecue at any time without charge.",
+                                        "answer": "FALSE"
                                     },
                                     {
                                         "number": 12,
-                                        "statement": "Applications to the sixth form can only be made through the MyChoice16 website.",
+                                        "statement": "Amateur musicians will perform during the whole of the barbecue.",
                                         "answer": "FALSE"
                                     },
                                     {
                                         "number": 13,
-                                        "statement": "External applicants can talk to current students at the Open Evening.",
-                                        "answer": "NOT GIVEN"
+                                        "statement": "Seating is available for watching the boat races.",
+                                        "answer": "TRUE"
                                     },
                                     {
                                         "number": 14,
-                                        "statement": "Students meet their tutor whenever one of them requests a meeting.",
-                                        "answer": "FALSE"
+                                        "statement": "People attending the festival will be asked to donate some money.",
+                                        "answer": "NOT GIVEN"
                                     }
                                 ]
                             }
@@ -134,56 +132,43 @@
                 "passages": [
                     {
                         "id": "2a",
-                        "title": "Tree Cutters At Work",
-                        "content": "<p><em>Tree surgeon Ivars Balodis describes the teamwork involved in cutting down a large tree</em></p>\n\n<p>Today the tree-cutting team consists of myself, Gary and Mikael. We're going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday – not a working day for the yard – and it is far easier to remove a tree when no-one else is around. As supervisor, I first pop into our office to sort out the paperwork for the day, which includes the risk assessments. Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult. Luckily, we've picked a good day.</p>\n\n<p>Next, we load up the equipment – things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off. On arrival at the site, we have a quick discussion on the procedure for the day. After that, one of us – today it's Gary – goes up the tree to quickly select his anchor point. This is the position from which he will cut down the tree. It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.</p>\n\n<p>Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down. When they are cut, these will fall further away, outside the boundary of the yard. On the other side of the perimeter fence is a wide grass verge and then a footpath, where I set up a number of signs to alert the public to our activities. Working alongside a road requires vigilance, so I monitor the movements of pedestrians and, as Gary starts work, I watch what he is doing, so I can ensure safety. Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.</p>",
+                        "title": "Reducing injuries on the farm",
+                        "content": "<p>Farms tend to be full of activity. There are always jobs to be done and some tasks require physical manual work. While it is good for people to be active, there are risk factors associated with this, and efforts need to be made to reduce them.</p><p>The first risk relates to the carrying of an excessive load or weight. This places undue demands on the spine and can cause permanent damage. Examples of tasks that involve this risk are moving 50-kilogramme fertiliser bags from one site to another or carrying heavy buckets of animal feed around fields. According to the UK Health and Safety Executive, activities such as these 'should be avoided at all times'. Their documentation states that other methods should be considered, such as breaking down the load into smaller containers prior to movement or transporting the materials using a tractor or other vehicle. The risk posed by excessive force is made worse if the person lifting is also bending over as this increases pressure on the discs in the back.</p><p>If a load is bulky or hard to grasp, such as a lively or agitated animal, it will be more difficult to hold while lifting and carrying. The holder may adopt an awkward posture, which is tiring and increases the risk of injury. Sometimes a load has to be held away from the body because there is a large obstacle in the area and the person lifting needs to be able to see where their feet are going. This results in increased stress on the back; holding a load at arm's length imposes about five times the stress of a close-to-body position. In such cases, handling aids should be purchased that can take the weight off the load and minimise the potential for injury.</p><p>Another risk that relates to awkward posture is repetitive bending when carrying out a task. An example might be repairing a gate that has collapsed onto the ground. This type of activity increases the stress on the lower back because the back muscles have to support the weight of the upper body. The farmer should think about whether the job can be performed on a workbench, reducing the need for prolonged awkward posture.</p>",
                         "questions": [
                             {
-                                "type": "noteCompletion",
-                                "title": "Questions 15-21",
-                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
-                                "noteTitle": "Cutting down a big tree",
+                                "type": "tableCompletion",
+                                "title": "Questions 15-20",
+                                "instructions": "Complete the table below. Choose ONE WORD ONLY from the text on page 20 for each answer.",
+                                "tableTitle": "Risks and how to avoid them",
+                                "headers": [
+                                    "Risk factor",
+                                    "Examples of farm activities",
+                                    "Risk reduction measures to consider"
+                                ],
                                 "items": [
                                     {
                                         "number": 15,
-                                        "textBefore": "The site supervisor checks the paperwork and the latest information on the weather first. Chainsaws, clothing and all",
-                                        "textAfter": "are then loaded onto the lorry.",
-                                        "answer": "tools"
+                                        "answer": "fertiliser"
                                     },
                                     {
                                         "number": 16,
-                                        "textBefore": "The team talk briefly at the site about the overall",
-                                        "textAfter": "before the work begins.",
-                                        "answer": "procedure"
+                                        "answer": "animal"
                                     },
                                     {
                                         "number": 17,
-                                        "textBefore": "The climber's anchor point must have the necessary height and",
-                                        "textAfter": "for the job.",
-                                        "answer": "strength"
+                                        "answer": "obstacle"
                                     },
                                     {
                                         "number": 18,
-                                        "textBefore": "The first branches are cut and placed in a pile in the yard. A pulley and some",
-                                        "textAfter": "assist in the removal of the top branches.",
-                                        "answer": "rope"
+                                        "answer": "aids"
                                     },
                                     {
                                         "number": 19,
-                                        "textBefore": "At this point signs are placed on the",
-                                        "textAfter": ".",
-                                        "answer": "footpath"
+                                        "answer": "bending"
                                     },
                                     {
                                         "number": 20,
-                                        "textBefore": "For safety the actions of both the tree cutter and",
-                                        "textAfter": "must be regularly checked.",
-                                        "answer": "pedestrians"
-                                    },
-                                    {
-                                        "number": 21,
-                                        "textBefore": "A special machine creates",
-                                        "textAfter": "out of some of the wood.",
-                                        "answer": "chippings"
+                                        "answer": "gate"
                                     }
                                 ]
                             }
@@ -191,78 +176,55 @@
                     },
                     {
                         "id": "2b",
-                        "title": "Plumbing Skills",
-                        "content": "<p>In a residential building such as a block of flats, underfloor jobs that involve plumbing mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 cm deep. In addition the floors are typically covered with a wood product, engineered to resemble solid wood that has very strict criteria as far as drilling and cutting are concerned. The plumber cannot just go in and cut holes and lay pipes. He must first think about what he is doing read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople before proceeding.</p><p>Commercial plumbers working on office buildings, hotels, restaurants etc. have the same issues and coordination problems as residential plumbers but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined. The equipment will have specific installation instructions so it is critical that the plumber has the cognitive ability to understand these. In addition often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.</p><p>Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively they must have complete knowledge of say a customer's shower until they are servicing even if they did not install it. They must have the ability to translate the symptoms they can see such as leaks and blockages into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue. Successful service plumbers not only need good mechanical skills but they typically need very good people skills to provide necessary support.</p>",
+                        "title": "Good customer service in retail",
+                        "content": "<p>Without customers, your retail business would not exist. It stands to reason, therefore, that how you treat your customers has a direct impact on your profit margins.</p><p>Some customers just want to browse and not be bothered by sales staff. Try to be sensitive to how much help a customer wants; be proactive in offering help without being annoying. Suggest a product that naturally accompanies what the customer is considering or point out products for which there are special offers, but don't pressure a customer into buying an item they don't want.</p><p>Build up a comprehensive knowledge of all the products in your shop, including the pros and cons of products that are alike but that have been produced under a range of brand names. If you have run out of a particular item, make sure you know when the next orders are coming in. Negativity can put customers off instantly. If a customer asks a question to which the answer is 'no', do not just leave it at that – follow it with a positive, for example: 'we're expecting more of that product in on Tuesday'.</p><p>Meanwhile, if you see a product in the wrong place on a shelf, don't ignore it – put it back where it belongs. This attention to presentation keeps the shop tidy, giving the right impression to your customers. Likewise, if you notice a fault with a product, remove it and replace it with another.</p><p>When necessary, be discreet. For example, if the customer's credit card is declined at the till, keep your voice down and enquire about an alternative payment method quietly so that the customer doesn't feel humiliated. If they experience uncomfortable emotions in your shop, it's unlikely that they'll come back.</p><p>Finally, good manners are probably the most important aspect of dealing with customers. Treat each person with respect at all times, even when you are faced with rudeness. Being discourteous yourself will only add more fuel to the fire.</p><p>Build a reputation for polite, helpful staff and you'll find that customers not only keep giving you their custom, but also tell their friends about you.</p>",
                         "questions": [
                             {
-                                "type": "tableCompletion",
-                                "title": "Questions 22-27",
-                                "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
-                                "tableTitle": "Types of plumbers",
-                                "headers": [
-                                    "Type of plumber",
-                                    "Challenges",
-                                    "Skills needed"
-                                ],
-                                "rows": [
-                                    {
-                                        "cells": [
-                                            "Residential plumber",
-                                            "Works in narrow spaces; must be careful about drilling into 22 ___",
-                                            "Needs to consider how other 23 ___ may be affected"
-                                        ],
-                                        "answers": {
-                                            "22": "floors",
-                                            "23": "tradespeople"
-                                        }
-                                    },
-                                    {
-                                        "cells": [
-                                            "Commercial plumber",
-                                            "Must be able to follow 24 ___; may need to X-ray floors and walls to avoid damaging 25 ___",
-                                            "Has the 26 ___ to understand complex documents"
-                                        ],
-                                        "answers": {
-                                            "24": "instructions",
-                                            "25": "steel",
-                                            "26": "cognitive ability"
-                                        }
-                                    },
-                                    {
-                                        "cells": [
-                                            "Service plumber",
-                                            "Needs to find out what the problem is; often customers are upset or 27 ___",
-                                            "Needs good mechanical and people skills"
-                                        ],
-                                        "answers": {
-                                            "27": "disrupted"
-                                        }
-                                    }
-                                ],
+                                "type": "sentenceCompletion",
+                                "title": "Questions 21-27",
+                                "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the text on page 22 for each answer.",
                                 "items": [
                                     {
+                                        "number": 21,
+                                        "textBefore": "A",
+                                        "textAfter": "approach to selling is fine as long as you do not irritate the customer.",
+                                        "answer": "proactive"
+                                    },
+                                    {
                                         "number": 22,
-                                        "answer": "floors"
+                                        "textBefore": "Recommend additional products and",
+                                        "textAfter": "without being too forceful.",
+                                        "answer": "special offers"
                                     },
                                     {
                                         "number": 23,
-                                        "answer": "tradespeople"
+                                        "textBefore": "Know how to compare similar products which have different",
+                                        "textAfter": ".",
+                                        "answer": "brand names"
                                     },
                                     {
                                         "number": 24,
-                                        "answer": "instructions"
+                                        "textBefore": "Avoid",
+                                        "textAfter": "by always saying more than 'no'.",
+                                        "answer": "negativity"
                                     },
                                     {
                                         "number": 25,
-                                        "answer": "steel"
+                                        "textBefore": "Keep an eye on the",
+                                        "textAfter": "of goods on the shelves.",
+                                        "answer": "presentation"
                                     },
                                     {
                                         "number": 26,
-                                        "answer": "cognitive ability"
+                                        "textBefore": "If a customer has problems paying with their",
+                                        "textAfter": ", handle the problem with care.",
+                                        "answer": "credit card"
                                     },
                                     {
                                         "number": 27,
-                                        "answer": "disrupted"
+                                        "textBefore": "Any",
+                                        "textAfter": "from a customer should not affect how you treat them.",
+                                        "answer": "rudeness"
                                     }
                                 ]
                             }
@@ -277,150 +239,155 @@
                 "passages": [
                     {
                         "id": "3a",
-                        "title": "Why It Is Important To Save Species Like The Dormouse",
-                        "content": "<p>More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England rare dormice have returned to a secret woodland location there. Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain's most threatened mammals. This reintroduction led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups is the 22nd in the last 23 years. Dormice depend on well managed woodlands and healthy connected hedgerows for their survival. But changes in land use since the 1940s have been so dramatic that the dormice that remain have limited living space and are increasingly isolated.</p><p>Ahead of the release the PTES found a site of dense good quality woodland while the captive bred dormice waited in quarantine. After examination by vets the dormice were placed in their soft release accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a meter square cage. For 10 days the dormice were checked and given food daily then a small opening was made allowing them the freedom to explore while retaining the security of the cage. Everything was removed in October when the animals started preparing to go into hibernation for the winter.</p><p>'The hope is that we have a free living population in the wood but we won't know how they have fared until next year' said Ian White of the PTES. Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes. However a distinctive factor of this release White explained is the intention of linking up with another released dormouse population 3 miles away by managing the land between. The goal is to create a wider landscape for dormice and that will make the population more robust.</p><p>Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents. This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost with much remaining woodland sliced up by roads railways and fields. England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects. All this has had an adverse effect on dormouse populations.</p><p>'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. 'They are a fascinating species that is rare but you can still see. They promote good woodland management and what's good for dormice is good for a large range of species.'</p><p>Helen Meech the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside said that such reintroductions would increase people's familiarity with living with more wild animals once again. People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons she explained. 'We are increasingly disconnected from nature. In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose but let's start with species that will have a lighter impact for now.'</p><p>Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce.</p><p><strong>The lynx</strong> is believed to have disappeared from Britain about 1000 years ago. Experts say it would help control the fast growing population of red deer allowing forests to regenerate and support greater biodiversity. The preference of the lynx a shy animal to stay in its woodland habitat would make a threat to livestock or humans unlikely.</p><p><strong>The beaver</strong> - After an absence of 400 years beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction in Knapdale forest in 2009 was hailed an outstanding success but an unlicensed free living population in the river Tay has caused problems.</p><p><strong>The wolf</strong> - Lost to Britain in the 1700s the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock. But they are critical to the restoration of ecosystems that have been overgrazed by deer. Despite their fearsome reputation they present a low risk to people. Because of the space a wolf population would need the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.</p><p><strong>The sea eagle</strong> also known as the white tailed eagle was driven to extinction in Britain earlier this century. A reintroduction programme has seen it return to the Inner Hebrides island of Mull. Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock. Successful schemes in Europe have offered compensation for this.</p><p><strong>The wild boar</strong> disappeared in the 13th century because of hunting. They increase biodiversity and create space for trees and plants to grow but can cause damage to crops and gardens. The species has been quietly re-establishing itself in the woodlands of Britain for several decades.</p>",
+                        "title": "Plastic is no longer fantastic",
+                        "content": "<p><strong>A</strong></p><p>In 2017, Carlos Ferrando, a Spanish engineer-turned-entrepreneur, saw a piece of art in a museum that profoundly affected him. 'What Lies Under', a photographic composition by Indonesian digital artist Ferdi Rizkiyanto, shows a child crouching by the edge of the ocean and 'lifting up' a wave, to reveal a cluster of assorted plastic waste, from polyethylene bags to water bottles. The artwork, designed to raise public awareness, left Ferrando angry – and fuelled with entrepreneurial ideas.</p><p><strong>B</strong></p><p>Ferrando runs a Spanish-based design company, Closca, that produces an ingenious foldable bicycle helmet. But he has now also designed a stylish glass water bottle with a stretchy silicone strap and magnetic closure mechanism that means it can be attached to almost anything, from a bike to a bag to a pushchair handle. The product comes with an app that tells people where they can fill their bottles with water for free.</p><p><strong>C</strong></p><p>The intention is to persuade people to stop buying water in plastic bottles, thus saving consumers money and reducing the plastic waste piling up in our oceans. 'Bottled water is now a $100 billion business, and 81 per cent of the bottles are not recycled. It's a complete waste – water is only 1.5 per cent of the price of the bottle!' Ferrando cries. Indeed, environmentalists estimate that by 2050 there will be more plastic in our oceans than fish and that's mainly down to such bottles. 'We are trying to create a sense that being environmentally sophisticated is a status symbol,' he adds. 'We want people to clip their bottles onto what they are wearing, to show that they are recycling – and to look cool.'</p><p><strong>D</strong></p><p>Ferrando's story is fascinating because it seems like an indicator of something unexpected. Three decades ago, conspicuous consumption – the purchase of luxuries, such as handbags, shoes, cars, etc. on a lavish scale – heightened people's social status. Indeed, the closing decades of the 20th century were a time when it seemed that anything could be turned into a commodity. Hence the fact that water became a consumer item, sold in plastic bottles, instead of just emerging, for free, from a tap.</p><p><strong>E</strong></p><p>Today, though, conspicuous extravagance no longer seems desirable among consumers. Now, recycling is fashionable – as is cycling rather than driving. Plastic water bottles have become so common that they do not command status; instead, what many millennials – young people born in the late 20th century – prefer to post on social media are 'real' (refillable) bottles or even the once widespread Thermos bottles. Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one.</p><p><strong>F</strong></p><p>It is uncertain whether Closca will succeed in its goal. Although its foldable bike helmet is available in some outlets in New York, including the Museum of Modern Art, it can be very hard for any design entrepreneur to really take off in the global mass market, though not as hard as it might have been in the past. If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card. Things have moved on slightly since then.</p><p><strong>G</strong></p><p>Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments. And then there are other options for those who wish to raise money straight away. Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects. He appealed for people to donate $30,000 of seed money – the money he needed to get his project going – and promised to give a bottle to anyone who provided more than $39 in 'donations'. If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made. Using this approach, none of the donors has a stake in his idea, nor does he have any debt. Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts. This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on. And, at last count, Closca had raised some $52,838 from 803 backers. Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.</p>",
                         "questions": [
                             {
-                                "type": "summaryCompletion",
-                                "title": "Questions 28-31",
-                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
-                                "summaryTitle": "The procedure for the dormouse reintroduction in Wensleydale",
-                                "summary": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First members of PTES had to choose a suitable wooded area for them. Then {28} gave them a thorough check. The team divided the animals into {29} before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially the dormice could not get out but the team brought {30} on a regular basis. Once the dormice got used to their new environment a gap was cut in the netting so they could go out and return when they wanted. Then before the animals were ready to start their annual {31} in the autumn, the team took their temporary homes away.",
+                                "type": "headingMatching",
+                                "title": "Questions 28-34",
+                                "instructions": "The text on pages 25 and 26 has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, i-viii, in boxes 28-34 on your answer sheet.",
+                                "headings": [
+                                    {
+                                        "number": "i",
+                                        "text": "A time when opportunities were limited"
+                                    },
+                                    {
+                                        "number": "ii",
+                                        "text": "The reasons why Ferrando's product is needed"
+                                    },
+                                    {
+                                        "number": "iii",
+                                        "text": "A no-risk solution"
+                                    },
+                                    {
+                                        "number": "iv",
+                                        "text": "Two inventions and some physical details"
+                                    },
+                                    {
+                                        "number": "v",
+                                        "text": "The contrasting views of different generations"
+                                    },
+                                    {
+                                        "number": "vi",
+                                        "text": "A disturbing experience"
+                                    },
+                                    {
+                                        "number": "vii",
+                                        "text": "The problems with replacing a consumer item"
+                                    },
+                                    {
+                                        "number": "viii",
+                                        "text": "Looking back at why water was bottled"
+                                    }
+                                ],
                                 "items": [
                                     {
                                         "number": 28,
-                                        "answer": "vets"
+                                        "statement": "Paragraph A",
+                                        "answer": "vi"
                                     },
                                     {
                                         "number": 29,
-                                        "answer": "pairs"
+                                        "statement": "Paragraph B",
+                                        "answer": "iv"
                                     },
                                     {
                                         "number": 30,
-                                        "answer": "food"
+                                        "statement": "Paragraph C",
+                                        "answer": "ii"
                                     },
                                     {
                                         "number": 31,
-                                        "answer": "hibernation"
+                                        "statement": "Paragraph D",
+                                        "answer": "viii"
+                                    },
+                                    {
+                                        "number": 32,
+                                        "statement": "Paragraph E",
+                                        "answer": "v"
+                                    },
+                                    {
+                                        "number": 33,
+                                        "statement": "Paragraph F",
+                                        "answer": "i"
+                                    },
+                                    {
+                                        "number": 34,
+                                        "statement": "Paragraph G",
+                                        "answer": "iii"
                                     }
                                 ]
                             },
                             {
                                 "type": "multipleChoice",
-                                "title": "Questions 32-36",
+                                "title": "Questions 35-37",
                                 "instructions": "Choose the correct letter, A, B, C or D.",
                                 "items": [
                                     {
-                                        "number": 32,
-                                        "text": "What does Ian White say about the Wensleydale reintroduction?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "It has been more successful than other reintroductions."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It could fail for a number of reasons."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "It is the largest reintroduction of dormice yet."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "It has taught him useful lessons for future projects."
-                                            }
-                                        ],
-                                        "answer": "B"
-                                    },
-                                    {
-                                        "number": 33,
-                                        "text": "What is special about this particular reintroduction?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "The dormice are being studied by scientists."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It will create a link between two groups of dormice."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "The dormice will be protected from predators."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "Local residents will help to care for the dormice."
-                                            }
-                                        ],
-                                        "answer": "B"
-                                    },
-                                    {
-                                        "number": 34,
-                                        "text": "In what ways did coppicing help dormice?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "It provided them with materials for their nests."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It protected them from predators."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "It ensured they had a variety of things to eat and enough light."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "It created corridors for them to travel through."
-                                            }
-                                        ],
-                                        "answer": "C"
-                                    },
-                                    {
                                         "number": 35,
-                                        "text": "Why does Ian White think dormouse reintroductions are a good idea?",
+                                        "text": "What does Ferrando say about his glass water bottle?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "They stop woodlands from being neglected."
+                                                "text": "It matches his bicycle helmet."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "They attract tourists to the British countryside."
+                                                "text": "It is cheaper than a plastic bottle."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "They get people interested in protecting the environment."
+                                                "text": "He has designed it to suit all ages."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "They help woodlands to recover from damage caused by deer."
+                                                "text": "He wants people to be proud to show it."
                                             }
                                         ],
-                                        "answer": "C"
+                                        "answer": "D"
                                     },
                                     {
                                         "number": 36,
-                                        "text": "What does Helen Meech say about reintroducing larger species?",
+                                        "text": "What does the writer find fascinating about Ferrando's story?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "It could happen in the future."
+                                                "text": "the youthfulness of his ideas"
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "It is not a practical idea."
+                                                "text": "the old-fashioned nature of his products"
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "It would threaten native species."
+                                                "text": "the choice it is creating for consumers"
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "It would be popular with the public."
+                                                "text": "the change it is revealing in people's attitudes"
+                                            }
+                                        ],
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 37,
+                                        "text": "What does the writer suggest about Closca's bike helmet?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "It has both functional and artistic value."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "Its main appeal is to older people."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It has had extraordinary success worldwide."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It is a more exciting invention than the glass bottle."
                                             }
                                         ],
                                         "answer": "A"
@@ -428,43 +395,27 @@
                                 ]
                             },
                             {
-                                "type": "matching",
-                                "title": "Questions 37-40",
-                                "instructions": "Look at the following statements and the list of animals below. Match each statement with the correct animal, A-E.",
-                                "options": [
-                                    "A",
-                                    "B",
-                                    "C",
-                                    "D",
-                                    "E"
-                                ],
-                                "optionLabels": {
-                                    "A": "The lynx",
-                                    "B": "The beaver",
-                                    "C": "The wolf",
-                                    "D": "The sea eagle",
-                                    "E": "The wild boar"
-                                },
+                                "type": "sentenceCompletion",
+                                "title": "Questions 38-40",
+                                "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the text for each answer.",
                                 "items": [
                                     {
-                                        "number": 37,
-                                        "statement": "Plans to reintroduce this animal to one part of Britain were rejected by local people.",
-                                        "answer": "D"
-                                    },
-                                    {
                                         "number": 38,
-                                        "statement": "This animal has had both positive and negative effects since returning to Britain.",
-                                        "answer": "B"
+                                        "textBefore": "In the past,__(38)__ members were a source of__(38)__",
+                                        "textAfter": "funding for__(38) new business__(38)ideas.",
+                                        "answer": "family"
                                     },
                                     {
                                         "number": 39,
-                                        "statement": "The reintroduction of this animal could bring significant financial benefits to an area.",
-                                        "answer": "C"
+                                        "textBefore": "__(39)__ Ferrando__(39)used a__(39)recognised__(39)__",
+                                        "textAfter": "for__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39) creative projects.",
+                                        "answer": "platform"
                                     },
                                     {
                                         "number": 40,
-                                        "statement": "This animal has been returning to Britain without any official programme.",
-                                        "answer": "E"
+                                        "textBefore": "__(40)Donations over $60,000 would__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__result_in_a_",
+                                        "textAfter": "_bottle.",
+                                        "answer": "multicoloured"
                                     }
                                 ]
                             }

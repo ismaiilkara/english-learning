@@ -1,10 +1,10 @@
 {
-    "id": 1,
-    "name": "IELTS General Training - Test 1",
-    "subtitle": "Cambridge IELTS 19 General Training Test 1",
+    "id": 6,
+    "name": "IELTS General Training - Test 6",
+    "subtitle": "Cambridge IELTS 17 General Training Test 4",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 1",
+        "title": "General Training Reading Test 6",
         "sections": [
             {
                 "id": 1,
@@ -13,47 +13,64 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "Gobridge Tramlink \u2014 Frequently Asked Questions (FAQs)",
-                        "content": "<p>Here are some of the frequently asked questions about the tram service in Gobridge town:</p><p><strong>When do the trams run?</strong></p><p>Gobridge Tramlink operates a network of trams that run throughout the year and provide links to main services, stations and the airport. Timetables are reviewed in October and March, and may alter slightly so check before you travel. Our first tram from the city centre leaves from Marvin Square at 6.30 am, half an hour after the first city bus service.</p><p><strong>Can I get a tram from the airport?</strong></p><p>Trams from the airport to the city centre start running at 6.15 am and leave every fifteen minutes until 7.30 pm when the evening schedule takes over. Trams then run to the main railway station at 35-minute intervals and end at 11.35 pm. If your flight arrives later than this, the number 207 airport bus runs every hour through the night.</p><p><strong>What do I do if I don't have a ticket?</strong></p><p>Tickets are not sold by anyone on the tram. Ticket vending machines are located at all tram shelters. Check your route and make sure you buy the correct price ticket. If the vending machine does not work, you should push the red button on the machine and speak into the microphone. A member of staff will either fix the machine straight away or contact the tram inspector onboard your tram. He or she cannot sell you a ticket, but you will not be obliged to pay the \u00a38 on-board fine for not having one.</p><p><strong>Can I take my bike on the tram?</strong></p><p>Each tram is licensed to carry a maximum of two bicycles, though drivers may refuse to allow cyclists to get on if the tram is crowded. Bicycles may only be taken on the trams during off-peak travel periods: up to 7.30 am, between 10 am and 2.30 pm and after 7 pm. Festivals and other large events may also mean that bicycles are prohibited as trams carry extra passengers at these times. Once on board, riders should remain with their bicycles throughout the journey and ensure they do not obstruct the entrance, exit or any other area of public access.</p>",
+                        "title": "Outdoor Activities For All The Family",
+                        "content": "<p><strong>A Perry Forest</strong></p><p>Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults. Every Saturday and Sunday throughout the year our experts lead several walks. So whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill we have something for you.</p><p><strong>B Pugsley Beach Nature Reserve</strong></p><p>The reserve has plenty of wildlife whatever the time of year with its numerous species of birds and plants that grow hardly anywhere else but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close up views of all this and hot drinks and snacks are available to help you keep warm.</p><p><strong>C Marston Hill</strong></p><p>If you ever wonder what wildlife trusts do for the environment come to Marston Hall where our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures. They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.</p><p><strong>D Craven Discovery Centre</strong></p><p>Here at the discovery centre youngsters are introduced to the animals in our petting zoo where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile the adults can take part in our woodland activities such as learning basic woodworking skills.</p><p><strong>E Shelford Family Wild Outing</strong></p><p>Go birdwatching or catch insects as daylight fades then have a gentle jog along the River Wale by moonlight and end by toasting marshmallows on a campfire. It's all part of a Family Wild Outing in Shelford organised by the local wildlife trust. Ideal for both adults and children.</p><p><strong>F Garston Park</strong></p><p>Come to Garston Park when the sun has set and explore the solar system. Ideal for children and their parents who are interested in astronomy. Our experts will help you to find your way among the stars and then we gather in the visitor centre for refreshments. Please note that events are cancelled if the weather is cloudy.</p>",
                         "questions": [
                             {
-                                "type": "trueFalseNotGiven",
-                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "type": "matching",
+                                "title": "Questions 1-7",
+                                "instructions": "The text above has 6 advertisements A-F. Which advertisement mentions the following?",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E",
+                                    "F"
+                                ],
+                                "optionLabels": {
+                                    "A": "Perry Forest",
+                                    "B": "Pugsley Beach Nature Reserve",
+                                    "C": "Marston Hill",
+                                    "D": "Craven Discovery Centre",
+                                    "E": "Shelford Family Wild Outing",
+                                    "F": "Garston Park"
+                                },
                                 "items": [
                                     {
                                         "number": 1,
-                                        "statement": "The city buses start operating later than the trams.",
-                                        "answer": "FALSE"
+                                        "statement": "running in the evening",
+                                        "answer": "E"
                                     },
                                     {
                                         "number": 2,
-                                        "statement": "You can get a tram from the airport to the city centre up to midnight.",
-                                        "answer": "FALSE"
+                                        "statement": "seeing newborn animals",
+                                        "answer": "B"
                                     },
                                     {
                                         "number": 3,
-                                        "statement": "The 207 bus service stops at the main railway station.",
-                                        "answer": "NOT GIVEN"
+                                        "statement": "parents and children doing different activities at the same time",
+                                        "answer": "D"
                                     },
                                     {
                                         "number": 4,
-                                        "statement": "The cost of a tram ticket varies depending on your journey.",
-                                        "answer": "TRUE"
+                                        "statement": "choosing from alternative routes",
+                                        "answer": "A"
                                     },
                                     {
                                         "number": 5,
-                                        "statement": "Bicycles are allowed on the trams between 7.30 am and 10 am.",
-                                        "answer": "FALSE"
+                                        "statement": "learning about how other people help animals",
+                                        "answer": "C"
                                     },
                                     {
                                         "number": 6,
-                                        "statement": "Additional trams run during the Gobridge festival period.",
-                                        "answer": "NOT GIVEN"
+                                        "statement": "an event occurring only at a certain time of the year",
+                                        "answer": "B"
                                     },
                                     {
                                         "number": 7,
-                                        "statement": "Cyclists may be asked to leave the tram if they block the exit.",
-                                        "answer": "NOT GIVEN"
+                                        "statement": "identifying where animals have been",
+                                        "answer": "C"
                                     }
                                 ]
                             }
@@ -61,54 +78,48 @@
                     },
                     {
                         "id": "1b",
-                        "title": "Adorable knitwear \u2014 Online customer reviews",
-                        "content": "<p><strong>A Mary-Anne</strong></p><p>I spent a while thinking about buying this sweater because of the price, but I'm glad I finally did. It's a long sweater but that's good as I'm quite tall. I normally find that the sleeves are too short when I try on a top, but not with this one. I tend to take medium but went for large, which was a wise decision as there is plenty of room for a T-shirt underneath when I wear it with jeans.</p><p><strong>B Davina</strong></p><p>These sweaters are an ideal weight for office wear. The purple one is pretty, though I expected a lighter shade from the picture. I wear a US size 12 /UK 16, and the medium is big enough to fit over a shirt with room to spare. It has long sleeves that I love to roll up at the wrist. I'm now trying to resist the temptation to buy it in grey too.</p><p><strong>C Naga</strong></p><p>This knitted sweater looks great in the pictures. I ordered the olive green with stripes and, although I wasn't sure it was going to look right on me, I was pleasantly surprised when I put it on. It's very soft and I love the long past-the-wrist sleeves too. I opted for the medium, but it was too tight so I exchanged it.</p><p><strong>D Libby</strong></p><p>This is the third of your sweaters that I've bought over the past two years. It's true to size and perfect for the winter months, though I should add that its loose knit means it's best to avoid playing with cats or young dogs when you're wearing it as they could pull threads in the body or sleeves.</p><p><strong>E Laura</strong></p><p>I couldn't decide which colour to get so I bought the deep blue and the charcoal grey, with every intention of sending one of them back. That didn't happen, of course! I would say both colours match the online pictures. I bought size small, and the length is perfect for me, despite the unnecessarily long sleeves! These sweaters are lovely to wear with jeans but also stylish enough to wear to work.</p>",
+                        "title": "Hinchingbrooke School Sixth Form",
+                        "content": "<p>Hinchingbrooke School consists of the lower school for students aged 11 to 16 and the sixth form for ages 16 to 18+. In the sixth form we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace. We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.</p><p>While the majority of sixth form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area. We pride ourselves on giving these external students a particularly warm welcome. We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.</p><p>If you are an internal student please apply through the MyChoice16 application system. This is also where external students need to view course information. If you are an external student whose current school does use this application for online applications please see our website for an application form to the school. We hold an annual open evening in the autumn term when you can come and view our facilities and ask any questions you may have.</p><p>Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud of and each of our students is treated as an individual. You will be assigned a professional sixth form tutor who will provide you with support and guidance and will responsible for helping you make sensible choices about your future career path.</p><p>You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself in agreement with your tutor and subject teachers and your progress towards achieving these targets will be monitored in your tutor meetings.</p>",
                         "questions": [
                             {
-                                "type": "matching",
-                                "instructions": "Look at the five online customer reviews of sweaters, A\u2013E. For which review are the following statements true? Write the correct letter, A\u2013E. NB You may use any letter more than once.",
-                                "options": [
-                                    "A",
-                                    "B",
-                                    "C",
-                                    "D",
-                                    "E"
-                                ],
+                                "type": "trueFalseNotGiven",
+                                "title": "Questions 8-14",
+                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
                                 "items": [
                                     {
                                         "number": 8,
-                                        "statement": "The colour of the sweater did not match the website image.",
-                                        "answer": "B"
+                                        "statement": "Some sixth-form students intend to start work immediately after leaving school.",
+                                        "answer": "TRUE"
                                     },
                                     {
                                         "number": 9,
-                                        "statement": "The customer took some time to decide on the purchase.",
-                                        "answer": "A"
+                                        "statement": "An increasing number of students are accepted at medical school.",
+                                        "answer": "TRUE"
                                     },
                                     {
                                         "number": 10,
-                                        "statement": "The customer initially bought the wrong size.",
-                                        "answer": "C"
+                                        "statement": "Most sixth-form students come from other schools.",
+                                        "answer": "FALSE"
                                     },
                                     {
                                         "number": 11,
-                                        "statement": "The customer changed her mind about returning a sweater.",
-                                        "answer": "E"
+                                        "statement": "External applicants have an interview before they can be accepted.",
+                                        "answer": "NOT GIVEN"
                                     },
                                     {
                                         "number": 12,
-                                        "statement": "The customer bought a bigger size than she usually does.",
-                                        "answer": "A"
+                                        "statement": "Applications to the sixth form can only be made through the MyChoice16 website.",
+                                        "answer": "FALSE"
                                     },
                                     {
                                         "number": 13,
-                                        "statement": "The sweater can be worn for smart or casual occasions.",
-                                        "answer": "E"
+                                        "statement": "External applicants can talk to current students at the Open Evening.",
+                                        "answer": "NOT GIVEN"
                                     },
                                     {
                                         "number": 14,
-                                        "statement": "The customer was worried that the sweater wouldn't suit her.",
-                                        "answer": "C"
+                                        "statement": "Students meet their tutor whenever one of them requests a meeting.",
+                                        "answer": "FALSE"
                                     }
                                 ]
                             }
@@ -123,47 +134,56 @@
                 "passages": [
                     {
                         "id": "2a",
-                        "title": "How to become a great leader",
-                        "content": "<p>Stepping into a new management role can be unnerving. Here's how to inspire your team: Set the tone of your leadership style from the outset. Be confident, self-assured and respectful with everyone you meet. Speak as you want to be spoken to, and remember to listen. The first few weeks is when people develop their perceptions of you, so work hard to earn their trust. This will be key to effective change and progress.</p><p>Part of a leader's brief is to set bold goals. They could take years to achieve, but they need to be specific enough that everyone in the organisation understands them, buys into them and is willing to work together to achieve them.</p><p>Don't do everything yourself. Great leaders surround themselves with talented individuals and they should trust them to make things happen. If things need changing, tell people and involve them in making the changes by participating in the design of a new strategy. If the team is too cautious to embrace change, give them one more chance but be clearer about what you want.</p><p>Stamp out the 'them and us' culture. In many organisations, employees feel distant from senior management. The message must be plain: we all work together, but leaders need to work hard to ensure this filters through to everyone in the organisation.</p><p>Allow time for innovation. It's important to give staff time to come up with new ideas and solutions that will fix new problems. However, be clear that a decision is expected; set a time limit and stick to it.</p><p>It is likely that the formula that makes the business you are managing successful will have been created many years ago - but it's important to remember how the business started. Honour those early pioneers and instil a sense of pride across the organisation.</p><p>Leaders need to accept that some risk may be required if the situation calls for it. Playing it safe is never a good business rule, and leaders must make sure their business stays ahead by being prepared to act quickly.</p><p>Show you are passionate and enthusiastic. People spend a large part of their lives working for an organisation, and having a leader who is genuinely thrilled about its future is hugely inspiring.</p>",
+                        "title": "Tree Cutters At Work",
+                        "content": "<p><em>Tree surgeon Ivars Balodis describes the teamwork involved in cutting down a large tree</em></p>\n\n<p>Today the tree-cutting team consists of myself, Gary and Mikael. We're going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday – not a working day for the yard – and it is far easier to remove a tree when no-one else is around. As supervisor, I first pop into our office to sort out the paperwork for the day, which includes the risk assessments. Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult. Luckily, we've picked a good day.</p>\n\n<p>Next, we load up the equipment – things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off. On arrival at the site, we have a quick discussion on the procedure for the day. After that, one of us – today it's Gary – goes up the tree to quickly select his anchor point. This is the position from which he will cut down the tree. It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.</p>\n\n<p>Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down. When they are cut, these will fall further away, outside the boundary of the yard. On the other side of the perimeter fence is a wide grass verge and then a footpath, where I set up a number of signs to alert the public to our activities. Working alongside a road requires vigilance, so I monitor the movements of pedestrians and, as Gary starts work, I watch what he is doing, so I can ensure safety. Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.</p>",
                         "questions": [
                             {
-                                "type": "sentenceCompletion",
-                                "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the text for each answer.",
+                                "type": "noteCompletion",
+                                "title": "Questions 15-21",
+                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
+                                "noteTitle": "Cutting down a big tree",
                                 "items": [
                                     {
                                         "number": 15,
-                                        "sentence": "Initially, a leader needs to focus on gaining the .................... of the staff.",
-                                        "answer": "trust"
+                                        "textBefore": "The site supervisor checks the paperwork and the latest information on the weather first. Chainsaws, clothing and all",
+                                        "textAfter": "are then loaded onto the lorry.",
+                                        "answer": "tools"
                                     },
                                     {
                                         "number": 16,
-                                        "sentence": "A leader should decide on .................... that their staff are happy to fulfil.",
-                                        "answer": "goals"
+                                        "textBefore": "The team talk briefly at the site about the overall",
+                                        "textAfter": "before the work begins.",
+                                        "answer": "procedure"
                                     },
                                     {
                                         "number": 17,
-                                        "sentence": "Leaders should involve their staff in the process of producing a different ....................",
-                                        "answer": "strategy"
+                                        "textBefore": "The climber's anchor point must have the necessary height and",
+                                        "textAfter": "for the job.",
+                                        "answer": "strength"
                                     },
                                     {
                                         "number": 18,
-                                        "sentence": "If tricky issues arise, leaders should give staff the space to find .................... to them.",
-                                        "answer": "solutions"
+                                        "textBefore": "The first branches are cut and placed in a pile in the yard. A pulley and some",
+                                        "textAfter": "assist in the removal of the top branches.",
+                                        "answer": "rope"
                                     },
                                     {
                                         "number": 19,
-                                        "sentence": "Leaders need to encourage their staff to feel .................... in the past achievements of the company.",
-                                        "answer": "pride"
+                                        "textBefore": "At this point signs are placed on the",
+                                        "textAfter": ".",
+                                        "answer": "footpath"
                                     },
                                     {
                                         "number": 20,
-                                        "sentence": "It is important for leaders to agree to a certain degree of .................... when necessary.",
-                                        "answer": "risk"
+                                        "textBefore": "For safety the actions of both the tree cutter and",
+                                        "textAfter": "must be regularly checked.",
+                                        "answer": "pedestrians"
                                     },
                                     {
                                         "number": 21,
-                                        "sentence": "If leaders find the .................... of the company exciting, their staff will be more motivated to work hard.",
-                                        "answer": "future"
+                                        "textBefore": "A special machine creates",
+                                        "textAfter": "out of some of the wood.",
+                                        "answer": "chippings"
                                     }
                                 ]
                             }
@@ -171,43 +191,78 @@
                     },
                     {
                         "id": "2b",
-                        "title": "Resigning from a job in a professional manner",
-                        "content": "<p>When you take the decision to resign and move on to another job, you might really want to dance your way out of the door, or get your own back by criticising your boss to the whole office. But you need to resist these temptations because in future you might find you're working with your ex-line manager or other colleagues in a different company.</p><p><b>Letting your manager know</b></p><p>Show courtesy by telling your boss first. Request a meeting to say that you're leaving, following up soon after with an official letter. Before the meeting with your boss, write a list of ongoing tasks along with status updates and suggestions concerning completion. Use the meeting to clarify any other points, such as your notice period and leaving date, and how you will inform others (colleagues or external clients, contacts and suppliers). Ask about a reference too; your employer may only supply the most basic type but your line manager might also give you a more personal one. Making sure you get a good one can make subsequent job hunting less stressful.</p><p><b>Preparation</b></p><p>Work out how you can ensure a smooth transition and minimise disruption to your employer. There may be a range of things you can do to hand over professionally, such as completing projects, working out the priorities with your line manager, and leaving clear documentation for the successor in your post concerning processes or software.</p><p><b>Your letter of resignation</b></p><p>Keep your letter short. You don't need to give lots of explanations or justification for why you're leaving. Don't be tempted to address the failings of the company or your boss, either. Instead, thanking your employer for the job and mentioning what you appreciated about it is a graceful touch. Here's an idea of what to include:</p><ul><li><b>First paragraph \u2013 the basics</b><br/>Inform the employer that you wish to resign and confirm the agreed final date at work.</li><li><b>Second paragraph \u2013 thank your employer</b><br/>Mention any particular career-building projects you worked on or opportunities to develop skills and contribute to the employer's goals and successes. You can also mention your appreciation at being able to work in a great team.</li><li><b>Third paragraph \u2013 handover</b><br/>State your willingness to finish existing projects and hand over your work smoothly.</li></ul>",
+                        "title": "Plumbing Skills",
+                        "content": "<p>In a residential building such as a block of flats, underfloor jobs that involve plumbing mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 cm deep. In addition the floors are typically covered with a wood product, engineered to resemble solid wood that has very strict criteria as far as drilling and cutting are concerned. The plumber cannot just go in and cut holes and lay pipes. He must first think about what he is doing read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople before proceeding.</p><p>Commercial plumbers working on office buildings, hotels, restaurants etc. have the same issues and coordination problems as residential plumbers but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined. The equipment will have specific installation instructions so it is critical that the plumber has the cognitive ability to understand these. In addition often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.</p><p>Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively they must have complete knowledge of say a customer's shower until they are servicing even if they did not install it. They must have the ability to translate the symptoms they can see such as leaks and blockages into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue. Successful service plumbers not only need good mechanical skills but they typically need very good people skills to provide necessary support.</p>",
                         "questions": [
                             {
-                                "type": "noteCompletion",
-                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
-                                "title": "The best way to resign",
+                                "type": "tableCompletion",
+                                "title": "Questions 22-27",
+                                "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+                                "tableTitle": "Types of plumbers",
+                                "headers": [
+                                    "Type of plumber",
+                                    "Challenges",
+                                    "Skills needed"
+                                ],
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            "Residential plumber",
+                                            "Works in narrow spaces; must be careful about drilling into 22 ___",
+                                            "Needs to consider how other 23 ___ may be affected"
+                                        ],
+                                        "answers": {
+                                            "22": "floors",
+                                            "23": "tradespeople"
+                                        }
+                                    },
+                                    {
+                                        "cells": [
+                                            "Commercial plumber",
+                                            "Must be able to follow 24 ___; may need to X-ray floors and walls to avoid damaging 25 ___",
+                                            "Has the 26 ___ to understand complex documents"
+                                        ],
+                                        "answers": {
+                                            "24": "instructions",
+                                            "25": "steel",
+                                            "26": "cognitive ability"
+                                        }
+                                    },
+                                    {
+                                        "cells": [
+                                            "Service plumber",
+                                            "Needs to find out what the problem is; often customers are upset or 27 ___",
+                                            "Needs good mechanical and people skills"
+                                        ],
+                                        "answers": {
+                                            "27": "disrupted"
+                                        }
+                                    }
+                                ],
                                 "items": [
                                     {
                                         "number": 22,
-                                        "note": "Avoid all .................... to resign in an angry way. Instead follow this procedure:",
-                                        "answer": "temptations"
+                                        "answer": "floors"
                                     },
                                     {
                                         "number": 23,
-                                        "note": "Arrange a meeting with the boss to: mention any projects which are underway and give ideas for their ....................",
-                                        "answer": "completion"
+                                        "answer": "tradespeople"
                                     },
                                     {
                                         "number": 24,
-                                        "note": "request information on the type of .................... you will receive.",
-                                        "answer": "reference"
+                                        "answer": "instructions"
                                     },
                                     {
                                         "number": 25,
-                                        "note": "Steps you can take before you leave: Work to cause as little .................... as possible to the organisation.",
-                                        "answer": "disruption"
+                                        "answer": "steel"
                                     },
                                     {
                                         "number": 26,
-                                        "note": "In the resignation letter: avoid mentioning any .................... in the organisation.",
-                                        "answer": "failings"
+                                        "answer": "cognitive ability"
                                     },
                                     {
                                         "number": 27,
-                                        "note": "show appreciation for aspects of the job",
-                                        "answer": "skills"
+                                        "answer": "disrupted"
                                     }
                                 ]
                             }
@@ -221,195 +276,195 @@
                 "questionRange": "Questions 28-40",
                 "passages": [
                     {
-                        "id": "3",
-                        "title": "Emojis",
-                        "paragraphs": [
-                            {
-                                "label": "A",
-                                "content": "Language always changes, of course. This is one of the few constants about it. But it's arguably changing at a faster rate now than at any previous moment in its history. And emojis - the set of picture characters that people use to punctuate their online correspondence - are at the forefront of this frenzy for change. As a form of global communication, emojis only began their growth in 2011. Four years later, it was estimated that they were being used by over 90 per cent of the online population. In excess of six billion were being sent every day. Their prevalence in the culture was such that Oxford Dictionaries recently chose one as their word of the year. 'Words of the Year' are those judged to be reflective of the 'ethos, mood, or preoccupations of that particular year'. They're very much of their time. And often, once that time has passed, they fade from people's consciousness almost as quickly as they arose."
-                            },
-                            {
-                                "label": "B",
-                                "content": "There's a good chance, then, that the emoji chosen by Oxford Dictionaries - the 'face with tears of joy' - will also appear to be dated in a few years. But the reasons for this offer a fascinating insight into the way that society is evolving. The little yellow circle with dots for eyes acts as a surprisingly good lens through which to view the history of human communication, and to predict its future. There are two main reasons why language changes. One is to do with the way that language mirrors the changes in how we relate to each other. As an expression of identity, language is adapted by different groups and different generations to reflect their own sense of self. It also needs to constantly assimilate fresh concepts as these evolve. Words are being created for these reasons all the time. But what's interesting about emojis is that they've contributed to this ever-expanding storehouse in a different way. At this point in our history, the gaps in our vocabulary are being filled not simply by new words, but by an absolutely new system of expression."
-                            },
-                            {
-                                "label": "C",
-                                "content": "The second major reason that language changes is down to technology specifically, the ways in which the technologies we use have an effect on the process of communication itself. Both hardware and new technologies result in us subtly changing the way we interact with each other and also altering the shape of the language we use."
-                            },
-                            {
-                                "label": "D",
-                                "content": "Emojis have evolved as a solution to the needs of mobile communication. In particular, they compensate for the way that computer-mediated messaging on smartphones can sometimes tend towards the emotionally empty. Whereas face-to-face, or even voice-to-voice, conversations can express emotional closeness through facial expression or tone of voice, this is easy to miss when messages are rendered in a few short words on a small screen. Emojis are a means of restoring this emotional framing to an interaction - punctuating your message with a smile. But unlike almost any other type of language system, emojis have something akin to a built-in obsolescence. Just as smartphones and their operating systems have a frequent refresh rate, emojis also get routine enhancements. The emojis you have on your phone now will undergo subtle redesigns over the course of time, and extra characters will be added. Because of this, their usefulness is artificially limited. In the context of communication systems, this is something that's never previously been the case. Twenty years ago, people might have bought a new landline phone when they were tired of the design of their old phone or if they wanted to get one with whatever latest innovation was going around - an inbuilt answering machine, say. But they didn't have to upgrade the language they were using as well."
-                            },
-                            {
-                                "label": "E",
-                                "content": "Emojis, on the other hand, are a case study of how technology and the human capacity for communication are working together - of how the onward march of technology exists at the intersection of consumerism, innovation and design. Moreover, the fact that they're at the front line of a relentless wave of technologically driven change in communications practices encourages - if not necessitates - a great amount of creativity in the way they're used. Finally, there's the way they've become implicated in almost all aspects of modern society, from politics and marketing to art and entertainment. Emojis are the subject of musicals and Hollywood films. They're the inspiration for fashion design, art and architecture. They're a staple in advertising and commerce. Understanding why they've become so popular, and how they work, can not only explain something about the nature of language; it can also help us to understand our relationship with technology, society and ourselves."
-                            }
-                        ],
+                        "id": "3a",
+                        "title": "Why It Is Important To Save Species Like The Dormouse",
+                        "content": "<p>More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England rare dormice have returned to a secret woodland location there. Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain's most threatened mammals. This reintroduction led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups is the 22nd in the last 23 years. Dormice depend on well managed woodlands and healthy connected hedgerows for their survival. But changes in land use since the 1940s have been so dramatic that the dormice that remain have limited living space and are increasingly isolated.</p><p>Ahead of the release the PTES found a site of dense good quality woodland while the captive bred dormice waited in quarantine. After examination by vets the dormice were placed in their soft release accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a meter square cage. For 10 days the dormice were checked and given food daily then a small opening was made allowing them the freedom to explore while retaining the security of the cage. Everything was removed in October when the animals started preparing to go into hibernation for the winter.</p><p>'The hope is that we have a free living population in the wood but we won't know how they have fared until next year' said Ian White of the PTES. Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes. However a distinctive factor of this release White explained is the intention of linking up with another released dormouse population 3 miles away by managing the land between. The goal is to create a wider landscape for dormice and that will make the population more robust.</p><p>Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents. This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost with much remaining woodland sliced up by roads railways and fields. England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects. All this has had an adverse effect on dormouse populations.</p><p>'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. 'They are a fascinating species that is rare but you can still see. They promote good woodland management and what's good for dormice is good for a large range of species.'</p><p>Helen Meech the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside said that such reintroductions would increase people's familiarity with living with more wild animals once again. People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons she explained. 'We are increasingly disconnected from nature. In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose but let's start with species that will have a lighter impact for now.'</p><p>Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce.</p><p><strong>The lynx</strong> is believed to have disappeared from Britain about 1000 years ago. Experts say it would help control the fast growing population of red deer allowing forests to regenerate and support greater biodiversity. The preference of the lynx a shy animal to stay in its woodland habitat would make a threat to livestock or humans unlikely.</p><p><strong>The beaver</strong> - After an absence of 400 years beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction in Knapdale forest in 2009 was hailed an outstanding success but an unlicensed free living population in the river Tay has caused problems.</p><p><strong>The wolf</strong> - Lost to Britain in the 1700s the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock. But they are critical to the restoration of ecosystems that have been overgrazed by deer. Despite their fearsome reputation they present a low risk to people. Because of the space a wolf population would need the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.</p><p><strong>The sea eagle</strong> also known as the white tailed eagle was driven to extinction in Britain earlier this century. A reintroduction programme has seen it return to the Inner Hebrides island of Mull. Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock. Successful schemes in Europe have offered compensation for this.</p><p><strong>The wild boar</strong> disappeared in the 13th century because of hunting. They increase biodiversity and create space for trees and plants to grow but can cause damage to crops and gardens. The species has been quietly re-establishing itself in the woodlands of Britain for several decades.</p>",
                         "questions": [
                             {
-                                "type": "matchingHeadings",
-                                "instructions": "Choose the correct heading for each section from the list of headings below.",
-                                "headings": [
-                                    {
-                                        "number": "i",
-                                        "text": "Why emojis may have a short life"
-                                    },
-                                    {
-                                        "number": "ii",
-                                        "text": "Ways in which new emojis are designed and made available"
-                                    },
-                                    {
-                                        "number": "iii",
-                                        "text": "How words and emojis both fulfil new needs in our society"
-                                    },
-                                    {
-                                        "number": "iv",
-                                        "text": "How emojis are regarded in different ways by different cultures"
-                                    },
-                                    {
-                                        "number": "v",
-                                        "text": "The use of emojis in different fields and what this means for us"
-                                    },
-                                    {
-                                        "number": "vi",
-                                        "text": "The rapid spread of a new way of interacting"
-                                    },
-                                    {
-                                        "number": "vii",
-                                        "text": "How and where emojis were first invented"
-                                    },
-                                    {
-                                        "number": "viii",
-                                        "text": "The value of emojis for making feelings clear"
-                                    }
-                                ],
+                                "type": "summaryCompletion",
+                                "title": "Questions 28-31",
+                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
+                                "summaryTitle": "The procedure for the dormouse reintroduction in Wensleydale",
+                                "summary": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First members of PTES had to choose a suitable wooded area for them. Then {28} gave them a thorough check. The team divided the animals into {29} before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially the dormice could not get out but the team brought {30} on a regular basis. Once the dormice got used to their new environment a gap was cut in the netting so they could go out and return when they wanted. Then before the animals were ready to start their annual {31} in the autumn, the team took their temporary homes away.",
                                 "items": [
                                     {
                                         "number": 28,
-                                        "section": "A",
-                                        "answer": "vi"
+                                        "answer": "vets"
                                     },
                                     {
                                         "number": 29,
-                                        "section": "B",
-                                        "answer": "iii"
+                                        "answer": "pairs"
                                     },
                                     {
                                         "number": 30,
-                                        "section": "C",
-                                        "answer": "viii"
+                                        "answer": "food"
                                     },
                                     {
                                         "number": 31,
-                                        "section": "D",
-                                        "answer": "i"
-                                    },
-                                    {
-                                        "number": 32,
-                                        "section": "E",
-                                        "answer": "v"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "summaryCompletion",
-                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
-                                "title": "The importance of the 'face with tears of joy'",
-                                "summary": "It is probable that before long, an emoji such as the 'face with tears of joy' will seem {33}. This is of interest as it tells us about developments in {34}, providing an effective way to focus on both the {35} and the future of human communication. Changes in language reflect changes in people's relationships. They reflect the ways in which the {36} of groups and generations changes over time, and they allow new {37} to be included. However, emojis are interesting as they are a system that expresses these ideas in a completely new way.",
-                                "items": [
-                                    {
-                                        "number": 33,
-                                        "answer": "dated"
-                                    },
-                                    {
-                                        "number": 34,
-                                        "answer": "society"
-                                    },
-                                    {
-                                        "number": 35,
-                                        "answer": "history"
-                                    },
-                                    {
-                                        "number": 36,
-                                        "answer": "identity"
-                                    },
-                                    {
-                                        "number": 37,
-                                        "answer": "concepts"
+                                        "answer": "hibernation"
                                     }
                                 ]
                             },
                             {
                                 "type": "multipleChoice",
+                                "title": "Questions 32-36",
+                                "instructions": "Choose the correct letter, A, B, C or D.",
                                 "items": [
                                     {
-                                        "number": 38,
-                                        "question": "What does the writer say about 'Words of the Year'?",
+                                        "number": 32,
+                                        "text": "What does Ian White say about the Wensleydale reintroduction?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "They include increasing numbers of emojis."
+                                                "text": "It has been more successful than other reintroductions."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "They are soon forgotten by the public."
+                                                "text": "It could fail for a number of reasons."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "They are required to have social significance."
+                                                "text": "It is the largest reintroduction of dormice yet."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "They are invented by the writers of dictionaries."
+                                                "text": "It has taught him useful lessons for future projects."
                                             }
                                         ],
                                         "answer": "B"
                                     },
                                     {
-                                        "number": 39,
-                                        "question": "The writer says that the usefulness of emojis is limited because",
+                                        "number": 33,
+                                        "text": "What is special about this particular reintroduction?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "they are constantly being changed."
+                                                "text": "The dormice are being studied by scientists."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "they may not be correctly interpreted."
+                                                "text": "It will create a link between two groups of dormice."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "they are difficult for some people to update."
+                                                "text": "The dormice will be protected from predators."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "they are linked to specific operating systems."
+                                                "text": "Local residents will help to care for the dormice."
+                                            }
+                                        ],
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 34,
+                                        "text": "In what ways did coppicing help dormice?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "It provided them with materials for their nests."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It protected them from predators."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It ensured they had a variety of things to eat and enough light."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It created corridors for them to travel through."
+                                            }
+                                        ],
+                                        "answer": "C"
+                                    },
+                                    {
+                                        "number": 35,
+                                        "text": "Why does Ian White think dormouse reintroductions are a good idea?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "They stop woodlands from being neglected."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "They attract tourists to the British countryside."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "They get people interested in protecting the environment."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "They help woodlands to recover from damage caused by deer."
+                                            }
+                                        ],
+                                        "answer": "C"
+                                    },
+                                    {
+                                        "number": 36,
+                                        "text": "What does Helen Meech say about reintroducing larger species?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "It could happen in the future."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It is not a practical idea."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It would threaten native species."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It would be popular with the public."
                                             }
                                         ],
                                         "answer": "A"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "matching",
+                                "title": "Questions 37-40",
+                                "instructions": "Look at the following statements and the list of animals below. Match each statement with the correct animal, A-E.",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E"
+                                ],
+                                "optionLabels": {
+                                    "A": "The lynx",
+                                    "B": "The beaver",
+                                    "C": "The wolf",
+                                    "D": "The sea eagle",
+                                    "E": "The wild boar"
+                                },
+                                "items": [
+                                    {
+                                        "number": 37,
+                                        "statement": "Plans to reintroduce this animal to one part of Britain were rejected by local people.",
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 38,
+                                        "statement": "This animal has had both positive and negative effects since returning to Britain.",
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 39,
+                                        "statement": "The reintroduction of this animal could bring significant financial benefits to an area.",
+                                        "answer": "C"
                                     },
                                     {
                                         "number": 40,
-                                        "question": "What would be the best subtitle for this text?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "Will emojis take over from words one day?"
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "How can emojis be made more meaningful?"
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "Are emojis used too much in our society today?"
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "What do emojis tell us about the world we live in?"
-                                            }
-                                        ],
-                                        "answer": "D"
+                                        "statement": "This animal has been returning to Britain without any official programme.",
+                                        "answer": "E"
                                     }
                                 ]
                             }
