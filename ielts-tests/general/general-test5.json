@@ -1,10 +1,10 @@
 {
-    "id": 6,
-    "name": "IELTS General Training - Test 6",
-    "subtitle": "Cambridge IELTS 17 General Training Test 4",
+    "id": 5,
+    "name": "IELTS General Training - Test 5",
+    "subtitle": "Cambridge IELTS 17 General Training Test 3",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 6",
+        "title": "General Training Reading Test 5",
         "sections": [
             {
                 "id": 1,
@@ -13,64 +13,62 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "Outdoor Activities For All The Family",
-                        "content": "<p><strong>A Perry Forest</strong></p><p>Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults. Every Saturday and Sunday throughout the year our experts lead several walks. So whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill we have something for you.</p><p><strong>B Pugsley Beach Nature Reserve</strong></p><p>The reserve has plenty of wildlife whatever the time of year with its numerous species of birds and plants that grow hardly anywhere else but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close up views of all this and hot drinks and snacks are available to help you keep warm.</p><p><strong>C Marston Hill</strong></p><p>If you ever wonder what wildlife trusts do for the environment come to Marston Hall where our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures. They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.</p><p><strong>D Craven Discovery Centre</strong></p><p>Here at the discovery centre youngsters are introduced to the animals in our petting zoo where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile the adults can take part in our woodland activities such as learning basic woodworking skills.</p><p><strong>E Shelford Family Wild Outing</strong></p><p>Go birdwatching or catch insects as daylight fades then have a gentle jog along the River Wale by moonlight and end by toasting marshmallows on a campfire. It's all part of a Family Wild Outing in Shelford organised by the local wildlife trust. Ideal for both adults and children.</p><p><strong>F Garston Park</strong></p><p>Come to Garston Park when the sun has set and explore the solar system. Ideal for children and their parents who are interested in astronomy. Our experts will help you to find your way among the stars and then we gather in the visitor centre for refreshments. Please note that events are cancelled if the weather is cloudy.</p>",
-                        "questions": [
+                        "title": "Five walks in the
+
+
+
+ countryside","content": "<p><strong>A Ch
+
+
+sterton Woods</strong></p><p>This 3-mile walk takes you through ancient woodland. There are no steep hills and it's perfect for a leisurely afternoon. The path is well-shaded by trees throughout, making it ideal for hot summer days. Dogs are welcome but must be kept on leads at all times.</p><p><strong>B Highfield Ridge</strong></p><p>A challenging 5-mile route with spectacular views. The path climbs steeply in places so a reasonable level of fitness is required. There is little shelter from the sun along the exposed ridge. Several benches are placed at viewpoints where you can rest and admire the scenery.</p><p><strong>C Riverside Trail</strong></p><p>Follow the river for 4 miles through meadows and past a bird hide where you can observe local wildlife. Dogs may run freely in designated areas. Picnic tables are available at the halfway point.</p><p><strong>D Lakeside Loop</strong></p><p>An easy 2-mile circular walk around the lake. The wildlife observation platform offers excellent views of nesting waterfowl. There is one short steep section near the dam. Dogs must be on leads near the wildlife areas.</p><p><strong>E Moorland Path</strong></p><p>A 6-mile route across open moorland with very little shade. The terrain is mostly flat but can be boggy after rain. You may choose to take the shorter 3-mile alternative if conditions are difficult. Dogs are not permitted due to ground-nesting birds.</p>","questions": [
                             {
                                 "type": "matching",
-                                "title": "Questions 1-7",
-                                "instructions": "The text above has 6 advertisements A-F. Which advertisement mentions the following?",
+                                "title": "Questions 1-6",
+                                "instructions": "Look at the five descriptions of walks, A-E. For which walk are the following statements true? Write the correct letter, A-E, in boxes 1-6 on your answer sheet. NB You may use any letter more than once.",
                                 "options": [
                                     "A",
                                     "B",
                                     "C",
                                     "D",
-                                    "E",
-                                    "F"
+                                    "E"
                                 ],
                                 "optionLabels": {
-                                    "A": "Perry Forest",
-                                    "B": "Pugsley Beach Nature Reserve",
-                                    "C": "Marston Hill",
-                                    "D": "Craven Discovery Centre",
-                                    "E": "Shelford Family Wild Outing",
-                                    "F": "Garston Park"
+                                    "A": "Chesterton Woods",
+                                    "B": "Highfield Ridge",
+                                    "C": "Riverside Trail",
+                                    "D": "Lakeside Loop",
+                                    "E": "Moorland Path"
                                 },
                                 "items": [
                                     {
                                         "number": 1,
-                                        "statement": "activities that happen after dark",
+                                        "statement": "There is very little shade.",
                                         "answer": "E"
                                     },
                                     {
                                         "number": 2,
-                                        "statement": "animals that live in the sea",
+                                        "statement": "There are some steep sections.",
                                         "answer": "B"
                                     },
                                     {
                                         "number": 3,
-                                        "statement": "activities for parents while children are occupied",
+                                        "statement": "There is a choice of route on this walk.",
                                         "answer": "D"
                                     },
                                     {
                                         "number": 4,
-                                        "statement": "a chance to learn about what animals eat",
+                                        "statement": "There is a special site for watching wildlife.",
                                         "answer": "A"
                                     },
                                     {
                                         "number": 5,
-                                        "statement": "something to eat and drink while watching wildlife",
+                                        "statement": "Dogs must not be allowed to run freely.",
                                         "answer": "C"
                                     },
                                     {
                                         "number": 6,
-                                        "statement": "activities during the day that take place whatever the weather",
+                                        "statement": "You can sit down in several places.",
                                         "answer": "B"
-                                    },
-                                    {
-                                        "number": 7,
-                                        "statement": "an activity that may be cancelled",
-                                        "answer": "C"
                                     }
                                 ]
                             }
@@ -78,47 +76,52 @@
                     },
                     {
                         "id": "1b",
-                        "title": "Hinchingbrooke School Sixth Form",
-                        "content": "<p>Hinchingbrooke School consists of the lower school for students aged 11 to 16 and the sixth form for ages 16 to 18+. In the sixth form we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace. We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.</p><p>While the majority of sixth form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area. We pride ourselves on giving these external students a particularly warm welcome. We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.</p><p>If you are an internal student please apply through the MyChoice16 application system. This is also where external students need to view course information. If you are an external student whose current school does use this application for online applications please see our website for an application form to the school. We hold an annual open evening in the autumn term when you can come and view our facilities and ask any questions you may have.</p><p>Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud of and each of our students is treated as an individual. You will be assigned a professional sixth form tutor who will provide you with support and guidance and will responsible for helping you make sensible choices about your future career path.</p><p>You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself in agreement with your tutor and subject teachers and your progress towards achieving these targets will be monitored in your tutor meetings.</p>",
+                        "title": "Renting a flat with Poppi Properties",
+                        "content": "<p>Sally Hanugoldi describes her experience of renting from Poppi Properties.</p><p>I moved to the area three years ago when I started my new job. I needed somewhere to live quickly, so I contacted several letting agents. Poppi Properties got back to me the fastest and arranged for me to see a flat the very next day. When I arrived, there were already two other people waiting to view it, but I was taken in first. The flat was on the third floor - I had hoped for one higher up with better views, but it was in my price range so I decided to take it.</p><p>The letting agent, Lillee, was friendly and helpful from the start and continued to be so throughout my time there. She arranged for the place to be cleaned before I moved in and even helped me carry some boxes upstairs. The flat came fully furnished which was ideal for me as I didn't have much of my own furniture at that point.</p><p>After living there for about a year, I noticed that the carpets were looking quite worn. I mentioned this to Lillee and she arranged for them to be professionally cleaned at no extra cost to me. The landlord kept the rent at the same level during my entire tenancy which I really appreciated. After two and a half years I decided to buy my own place and moved out. I would definitely recommend Poppi Properties to anyone looking for rented accommodation.</p>",
                         "questions": [
                             {
                                 "type": "trueFalseNotGiven",
-                                "title": "Questions 8-14",
-                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "title": "Questions 7-14",
+                                "instructions": "Do the following statements agree with the information given in the text? In boxes 7-14 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
                                 "items": [
                                     {
+                                        "number": 7,
+                                        "statement": "Sally Hanugoldi is still renting a property with Poppi Properties.",
+                                        "answer": "FALSE"
+                                    },
+                                    {
                                         "number": 8,
-                                        "statement": "The school offers advice and help to all its sixth form students on the best career path to take.",
+                                        "statement": "Sally Hanugoldi was the first person to view the flat.",
                                         "answer": "TRUE"
                                     },
                                     {
                                         "number": 9,
-                                        "statement": "In recent years an increasing number of students who wanted to become doctors have successfully got into medical school.",
+                                        "statement": "Sally made a quick decision to rent the property.",
                                         "answer": "TRUE"
                                     },
                                     {
                                         "number": 10,
-                                        "statement": "Most sixth form students come to the school from other schools.",
+                                        "statement": "The flat was on a lower level than Sally had expected.",
                                         "answer": "FALSE"
                                     },
                                     {
                                         "number": 11,
-                                        "statement": "The school requires all external students to apply using the same method.",
+                                        "statement": "Lillee's behaviour towards Sally changed over time.",
                                         "answer": "NOT GIVEN"
                                     },
                                     {
                                         "number": 12,
-                                        "statement": "The annual open evening is held in the first term.",
+                                        "statement": "The flat that Sally rented from Poppi Properties was unfurnished.",
                                         "answer": "FALSE"
                                     },
                                     {
                                         "number": 13,
-                                        "statement": "The school allows students to change the class they are in if they want to.",
+                                        "statement": "Sally employed someone to clean her carpets.",
                                         "answer": "NOT GIVEN"
                                     },
                                     {
                                         "number": 14,
-                                        "statement": "Students meet with the tutor every two weeks.",
+                                        "statement": "The landlord raised Sally's rent while she was living in the flat.",
                                         "answer": "FALSE"
                                     }
                                 ]
@@ -134,56 +137,56 @@
                 "passages": [
                     {
                         "id": "2a",
-                        "title": "Tree Cutters At Work",
-                        "content": "<p>Today the tree cutting team consists of myself, Gary and Mikael. We are going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday not a working day for the yard and it is far easier to remove a tree when no one else is around. As supervisor I first pop into our office to sort out the paperwork for the day which includes the risk assessments. Then I look at the most up to date weather forecast as wind and rain make our job much more difficult. Luckily we have picked a good day.</p><p>Next we load up the equipment – things like petrol driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools etc. must all go on the truck before the three of us set off. On arrival at the site we have a quick discussion on the procedure for the day. After that one of us – today it's Gary – goes up the tree to quickly select his anchor point. This is the position from which he will cut down the tree. It must be high enough to enable access throughout the tree's branches but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard so we make good progress during the morning and start our wood pile there.</p><p>Having removed the more accessible branches we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down. When they are cut these will fall further away outside the boundary of the yard. On the other side of the perimeter fence is a wide grass verge and then a footpath where I set up a number of signs to alert the public to our activities. Working alongside a road requires vigilance so I monitor the movements of pedestrians and as Gary starts work I watch what he is doing so I can ensure safety. Once the branches are on the ground I throw them back over the fence to Mikael who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.</p>",
+                        "title": "Raising a grievance at work",
+                        "content": "<p>If you have a problem at work that you can't resolve informally, you may need to raise a formal grievance. Here's how the process typically works.</p><p><strong>Step 1: Initial approach</strong></p><p>First, you should ask to speak to your immediate manager on an informal basis. Explain the problem and try to find a solution between you. If this doesn't work, you should look up your company's formal grievance procedure. This is usually contained in a handbook, a noticeboard or sometimes on the company intranet.</p><p><strong>Step 2: Put it in writing</strong></p><p>You will need to write to your employer setting out the details of your complaint. You may also wish to suggest a solution to the problem. Make sure your letter is dated and keep a copy for yourself.</p><p><strong>Step 3: The meeting</strong></p><p>Your employer should then arrange a meeting to discuss your grievance. You have the legal right to bring someone with you to this meeting. This could be a colleague or an official from your trade union.</p><p><strong>Step 4: The decision</strong></p><p>After the meeting, your employer must inform you of their decision in writing. If you are unhappy with the outcome, you have the right to appeal.</p><p><strong>Step 5: The appeal</strong></p><p>If you decide to appeal, your employer should arrange another meeting. Ideally, this should be chaired by a manager who is senior to the one who made the original decision.</p><p><strong>Step 6: Further action</strong></p><p>If you remain dissatisfied after the appeal, you may consider other options such as mediation. In some cases, you may wish to take your complaint to an employment tribunal. However, you should be aware that there are strict time limits for doing this - normally within three months of the event you are complaining about.</p>",
                         "questions": [
                             {
-                                "type": "noteCompletion",
+                                "type": "flowchartCompletion",
                                 "title": "Questions 15-21",
-                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
-                                "noteTitle": "Cutting down a big tree",
+                                "instructions": "Complete the flow chart below. Choose ONE WORD ONLY from the text for each answer.",
+                                "noteTitle": "Raising a grievance at work",
                                 "items": [
                                     {
                                         "number": 15,
-                                        "textBefore": "The site supervisor checks the paperwork and the latest information on the weather first. Chainsaws, clothing and all",
-                                        "textAfter": "are then loaded onto the lorry.",
-                                        "answer": "tools"
+                                        "textBefore": "Ask to see your immediate manager on an",
+                                        "textAfter": "basis.",
+                                        "answer": "informal"
                                     },
                                     {
                                         "number": 16,
-                                        "textBefore": "The team talk briefly at the site about the overall",
-                                        "textAfter": "before the work begins.",
-                                        "answer": "procedure"
+                                        "textBefore": "If not satisfied, find details of your company's grievance procedure. This may be in a handbook, a",
+                                        "textAfter": "or on an intranet site.",
+                                        "answer": "noticeboard"
                                     },
                                     {
                                         "number": 17,
-                                        "textBefore": "The climber's anchor point must have the necessary height and",
-                                        "textAfter": "for the job.",
-                                        "answer": "strength"
+                                        "textBefore": "Write to your employer with details of your complaint. You may also suggest a",
+                                        "textAfter": ". Make sure there is a date on your letter and keep a copy.",
+                                        "answer": "solution"
                                     },
                                     {
                                         "number": 18,
-                                        "textBefore": "The first branches are cut and placed in a pile in the yard. A pulley and some",
-                                        "textAfter": "assist in the removal of the top branches.",
-                                        "answer": "rope"
+                                        "textBefore": "Your employer should hold a meeting. You have the right to be accompanied by a",
+                                        "textAfter": "or a trade union representative.",
+                                        "answer": "colleague"
                                     },
                                     {
                                         "number": 19,
-                                        "textBefore": "At this point signs are placed on the",
-                                        "textAfter": ".",
-                                        "answer": "footpath"
+                                        "textBefore": "Your employer should then inform you of the decision in writing. If you are not happy with the decision, you can appeal in writing. Your employer should then arrange a further meeting. Where possible, this should be led by a manager who is",
+                                        "textAfter": "to the previous one.",
+                                        "answer": "senior"
                                     },
                                     {
                                         "number": 20,
-                                        "textBefore": "For safety the actions of both the tree cutter and",
-                                        "textAfter": "must be regularly checked.",
-                                        "answer": "pedestrians"
+                                        "textBefore": "If you are still not happy with the decision, you can think about the possibility of",
+                                        "textAfter": ".",
+                                        "answer": "mediation"
                                     },
                                     {
                                         "number": 21,
-                                        "textBefore": "A special machine creates",
-                                        "textAfter": "out of some of the wood.",
-                                        "answer": "chippings"
+                                        "textBefore": "make an employment tribunal claim. This must be done within",
+                                        "textAfter": "of the date of the event.",
+                                        "answer": "three months"
                                     }
                                 ]
                             }
@@ -208,11 +211,11 @@
                                     {
                                         "cells": [
                                             "Residential plumber",
-                                            "Works in narrow spaces; must be careful about drilling into 22 ___",
+                                            "Works in 22 ___ spaces; must be careful about drilling into floors",
                                             "Needs to consider how other 23 ___ may be affected"
                                         ],
                                         "answers": {
-                                            "22": "floors",
+                                            "22": "narrow",
                                             "23": "tradespeople"
                                         }
                                     },
@@ -224,25 +227,25 @@
                                         ],
                                         "answers": {
                                             "24": "instructions",
-                                            "25": "steel",
+                                            "25": "(reinforcing) steel",
                                             "26": "cognitive ability"
                                         }
                                     },
                                     {
                                         "cells": [
                                             "Service plumber",
-                                            "Needs to find out what the problem is; often customers are upset or 27 ___",
+                                            "Needs to find out what the problem is; often customers are upset or facing 27 ___",
                                             "Needs good mechanical and people skills"
                                         ],
                                         "answers": {
-                                            "27": "disrupted"
+                                            "27": "inconvenience"
                                         }
                                     }
                                 ],
                                 "items": [
                                     {
                                         "number": 22,
-                                        "answer": "floors"
+                                        "answer": "narrow"
                                     },
                                     {
                                         "number": 23,
@@ -254,7 +257,7 @@
                                     },
                                     {
                                         "number": 25,
-                                        "answer": "steel"
+                                        "answer": "(reinforcing) steel"
                                     },
                                     {
                                         "number": 26,
@@ -262,7 +265,7 @@
                                     },
                                     {
                                         "number": 27,
-                                        "answer": "disrupted"
+                                        "answer": "inconvenience"
                                     }
                                 ]
                             }
@@ -277,194 +280,256 @@
                 "passages": [
                     {
                         "id": "3a",
-                        "title": "Why It Is Important To Save Species Like The Dormouse",
-                        "content": "<p>More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England rare dormice have returned to a secret woodland location there. Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain's most threatened mammals. This reintroduction led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups is the 22nd in the last 23 years. Dormice depend on well managed woodlands and healthy connected hedgerows for their survival. But changes in land use since the 1940s have been so dramatic that the dormice that remain have limited living space and are increasingly isolated.</p><p>Ahead of the release the PTES found a site of dense good quality woodland while the captive bred dormice waited in quarantine. After examination by vets the dormice were placed in their soft release accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a meter square cage. For 10 days the dormice were checked and given food daily then a small opening was made allowing them the freedom to explore while retaining the security of the cage. Everything was removed in October when the animals started preparing to go into hibernation for the winter.</p><p>'The hope is that we have a free living population in the wood but we won't know how they have fared until next year' said Ian White of the PTES. Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes. However a distinctive factor of this release White explained is the intention of linking up with another released dormouse population 3 miles away by managing the land between. The goal is to create a wider landscape for dormice and that will make the population more robust.</p><p>Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents. This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost with much remaining woodland sliced up by roads railways and fields. England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects. All this has had an adverse effect on dormouse populations.</p><p>'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. 'They are a fascinating species that is rare but you can still see. They promote good woodland management and what's good for dormice is good for a large range of species.'</p><p>Helen Meech the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside said that such reintroductions would increase people's familiarity with living with more wild animals once again. People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons she explained. 'We are increasingly disconnected from nature. In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose but let's start with species that will have a lighter impact for now.'</p><p>Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce.</p><p><strong>The lynx</strong> is believed to have disappeared from Britain about 1000 years ago. Experts say it would help control the fast growing population of red deer allowing forests to regenerate and support greater biodiversity. The preference of the lynx a shy animal to stay in its woodland habitat would make a threat to livestock or humans unlikely.</p><p><strong>The beaver</strong> - After an absence of 400 years beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction in Knapdale forest in 2009 was hailed an outstanding success but an unlicensed free living population in the river Tay has caused problems.</p><p><strong>The wolf</strong> - Lost to Britain in the 1700s the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock. But they are critical to the restoration of ecosystems that have been overgrazed by deer. Despite their fearsome reputation they present a low risk to people. Because of the space a wolf population would need the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.</p><p><strong>The sea eagle</strong> also known as the white tailed eagle was driven to extinction in Britain earlier this century. A reintroduction programme has seen it return to the Inner Hebrides island of Mull. Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock. Successful schemes in Europe have offered compensation for this.</p><p><strong>The wild boar</strong> disappeared in the 13th century because of hunting. They increase biodiversity and create space for trees and plants to grow but can cause damage to crops and gardens. The species has been quietly re-establishing itself in the woodlands of Britain for several decades.</p>",
+                        "title": "Saving endangered wildlife",
+                        "content": "<p>Many species of wildlife are under threat, and conservationists are working hard to save them. Here we look at some of the methods being used.</p><p><strong>Captive breeding programmes</strong></p><p>When a species is critically endangered, zoos and wildlife parks sometimes step in to help by breeding animals in captivity. The aim is usually to release the animals back into the wild once numbers have recovered. For this to work, vets and animal keepers need to ensure the animals remain healthy and are able to breed successfully.</p><p><strong>Habitat protection</strong></p><p>Perhaps the most important thing we can do to protect wildlife is to preserve their natural habitats. Many species live in pairs or in family groups, and they need sufficient territory to find food and raise their young. Destroying forests or draining wetlands removes the places where animals can live and find food.</p><p><strong>Reintroduction programmes</strong></p><p>Once a species has been bred in captivity, or if a population has been wiped out in one area but survives elsewhere, animals may be released into suitable habitat. Before this happens, scientists must ensure the area has enough food for the animals, and that the threats which caused the original decline have been removed.</p><p><strong>Research and monitoring</strong></p><p>Understanding animal behaviour is crucial for conservation. Scientists study how animals find food, where they travel, and how they interact with their environment. Some species undergo a period of hibernation during winter months, and researchers need to understand these patterns to protect them effectively.</p><p><strong>Community involvement</strong></p><p>Local communities often play a vital role in conservation. When people understand the value of wildlife, they are more likely to protect it. Many conservation projects now work closely with local villages, providing employment and education opportunities.</p>",
                         "questions": [
                             {
-                                "type": "summaryCompletion",
+                                "type": "noteCompletion",
                                 "title": "Questions 28-31",
-                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
-                                "summaryTitle": "The procedure for the dormouse reintroduction in Wensleydale",
-                                "summary": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First members of PTES had to choose a suitable wooded area for them. Then {28} gave them a thorough check. The team divided the animals into {29} before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially the dormice could not get out but the team brought {30} on a regular basis. Once the dormice got used to their new environment a gap was cut in the netting so they could go out and return when they wanted. Then before the animals were ready to start their annual {31} in the autumn, the team took their temporary homes away.",
+                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the passage for each answer.",
+                                "noteTitle": "Saving endangered wildlife",
                                 "items": [
                                     {
                                         "number": 28,
+                                        "textBefore": "Captive breeding: Animals are bred in zoos. Need healthy animals -",
+                                        "textAfter": "and keepers look after them.",
                                         "answer": "vets"
                                     },
                                     {
                                         "number": 29,
+                                        "textBefore": "Habitat protection: Animals often live in",
+                                        "textAfter": "or family groups.",
                                         "answer": "pairs"
                                     },
                                     {
                                         "number": 30,
+                                        "textBefore": "Reintroduction: Check there is enough",
+                                        "textAfter": "for the animals.",
                                         "answer": "food"
                                     },
                                     {
                                         "number": 31,
+                                        "textBefore": "Research: Some species undergo",
+                                        "textAfter": "in winter.",
                                         "answer": "hibernation"
                                     }
                                 ]
                             },
                             {
                                 "type": "multipleChoice",
-                                "title": "Questions 32-36",
+                                "title": "Questions 32-40",
                                 "instructions": "Choose the correct letter, A, B, C or D.",
                                 "items": [
                                     {
                                         "number": 32,
-                                        "text": "What does Ian White say about the Wensleydale reintroduction?",
+                                        "text": "What is the main purpose of captive breeding programmes?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "It has been more successful than other reintroductions."
+                                                "text": "to keep animals in zoos for public display"
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "It could fail for a number of reasons."
+                                                "text": "to study animal behaviour in controlled conditions"
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "It is the largest reintroduction of dormice yet."
+                                                "text": "to increase animal numbers for release into the wild"
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "It has taught him useful lessons for future projects."
+                                                "text": "to provide employment for vets and keepers"
                                             }
                                         ],
-                                        "answer": "B"
-                                    },
-                                    {
-                                        "number": 33,
-                                        "text": "What is special about this particular reintroduction?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "The dormice are being studied by scientists."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It will create a link between two groups of dormice."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "The dormice will be protected from predators."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "Local residents will help to care for the dormice."
-                                            }
-                                        ],
-                                        "answer": "B"
-                                    },
-                                    {
-                                        "number": 34,
-                                        "text": "In what ways did coppicing help dormice?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "It provided them with materials for their nests."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It protected them from predators."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "It ensured they had a variety of things to eat and enough light."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "It created corridors for them to travel through."
-                                            }
-                                        ],
-                                        "answer": "C"
-                                    },
-                                    {
-                                        "number": 35,
-                                        "text": "Why does Ian White think dormouse reintroductions are a good idea?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "They stop woodlands from being neglected."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "They attract tourists to the British countryside."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "They get people interested in protecting the environment."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "They help woodlands to recover from damage caused by deer."
-                                            }
-                                        ],
-                                        "answer": "C"
-                                    },
-                                    {
-                                        "number": 36,
-                                        "text": "What does Helen Meech say about reintroducing larger species?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "It could happen in the future."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It is not a practical idea."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "It would threaten native species."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "It would be popular with the public."
-                                            }
-                                        ],
-                                        "answer": "A"
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "matching",
-                                "title": "Questions 37-40",
-                                "instructions": "Look at the following statements and the list of animals below. Match each statement with the correct animal, A-E.",
-                                "options": [
-                                    "A",
-                                    "B",
-                                    "C",
-                                    "D",
-                                    "E"
-                                ],
-                                "optionLabels": {
-                                    "A": "The lynx",
-                                    "B": "The beaver",
-                                    "C": "The wolf",
-                                    "D": "The sea eagle",
-                                    "E": "The wild boar"
-                                },
-                                "items": [
-                                    {
-                                        "number": 37,
-                                        "statement": "Plans to reintroduce this animal to one part of Britain were rejected by local people.",
                                         "answer": "D"
                                     },
                                     {
-                                        "number": 38,
-                                        "statement": "This animal has had both positive and negative effects since returning to Britain.",
+                                        "number": 33,
+                                        "text": "According to the passage, what is the most effective way to protect wildlife?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "preserving natural habitats"
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "breeding animals in captivity"
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "conducting scientific research"
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "involving local communities"
+                                            }
+                                        ],
+                                        "answer": "A"
+                                    },
+                                    {
+                                        "number": 34,
+                                        "text": "Before releasing animals into the wild, scientists must check that",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "the animals have been trained to hunt."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "there is adequate food in the area."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "local communities have agreed to the release."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "the animals can survive cold weather."
+                                            }
+                                        ],
                                         "answer": "B"
                                     },
                                     {
+                                        "number": 35,
+                                        "text": "Researchers study hibernation patterns because",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "it helps them understand how to breed animals."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "it is necessary for effective protection."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "hibernating animals are easier to capture."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "it shows where animals find food."
+                                            }
+                                        ],
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 36,
+                                        "text": "Local communities become involved in conservation when they",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "need to find new sources of income."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "are threatened by dangerous animals."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "are required to by law."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "appreciate the importance of wildlife."
+                                            }
+                                        ],
+                                        "answer": "D"
+                                    },
+                                    {
+                                        "number": 37,
+                                        "text": "What does the passage suggest about habitat destruction?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "It only affects large animals."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It is the main threat to wildlife."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It can be reversed easily."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It has been stopped in most areas."
+                                            },
+                                            {
+                                                "letter": "E",
+                                                "text": "It removes places for animals to live and find food."
+                                            }
+                                        ],
+                                        "answer": "E"
+                                    },
+                                    {
+                                        "number": 38,
+                                        "text": "Conservation projects working with villages provide",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "jobs and learning opportunities."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "food and shelter for animals."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "funding for research."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "land for nature reserves."
+                                            }
+                                        ],
+                                        "answer": "A"
+                                    },
+                                    {
                                         "number": 39,
-                                        "statement": "The reintroduction of this animal could bring significant financial benefits to an area.",
+                                        "text": "The original decline of species in an area is caused by",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "lack of food."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "unfavorable weather."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "various threats."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "disease."
+                                            }
+                                        ],
                                         "answer": "C"
                                     },
                                     {
                                         "number": 40,
-                                        "statement": "This animal has been returning to Britain without any official programme.",
-                                        "answer": "E"
+                                        "text": "What is needed for captive breeding to succeed?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "Large numbers of animals in the wild."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "Support from local communities."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "Sufficient funding for zoos."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "Healthy animals that can reproduce."
+                                            }
+                                        ],
+                                        "answer": "D"
                                     }
                                 ]
                             }
