@@ -55,22 +55,22 @@
                                     {
                                         "number": 4,
                                         "statement": "a chance to learn about what animals eat",
-                                        "answer": "C"
+                                        "answer": "A"
                                     },
                                     {
                                         "number": 5,
                                         "statement": "something to eat and drink while watching wildlife",
-                                        "answer": "B"
+                                        "answer": "C"
                                     },
                                     {
                                         "number": 6,
                                         "statement": "activities during the day that take place whatever the weather",
-                                        "answer": "A"
+                                        "answer": "B"
                                     },
                                     {
                                         "number": 7,
                                         "statement": "an activity that may be cancelled",
-                                        "answer": "F"
+                                        "answer": "C"
                                     }
                                 ]
                             }
@@ -104,12 +104,12 @@
                                     {
                                         "number": 11,
                                         "statement": "The school requires all external students to apply using the same method.",
-                                        "answer": "FALSE"
+                                        "answer": "NOT GIVEN"
                                     },
                                     {
                                         "number": 12,
                                         "statement": "The annual open evening is held in the first term.",
-                                        "answer": "TRUE"
+                                        "answer": "FALSE"
                                     },
                                     {
                                         "number": 13,
@@ -119,7 +119,7 @@
                                     {
                                         "number": 14,
                                         "statement": "Students meet with the tutor every two weeks.",
-                                        "answer": "TRUE"
+                                        "answer": "FALSE"
                                     }
                                 ]
                             }
