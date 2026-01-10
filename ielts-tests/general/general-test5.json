@@ -1,10 +1,10 @@
 {
-    "id": 5,
-    "name": "IELTS General Training - Test 5",
-    "subtitle": "Cambridge IELTS 17 General Training Test 3",
+    "id": 6,
+    "name": "IELTS General Training - Test 6",
+    "subtitle": "Cambridge IELTS 17 General Training Test 4",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 5",
+        "title": "General Training Reading Test 6",
         "sections": [
             {
                 "id": 1,
@@ -13,57 +13,64 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "Local countryside walks",
-                        "content": "<p><strong>A Grove Mill</strong></p><p>Take either the yellow path or the blue path – both eventually come out at the Old Water Mill and are at about the same level of difficulty. There is a shallow stream which runs alongside the yellow path. Dogs enjoy a swim here if it's hot and there are trees to help you cool while you wait.</p><p><strong>B Blackhill Trail</strong></p><p>Follow the marker posts carefully as you make your way through some dense forest. If you take a wrong turn as walkers often do your walk could end up being a lot longer than you expected. The sun may be shining but there is plenty of damp undergrowth so wear a tough pair of hiking boots if you don't want your feet to get wet. It isn't advisable to take small dogs on this trail.</p><p><strong>C Fern Way</strong></p><p>The route is winding but fairly flat and doesn't require any special footwear or equipment. It is accessed by a gate with a strong bolt to keep sheep and cows in the field. The path is lined on both sides by firs and some majestic redwoods that date back to the nineteenth century. There are benches along the way where you can rest and admire the beauty of the area.</p><p><strong>D Bay Red Valley</strong></p><p>Be prepared to go up and down a bit on this route. The first section is uphill then the path flattens out but not for long so you need to be fairly fit. The exercise is worth it though as there are some spectacular views across the valley. There is a viewing platform, from which you may be lucky enough to see one of the herds of deer that roam the area.</p><p><strong>E Brownwater Trail</strong></p><p>A circular path will take you past tree and plant species from around the world that are cared for by a dedicated team of volunteers. If you bring your dog keep it on a lead as the smaller shrubs can be easily destroyed. The path itself is open and unprotected so be sure to wear a hat or you could get sunburnt.</p>",
+                        "title": "Outdoor Activities For All The Family",
+                        "content": "<p><strong>A Perry Forest</strong></p><p>Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults. Every Saturday and Sunday throughout the year our experts lead several walks. So whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill we have something for you.</p><p><strong>B Pugsley Beach Nature Reserve</strong></p><p>The reserve has plenty of wildlife whatever the time of year with its numerous species of birds and plants that grow hardly anywhere else but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close up views of all this and hot drinks and snacks are available to help you keep warm.</p><p><strong>C Marston Hill</strong></p><p>If you ever wonder what wildlife trusts do for the environment come to Marston Hall where our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures. They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.</p><p><strong>D Craven Discovery Centre</strong></p><p>Here at the discovery centre youngsters are introduced to the animals in our petting zoo where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile the adults can take part in our woodland activities such as learning basic woodworking skills.</p><p><strong>E Shelford Family Wild Outing</strong></p><p>Go birdwatching or catch insects as daylight fades then have a gentle jog along the River Wale by moonlight and end by toasting marshmallows on a campfire. It's all part of a Family Wild Outing in Shelford organised by the local wildlife trust. Ideal for both adults and children.</p><p><strong>F Garston Park</strong></p><p>Come to Garston Park when the sun has set and explore the solar system. Ideal for children and their parents who are interested in astronomy. Our experts will help you to find your way among the stars and then we gather in the visitor centre for refreshments. Please note that events are cancelled if the weather is cloudy.</p>",
                         "questions": [
                             {
                                 "type": "matching",
-                                "title": "Questions 1-6",
-                                "instructions": "Look at the five descriptions of walks A-E. For which walk are the following statements true? Write the correct letter, A-E.",
+                                "title": "Questions 1-7",
+                                "instructions": "The text above has 6 advertisements A-F. Which advertisement mentions the following?",
                                 "options": [
                                     "A",
                                     "B",
                                     "C",
                                     "D",
-                                    "E"
+                                    "E",
+                                    "F"
                                 ],
                                 "optionLabels": {
-                                    "A": "Grove Mill",
-                                    "B": "Blackhill Trail",
-                                    "C": "Fern Way",
-                                    "D": "Bay Red Valley",
-                                    "E": "Brownwater Trail"
+                                    "A": "Perry Forest",
+                                    "B": "Pugsley Beach Nature Reserve",
+                                    "C": "Marston Hill",
+                                    "D": "Craven Discovery Centre",
+                                    "E": "Shelford Family Wild Outing",
+                                    "F": "Garston Park"
                                 },
                                 "items": [
                                     {
                                         "number": 1,
-                                        "statement": "This walk may be unsuitable on a sunny day.",
+                                        "statement": "activities that happen after dark",
                                         "answer": "E"
                                     },
                                     {
                                         "number": 2,
-                                        "statement": "This walk gives you the opportunity to see wild animals.",
-                                        "answer": "D"
+                                        "statement": "animals that live in the sea",
+                                        "answer": "B"
                                     },
                                     {
                                         "number": 3,
-                                        "statement": "Walkers may cool down on this walk.",
-                                        "answer": "A"
-                                    },
-                                    {
-                                        "number": 4,
-                                        "statement": "You need to be in good physical condition for this walk.",
+                                        "statement": "activities for parents while children are occupied",
                                         "answer": "D"
                                     },
                                     {
+                                        "number": 4,
+                                        "statement": "a chance to learn about what animals eat",
+                                        "answer": "C"
+                                    },
+                                    {
                                         "number": 5,
-                                        "statement": "Walkers need to control their dogs on this walk.",
-                                        "answer": "E"
+                                        "statement": "something to eat and drink while watching wildlife",
+                                        "answer": "B"
                                     },
                                     {
                                         "number": 6,
-                                        "statement": "You can see some very old trees on this walk.",
-                                        "answer": "C"
+                                        "statement": "activities during the day that take place whatever the weather",
+                                        "answer": "A"
+                                    },
+                                    {
+                                        "number": 7,
+                                        "statement": "an activity that may be cancelled",
+                                        "answer": "F"
                                     }
                                 ]
                             }
@@ -71,54 +78,48 @@
                     },
                     {
                         "id": "1b",
-                        "title": "Poppi Properties",
-                        "subtitle": "Review by Sally Hanugoldi",
-                        "content": "<p>I have had a terrible experience with Poppi Properties and as an ex-tenant I advise you to go elsewhere if you want to rent or buy a property – as I have now done. When I initially viewed my Poppi Properties flat I was accompanied by Lillee Eggerton one of the two staff who run the company. The flat was located close to the office where I have been working for the past year so I went there before the working day had begun. I knew immediately that it was the right property for me because of the convenient location and a few days later I paid the deposit and the first two months' rent. The flat was on the 12th floor which I admit was a surprise to me as I thought it was lower when I first read about it but Lillee was very encouraging and I felt confident that I was making the right choice. At this point she was professional and kind but once I had moved into the property I discovered that she was far less approachable than she had been during the viewing period and whenever I tried to contact her she was unavailable.</p><p>At the start of my tenancy a number of issues were unsatisfactory in the property. For example as a new tenant you have a right to expect your flat to be clean. In fact carpets should be professionally cleaned but mine had not even been hoovered. I had hoped that this problem would be addressed quickly but nothing happened and so I did the job myself. Similarly, the oven worked when I switched it on, but it was black inside and smelt horrible. The company did nothing so in the end I just avoided using the oven while I lived there. Several times I asked to speak to the landlord directly but was told this was not possible. No one should have to put up with these problems particularly when Poppi Properties charges such high rents.</p>",
+                        "title": "Hinchingbrooke School Sixth Form",
+                        "content": "<p>Hinchingbrooke School consists of the lower school for students aged 11 to 16 and the sixth form for ages 16 to 18+. In the sixth form we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace. We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.</p><p>While the majority of sixth form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area. We pride ourselves on giving these external students a particularly warm welcome. We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.</p><p>If you are an internal student please apply through the MyChoice16 application system. This is also where external students need to view course information. If you are an external student whose current school does use this application for online applications please see our website for an application form to the school. We hold an annual open evening in the autumn term when you can come and view our facilities and ask any questions you may have.</p><p>Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud of and each of our students is treated as an individual. You will be assigned a professional sixth form tutor who will provide you with support and guidance and will responsible for helping you make sensible choices about your future career path.</p><p>You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself in agreement with your tutor and subject teachers and your progress towards achieving these targets will be monitored in your tutor meetings.</p>",
                         "questions": [
                             {
                                 "type": "trueFalseNotGiven",
-                                "title": "Questions 7-14",
+                                "title": "Questions 8-14",
                                 "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
                                 "items": [
                                     {
-                                        "number": 7,
-                                        "statement": "Sally chose the flat because it was close to her workplace.",
-                                        "answer": "FALSE"
-                                    },
-                                    {
                                         "number": 8,
-                                        "statement": "Lillee Eggerton owns Poppi Properties.",
-                                        "answer": "NOT GIVEN"
+                                        "statement": "The school offers advice and help to all its sixth form students on the best career path to take.",
+                                        "answer": "TRUE"
                                     },
                                     {
                                         "number": 9,
-                                        "statement": "The flat was higher up than Sally had expected.",
+                                        "statement": "In recent years an increasing number of students who wanted to become doctors have successfully got into medical school.",
                                         "answer": "TRUE"
                                     },
                                     {
                                         "number": 10,
-                                        "statement": "Sally found Lillee helpful after she had moved into the property.",
+                                        "statement": "Most sixth form students come to the school from other schools.",
                                         "answer": "FALSE"
                                     },
                                     {
                                         "number": 11,
-                                        "statement": "Sally cleaned the carpets in her flat herself.",
-                                        "answer": "TRUE"
-                                    },
-                                    {
-                                        "number": 12,
-                                        "statement": "The oven in Sally's flat did not work.",
-                                        "answer": "NOT GIVEN"
-                                    },
-                                    {
-                                        "number": 13,
-                                        "statement": "Sally was able to contact the landlord of the property.",
+                                        "statement": "The school requires all external students to apply using the same method.",
                                         "answer": "FALSE"
                                     },
                                     {
-                                        "number": 14,
-                                        "statement": "The rent Sally paid was higher than average for the area.",
+                                        "number": 12,
+                                        "statement": "The annual open evening is held in the first term.",
+                                        "answer": "TRUE"
+                                    },
+                                    {
+                                        "number": 13,
+                                        "statement": "The school allows students to change the class they are in if they want to.",
                                         "answer": "NOT GIVEN"
+                                    },
+                                    {
+                                        "number": 14,
+                                        "statement": "Students meet with the tutor every two weeks.",
+                                        "answer": "TRUE"
                                     }
                                 ]
                             }
@@ -133,56 +134,56 @@
                 "passages": [
                     {
                         "id": "2a",
-                        "title": "Procedure for making a complaint at work",
-                        "content": "<p>If you have a problem or complaint at work you might want to take this up with your employer. This is called raising a grievance.</p><p>Often the best way to sort out a problem is to request an informal meeting with your immediate manager to explain your concerns. You may find it is possible to sort the problem out in this way without having to take any further action. However if you do not feel your problem has been solved you may decide to raise a formal grievance. In this case, you should first try to find out your company's grievance procedure. You should be able to find details of this in your Company Handbook, HR or Personnel manual or on your company's HR internal site.</p><p>The next step will probably be to write to your employer. Explain your problem and if you can think of a possible solution for resolving it give details of this. When you have written your letter check that you have written the date and retain a copy so that you have a record of what you wrote. Your employer should arrange an initial meeting at a reasonable time and place to discuss your grievance. You are entitled to ask either a colleague from work or a trade union representative to go to the meeting with you. After the meeting your employer should write to you telling you what they have decided to do about your grievance.</p><p>If you don't agree with your employer's decision you have the right to appeal against it – this must be done in writing. A further meeting should then be called which should be led by a more senior manager if possible. If you are still not satisfied with the decision made at this meeting you may consider whether one way to solve the problem might be through mediation. This can be done inside the company or by an external agent. Alternatively you can make an employment tribunal claim. You must do this no more than three months after the time when the event you are complaining about happened. If your application is received after this time limit the tribunal will not usually accept it.</p>",
+                        "title": "Tree Cutters At Work",
+                        "content": "<p>Today the tree cutting team consists of myself, Gary and Mikael. We are going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday not a working day for the yard and it is far easier to remove a tree when no one else is around. As supervisor I first pop into our office to sort out the paperwork for the day which includes the risk assessments. Then I look at the most up to date weather forecast as wind and rain make our job much more difficult. Luckily we have picked a good day.</p><p>Next we load up the equipment – things like petrol driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools etc. must all go on the truck before the three of us set off. On arrival at the site we have a quick discussion on the procedure for the day. After that one of us – today it's Gary – goes up the tree to quickly select his anchor point. This is the position from which he will cut down the tree. It must be high enough to enable access throughout the tree's branches but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard so we make good progress during the morning and start our wood pile there.</p><p>Having removed the more accessible branches we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down. When they are cut these will fall further away outside the boundary of the yard. On the other side of the perimeter fence is a wide grass verge and then a footpath where I set up a number of signs to alert the public to our activities. Working alongside a road requires vigilance so I monitor the movements of pedestrians and as Gary starts work I watch what he is doing so I can ensure safety. Once the branches are on the ground I throw them back over the fence to Mikael who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.</p>",
                         "questions": [
                             {
                                 "type": "noteCompletion",
                                 "title": "Questions 15-21",
                                 "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
-                                "noteTitle": "Raising a grievance at work",
+                                "noteTitle": "Cutting down a big tree",
                                 "items": [
                                     {
                                         "number": 15,
-                                        "textBefore": "Ask to see your immediate manager on an",
-                                        "textAfter": "basis",
-                                        "answer": "informal"
+                                        "textBefore": "The site supervisor checks the paperwork and the latest information on the weather first. Chainsaws, clothing and all",
+                                        "textAfter": "are then loaded onto the lorry.",
+                                        "answer": "tools"
                                     },
                                     {
                                         "number": 16,
-                                        "textBefore": "If not satisfied find details of your company's grievance procedure. This may be in a handbook,",
-                                        "textAfter": "or on an internet site",
-                                        "answer": "manual"
+                                        "textBefore": "The team talk briefly at the site about the overall",
+                                        "textAfter": "before the work begins.",
+                                        "answer": "procedure"
                                     },
                                     {
                                         "number": 17,
-                                        "textBefore": "Write to your employer with details of your complaint. You may also suggest a",
-                                        "textAfter": "Make sure there is a date on your letter and keep a copy.",
-                                        "answer": "solution"
+                                        "textBefore": "The climber's anchor point must have the necessary height and",
+                                        "textAfter": "for the job.",
+                                        "answer": "strength"
                                     },
                                     {
                                         "number": 18,
-                                        "textBefore": "Your employer should hold a meeting. You have the right to be accompanied by a",
-                                        "textAfter": "or a trade union representative.",
-                                        "answer": "colleague"
+                                        "textBefore": "The first branches are cut and placed in a pile in the yard. A pulley and some",
+                                        "textAfter": "assist in the removal of the top branches.",
+                                        "answer": "rope"
                                     },
                                     {
                                         "number": 19,
-                                        "textBefore": "Your employer should then inform you of the decision in writing. If you are not happy with the decision, you can appeal in writing. Your employer should then arrange a further meeting. Where possible this should be led by a manager who is",
-                                        "textAfter": "to the previous one",
-                                        "answer": "senior"
+                                        "textBefore": "At this point signs are placed on the",
+                                        "textAfter": ".",
+                                        "answer": "footpath"
                                     },
                                     {
                                         "number": 20,
-                                        "textBefore": "If you are still not happy with the decision you can think about the possibility of",
-                                        "textAfter": "",
-                                        "answer": "mediation"
+                                        "textBefore": "For safety the actions of both the tree cutter and",
+                                        "textAfter": "must be regularly checked.",
+                                        "answer": "pedestrians"
                                     },
                                     {
                                         "number": 21,
-                                        "textBefore": "make an employment tribunal claim. This must be done within",
-                                        "textAfter": "of the date of the event.",
-                                        "answer": "three months"
+                                        "textBefore": "A special machine creates",
+                                        "textAfter": "out of some of the wood.",
+                                        "answer": "chippings"
                                     }
                                 ]
                             }
@@ -190,49 +191,78 @@
                     },
                     {
                         "id": "2b",
-                        "title": "Driving a taxi or private hire vehicle",
-                        "content": "<p>Taxis are an important part of any town or city's transport system. Taxis have a licence plate and roof sign that states they are a taxi. As a taxi driver you might be booked in advance, wait on a taxi rank or pick up passengers while on the move. You could combine normal pick up jobs with prearranged contracts such as regular trips for schoolchildren or those unable to drive. You might also make longer distance trips such as taking people to airports. The other type of passenger transport is a private hire vehicle. As a private hire driver, you can only collect passengers who have pre-booked through your operator. You cannot be flagged down in the street.</p><p><strong>When working in a taxi or private hire vehicle you would:</strong></p><ul><li>Take job details over the radio from the operator at the office or by an in-car computer</li><li>Help to load and unload passengers' luggage</li><li>Assist passengers with any physical conditions that make it difficult for them to get in and out of the vehicle</li><li>Take payments</li><li>Keep the vehicle clean and roadworthy</li><li>Keep accounts and records if self-employed</li></ul><p><strong>Working conditions and skills</strong></p><p>You would spend most of your time on the road sometimes in heavy traffic and you would be constantly on the move. The job allows you to choose your hours but you will find more work in the evenings. You would work between 40 and 60 hours a week if full time. In the UK, 17% of taxi drivers are employed full time, 17% are employed part time and 66% are self-employed. As well as being a skilled driver you need to be good at communicating with people and helping customers. You must be tactful when dealing with problems and have good time management and numeracy skills.</p><p><strong>Requirements</strong></p><p>You will need a special licence from your local authority to be a taxi driver or private hire driver. For this you usually need to be over 21 years old, to have a clean current driving licence and to have been driving for at least 12 months. You may also need to pass a test of knowledge about the local geography. If you are using your own vehicle it will also need a special licence.</p><p>Many employers value additional driver training which could include the Advanced Driving Test offered by the Institute of Advanced Motorists. Evidence of basic mechanical skills, such as RQF level 4, would also be welcome.</p>",
+                        "title": "Plumbing Skills",
+                        "content": "<p>In a residential building such as a block of flats, underfloor jobs that involve plumbing mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 cm deep. In addition the floors are typically covered with a wood product, engineered to resemble solid wood that has very strict criteria as far as drilling and cutting are concerned. The plumber cannot just go in and cut holes and lay pipes. He must first think about what he is doing read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople before proceeding.</p><p>Commercial plumbers working on office buildings, hotels, restaurants etc. have the same issues and coordination problems as residential plumbers but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined. The equipment will have specific installation instructions so it is critical that the plumber has the cognitive ability to understand these. In addition often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.</p><p>Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively they must have complete knowledge of say a customer's shower until they are servicing even if they did not install it. They must have the ability to translate the symptoms they can see such as leaks and blockages into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue. Successful service plumbers not only need good mechanical skills but they typically need very good people skills to provide necessary support.</p>",
                         "questions": [
                             {
-                                "type": "sentenceCompletion",
+                                "type": "tableCompletion",
                                 "title": "Questions 22-27",
-                                "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the text for each answer.",
+                                "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
+                                "tableTitle": "Types of plumbers",
+                                "headers": [
+                                    "Type of plumber",
+                                    "Challenges",
+                                    "Skills needed"
+                                ],
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            "Residential plumber",
+                                            "Works in narrow spaces; must be careful about drilling into 22 ___",
+                                            "Needs to consider how other 23 ___ may be affected"
+                                        ],
+                                        "answers": {
+                                            "22": "floors",
+                                            "23": "tradespeople"
+                                        }
+                                    },
+                                    {
+                                        "cells": [
+                                            "Commercial plumber",
+                                            "Must be able to follow 24 ___; may need to X-ray floors and walls to avoid damaging 25 ___",
+                                            "Has the 26 ___ to understand complex documents"
+                                        ],
+                                        "answers": {
+                                            "24": "instructions",
+                                            "25": "steel",
+                                            "26": "cognitive ability"
+                                        }
+                                    },
+                                    {
+                                        "cells": [
+                                            "Service plumber",
+                                            "Needs to find out what the problem is; often customers are upset or 27 ___",
+                                            "Needs good mechanical and people skills"
+                                        ],
+                                        "answers": {
+                                            "27": "disrupted"
+                                        }
+                                    }
+                                ],
                                 "items": [
                                     {
                                         "number": 22,
-                                        "textBefore": "Private hire drivers only take passengers by arrangement with an",
-                                        "textAfter": ".",
-                                        "answer": "operator"
+                                        "answer": "floors"
                                     },
                                     {
                                         "number": 23,
-                                        "textBefore": "A driver's job may involve helping those with",
-                                        "textAfter": "problems.",
-                                        "answer": "physical"
+                                        "answer": "tradespeople"
                                     },
                                     {
                                         "number": 24,
-                                        "textBefore": "Working hours for drivers may vary but the greatest demand is in the",
-                                        "textAfter": ".",
-                                        "answer": "evenings"
+                                        "answer": "instructions"
                                     },
                                     {
                                         "number": 25,
-                                        "textBefore": "The majority of drivers are",
-                                        "textAfter": ".",
-                                        "answer": "self-employed"
+                                        "answer": "steel"
                                     },
                                     {
                                         "number": 26,
-                                        "textBefore": "A driver needs to be familiar with the",
-                                        "textAfter": "of the area.",
-                                        "answer": "geography"
+                                        "answer": "cognitive ability"
                                     },
                                     {
                                         "number": 27,
-                                        "textBefore": "It may be useful if a driver has evidence of some",
-                                        "textAfter": "ability.",
-                                        "answer": "mechanical"
+                                        "answer": "disrupted"
                                     }
                                 ]
                             }
@@ -247,172 +277,150 @@
                 "passages": [
                     {
                         "id": "3a",
-                        "title": "Forced rhubarb",
-                        "subtitle": "Rhubarb has large fan shaped leaves and long, green edible stalks which are commonly cooked with sugar to make pies and other desserts. One type of rhubarb is grown in the dark to produce longer, rosier stalks and this is called forced rhubarb.",
-                        "paragraphs": [
-                            {
-                                "label": "A",
-                                "content": "In the north of England, a cold winter is good news for some and not just snowmen and woolly hat makers. According to Yorkshire farmer David Westwood, this year's forced rhubarb is the best for years. Westwood, a softly spoken Yorkshireman, should know. He's been growing and selling rhubarb for 62 years since he started picking on the farm aged 11. His son Jonathan works on the farm too, making him the sixth generation of the Westwoods to grow the pink stems or petioles as they are otherwise known."
-                            },
-                            {
-                                "label": "B",
-                                "content": "We meet at his farm a few miles from the city of Wakefield which with the cities of Bradford and Leeds form the three points of the Rhubarb Triangle, the heart of the British rhubarb industry. 'It doesn't grow as well anywhere else,' insists Westwood. He has a number of theories as to why this is. The loam soil on a clay base is perfect for the roots or crowns which rhubarb grows from. In Victorian times – the mid to late 1800s – when rhubarb's popularity was at its peak the local coal mines provided cheap fuel for heating the sheds, a crucial part of the forcing process which involves depriving the plants of light as they develop. At the same time the effluence from the industry enriched the soil for farmers. On top of that, according to Westwood, the high levels of pollution in the air would have been ideal for the rhubarb as rhubarb loves soot."
-                            },
-                            {
-                                "label": "C",
-                                "content": "Westwood's farm produces both the greenish outdoor rhubarb – the kind that grows well in gardens all over the country – and the startlingly pink forced rhubarb. It's this that is the cream of the crop, the upper class of the rhubarb family. Forced rhubarb is the one that's most likely to convert rhubarb haters who've been traumatised by harshly flavoured school pies made from green overgrown outdoor stems. The slender magenta spears, with a sherbet-tangy flavour and delicate texture, are a far cry from that coarse bitter stuff. It's also a rare local fruit (although technically a vegetable) at a time when imports dominate and a welcome splash of colour in the drab winter months. No wonder chefs and food writers have fallen in love with forced rhubarb all over again. It's enjoying a remarkable renaissance for only 20 years ago it was in such decline that Westwood, one of the last 12 growers left from a peak of 200, was considering abandoning it."
-                            },
-                            {
-                                "label": "D",
-                                "content": "There are certainly simpler ways to grow food. First the plant roots or crowns are grown outside for more than two years. Then at the start of their third winter they are left in the ground until it is cold enough to break the crown's dormancy. This is one of the factors that gives British rhubarb the edge over imports from the Netherlands which arrive in the country a scene-stealing couple of weeks before the Yorkshire crop. To bring them to market that early the Dutch crowns are fed with gibberellic acid to replace the hormones naturally generated by a period of cold weather. Westwood is relaxed on the subject of the imported rhubarb, remarking only, 'It's good looking all right but the flavour's nowhere near.' Back in Yorkshire sometime around the middle of November the crowns are dug up, transferred to sheds with earthen floors and watered in. The light is blocked out completely and the heating is turned on. In the warm and dark the shoots appear so quickly that the buds can be heard gently popping. Within 3 weeks or so the first round of picking or 'pulling' as it's known can begin."
-                            },
-                            {
-                                "label": "E",
-                                "content": "In Westwood's 1920s rhubarb sheds it is pitch black. I slip and slide on the narrow troughs that serve as paths between the beds of rhubarb crowns. It's a relief when a team of pullers arrive, all local men, some of whom have been working for Westwood for 40 years. Each carries a sturdy candle and their pale flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall. The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm. Then, cradling the fuchsia pink bundles in their arms, they move on to the next patch. It's an extraordinary sight in this age of mechanised, computerised agriculture. 'The pulling's done much the same way as it always has been,' Westwood says. 'Electric light spoils the colour.' A labour-intensive process, it goes some way to explain the admittedly eye-watering price of the best forced rhubarb – that and the heating, now from oil or propane rather than coal."
-                            },
-                            {
-                                "label": "F",
-                                "content": "So how was this arcane cold-dark-heat process, in use since Victorian times, discovered? Westwood's story is appealingly earthy. A gardener threw an old crown onto the horse stable muck pile; the manure was hot, and the plant was soon covered. The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later but happily he had the good sense to gather them. Where there's muck there's money – and good eating indeed."
-                            }
-                        ],
+                        "title": "Why It Is Important To Save Species Like The Dormouse",
+                        "content": "<p>More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England rare dormice have returned to a secret woodland location there. Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain's most threatened mammals. This reintroduction led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups is the 22nd in the last 23 years. Dormice depend on well managed woodlands and healthy connected hedgerows for their survival. But changes in land use since the 1940s have been so dramatic that the dormice that remain have limited living space and are increasingly isolated.</p><p>Ahead of the release the PTES found a site of dense good quality woodland while the captive bred dormice waited in quarantine. After examination by vets the dormice were placed in their soft release accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a meter square cage. For 10 days the dormice were checked and given food daily then a small opening was made allowing them the freedom to explore while retaining the security of the cage. Everything was removed in October when the animals started preparing to go into hibernation for the winter.</p><p>'The hope is that we have a free living population in the wood but we won't know how they have fared until next year' said Ian White of the PTES. Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes. However a distinctive factor of this release White explained is the intention of linking up with another released dormouse population 3 miles away by managing the land between. The goal is to create a wider landscape for dormice and that will make the population more robust.</p><p>Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents. This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost with much remaining woodland sliced up by roads railways and fields. England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects. All this has had an adverse effect on dormouse populations.</p><p>'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. 'They are a fascinating species that is rare but you can still see. They promote good woodland management and what's good for dormice is good for a large range of species.'</p><p>Helen Meech the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside said that such reintroductions would increase people's familiarity with living with more wild animals once again. People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons she explained. 'We are increasingly disconnected from nature. In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose but let's start with species that will have a lighter impact for now.'</p><p>Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce.</p><p><strong>The lynx</strong> is believed to have disappeared from Britain about 1000 years ago. Experts say it would help control the fast growing population of red deer allowing forests to regenerate and support greater biodiversity. The preference of the lynx a shy animal to stay in its woodland habitat would make a threat to livestock or humans unlikely.</p><p><strong>The beaver</strong> - After an absence of 400 years beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction in Knapdale forest in 2009 was hailed an outstanding success but an unlicensed free living population in the river Tay has caused problems.</p><p><strong>The wolf</strong> - Lost to Britain in the 1700s the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock. But they are critical to the restoration of ecosystems that have been overgrazed by deer. Despite their fearsome reputation they present a low risk to people. Because of the space a wolf population would need the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.</p><p><strong>The sea eagle</strong> also known as the white tailed eagle was driven to extinction in Britain earlier this century. A reintroduction programme has seen it return to the Inner Hebrides island of Mull. Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock. Successful schemes in Europe have offered compensation for this.</p><p><strong>The wild boar</strong> disappeared in the 13th century because of hunting. They increase biodiversity and create space for trees and plants to grow but can cause damage to crops and gardens. The species has been quietly re-establishing itself in the woodlands of Britain for several decades.</p>",
                         "questions": [
                             {
-                                "type": "matchingHeadings",
-                                "title": "Questions 28-33",
-                                "instructions": "The text above has six paragraphs A-F. Choose the correct heading for each paragraph from the list of headings below.",
-                                "headings": [
-                                    {
-                                        "number": "i",
-                                        "text": "The extra time is worth it"
-                                    },
-                                    {
-                                        "number": "ii",
-                                        "text": "The preferred rhubarb for consumers"
-                                    },
-                                    {
-                                        "number": "iii",
-                                        "text": "Yorkshire's declining air quality"
-                                    },
-                                    {
-                                        "number": "iv",
-                                        "text": "Observing the selection process"
-                                    },
-                                    {
-                                        "number": "v",
-                                        "text": "Suggesting a possible beginning"
-                                    },
-                                    {
-                                        "number": "vi",
-                                        "text": "A long standing family business"
-                                    },
-                                    {
-                                        "number": "vii",
-                                        "text": "The best region for forced rhubarb"
-                                    }
-                                ],
+                                "type": "summaryCompletion",
+                                "title": "Questions 28-31",
+                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
+                                "summaryTitle": "The procedure for the dormouse reintroduction in Wensleydale",
+                                "summary": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First members of PTES had to choose a suitable wooded area for them. Then {28} gave them a thorough check. The team divided the animals into {29} before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially the dormice could not get out but the team brought {30} on a regular basis. Once the dormice got used to their new environment a gap was cut in the netting so they could go out and return when they wanted. Then before the animals were ready to start their annual {31} in the autumn, the team took their temporary homes away.",
                                 "items": [
                                     {
                                         "number": 28,
-                                        "section": "A",
-                                        "answer": "vi"
+                                        "answer": "vets"
                                     },
                                     {
                                         "number": 29,
-                                        "section": "B",
-                                        "answer": "vii"
+                                        "answer": "pairs"
                                     },
                                     {
                                         "number": 30,
-                                        "section": "C",
-                                        "answer": "ii"
+                                        "answer": "food"
                                     },
                                     {
                                         "number": 31,
-                                        "section": "D",
-                                        "answer": "i"
-                                    },
-                                    {
-                                        "number": 32,
-                                        "section": "E",
-                                        "answer": "iv"
-                                    },
-                                    {
-                                        "number": 33,
-                                        "section": "F",
-                                        "answer": "v"
+                                        "answer": "hibernation"
                                     }
                                 ]
                             },
                             {
                                 "type": "multipleChoice",
-                                "title": "Questions 34-36",
+                                "title": "Questions 32-36",
                                 "instructions": "Choose the correct letter, A, B, C or D.",
                                 "items": [
                                     {
-                                        "number": 34,
-                                        "text": "What does the writer say about David Westwood?",
+                                        "number": 32,
+                                        "text": "What does Ian White say about the Wensleydale reintroduction?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "He is pessimistic about the future of forced rhubarb."
+                                                "text": "It has been more successful than other reintroductions."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "He is the oldest member of the family to work on the farm."
+                                                "text": "It could fail for a number of reasons."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "He has been involved in the rhubarb industry for most of his life."
+                                                "text": "It is the largest reintroduction of dormice yet."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "He started his career picking rhubarb at a very young age."
+                                                "text": "It has taught him useful lessons for future projects."
+                                            }
+                                        ],
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 33,
+                                        "text": "What is special about this particular reintroduction?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "The dormice are being studied by scientists."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It will create a link between two groups of dormice."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "The dormice will be protected from predators."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "Local residents will help to care for the dormice."
+                                            }
+                                        ],
+                                        "answer": "B"
+                                    },
+                                    {
+                                        "number": 34,
+                                        "text": "In what ways did coppicing help dormice?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "It provided them with materials for their nests."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It protected them from predators."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It ensured they had a variety of things to eat and enough light."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It created corridors for them to travel through."
                                             }
                                         ],
                                         "answer": "C"
                                     },
                                     {
                                         "number": 35,
-                                        "text": "What does the writer suggest about Dutch rhubarb?",
+                                        "text": "Why does Ian White think dormouse reintroductions are a good idea?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "It is inferior in taste to British rhubarb."
+                                                "text": "They stop woodlands from being neglected."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "It is grown using more natural methods than British rhubarb."
+                                                "text": "They attract tourists to the British countryside."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "It is cheaper to produce than British rhubarb."
+                                                "text": "They get people interested in protecting the environment."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "It is becoming more popular in Britain."
+                                                "text": "They help woodlands to recover from damage caused by deer."
                                             }
                                         ],
-                                        "answer": "B"
+                                        "answer": "C"
                                     },
                                     {
                                         "number": 36,
-                                        "text": "According to the text, why is forced rhubarb expensive?",
+                                        "text": "What does Helen Meech say about reintroducing larger species?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "It requires a lot of workers and fuel."
+                                                "text": "It could happen in the future."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "It is difficult to transport."
+                                                "text": "It is not a practical idea."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "It can only be grown in a small area."
+                                                "text": "It would threaten native species."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "It takes a long time to grow."
+                                                "text": "It would be popular with the public."
                                             }
                                         ],
                                         "answer": "A"
@@ -420,27 +428,43 @@
                                 ]
                             },
                             {
-                                "type": "summaryCompletion",
+                                "type": "matching",
                                 "title": "Questions 37-40",
-                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
-                                "summaryTitle": "Growing forced rhubarb",
-                                "summary": "During November rhubarb crowns are removed from the soil and replanted in dark sheds that have plenty of heating. These conditions encourage such fast growth that the buds make a {37} sound as the pink stalks appear. The growing period lasts around three weeks. After that the rhubarb can be picked by a group of people known as {38}. They use a {39} to inspect the stems and to make sure they are as long as a human {40}.",
+                                "instructions": "Look at the following statements and the list of animals below. Match each statement with the correct animal, A-E.",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E"
+                                ],
+                                "optionLabels": {
+                                    "A": "The lynx",
+                                    "B": "The beaver",
+                                    "C": "The wolf",
+                                    "D": "The sea eagle",
+                                    "E": "The wild boar"
+                                },
                                 "items": [
                                     {
                                         "number": 37,
-                                        "answer": "popping"
+                                        "statement": "Plans to reintroduce this animal to one part of Britain were rejected by local people.",
+                                        "answer": "D"
                                     },
                                     {
                                         "number": 38,
-                                        "answer": "pullers"
+                                        "statement": "This animal has had both positive and negative effects since returning to Britain.",
+                                        "answer": "B"
                                     },
                                     {
                                         "number": 39,
-                                        "answer": "candle"
+                                        "statement": "The reintroduction of this animal could bring significant financial benefits to an area.",
+                                        "answer": "C"
                                     },
                                     {
                                         "number": 40,
-                                        "answer": "arm"
+                                        "statement": "This animal has been returning to Britain without any official programme.",
+                                        "answer": "E"
                                     }
                                 ]
                             }
