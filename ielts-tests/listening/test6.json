@@ -1,0 +1,2620 @@
+{
+    "listening": {
+        "title": "Listening Test 6",
+        "parts": [
+            {
+                "part": 1,
+                "title": "Easy Life Cleaning Services",
+                "type": "notes",
+                "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
+                "items": [
+                    {
+                        "isHeader": true,
+                        "text": "Easy Life Cleaning Services"
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Cleaning services offered"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Clean the"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 1
+                            },
+                            {
+                                "type": "text",
+                                "value": "(e.g. tiles,$linoleum, wood)"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Clean the cooker and the"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 2
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Wash and iron"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 3
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "On request, clean the"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 4
+                            },
+                            {
+                                "type": "text",
+                                "value": "(inside and out)"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Tidy the"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 5
+                            }
+                        ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Other services"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Can
+
+
+ 
+
+
+recommend a
+
+
+"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 6
+                            },
+                            {
+                                "type": "text",
+                                "value": "or
+
+
+ 
+
+
+plumber
+
+
+"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Can
+
+
+ 
+
+
+water
+
+
+ 
+
+
+plants
+
+
+ 
+
+
+and
+
+
+"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 7
+                            },
+                            {
+                                "type": "text",
+                                "value": "furniture
+
+
+"
+                            }
+                        ]
+                    },
+                    {
+                        "isSubHeader": true,
+                        "text": "Other
+
+
+ 
+
+
+information
+
+
+"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "All
+
+
+ 
+
+
+employees
+
+
+ 
+
+
+have
+
+
+ 
+
+
+been
+
+
+ 
+
+
+checked
+
+
+ 
+
+
+by
+
+
+ 
+
+
+the
+
+
+"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 8
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Customer
+
+
+ 
+
+
+needs
+
+
+ 
+
+
+to
+
+
+ 
+
+
+provide
+
+
+"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 9
+                            },
+                            {
+                                "type": "text",
+                                "value": "for
+
+
+ 
+
+
+the
+
+
+ 
+
+
+
+
+
+ 
+
+
+cleaner
+
+
+"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "At
+
+
+ 
+
+
+the
+
+
+ 
+
+
+end,
+
+
+ 
+
+
+customer
+
+
+ 
+
+
+should
+
+
+ 
+
+
+write
+
+
+ 
+
+
+a
+
+
+"
+                            },
+                            {
+                                "type": "blank",
+                                "number": 10
+                            }
+                        ]
+                    }
+                ],
+                "answers": {
+                    "1": "floor",
+                    "2": "fridge",
+                    "3": "shirts",
+                    "4": "windows",
+                    "5": "balcony",
+                    "6": "electrician",
+                    "7": "dust",
+                    "8": "police",
+                    "9": "training",
+                    "10": "review"
+                }
+            },
+            {
+                "part": 2,
+                "title": "Hotel Management",
+                "type": "complex",
+                "items": [
+                    {
+                        "type": "multipleChoice",
+                        "instructions": "Choose the correct letter, A, B or C.",
+                        "items": [
+                            {
+                                "number": 11,
+                                "text": "The
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+speaker
+
+
+ 
+
+
+says
+
+
+ 
+
+
+that
+
+
+ 
+
+
+hotel
+
+
+ 
+
+
+
+
+
+ 
+
+
+management
+
+
+ 
+
+
+
+
+
+staff
+
+
+ 
+
+
+
+
+
+need
+
+
+ 
+
+
+to","options": [
+                                    {
+                                        "letter": "A",
+                                        "text": "be
+
+
+ 
+
+
+flexible
+
+
+ 
+
+
+in
+
+
+ 
+
+
+their
+
+
+ 
+
+
+approach."},{
+                                            "letter": "B",
+                                            "text": "have
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+experience
+
+
+ 
+
+
+of
+
+
+ 
+
+
+other
+
+
+ 
+
+
+industries."},{
+                                                "letter": "C",
+                                                "text": "have
+
+
+ 
+
+
+
+
+
+ 
+
+
+completed
+
+
+ 
+
+
+a
+
+
+ 
+
+
+
+
+
+ 
+
+
+training
+
+
+ 
+
+
+course."}
+                                            ],
+                                            "answer": "A"
+                                        },
+                                        {
+                                            "number": 12,
+                                            "text": "The
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+says
+
+
+ 
+
+
+that
+
+
+ 
+
+
+
+
+
+successful
+
+
+ 
+
+
+hotel
+
+
+ 
+
+
+managers","options": [
+                                                {
+                                                    "letter": "A",
+                                                    "text": "lead
+
+
+ 
+
+
+by
+
+
+ 
+
+
+example."},{
+                                                        "letter": "B",
+                                                        "text": "
+
+
+ 
+
+
+give
+
+
+ 
+
+
+
+
+
+staff
+
+
+ 
+
+
+clear
+
+
+ 
+
+
+instructions."},{
+                                                            "letter": "C",
+                                                            "text": "
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+encourage
+
+
+ 
+
+
+
+
+
+ 
+
+
+staff
+
+
+ 
+
+
+to
+
+
+ 
+
+
+develop."}
+                                                        ],
+                                                        "answer": "A"
+                                                    },
+                                                    {
+                                                        "number": 13,
+                                                        "text": "What
+
+
+ 
+
+
+does
+
+
+ 
+
+
+the
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+say
+
+
+ 
+
+
+about
+
+
+ 
+
+
+money
+
+
+ 
+
+
+management?","options": [
+                                                            {
+                                                                "letter": "A",
+                                                                "text": "
+
+
+ 
+
+
+Training
+
+
+ 
+
+
+is
+
+
+ 
+
+
+
+
+
+ 
+
+
+available
+
+
+ 
+
+
+for
+
+
+ 
+
+
+this."},{
+                                                                    "letter": "B",
+                                                                    "text": "It
+
+
+ 
+
+
+is
+
+
+ 
+
+
+underestimated
+
+
+ 
+
+
+by
+
+
+ 
+
+
+managers."},{
+                                                                        "letter": "C",
+                                                                        "text": "It
+
+
+ 
+
+
+
+
+
+ 
+
+
+requires
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+specialist
+
+
+ 
+
+
+
+
+
+ 
+
+
+staff."}
+                                                                    ],
+                                                                    "answer": "A"
+                                                                },
+                                                                {
+                                                                    "number": 14,
+                                                                    "text": "The
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+says
+
+
+ 
+
+
+successful
+
+
+ 
+
+
+managers
+
+
+ 
+
+
+understand
+
+
+ 
+
+
+that","options": [
+                                                                        {
+                                                                            "letter": "A",
+                                                                            "text": "
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+senior
+
+
+ 
+
+
+staff
+
+
+ 
+
+
+
+
+
+ 
+
+
+need
+
+
+ 
+
+
+
+
+
+ 
+
+
+extra
+
+
+ 
+
+
+benefits."},{
+                                                                                "letter": "B",
+                                                                                "text": "
+
+
+ 
+
+
+
+
+
+ 
+
+
+all
+
+
+ 
+
+
+staff
+
+
+ 
+
+
+should
+
+
+ 
+
+
+be
+
+
+ 
+
+
+praised."},{
+                                                                                    "letter": "C",
+                                                                                    "text": "
+
+
+ 
+
+
+staff
+
+
+ 
+
+
+respond
+
+
+ 
+
+
+to
+
+
+ 
+
+
+
+
+
+ 
+
+
+different
+
+
+ 
+
+
+motivators."}
+                                                                                ],
+                                                                                "answer": "C"
+                                                                            },
+                                                                            {
+                                                                                "number": 15,
+                                                                                "text": "What
+
+
+ 
+
+
+does
+
+
+ 
+
+
+the
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+say
+
+
+ 
+
+
+about
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+technology?","options": [
+                                                                                    {
+                                                                                        "letter": "A",
+                                                                                        "text": "New
+
+
+ 
+
+
+systems
+
+
+ 
+
+
+can
+
+
+ 
+
+
+be
+
+
+ 
+
+
+time-consuming."},{
+                                                                                            "letter": "B",
+                                                                                            "text": "Technology
+
+
+ 
+
+
+
+
+
+ 
+
+
+should
+
+
+ 
+
+
+
+
+
+ 
+
+
+be
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+central
+
+
+ 
+
+
+to
+
+
+ 
+
+
+management."},{
+                                                                                                "letter": "C",
+                                                                                                "text": "Hotels
+
+
+ 
+
+
+
+
+
+ 
+
+
+should
+
+
+ 
+
+
+
+
+
+ 
+
+
+be
+
+
+ 
+
+
+
+
+
+ 
+
+
+cautious
+
+
+ 
+
+
+about
+
+
+ 
+
+
+new
+
+
+ 
+
+
+technology."}
+                                                                                            ],
+                                                                                            "answer": "A"
+                                                                                        },
+                                                                                        {
+                                                                                            "number": 16,
+                                                                                            "text": "According
+
+
+ 
+
+
+to
+
+
+ 
+
+
+the
+
+
+ 
+
+
+speaker,
+
+
+ 
+
+
+a
+
+
+ 
+
+
+good
+
+
+ 
+
+
+manager
+
+
+ 
+
+
+must
+
+
+ 
+
+
+be","options": [
+                                                                                                {
+                                                                                                    "letter": "A",
+                                                                                                    "text": "
+
+
+ 
+
+
+patient."},{
+                                                                                                        "letter": "B",
+                                                                                                        "text": "
+
+
+ 
+
+
+diplomatic."},{
+                                                                                                            "letter": "C",
+                                                                                                            "text": "
+
+
+ 
+
+
+assertive."}
+                                                                                                        ],
+                                                                                                        "answer": "C"
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "number": 17,
+                                                                                                        "text": "What
+
+
+ 
+
+
+does
+
+
+ 
+
+
+the
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+say
+
+
+ 
+
+
+about
+
+
+ 
+
+
+customer
+
+
+ 
+
+
+feedback?","options": [
+                                                                                                            {
+                                                                                                                "letter": "A",
+                                                                                                                "text": "It
+
+
+ 
+
+
+should
+
+
+ 
+
+
+
+
+
+ 
+
+
+always
+
+
+ 
+
+
+be
+
+
+ 
+
+
+acted
+
+
+ 
+
+
+upon."},{
+                                                                                                                    "letter": "B",
+                                                                                                                    "text": "It
+
+
+ 
+
+
+needs
+
+
+ 
+
+
+to
+
+
+ 
+
+
+be
+
+
+ 
+
+
+
+
+
+ 
+
+
+monitored
+
+
+ 
+
+
+constantly."},{
+                                                                                                                        "letter": "C",
+                                                                                                                        "text": "It
+
+
+ 
+
+
+often
+
+
+ 
+
+
+
+
+
+ 
+
+
+focuses
+
+
+ 
+
+
+on
+
+
+ 
+
+
+staff."}
+                                                                                                                    ],
+                                                                                                                    "answer": "B"
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "number": 18,
+                                                                                                                    "text": "The
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+says
+
+
+ 
+
+
+that
+
+
+ 
+
+
+successful
+
+
+ 
+
+
+managers","options": [
+                                                                                                                        {
+                                                                                                                            "letter": "A",
+                                                                                                                            "text": "spend
+
+
+ 
+
+
+time
+
+
+ 
+
+
+with
+
+
+ 
+
+
+staff
+
+
+ 
+
+
+regularly."},{
+                                                                                                                                "letter": "B",
+                                                                                                                                "text": "
+
+
+ 
+
+
+ask
+
+
+ 
+
+
+staff
+
+
+ 
+
+
+for
+
+
+ 
+
+
+their
+
+
+ 
+
+
+views."},{
+                                                                                                                                    "letter": "C",
+                                                                                                                                    "text": "
+
+
+ 
+
+
+make
+
+
+ 
+
+
+themselves
+
+
+ 
+
+
+visible
+
+
+ 
+
+
+to
+
+
+ 
+
+
+guests."}
+                                                                                                                                ],
+                                                                                                                                "answer": "C"
+                                                                                                                            },
+                                                                                                                            {
+                                                                                                                                "number": 19,
+                                                                                                                                "text": "The
+
+
+ 
+
+
+speaker
+
+
+ 
+
+
+suggests
+
+
+ 
+
+
+that
+
+
+ 
+
+
+managers
+
+
+ 
+
+
+should","options": [
+                                                                                                                                    {
+                                                                                                                                        "letter": "A",
+                                                                                                                                        "text": "
+
+
+ 
+
+
+deal
+
+
+ 
+
+
+with
+
+
+ 
+
+
+problems
+
+
+ 
+
+
+immediately."},{
+                                                                                                                                            "letter": "B",
+                                                                                                                                            "text": "
+
+
+ 
+
+
+
+
+
+look for
+
+
+ 
+
+
+ways
+
+
+ 
+
+
+to
+
+
+ 
+
+
+improve."},{
+                                                                                                                                                "letter": "C",
+                                                                                                                                                "text": "
+
+
+ 
+
+
+compare
+
+
+ 
+
+
+themselves
+
+
+ 
+
+
+with
+
+
+ 
+
+
+competitors."}
+                                                                                                                                            ],
+                                                                                                                                            "answer": "B"
+                                                                                                                                        },
+                                                                                                                                        {
+                                                                                                                                            "number": 20,
+                                                                                                                                            "text": "According
+
+
+ 
+
+
+to
+
+
+ 
+
+
+the
+
+
+ 
+
+
+speaker,
+
+
+ 
+
+
+what
+
+
+ 
+
+
+is
+
+
+ 
+
+
+crucial
+
+
+ 
+
+
+for
+
+
+ 
+
+
+all
+
+
+ 
+
+
+managers?","options": [
+                                                                                                                                                {
+                                                                                                                                                    "letter": "A",
+                                                                                                                                                    "text": "Paying
+
+
+ 
+
+
+attention
+
+
+ 
+
+
+to
+
+
+ 
+
+
+detail."},{
+                                                                                                                                                        "letter": "B",
+                                                                                                                                                        "text": "
+
+
+ 
+
+
+Delegating
+
+
+ 
+
+
+responsibility."},{
+                                                                                                                                                            "letter": "C",
+                                                                                                                                                            "text": "
+
+
+ 
+
+
+Working
+
+
+ 
+
+
+long
+
+
+ 
+
+
+hours."}
+                                                                                                                                                        ],
+                                                                                                                                                        "answer": "A"
+                                                                                                                                                    }
+                                                                                                                                                ]
+                                                                                                                                            }
+                                                                                                                                        ]
+                                                                                                                                    },
+                                                                                                                                    {
+                                                                                                                                        "part": 3,
+                                                                                                                                        "title": "Sporting Activities at School",
+                                                                                                                                        "type": "complex",
+                                                                                                                                        "items": [
+                                                                                                                                            {
+                                                                                                                                                "type": "matchingGroup",
+                                                                                                                                                "title": "Questions 21-24",
+                                                                                                                                                "text": "What do the speakers say about each of the following sporting activities at school?",
+                                                                                                                                                "instructions": "Choose FOUR answers from the box and write the correct letter, A-F, next to Questions 21-24.",
+                                                                                                                                                "options": [
+                                                                                                                                                    {
+                                                                                                                                                        "letter": "A",
+                                                                                                                                                        "text": "It
+
+
+ 
+
+
+improved
+
+
+ 
+
+
+
+
+
+ 
+
+
+fitness."},{
+                                                                                                                                                            "letter": "B",
+                                                                                                                                                            "text": "It
+
+
+ 
+
+
+was
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+social."},{
+                                                                                                                                                                "letter": "C",
+                                                                                                                                                                "text": "It
+
+
+ 
+
+
+was
+
+
+ 
+
+
+difficult
+
+
+ 
+
+
+at
+
+
+ 
+
+
+first."},{
+                                                                                                                                                                    "letter": "D",
+                                                                                                                                                                    "text": "It
+
+
+ 
+
+
+taught
+
+
+ 
+
+
+important
+
+
+ 
+
+
+skills."},{
+                                                                                                                                                                        "letter": "E",
+                                                                                                                                                                        "text": "It
+
+
+ 
+
+
+was
+
+
+ 
+
+
+
+
+
+ 
+
+
+competitive."},{
+                                                                                                                                                                            "letter": "F",
+                                                                                                                                                                            "text": "It
+
+
+ 
+
+
+helped
+
+
+ 
+
+
+career
+
+
+ 
+
+
+prospects."}
+                                                                                                                                                                        ],
+                                                                                                                                                                        "items": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "number": 21,
+                                                                                                                                                                                "label": "Football"
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "number": 22,
+                                                                                                                                                                                "label": "Basketball"
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "number": 23,
+                                                                                                                                                                                "label": "Tennis"
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "number": 24,
+                                                                                                                                                                                "label": "Swimming"
+                                                                                                                                                                            }
+                                                                                                                                                                        ],
+                                                                                                                                                                        "answers": {
+                                                                                                                                                                            "21": "E",
+                                                                                                                                                                            "22": "C",
+                                                                                                                                                                            "23": "A",
+                                                                                                                                                                            "24": "D"
+                                                                                                                                                                        }
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "type": "matchingGroup",
+                                                                                                                                                                        "title": "Questions 25-30",
+                                                                                                                                                                        "text": "Which benefit is mentioned for each of the following types of physical activity?",
+                                                                                                                                                                        "instructions": "Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+                                                                                                                                                                        "options": [
+                                                                                                                                                                            {
+                                                                                                                                                                                "letter": "A",
+                                                                                                                                                                                "text": "It
+
+
+ 
+
+
+builds
+
+
+ 
+
+
+confidence."},{
+                                                                                                                                                                                    "letter": "B",
+                                                                                                                                                                                    "text": "It
+
+
+ 
+
+
+develops
+
+
+ 
+
+
+concentration."},{
+                                                                                                                                                                                        "letter": "C",
+                                                                                                                                                                                        "text": "It
+
+
+ 
+
+
+helps
+
+
+ 
+
+
+to
+
+
+ 
+
+
+make
+
+
+ 
+
+
+friends."},{
+                                                                                                                                                                                            "letter": "D",
+                                                                                                                                                                                            "text": "It
+
+
+ 
+
+
+improves
+
+
+ 
+
+
+coordination."},{
+                                                                                                                                                                                                "letter": "E",
+                                                                                                                                                                                                "text": "It
+
+
+ 
+
+
+provides
+
+
+ 
+
+
+a
+
+
+ 
+
+
+release
+
+
+ 
+
+
+from
+
+
+ 
+
+
+stress."},{
+                                                                                                                                                                                                    "letter": "F",
+                                                                                                                                                                                                    "text": "It
+
+
+ 
+
+
+teaches
+
+
+ 
+
+
+cooperation."},{"letter": "G","text": "It
+
+
+ 
+
+
+teaches
+
+
+ 
+
+
+discipline."},{
+                                                                                                                                                                                                            "letter": "H",
+                                                                                                                                                                                                            "text": "It
+
+
+ 
+
+
+gives
+
+
+ 
+
+
+a
+
+
+ 
+
+
+sense
+
+
+ 
+
+
+of
+
+
+ 
+
+
+achievement."}],"items": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "number": 25,
+                                                                                                                                                                                                                "label": "Yoga"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "number": 26,
+                                                                                                                                                                                                                "label": "Dance"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "number": 27,
+                                                                                                                                                                                                                "label": "Running"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "number": 28,
+                                                                                                                                                                                                                "label": "Martial arts"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "number": 29,
+                                                                                                                                                                                                                "label": "Team games"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "number": 30,
+                                                                                                                                                                                                                "label": "Working out in a gym"
+                                                                                                                                                                                                            }],"answers": {
+                                                                                                                                                                                                            "25": "B",
+                                                                                                                                                                                                            "26": "F",
+                                                                                                                                                                                                            "27": "A",
+                                                                                                                                                                                                            "28": "D",
+                                                                                                                                                                                                            "29": "C",
+                                                                                                                                                                                                            "30": "G"}
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                ]
+                                                                                                                                                                                            },
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "part": 4,
+                                                                                                                                                                                                "title": "Maple Syrup",
+                                                                                                                                                                                                "type": "notes",
+                                                                                                                                                                                                "instructions": "Write ONE WORD ONLY for each answer.",
+                                                                                                                                                                                                "items": [
+                                                                                                                                                                                                    {"isHeader": true,"text": "Maple Syrup Production"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "Maple syrup has a"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 31
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "colour"
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "It is often considered to be"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 32
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"isSubHeader": true,"text": "The
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+maple
+
+
+ 
+
+
+tree"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "Grows
+
+
+ 
+
+
+best
+
+
+ 
+
+
+in
+
+
+ 
+
+
+a
+
+
+ 
+
+
+cool"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 33
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "Can
+
+
+ 
+
+
+grow
+
+
+ 
+
+
+in
+
+
+ 
+
+
+poor
+
+
+ 
+
+
+soil
+
+
+ 
+
+
+or"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 34
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"isSubHeader": true,"text": "Tapping
+
+
+ 
+
+
+the
+
+
+ 
+
+
+tree"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "Tree
+
+
+ 
+
+
+must
+
+
+ 
+
+
+have
+
+
+ 
+
+
+a
+
+
+ 
+
+
+certain"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 35
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "A"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 36
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "is
+
+
+ 
+
+
+inserted
+
+
+ 
+
+
+into
+
+
+ 
+
+
+the
+
+
+ 
+
+
+tree"
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"isSubHeader": true,"text": "Making
+
+
+ 
+
+
+the
+
+
+ 
+
+
+syrup"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "Sap
+
+
+ 
+
+
+was
+
+
+ 
+
+
+
+
+
+ 
+
+
+traditionally
+
+
+ 
+
+
+boiled
+
+
+ 
+
+
+over
+
+
+ 
+
+
+a"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 37
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "A
+
+
+ 
+
+
+lot
+
+
+ 
+
+
+of"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 38
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "is
+
+
+ 
+
+
+given
+
+
+ 
+
+
+off"
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "If
+
+
+ 
+
+
+not
+
+
+ 
+
+
+
+
+
+ 
+
+
+boiled
+
+
+ 
+
+
+for
+
+
+ 
+
+
+long
+
+
+ 
+
+
+enough,
+
+
+ 
+
+
+the
+
+
+ 
+
+
+syrup
+
+
+ 
+
+
+will
+
+
+ 
+
+
+become"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 39
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {"parts": [
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "It
+
+
+ 
+
+
+takes
+
+
+ 
+
+
+40
+
+
+ 
+
+
+litres
+
+
+ 
+
+
+of
+
+
+ 
+
+
+sap
+
+
+ 
+
+
+to
+
+
+ 
+
+
+make
+
+
+ 
+
+
+just
+
+
+ 
+
+
+one"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "blank",
+                                                                                                                                                                                                                "number": 40
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "type": "text",
+                                                                                                                                                                                                                "value": "of
+
+
+ 
+
+
+syrup"
+                                                                                                                                                                                                            }]
+                                                                                                                                                                                                    }
+                                                                                                                                                                                                ],
+                                                                                                                                                                                                "answers": {
+                                                                                                                                                                                                    "31": "golden",
+                                                                                                                                                                                                    "32": "healthy",
+                                                                                                                                                                                                    "33": "climate",
+                                                                                                                                                                                                    "34": "rock",
+                                                                                                                                                                                                    "35": "diameter",
+                                                                                                                                                                                                    "36": "tube",
+                                                                                                                                                                                                    "37": "fire",
+                                                                                                                                                                                                    "38": "steam",
+                                                                                                                                                                                                    "39": "cloudy",
+                                                                                                                                                                                                    "40": "litre"
+                                                                                                                                                                                                }
+                                                                                                                                                                                            }
+                                                                                                                                                                                        ]
+                                                                                                                                                                                    }
+                                                                                                                                                                                }
