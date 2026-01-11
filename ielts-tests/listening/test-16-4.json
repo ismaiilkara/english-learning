@@ -1,35 +1,35 @@
 {
-    "id": 5,
-    "title": "Listening Test 5",
+    "id": 4,
+    "title": "Listening Test 4",
     "listening": {
-        "title": "Cambridge IELTS 16 Test 1 - IELTS Listening",
+        "title": "Cambridge IELTS 16 Test 4 - Listening",
         "parts": [
             {
                 "id": 1,
                 "title": "Part 1",
-                "audioUrl": "https://drive.google.com/file/d/1K7Jx2tdGKuZoEoYi01c4dX7GDqwI04QL/view?usp=drive_link",
+                "audioUrl": "https://drive.google.com/file/d/1zLuZ_4bQnpeiFIWOZAuOcln_-Ucg7EjV/view?usp=sharing",
                 "description": "Questions 1-10",
                 "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
-                "noteTitle": "Children's Engineering Workshops",
+                "noteTitle": "Holiday rental",
                 "type": "notes",
                 "items": [
                     {
-                        "isHeader": true,
-                        "text": "Children's Engineering Workshops"
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Owners' names: Jack Fitzgerald and Shirley Fitzgerald"
+                            }
+                        ]
                     },
                     {
-                        "isSubHeader": true,
-                        "text": "Tiny Engineers (ages 4-5)"
-                    },
-                    {
                         "isHeader": true,
-                        "text": "Activities"
+                        "text": "Granary Cottage"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Create a cover for an "
+                                "value": "available for week beginning"
                             },
                             {
                                 "type": "blank",
@@ -37,7 +37,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " so they can drop it from a height without breaking it."
+                                "value": "May"
                             }
                         ]
                     },
@@ -45,51 +45,51 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Take part in a competition to build the tallest "
+                                "value": "cost for the week:"
                             },
                             {
                                 "type": "blank",
                                 "number": 2
+                            },
+                            {
+                                "type": "text",
+                                "value": "£"
                             }
                         ]
                     },
                     {
+                        "isHeader": true,
+                        "text": ""
+                    },
+                    {
                         "parts": [
-                            {
-                                "type": "text",
-                                "value": "• Make a "
-                            },
                             {
                                 "type": "blank",
                                 "number": 3
                             },
                             {
                                 "type": "text",
-                                "value": " powered by a balloon."
+                                "value": "Cottage"
                             }
                         ]
-                    },
-                    {
-                        "isSubHeader": true,
-                        "text": "Junior Engineers (ages 6-8)"
-                    },
-                    {
-                        "isHeader": true,
-                        "text": "Activities"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Build model cars, trucks and "
+                                "value": "cost for the week: £480"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "building was originally a"
                             },
                             {
                                 "type": "blank",
                                 "number": 4
-                            },
-                            {
-                                "type": "text",
-                                "value": " and learn how to program them so they can move."
                             }
                         ]
                     },
@@ -97,15 +97,11 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Take part in a competition to build the longest "
+                                "value": "walk through doors from living room into a"
                             },
                             {
                                 "type": "blank",
                                 "number": 5
-                            },
-                            {
-                                "type": "text",
-                                "value": " using card and wood."
                             }
                         ]
                     },
@@ -113,7 +109,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Create a short "
+                                "value": "several"
                             },
                             {
                                 "type": "blank",
@@ -121,7 +117,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " with special software."
+                                "value": "spaces at the front"
                             }
                         ]
                     },
@@ -129,27 +125,19 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Build, "
+                                "value": "bathroom has a shower"
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "central heating and stove that burns"
                             },
                             {
                                 "type": "blank",
                                 "number": 7
-                            },
-                            {
-                                "type": "text",
-                                "value": " and program a humanoid robot."
-                            }
-                        ]
-                    },
-                    {
-                        "isHeader": true,
-                        "text": "Cost and Schedule"
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "Cost for a five-week block: £50"
                             }
                         ]
                     },
@@ -157,7 +145,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Held on "
+                                "value": "views of old"
                             },
                             {
                                 "type": "blank",
@@ -165,19 +153,15 @@
                             },
                             {
                                 "type": "text",
-                                "value": " from 10 am to 11 am"
+                                "value": "from living room"
                             }
                         ]
-                    },
-                    {
-                        "isHeader": true,
-                        "text": "Location"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Building 10A, "
+                                "value": "view of hilltop"
                             },
                             {
                                 "type": "blank",
@@ -185,7 +169,19 @@
                             },
                             {
                                 "type": "text",
-                                "value": " Industrial Estate, Grasford"
+                                "value": "from the bedroom"
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Payment"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "deposit: £144"
                             }
                         ]
                     },
@@ -193,341 +189,362 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Plenty of "
+                                "value": "deadline for final payment: end of"
                             },
                             {
                                 "type": "blank",
                                 "number": 10
-                            },
-                            {
-                                "type": "text",
-                                "value": " is available."
                             }
                         ]
                     }
                 ],
                 "answers": {
-                    "1": "egg",
-                    "2": "tower",
-                    "3": "car",
-                    "4": "animals",
-                    "5": "bridge",
-                    "6": "movie/film",
-                    "7": "decorate",
-                    "8": "Wednesdays",
-                    "9": "Fradstone",
-                    "10": "parking"
+                    "1": "28th",
+                    "2": "550",
+                    "3": "Chervil",
+                    "4": "garage",
+                    "5": "garden",
+                    "6": "parking",
+                    "7": "wood",
+                    "8": "bridge",
+                    "9": "monument",
+                    "10": "March"
                 },
-                "transcript": "SARAH: Hello. Children's Engineering Workshops.\nFATHER: Oh hello. I wanted some information about the workshops in the school holidays.\nSARAH: Sure.\nFATHER: I have two daughters who are interested. The younger one's Lydia, she's four – do you take children as young as that?\nSARAH: Yes, our Tiny Engineers workshop is for four to five-year-olds.\nFATHER: What sorts of activities do they do?\nSARAH: All sorts. For example, they work together to design a special cover that goes round an egg, so that when it's inside they can drop it from a height and it doesn't break. Well, sometimes it does break but that's part of the fun!\nFATHER: Right. And Lydia loves building things. Is there any opportunity for her to do that?\nSARAH: Well, they have a competition to see who can make the highest tower. You'd be amazed how high they can go.\nFATHER: Right.\nSARAH: But they're learning all the time as well as having fun. For example, one thing they do is to design and build a car that's attached to a balloon, and the force of the air in that actually powers the car and makes it move along. They go really fast too.\nFATHER: OK, well, all this sounds perfect.\n\nFATHER: Now Carly, that's my older daughter, has just had her seventh birthday, so presumably she'd be in a different group?\nSARAH: Yes, she'd be in the Junior Engineers. That's for children from six to eight.\nFATHER: And do they do the same sorts of activities?\nSARAH: Some are the same, but a bit more advanced. So they work out how to build model vehicles, things like cars and trucks, but also how to construct animals using the same sorts of material and technique, and then they learn how they can program them and make them move.\nFATHER: So they learn a bit of coding?\nSARAH: They do. They pick it up really quickly. We're there to help if they need it, but they learn from one another too.\nFATHER: Right. And do they have competitions too?\nSARAH: Yes, with the Junior Engineers, it's to use recycled materials like card and wood to build a bridge, and the longest one gets a prize.\nFATHER: That sounds fun. I wouldn't mind doing that myself!\nSARAH: Then they have something a bit different, which is to think up an idea for a five-minute movie and then film it, using special animation software. You'd be amazed what they come up with.\nFATHER: And of course, that's something they can put on their phone and take home to show all their friends.\nSARAH: Exactly. And then they also build a robot in the shape of a human, and they decorate it and program it so that it can move its arms and legs.\n\nFATHER: Perfect. So, is it the same price as the Tiny Engineers?\nSARAH: It's just a bit more: £50 for the five weeks.\nFATHER: And are the classes on a Monday?\nSARAH: They used to be, but we found it didn't give our staff enough time to clear up after the first workshop, so we moved them to Wednesdays. The classes are held in the morning from ten to eleven.\nFATHER: OK. That's better for me actually. And what about the location? Where exactly are the workshops held?\nSARAH: They're in building 10A – there's a big sign on the door, you can't miss it, and that's in Fradstone Industrial Estate.\nFATHER: Sorry?\nSARAH: Fradstone – that's F-R-A-D-S-T-O-N-E.\nFATHER: And that's in Grasford, isn't it?\nSARAH: Yes, up past the station.\nFATHER: And will I have any parking problems there?\nSARAH: No, there's always plenty available. So would you like to enrol Lydia and Carly now?\nFATHER: OK.\nSARAH: So can I have your full name ..."
+                "transcript": "SHIRLEY: Hello?\n\nTOM: Oh hello. I was hoping to speak to Jack Fitzgerald about renting a cottage.\n\nSHIRLEY: I'm his wife, Shirley, and we own the cottages together, so I'm sure I can help you.\n\nTOM: Great. My name's Tom. Some friends of ours rented Granary Cottage from you last year, and they thought it was great. So my wife and I are hoping to come in May for a week.\n\nSHIRLEY: What date did you have in mind?\n\nTOM: The week beginning the 14th, if possible.\n\nSHIRLEY: I'll just check ... I'm sorry, Tom, it's already booked that week. It's free the week beginning the 28th, though, for seven nights. In fact, that's the only time you could have it in May.\n\nTOM: Oh. Well, we could manage that, I think. We'd just need to change a couple of things. How much would it cost?\n\nSHIRLEY: That's the beginning of high season, so it'd be £550 for the week.\n\nTOM: Ah. That's a bit more than we wanted to pay, I'm afraid. We've budgeted up to £500 for accommodation.\n\nSHIRLEY: Well, we've just finished converting another building into a cottage, which we're calling Chervil Cottage.\n\nTOM: Sorry? What was that again?\n\nSHIRLEY: Chervil. C-H-E-R-V for Victor-I-L.\n\nTOM: Oh, that's a herb, isn't it?\n\nSHIRLEY: That's right. It grows fairly wild around here. You could have that for the week you want for £480.\n\nTOM: OK. So could you tell me something about it, please?\n\nSHIRLEY: Of course. The building was built as a garage. It's a little smaller than Granary Cottage.\n\nTOM: So that must sleep two people, as well?\n\nSHIRLEY: That's right. There's a double bedroom.\n\nTOM: Does it have a garden?\n\nSHIRLEY: Yes, you get to it from the living room through French doors, and we provide two deckchairs. We hope to build a patio in the near future, so I wouldn't like to guarantee it'll be finished by May.\n\nTOM: OK.\n\nSHIRLEY: The front door opens onto the old farmyard, and parking isn't a problem – there's plenty of room at the front for that. There are some trees and potted plants there.\n\n---\n\nTOM: What about facilities in the cottage? It has standard things like a cooker and fridge, I presume.\n\nSHIRLEY: In the kitchen area there's a fridge-freezer and we've just put in an electric cooker.\n\nTOM: Is there a washing machine?\n\nSHIRLEY: Yes. There's also a TV in the living room, which plays DVDs too. The bathroom is too small for a bath, so there's a shower instead. I think a lot of people prefer that nowadays, anyway.\n\n---\n\nTOM: It's more environmentally friendly, isn't it? Unless you spend half the day in it!\n\nSHIRLEY: Exactly.\n\nTOM: What about heating? It sometimes gets quite cool at that time of year.\n\nSHIRLEY: There's central heating, and if you want to light a fire, there's a stove. We can provide all the wood you need for it. It smells so much nicer than coal, and it makes the room very cosy – we've got one in our own house.\n\nTOM: That sounds very pleasant. Perhaps we should come in the winter, to make the most of it.\n\nSHIRLEY: Yes, we find we don't want to go out when we've got the fire burning. There are some attractive views from the cottage, which I haven't mentioned. There's a famous stone bridge – it's one of the oldest in the region, and you can see it from the living room. It isn't far away. The bedroom window looks in the opposite direction, and has a lovely view of the hills and the monument at the top.\n\nTOM: Well, that all sounds perfect. I'd like to book it, please. Would you want a deposit?\n\nSHIRLEY: Yes, we ask for thirty percent to secure your booking, so that'll be, um, £144.\n\nTOM: And when would you like the rest of the money?\n\nSHIRLEY: You're coming in May, so the last day of March, please.\n\nTOM: Fine.\n\nSHIRLEY: Excellent. Could I just take your details ..."
             },
             {
                 "id": 2,
                 "title": "Part 2",
-                "audioUrl": "https://drive.google.com/file/d/1MJDct8cjS60nET_WYCXFexJyQjhyC2oe/view?usp=drive_link",
+                "audioUrl": "https://drive.google.com/file/d/1j9FyyYfYhwxT82ocBa05dIUUzTus_Vyw/view?usp=sharing",
                 "description": "Questions 11-20",
                 "type": "complex",
                 "items": [
                     {
                         "type": "multipleChoice",
-                        "title": "Questions 11-14",
+                        "title": "Local council report on traffic and highways",
                         "instructions": "Choose the correct letter, A, B or C.",
                         "items": [
                             {
                                 "number": 11,
-                                "text": "Stevenson's was founded in",
+                                "text": "A survey found people's main concern about traffic in the area was",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "1923."
+                                        "text": "cuts to public transport."
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "1924."
+                                        "text": "poor maintenance of roads."
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "1926."
+                                        "text": "changes in the type of traffic."
                                     }
                                 ],
                                 "answer": "C"
                             },
                             {
                                 "number": 12,
-                                "text": "Originally, Stevenson's manufactured goods for",
+                                "text": "Which change will shortly be made to the cycle path next to the river?",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "the healthcare industry."
+                                        "text": "It will be widened."
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "the automotive industry."
+                                        "text": "It will be extended."
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "the machine tools industry."
+                                        "text": "It will be resurfaced."
                                     }
                                 ],
                                 "answer": "A"
                             },
                             {
                                 "number": 13,
-                                "text": "What does the speaker say about the company premises?",
+                                "text": "Plans for a pedestrian crossing have been postponed because",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "The company has recently moved."
+                                        "text": "the Post Office has moved."
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "The company has no plans to move."
+                                        "text": "the proposed location is unsafe."
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "The company is going to move shortly."
+                                        "text": "funding is not available at present."
                                     }
                                 ],
                                 "answer": "B"
                             },
                             {
                                 "number": 14,
-                                "text": "The programme for the work experience group includes",
+                                "text": "On Station Road, notices have been erected",
                                 "options": [
                                     {
                                         "letter": "A",
-                                        "text": "time to do research."
+                                        "text": "telling cyclists not to leave their bikes outside the station ticket office."
                                     },
                                     {
                                         "letter": "B",
-                                        "text": "meetings with a teacher."
+                                        "text": "asking motorists to switch off engines when waiting at the level crossing."
                                     },
                                     {
                                         "letter": "C",
-                                        "text": "talks by staff."
+                                        "text": "warning pedestrians to leave enough time when crossing the railway line."
                                     }
                                 ],
-                                "answer": "C"
+                                "answer": "B"
                             }
                         ]
                     },
                     {
                         "type": "mapLabeling",
                         "title": "Questions 15-20",
-                        "mapTitle": "Plan of Stevenson's site",
-                        "mapImage": "stevensons_site_map.png",
-                        "instructions": "Label the map below. Write the correct letter, A-J, next to Questions 15-20.",
+                        "instructions": "Label the map below. Write the correct letter, A-I, next to Questions 15-20.",
+                        "mapTitle": "Recreation ground after proposed changes",
+                        "mapImage": "/ielts-tests/listening_images/listening_json4_part2.png",
+                        "options": [
+                            "A",
+                            "B",
+                            "C",
+                            "D",
+                            "E",
+                            "F",
+                            "G",
+                            "H",
+                            "I"
+                        ],
                         "items": [
                             {
                                 "number": 15,
-                                "label": "coffee room"
+                                "label": "New car park",
+                                "answer": "C"
                             },
                             {
                                 "number": 16,
-                                "label": "warehouse"
+                                "label": "New cricket pitch",
+                                "answer": "F"
                             },
                             {
                                 "number": 17,
-                                "label": "staff canteen"
+                                "label": "Children's playground",
+                                "answer": "A"
                             },
                             {
                                 "number": 18,
-                                "label": "meeting room"
+                                "label": "Skateboard ramp",
+                                "answer": "I"
                             },
                             {
                                 "number": 19,
-                                "label": "human resources"
+                                "label": "Pavilion",
+                                "answer": "E"
                             },
                             {
                                 "number": 20,
-                                "label": "boardroom"
+                                "label": "Notice board",
+                                "answer": "H"
                             }
                         ],
                         "answers": {
-                            "15": "H",
-                            "16": "C",
-                            "17": "G",
-                            "18": "B",
-                            "19": "I",
-                            "20": "A"
+                            "15": "C",
+                            "16": "F",
+                            "17": "A",
+                            "18": "I",
+                            "19": "E",
+                            "20": "H"
                         }
                     }
                 ],
-                "transcript": "Good morning, everyone, and welcome to Stevenson's, one of the country's major manufacturers of metal goods. Thank you for choosing us for your two weeks of work experience. My name is Julia Simmons, and since the beginning of this year I've been the managing director.\n\nStevenson's is quite an old company. Like me, the founder, Ronald Stevenson, went into the steel industry when he left school – that was in 1923. He set up this company when he finished his apprenticeship, in 1926, although he actually started making plans two years earlier, in 1924. He was a very determined young man!\n\nStevenson's long-term plan was to manufacture components for the machine tools industry – although in fact that never came about – and for the automotive industry, that is, cars and lorries. However, there was a delay of five years before that happened, because shortly before the company went into production, Stevenson was given the opportunity to make goods for hospitals and other players in the healthcare industry, so that's what we did for the first five years.\n\nOver the years, we've expanded the premises considerably – we were lucky that the site is big enough, so moving to a new location has never been necessary. However, the layout is far from ideal for modern machinery and production methods, so we intend to carry out major refurbishment of this site over the next five years.\n\nI'd better give you some idea of what you'll be doing during your two weeks with us, so you know what to expect. Most mornings you'll have a presentation from one of the managers, to learn about their department, starting this morning with research and development. And you'll all spend some time in each department, observing what's going on and talking to people – as long as you don't stop them from doing their work altogether! In the past, a teacher from your school has come in at the end of each week to find out how the group were getting on, but your school isn't able to arrange that this year.\n\nOK, now I'll briefly help you to orientate yourselves around the site. As you can see, we're in the reception area, which we try to make attractive and welcoming to visitors. There's a corridor running left from here, and if you go along that, the door facing you at the end is the entrance to the coffee room. This looks out onto the main road on one side, and some trees on the other, and that'll be where you meet each morning.\n\nThe factory is the very big room on the far side of the site. Next to it is the warehouse, which can be accessed by lorries going up the road to the turning area at the end. You can get to the warehouse by crossing to the far side of the courtyard, and then the door is on your right.\n\nSomewhere you'll be keen to find is the staff canteen. This is right next to reception. I can confidently say that the food's very good, but the view isn't. The windows on one side look onto a corridor and courtyard, which aren't very attractive at all, and on the other onto the access road, which isn't much better.\n\nYou'll be using the meeting room quite often, and you'll find it by walking along the corridor to the left of the courtyard, and continuing along it to the end. The meeting room is the last one on the right, and I'm afraid there's no natural daylight in the room.\n\nThen you'll need to know where some of the offices are. The human resources department is at the front of this building, so you head to the left along the corridor from reception, and it's the second room you come to. It looks out onto the main road.\n\nAnd finally, the boardroom, where you'll be meeting sometimes. That has quite a pleasant view, as it looks out on to the trees. Go along the corridor past the courtyard, right to the end. The boardroom is on the left, next to the factory.\n\nOK, now are there any questions before we ..."
+                "transcript": "CHAIRPERSON: Right. Next on the agenda we have traffic and highways. Councillor Thornton.\n\nCOUNCILLOR THORNTON: Thank you. Well, we now have the results of the survey carried out last month about traffic and road transport in the town. People were generally satisfied with the state of the roads. There were one or two complaints about potholes which will be addressed, but a significant number of people complained about the increased number of heavy vehicles using our local roads to avoid traffic elsewhere. We'd expected more complaints by commuters about the reduction in the train service, but it doesn't seem to have affected people too much.\n\nThe cycle path that runs alongside the river is very well used by both cyclists and pedestrians since the surface was improved last year, but overtaking can be a problem so we're going to add a bit on this side to make it wider. At some stage, we'd like to extend the path so that it goes all the way through the town, but that won't be happening in the immediate future.\n\nThe plans to have a pedestrian crossing next to the Post Office have unfortunately had to be put on hold for the time being. We'd budgeted for this to be done this financial year, but then there were rumours that the Post Office was going to move, which would have meant there wasn't really a need for a crossing. Now they've confirmed that they're staying where they are, but the Highways Department have told us that it would be dangerous to have a pedestrian crossing where we'd originally planned it as there's a bend in the road there. So that'll need some more thought.\n\nOn Station Road near the station and level crossing, drivers can face quite long waits if the level crossing's closed, and we've now got signs up requesting them not to leave their engines running at that time. This means pedestrians waiting on the pavement to cross the railway line don't have to breathe in car fumes. We've had some problems with cyclists leaving their bikes chained to the railings outside the ticket office, but the station has agreed to provide bike racks there.\n\n---\n\nSo next on the agenda is 'Proposals for improvements to the recreation ground'. Councillor Thornton again.\n\nCOUNCILLOR THORNTON: Well, since we managed to extend the recreation ground, we've spent some time talking to local people about how it could be made a more attractive and useful space. If you have a look at the map on the screen, you can see the river up in the north, and the Community Hall near the entrance from the road. At present, cars can park between the Community Hall and that line of trees to the east, but this is quite dangerous for pedestrians so we're suggesting a new car park on the opposite side of the Community Hall, right next to it.\n\nWe also have a new location for the cricket pitch. As we've now purchased additional space to the east of the recreation ground, beyond the trees, we plan to move it away from its current location, which is rather near the road, into this new area beyond the line of trees. This means there's less danger of stray balls hitting cars or pedestrians.\n\nWe've got plans for a children's playground which will be accessible by a footpath from the Community Hall and will be alongside the river. We'd originally thought of having it close to the road, but we think this will be a more attractive location.\n\nThe skateboard ramp is very popular with both younger and older children – we had considered moving this up towards the river, but in the end we decided to have it in the southeast corner near the road.\n\nThe pavilion is very well used at present by both football players and cricketers. It will stay where it is now – to the left of the line of trees, and near to the river – handy for both the football and cricket pitches.\n\nAnd finally, we'll be getting a new notice board for local information, and that will be directly on people's right as they go from the road into the recreation ground."
             },
             {
                 "id": 3,
                 "title": "Part 3",
-                "audioUrl": "https://drive.google.com/file/d/1gQtNrnAkqEO2Z1e3l7vTZGK5ZBw7mwbu/view?usp=drive_link",
+                "audioUrl": "https://drive.google.com/file/d/1iCikAXvlGWole_TNpWh1uWt8qFbwFnJG/view?usp=sharing",
                 "description": "Questions 21-30",
                 "type": "complex",
                 "items": [
                     {
                         "type": "chooseTwoGroup",
-                        "title": "Questions 21-22",
                         "questionNumbers": [
                             21,
                             22
                         ],
-                        "text": "Which TWO parts of the introductory stage to their art projects do Jess and Tom agree were useful?",
-                        "instructions": "Choose TWO letters, A-E.",
+                        "text": "Which TWO benefits of city bike-sharing schemes do the students agree are the most important?",
                         "options": [
                             {
                                 "letter": "A",
-                                "text": "the Bird Park visit"
+                                "text": "reducing noise pollution"
                             },
                             {
                                 "letter": "B",
-                                "text": "the workshop sessions"
+                                "text": "reducing traffic congestion"
                             },
                             {
                                 "letter": "C",
-                                "text": "the Natural History Museum visit"
+                                "text": "improving air quality"
                             },
                             {
                                 "letter": "D",
-                                "text": "the projects done in previous years"
+                                "text": "encouraging health and fitness"
                             },
                             {
                                 "letter": "E",
-                                "text": "the handouts with research sources"
-                            }
-                        ],
-                        "answers": [
-                            "C",
-                            "E"
-                        ]
-                    },
-                    {
-                        "type": "chooseTwoGroup",
-                        "title": "Questions 23-24",
-                        "questionNumbers": [
-                            23,
-                            24
-                        ],
-                        "text": "In which TWO ways do both Jess and Tom decide to change their proposals?",
-                        "instructions": "Choose TWO letters, A-E.",
-                        "options": [
-                            {
-                                "letter": "A",
-                                "text": "by giving a rationale for their action plans"
-                            },
-                            {
-                                "letter": "B",
-                                "text": "by being less specific about the outcome"
-                            },
-                            {
-                                "letter": "C",
-                                "text": "by adding a video diary presentation"
-                            },
-                            {
-                                "letter": "D",
-                                "text": "by providing a timeline and a mind map"
-                            },
-                            {
-                                "letter": "E",
-                                "text": "by making their notes more evaluative"
+                                "text": "making cycling affordable"
                             }
                         ],
                         "answers": [
                             "B",
-                            "E"
+                            "C"
+                        ]
+                    },
+                    {
+                        "type": "chooseTwoGroup",
+                        "questionNumbers": [
+                            23,
+                            24
+                        ],
+                        "text": "Which TWO things do the students think are necessary for successful bike-sharing schemes?",
+                        "options": [
+                            {
+                                "letter": "A",
+                                "text": "Bikes should have a GPS system."
+                            },
+                            {
+                                "letter": "B",
+                                "text": "The app should be easy to use."
+                            },
+                            {
+                                "letter": "C",
+                                "text": "Public awareness should be raised."
+                            },
+                            {
+                                "letter": "D",
+                                "text": "Only one scheme should be available."
+                            },
+                            {
+                                "letter": "E",
+                                "text": "There should be a large network of cycle lanes."
+                            }
+                        ],
+                        "answers": [
+                            "B",
+                            "C"
                         ]
                     },
                     {
                         "type": "matchingGroup",
                         "title": "Questions 25-30",
-                        "text": "Which personal meaning do the students decide to give to each of the following pictures?",
-                        "instructions": "Choose SIX answers from the box and write the correct letter, A-H, next to Questions 25-30.",
+                        "text": "What is the speakers' opinion of the bike-sharing schemes in each of the following cities?",
+                        "instructions": "Choose SIX answers from the box and write the correct letter, A-G, next to Questions 25-30.",
+                        "questionNumbers": [
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30
+                        ],
                         "options": [
                             {
                                 "letter": "A",
-                                "text": "a childhood memory"
+                                "text": "They agree it has been disappointing."
                             },
                             {
                                 "letter": "B",
-                                "text": "hope for the future"
+                                "text": "They think it should be cheaper."
                             },
                             {
                                 "letter": "C",
-                                "text": "fast movement"
+                                "text": "They are surprised it has been so successful."
                             },
                             {
                                 "letter": "D",
-                                "text": "a potential threat"
+                                "text": "They agree that more investment is required."
                             },
                             {
                                 "letter": "E",
-                                "text": "the power of colour"
+                                "text": "They think the system has been well designed."
                             },
                             {
                                 "letter": "F",
-                                "text": "the continuity of life"
+                                "text": "They disagree about the reasons for its success."
                             },
                             {
                                 "letter": "G",
-                                "text": "protection of nature"
-                            },
-                            {
-                                "letter": "H",
-                                "text": "a confused attitude to nature"
+                                "text": "They think it has expanded too quickly."
                             }
                         ],
                         "items": [
                             {
                                 "number": 25,
-                                "label": "Falcon (Landseer)"
+                                "label": "Amsterdam"
                             },
                             {
                                 "number": 26,
-                                "label": "Fish hawk (Audubon)"
+                                "label": "Dublin"
                             },
                             {
                                 "number": 27,
-                                "label": "Kingfisher (van Gogh)"
+                                "label": "London"
                             },
                             {
                                 "number": 28,
-                                "label": "Portrait of William Wells"
+                                "label": "Buenos Aires"
                             },
                             {
                                 "number": 29,
-                                "label": "Vairumati (Gauguin)"
+                                "label": "New York"
                             },
                             {
                                 "number": 30,
-                                "label": "Portrait of Giovanni de Medici"
+                                "label": "Sydney"
                             }
                         ],
                         "answers": {
-                            "25": "D",
-                            "26": "C",
-                            "27": "A",
-                            "28": "H",
-                            "29": "F",
-                            "30": "G"
+                            "25": "C",
+                            "26": "F",
+                            "27": "D",
+                            "28": "E",
+                            "29": "B",
+                            "30": "A"
                         }
                     }
                 ],
-                "transcript": "JESS: How are you getting on with your art project, Tom?\nTOM: OK. Like, they gave us the theme of birds to base our project on, and I'm not really all that interested in wildlife. But I'm starting to get into it. I've pretty well finished the introductory stage.\nJESS: So have I. When they gave us all those handouts with details of books and websites to look at, I was really put off, but the more I read, the more interested I got.\nTOM: Me too. I found I could research so many different aspects of birds in art – colour, movement, texture. So I was looking forward to the Bird Park visit.\nJESS: What a letdown! It poured with rain and we hardly saw a single bird. Much less use than the trip to the Natural History Museum.\nTOM: Yeah, I liked all the stuff about evolution there. The workshop sessions with Dr Fletcher were good too, especially the brainstorming sessions.\nJESS: I missed those because I was ill. I wish we could've seen the projects last year's students did.\nTOM: Mm. I suppose they want us to do our own thing, not copy.\nJESS: Have you drafted your proposal yet?\nTOM: Yes, but I haven't handed it in. I need to amend some parts. I've realised the notes from my research are almost all just descriptions, I haven't actually evaluated anything. So I'll have to fix that.\nJESS: Oh, I didn't know we had to do that. I'll have to look at that too. Did you do a timeline for the project?\nTOM: Yes, and a mind map.\nJESS: Yeah, so did I. I quite enjoyed that. But it was hard having to explain the basis for my decisions in my action plan.\n\nTOM: What?\nJESS: You know, give a rationale.\nTOM: I didn't realise we had to do that. OK, I can add it now. And I've done the video diary presentation, and worked out what I want my outcome to be in the project.\nJESS: Someone told me it's best not to be too precise about your actual outcome at this stage, so you have more scope to explore your ideas later on. So I'm going to go back to my proposal to make it a bit more vague.\nTOM: Really? OK. I'll change that too then.\n\nTOM: One part of the project I'm unsure about is where we choose some paintings of birds and say what they mean to us. Like, I chose a painting of a falcon by Landseer. I like it because the bird's standing there with his head turned to one side, but he seems to be staring straight at you. But I can't just say it's a bit scary, can I?\nJESS: You could talk about the possible danger suggested by the bird's look.\nTOM: Oh, OK.\nJESS: There's a picture of a fish hawk by Audubon I like. It's swooping over the water with a fish in its talons, and with great black wings which take up most of the picture.\nTOM: So you could discuss it in relation to predators and food chains?\nJESS: Well actually I think I'll concentrate on the impression of rapid motion it gives.\nTOM: Right.\nJESS: Do you know that picture of a kingfisher by van Gogh – it's perching on a reed growing near a stream.\nTOM: Yes it's got these beautiful blue and red and black shades.\nJESS: Mm hm. I've actually chosen it because I saw a real kingfisher once when I was little. I was out walking with my grandfather, and I've never forgotten it.\nTOM: So we can use a personal link?\nJESS: Sure.\nTOM: OK. There's a portrait called William Wells, I can't remember the artist but it's a middle-aged man who's just shot a bird. And his expression, and the way he's holding the bird in his hand suggests he's not sure about what he's done. To me it's about how ambiguous people are in the way they exploit the natural world.\nJESS: Interesting. There's Gauguin's picture Vairumati. He did it in Tahiti. It's a woman with a white bird behind her that is eating a lizard, and what I'm interested in is what idea this bird refers to. Apparently, it's a reference to the never-ending cycle of existence.\nTOM: Wow. I chose a portrait of a little boy, Giovanni de Medici. He's holding a tiny bird, in one fist. I like the way he's holding it carefully so he doesn't hurt it.\nJESS: Ah right."
+                "transcript": "JAKE: Now that we've done all the research into bike-sharing schemes in cities around the world, we need to think about how we're going to organise our report.\n\nAMY: Right. I think we should start by talking about the benefits. I mean it's great that so many cities have introduced these schemes where anyone can pick up a bike from dozens of different locations and hire it for a few hours. It makes riding a bike very convenient for people.\n\nJAKE: Yes, but the costs can add up and that puts people on low incomes off in some places.\n\nAMY: I suppose so, but if it means more people in general are cycling rather than driving, then because they're increasing the amount of physical activity they do, it's good for their health.\n\nJAKE: OK. But isn't that of less importance? I mean, doesn't the impact of reduced emissions on air pollution have a more significant effect on people's health?\n\n---\n\nAMY: Certainly, in some cities bike-sharing has made a big contribution to that. And also helped to cut the number of cars on the road significantly.\n\nJAKE: Which is the main point.\n\nAMY: Exactly. But I'd say it's had less of an impact on noise pollution because there are still loads of buses and lorries around.\n\nJAKE: Right.\n\nAMY: Shall we quickly discuss the recommendations we're going to make?\n\nJAKE: In order to ensure bike-sharing schemes are successful?\n\nAMY: Yes.\n\nJAKE: OK. Well, while I think it's nice to have really state-of-the-art bikes with things like GPS, I wouldn't say they're absolutely necessary.\n\nAMY: But some technical things are really important – like a fully functional app – so people can make payments and book bikes easily. Places which haven't invested in that have really struggled.\n\nJAKE: Good point ... Some people say there shouldn't be competing companies offering separate bike-sharing schemes, but in some really big cities, competition's beneficial and anyway one company might not be able to manage the whole thing.\n\nAMY: Right. Deciding how much to invest is a big question. Cities which have opened loads of new bike lanes at the same time as introducing bike-sharing schemes have generally been more successful – but there are examples of successful schemes where this hasn't happened ... What does matter though – is having a big publicity campaign.\n\nJAKE: Definitely. If people don't know how to use the scheme or don't understand its benefits, they won't use it. People need a lot of persuasion to stop using their cars.\n\n---\n\nAMY: Shall we look at some examples now? And say what we think is good or bad about them.\n\nJAKE: I suppose we should start with Amsterdam as this was one of the first cities to have a bike-sharing scheme.\n\nAMY: Yes. There was already a strong culture of cycling here. In a way it's strange that there was such a demand for bike-sharing because you'd have thought most people would have used their own bikes.\n\nJAKE: And yet it's one of the best-used schemes ... Dublin's an interesting example of a success story.\n\nAMY: It must be because the public transport system's quite limited.\n\nJAKE: Not really – there's no underground, but there are trams and a good bus network. I'd say price has a lot to do with it. It's one of the cheapest schemes in Europe to join.\n\nAMY: But the buses are really slow – anyway the weather certainly can't be a factor!\n\nJAKE: No – definitely not. The London scheme's been quite successful.\n\nAMY: Yes – it's been a really good thing for the city. The bikes are popular and the whole system is well maintained but it isn't expanding quickly enough. Basically, not enough's been spent on increasing the number of cycle lanes. Hopefully that'll change.\n\nJAKE: Yes. Now what about outside Europe?\n\nAMY: Well bike-sharing schemes have taken off in places like Buenos Aires.\n\nJAKE: Mmm. They built a huge network of cycle lanes to support the introduction of the scheme there, didn't they? It attracted huge numbers of cyclists where previously there were hardly any.\n\nAMY: An example of good planning."
             },
             {
                 "id": 4,
                 "title": "Part 4",
-                "audioUrl": "https://drive.google.com/file/d/1Y5D_0OgQexbfEr6ipXAM4K5qF2rd6G1l/view?usp=drive_link",
+                "audioUrl": "https://drive.google.com/file/d/16KN7oytCe6QV2j2pXGFxL-YvXM6iBGBE/view?usp=sharing",
                 "description": "Questions 31-40",
                 "instructions": "Write ONE WORD ONLY for each answer.",
-                "noteTitle": "Stoicism",
+                "noteTitle": "The extinction of the dodo bird",
                 "type": "notes",
                 "items": [
                     {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "The dodo was a large flightless bird which used to inhabit the island of Mauritius."
+                            }
+                        ]
+                    },
+                    {
                         "isHeader": true,
-                        "text": "Stoicism"
+                        "text": "History"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "Stoicism is still relevant today because of its "
+                                "value": "1507 – Portuguese ships transporting"
                             },
                             {
                                 "type": "blank",
@@ -535,19 +552,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " appeal."
-                            }
-                        ]
-                    },
-                    {
-                        "isSubHeader": true,
-                        "text": "Ancient Stoics"
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "• Stoicism was founded over 2,000 years ago in Greece."
+                                "value": "stopped at the island to collect food and water."
                             }
                         ]
                     },
@@ -555,23 +560,15 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• The Stoics' ideas are surprisingly well known, despite not being intended for "
+                                "value": "1638 – The Dutch established a"
                             },
                             {
                                 "type": "blank",
                                 "number": 32
-                            }
-                        ]
-                    },
-                    {
-                        "isSubHeader": true,
-                        "text": "Stoic principles"
-                    },
-                    {
-                        "parts": [
+                            },
                             {
                                 "type": "text",
-                                "value": "• Happiness could be achieved by leading a virtuous life."
+                                "value": "on the island."
                             }
                         ]
                     },
@@ -579,7 +576,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Controlling emotions was essential."
+                                "value": "They killed the dodo birds for their meat."
                             }
                         ]
                     },
@@ -587,15 +584,31 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Epictetus said that external events cannot be controlled but the "
+                                "value": "The last one was killed in 1681."
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Description"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "The only record we have is written descriptions and pictures (possibly unreliable)."
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "A Dutch painting suggests the dodo was very"
                             },
                             {
                                 "type": "blank",
                                 "number": 33
-                            },
-                            {
-                                "type": "text",
-                                "value": " people make in response can be controlled."
                             }
                         ]
                     },
@@ -603,7 +616,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• A Stoic is someone who has a different view on experiences which others would consider as "
+                                "value": "The only remaining soft tissue is a dried"
                             },
                             {
                                 "type": "blank",
@@ -612,22 +625,14 @@
                         ]
                     },
                     {
-                        "isSubHeader": true,
-                        "text": "The influence of Stoicism"
-                    },
-                    {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• George Washington organised a "
+                                "value": "Recent studies of a dodo skeleton suggest the birds were capable of rapid"
                             },
                             {
                                 "type": "blank",
                                 "number": 35
-                            },
-                            {
-                                "type": "text",
-                                "value": " about Cato to motivate his men."
                             }
                         ]
                     },
@@ -635,23 +640,11 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• The French artist Delacroix was a Stoic."
-                            }
-                        ]
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "• Adam Smith's ideas on "
+                                "value": "It's thought they were able to use their small wings to maintain"
                             },
                             {
                                 "type": "blank",
                                 "number": 36
-                            },
-                            {
-                                "type": "text",
-                                "value": " were influenced by Stoicism."
                             }
                         ]
                     },
@@ -659,23 +652,7 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• Some of today's political leaders are inspired by the Stoics."
-                            }
-                        ]
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "• Cognitive Behaviour Therapy (CBT)"
-                            }
-                        ]
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "  – the treatment for "
+                                "value": "Their"
                             },
                             {
                                 "type": "blank",
@@ -683,7 +660,7 @@
                             },
                             {
                                 "type": "text",
-                                "value": " is based on ideas from Stoicism"
+                                "value": "was of average size."
                             }
                         ]
                     },
@@ -691,11 +668,27 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "  – people learn to base their thinking on "
+                                "value": "Their sense of"
                             },
                             {
                                 "type": "blank",
                                 "number": 38
+                            },
+                            {
+                                "type": "text",
+                                "value": "enabled them to find food."
+                            }
+                        ]
+                    },
+                    {
+                        "isHeader": true,
+                        "text": "Reasons for extinction"
+                    },
+                    {
+                        "parts": [
+                            {
+                                "type": "text",
+                                "value": "Hunting was probably not the main cause."
                             }
                         ]
                     },
@@ -703,23 +696,27 @@
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• In business, people benefit from Stoicism by identifying obstacles as "
-                            },
+                                "value": "Sailors brought dogs and monkeys."
+                            }
+                        ]
+                    },
+                    {
+                        "parts": [
                             {
                                 "type": "blank",
                                 "number": 39
+                            },
+                            {
+                                "type": "text",
+                                "value": "also escaped onto the island and ate the birds' eggs."
                             }
                         ]
-                    },
-                    {
-                        "isSubHeader": true,
-                        "text": "Relevance of Stoicism"
                     },
                     {
                         "parts": [
                             {
                                 "type": "text",
-                                "value": "• It requires a lot of "
+                                "value": "The arrival of farming meant the"
                             },
                             {
                                 "type": "blank",
@@ -727,32 +724,24 @@
                             },
                             {
                                 "type": "text",
-                                "value": " but Stoicism can help people to lead a good life."
-                            }
-                        ]
-                    },
-                    {
-                        "parts": [
-                            {
-                                "type": "text",
-                                "value": "• It teaches people that having a strong character is more important than anything else."
+                                "value": "was destroyed."
                             }
                         ]
                     }
                 ],
                 "answers": {
-                    "31": "practical",
-                    "32": "publication",
-                    "33": "choices",
-                    "34": "negative",
-                    "35": "play",
-                    "36": "capitalism",
-                    "37": "depression",
-                    "38": "logic",
-                    "39": "opportunity",
-                    "40": "practice/practise"
+                    "31": "spice(s)",
+                    "32": "colony/settlement",
+                    "33": "fat",
+                    "34": "head",
+                    "35": "movement",
+                    "36": "balance/balancing",
+                    "37": "brain",
+                    "38": "smell",
+                    "39": "rats",
+                    "40": "forest"
                 },
-                "transcript": "Ancient philosophy is not just about talking or lecturing, or even reading long, dense books. In fact, it is something people have used throughout history – to solve their problems and to achieve their greatest triumphs.\n\nSpecifically, I am referring to Stoicism, which, in my opinion, is the most practical of all philosophies and therefore the most appealing. Stoicism was founded in Ancient Greece by Zeno of Citium in the early 3rd century BC, but was practised by the likes of Epictetus, Cato, Seneca and Marcus Aurelius. Amazingly, we still have access to these ideas, despite the fact that the most famous Stoics never wrote anything down for publication. Cato definitely didn't. Marcus Aurelius never intended his Meditations to be anything but personal. Seneca's letters were, well, letters and Epictetus' thoughts came to us by way of a note-taking student.\n\nStoic principles were based on the idea that its followers could have an unshakeable happiness in this life and the key to achieving this was virtue. The road to virtue, in turn, lay in understanding that destructive emotions, like anger and jealousy, are under our conscious control – they don't have to control us, because we can learn to control them. In the words of Epictetus: 'external events I cannot control, but the choices I make with regard to them, I do control'.\n\nThe modern day philosopher and writer Nassim Nicholas Taleb defines a Stoic as someone who has a different perspective on experiences which most of us would see as wholly negative: a Stoic 'transforms fear into caution, pain into transformation, mistakes into initiation and desire into undertaking'. Using this definition as a model, we can see that throughout the centuries Stoicism has been practised in more recent history by kings, presidents, artists, writers and entrepreneurs.\n\nThe founding fathers of the United States were inspired by the philosophy. George Washington was introduced to Stoicism by his neighbours at age seventeen, and later, put on a play based on the life of Cato to inspire his men. Thomas Jefferson kept a copy of Seneca beside his bed.\n\nWriters and artists have also been inspired by the stoics. Eugène Delacroix, the renowned French Romantic artist (known best for his painting Liberty Leading the People) was an ardent Stoic, referring to it as his 'consoling religion'.\n\nThe economist Adam Smith's theories on capitalism were significantly influenced by the Stoicism that he studied as a schoolboy, under a teacher who had translated Marcus Aurelius' works.\n\nToday's political leaders are no different, with many finding their inspiration from the ancient texts. Former US president Bill Clinton rereads Marcus Aurelius every single year, and many have compared former President Obama's calm leadership style to that of Cato. Wen Jiabao, the former prime minister of China, claims that Meditations is one of two books he travels with and that he has read it more than one hundred times over the course of his life.\n\nStoicism had a profound influence on Albert Ellis, who invented Cognitive Behaviour Therapy, which is used to help people manage their problems by changing the way that they think and behave. It's most commonly used to treat depression. The idea is that we can take control of our lives by challenging the irrational beliefs that create our faulty thinking, symptoms and behaviours by using logic. Indeed.\n\nStoicism has also become popular in the world of business. Stoic principles can build the resilience and state of mind required to overcome setbacks because Stoics teach turning obstacles into opportunity. A lesson every business entrepreneur needs to learn.\n\nI would argue that studying Stoicism is as relevant today as it was 2,000 years ago, thanks to its brilliant insights into how to lead a good life. At the very root of the thinking, there is a very simple way of living – control what you can and accept what you can't. This is not an easy ask. It sounds and will require considerable practice – it can take a lifetime to master. The Stoics also believed the most important foundation for a good and happy life is not money, fame, power or pleasure, but having a disciplined and principled character – something which seems to resonate with many people today."
+                "transcript": "One of the most famous cases of extinction is that of a bird known as the dodo. In fact there's even a saying in English, 'as dead as the dodo', used to refer to something which no longer exists. But for many centuries the dodo was alive and well, although it could only be found in one place, the island of Mauritius in the Indian Ocean. It was a very large bird, about one metre tall, and over the centuries it had lost the ability to fly, but it survived happily under the trees that covered the island.\n\nThen in the year 1507 the first Portuguese ships stopped at the island. The sailors were carrying spices back to Europe, and found the island a convenient stopping place where they could stock up with food and water for the rest of the voyage, but they didn't settle on Mauritius. However, in 1638 the Dutch arrived and set up a colony there. These first human inhabitants of the island found the dodo birds a convenient source of meat, although not everyone liked the taste.\n\nIt's hard to get an accurate description of what the dodo actually looked like. We do have some written records from sailors, and a few pictures, but we don't know how reliable these are. The best-known picture is a Dutch painting in which the bird appears to be extremely fat, but this may not be accurate – an Indian painting done at the same time shows a much thinner bird.\n\nAlthough attempts were made to preserve the bodies of some of the birds, no complete specimen survives. In the early 17th century four dried parts of a bird were known to exist – of these, three have disappeared, so only one example of soft tissue from the dodo survives, a dodo head. Bones have also been found, but there's only one complete skeleton in existence.\n\nThis single dodo skeleton has recently been the subject of scientific research which suggests that many of the earlier beliefs about dodos may have been incorrect. For example, early accounts of the birds mention how slow and clumsy it was, but scientists now believe the bird's strong knee joints would have made it capable of movement which was not slow, but actually quite fast. In fact, one 17th century sailor wrote that he found the birds hard to catch.\n\nIt's true that the dodo's small wings wouldn't have allowed it to leave the ground, but the scientists suggest that these were probably employed for balance while going over uneven ground. Another group of scientists carried out analysis of the dodo's skull. They found that the reports of the lack of intelligence of the dodo were not borne out by their research, which suggested the bird's brain was not small, but average in size. In fact, in relation to its body size, it was similar to that of the pigeon, which is known to be a highly intelligent bird.\n\nThe researchers also found that the structure of the bird's skull suggested that one sense which was particularly well-developed was that of smell. So the dodo may also have been particularly good at locating ripe fruit and other food in the island's thick vegetation.\n\n---\n\nSo it looks as if the dodo was better able to survive and defend itself than was originally believed. Yet less than 200 years after Europeans first arrived on the island, they had become extinct. So what was the reason for this? For a long time, it was believed that the dodos were hunted to extinction, but scientists now believe the situation was more complicated than this. Another factor may have been the new species brought to the island by the sailors. These included dogs, which would have been a threat to the dodos, and also monkeys, which ate the fruit that was the main part of the dodos' diet. These were brought to the island deliberately, but the ships also brought another type of creature – rats, which came to land from the ships and rapidly overran the island. These upset the ecology of the island, not just the dodos but other species too. However, they were a particular danger to the dodos because they consumed their eggs, and since each dodo only laid one at a time, this probably had a devastating effect on populations.\n\nHowever, we now think that probably the main cause of the birds' extinction was not the introduction of non-native species, but the introduction of agriculture. This meant that the forest that had once covered all the island, and that had provided a perfect home for the dodo, was cut down so that crops such as sugar could be grown. So although the dodo had survived for thousands of years, suddenly it was gone."
             }
         ]
     }
