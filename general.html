@@ -329,6 +329,19 @@
                             <!-- MATCHING -->
                             <template x-if="section.type === 'matching'">
                                 <div class="space-y-4">
+                                    <!-- Option Labels Box (if available) -->
+                                    <template x-if="section.optionLabels">
+                                        <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                            <p class="text-white/70 font-semibold mb-2"
+                                                x-text="section.optionLabelsTitle || 'List of Options:'"></p>
+                                            <template x-for="option in section.options" :key="option">
+                                                <p class="text-white/60 mb-1">
+                                                    <span class="text-gray-400 font-bold" x-text="option + '.'"></span>
+                                                    <span x-text="section.optionLabels[option]"></span>
+                                                </p>
+                                            </template>
+                                        </div>
+                                    </template>
                                     <template x-for="q in section.items" :key="q.number">
                                         <div class="question-card rounded-xl p-4">
                                             <p class="text-white mb-3">
@@ -349,6 +362,14 @@
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
+                                            </div>
+                                            <!-- Explanation -->
+                                            <div x-show="passageSubmitted[currentPassageIndex] && q.explanation"
+                                                class="mt-3 p-3 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                                <p class="text-blue-300 text-sm">
+                                                    <span class="font-semibold">Explanation:</span>
+                                                    <span x-text="q.explanation"></span>
+                                                </p>
                                             </div>
                                         </div>
                                     </template>
@@ -445,6 +466,22 @@
                                             </div>
                                         </template>
                                     </div>
+                                    <!-- Explanations for notes -->
+                                    <template x-if="passageSubmitted[currentPassageIndex] && section.explanations">
+                                        <div class="mt-4 pt-4 border-t border-white/10">
+                                            <p class="text-blue-400 font-semibold mb-3">Explanations:</p>
+                                            <div class="space-y-2">
+                                                <template x-for="qNum in Object.keys(section.explanations)" :key="qNum">
+                                                    <div class="p-2 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                                        <p class="text-blue-300 text-sm">
+                                                            <span class="font-semibold" x-text="'Q' + qNum + ':'"></span>
+                                                            <span x-text="section.explanations[qNum]"></span>
+                                                        </p>
+                                                    </div>
+                                                </template>
+                                            </div>
+                                        </div>
+                                    </template>
                                 </div>
                             </template>
 
@@ -507,6 +544,14 @@
                                                         <span x-text="option.text"></span>
                                                     </button>
                                                 </template>
+                                            </div>
+                                            <!-- Explanation -->
+                                            <div x-show="passageSubmitted[currentPassageIndex] && q.explanation"
+                                                class="mt-3 p-3 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                                <p class="text-blue-300 text-sm">
+                                                    <span class="font-semibold">Explanation:</span>
+                                                    <span x-text="q.explanation"></span>
+                                                </p>
                                             </div>
                                         </div>
                                     </template>
@@ -574,6 +619,14 @@
                                                     x-show="passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer)"
                                                     class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
                                             </div>
+                                            <!-- Explanation -->
+                                            <div x-show="passageSubmitted[currentPassageIndex] && q.explanation"
+                                                class="mt-3 p-3 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                                <p class="text-blue-300 text-sm">
+                                                    <span class="font-semibold">Explanation:</span>
+                                                    <span x-text="q.explanation"></span>
+                                                </p>
+                                            </div>
                                         </div>
                                     </template>
                                 </div>
@@ -603,6 +656,14 @@
                                                         <span x-text="option"></span>
                                                     </button>
                                                 </template>
+                                            </div>
+                                            <!-- Explanation -->
+                                            <div x-show="passageSubmitted[currentPassageIndex] && q.explanation"
+                                                class="mt-3 p-3 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                                <p class="text-blue-300 text-sm">
+                                                    <span class="font-semibold">Explanation:</span>
+                                                    <span x-text="q.explanation"></span>
+                                                </p>
                                             </div>
                                         </div>
                                     </template>
@@ -724,25 +785,107 @@
                                         <p x-show="section.summary" class="text-yellow-400 font-semibold text-sm mb-2">
                                             Your Answers:</p>
                                         <template x-for="q in section.items" :key="q.number">
-                                            <div class="flex items-center gap-3 flex-wrap p-2 bg-white/5 rounded-lg">
-                                                <span class="text-gray-400 font-bold w-8"
-                                                    x-text="q.number + '.'"></span>
-                                                <span class="text-white" x-text="q.textBefore || ''"></span>
-                                                <input type="text" x-model="answers[q.number]"
-                                                    :disabled="passageSubmitted[currentPassageIndex]"
-                                                    @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
-                                                    :class="{
-                                                            'correct': passageSubmitted[currentPassageIndex] && isCorrectFillItem(q.number, q.answer),
-                                                            'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
-                                                        }" class="fill-input w-36 px-3 py-2 rounded-lg text-white"
-                                                    placeholder="...">
-                                                <span class="text-white" x-text="q.textAfter || ''"></span>
-                                                <span
-                                                    x-show="passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer)"
-                                                    class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
+                                            <div class="p-2 bg-white/5 rounded-lg">
+                                                <div class="flex items-center gap-3 flex-wrap">
+                                                    <span class="text-gray-400 font-bold w-8"
+                                                        x-text="q.number + '.'"></span>
+                                                    <span class="text-white" x-text="q.textBefore || ''"></span>
+                                                    <input type="text" x-model="answers[q.number]"
+                                                        :disabled="passageSubmitted[currentPassageIndex]"
+                                                        @input="currentTestId && localStorage.setItem(`reading_answers_test${currentTestId}`, JSON.stringify(answers))"
+                                                        :class="{
+                                                                'correct': passageSubmitted[currentPassageIndex] && isCorrectFillItem(q.number, q.answer),
+                                                                'incorrect': passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer) && answers[q.number]
+                                                            }" class="fill-input w-36 px-3 py-2 rounded-lg text-white"
+                                                        placeholder="...">
+                                                    <span class="text-white" x-text="q.textAfter || ''"></span>
+                                                    <span
+                                                        x-show="passageSubmitted[currentPassageIndex] && !isCorrectFillItem(q.number, q.answer)"
+                                                        class="text-green-400 text-sm" x-text="'(' + q.answer + ')'"></span>
+                                                </div>
+                                                <!-- Explanation -->
+                                                <div x-show="passageSubmitted[currentPassageIndex] && q.explanation"
+                                                    class="mt-2 p-2 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                                    <p class="text-blue-300 text-sm">
+                                                        <span class="font-semibold">Explanation:</span>
+                                                        <span x-text="q.explanation"></span>
+                                                    </p>
+                                                </div>
                                             </div>
                                         </template>
                                     </div>
+                                </div>
+                            </template>
+
+                            <!-- TABLE COMPLETION (GT) -->
+                            <template x-if="section.type === 'tableCompletion'">
+                                <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                                    <h4 class="text-lg font-semibold text-white mb-4" x-text="section.tableTitle"></h4>
+                                    <div class="overflow-x-auto">
+                                        <table class="w-full text-sm">
+                                            <thead>
+                                                <tr class="border-b border-white/20">
+                                                    <template x-for="header in section.headers" :key="header">
+                                                        <th class="text-left py-3 px-3 text-yellow-400 font-semibold"
+                                                            x-text="header"></th>
+                                                    </template>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <template x-for="(row, rowIndex) in section.rows" :key="rowIndex">
+                                                    <tr class="border-b border-white/10">
+                                                        <template x-for="(cell, cellIndex) in row.cells"
+                                                            :key="cellIndex">
+                                                            <td class="py-3 px-3 text-white/85 align-top">
+                                                                <div
+                                                                    x-html="renderTableCell(cell, row.answers, section)">
+                                                                </div>
+                                                            </td>
+                                                        </template>
+                                                    </tr>
+                                                </template>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </template>
+
+                            <!-- HEADING MATCHING (GT - i-viii style) -->
+                            <template x-if="section.type === 'headingMatching'">
+                                <div class="space-y-4">
+                                    <div class="bg-white/5 rounded-xl p-4 border border-white/10 mb-4">
+                                        <p class="text-white/70 font-semibold mb-2">List of Headings:</p>
+                                        <template x-for="heading in section.headings" :key="heading.number">
+                                            <p class="text-white/60 mb-1">
+                                                <span class="text-gray-400 font-bold"
+                                                    x-text="heading.number + '.'"></span>
+                                                <span x-text="heading.text"></span>
+                                            </p>
+                                        </template>
+                                    </div>
+                                    <template x-for="q in section.items" :key="q.number">
+                                        <div class="question-card rounded-xl p-4">
+                                            <p class="text-white mb-3">
+                                                <span class="text-gray-400 font-bold" x-text="q.number + '.'"></span>
+                                                <span x-text="q.statement"></span>
+                                            </p>
+                                            <div class="flex gap-2 flex-wrap">
+                                                <template x-for="heading in section.headings" :key="heading.number">
+                                                    <button
+                                                        @click="!passageSubmitted[currentPassageIndex] && setAnswer(q.number, heading.number)"
+                                                        :class="{
+                                                            'selected': answers[q.number] === heading.number && !passageSubmitted[currentPassageIndex],
+                                                            'correct': passageSubmitted[currentPassageIndex] && q.answer === heading.number,
+                                                            'incorrect': passageSubmitted[currentPassageIndex] && answers[q.number] === heading.number && q.answer !== heading.number
+                                                        }"
+                                                        class="radio-option px-3 py-2 rounded-lg border border-white/20 text-sm font-medium transition-all"
+                                                        :disabled="passageSubmitted[currentPassageIndex]">
+                                                        <span x-text="heading.number"></span>
+                                                    </button>
+                                                </template>
+                                            </div>
+                                        </div>
+                                    </template>
                                 </div>
                             </template>
 
@@ -837,8 +980,31 @@
                         <h2 class="text-lg font-bold mb-2 text-green-400"
                             x-text="listeningData?.title || 'IELTS Listening'"></h2>
 
-                        <div class="relative w-full" style="padding-bottom: 56.25%;">
-                            <iframe x-show="listeningData?.videoUrl" :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
+                        <!-- Audio Player for Google Drive (per part) -->
+                        <div x-show="currentListeningPart?.audioUrl" class="w-full">
+                            <div class="bg-white/5 rounded-lg p-4 border border-white/10">
+                                <div class="flex items-center gap-3 mb-3">
+                                    <span class="text-2xl">🎧</span>
+                                    <span class="text-white/70 text-sm"
+                                        x-text="currentListeningPart?.title + ' Audio'"></span>
+                                </div>
+                                <div class="relative overflow-hidden rounded-lg" style="height: 60px;">
+                                    <iframe :key="currentListeningPartIndex"
+                                        :src="getGoogleDrivePreviewUrl(currentListeningPart?.audioUrl)"
+                                        class="absolute"
+                                        style="height: 100px; top: -20px; border: none; width: calc(100% + 60px); left: 0;"
+                                        allow="autoplay">
+                                    </iframe>
+                                </div>
+                                <p class="text-white/50 text-xs mt-2">Tip: Listen carefully. You can pause and replay as
+                                    needed.</p>
+                            </div>
+                        </div>
+
+                        <!-- Fallback: YouTube Video (if no audio) -->
+                        <div x-show="listeningData?.videoUrl && !currentListeningPart?.audioUrl" class="relative w-full"
+                            style="padding-bottom: 56.25%;">
+                            <iframe :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
                                 class="absolute top-0 left-0 w-full h-full rounded-lg" frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowfullscreen>
@@ -1234,6 +1400,121 @@
                                             </div>
                                         </template>
 
+                                        <!-- Map Labeling -->
+                                        <template x-if="q.type === 'mapLabeling'">
+                                            <div class="question-card rounded-xl p-4 mb-4">
+                                                <div class="mb-4">
+                                                    <p class="text-green-400 font-bold text-lg mb-2" x-text="q.title">
+                                                    </p>
+                                                    <p class="text-white/50 text-sm" x-text="q.instructions"></p>
+                                                </div>
+                                                <!-- Map Image -->
+                                                <template x-if="q.mapImage">
+                                                    <div class="mb-4">
+                                                        <p class="text-yellow-400 font-semibold mb-2"
+                                                            x-text="q.mapTitle"></p>
+                                                        <img :src="q.mapImage" :alt="q.mapTitle"
+                                                            class="w-full max-w-2xl mx-auto rounded-lg border border-white/20">
+                                                    </div>
+                                                </template>
+                                                <!-- Questions -->
+                                                <div class="space-y-3">
+                                                    <template x-for="item in q.items" :key="item.number">
+                                                        <div class="flex items-center gap-4 p-3 bg-white/5 rounded-lg">
+                                                            <span class="text-green-400 font-bold w-8"
+                                                                x-text="item.number"></span>
+                                                            <span class="text-white flex-1" x-text="item.label"></span>
+                                                            <select x-model="listeningAnswers[item.number]"
+                                                                @change="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
+                                                                :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                :class="{
+                                                                'correct': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] === item.answer,
+                                                                'incorrect': listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] && listeningAnswers[item.number] !== item.answer
+                                                                    }"
+                                                                class="fill-input px-4 py-2 rounded-lg text-white w-20 text-center">
+                                                                <option value="" class="bg-gray-800">-</option>
+                                                                <template x-for="option in q.options" :key="option">
+                                                                    <option :value="option" x-text="option"
+                                                                        class="bg-gray-800">
+                                                                    </option>
+                                                                </template>
+                                                            </select>
+                                                            <span
+                                                                x-show="listeningPartSubmitted[currentListeningPartIndex] && listeningAnswers[item.number] !== item.answer"
+                                                                class="text-green-400 text-sm"
+                                                                x-text="'(' + item.answer + ')'"></span>
+                                                        </div>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                        </template>
+
+                                        <!-- Notes Group (fill in blanks within complex type) -->
+                                        <template x-if="q.type === 'notesGroup'">
+                                            <div class="question-card rounded-xl p-4 mb-4">
+                                                <div class="mb-4">
+                                                    <p class="text-green-400 font-bold text-lg mb-2" x-text="q.title">
+                                                    </p>
+                                                    <p class="text-white/50 text-sm" x-text="q.instructions"></p>
+                                                </div>
+                                                <div class="bg-white/5 rounded-lg p-3 border border-white/10">
+                                                    <h4 class="text-base font-semibold text-white mb-3"
+                                                        x-text="q.noteTitle"></h4>
+                                                    <div class="space-y-1.5">
+                                                        <template x-for="(item, itemIndex) in q.items" :key="itemIndex">
+                                                            <div>
+                                                                <template x-if="item.isHeader">
+                                                                    <p class="text-yellow-400 font-semibold text-sm mt-2 mb-1"
+                                                                        x-text="item.text"></p>
+                                                                </template>
+                                                                <template x-if="item.isSubHeader">
+                                                                    <p class="text-yellow-300/80 font-medium text-sm mt-1 mb-0.5 ml-2"
+                                                                        x-text="item.text"></p>
+                                                                </template>
+                                                                <template x-if="!item.isHeader && !item.isSubHeader">
+                                                                    <p
+                                                                        class="text-white/85 text-sm flex items-center gap-1.5 flex-wrap">
+                                                                        <span>•</span>
+                                                                        <template
+                                                                            x-for="(part, partIndex) in item.parts"
+                                                                            :key="partIndex">
+                                                                            <span>
+                                                                                <template x-if="part.type === 'text'">
+                                                                                    <span x-text="part.value"></span>
+                                                                                </template>
+                                                                                <template x-if="part.type === 'blank'">
+                                                                                    <span
+                                                                                        class="inline-flex items-center gap-1">
+                                                                                        <span
+                                                                                            class="text-green-400 font-bold text-xs"
+                                                                                            x-text="part.number"></span>
+                                                                                        <input type="text"
+                                                                                            x-model="listeningAnswers[part.number]"
+                                                                                            @input="currentTestId && localStorage.setItem(`listening_answers_test${currentTestId}`, JSON.stringify(listeningAnswers))"
+                                                                                            :disabled="listeningPartSubmitted[currentListeningPartIndex]"
+                                                                                            :class="{
+                                                                                                'correct': listeningPartSubmitted[currentListeningPartIndex] && isCorrectNotesGroupFill(q, part.number),
+                                                                                                'incorrect': listeningPartSubmitted[currentListeningPartIndex] && !isCorrectNotesGroupFill(q, part.number) && listeningAnswers[part.number]
+                                                                                            }"
+                                                                                            class="fill-input w-28 px-2 py-0.5 rounded text-white text-center text-sm"
+                                                                                            placeholder="...">
+                                                                                        <span
+                                                                                            x-show="listeningPartSubmitted[currentListeningPartIndex] && !isCorrectNotesGroupFill(q, part.number)"
+                                                                                            class="text-green-400 text-xs ml-1"
+                                                                                            x-text="'(' + q.answers[part.number] + ')'"></span>
+                                                                                    </span>
+                                                                                </template>
+                                                                            </span>
+                                                                        </template>
+                                                                    </p>
+                                                                </template>
+                                                            </div>
+                                                        </template>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </template>
+
                                         <!-- Regular Multiple Choice (for complex type) -->
                                         <template x-if="q.type === 'multipleChoice'">
                                             <div class="question-card rounded-xl p-4 mb-4">
@@ -1459,12 +1740,11 @@
                 discoverTests() {
                     // Hardcoded test list for instant loading (no HTTP requests)
                     this.generalTests = [
-                        { id: 1, name: 'General Test 1', file: 'ielts-tests/general/general-test1.json', type: 'general' },
-                        { id: 2, name: 'General Test 2', file: 'ielts-tests/general/general-test2.json', type: 'general' },
-                        { id: 3, name: 'General Test 3', file: 'ielts-tests/general/general-test3.json', type: 'general' },
-                        { id: 4, name: 'General Test 4', file: 'ielts-tests/general/general-test4.json', type: 'general' },
-                        { id: 5, name: 'General Test 5', file: 'ielts-tests/general/general-test5.json', type: 'general' },
-                        { id: 6, name: 'General Test 6', file: 'ielts-tests/general/general-test6.json', type: 'general' }
+                        { id: 1, name: 'Cambridge 17 Test 4', file: 'ielts-tests/general/general-test-17-4.json', listeningFile: 'ielts-tests/listening/test-17-4.json', type: 'general' },
+                        { id: 2, name: 'Cambridge 16 Test 1', file: 'ielts-tests/general/general-test-16-1.json', listeningFile: 'ielts-tests/listening/test-16-1.json', type: 'general' },
+                        { id: 3, name: 'Cambridge 16 Test 2', file: 'ielts-tests/general/general-test-16-2.json', listeningFile: 'ielts-tests/listening/test-16-2.json', type: 'general' },
+                        { id: 4, name: 'Cambridge 16 Test 3', file: 'ielts-tests/general/general-test-16-3.json', listeningFile: 'ielts-tests/listening/test-16-3.json', type: 'general' },
+                        { id: 5, name: 'Cambridge 16 Test 4', file: 'ielts-tests/general/general-test-16-4.json', listeningFile: 'ielts-tests/listening/test-16-4.json', type: 'general' }
                     ];
                 },
 
@@ -1551,7 +1831,7 @@
                                 if (this.testDataCache[cacheKey]) {
                                     testData = this.testDataCache[cacheKey];
                                 } else {
-                                    const response = await fetch(`ielts-tests/listening/test${testConfig.id}.json`);
+                                    const response = await fetch(testConfig.listeningFile);
                                     testData = await response.json();
                                     this.testDataCache[cacheKey] = testData;
                                 }
@@ -1632,6 +1912,57 @@
                     return html;
                 },
 
+                renderTableCell(cell, rowAnswers, section) {
+                    if (!cell) return '';
+                    // Replace newlines with <br> tags
+                    let html = cell.replace(/\n/g, '<br>');
+                    // Find all question numbers (e.g., "15 ___" or just "___") and replace with inputs
+                    if (rowAnswers) {
+                        Object.keys(rowAnswers).forEach(num => {
+                            // Pattern matches "NUMBER ___" or just the number followed by ___
+                            const pattern = new RegExp(`${num}\\s*___`, 'g');
+                            const userAnswer = this.answers[num] || '';
+                            const correctAnswer = rowAnswers[num] || '';
+                            const isSubmitted = this.passageSubmitted[this.currentPassageIndex];
+                            const isCorrect = userAnswer.toLowerCase().trim() === correctAnswer.toLowerCase().trim();
+
+                            let inputClass = 'fill-input w-28 px-2 py-1 rounded text-white text-center text-sm';
+                            if (isSubmitted && userAnswer) {
+                                inputClass += isCorrect ? ' correct' : ' incorrect';
+                            }
+
+                            const correctShow = isSubmitted && !isCorrect ?
+                                `<span class="text-green-400 text-xs ml-1">(${correctAnswer})</span>` : '';
+
+                            const inputHtml = `<span class="inline-flex items-center gap-1">
+                                <span class="text-gray-400 font-bold text-xs">${num}</span>
+                                <input type="text"
+                                    x-model="answers[${num}]"
+                                    @input="currentTestId && localStorage.setItem('reading_answers_test' + currentTestId, JSON.stringify(answers))"
+                                    ${isSubmitted ? 'disabled' : ''}
+                                    class="${inputClass}"
+                                    placeholder="...">
+                                ${correctShow}
+                            </span>`;
+
+                            html = html.replace(pattern, inputHtml);
+                        });
+                    }
+                    return html;
+                },
+
+                isCorrectTableFill(section, number) {
+                    // Find the answer in section.rows
+                    for (const row of (section.rows || [])) {
+                        if (row.answers && row.answers[number] !== undefined) {
+                            const userAnswer = (this.answers[number] || '').toLowerCase().trim();
+                            const correctAnswer = (row.answers[number] || '').toLowerCase().trim();
+                            return userAnswer === correctAnswer;
+                        }
+                    }
+                    return false;
+                },
+
                 submitAnswers() {
                     const passageIndex = this.currentPassageIndex;
                     let score = 0;
@@ -1639,7 +1970,7 @@
 
                     this.currentPassage?.questions.forEach(section => {
                         // Multiple choice style questions (select from options)
-                        if (['tfng', 'matching', 'matchPeople', 'multipleChoice', 'yesNoNotGiven', 'trueFalseNotGiven', 'matchingHeadings', 'sectionMatching'].includes(section.type)) {
+                        if (['tfng', 'matching', 'matchPeople', 'multipleChoice', 'yesNoNotGiven', 'trueFalseNotGiven', 'matchingHeadings', 'sectionMatching', 'headingMatching'].includes(section.type)) {
                             section.items.forEach(item => {
                                 totalQuestions++;
                                 if (this.answers[item.number] === item.answer) {
@@ -1685,6 +2016,21 @@
                                 });
                             }
                         }
+                        // Table completion (GT)
+                        else if (section.type === 'tableCompletion') {
+                            section.rows.forEach(row => {
+                                if (row.answers) {
+                                    Object.keys(row.answers).forEach(num => {
+                                        totalQuestions++;
+                                        const userAnswer = (this.answers[num] || '').toLowerCase().trim();
+                                        const correctAnswer = (row.answers[num] || '').toLowerCase().trim();
+                                        if (userAnswer === correctAnswer) {
+                                            score++;
+                                        }
+                                    });
+                                }
+                            });
+                        }
                     });
 
                     // Save to per-passage state
@@ -1725,6 +2071,25 @@
                     return videoId && videoId[1] ? `https://www.youtube.com/embed/${videoId[1]}` : '';
                 },
 
+                getGoogleDriveAudioUrl(url) {
+                    if (!url) return '';
+                    const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+                    if (match && match[1]) {
+                        // Use direct streaming URL
+                        return `https://docs.google.com/uc?export=download&id=${match[1]}`;
+                    }
+                    return url;
+                },
+
+                getGoogleDrivePreviewUrl(url) {
+                    if (!url) return '';
+                    const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+                    if (match && match[1]) {
+                        return `https://drive.google.com/file/d/${match[1]}/preview`;
+                    }
+                    return url;
+                },
+
                 selectListeningPart(index) {
                     this.currentListeningPartIndex = index;
                     this.currentListeningPart = null;
@@ -1759,6 +2124,13 @@
                     if (!this.currentListeningPart?.tableSection?.tableAnswers) return false;
                     const userAnswer = (this.listeningAnswers[number] || '').toLowerCase().trim();
                     const correctAnswer = (this.currentListeningPart.tableSection.tableAnswers[number] || '').toLowerCase().trim();
+                    return userAnswer === correctAnswer;
+                },
+
+                isCorrectNotesGroupFill(notesGroup, number) {
+                    if (!notesGroup?.answers) return false;
+                    const userAnswer = (this.listeningAnswers[number] || '').toLowerCase().trim();
+                    const correctAnswer = (notesGroup.answers[number] || '').toLowerCase().trim();
                     return userAnswer === correctAnswer;
                 },
 
@@ -1826,6 +2198,15 @@
                                         score++;
                                     }
                                 });
+                            } else if (item.type === 'notesGroup') {
+                                if (item.answers) {
+                                    Object.keys(item.answers).forEach(num => {
+                                        totalQuestions++;
+                                        if (this.isCorrectNotesGroupFill(item, parseInt(num))) {
+                                            score++;
+                                        }
+                                    });
+                                }
                             } else if (item.number) {
                                 totalQuestions++;
                                 if (this.listeningAnswers[item.number] === item.answer) {

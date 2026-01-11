@@ -776,8 +776,29 @@
                     <h2 class="text-2xl font-bold mb-4 text-green-400"
                         x-text="listeningData?.title || 'IELTS Listening'"></h2>
 
-                    <div class="relative w-full" style="padding-bottom: 56.25%;">
-                        <iframe x-show="listeningData?.videoUrl" :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
+                    <!-- Audio Player for Google Drive (per part) -->
+                    <div x-show="currentListeningPart?.audioUrl" class="w-full">
+                        <div class="bg-white/5 rounded-xl p-4 border border-white/10">
+                            <div class="flex items-center gap-3 mb-3">
+                                <span class="text-2xl">🎧</span>
+                                <span class="text-white/70 text-sm" x-text="currentListeningPart?.title + ' Audio'"></span>
+                            </div>
+                            <div class="relative overflow-hidden rounded-lg" style="height: 60px;">
+                                <iframe
+                                    :key="currentListeningPartIndex"
+                                    :src="getGoogleDrivePreviewUrl(currentListeningPart?.audioUrl)"
+                                    class="absolute"
+                                    style="height: 100px; top: -20px; border: none; width: calc(100% + 60px); left: 0;"
+                                    allow="autoplay">
+                                </iframe>
+                            </div>
+                            <p class="text-white/50 text-xs mt-2">Tip: Listen carefully. You can pause and replay as needed.</p>
+                        </div>
+                    </div>
+
+                    <!-- Fallback: YouTube Video (if no audio) -->
+                    <div x-show="listeningData?.videoUrl && !currentListeningPart?.audioUrl" class="relative w-full" style="padding-bottom: 56.25%;">
+                        <iframe :src="getYoutubeEmbedUrl(listeningData?.videoUrl)"
                             class="absolute top-0 left-0 w-full h-full rounded-xl" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen>
@@ -1339,10 +1360,11 @@
                         { id: 3, name: 'Academic Test 3', file: 'ielts-tests/academic/academic-test3.json', type: 'academic' }
                     ];
                     this.generalTests = [
-                        { id: 1, name: 'General Test 1', file: 'ielts-tests/general/general-test1.json', type: 'general' },
-                        { id: 2, name: 'General Test 2', file: 'ielts-tests/general/general-test2.json', type: 'general' },
-                        { id: 3, name: 'General Test 3', file: 'ielts-tests/general/general-test3.json', type: 'general' },
-                        { id: 4, name: 'General Test 4', file: 'ielts-tests/general/general-test4.json', type: 'general' }
+                        { id: 1, name: 'Cambridge 17 Test 4', file: 'ielts-tests/general/general-test-17-4.json', listeningFile: 'ielts-tests/listening/test-17-4.json', type: 'general' },
+                        { id: 2, name: 'Cambridge 16 Test 1', file: 'ielts-tests/general/general-test-16-1.json', listeningFile: 'ielts-tests/listening/test-16-1.json', type: 'general' },
+                        { id: 3, name: 'Cambridge 16 Test 2', file: 'ielts-tests/general/general-test-16-2.json', listeningFile: 'ielts-tests/listening/test-16-2.json', type: 'general' },
+                        { id: 4, name: 'Cambridge 16 Test 3', file: 'ielts-tests/general/general-test-16-3.json', listeningFile: 'ielts-tests/listening/test-16-3.json', type: 'general' },
+                        { id: 5, name: 'Cambridge 16 Test 4', file: 'ielts-tests/general/general-test-16-4.json', listeningFile: 'ielts-tests/listening/test-16-4.json', type: 'general' }
                     ];
                 },
 
@@ -1428,7 +1450,7 @@
                                 if (this.testDataCache[cacheKey]) {
                                     testData = this.testDataCache[cacheKey];
                                 } else {
-                                    const response = await fetch(`ielts-tests/listening/test${testConfig.id}.json`);
+                                    const response = await fetch(testConfig.listeningFile);
                                     testData = await response.json();
                                     this.testDataCache[cacheKey] = testData;
                                 }
@@ -1592,6 +1614,24 @@
                     if (!url) return '';
                     const videoId = url.match(/(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\s]+)/);
                     return videoId && videoId[1] ? `https://www.youtube.com/embed/${videoId[1]}` : '';
+                },
+
+                getGoogleDriveAudioUrl(url) {
+                    if (!url) return '';
+                    const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+                    if (match && match[1]) {
+                        return `https://drive.google.com/uc?export=download&id=${match[1]}`;
+                    }
+                    return url;
+                },
+
+                getGoogleDrivePreviewUrl(url) {
+                    if (!url) return '';
+                    const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+                    if (match && match[1]) {
+                        return `https://drive.google.com/file/d/${match[1]}/preview`;
+                    }
+                    return url;
                 },
 
                 selectListeningPart(index) {

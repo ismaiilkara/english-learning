@@ -1,10 +1,10 @@
 {
-    "id": 5,
-    "name": "IELTS General Training - Test 5",
-    "subtitle": "Cambridge IELTS 17 General Training Test 3",
+    "id": 4,
+    "name": "IELTS General Training - Cambridge 16 Test 3",
+    "subtitle": "Cambridge IELTS 16 General Training Test 3",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 5",
+        "title": "General Training Reading Test",
         "sections": [
             {
                 "id": 1,
@@ -19,7 +19,7 @@
                             {
                                 "type": "matching",
                                 "title": "Questions 1-6",
-                                "instructions": "Look at the five comments about lessons, A-E, on page 16. For which comments are the following statements true? Write the correct letter, A-E, in boxes 1-6 on your answer sheet. NB You may use any letter more than once.",
+                                "instructions": "Look at the five comments about lessons, A-E. For which comments are the following statements true? Write the correct letter, A-E. NB You may use any letter more than once.",
                                 "options": [
                                     "A",
                                     "B",
@@ -38,32 +38,38 @@
                                     {
                                         "number": 1,
                                         "statement": "This pupil is interested in the subject despite the way it is taught.",
-                                        "answer": "D"
+                                        "answer": "D",
+                                        "explanation": "Violeta (D) says 'I find it fascinating' but also states 'I think we spend too much time listening to her.' She is interested in leisure and tourism despite not liking the teaching method (too much listening)."
                                     },
                                     {
                                         "number": 2,
                                         "statement": "This pupil is hoping to have a career that makes use of the subject.",
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "Lucy (B) states 'My plan is to study history at university, and maybe go into the diplomatic service, so I can apply a knowledge of history.' This shows a career plan using the subject."
                                     },
                                     {
                                         "number": 3,
                                         "statement": "This pupil finds the subject harder than they expected.",
-                                        "answer": "C"
+                                        "answer": "C",
+                                        "explanation": "Mark (C) says 'when I started doing it at school, I didn't think I'd have any problem with it, but I was quite wrong!' This shows computing was harder than he expected."
                                     },
                                     {
                                         "number": 4,
                                         "statement": "This pupil finds the lessons very entertaining.",
-                                        "answer": "E"
+                                        "answer": "E",
+                                        "explanation": "Walid (E) states 'our teacher gets us to do lots of fun things, so there's no risk of getting bored.' Lots of fun things = very entertaining."
                                     },
                                     {
                                         "number": 5,
                                         "statement": "This pupil appreciates the benefit of doing challenging work.",
-                                        "answer": "A"
+                                        "answer": "A",
+                                        "explanation": "Krishnan (A) says 'Mr Peckham really pushes us, and offers us extra assignments, to help us improve. That's good for me.' He appreciates being pushed (challenging work) because it helps him improve."
                                     },
                                     {
                                         "number": 6,
                                         "statement": "This pupil has realised the connection between two things.",
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "Lucy (B) states 'it's fascinating to see how what we learn about the past is relevant to what's going on in the world now.' She has realized the connection between the past (history) and current events."
                                     }
                                 ]
                             }
@@ -77,47 +83,55 @@
                             {
                                 "type": "trueFalseNotGiven",
                                 "title": "Questions 7-14",
-                                "instructions": "Do the following statements agree with the information given in the text on page 18? In boxes 7-14 on your answer sheet, write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
                                 "items": [
                                     {
                                         "number": 7,
                                         "statement": "The festival is held every year.",
-                                        "answer": "TRUE"
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'As usual, the festival will be held in the last weekend of June' and mentions 'last year's festival.' The phrase 'as usual' indicates this is a regular annual event."
                                     },
                                     {
                                         "number": 8,
                                         "statement": "This year's festival focuses on the town's history.",
-                                        "answer": "TRUE"
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'The theme is Ripton through the ages. Scenes will be acted out showing how the town has developed since it was first established.' Through the ages = history focus."
                                     },
                                     {
                                         "number": 9,
                                         "statement": "Goods displayed in the craft fair are unlike ones found in shops.",
-                                        "answer": "NOT GIVEN"
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions 'jewellery, paintings, ceramics, and much more' will be displayed, but does not compare these items to ones found in shops or say whether they are unique."
                                     },
                                     {
                                         "number": 10,
                                         "statement": "The barbecue will be cancelled if it rains.",
-                                        "answer": "FALSE"
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'The barbecue will be held in Palmer's Field, or in the town hall if there's rain.' It will be moved indoors, not cancelled."
                                     },
                                     {
                                         "number": 11,
                                         "statement": "Adults can attend the barbecue at any time without charge.",
-                                        "answer": "FALSE"
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'adults can come for free until 6 pm and pay £5 after that.' They must pay after 6 pm, so not at any time without charge."
                                     },
                                     {
                                         "number": 12,
                                         "statement": "Amateur musicians will perform during the whole of the barbecue.",
-                                        "answer": "FALSE"
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'local amateur bands in the afternoon and professional musicians in the evening.' Amateur bands only play in the afternoon, not the whole time."
                                     },
                                     {
                                         "number": 13,
                                         "statement": "Seating is available for watching the boat races.",
-                                        "answer": "TRUE"
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'The spectator area by the bridge has plenty of room to stand and cheer the boats home, in addition to a number of benches.' Benches = seating."
                                     },
                                     {
                                         "number": 14,
                                         "statement": "People attending the festival will be asked to donate some money.",
-                                        "answer": "NOT GIVEN"
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions 'All money raised by the festival will go to support the sports clubs' but does not say whether people will be asked to donate. The money might come from ticket sales or other sources."
                                     }
                                 ]
                             }
@@ -138,37 +152,90 @@
                             {
                                 "type": "tableCompletion",
                                 "title": "Questions 15-20",
-                                "instructions": "Complete the table below. Choose ONE WORD ONLY from the text on page 20 for each answer.",
+                                "instructions": "Complete the table below. Choose ONE WORD ONLY from the text for each answer.",
                                 "tableTitle": "Risks and how to avoid them",
                                 "headers": [
                                     "Risk factor",
                                     "Examples of farm activities",
                                     "Risk reduction measures to consider"
                                 ],
+                                "rows": [
+                                    {
+                                        "cells": [
+                                            "Heavy loads",
+                                            "• Lifting sacks of 15 ___\n• Carrying food for animals",
+                                            "• Divide into containers that weigh less\n• Use a vehicle such as a tractor"
+                                        ],
+                                        "answers": {
+                                            "15": "fertiliser"
+                                        }
+                                    },
+                                    {
+                                        "cells": [
+                                            "Awkward posture",
+                                            "• Lifting a restless 16 ___\n• Moving something around a big 17 ___",
+                                            "Buy particular 18 ___ to help with support"
+                                        ],
+                                        "answers": {
+                                            "16": "animal",
+                                            "17": "obstacle",
+                                            "18": "aids"
+                                        }
+                                    },
+                                    {
+                                        "cells": [
+                                            "A lot of 19 ___ while working",
+                                            "Fixing a fallen 20 ___",
+                                            "Use a workbench instead"
+                                        ],
+                                        "answers": {
+                                            "19": "bending",
+                                            "20": "gate"
+                                        }
+                                    }
+                                ],
                                 "items": [
                                     {
                                         "number": 15,
-                                        "answer": "fertiliser"
+                                        "textBefore": "Lifting sacks of",
+                                        "textAfter": "",
+                                        "answer": "fertiliser",
+                                        "explanation": "The text states 'Examples of tasks that involve this risk are moving 50-kilogramme fertiliser bags from one site to another.' Fertiliser bags = sacks of fertiliser."
                                     },
                                     {
                                         "number": 16,
-                                        "answer": "animal"
+                                        "textBefore": "Lifting a restless",
+                                        "textAfter": "",
+                                        "answer": "animal",
+                                        "explanation": "The text states 'If a load is bulky or hard to grasp, such as a lively or agitated animal.' Lively or agitated = restless."
                                     },
                                     {
                                         "number": 17,
-                                        "answer": "obstacle"
+                                        "textBefore": "Moving something around a big",
+                                        "textAfter": "",
+                                        "answer": "obstacle",
+                                        "explanation": "The text states 'Sometimes a load has to be held away from the body because there is a large obstacle in the area.' Large = big."
                                     },
                                     {
                                         "number": 18,
-                                        "answer": "aids"
+                                        "textBefore": "Buy particular",
+                                        "textAfter": "to help with support",
+                                        "answer": "aids",
+                                        "explanation": "The text states 'handling aids should be purchased that can take the weight off the load.' Purchased = buy; aids that take weight = help with support."
                                     },
                                     {
                                         "number": 19,
-                                        "answer": "bending"
+                                        "textBefore": "A lot of",
+                                        "textAfter": "while working",
+                                        "answer": "bending",
+                                        "explanation": "The text states 'Another risk that relates to awkward posture is repetitive bending when carrying out a task.' Repetitive = a lot of."
                                     },
                                     {
                                         "number": 20,
-                                        "answer": "gate"
+                                        "textBefore": "Fixing a fallen",
+                                        "textAfter": "",
+                                        "answer": "gate",
+                                        "explanation": "The text states 'An example might be repairing a gate that has collapsed onto the ground.' Repairing = fixing; collapsed = fallen."
                                     }
                                 ]
                             }
@@ -182,49 +249,56 @@
                             {
                                 "type": "sentenceCompletion",
                                 "title": "Questions 21-27",
-                                "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the text on page 22 for each answer.",
+                                "instructions": "Complete the sentences below. Choose NO MORE THAN TWO WORDS from the text for each answer.",
                                 "items": [
                                     {
                                         "number": 21,
                                         "textBefore": "A",
                                         "textAfter": "approach to selling is fine as long as you do not irritate the customer.",
-                                        "answer": "proactive"
+                                        "answer": "proactive",
+                                        "explanation": "The text states 'be proactive in offering help without being annoying.' Annoying = irritate; without being annoying = as long as you do not irritate."
                                     },
                                     {
                                         "number": 22,
                                         "textBefore": "Recommend additional products and",
                                         "textAfter": "without being too forceful.",
-                                        "answer": "special offers"
+                                        "answer": "special offers",
+                                        "explanation": "The text states 'Suggest a product that naturally accompanies what the customer is considering or point out products for which there are special offers, but don't pressure a customer.' Point out = recommend; don't pressure = without being too forceful."
                                     },
                                     {
                                         "number": 23,
                                         "textBefore": "Know how to compare similar products which have different",
                                         "textAfter": ".",
-                                        "answer": "brand names"
+                                        "answer": "brand names",
+                                        "explanation": "The text states 'Build up a comprehensive knowledge of all the products in your shop, including the pros and cons of products that are alike but that have been produced under a range of brand names.' Pros and cons = comparison; alike = similar."
                                     },
                                     {
                                         "number": 24,
                                         "textBefore": "Avoid",
                                         "textAfter": "by always saying more than 'no'.",
-                                        "answer": "negativity"
+                                        "answer": "negativity",
+                                        "explanation": "The text states 'Negativity can put customers off instantly. If a customer asks a question to which the answer is \"no\", do not just leave it at that – follow it with a positive.' Don't just say no = say more than 'no' to avoid negativity."
                                     },
                                     {
                                         "number": 25,
                                         "textBefore": "Keep an eye on the",
                                         "textAfter": "of goods on the shelves.",
-                                        "answer": "presentation"
+                                        "answer": "presentation",
+                                        "explanation": "The text states 'if you see a product in the wrong place on a shelf, don't ignore it – put it back where it belongs. This attention to presentation keeps the shop tidy.' Keep an eye on = pay attention to."
                                     },
                                     {
                                         "number": 26,
                                         "textBefore": "If a customer has problems paying with their",
                                         "textAfter": ", handle the problem with care.",
-                                        "answer": "credit card"
+                                        "answer": "credit card",
+                                        "explanation": "The text states 'if the customer's credit card is declined at the till, keep your voice down and enquire about an alternative payment method quietly.' Handle with care = keep voice down and enquire quietly."
                                     },
                                     {
                                         "number": 27,
                                         "textBefore": "Any",
                                         "textAfter": "from a customer should not affect how you treat them.",
-                                        "answer": "rudeness"
+                                        "answer": "rudeness",
+                                        "explanation": "The text states 'Treat each person with respect at all times, even when you are faced with rudeness.' Even when faced with = should not affect how you treat them."
                                     }
                                 ]
                             }
@@ -245,7 +319,7 @@
                             {
                                 "type": "headingMatching",
                                 "title": "Questions 28-34",
-                                "instructions": "The text on pages 25 and 26 has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below. Write the correct number, i-viii, in boxes 28-34 on your answer sheet.",
+                                "instructions": "The text has seven paragraphs, A-G. Choose the correct heading for each paragraph from the list of headings below.",
                                 "headings": [
                                     {
                                         "number": "i",
@@ -284,37 +358,44 @@
                                     {
                                         "number": 28,
                                         "statement": "Paragraph A",
-                                        "answer": "vi"
+                                        "answer": "vi",
+                                        "explanation": "Paragraph A describes how Ferrando saw artwork showing plastic waste in the ocean which 'profoundly affected him' and 'left Ferrando angry.' This is a disturbing experience."
                                     },
                                     {
                                         "number": 29,
                                         "statement": "Paragraph B",
-                                        "answer": "iv"
+                                        "answer": "iv",
+                                        "explanation": "Paragraph B describes two inventions: 'an ingenious foldable bicycle helmet' and 'a stylish glass water bottle with a stretchy silicone strap and magnetic closure mechanism.' Physical details = descriptions of the products."
                                     },
                                     {
                                         "number": 30,
                                         "statement": "Paragraph C",
-                                        "answer": "ii"
+                                        "answer": "ii",
+                                        "explanation": "Paragraph C explains why Ferrando's bottle is needed: 'saving consumers money and reducing the plastic waste piling up in our oceans' and '81 per cent of the bottles are not recycled.' These are reasons for the product."
                                     },
                                     {
                                         "number": 31,
                                         "statement": "Paragraph D",
-                                        "answer": "viii"
+                                        "answer": "viii",
+                                        "explanation": "Paragraph D discusses the past: 'Three decades ago, conspicuous consumption' was popular and 'water became a consumer item, sold in plastic bottles.' This explains why water was bottled historically."
                                     },
                                     {
                                         "number": 32,
                                         "statement": "Paragraph E",
-                                        "answer": "v"
+                                        "answer": "v",
+                                        "explanation": "Paragraph E contrasts millennials who think refillable bottles are cool with 'anyone over the age of 40' who finds them 'oddly out-of-date.' These are contrasting views of different generations."
                                     },
                                     {
                                         "number": 33,
                                         "statement": "Paragraph F",
-                                        "answer": "i"
+                                        "answer": "i",
+                                        "explanation": "Paragraph F discusses funding options in the past: 'a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card.' Limited options = limited opportunities."
                                     },
                                     {
                                         "number": 34,
                                         "statement": "Paragraph G",
-                                        "answer": "iii"
+                                        "answer": "iii",
+                                        "explanation": "Paragraph G describes crowdfunding where 'none of the donors has a stake in his idea, nor does he have any debt.' No stake and no debt = no-risk solution for the entrepreneur."
                                     }
                                 ]
                             },
@@ -344,7 +425,8 @@
                                                 "text": "He wants people to be proud to show it."
                                             }
                                         ],
-                                        "answer": "D"
+                                        "answer": "D",
+                                        "explanation": "The text states 'We want people to clip their bottles onto what they are wearing, to show that they are recycling – and to look cool.' Showing the bottle and looking cool = being proud to show it."
                                     },
                                     {
                                         "number": 36,
@@ -367,7 +449,8 @@
                                                 "text": "the change it is revealing in people's attitudes"
                                             }
                                         ],
-                                        "answer": "D"
+                                        "answer": "D",
+                                        "explanation": "The text states 'Ferrando's story is fascinating because it seems like an indicator of something unexpected' - it shows how 'conspicuous consumption' has changed to valuing 'recycling' and environmental consciousness. This reveals a change in attitudes."
                                     },
                                     {
                                         "number": 37,
@@ -390,7 +473,8 @@
                                                 "text": "It is a more exciting invention than the glass bottle."
                                             }
                                         ],
-                                        "answer": "A"
+                                        "answer": "A",
+                                        "explanation": "The text states the helmet 'is available in some outlets in New York, including the Museum of Modern Art.' Being in a museum suggests artistic value, while being a foldable bicycle helmet shows functional value."
                                     }
                                 ]
                             },
@@ -401,21 +485,24 @@
                                 "items": [
                                     {
                                         "number": 38,
-                                        "textBefore": "In the past,__(38)__ members were a source of__(38)__",
-                                        "textAfter": "funding for__(38) new business__(38)ideas.",
-                                        "answer": "family"
+                                        "textBefore": "In the past,",
+                                        "textAfter": "members were a source of funding for new business ideas.",
+                                        "answer": "family",
+                                        "explanation": "The text states 'If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card.' Family member = family."
                                     },
                                     {
                                         "number": 39,
-                                        "textBefore": "__(39)__ Ferrando__(39)used a__(39)recognised__(39)__",
-                                        "textAfter": "for__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39)__(39) creative projects.",
-                                        "answer": "platform"
+                                        "textBefore": "Ferrando used a recognised",
+                                        "textAfter": "for creative projects.",
+                                        "answer": "platform",
+                                        "explanation": "The text states 'Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects.'"
                                     },
                                     {
                                         "number": 40,
-                                        "textBefore": "__(40)Donations over $60,000 would__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__(40)__result_in_a_",
-                                        "textAfter": "_bottle.",
-                                        "answer": "multicoloured"
+                                        "textBefore": "Donations over $60,000 would result in a",
+                                        "textAfter": "bottle.",
+                                        "answer": "multicoloured",
+                                        "explanation": "The text states 'if $60,000 was raised, a multicoloured one would be made.' If $60,000 was raised = donations over $60,000."
                                     }
                                 ]
                             }

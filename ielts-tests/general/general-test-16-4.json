@@ -1,10 +1,10 @@
 {
-    "id": 6,
-    "name": "IELTS General Training - Test 6",
+    "id": 5,
+    "name": "IELTS General Training - Test 5",
     "subtitle": "Cambridge IELTS 17 General Training Test 4",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 6",
+        "title": "General Training Reading Test 1",
         "sections": [
             {
                 "id": 1,
@@ -40,37 +40,44 @@
                                     {
                                         "number": 1,
                                         "statement": "running in the evening",
-                                        "answer": "E"
+                                        "answer": "E",
+                                        "explanation": "In Shelford Family Wild Outing (E), the text mentions 'have a gentle jog along the River Wale by moonlight.' Moonlight = evening; jog = running."
                                     },
                                     {
                                         "number": 2,
                                         "statement": "seeing newborn animals",
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "In Pugsley Beach Nature Reserve (B), the text states 'hundreds of grey seals arrive on the beach to have their young.' Having their young = newborn animals."
                                     },
                                     {
                                         "number": 3,
                                         "statement": "parents and children doing different activities at the same time",
-                                        "answer": "D"
+                                        "answer": "D",
+                                        "explanation": "In Craven Discovery Centre (D), 'youngsters are introduced to the animals' while 'Meanwhile the adults can take part in our woodland activities.' Meanwhile = at the same time; different activities for each group."
                                     },
                                     {
                                         "number": 4,
                                         "statement": "choosing from alternative routes",
-                                        "answer": "A"
+                                        "answer": "A",
+                                        "explanation": "In Perry Forest (A), the text offers 'whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill.' This presents alternative route options to choose from."
                                     },
                                     {
                                         "number": 5,
                                         "statement": "learning about how other people help animals",
-                                        "answer": "C"
+                                        "answer": "C",
+                                        "explanation": "In Marston Hill (C), 'our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs.' Rangers = other people helping animals."
                                     },
                                     {
                                         "number": 6,
                                         "statement": "an event occurring only at a certain time of the year",
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "In Pugsley Beach Nature Reserve (B), 'the autumn is when hundreds of grey seals arrive on the beach to have their young.' This event happens only in autumn, a specific time of year."
                                     },
                                     {
                                         "number": 7,
                                         "statement": "identifying where animals have been",
-                                        "answer": "C"
+                                        "answer": "C",
+                                        "explanation": "In Marston Hill (C), rangers 'take you on a short walk through the ancient pine forest in search of animal tracks and signs.' Tracks and signs = evidence of where animals have been."
                                     }
                                 ]
                             }
@@ -89,37 +96,44 @@
                                     {
                                         "number": 8,
                                         "statement": "Some sixth-form students intend to start work immediately after leaving school.",
-                                        "answer": "TRUE"
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace.' Straight into the workplace = start work immediately."
                                     },
                                     {
                                         "number": 9,
                                         "statement": "An increasing number of students are accepted at medical school.",
-                                        "answer": "TRUE"
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.' Growing success = increasing number accepted."
                                     },
                                     {
                                         "number": 10,
                                         "statement": "Most sixth-form students come from other schools.",
-                                        "answer": "FALSE"
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'While the majority of sixth form students enter from the lower school.' The majority = most, and they come from the lower school (same school), not other schools."
                                     },
                                     {
                                         "number": 11,
                                         "statement": "External applicants have an interview before they can be accepted.",
-                                        "answer": "NOT GIVEN"
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions entry requirements and application forms for external students, but does not mention whether an interview is required. This information is not provided."
                                     },
                                     {
                                         "number": 12,
                                         "statement": "Applications to the sixth form can only be made through the MyChoice16 website.",
-                                        "answer": "FALSE"
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'If you are an external student... please see our website for an application form to the school.' This shows there is an alternative application method, not just MyChoice16."
                                     },
                                     {
                                         "number": 13,
                                         "statement": "External applicants can talk to current students at the Open Evening.",
-                                        "answer": "NOT GIVEN"
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions 'an annual open evening' where you can 'view our facilities and ask any questions' but does not specify whether current students will be present or available to talk to."
                                     },
                                     {
                                         "number": 14,
                                         "statement": "Students meet their tutor whenever one of them requests a meeting.",
-                                        "answer": "FALSE"
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'You will meet with your tutor at a fixed time every fortnight.' Meetings are scheduled (fixed time, every fortnight), not arranged on request."
                                     }
                                 ]
                             }
@@ -147,43 +161,50 @@
                                         "number": 15,
                                         "textBefore": "The site supervisor checks the paperwork and the latest information on the weather first. Chainsaws, clothing and all",
                                         "textAfter": "are then loaded onto the lorry.",
-                                        "answer": "tools"
+                                        "answer": "tools",
+                                        "explanation": "The text states 'things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools.' Tools is the category that includes spades and rakes."
                                     },
                                     {
                                         "number": 16,
                                         "textBefore": "The team talk briefly at the site about the overall",
                                         "textAfter": "before the work begins.",
-                                        "answer": "procedure"
+                                        "answer": "procedure",
+                                        "explanation": "The text states 'On arrival at the site, we have a quick discussion on the procedure for the day.' Quick discussion = talk briefly; procedure for the day = overall procedure."
                                     },
                                     {
                                         "number": 17,
                                         "textBefore": "The climber's anchor point must have the necessary height and",
                                         "textAfter": "for the job.",
-                                        "answer": "strength"
+                                        "answer": "strength",
+                                        "explanation": "The text states the anchor point 'must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber.' Sufficient = necessary."
                                     },
                                     {
                                         "number": 18,
                                         "textBefore": "The first branches are cut and placed in a pile in the yard. A pulley and some",
                                         "textAfter": "assist in the removal of the top branches.",
-                                        "answer": "rope"
+                                        "answer": "rope",
+                                        "explanation": "The text states 'This involves placing a pulley in the tree and using thick rope to drag the branches down.' The pulley and rope work together to remove branches."
                                     },
                                     {
                                         "number": 19,
                                         "textBefore": "At this point signs are placed on the",
                                         "textAfter": ".",
-                                        "answer": "footpath"
+                                        "answer": "footpath",
+                                        "explanation": "The text states 'On the other side of the perimeter fence is a wide grass verge and then a footpath, where I set up a number of signs to alert the public.'"
                                     },
                                     {
                                         "number": 20,
                                         "textBefore": "For safety the actions of both the tree cutter and",
                                         "textAfter": "must be regularly checked.",
-                                        "answer": "pedestrians"
+                                        "answer": "pedestrians",
+                                        "explanation": "The text states 'I monitor the movements of pedestrians and, as Gary starts work, I watch what he is doing, so I can ensure safety.' Both the cutter and pedestrians are monitored."
                                     },
                                     {
                                         "number": 21,
                                         "textBefore": "A special machine creates",
                                         "textAfter": "out of some of the wood.",
-                                        "answer": "chippings"
+                                        "answer": "chippings",
+                                        "explanation": "The text states 'feeds the machine that dices them into very small pieces called wood chippings.' The machine creates chippings from the wood."
                                     }
                                 ]
                             }
@@ -242,27 +263,45 @@
                                 "items": [
                                     {
                                         "number": 22,
-                                        "answer": "floors"
+                                        "textBefore": "Works in narrow spaces; must be careful about drilling into",
+                                        "textAfter": "",
+                                        "answer": "floors",
+                                        "explanation": "The text states 'the floors are typically covered with a wood product, engineered to resemble solid wood that has very strict criteria as far as drilling and cutting are concerned.'"
                                     },
                                     {
                                         "number": 23,
-                                        "answer": "tradespeople"
+                                        "textBefore": "Needs to consider how other",
+                                        "textAfter": "may be affected",
+                                        "answer": "tradespeople",
+                                        "explanation": "The text states the plumber must 'visualise how his work will impact on other tradespeople before proceeding.' Impact on = how they may be affected."
                                     },
                                     {
                                         "number": 24,
-                                        "answer": "instructions"
+                                        "textBefore": "Must be able to follow",
+                                        "textAfter": "",
+                                        "answer": "instructions",
+                                        "explanation": "The text states 'The equipment will have specific installation instructions so it is critical that the plumber has the cognitive ability to understand these.'"
                                     },
                                     {
                                         "number": 25,
-                                        "answer": "steel"
+                                        "textBefore": "may need to X-ray floors and walls to avoid damaging",
+                                        "textAfter": "",
+                                        "answer": "steel",
+                                        "explanation": "The text states 'floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.' Avoid hitting = avoid damaging."
                                     },
                                     {
                                         "number": 26,
-                                        "answer": "cognitive ability"
+                                        "textBefore": "Has the",
+                                        "textAfter": "to understand complex documents",
+                                        "answer": "cognitive ability",
+                                        "explanation": "The text states 'it is critical that the plumber has the cognitive ability to understand these [installation instructions].' Installation instructions = complex documents."
                                     },
                                     {
                                         "number": 27,
-                                        "answer": "disrupted"
+                                        "textBefore": "often customers are upset or",
+                                        "textAfter": "",
+                                        "answer": "disrupted",
+                                        "explanation": "The text states customers 'are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue.' Inconvenience = upset; disrupted = operations interrupted."
                                     }
                                 ]
                             }
@@ -289,19 +328,23 @@
                                 "items": [
                                     {
                                         "number": 28,
-                                        "answer": "vets"
+                                        "answer": "vets",
+                                        "explanation": "The text states 'After examination by vets the dormice were placed in their soft release accommodation.' Examination = thorough check."
                                     },
                                     {
                                         "number": 29,
-                                        "answer": "pairs"
+                                        "answer": "pairs",
+                                        "explanation": "The text states 'the dormice were placed in their soft release accommodation in pairs.' Divided into pairs."
                                     },
                                     {
                                         "number": 30,
-                                        "answer": "food"
+                                        "answer": "food",
+                                        "explanation": "The text states 'For 10 days the dormice were checked and given food daily.' Daily = on a regular basis."
                                     },
                                     {
                                         "number": 31,
-                                        "answer": "hibernation"
+                                        "answer": "hibernation",
+                                        "explanation": "The text states 'Everything was removed in October when the animals started preparing to go into hibernation for the winter.' Hibernation is their annual winter sleep."
                                     }
                                 ]
                             },
@@ -331,7 +374,8 @@
                                                 "text": "It has taught him useful lessons for future projects."
                                             }
                                         ],
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "Ian White says 'Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes.' This lists multiple reasons why it could fail."
                                     },
                                     {
                                         "number": 33,
@@ -354,7 +398,8 @@
                                                 "text": "Local residents will help to care for the dormice."
                                             }
                                         ],
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "The text states 'a distinctive factor of this release... is the intention of linking up with another released dormouse population 3 miles away.' Linking up = creating a link between two groups."
                                     },
                                     {
                                         "number": 34,
@@ -377,7 +422,8 @@
                                                 "text": "It created corridors for them to travel through."
                                             }
                                         ],
-                                        "answer": "C"
+                                        "answer": "C",
+                                        "explanation": "The text states coppicing 'happened to provide varied food and plenty of light for dormice.' Varied food = variety of things to eat; plenty of light = enough light."
                                     },
                                     {
                                         "number": 35,
@@ -400,7 +446,8 @@
                                                 "text": "They help woodlands to recover from damage caused by deer."
                                             }
                                         ],
-                                        "answer": "C"
+                                        "answer": "C",
+                                        "explanation": "White says 'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation.' Getting people involved with conservation = getting them interested in protecting the environment."
                                     },
                                     {
                                         "number": 36,
@@ -423,7 +470,8 @@
                                                 "text": "It would be popular with the public."
                                             }
                                         ],
-                                        "answer": "A"
+                                        "answer": "A",
+                                        "explanation": "Helen Meech says 'In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose.' This indicates it could happen in the future."
                                     }
                                 ]
                             },
@@ -449,22 +497,26 @@
                                     {
                                         "number": 37,
                                         "statement": "Plans to reintroduce this animal to one part of Britain were rejected by local people.",
-                                        "answer": "D"
+                                        "answer": "D",
+                                        "explanation": "For The sea eagle (D), the text states 'Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock.' Landowners = local people; failed = rejected."
                                     },
                                     {
                                         "number": 38,
                                         "statement": "This animal has had both positive and negative effects since returning to Britain.",
-                                        "answer": "B"
+                                        "answer": "B",
+                                        "explanation": "For The beaver (B), the text mentions positive effects: 'improvements in biodiversity and water' and negative effects: 'an unlicensed free living population in the river Tay has caused problems.'"
                                     },
                                     {
                                         "number": 39,
                                         "statement": "The reintroduction of this animal could bring significant financial benefits to an area.",
-                                        "answer": "C"
+                                        "answer": "C",
+                                        "explanation": "For The wolf (C), the text states 'the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.' Millions of pounds = significant financial benefits."
                                     },
                                     {
                                         "number": 40,
                                         "statement": "This animal has been returning to Britain without any official programme.",
-                                        "answer": "E"
+                                        "answer": "E",
+                                        "explanation": "For The wild boar (E), the text states 'The species has been quietly re-establishing itself in the woodlands of Britain for several decades.' Quietly re-establishing itself = returning without an official programme."
                                     }
                                 ]
                             }
