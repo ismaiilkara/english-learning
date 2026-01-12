@@ -1020,11 +1020,12 @@
                                 </div>
 
                                 <!-- Google Drive Audio Embed -->
-                                <div class="rounded-lg overflow-hidden bg-black/30" style="height: 80px;">
-                                    <iframe :key="currentListeningPartIndex"
+                                <div class="rounded-lg overflow-hidden bg-black/30">
+                                    <iframe :key="currentListeningPartIndex + '-' + Date.now()"
                                         :src="getGoogleDrivePreviewUrl(currentListeningPart?.audioUrl)"
-                                        style="width: 100%; height: 80px; border: none;"
+                                        style="width: 100%; height: 120px; border: none;"
                                         allow="autoplay; encrypted-media"
+                                        sandbox="allow-scripts allow-same-origin allow-popups"
                                         allowfullscreen>
                                     </iframe>
                                 </div>
