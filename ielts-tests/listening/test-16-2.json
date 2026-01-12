@@ -7,7 +7,7 @@
             {
                 "id": 1,
                 "title": "Part 1",
-                "audioUrl": "https://drive.google.com/file/d/1qe95GPv3K-vJejbkNqe36OqMipLKZcNm/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test2_audio1.mp3",
                 "description": "Questions 1-10",
                 "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
                 "noteTitle": "Copying photos to digital format",
@@ -243,7 +243,7 @@
             {
                 "id": 2,
                 "title": "Part 2",
-                "audioUrl": "https://drive.google.com/file/d/1g1s4n7acTF-4LkMH1CCM0yVM_HnK1zDQ/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test2_audio2.mp3",
                 "description": "Questions 11-20",
                 "type": "complex",
                 "items": [
@@ -446,7 +446,7 @@
             {
                 "id": 3,
                 "title": "Part 3",
-                "audioUrl": "https://drive.google.com/file/d/1jyDw4KwSDpSZx5nuzbzHRII0bZlNk-DJ/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test2_audio3.mp3",
                 "description": "Questions 21-30",
                 "type": "complex",
                 "items": [
@@ -692,7 +692,7 @@
             {
                 "id": 4,
                 "title": "Part 4",
-                "audioUrl": "https://drive.google.com/file/d/1LOSsOc8pseUoLKJM739EVPAUzgbbdIdS/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test2_audio4.mp3",
                 "description": "Questions 31-40",
                 "instructions": "Write ONE WORD ONLY for each answer.",
                 "noteTitle": "Health benefits of dance",
