@@ -1010,7 +1010,7 @@
                         <h2 class="text-lg font-bold mb-2 text-green-400"
                             x-text="listeningData?.title || 'IELTS Listening'"></h2>
 
-                        <!-- Audio Player for Google Drive (per part) -->
+                        <!-- Audio Player (per part) -->
                         <div x-show="currentListeningPart?.audioUrl" class="w-full">
                             <div class="bg-white/5 rounded-lg p-4 border border-white/10">
                                 <div class="flex items-center gap-3 mb-3">
@@ -1019,18 +1019,88 @@
                                         x-text="currentListeningPart?.title + ' Audio'"></span>
                                 </div>
 
-                                <!-- Google Drive Audio Embed -->
-                                <div class="rounded-lg overflow-hidden bg-black/30">
-                                    <iframe :key="currentListeningPartIndex + '-' + Date.now()"
-                                        :src="getGoogleDrivePreviewUrl(currentListeningPart?.audioUrl)"
-                                        style="width: 100%; height: 120px; border: none;"
-                                        allow="autoplay; encrypted-media"
-                                        sandbox="allow-scripts allow-same-origin allow-popups"
-                                        allowfullscreen>
-                                    </iframe>
-                                </div>
+                                <!-- HTML5 Audio Player (for direct URLs like Cloudflare R2) -->
+                                <template x-if="!isGoogleDriveUrl(currentListeningPart?.audioUrl)">
+                                    <div x-data="audioPlayer()" x-init="$watch('$root.currentListeningPartIndex', () => { resetPlayer() })">
+                                        <audio x-ref="audioElement"
+                                            :src="currentListeningPart?.audioUrl"
+                                            @timeupdate="updateProgress()"
+                                            @loadedmetadata="duration = $refs.audioElement.duration"
+                                            @ended="isPlaying = false"
+                                            @play="isPlaying = true"
+                                            @pause="isPlaying = false"
+                                            preload="metadata">
+                                        </audio>
 
-                                <p class="text-white/50 text-xs mt-2">Use the player controls above. Click play to start.</p>
+                                        <!-- Player Controls -->
+                                        <div class="space-y-3">
+                                            <!-- Play/Pause & Progress -->
+                                            <div class="flex items-center gap-3">
+                                                <button @click="togglePlay()"
+                                                    class="w-12 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition-all flex-shrink-0">
+                                                    <span x-show="!isPlaying" class="text-white text-xl ml-1">▶</span>
+                                                    <span x-show="isPlaying" class="text-white text-lg">⏸</span>
+                                                </button>
+                                                <div class="flex-1">
+                                                    <div class="relative h-2 bg-white/20 rounded-full cursor-pointer"
+                                                        @click="seek($event)">
+                                                        <div class="absolute h-full bg-green-500 rounded-full"
+                                                            :style="'width: ' + progress + '%'"></div>
+                                                    </div>
+                                                    <div class="flex justify-between text-xs text-white/50 mt-1">
+                                                        <span x-text="formatAudioTime(currentTime)"></span>
+                                                        <span x-text="formatAudioTime(duration)"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Volume, Speed, Skip -->
+                                            <div class="flex items-center gap-3 flex-wrap">
+                                                <!-- Volume -->
+                                                <div class="flex items-center gap-2">
+                                                    <button @click="toggleMute()" class="text-white/70 hover:text-white text-lg">
+                                                        <span x-show="!isMuted && volume > 0">🔊</span>
+                                                        <span x-show="isMuted || volume == 0">🔇</span>
+                                                    </button>
+                                                    <input type="range" min="0" max="1" step="0.1" x-model="volume"
+                                                        @input="setVolume()"
+                                                        class="w-16 h-1 bg-white/20 rounded-full appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:rounded-full">
+                                                </div>
+
+                                                <!-- Speed -->
+                                                <select x-model="playbackRate" @change="setPlaybackRate()"
+                                                    class="bg-white/10 text-white text-xs px-2 py-1 rounded border border-white/20">
+                                                    <option value="0.5">0.5x</option>
+                                                    <option value="0.75">0.75x</option>
+                                                    <option value="1" selected>1x</option>
+                                                    <option value="1.25">1.25x</option>
+                                                    <option value="1.5">1.5x</option>
+                                                </select>
+
+                                                <!-- Skip -->
+                                                <div class="flex gap-1">
+                                                    <button @click="skipTime(-10)"
+                                                        class="bg-white/10 hover:bg-white/20 text-white text-xs px-2 py-1 rounded">-10s</button>
+                                                    <button @click="skipTime(10)"
+                                                        class="bg-white/10 hover:bg-white/20 text-white text-xs px-2 py-1 rounded">+10s</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </template>
+
+                                <!-- Google Drive Fallback (iframe) -->
+                                <template x-if="isGoogleDriveUrl(currentListeningPart?.audioUrl)">
+                                    <div class="rounded-lg overflow-hidden bg-black/30">
+                                        <iframe :key="currentListeningPartIndex"
+                                            :src="getGoogleDrivePreviewUrl(currentListeningPart?.audioUrl)"
+                                            style="width: 100%; height: 120px; border: none;"
+                                            allow="autoplay; encrypted-media"
+                                            allowfullscreen>
+                                        </iframe>
+                                        <p class="text-yellow-500/70 text-xs mt-2">⚠️ Google Drive player may have issues. Consider migrating to direct audio URLs.</p>
+                                    </div>
+                                </template>
                             </div>
                         </div>
 
@@ -2159,6 +2229,11 @@
                     return url;
                 },
 
+                isGoogleDriveUrl(url) {
+                    if (!url) return false;
+                    return url.includes('drive.google.com') || url.includes('docs.google.com');
+                },
+
                 getGoogleDriveStreamUrl(url) {
                     if (!url) return '';
                     const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
@@ -2422,6 +2497,13 @@
                 volume: 1,
                 isMuted: false,
                 playbackRate: '1',
+
+                resetPlayer() {
+                    this.isPlaying = false;
+                    this.currentTime = 0;
+                    this.duration = 0;
+                    this.progress = 0;
+                },
 
                 togglePlay() {
                     const audio = this.$refs.audioElement;
