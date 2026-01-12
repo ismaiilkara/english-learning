@@ -1224,6 +1224,20 @@
                                     </table>
                                 </div>
                             </template>
+
+                            <!-- Explanations Section for Notes -->
+                            <div x-show="listeningPartSubmitted[currentListeningPartIndex] && currentListeningPart?.explanations"
+                                class="mt-4 space-y-2">
+                                <h5 class="text-sm font-semibold text-blue-400 mb-2">Explanations:</h5>
+                                <template x-for="(explanation, qNum) in currentListeningPart?.explanations" :key="qNum">
+                                    <div class="p-2 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                        <p class="text-blue-300 text-xs">
+                                            <span class="font-semibold text-green-400">Q<span x-text="qNum"></span>:</span>
+                                            <span x-text="explanation"></span>
+                                        </p>
+                                    </div>
+                                </template>
+                            </div>
                         </div>
                     </template>
 
@@ -1554,6 +1568,20 @@
                                                 </div>
                                             </div>
                                         </template>
+                                    </div>
+                                </template>
+                            </div>
+
+                            <!-- Explanations Section for Multiple Choice / Complex -->
+                            <div x-show="listeningPartSubmitted[currentListeningPartIndex] && currentListeningPart?.explanations"
+                                class="mt-4 space-y-2">
+                                <h5 class="text-sm font-semibold text-blue-400 mb-2">Explanations:</h5>
+                                <template x-for="(explanation, qNum) in currentListeningPart?.explanations" :key="qNum">
+                                    <div class="p-2 bg-blue-500/10 border border-blue-500/30 rounded-lg">
+                                        <p class="text-blue-300 text-xs">
+                                            <span class="font-semibold text-green-400">Q<span x-text="qNum"></span>:</span>
+                                            <span x-text="explanation"></span>
+                                        </p>
                                     </div>
                                 </template>
                             </div>
