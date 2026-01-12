@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Writing Assessment - AI Examiner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0d0d0d 100%);
+            font-family: 'Inter', sans-serif;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 1.1rem;
+        }
+
+        /* Main Layout */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        @media (max-width: 1024px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Cards */
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        /* Essay Input */
+        .essay-textarea {
+            width: 100%;
+            min-height: 400px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            color: #fff;
+            font-size: 1rem;
+            line-height: 1.8;
+            resize: vertical;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .essay-textarea:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .essay-textarea::placeholder {
+            color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Word Counter */
+        .word-counter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 15px;
+            padding: 12px 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        .word-count {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .word-count.warning {
+            color: #f59e0b;
+        }
+
+        .word-count.success {
+            color: #22c55e;
+        }
+
+        .word-count.error {
+            color: #ef4444;
+        }
+
+        /* Submit Button */
+        .submit-btn {
+            width: 100%;
+            padding: 16px 24px;
+            margin-top: 20px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border: none;
+            border-radius: 12px;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* API Key Input */
+        .api-key-section {
+            margin-bottom: 20px;
+            padding: 16px;
+            background: rgba(59, 130, 246, 0.1);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+            border-radius: 12px;
+        }
+
+        .api-key-input {
+            width: 100%;
+            padding: 12px 16px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .api-key-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        /* Results Section */
+        .results-section {
+            display: none;
+        }
+
+        .results-section.active {
+            display: block;
+        }
+
+        /* Band Scores */
+        .band-scores {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .band-scores {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .band-score-item {
+            text-align: center;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .band-score-item.overall {
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(139, 92, 246, 0.2));
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+
+        .band-score-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #3b82f6;
+        }
+
+        .band-score-label {
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 4px;
+        }
+
+        /* Corrected Essay Display */
+        .essay-display {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            line-height: 2;
+            font-size: 1rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        /* Highlighting Classes */
+        .error-text {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+            text-decoration: line-through;
+            padding: 2px 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .correction-text {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .vocabulary-text {
+            background: rgba(59, 130, 246, 0.2);
+            color: #3b82f6;
+            padding: 2px 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            border-bottom: 2px dashed #3b82f6;
+        }
+
+        .grammar-improvement-text {
+            background: rgba(168, 85, 247, 0.2);
+            color: #a855f7;
+            padding: 2px 4px;
+            border-radius: 4px;
+            cursor: pointer;
+            border-bottom: 2px dashed #a855f7;
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1a1a1a;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            z-index: 100;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Corrections List */
+        .corrections-list {
+            margin-top: 24px;
+        }
+
+        .correction-item {
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            border-left: 4px solid;
+        }
+
+        .correction-item.error {
+            border-left-color: #ef4444;
+        }
+
+        .correction-item.vocabulary {
+            border-left-color: #3b82f6;
+        }
+
+        .correction-item.grammar {
+            border-left-color: #a855f7;
+        }
+
+        .correction-type {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .correction-type.error {
+            color: #ef4444;
+        }
+
+        .correction-type.vocabulary {
+            color: #3b82f6;
+        }
+
+        .correction-type.grammar {
+            color: #a855f7;
+        }
+
+        .correction-original {
+            color: #ef4444;
+            text-decoration: line-through;
+            margin-right: 8px;
+        }
+
+        .correction-arrow {
+            color: rgba(255, 255, 255, 0.4);
+            margin: 0 8px;
+        }
+
+        .correction-new {
+            color: #22c55e;
+            font-weight: 500;
+        }
+
+        .correction-explanation {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+            font-style: italic;
+        }
+
+        /* Suggestions Section */
+        .suggestions-section {
+            margin-top: 24px;
+        }
+
+        .suggestion-item {
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            margin-bottom: 12px;
+            border-left: 4px solid;
+        }
+
+        .suggestion-item.high {
+            border-left-color: #ef4444;
+        }
+
+        .suggestion-item.medium {
+            border-left-color: #f59e0b;
+        }
+
+        .suggestion-item.low {
+            border-left-color: #22c55e;
+        }
+
+        .suggestion-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .priority-badge {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .priority-badge.high {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+        }
+
+        .priority-badge.medium {
+            background: rgba(245, 158, 11, 0.2);
+            color: #f59e0b;
+        }
+
+        .priority-badge.low {
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+        }
+
+        .suggestion-description {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Summary Stats */
+        .summary-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .stat-value.errors {
+            color: #ef4444;
+        }
+
+        .stat-value.vocab {
+            color: #3b82f6;
+        }
+
+        .stat-value.grammar {
+            color: #a855f7;
+        }
+
+        .stat-label {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 4px;
+        }
+
+        /* Loading State */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-top-color: #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 12px;
+        }
+
+        .tab-btn {
+            padding: 10px 20px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .tab-btn.active {
+            background: rgba(59, 130, 246, 0.2);
+            border-color: #3b82f6;
+            color: #3b82f6;
+        }
+
+        .tab-btn:hover {
+            border-color: rgba(255, 255, 255, 0.4);
+            color: #fff;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Legend */
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 20px;
+            padding: 12px 16px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85rem;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .legend-color.error {
+            background: rgba(239, 68, 68, 0.3);
+            border: 2px solid #ef4444;
+        }
+
+        .legend-color.correction {
+            background: rgba(34, 197, 94, 0.3);
+            border: 2px solid #22c55e;
+        }
+
+        .legend-color.vocabulary {
+            background: rgba(59, 130, 246, 0.3);
+            border: 2px solid #3b82f6;
+        }
+
+        .legend-color.grammar {
+            background: rgba(168, 85, 247, 0.3);
+            border: 2px solid #a855f7;
+        }
+
+        /* Back to Home */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            transition: color 0.2s ease;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+
+        /* Strengths and Weaknesses */
+        .feedback-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .feedback-section {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .feedback-card {
+            padding: 16px;
+            border-radius: 12px;
+        }
+
+        .feedback-card.strengths {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.2);
+        }
+
+        .feedback-card.weaknesses {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.2);
+        }
+
+        .feedback-title {
+            font-weight: 600;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .feedback-title.strengths {
+            color: #22c55e;
+        }
+
+        .feedback-title.weaknesses {
+            color: #ef4444;
+        }
+
+        .feedback-list {
+            list-style: none;
+        }
+
+        .feedback-list li {
+            padding: 8px 0;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.8);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .feedback-list li:last-child {
+            border-bottom: none;
+        }
+
+        .feedback-list li::before {
+            content: "•";
+            margin-right: 8px;
+            color: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container" x-data="writingAssessment()">
+        <a href="index.html" class="back-link">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M19 12H5M12 19l-7-7 7-7" />
+            </svg>
+            Back to Home
+        </a>
+
+        <div class="header">
+            <h1>IELTS Writing Assessment</h1>
+            <p>AI-Powered Essay Examiner - Get detailed feedback on your Task 2 essay</p>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" x-show="isLoading" x-cloak>
+            <div>
+                <div class="loading-spinner"></div>
+                <p style="margin-top: 20px; color: rgba(255,255,255,0.7);">Analyzing your essay...</p>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <!-- Left Column - Input -->
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title">Your Essay</h2>
+                    </div>
+
+                    <!-- API Key Section -->
+                    <div class="api-key-section">
+                        <label style="font-size: 0.9rem; color: rgba(255,255,255,0.7);">
+                            OpenAI API Key (required for AI assessment)
+                        </label>
+                        <input type="password" class="api-key-input" x-model="apiKey"
+                            placeholder="sk-..." @change="saveApiKey()">
+                        <p style="font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 8px;">
+                            Your API key is stored locally and never sent to our servers.
+                        </p>
+                    </div>
+
+                    <!-- Essay Question (Optional) -->
+                    <div style="margin-bottom: 16px;">
+                        <label style="font-size: 0.9rem; color: rgba(255,255,255,0.7); display: block; margin-bottom: 8px;">
+                            Essay Question (optional)
+                        </label>
+                        <textarea x-model="essayQuestion"
+                            style="width: 100%; min-height: 80px; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; padding: 12px; color: #fff; font-size: 0.9rem; resize: vertical;"
+                            placeholder="Enter the essay question here..."></textarea>
+                    </div>
+
+                    <!-- Essay Input -->
+                    <textarea class="essay-textarea" x-model="essay"
+                        placeholder="Paste or write your IELTS Task 2 essay here (minimum 250 words)..."></textarea>
+
+                    <!-- Word Counter -->
+                    <div class="word-counter">
+                        <span class="word-count" :class="{
+                            'error': wordCount < 200,
+                            'warning': wordCount >= 200 && wordCount < 250,
+                            'success': wordCount >= 250
+                        }">
+                            <span x-text="wordCount"></span> words
+                        </span>
+                        <span style="font-size: 0.85rem; color: rgba(255,255,255,0.5);">
+                            Minimum: 250 words
+                        </span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button class="submit-btn" @click="assessEssay()" :disabled="!canSubmit || isLoading">
+                        <span x-show="!isLoading">Assess My Essay</span>
+                        <span x-show="isLoading">Analyzing...</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Column - Results -->
+            <div>
+                <div class="card results-section" :class="{ 'active': hasResults }">
+                    <div class="card-header">
+                        <h2 class="card-title">Assessment Results</h2>
+                    </div>
+
+                    <!-- Band Scores -->
+                    <div class="band-scores" x-show="results.bandScores">
+                        <div class="band-score-item">
+                            <div class="band-score-value" x-text="results.bandScores?.taskAchievement || '-'"></div>
+                            <div class="band-score-label">Task Achievement</div>
+                        </div>
+                        <div class="band-score-item">
+                            <div class="band-score-value" x-text="results.bandScores?.coherenceCohesion || '-'"></div>
+                            <div class="band-score-label">Coherence</div>
+                        </div>
+                        <div class="band-score-item">
+                            <div class="band-score-value" x-text="results.bandScores?.lexicalResource || '-'"></div>
+                            <div class="band-score-label">Vocabulary</div>
+                        </div>
+                        <div class="band-score-item">
+                            <div class="band-score-value" x-text="results.bandScores?.grammaticalRange || '-'"></div>
+                            <div class="band-score-label">Grammar</div>
+                        </div>
+                        <div class="band-score-item overall">
+                            <div class="band-score-value" x-text="results.bandScores?.overall || '-'"></div>
+                            <div class="band-score-label">Overall</div>
+                        </div>
+                    </div>
+
+                    <!-- Summary Stats -->
+                    <div class="summary-stats">
+                        <div class="stat-item">
+                            <div class="stat-value errors" x-text="results.summary?.totalErrors || 0"></div>
+                            <div class="stat-label">Errors Found</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value vocab" x-text="results.summary?.vocabularyEnhancements || 0"></div>
+                            <div class="stat-label">Vocab Suggestions</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value grammar" x-text="results.summary?.grammarImprovements || 0"></div>
+                            <div class="stat-label">Grammar Tips</div>
+                        </div>
+                    </div>
+
+                    <!-- Tabs -->
+                    <div class="tabs">
+                        <button class="tab-btn" :class="{ 'active': activeTab === 'corrections' }"
+                            @click="activeTab = 'corrections'">Corrections</button>
+                        <button class="tab-btn" :class="{ 'active': activeTab === 'corrected' }"
+                            @click="activeTab = 'corrected'">Corrected Essay</button>
+                        <button class="tab-btn" :class="{ 'active': activeTab === 'suggestions' }"
+                            @click="activeTab = 'suggestions'">Suggestions</button>
+                    </div>
+
+                    <!-- Tab: Corrections List -->
+                    <div class="tab-content" :class="{ 'active': activeTab === 'corrections' }">
+                        <!-- Legend -->
+                        <div class="legend">
+                            <div class="legend-item">
+                                <div class="legend-color error"></div>
+                                <span>Errors</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color correction"></div>
+                                <span>Corrections</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color vocabulary"></div>
+                                <span>Vocabulary</span>
+                            </div>
+                            <div class="legend-item">
+                                <div class="legend-color grammar"></div>
+                                <span>Grammar Improvements</span>
+                            </div>
+                        </div>
+
+                        <div class="corrections-list">
+                            <template x-for="(correction, index) in results.corrections" :key="index">
+                                <div class="correction-item" :class="correction.type">
+                                    <div class="correction-type" :class="correction.type">
+                                        <span x-text="getCorrectionTypeLabel(correction.type)"></span>
+                                        <span x-show="correction.errorType" x-text="'(' + correction.errorType + ')'"></span>
+                                    </div>
+                                    <div>
+                                        <span class="correction-original" x-text="correction.original"></span>
+                                        <span class="correction-arrow">&rarr;</span>
+                                        <span class="correction-new" x-text="correction.correction || correction.suggestion"></span>
+                                    </div>
+                                    <div class="correction-explanation" x-text="correction.explanation"></div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Tab: Corrected Essay -->
+                    <div class="tab-content" :class="{ 'active': activeTab === 'corrected' }">
+                        <div class="essay-display" x-html="results.correctedEssay || ''"></div>
+                    </div>
+
+                    <!-- Tab: Suggestions -->
+                    <div class="tab-content" :class="{ 'active': activeTab === 'suggestions' }">
+                        <div class="suggestions-section">
+                            <template x-for="(suggestion, index) in results.suggestions" :key="index">
+                                <div class="suggestion-item" :class="suggestion.priority">
+                                    <div class="suggestion-title">
+                                        <span x-text="suggestion.title"></span>
+                                        <span class="priority-badge" :class="suggestion.priority"
+                                            x-text="suggestion.priority"></span>
+                                    </div>
+                                    <div class="suggestion-description" x-text="suggestion.description"></div>
+                                </div>
+                            </template>
+                        </div>
+
+                        <!-- Strengths and Weaknesses -->
+                        <div class="feedback-section" x-show="results.summary">
+                            <div class="feedback-card strengths">
+                                <div class="feedback-title strengths">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                        <polyline points="22 4 12 14.01 9 11.01" />
+                                    </svg>
+                                    Strengths
+                                </div>
+                                <ul class="feedback-list">
+                                    <template x-for="strength in results.summary?.strengths || []" :key="strength">
+                                        <li x-text="strength"></li>
+                                    </template>
+                                </ul>
+                            </div>
+                            <div class="feedback-card weaknesses">
+                                <div class="feedback-title weaknesses">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="12" y1="8" x2="12" y2="12" />
+                                        <line x1="12" y1="16" x2="12.01" y2="16" />
+                                    </svg>
+                                    Areas to Improve
+                                </div>
+                                <ul class="feedback-list">
+                                    <template x-for="area in results.summary?.areasToImprove || []" :key="area">
+                                        <li x-text="area"></li>
+                                    </template>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No Results Yet -->
+                <div class="card" x-show="!hasResults">
+                    <div style="text-align: center; padding: 60px 20px; color: rgba(255,255,255,0.5);">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1" style="margin: 0 auto 20px;">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
+                            <polyline points="10 9 9 9 8 9" />
+                        </svg>
+                        <p style="font-size: 1.1rem; margin-bottom: 8px;">No assessment yet</p>
+                        <p style="font-size: 0.9rem;">Enter your essay and click "Assess My Essay" to get detailed
+                            feedback</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function writingAssessment() {
+            return {
+                essay: '',
+                essayQuestion: '',
+                apiKey: localStorage.getItem('openai_api_key') || '',
+                isLoading: false,
+                hasResults: false,
+                activeTab: 'corrections',
+                results: {
+                    corrections: [],
+                    bandScores: null,
+                    suggestions: [],
+                    correctedEssay: '',
+                    summary: null
+                },
+
+                get wordCount() {
+                    return this.essay.trim().split(/\s+/).filter(word => word.length > 0).length;
+                },
+
+                get canSubmit() {
+                    return this.essay.trim().length > 0 && this.apiKey.trim().length > 0;
+                },
+
+                saveApiKey() {
+                    localStorage.setItem('openai_api_key', this.apiKey);
+                },
+
+                getCorrectionTypeLabel(type) {
+                    const labels = {
+                        'error': 'Error',
+                        'vocabulary': 'Vocabulary Enhancement',
+                        'grammar_improvement': 'Grammar Improvement'
+                    };
+                    return labels[type] || type;
+                },
+
+                async assessEssay() {
+                    if (!this.canSubmit) return;
+
+                    this.isLoading = true;
+                    this.hasResults = false;
+
+                    const systemPrompt = `You are an experienced IELTS Writing Examiner with 15+ years of experience. Your role is to assess IELTS Task 2 essays and provide detailed, constructive feedback.
+
+## Your Assessment Must Include:
+
+### 1. ERRORS (Mark with type: "error")
+Identify ALL mistakes: spelling, grammar, punctuation, word form, sentence structure.
+
+### 2. VOCABULARY ENHANCEMENTS (Mark with type: "vocabulary")
+Identify basic vocabulary that can be upgraded with more sophisticated alternatives.
+
+### 3. GRAMMAR IMPROVEMENTS (Mark with type: "grammar_improvement")
+Suggest better grammatical structures: passive voice, complex sentences, conditionals, etc.
+
+### 4. BAND SCORE ASSESSMENT
+Provide scores for: Task Achievement, Coherence and Cohesion, Lexical Resource, Grammatical Range and Accuracy, Overall.
+
+### 5. SUGGESTIONS
+Provide 3-5 specific suggestions for improvement.
+
+## CRITICAL RULES:
+1. NEVER change the meaning or argument the student is making
+2. Only fix HOW they express ideas, not WHAT they say
+3. Be encouraging while being thorough
+4. Minimum essay length should be 250 words
+
+## Response Format - Return ONLY valid JSON:
+{
+  "wordCount": number,
+  "isMinimumMet": boolean,
+  "corrections": [
+    {
+      "type": "error" | "vocabulary" | "grammar_improvement",
+      "original": "string",
+      "correction": "string for errors",
+      "suggestion": "string for vocabulary/grammar",
+      "explanation": "string",
+      "errorType": "grammar" | "spelling" | "punctuation" | "word_form" | "structure" | null
+    }
+  ],
+  "bandScores": {
+    "taskAchievement": number,
+    "coherenceCohesion": number,
+    "lexicalResource": number,
+    "grammaticalRange": number,
+    "overall": number
+  },
+  "suggestions": [
+    {
+      "title": "string",
+      "description": "string",
+      "priority": "high" | "medium" | "low"
+    }
+  ],
+  "correctedEssay": "string with all corrections applied",
+  "summary": {
+    "totalErrors": number,
+    "vocabularyEnhancements": number,
+    "grammarImprovements": number,
+    "strengths": ["string"],
+    "areasToImprove": ["string"]
+  }
+}`;
+
+                    const userPrompt = this.essayQuestion
+                        ? `Essay Question: ${this.essayQuestion}\n\nStudent's Essay:\n${this.essay}`
+                        : `Student's Essay:\n${this.essay}`;
+
+                    try {
+                        const response = await fetch('https://api.openai.com/v1/chat/completions', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'Authorization': `Bearer ${this.apiKey}`
+                            },
+                            body: JSON.stringify({
+                                model: 'gpt-4o',
+                                messages: [
+                                    { role: 'system', content: systemPrompt },
+                                    { role: 'user', content: userPrompt }
+                                ],
+                                temperature: 0.3,
+                                max_tokens: 4000
+                            })
+                        });
+
+                        if (!response.ok) {
+                            const error = await response.json();
+                            throw new Error(error.error?.message || 'API request failed');
+                        }
+
+                        const data = await response.json();
+                        const content = data.choices[0].message.content;
+
+                        // Parse JSON from response
+                        const jsonMatch = content.match(/\{[\s\S]*\}/);
+                        if (jsonMatch) {
+                            this.results = JSON.parse(jsonMatch[0]);
+                            this.hasResults = true;
+                        } else {
+                            throw new Error('Invalid response format');
+                        }
+                    } catch (error) {
+                        console.error('Assessment error:', error);
+                        alert('Error assessing essay: ' + error.message);
+                    } finally {
+                        this.isLoading = false;
+                    }
+                }
+            };
+        }
+    </script>
+</body>
+
+</html>
