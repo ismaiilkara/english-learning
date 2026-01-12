@@ -203,7 +203,22 @@
                     </div>
                 </div>
 
-                <div class="text-gray-400 font-semibold hidden md:block">📖 Reading</div>
+                <div class="flex items-center gap-3">
+                    <!-- Timer -->
+                    <div class="flex items-center gap-2 bg-white/10 rounded-lg px-3 py-1.5">
+                        <span class="text-white font-mono text-sm" x-text="formatTimer(readingTimer)"></span>
+                        <button @click="toggleReadingTimer()"
+                            :class="readingTimerRunning ? 'bg-yellow-500 hover:bg-yellow-600' : 'bg-green-500 hover:bg-green-600'"
+                            class="text-white text-xs px-2 py-1 rounded transition-all">
+                            <span x-text="readingTimerRunning ? '⏸' : '▶'"></span>
+                        </button>
+                        <button @click="resetReadingTimer()"
+                            class="bg-red-500/50 hover:bg-red-500 text-white text-xs px-2 py-1 rounded transition-all">
+                            ↺
+                        </button>
+                    </div>
+                    <div class="text-gray-400 font-semibold hidden md:block">📖 Reading</div>
+                </div>
             </div>
 
             <!-- Mobile Panel Toggle -->
@@ -951,7 +966,22 @@
                 <span class="text-white font-semibold text-sm md:text-base"
                     x-text="currentTestData?.name + ' - Listening'"></span>
 
-                <div class="text-green-400 font-semibold">🎧 <span class="hidden sm:inline">Listening</span></div>
+                <div class="flex items-center gap-3">
+                    <!-- Timer -->
+                    <div class="flex items-center gap-2 bg-white/10 rounded-lg px-3 py-1.5">
+                        <span class="text-white font-mono text-sm" x-text="formatTimer(listeningTimer)"></span>
+                        <button @click="toggleListeningTimer()"
+                            :class="listeningTimerRunning ? 'bg-yellow-500 hover:bg-yellow-600' : 'bg-green-500 hover:bg-green-600'"
+                            class="text-white text-xs px-2 py-1 rounded transition-all">
+                            <span x-text="listeningTimerRunning ? '⏸' : '▶'"></span>
+                        </button>
+                        <button @click="resetListeningTimer()"
+                            class="bg-red-500/50 hover:bg-red-500 text-white text-xs px-2 py-1 rounded transition-all">
+                            ↺
+                        </button>
+                    </div>
+                    <div class="text-green-400 font-semibold">🎧 <span class="hidden sm:inline">Listening</span></div>
+                </div>
             </div>
 
             <!-- Mobile Panel Toggle -->
@@ -981,23 +1011,90 @@
                             x-text="listeningData?.title || 'IELTS Listening'"></h2>
 
                         <!-- Audio Player for Google Drive (per part) -->
-                        <div x-show="currentListeningPart?.audioUrl" class="w-full">
+                        <div x-show="currentListeningPart?.audioUrl" class="w-full" x-data="audioPlayer()">
                             <div class="bg-white/5 rounded-lg p-4 border border-white/10">
                                 <div class="flex items-center gap-3 mb-3">
                                     <span class="text-2xl">🎧</span>
                                     <span class="text-white/70 text-sm"
                                         x-text="currentListeningPart?.title + ' Audio'"></span>
                                 </div>
-                                <div class="relative overflow-hidden rounded-lg" style="height: 60px;">
-                                    <iframe :key="currentListeningPartIndex"
-                                        :src="getGoogleDrivePreviewUrl(currentListeningPart?.audioUrl)"
-                                        class="absolute"
-                                        style="height: 100px; top: -20px; border: none; width: calc(100% + 60px); left: 0;"
-                                        allow="autoplay">
-                                    </iframe>
+
+                                <!-- HTML5 Audio Element (hidden) -->
+                                <audio x-ref="audioElement"
+                                    :src="getGoogleDriveStreamUrl(currentListeningPart?.audioUrl)"
+                                    @timeupdate="updateProgress()"
+                                    @loadedmetadata="duration = $refs.audioElement.duration"
+                                    @ended="isPlaying = false"
+                                    @play="isPlaying = true"
+                                    @pause="isPlaying = false"
+                                    preload="metadata">
+                                </audio>
+
+                                <!-- Custom Audio Controls -->
+                                <div class="space-y-3">
+                                    <!-- Play/Pause & Time -->
+                                    <div class="flex items-center gap-3">
+                                        <button @click="togglePlay()"
+                                            class="w-12 h-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center transition-all">
+                                            <span x-show="!isPlaying" class="text-white text-xl ml-1">▶</span>
+                                            <span x-show="isPlaying" class="text-white text-lg">⏸</span>
+                                        </button>
+                                        <div class="flex-1">
+                                            <!-- Progress Bar -->
+                                            <div class="relative h-2 bg-white/20 rounded-full cursor-pointer"
+                                                @click="seek($event)">
+                                                <div class="absolute h-full bg-green-500 rounded-full transition-all"
+                                                    :style="'width: ' + progress + '%'"></div>
+                                            </div>
+                                            <!-- Time Display -->
+                                            <div class="flex justify-between text-xs text-white/50 mt-1">
+                                                <span x-text="formatAudioTime(currentTime)"></span>
+                                                <span x-text="formatAudioTime(duration)"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Volume & Speed Controls -->
+                                    <div class="flex items-center gap-4">
+                                        <!-- Volume -->
+                                        <div class="flex items-center gap-2 flex-1">
+                                            <button @click="toggleMute()" class="text-white/70 hover:text-white">
+                                                <span x-show="!isMuted && volume > 0">🔊</span>
+                                                <span x-show="isMuted || volume === 0">🔇</span>
+                                            </button>
+                                            <input type="range" min="0" max="1" step="0.1" x-model="volume"
+                                                @input="setVolume()"
+                                                class="w-20 h-1 bg-white/20 rounded-full appearance-none cursor-pointer [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:w-3 [&::-webkit-slider-thumb]:h-3 [&::-webkit-slider-thumb]:bg-white [&::-webkit-slider-thumb]:rounded-full">
+                                        </div>
+
+                                        <!-- Playback Speed -->
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-white/50 text-xs">Speed:</span>
+                                            <select x-model="playbackRate" @change="setPlaybackRate()"
+                                                class="bg-white/10 text-white text-xs px-2 py-1 rounded border border-white/20">
+                                                <option value="0.5">0.5x</option>
+                                                <option value="0.75">0.75x</option>
+                                                <option value="1" selected>1x</option>
+                                                <option value="1.25">1.25x</option>
+                                                <option value="1.5">1.5x</option>
+                                            </select>
+                                        </div>
+
+                                        <!-- Rewind/Forward -->
+                                        <div class="flex gap-1">
+                                            <button @click="skipTime(-10)"
+                                                class="bg-white/10 hover:bg-white/20 text-white text-xs px-2 py-1 rounded transition-all">
+                                                -10s
+                                            </button>
+                                            <button @click="skipTime(10)"
+                                                class="bg-white/10 hover:bg-white/20 text-white text-xs px-2 py-1 rounded transition-all">
+                                                +10s
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="text-white/50 text-xs mt-2">Tip: Listen carefully. You can pause and replay as
-                                    needed.</p>
+
+                                <p class="text-white/50 text-xs mt-3">Tip: Use speed controls for practice. Slow down for difficult sections.</p>
                             </div>
                         </div>
 
@@ -1738,6 +1835,14 @@
                 listeningPartSubmitted: {}, // per-part passageSubmitted[currentPassageIndex] state: { partIndex: true/false }
                 listeningPartScores: {}, // per-part scores: { partIndex: { score, totalQuestions } }
 
+                // Timer state
+                readingTimer: 0,
+                readingTimerRunning: false,
+                readingTimerInterval: null,
+                listeningTimer: 0,
+                listeningTimerRunning: false,
+                listeningTimerInterval: null,
+
                 // Cache for loaded test data (lazy loading)
                 testDataCache: {},
 
@@ -2118,6 +2223,63 @@
                     return url;
                 },
 
+                getGoogleDriveStreamUrl(url) {
+                    if (!url) return '';
+                    const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+                    if (match && match[1]) {
+                        // Use the direct streaming URL format
+                        return `https://drive.google.com/uc?export=download&id=${match[1]}`;
+                    }
+                    return url;
+                },
+
+                // Timer functions
+                formatTimer(seconds) {
+                    const hrs = Math.floor(seconds / 3600);
+                    const mins = Math.floor((seconds % 3600) / 60);
+                    const secs = seconds % 60;
+                    if (hrs > 0) {
+                        return `${hrs}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+                    }
+                    return `${mins}:${secs.toString().padStart(2, '0')}`;
+                },
+
+                toggleReadingTimer() {
+                    if (this.readingTimerRunning) {
+                        clearInterval(this.readingTimerInterval);
+                        this.readingTimerRunning = false;
+                    } else {
+                        this.readingTimerRunning = true;
+                        this.readingTimerInterval = setInterval(() => {
+                            this.readingTimer++;
+                        }, 1000);
+                    }
+                },
+
+                resetReadingTimer() {
+                    clearInterval(this.readingTimerInterval);
+                    this.readingTimer = 0;
+                    this.readingTimerRunning = false;
+                },
+
+                toggleListeningTimer() {
+                    if (this.listeningTimerRunning) {
+                        clearInterval(this.listeningTimerInterval);
+                        this.listeningTimerRunning = false;
+                    } else {
+                        this.listeningTimerRunning = true;
+                        this.listeningTimerInterval = setInterval(() => {
+                            this.listeningTimer++;
+                        }, 1000);
+                    }
+                },
+
+                resetListeningTimer() {
+                    clearInterval(this.listeningTimerInterval);
+                    this.listeningTimer = 0;
+                    this.listeningTimerRunning = false;
+                },
+
                 selectListeningPart(index) {
                     this.currentListeningPartIndex = index;
                     this.currentListeningPart = null;
@@ -2300,6 +2462,99 @@
                         localStorage.removeItem(`listening_part_submitted_test${this.currentTestId}`);
                         localStorage.removeItem(`listening_part_scores_test${this.currentTestId}`);
                     }
+                }
+            };
+        }
+
+        // Global function for Google Drive streaming URL
+        function getGoogleDriveStreamUrl(url) {
+            if (!url) return '';
+            const match = url.match(/\/d\/([a-zA-Z0-9_-]+)/);
+            if (match && match[1]) {
+                return `https://drive.google.com/uc?export=download&id=${match[1]}`;
+            }
+            return url;
+        }
+
+        // Audio Player Component
+        function audioPlayer() {
+            return {
+                isPlaying: false,
+                currentTime: 0,
+                duration: 0,
+                progress: 0,
+                volume: 1,
+                isMuted: false,
+                playbackRate: '1',
+
+                togglePlay() {
+                    const audio = this.$refs.audioElement;
+                    if (!audio) return;
+
+                    if (audio.paused) {
+                        audio.play().catch(e => console.log('Play error:', e));
+                    } else {
+                        audio.pause();
+                    }
+                },
+
+                updateProgress() {
+                    const audio = this.$refs.audioElement;
+                    if (!audio) return;
+
+                    this.currentTime = audio.currentTime;
+                    this.progress = (audio.currentTime / audio.duration) * 100 || 0;
+                },
+
+                seek(event) {
+                    const audio = this.$refs.audioElement;
+                    if (!audio || !audio.duration) return;
+
+                    const rect = event.currentTarget.getBoundingClientRect();
+                    const percent = (event.clientX - rect.left) / rect.width;
+                    audio.currentTime = percent * audio.duration;
+                },
+
+                skipTime(seconds) {
+                    const audio = this.$refs.audioElement;
+                    if (!audio) return;
+
+                    audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
+                },
+
+                setVolume() {
+                    const audio = this.$refs.audioElement;
+                    if (!audio) return;
+
+                    audio.volume = this.volume;
+                    this.isMuted = this.volume === 0;
+                },
+
+                toggleMute() {
+                    const audio = this.$refs.audioElement;
+                    if (!audio) return;
+
+                    if (this.isMuted) {
+                        audio.volume = this.volume || 1;
+                        this.isMuted = false;
+                    } else {
+                        audio.volume = 0;
+                        this.isMuted = true;
+                    }
+                },
+
+                setPlaybackRate() {
+                    const audio = this.$refs.audioElement;
+                    if (!audio) return;
+
+                    audio.playbackRate = parseFloat(this.playbackRate);
+                },
+
+                formatAudioTime(seconds) {
+                    if (!seconds || isNaN(seconds)) return '0:00';
+                    const mins = Math.floor(seconds / 60);
+                    const secs = Math.floor(seconds % 60);
+                    return `${mins}:${secs.toString().padStart(2, '0')}`;
                 }
             };
         }

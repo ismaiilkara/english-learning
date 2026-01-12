@@ -1,10 +1,10 @@
 {
     "id": 5,
-    "name": "IELTS General Training - Test 5",
-    "subtitle": "Cambridge IELTS 17 General Training Test 4",
+    "name": "IELTS General Training - Cambridge 16 Test 4",
+    "subtitle": "Cambridge IELTS 16 General Training Test 4",
     "type": "general",
     "reading": {
-        "title": "General Training Reading Test 1",
+        "title": "General Training Reading Test",
         "sections": [
             {
                 "id": 1,
@@ -13,71 +13,54 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "Outdoor Activities For All The Family",
-                        "content": "<p><strong>A Perry Forest</strong></p><p>Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults. Every Saturday and Sunday throughout the year our experts lead several walks. So whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill we have something for you.</p><p><strong>B Pugsley Beach Nature Reserve</strong></p><p>The reserve has plenty of wildlife whatever the time of year with its numerous species of birds and plants that grow hardly anywhere else but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close up views of all this and hot drinks and snacks are available to help you keep warm.</p><p><strong>C Marston Hill</strong></p><p>If you ever wonder what wildlife trusts do for the environment come to Marston Hall where our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures. They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.</p><p><strong>D Craven Discovery Centre</strong></p><p>Here at the discovery centre youngsters are introduced to the animals in our petting zoo where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile the adults can take part in our woodland activities such as learning basic woodworking skills.</p><p><strong>E Shelford Family Wild Outing</strong></p><p>Go birdwatching or catch insects as daylight fades then have a gentle jog along the River Wale by moonlight and end by toasting marshmallows on a campfire. It's all part of a Family Wild Outing in Shelford organised by the local wildlife trust. Ideal for both adults and children.</p><p><strong>F Garston Park</strong></p><p>Come to Garston Park when the sun has set and explore the solar system. Ideal for children and their parents who are interested in astronomy. Our experts will help you to find your way among the stars and then we gather in the visitor centre for refreshments. Please note that events are cancelled if the weather is cloudy.</p>",
+                        "title": "How to choose your builder",
+                        "content": "<p>Building a new home is a significant investment, and it's essential to find the right builder for the job. Before you look for a builder, it's important to develop a comprehensive budget and have clear plans. Once you have a design in mind, it is time to start narrowing down your builder shortlist, and this starts with assessing how qualified each builder is. In Australia, this means checking that the builder holds a residential building licence. Most states have their own building authority who you can contact to check a builder's licence.</p><p>You can also check if the builder is a member of an industry association such as the Housing Industry Association (HIA), and whether they have won any industry awards. For instance, the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers.</p><p>Most experts agree that display homes (homes constructed by the builder that are open to the public) offer a great opportunity to study their work up close. Display homes are usually offered by major project builders who work on a large scale and can deliver good quality and value. You can also talk to the salesperson and find out about the home design and what is and isn't included in the sale price. And it may be possible to talk to other customers you meet there and ask their opinion of the workmanship in the display home.</p><p>Finally, avoid signing any business contract before you have read and understood it thoroughly. Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act, and to be fair to both client and builder. You have five business days within which you may withdraw from the contract after signing it.</p>",
                         "questions": [
                             {
-                                "type": "matching",
-                                "title": "Questions 1-7",
-                                "instructions": "The text above has 6 advertisements A-F. Which advertisement mentions the following?",
-                                "options": [
-                                    "A",
-                                    "B",
-                                    "C",
-                                    "D",
-                                    "E",
-                                    "F"
-                                ],
-                                "optionLabels": {
-                                    "A": "Perry Forest",
-                                    "B": "Pugsley Beach Nature Reserve",
-                                    "C": "Marston Hill",
-                                    "D": "Craven Discovery Centre",
-                                    "E": "Shelford Family Wild Outing",
-                                    "F": "Garston Park"
-                                },
+                                "type": "trueFalseNotGiven",
+                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
                                 "items": [
                                     {
                                         "number": 1,
-                                        "statement": "running in the evening",
-                                        "answer": "E",
-                                        "explanation": "In Shelford Family Wild Outing (E), the text mentions 'have a gentle jog along the River Wale by moonlight.' Moonlight = evening; jog = running."
+                                        "statement": "After selecting a builder, you should decide on the design of your new house.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'Once you have a design in mind, it is time to start narrowing down your builder shortlist.' This means you should have the design BEFORE selecting a builder, not after. The statement reverses the correct order."
                                     },
                                     {
                                         "number": 2,
-                                        "statement": "seeing newborn animals",
-                                        "answer": "B",
-                                        "explanation": "In Pugsley Beach Nature Reserve (B), the text states 'hundreds of grey seals arrive on the beach to have their young.' Having their young = newborn animals."
+                                        "statement": "In Australia, you can make sure that a builder has the appropriate licence.",
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'In Australia, this means checking that the builder holds a residential building licence. Most states have their own building authority who you can contact to check a builder's licence.' This confirms you can verify a builder's licence."
                                     },
                                     {
                                         "number": 3,
-                                        "statement": "parents and children doing different activities at the same time",
-                                        "answer": "D",
-                                        "explanation": "In Craven Discovery Centre (D), 'youngsters are introduced to the animals' while 'Meanwhile the adults can take part in our woodland activities.' Meanwhile = at the same time; different activities for each group."
+                                        "statement": "The best builders usually belong to the Housing Industry Association.",
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions you 'can also check if the builder is a member of an industry association such as the Housing Industry Association (HIA)' but does not state that the best builders belong to it. It's presented as one option to consider, not a mark of the best builders."
                                     },
                                     {
                                         "number": 4,
-                                        "statement": "choosing from alternative routes",
-                                        "answer": "A",
-                                        "explanation": "In Perry Forest (A), the text offers 'whether you want a short stroll on level ground or a more challenging walk to the top of Shepherds Hill.' This presents alternative route options to choose from."
+                                        "statement": "The HIA gives an award to builders whose standards of customer service are very high.",
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers.' This confirms HIA has awards for customer service excellence."
                                     },
                                     {
                                         "number": 5,
-                                        "statement": "learning about how other people help animals",
-                                        "answer": "C",
-                                        "explanation": "In Marston Hill (C), 'our rangers will show you how they manage wildlife habitats from providing feeding boxes for squirrels to creating ponds for frogs.' Rangers = other people helping animals."
+                                        "statement": "Builders who work on smaller projects are more likely to have display homes.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'Display homes are usually offered by major project builders who work on a large scale.' This directly contradicts the statement - it's MAJOR builders (not smaller ones) who typically have display homes."
                                     },
                                     {
                                         "number": 6,
-                                        "statement": "an event occurring only at a certain time of the year",
-                                        "answer": "B",
-                                        "explanation": "In Pugsley Beach Nature Reserve (B), 'the autumn is when hundreds of grey seals arrive on the beach to have their young.' This event happens only in autumn, a specific time of year."
+                                        "statement": "It is advisable to have a contract which is in accordance with the Domestic Building Contracts Act.",
+                                        "answer": "TRUE",
+                                        "explanation": "The text advises: 'Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act.' The word 'ask' implies this is recommended/advisable."
                                     },
                                     {
                                         "number": 7,
-                                        "statement": "identifying where animals have been",
-                                        "answer": "C",
-                                        "explanation": "In Marston Hill (C), rangers 'take you on a short walk through the ancient pine forest in search of animal tracks and signs.' Tracks and signs = evidence of where animals have been."
+                                        "statement": "A contract is legally binding from the time it has been signed.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'You have five business days within which you may withdraw from the contract after signing it.' This means the contract is NOT immediately binding - you have a cooling-off period to withdraw."
                                     }
                                 ]
                             }
@@ -85,55 +68,64 @@
                     },
                     {
                         "id": "1b",
-                        "title": "Hinchingbrooke School Sixth Form",
-                        "content": "<p>Hinchingbrooke School consists of the lower school for students aged 11 to 16 and the sixth form for ages 16 to 18+. In the sixth form we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace. We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.</p><p>While the majority of sixth form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area. We pride ourselves on giving these external students a particularly warm welcome. We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.</p><p>If you are an internal student please apply through the MyChoice16 application system. This is also where external students need to view course information. If you are an external student whose current school does use this application for online applications please see our website for an application form to the school. We hold an annual open evening in the autumn term when you can come and view our facilities and ask any questions you may have.</p><p>Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud of and each of our students is treated as an individual. You will be assigned a professional sixth form tutor who will provide you with support and guidance and will responsible for helping you make sensible choices about your future career path.</p><p>You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself in agreement with your tutor and subject teachers and your progress towards achieving these targets will be monitored in your tutor meetings.</p>",
+                        "title": "Island adventure activities",
+                        "content": "<p><strong>A. Rib riding</strong><br>Conquer stormy seas on a high-speed ride in an RIB (Rigid Inflatable Boat). These powerful boats cut through choppy waters with ease. You'll need to hold on tight as the boat bounces across the wake of awesome cruise liners in one of the world's busiest shipping lanes.</p><p><strong>B. Horse riding</strong><br>Experience the thrill of riding on horseback along peaceful country lanes and secluded bridleways with the help of expert guides. Even a novice can quickly take the reins and feel the thrill of riding one of nature's most magnificent beasts.</p><p><strong>C. Kayaking</strong><br>Test your kayak nerves paddling around a deserted military fort built on a rocky outcrop out at sea, then explore the island's busy harbours before gliding back to dry land where a hot shower and a cup of tea await.</p><p><strong>D. Cycling</strong><br>Test your endurance on the famous Round the Island Cycle Route. Grit your teeth and tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks on former railway lines.</p><p><strong>E. Segway riding</strong><br>Have you got what it takes to master a Segway? In theory, these quirky electric machines are simple to control, with users leaning forwards to go faster and back to slow down. In reality, you'll need some practice before you can master the skill and glide around the island.</p><p><strong>F. Tree climbing</strong><br>A climb into the canopy of a 25-metre oak tree is an amazing experience. Supported by a rope and harness, you can stand on branches no bigger than your wrist, and swing out between the boughs, or simply take the opportunity to lie in a tree-top hammock and absorb the stunning bird's eye views.</p><p><strong>G. Coasteering</strong><br>Tackle the spectacular coast in the north of the island. Scrabble over the rocks around cliff edges as the waves crash around you, dive through submerged caves and emerge onto a beach once used by smugglers. This is a thrilling experience, but not an adventure to attempt alone.</p><p><strong>H. Mountain boarding</strong><br>First developed as an off-season alternative to winter sports and now a sport in its own right, mountain boarding has the speed of snowboarding but with a harder landing when you fall. After a bit of practice and a few bruises, you'll learn to control the ride and can join the few people who can call themselves mountain boarders.</p>",
                         "questions": [
                             {
-                                "type": "trueFalseNotGiven",
-                                "title": "Questions 8-14",
-                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "type": "matching",
+                                "instructions": "Look at the eight advertisements for adventure sports on an island. For which adventure sport are the following statements true? Write the correct letter, A-H. NB You may use any letter more than once.",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E",
+                                    "F",
+                                    "G",
+                                    "H"
+                                ],
                                 "items": [
                                     {
                                         "number": 8,
-                                        "statement": "Some sixth-form students intend to start work immediately after leaving school.",
-                                        "answer": "TRUE",
-                                        "explanation": "The text states 'we provide a strong programme of guidance for students whether they are planning on going to university into training or straight into the workplace.' Straight into the workplace = start work immediately."
+                                        "statement": "You will be provided with safety equipment.",
+                                        "answer": "F",
+                                        "explanation": "In Tree climbing (F), the text states 'Supported by a rope and harness' - these are safety equipment provided for the activity."
                                     },
                                     {
                                         "number": 9,
-                                        "statement": "An increasing number of students are accepted at medical school.",
-                                        "answer": "TRUE",
-                                        "explanation": "The text states 'We have a high rate of success with applications to universities including growing success in recent years for medical school applicants.' Growing success = increasing number accepted."
+                                        "statement": "You may get some minor injuries doing this activity.",
+                                        "answer": "H",
+                                        "explanation": "In Mountain boarding (H), the text mentions 'a harder landing when you fall' and 'After a bit of practice and a few bruises' - bruises are minor injuries."
                                     },
                                     {
                                         "number": 10,
-                                        "statement": "Most sixth-form students come from other schools.",
-                                        "answer": "FALSE",
-                                        "explanation": "The text states 'While the majority of sixth form students enter from the lower school.' The majority = most, and they come from the lower school (same school), not other schools."
+                                        "statement": "You can see a disused, isolated building.",
+                                        "answer": "C",
+                                        "explanation": "In Kayaking (C), the text mentions 'paddling around a deserted military fort built on a rocky outcrop out at sea.' A deserted fort is a disused, isolated building."
                                     },
                                     {
                                         "number": 11,
-                                        "statement": "External applicants have an interview before they can be accepted.",
-                                        "answer": "NOT GIVEN",
-                                        "explanation": "The text mentions entry requirements and application forms for external students, but does not mention whether an interview is required. This information is not provided."
+                                        "statement": "You can relax and look down from above in an unusual location.",
+                                        "answer": "F",
+                                        "explanation": "In Tree climbing (F), the text states 'take the opportunity to lie in a tree-top hammock and absorb the stunning bird's eye views.' Lying in a hammock = relaxing; bird's eye views = looking down from above; tree-top = unusual location."
                                     },
                                     {
                                         "number": 12,
-                                        "statement": "Applications to the sixth form can only be made through the MyChoice16 website.",
-                                        "answer": "FALSE",
-                                        "explanation": "The text states 'If you are an external student... please see our website for an application form to the school.' This shows there is an alternative application method, not just MyChoice16."
+                                        "statement": "You will take an exciting trip in rough water close to big ships.",
+                                        "answer": "A",
+                                        "explanation": "In Rib riding (A), the text mentions 'stormy seas,' 'choppy waters,' and 'the boat bounces across the wake of awesome cruise liners' - rough water near big ships."
                                     },
                                     {
                                         "number": 13,
-                                        "statement": "External applicants can talk to current students at the Open Evening.",
-                                        "answer": "NOT GIVEN",
-                                        "explanation": "The text mentions 'an annual open evening' where you can 'view our facilities and ask any questions' but does not specify whether current students will be present or available to talk to."
+                                        "statement": "You can choose easy options or more difficult ones.",
+                                        "answer": "D",
+                                        "explanation": "In Cycling (D), the text offers 'tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks.' This presents both difficult and easy options."
                                     },
                                     {
                                         "number": 14,
-                                        "statement": "Students meet their tutor whenever one of them requests a meeting.",
-                                        "answer": "FALSE",
-                                        "explanation": "The text states 'You will meet with your tutor at a fixed time every fortnight.' Meetings are scheduled (fixed time, every fortnight), not arranged on request."
+                                        "statement": "You may find this more difficult than you expect.",
+                                        "answer": "E",
+                                        "explanation": "In Segway riding (E), the text states 'In theory, these quirky electric machines are simple to control... In reality, you'll need some practice before you can master the skill.' The contrast between theory and reality suggests it's harder than expected."
                                     }
                                 ]
                             }
@@ -148,63 +140,190 @@
                 "passages": [
                     {
                         "id": "2a",
-                        "title": "Tree Cutters At Work",
-                        "content": "<p><em>Tree surgeon Ivars Balodis describes the teamwork involved in cutting down a large tree</em></p>\n\n<p>Today the tree-cutting team consists of myself, Gary and Mikael. We're going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday – not a working day for the yard – and it is far easier to remove a tree when no-one else is around. As supervisor, I first pop into our office to sort out the paperwork for the day, which includes the risk assessments. Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult. Luckily, we've picked a good day.</p>\n\n<p>Next, we load up the equipment – things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off. On arrival at the site, we have a quick discussion on the procedure for the day. After that, one of us – today it's Gary – goes up the tree to quickly select his anchor point. This is the position from which he will cut down the tree. It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.</p>\n\n<p>Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down. When they are cut, these will fall further away, outside the boundary of the yard. On the other side of the perimeter fence is a wide grass verge and then a footpath, where I set up a number of signs to alert the public to our activities. Working alongside a road requires vigilance, so I monitor the movements of pedestrians and, as Gary starts work, I watch what he is doing, so I can ensure safety. Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.</p>",
+                        "title": "Barrington Music Service: Business and Development Manager",
+                        "content": "<p>Barrington Music Service organises a wide range of music activities for children and young people resident in and around Barrington. It provides singing and specialist instrumental lessons in schools, and it owns a collection of instruments for use in schools, some of which are available for hire by the parents of children having lessons. The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas. The Music Service provides administrative and financial support for the Barrington Youth Orchestra, which takes part in workshops with professional artists and gives performances.</p><p>Barrington Music Service is seeking to recruit a Business and Development Manager to manage the administrative function and build on the success of the Service. We are looking for an individual with a passion for delivering the best possible music provision for the benefit of our children and young people.</p><p>As the Business and Development Manager, you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget, which is currently around £1m a year. You will take the lead on marketing the Service and ensuring the generation of new income. The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising. The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity. You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service.</p><p>The person appointed will have experience of a supervisory role and the skills to motivate members of a team. You will have an understanding of accounting, at a non-specialist level, and of standard financial procedures. High-level IT skills and excellent verbal and written communication skills are essential. Although experience in music education is not crucial, good knowledge of the field, or of other areas of arts management, would be an advantage.</p>",
                         "questions": [
                             {
-                                "type": "noteCompletion",
-                                "title": "Questions 15-21",
+                                "type": "notes",
+                                "title": "Questions 15-20",
                                 "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
-                                "noteTitle": "Cutting down a big tree",
+                                "noteTitle": "Barrington Music Service",
+                                "answers": {
+                                    "15": "festivals",
+                                    "16": "budget",
+                                    "17": "partnerships",
+                                    "18": "diversity",
+                                    "19": "database",
+                                    "20": "accounting"
+                                },
+                                "explanations": {
+                                    "15": "The text states 'The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas.'",
+                                    "16": "The text states 'ensuring it does not exceed its budget, which is currently around £1m a year.' Keeping to the budget means not exceeding it.",
+                                    "17": "The text states 'The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these.'",
+                                    "18": "The text states 'The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity.'",
+                                    "19": "The text states 'maintain a database of all music teachers, students, and instruments belonging to the Service.'",
+                                    "20": "The text states 'You will have an understanding of accounting, at a non-specialist level.' Non-specialist level = basic knowledge."
+                                },
                                 "items": [
                                     {
-                                        "number": 15,
-                                        "textBefore": "The site supervisor checks the paperwork and the latest information on the weather first. Chainsaws, clothing and all",
-                                        "textAfter": "are then loaded onto the lorry.",
-                                        "answer": "tools",
-                                        "explanation": "The text states 'things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools.' Tools is the category that includes spades and rakes."
+                                        "isHeader": true,
+                                        "text": "Activities"
                                     },
                                     {
-                                        "number": 16,
-                                        "textBefore": "The team talk briefly at the site about the overall",
-                                        "textAfter": "before the work begins.",
-                                        "answer": "procedure",
-                                        "explanation": "The text states 'On arrival at the site, we have a quick discussion on the procedure for the day.' Quick discussion = talk briefly; procedure for the day = overall procedure."
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "organises music lessons"
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 17,
-                                        "textBefore": "The climber's anchor point must have the necessary height and",
-                                        "textAfter": "for the job.",
-                                        "answer": "strength",
-                                        "explanation": "The text states the anchor point 'must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber.' Sufficient = necessary."
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "enables the hire of instruments"
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 18,
-                                        "textBefore": "The first branches are cut and placed in a pile in the yard. A pulley and some",
-                                        "textAfter": "assist in the removal of the top branches.",
-                                        "answer": "rope",
-                                        "explanation": "The text states 'This involves placing a pulley in the tree and using thick rope to drag the branches down.' The pulley and rope work together to remove branches."
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "events such as"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 15
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "for local and visiting schools"
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 19,
-                                        "textBefore": "At this point signs are placed on the",
-                                        "textAfter": ".",
-                                        "answer": "footpath",
-                                        "explanation": "The text states 'On the other side of the perimeter fence is a wide grass verge and then a footpath, where I set up a number of signs to alert the public.'"
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "supports Barrington Youth Orchestra"
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 20,
-                                        "textBefore": "For safety the actions of both the tree cutter and",
-                                        "textAfter": "must be regularly checked.",
-                                        "answer": "pedestrians",
-                                        "explanation": "The text states 'I monitor the movements of pedestrians and, as Gary starts work, I watch what he is doing, so I can ensure safety.' Both the cutter and pedestrians are monitored."
+                                        "isHeader": true,
+                                        "text": "Post of Business and Development Manager"
                                     },
                                     {
-                                        "number": 21,
-                                        "textBefore": "A special machine creates",
-                                        "textAfter": "out of some of the wood.",
-                                        "answer": "chippings",
-                                        "explanation": "The text states 'feeds the machine that dices them into very small pieces called wood chippings.' The machine creates chippings from the wood."
+                                        "isSubHeader": true,
+                                        "text": "Person appointed will:"
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "manage the administration of the Service"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "be responsible for keeping to the"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 16
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "build"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 17
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "with other organisations"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "be proactive in fundraising"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "increase the focus on"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 18
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "in school music lessons (e.g., international styles)"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "make sure records and a"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 19
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "is kept up-to-date"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isSubHeader": true,
+                                        "text": "Person appointed must have:"
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "ability to supervise and motivate others"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "basic knowledge of"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 20
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "other relevant skills"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -212,96 +331,54 @@
                     },
                     {
                         "id": "2b",
-                        "title": "Plumbing Skills",
-                        "content": "<p>In a residential building such as a block of flats, underfloor jobs that involve plumbing mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 cm deep. In addition the floors are typically covered with a wood product, engineered to resemble solid wood that has very strict criteria as far as drilling and cutting are concerned. The plumber cannot just go in and cut holes and lay pipes. He must first think about what he is doing read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople before proceeding.</p><p>Commercial plumbers working on office buildings, hotels, restaurants etc. have the same issues and coordination problems as residential plumbers but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined. The equipment will have specific installation instructions so it is critical that the plumber has the cognitive ability to understand these. In addition often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.</p><p>Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively they must have complete knowledge of say a customer's shower until they are servicing even if they did not install it. They must have the ability to translate the symptoms they can see such as leaks and blockages into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue. Successful service plumbers not only need good mechanical skills but they typically need very good people skills to provide necessary support.</p>",
+                        "title": "Health and safety in small businesses",
+                        "content": "<p>The rate of accidents at work is almost 75% higher in small businesses than in larger companies. One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues. Many managers of small businesses claim their situation is made worse by bureaucracy, arguing that the huge number of regulations – not just on health and safety but also on tax, the minimum wage, and much, much more – makes their work difficult.</p><p>Many managers are simply not aware of their responsibilities. They are too busy running their companies to read manuals, employ consultants or go to seminars. Moreover, the average business person doesn't know where and how to get information. The Federation of Small Businesses argues that the special nature of small businesses should be recognised by health and safety inspectors, with an emphasis on education and how to comply with the law, rather than simply on enforcement. For instance, inspectors could make employers aware of what they really need to know, rather than swamping them with mountains of leaflets which may not be relevant.</p><p>Improvements are being made, however. The Health and Safety Executive has issued a free guide to the most important health and safety laws for employers. All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing. It should be specific to the business and clear about the arrangements for and organisation of health and safety at work.</p><p>It should state a strategy, detail how it will be implemented and by whom, and say when it will be reviewed and updated. It is advisable to involve employees in this process, as they have direct experience. Assessing and identifying risks is the starting point. But to comply with the law, businesses must train their employees about health and safety, and provide information to others who need to know, such as the contractors working for them. These are often smaller companies that carry out most of the dangerous work. Helping them to get into good safety habits makes it easier for them to tender for work from big companies. Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress.</p>",
                         "questions": [
                             {
-                                "type": "tableCompletion",
-                                "title": "Questions 22-27",
-                                "instructions": "Complete the table below. Choose NO MORE THAN TWO WORDS from the passage for each answer.",
-                                "tableTitle": "Types of plumbers",
-                                "headers": [
-                                    "Type of plumber",
-                                    "Challenges",
-                                    "Skills needed"
-                                ],
-                                "rows": [
-                                    {
-                                        "cells": [
-                                            "Residential plumber",
-                                            "Works in narrow spaces; must be careful about drilling into 22 ___",
-                                            "Needs to consider how other 23 ___ may be affected"
-                                        ],
-                                        "answers": {
-                                            "22": "floors",
-                                            "23": "tradespeople"
-                                        }
-                                    },
-                                    {
-                                        "cells": [
-                                            "Commercial plumber",
-                                            "Must be able to follow 24 ___; may need to X-ray floors and walls to avoid damaging 25 ___",
-                                            "Has the 26 ___ to understand complex documents"
-                                        ],
-                                        "answers": {
-                                            "24": "instructions",
-                                            "25": "steel",
-                                            "26": "cognitive ability"
-                                        }
-                                    },
-                                    {
-                                        "cells": [
-                                            "Service plumber",
-                                            "Needs to find out what the problem is; often customers are upset or 27 ___",
-                                            "Needs good mechanical and people skills"
-                                        ],
-                                        "answers": {
-                                            "27": "disrupted"
-                                        }
-                                    }
-                                ],
+                                "type": "sentenceCompletion",
+                                "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS from the passage for each answer.",
                                 "items": [
                                     {
+                                        "number": 21,
+                                        "sentence": "One cause of health and safety problems in small businesses is that managers do not have enough relevant ....................",
+                                        "answer": "knowledge",
+                                        "explanation": "The text states 'One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues.' Inadequate = not enough; relevant knowledge = knowledge of health and safety."
+                                    },
+                                    {
                                         "number": 22,
-                                        "textBefore": "Works in narrow spaces; must be careful about drilling into",
-                                        "textAfter": "",
-                                        "answer": "floors",
-                                        "explanation": "The text states 'the floors are typically covered with a wood product, engineered to resemble solid wood that has very strict criteria as far as drilling and cutting are concerned.'"
+                                        "sentence": "Managers complain they have too many .................... to deal with.",
+                                        "answer": "regulations",
+                                        "explanation": "The text states managers argue 'that the huge number of regulations – not just on health and safety but also on tax, the minimum wage, and much, much more – makes their work difficult.'"
                                     },
                                     {
                                         "number": 23,
-                                        "textBefore": "Needs to consider how other",
-                                        "textAfter": "may be affected",
-                                        "answer": "tradespeople",
-                                        "explanation": "The text states the plumber must 'visualise how his work will impact on other tradespeople before proceeding.' Impact on = how they may be affected."
+                                        "sentence": "Managers may not fully understand their ....................",
+                                        "answer": "responsibilities",
+                                        "explanation": "The text states 'Many managers are simply not aware of their responsibilities.' Not aware = not fully understand."
                                     },
                                     {
                                         "number": 24,
-                                        "textBefore": "Must be able to follow",
-                                        "textAfter": "",
-                                        "answer": "instructions",
-                                        "explanation": "The text states 'The equipment will have specific installation instructions so it is critical that the plumber has the cognitive ability to understand these.'"
+                                        "sentence": "Businesses sometimes feel that inspectors give them far too many ....................",
+                                        "answer": "leaflets",
+                                        "explanation": "The text states inspectors are 'swamping them with mountains of leaflets which may not be relevant.' Mountains of = far too many."
                                     },
                                     {
                                         "number": 25,
-                                        "textBefore": "may need to X-ray floors and walls to avoid damaging",
-                                        "textAfter": "",
-                                        "answer": "steel",
-                                        "explanation": "The text states 'floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.' Avoid hitting = avoid damaging."
+                                        "sentence": "Businesses above a certain size must produce a written .................... of their health and safety policy.",
+                                        "answer": "policy statement",
+                                        "explanation": "The text states 'All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing.' Note: 'statement' alone is also acceptable."
                                     },
                                     {
                                         "number": 26,
-                                        "textBefore": "Has the",
-                                        "textAfter": "to understand complex documents",
-                                        "answer": "cognitive ability",
-                                        "explanation": "The text states 'it is critical that the plumber has the cognitive ability to understand these [installation instructions].' Installation instructions = complex documents."
+                                        "sentence": "A company's health and safety policy is relevant to both its employees and its ....................",
+                                        "answer": "contractors",
+                                        "explanation": "The text states businesses must 'provide information to others who need to know, such as the contractors working for them.' Both employees (mentioned earlier) and contractors need to know."
                                     },
                                     {
                                         "number": 27,
-                                        "textBefore": "often customers are upset or",
-                                        "textAfter": "",
-                                        "answer": "disrupted",
-                                        "explanation": "The text states customers 'are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue.' Inconvenience = upset; disrupted = operations interrupted."
+                                        "sentence": "The Health and Safety Executive can advise small businesses on problems of .................... among their employees.",
+                                        "answer": "stress",
+                                        "explanation": "The text states 'Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress.'"
                                     }
                                 ]
                             }
@@ -315,208 +392,211 @@
                 "questionRange": "Questions 28-40",
                 "passages": [
                     {
-                        "id": "3a",
-                        "title": "Why It Is Important To Save Species Like The Dormouse",
-                        "content": "<p>More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England rare dormice have returned to a secret woodland location there. Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain's most threatened mammals. This reintroduction led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups is the 22nd in the last 23 years. Dormice depend on well managed woodlands and healthy connected hedgerows for their survival. But changes in land use since the 1940s have been so dramatic that the dormice that remain have limited living space and are increasingly isolated.</p><p>Ahead of the release the PTES found a site of dense good quality woodland while the captive bred dormice waited in quarantine. After examination by vets the dormice were placed in their soft release accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a meter square cage. For 10 days the dormice were checked and given food daily then a small opening was made allowing them the freedom to explore while retaining the security of the cage. Everything was removed in October when the animals started preparing to go into hibernation for the winter.</p><p>'The hope is that we have a free living population in the wood but we won't know how they have fared until next year' said Ian White of the PTES. Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes. However a distinctive factor of this release White explained is the intention of linking up with another released dormouse population 3 miles away by managing the land between. The goal is to create a wider landscape for dormice and that will make the population more robust.</p><p>Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents. This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost with much remaining woodland sliced up by roads railways and fields. England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects. All this has had an adverse effect on dormouse populations.</p><p>'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. 'They are a fascinating species that is rare but you can still see. They promote good woodland management and what's good for dormice is good for a large range of species.'</p><p>Helen Meech the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside said that such reintroductions would increase people's familiarity with living with more wild animals once again. People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons she explained. 'We are increasingly disconnected from nature. In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose but let's start with species that will have a lighter impact for now.'</p><p>Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce.</p><p><strong>The lynx</strong> is believed to have disappeared from Britain about 1000 years ago. Experts say it would help control the fast growing population of red deer allowing forests to regenerate and support greater biodiversity. The preference of the lynx a shy animal to stay in its woodland habitat would make a threat to livestock or humans unlikely.</p><p><strong>The beaver</strong> - After an absence of 400 years beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction in Knapdale forest in 2009 was hailed an outstanding success but an unlicensed free living population in the river Tay has caused problems.</p><p><strong>The wolf</strong> - Lost to Britain in the 1700s the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock. But they are critical to the restoration of ecosystems that have been overgrazed by deer. Despite their fearsome reputation they present a low risk to people. Because of the space a wolf population would need the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.</p><p><strong>The sea eagle</strong> also known as the white tailed eagle was driven to extinction in Britain earlier this century. A reintroduction programme has seen it return to the Inner Hebrides island of Mull. Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock. Successful schemes in Europe have offered compensation for this.</p><p><strong>The wild boar</strong> disappeared in the 13th century because of hunting. They increase biodiversity and create space for trees and plants to grow but can cause damage to crops and gardens. The species has been quietly re-establishing itself in the woodlands of Britain for several decades.</p>",
+                        "id": "3",
+                        "title": "Jobs in ancient Egypt",
+                        "content": "<p>In order to be engaged in the higher professions in ancient Egypt, a person had to be literate and so first had to become a scribe. The apprenticeship for this job lasted many years and was tough and challenging. It principally involved memorizing hieroglyphic symbols and practicing handwritten lettering. Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records. Therefore, most of our information on this rich culture comes from their records. Most scribes were men from privileged backgrounds. The occupation of scribe was among the most sought-after in ancient Egypt. Craftspeople endeavored to get their sons into the school for scribes, but they were rarely successful.</p><p>As in many civilizations, the lower classes provided the means for those above them to live comfortable lives. You needed to work if you wanted to eat, but there was no shortage of jobs at any time in Egypt's history. The commonplace items taken for granted today, such as a brush or bowl, had to be made by hand; laundry had to be washed by hand, clothing sewn, and sandals made from papyrus and palm leaves. In order to make these and have paper to write on, papyrus plants had to be harvested, processed, and distributed and all these jobs needed workers. There were rewards and sometimes difficulties. The reed cutter, for example, who harvested papyrus plants along the Nile, had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.</p><p>At the bottom rung of all these jobs were the people who served as the basis for the entire economy; the farmers. Farmers usually did not own the land they worked. They were given food, implements, and living quarters as payment for their labor. Although there were many more glamorous jobs than farming, farmers were the backbone of the Egyptian economy and sustained everyone else.</p><p>The details of lower-class jobs are known from medical reports on the treatment of injuries, letters, and documents written on various professions, literary works, tomb inscriptions, and artistic representations. This evidence presents a comprehensive view of daily work in ancient Egypt – how the jobs were done, and sometimes how people felt about the work. In general, the Egyptians seem to have felt pride in their work no matter what their occupation. Everyone had something to contribute to the community, and no skills seem to have been considered non-essential. The potter who produced cups and bowls was as important to the community as the scribe, and the amulet-maker as vital as the pharmacist.</p><p>Part of making a living, regardless of one's special skills, was taking part in the king's monumental building projects. Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this. The pyramids and other monuments were built by Egyptian laborers who either donated their time as community service or were paid for their labor, and Egyptians from every occupation could be called on to do this.</p><p>Stone had to first be quarried and this required workers to split the blocks from the rock cliffs. It was done by inserting wooden wedges in the rock which would swell and cause the stone to break from the face. The often huge blocks were then pushed onto sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand. They were then rolled to a different location where they could be cut and shaped. This job was done by skilled stonemasons working with copper chisels and wooden mallets. As the chisels could get blunt, a specialist in sharpening would take the tool, sharpen it, and bring it back. This would have been constant daily work as the masons could wear down their tools on a single block.</p><p>The blocks were then moved into position by unskilled laborers. These people were mostly farmers who could do nothing with their land during the months when the Nile River overflowed its banks. Egyptologists Bob Brier and Hoyt Hobbs explain: 'For two months annually, workmen gathered by the tens of thousands from all over the country to transport the blocks a permanent crew had quarried during the rest of the year. Overseers organized the men into teams to transport the stones on the sleds.' Once the pyramid was complete, the inner chambers needed to be decorated by scribes who painted elaborate images on the walls. Interior work on tombs and temples also required sculptors who could expertly cut away the stone around certain figures or scenes that had been painted.</p><p>While these artists were highly skilled, everyone – no matter what their job for the rest of the year – was expected to contribute to communal projects. This practice was in keeping with the value of ma'at (harmony and balance) which was central to Egyptian culture. One was expected to care for others as much as oneself and contributing to the common good was an expression of this. There is no doubt there were many people who did not love their job every day, but the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.</p>",
                         "questions": [
                             {
-                                "type": "summaryCompletion",
-                                "title": "Questions 28-31",
-                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
-                                "summaryTitle": "The procedure for the dormouse reintroduction in Wensleydale",
-                                "summary": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First members of PTES had to choose a suitable wooded area for them. Then {28} gave them a thorough check. The team divided the animals into {29} before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially the dormice could not get out but the team brought {30} on a regular basis. Once the dormice got used to their new environment a gap was cut in the netting so they could go out and return when they wanted. Then before the animals were ready to start their annual {31} in the autumn, the team took their temporary homes away.",
+                                "type": "multipleChoice",
                                 "items": [
                                     {
                                         "number": 28,
-                                        "answer": "vets",
-                                        "explanation": "The text states 'After examination by vets the dormice were placed in their soft release accommodation.' Examination = thorough check."
+                                        "question": "What does the writer say about scribes in ancient Egypt?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "Their working days were very long."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "The topics they wrote about were very varied."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "Many of them were once ordinary working people."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "Few of them realised the true value of their occupation."
+                                            }
+                                        ],
+                                        "answer": "B",
+                                        "explanation": "The text states 'Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records.' The phrase 'everything from... to...' indicates a wide variety of topics. Option C is wrong because 'Most scribes were men from privileged backgrounds.'"
                                     },
                                     {
                                         "number": 29,
-                                        "answer": "pairs",
-                                        "explanation": "The text states 'the dormice were placed in their soft release accommodation in pairs.' Divided into pairs."
-                                    },
-                                    {
-                                        "number": 30,
-                                        "answer": "food",
-                                        "explanation": "The text states 'For 10 days the dormice were checked and given food daily.' Daily = on a regular basis."
-                                    },
-                                    {
-                                        "number": 31,
-                                        "answer": "hibernation",
-                                        "explanation": "The text states 'Everything was removed in October when the animals started preparing to go into hibernation for the winter.' Hibernation is their annual winter sleep."
-                                    }
-                                ]
-                            },
-                            {
-                                "type": "multipleChoice",
-                                "title": "Questions 32-36",
-                                "instructions": "Choose the correct letter, A, B, C or D.",
-                                "items": [
-                                    {
-                                        "number": 32,
-                                        "text": "What does Ian White say about the Wensleydale reintroduction?",
+                                        "question": "What is the writer doing in the second paragraph?",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "It has been more successful than other reintroductions."
+                                                "text": "explaining why jobs were plentiful in ancient Egypt"
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "It could fail for a number of reasons."
+                                                "text": "pointing out how honest workers were in ancient Egypt"
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "It is the largest reintroduction of dormice yet."
+                                                "text": "comparing manual and professional work in ancient Egypt"
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "It has taught him useful lessons for future projects."
-                                            }
-                                        ],
-                                        "answer": "B",
-                                        "explanation": "Ian White says 'Unsuitable habitat, captive bred animals and incorrect management could all ruin the chances of success of such schemes.' This lists multiple reasons why it could fail."
-                                    },
-                                    {
-                                        "number": 33,
-                                        "text": "What is special about this particular reintroduction?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "The dormice are being studied by scientists."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It will create a link between two groups of dormice."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "The dormice will be protected from predators."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "Local residents will help to care for the dormice."
-                                            }
-                                        ],
-                                        "answer": "B",
-                                        "explanation": "The text states 'a distinctive factor of this release... is the intention of linking up with another released dormouse population 3 miles away.' Linking up = creating a link between two groups."
-                                    },
-                                    {
-                                        "number": 34,
-                                        "text": "In what ways did coppicing help dormice?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "It provided them with materials for their nests."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It protected them from predators."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "It ensured they had a variety of things to eat and enough light."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "It created corridors for them to travel through."
-                                            }
-                                        ],
-                                        "answer": "C",
-                                        "explanation": "The text states coppicing 'happened to provide varied food and plenty of light for dormice.' Varied food = variety of things to eat; plenty of light = enough light."
-                                    },
-                                    {
-                                        "number": 35,
-                                        "text": "Why does Ian White think dormouse reintroductions are a good idea?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "They stop woodlands from being neglected."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "They attract tourists to the British countryside."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "They get people interested in protecting the environment."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "They help woodlands to recover from damage caused by deer."
-                                            }
-                                        ],
-                                        "answer": "C",
-                                        "explanation": "White says 'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation.' Getting people involved with conservation = getting them interested in protecting the environment."
-                                    },
-                                    {
-                                        "number": 36,
-                                        "text": "What does Helen Meech say about reintroducing larger species?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "It could happen in the future."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "It is not a practical idea."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "It would threaten native species."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "It would be popular with the public."
+                                                "text": "noting the range of duties an individual worker had in ancient Egypt"
                                             }
                                         ],
                                         "answer": "A",
-                                        "explanation": "Helen Meech says 'In 30 to 40 years' time we might get to the point where we can start to think about bringing back wolves, bison or moose.' This indicates it could happen in the future."
+                                        "explanation": "The paragraph explains that 'there was no shortage of jobs' because everyday items 'had to be made by hand' - listing examples like brushes, bowls, laundry, clothing, sandals, and papyrus processing. It explains WHY there were so many jobs available."
+                                    },
+                                    {
+                                        "number": 30,
+                                        "question": "What is the writer doing in the fifth paragraph?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "explaining a problem"
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "describing a change"
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "rejecting a popular view"
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "criticising a past activity"
+                                            }
+                                        ],
+                                        "answer": "C",
+                                        "explanation": "The paragraph states 'Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this.' The writer is rejecting/contradicting the popular belief about slave labor."
+                                    },
+                                    {
+                                        "number": 31,
+                                        "question": "The writer refers to the value of ma'at in order to explain",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "how the work of artists reflected beliefs in ancient Egypt."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "how ancient Egyptians viewed their role in society."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "why the opinions of certain people were valued in ancient Egypt."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "why ancient Egyptians expressed their views so readily."
+                                            }
+                                        ],
+                                        "answer": "B",
+                                        "explanation": "The text explains ma'at as 'harmony and balance' and states 'One was expected to care for others as much as oneself and contributing to the common good was an expression of this.' This describes how Egyptians saw their role/responsibility in society."
+                                    },
+                                    {
+                                        "number": 32,
+                                        "question": "Which word best describes the attitude of the Egyptian government toward its workers?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "strict"
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "patient"
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "negligent"
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "appreciative"
+                                            }
+                                        ],
+                                        "answer": "D",
+                                        "explanation": "The text states 'the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.' Showing gratitude = appreciative."
                                     }
                                 ]
                             },
                             {
                                 "type": "matching",
-                                "title": "Questions 37-40",
-                                "instructions": "Look at the following statements and the list of animals below. Match each statement with the correct animal, A-E.",
+                                "title": "Questions 33-36",
+                                "instructions": "Look at the following statements and the list of jobs below. Match each statement with the correct job, A-G.",
+                                "optionLabelsTitle": "List of Jobs:",
                                 "options": [
                                     "A",
                                     "B",
                                     "C",
                                     "D",
-                                    "E"
+                                    "E",
+                                    "F",
+                                    "G"
                                 ],
                                 "optionLabels": {
-                                    "A": "The lynx",
-                                    "B": "The beaver",
-                                    "C": "The wolf",
-                                    "D": "The sea eagle",
-                                    "E": "The wild boar"
+                                    "A": "scribe",
+                                    "B": "reed cutter",
+                                    "C": "farmer",
+                                    "D": "potter",
+                                    "E": "stonemason",
+                                    "F": "overseer",
+                                    "G": "sculptor"
                                 },
                                 "items": [
                                     {
+                                        "number": 33,
+                                        "statement": "was unable to work at certain times",
+                                        "answer": "C",
+                                        "explanation": "The text states farmers 'could do nothing with their land during the months when the Nile River overflowed its banks.' They were unable to farm during flood season."
+                                    },
+                                    {
+                                        "number": 34,
+                                        "statement": "divided workers into groups",
+                                        "answer": "F",
+                                        "explanation": "The text states 'Overseers organized the men into teams to transport the stones on the sleds.' Organizing into teams = dividing into groups."
+                                    },
+                                    {
+                                        "number": 35,
+                                        "statement": "faced daily hazards",
+                                        "answer": "B",
+                                        "explanation": "The text states the reed cutter 'had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.' Fatal wildlife = daily hazards/dangers."
+                                    },
+                                    {
+                                        "number": 36,
+                                        "statement": "underwent a long period of training",
+                                        "answer": "A",
+                                        "explanation": "The text states 'The apprenticeship for this job [scribe] lasted many years and was tough and challenging.' Many years = long period of training."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "summaryCompletion",
+                                "title": "Questions 37-40",
+                                "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the text for each answer.",
+                                "summaryTitle": "The king's building projects",
+                                "summary": "Labourers who worked on the king's buildings were local people who chose to participate in {37} or who received payment. The work involved breaking up stone cliffs using wooden wedges. The large pieces of stone were then transported to another site on sleds, which moved easily over the {38}. Here, the blocks could be cut and shaped using tools made of {39} and wood. Some of these had to be sharpened regularly. Eventually, the stone was moved into place to create a building. The job of moving the stone was often done by {40} or other unskilled workers.",
+                                "items": [
+                                    {
                                         "number": 37,
-                                        "statement": "Plans to reintroduce this animal to one part of Britain were rejected by local people.",
-                                        "answer": "D",
-                                        "explanation": "For The sea eagle (D), the text states 'Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock.' Landowners = local people; failed = rejected."
+                                        "answer": "community service",
+                                        "explanation": "The text states laborers 'either donated their time as community service or were paid for their labor.'"
                                     },
                                     {
                                         "number": 38,
-                                        "statement": "This animal has had both positive and negative effects since returning to Britain.",
-                                        "answer": "B",
-                                        "explanation": "For The beaver (B), the text mentions positive effects: 'improvements in biodiversity and water' and negative effects: 'an unlicensed free living population in the river Tay has caused problems.'"
+                                        "answer": "shifting sand",
+                                        "explanation": "The text states sleds were 'devices better suited than wheeled vehicles to moving weighty objects over shifting sand.'"
                                     },
                                     {
                                         "number": 39,
-                                        "statement": "The reintroduction of this animal could bring significant financial benefits to an area.",
-                                        "answer": "C",
-                                        "explanation": "For The wolf (C), the text states 'the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.' Millions of pounds = significant financial benefits."
+                                        "answer": "copper",
+                                        "explanation": "The text states 'This job was done by skilled stonemasons working with copper chisels and wooden mallets.' Tools made of copper (chisels) and wood (mallets)."
                                     },
                                     {
                                         "number": 40,
-                                        "statement": "This animal has been returning to Britain without any official programme.",
-                                        "answer": "E",
-                                        "explanation": "For The wild boar (E), the text states 'The species has been quietly re-establishing itself in the woodlands of Britain for several decades.' Quietly re-establishing itself = returning without an official programme."
+                                        "answer": "farmers",
+                                        "explanation": "The text states 'The blocks were then moved into position by unskilled laborers. These people were mostly farmers.'"
                                     }
                                 ]
                             }
