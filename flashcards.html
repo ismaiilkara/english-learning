@@ -79,10 +79,21 @@
             margin-bottom: 4px;
         }
 
-        .stat-value.green { color: #4ade80; }
-        .stat-value.red { color: #f87171; }
-        .stat-value.blue { color: #60a5fa; }
-        .stat-value.yellow { color: #fbbf24; }
+        .stat-value.green {
+            color: #4ade80;
+        }
+
+        .stat-value.red {
+            color: #f87171;
+        }
+
+        .stat-value.blue {
+            color: #60a5fa;
+        }
+
+        .stat-value.yellow {
+            color: #fbbf24;
+        }
 
         .stat-label {
             font-size: 0.75rem;
@@ -507,7 +518,7 @@
 
         <div class="header">
             <h1>🃏 Vocabulary Flashcards</h1>
-            <p>Learn 650+ words with spaced repetition</p>
+            <p>Learn 450+ academic words with spaced repetition</p>
         </div>
 
         <!-- Stats Bar -->
@@ -541,48 +552,24 @@
             <button class="mode-btn" :class="{ 'active': studyMode === 'review' }" @click="setStudyMode('review')">
                 Review
             </button>
-            <button class="mode-btn" :class="{ 'active': studyMode === 'difficult' }" @click="setStudyMode('difficult')">
+            <button class="mode-btn" :class="{ 'active': studyMode === 'difficult' }"
+                @click="setStudyMode('difficult')">
                 Difficult
             </button>
         </div>
 
-        <!-- Source Filter -->
-        <div class="set-filter" style="margin-bottom: 15px;">
-            <button class="filter-btn" :class="{ 'active': selectedSource === 'all' }" @click="selectSource('all')"
-                style="background: rgba(99,102,241,0.15); border-color: rgba(99,102,241,0.3);">
-                All (650+ words)
-            </button>
-            <button class="filter-btn" :class="{ 'active': selectedSource === 'vocab' }" @click="selectSource('vocab')"
-                style="background: rgba(34,197,94,0.15); border-color: rgba(34,197,94,0.3);">
-                ITU Vocabulary (200)
-            </button>
-            <button class="filter-btn" :class="{ 'active': selectedSource === 'awl' }" @click="selectSource('awl')"
-                style="background: rgba(251,191,36,0.15); border-color: rgba(251,191,36,0.3);">
-                Academic Word List (450+)
-            </button>
-        </div>
-
-        <!-- Set Filter for ITU Vocab -->
-        <div class="set-filter" x-show="selectedSource === 'vocab' || selectedSource === 'all'">
-            <button class="filter-btn" :class="{ 'active': selectedSet === 'all' }" @click="selectSet('all')">
-                All Sets
-            </button>
-            <template x-for="i in 25" :key="i">
-                <button class="filter-btn" :class="{ 'active': selectedSet === i }" @click="selectSet(i)"
-                    x-text="'Set ' + i"></button>
-            </template>
-        </div>
-
         <!-- Category Filter for AWL -->
-        <div class="set-filter" x-show="selectedSource === 'awl'">
+        <div class="set-filter">
             <button class="filter-btn" :class="{ 'active': selectedSet === 'all' }" @click="selectSet('all')">
                 All Categories
             </button>
             <template x-for="cat in awlCategories" :key="cat.id">
-                <button class="filter-btn" :class="{ 'active': selectedSet === (100 + cat.id) }"
-                    @click="selectSet(100 + cat.id)" x-text="cat.name"></button>
+                <button class="filter-btn" :class="{ 'active': selectedSet === cat.id }" @click="selectSet(cat.id)"
+                    x-text="cat.name"></button>
             </template>
         </div>
+
+
 
         <!-- Main Content -->
         <template x-if="!completed && currentCard">
@@ -608,9 +595,15 @@
                         </div>
                         <!-- Back -->
                         <div class="flashcard-face flashcard-back">
-                            <span class="card-label" x-text="currentCard.definition ? 'Definition & Example' : 'Example'"></span>
+                            <span class="card-label"
+                                x-text="currentCard.definition ? 'Definition & Example' : 'Example'"></span>
+                            <template x-if="currentCard.turkish">
+                                <p style="font-size: 1.3rem; color: #fbbf24; font-weight: 700; margin-bottom: 10px;"
+                                    x-text="currentCard.turkish"></p>
+                            </template>
                             <template x-if="currentCard.definition">
-                                <p style="font-size: 1rem; color: rgba(255,255,255,0.7); margin-bottom: 15px; font-style: italic;" x-text="currentCard.definition"></p>
+                                <p style="font-size: 0.95rem; color: rgba(255,255,255,0.7); margin-bottom: 12px; font-style: italic;"
+                                    x-text="currentCard.definition"></p>
                             </template>
                             <p class="sentence" x-html="formatSentence(currentCard.sentence, currentCard.word)"></p>
                             <span class="tap-hint">Rate your knowledge below</span>
@@ -687,7 +680,8 @@
                         <div class="completion-stat-label">Known</div>
                     </div>
                     <div class="completion-stat">
-                        <div class="completion-stat-value" style="color: #f87171;" x-text="sessionStats.difficult"></div>
+                        <div class="completion-stat-value" style="color: #f87171;" x-text="sessionStats.difficult">
+                        </div>
                         <div class="completion-stat-label">Need Review</div>
                     </div>
                     <div class="completion-stat">
@@ -721,24 +715,17 @@
                 completed: false,
                 studyMode: 'all',
                 selectedSet: 'all',
-                selectedSource: 'all',
                 cardProgress: {},
                 sessionStats: { known: 0, difficult: 0, skipped: 0 },
                 categories: [],
                 awlCategories: [],
 
                 async init() {
-                    // Load both vocabulary sources
+                    // Load AWL vocabulary
                     try {
-                        const [vocabResponse, awlResponse] = await Promise.all([
-                            fetch('vocabulary-data.json'),
-                            fetch('awl-vocabulary.json')
-                        ]);
-                        const vocabData = await vocabResponse.json();
-                        const awlData = await awlResponse.json();
-                        this.processVocabularyData(vocabData);
-                        this.processAWLData(awlData);
-                        this.buildCategoryList();
+                        const response = await fetch('awl-vocabulary.json');
+                        const data = await response.json();
+                        this.processAWLData(data);
                     } catch (error) {
                         console.error('Error loading vocabulary data:', error);
                     }
@@ -750,49 +737,23 @@
                     this.buildStudyDeck();
                 },
 
-                processVocabularyData(data) {
-                    this.allCards = [];
-                    data.sets.forEach(set => {
-                        set.questions.forEach(q => {
-                            const word = q.options[q.answer];
-                            this.allCards.push({
-                                id: `vocab-${set.id}-${q.id}`,
-                                setId: set.id,
-                                source: 'vocab',
-                                category: `Set ${set.id}`,
-                                word: word,
-                                sentence: q.sentence,
-                                definition: null,
-                                type: null
-                            });
-                        });
-                    });
-                },
-
                 processAWLData(data) {
+                    this.allCards = [];
                     data.categories.forEach(cat => {
                         cat.words.forEach((w, idx) => {
                             this.allCards.push({
                                 id: `awl-${cat.id}-${idx}`,
-                                setId: 100 + cat.id,
-                                source: 'awl',
+                                setId: cat.id,
                                 category: cat.name,
                                 word: w.word,
                                 sentence: w.example,
                                 definition: w.definition,
+                                turkish: w.turkish,
                                 type: w.type
                             });
                         });
                     });
                     this.awlCategories = data.categories.map(c => ({ id: c.id, name: c.name }));
-                },
-
-                buildCategoryList() {
-                    this.categories = [
-                        { id: 'all', name: 'All Cards', count: this.allCards.length },
-                        { id: 'vocab', name: 'ITU Vocabulary (200)', count: this.allCards.filter(c => c.source === 'vocab').length },
-                        { id: 'awl', name: 'Academic Word List (450+)', count: this.allCards.filter(c => c.source === 'awl').length }
-                    ];
                 },
 
                 loadProgress() {
@@ -837,14 +798,7 @@
                 buildStudyDeck() {
                     let cards = [...this.allCards];
 
-                    // Filter by source (vocab or AWL)
-                    if (this.selectedSource === 'vocab') {
-                        cards = cards.filter(c => c.source === 'vocab');
-                    } else if (this.selectedSource === 'awl') {
-                        cards = cards.filter(c => c.source === 'awl');
-                    }
-
-                    // Filter by set/category
+                    // Filter by category
                     if (this.selectedSet !== 'all') {
                         cards = cards.filter(c => c.setId === this.selectedSet);
                     }
@@ -871,11 +825,7 @@
                     this.sessionStats = { known: 0, difficult: 0, skipped: 0 };
                 },
 
-                selectSource(source) {
-                    this.selectedSource = source;
-                    this.selectedSet = 'all';
-                    this.buildStudyDeck();
-                },
+
 
                 setStudyMode(mode) {
                     this.studyMode = mode;
@@ -988,7 +938,7 @@
                 handleKeydown(event) {
                     if (this.completed) return;
 
-                    switch(event.code) {
+                    switch (event.code) {
                         case 'Space':
                             event.preventDefault();
                             this.flipCard();
