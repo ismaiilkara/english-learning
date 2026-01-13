@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrases - English Learning Hub</title>
+    <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        [x-cloak] {
+            display: none !important;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0d0d0d 100%);
+            min-height: 100vh;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .phrase-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .phrase-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.4);
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+
+        .level-c1 {
+            border-left: 4px solid #a855f7;
+        }
+
+        .level-c2 {
+            border-left: 4px solid #ec4899;
+        }
+
+        .level-b2 {
+            border-left: 4px solid #3b82f6;
+        }
+
+        .level-b1 {
+            border-left: 4px solid #22c55e;
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div x-data="phrasesApp()" x-init="init()" x-cloak class="min-h-screen flex flex-col">
+
+        <!-- Navigation -->
+        <nav class="bg-black/40 backdrop-blur-xl border-b border-white/10 p-3 sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+                <a href="index.html" class="text-xl font-bold text-white flex items-center gap-2">
+                    🎓 <span class="bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text text-transparent">English
+                        Learning Hub</span>
+                </a>
+                <div class="flex gap-2 flex-wrap">
+                    <a href="ielts.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">📝
+                        IELTS</a>
+                    <a href="grammar.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">📚
+                        Grammar</a>
+                    <a href="vocabulary.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">📖
+                        Vocabulary</a>
+                    <a href="phrases.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold bg-purple-500/20 text-purple-400 border border-purple-500/50">💬
+                        Phrases</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto">
+
+            <!-- Hero Section -->
+            <div class="py-12 px-6">
+                <div class="max-w-7xl mx-auto text-center mb-12">
+                    <div class="text-7xl mb-4 floating">💬</div>
+                    <h1 class="text-5xl font-extrabold text-white mb-4">
+                        <span
+                            class="bg-gradient-to-r from-purple-400 via-pink-400 to-rose-400 bg-clip-text text-transparent">
+                            English Phrases
+                        </span>
+                    </h1>
+                    <p class="text-xl text-white/60 max-w-2xl mx-auto">
+                        İleri seviye İngilizce kalıp ifadeler ve kullanımları
+                    </p>
+                </div>
+
+                <!-- Level Filter -->
+                <div class="max-w-7xl mx-auto mb-8">
+                    <div class="flex flex-wrap justify-center gap-3">
+                        <button @click="activeLevel = 'all'"
+                            :class="activeLevel === 'all' ? 'bg-white text-gray-900' : 'bg-white/10 text-white hover:bg-white/20'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            Tümü
+                        </button>
+                        <button @click="activeLevel = 'c1'"
+                            :class="activeLevel === 'c1' ? 'bg-purple-500 text-white' : 'bg-purple-500/20 text-purple-300 hover:bg-purple-500/30'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            C1 Level
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Search -->
+                <div class="max-w-2xl mx-auto mb-8 px-4">
+                    <input type="text" x-model="searchQuery" placeholder="Phrase veya anlam ara..."
+                        class="w-full bg-white/10 border border-white/20 rounded-xl px-6 py-4 text-white placeholder-white/40 focus:outline-none focus:border-purple-500/50 focus:ring-2 focus:ring-purple-500/20">
+                </div>
+
+                <!-- Phrases Count -->
+                <div class="max-w-7xl mx-auto mb-6 px-4">
+                    <p class="text-white/50 text-center" x-text="filteredPhrases.length + ' phrase bulundu'"></p>
+                </div>
+
+                <!-- Phrases Grid -->
+                <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
+                    <template x-for="phrase in filteredPhrases" :key="phrase.phrase">
+                        <div class="phrase-card glass-card rounded-xl p-5 level-c1">
+                            <div class="flex items-start justify-between mb-3">
+                                <h3 class="text-lg font-bold text-white" x-text="phrase.phrase"></h3>
+                                <span
+                                    class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-medium">C1</span>
+                            </div>
+                            <p class="text-purple-300 font-medium mb-3" x-text="phrase.turkish"></p>
+                            <div class="bg-black/30 rounded-lg p-3">
+                                <p class="text-white/70 text-sm italic" x-text="'\"' + phrase.example + ' \"'"></p>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-black/30 border-t border-white/10 p-4 text-center">
+            <p class="text-white/40 text-sm">
+                Made with 💜 for English Learners
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function phrasesApp() {
+            return {
+                activeLevel: 'all',
+                searchQuery: '',
+
+                phrases: [
+                    { level: 'c1', phrase: 'above all', turkish: 'her şeyden önce, en önemlisi', example: 'Above all, we must ensure the safety of our employees.' },
+                    { level: 'c1', phrase: 'all but', turkish: 'neredeyse, hemen hemen', example: 'The project is all but complete; we just need final approval.' },
+                    { level: 'c1', phrase: 'all the more', turkish: 'daha da fazla', example: 'His criticism made me all the more determined to succeed.' },
+                    { level: 'c1', phrase: 'as far as sb/sth is concerned', turkish: '...ile ilgili olarak, ...söz konusu olduğunda', example: 'As far as the budget is concerned, we have limited options.' },
+                    { level: 'c1', phrase: 'as of…', turkish: '...itibariyle, ...tarihinden itibaren', example: 'As of next Monday, the new policy will be in effect.' },
+                    { level: 'c1', phrase: 'as opposed to', turkish: '...in aksine, ...yerine', example: 'I prefer working remotely as opposed to going to the office.' },
+                    { level: 'c1', phrase: 'as such', turkish: 'bu sıfatla, dolayısıyla', example: 'He is the team leader and as such is responsible for all decisions.' },
+                    { level: 'c1', phrase: 'as to', turkish: '...hakkında, ...ile ilgili', example: 'There is some confusion as to what the rules actually are.' },
+                    { level: 'c1', phrase: 'at the expense of sb/sth', turkish: 'birinin/bir şeyin pahasına', example: 'He achieved success at the expense of his health.' },
+                    { level: 'c1', phrase: 'at the hands of sb', turkish: 'birinin elinden, birinin yüzünden', example: 'The team suffered a defeat at the hands of their rivals.' },
+                    { level: 'c1', phrase: 'back and forth', turkish: 'ileri geri, bir o yana bir bu yana', example: 'We discussed the issue back and forth for hours.' },
+                    { level: 'c1', phrase: 'be attributed to sb', turkish: 'birine atfedilmek, birine bağlanmak', example: 'The quote is often attributed to Einstein.' },
+                    { level: 'c1', phrase: 'be entitled to sth', turkish: 'bir şeye hakkı olmak', example: 'All employees are entitled to 20 days of annual leave.' },
+                    { level: 'c1', phrase: 'be found to do sth', turkish: 'bir şey yaptığı tespit edilmek', example: 'The study was found to contain several errors.' },
+                    { level: 'c1', phrase: 'be meant to do sth', turkish: 'bir şey yapması gerekmek', example: 'This app is meant to help you learn languages faster.' },
+                    { level: 'c1', phrase: 'be reported to be sth', turkish: '...olduğu bildirilmek', example: 'The company is reported to be planning major layoffs.' },
+                    { level: 'c1', phrase: 'be said to be sth', turkish: '...olduğu söylenmek', example: 'This restaurant is said to be the best in the city.' },
+                    { level: 'c1', phrase: 'bear sb/sth in mind', turkish: 'aklında tutmak, göz önünde bulundurmak', example: 'Bear in mind that deadlines are strict.' },
+                    { level: 'c1', phrase: 'bring sth about', turkish: 'bir şeye neden olmak, gerçekleştirmek', example: 'The new law will bring about significant changes.' },
+                    { level: 'c1', phrase: 'bring sth up', turkish: 'bir konuyu gündeme getirmek', example: 'I hate to bring this up, but we need to discuss the budget.' },
+                    { level: 'c1', phrase: 'by means of sth', turkish: 'bir şey vasıtasıyla, aracılığıyla', example: 'They communicate by means of encrypted messages.' },
+                    { level: 'c1', phrase: 'by no means', turkish: 'kesinlikle ... değil, hiçbir şekilde', example: 'This is by no means the final decision.' },
+                    { level: 'c1', phrase: 'call on sb', turkish: 'birini ziyaret etmek, birine başvurmak', example: 'The president called on citizens to remain calm.' },
+                    { level: 'c1', phrase: 'consistent with sth', turkish: 'bir şeyle tutarlı, uyumlu', example: 'The findings are consistent with previous research.' },
+                    { level: 'c1', phrase: 'dedicated to sth', turkish: 'bir şeye adanmış', example: 'She is dedicated to helping underprivileged children.' },
+                    { level: 'c1', phrase: 'deprive sb/sth of sth', turkish: 'birini/bir şeyi bir şeyden mahrum bırakmak', example: 'The war deprived many children of their education.' },
+                    { level: 'c1', phrase: 'dispose of sb/sth', turkish: 'elden çıkarmak, bertaraf etmek', example: 'Please dispose of your waste responsibly.' },
+                    { level: 'c1', phrase: 'follow sth up', turkish: 'takip etmek, izlemek', example: 'I will follow up on this matter next week.' },
+                    { level: 'c1', phrase: 'for that matter', turkish: 'aslına bakılırsa, hatta', example: 'I don\'t like coffee, or tea for that matter.' },
+                    { level: 'c1', phrase: 'for the benefit of sb', turkish: 'birinin yararına', example: 'These rules exist for the benefit of all students.' },
+                    { level: 'c1', phrase: 'for the sake of sb/sth', turkish: 'birinin/bir şeyin hatırına, uğruna', example: 'For the sake of clarity, let me explain again.' },
+                    { level: 'c1', phrase: 'get away with sth', turkish: 'yanına kâr kalmak, cezasız kalmak', example: 'He can\'t keep getting away with being late.' },
+                    { level: 'c1', phrase: 'given that…', turkish: '...göz önüne alındığında', example: 'Given that it\'s raining, we should postpone the picnic.' },
+                    { level: 'c1', phrase: 'have nothing to do with sb/sth', turkish: 'biriyle/bir şeyle ilgisi olmamak', example: 'This decision has nothing to do with you personally.' },
+                    { level: 'c1', phrase: 'have sb/sth in mind', turkish: 'aklında biri/bir şey olmak', example: 'Do you have anyone in mind for the position?' },
+                    { level: 'c1', phrase: 'in a position to do sth', turkish: 'bir şeyi yapabilecek durumda olmak', example: 'I\'m not in a position to make that decision.' },
+                    { level: 'c1', phrase: 'in accordance with sth', turkish: 'bir şeye uygun olarak', example: 'The procedure was carried out in accordance with regulations.' },
+                    { level: 'c1', phrase: 'in any case', turkish: 'her halükârda, ne olursa olsun', example: 'In any case, we need to submit the report by Friday.' },
+                    { level: 'c1', phrase: 'in conjunction with sb/sth', turkish: 'biriyle/bir şeyle birlikte', example: 'The event is organized in conjunction with local authorities.' },
+                    { level: 'c1', phrase: 'in connection with sb/sth', turkish: 'biriyle/bir şeyle bağlantılı olarak', example: 'Two men were arrested in connection with the robbery.' },
+                    { level: 'c1', phrase: 'in effect', turkish: 'aslında, gerçekte', example: 'The new rule is, in effect, a ban on smoking.' },
+                    { level: 'c1', phrase: 'in full', turkish: 'tam olarak, eksiksiz', example: 'Please read the terms and conditions in full.' },
+                    { level: 'c1', phrase: 'in line with sth', turkish: 'bir şeyle uyumlu, doğrultusunda', example: 'Our strategy is in line with market trends.' },
+                    { level: 'c1', phrase: 'in practice', turkish: 'uygulamada, pratikte', example: 'In theory it works, but in practice it\'s difficult.' },
+                    { level: 'c1', phrase: 'in respect of sth', turkish: 'bir şeyle ilgili olarak', example: 'I am writing in respect of your recent inquiry.' },
+                    { level: 'c1', phrase: 'in such a way (that)…', turkish: 'öyle bir şekilde ki', example: 'He spoke in such a way that everyone understood.' },
+                    { level: 'c1', phrase: 'in the absence of sb/sth', turkish: 'birinin/bir şeyin yokluğunda', example: 'In the absence of evidence, we cannot proceed.' },
+                    { level: 'c1', phrase: 'in the course of…', turkish: '...süresince, ...boyunca', example: 'In the course of my research, I discovered many things.' },
+                    { level: 'c1', phrase: 'in the event of sth', turkish: 'bir şey olması durumunda', example: 'In the event of a fire, use the emergency exits.' },
+                    { level: 'c1', phrase: 'in the face of sth', turkish: 'bir şeye rağmen, karşısında', example: 'She remained calm in the face of criticism.' },
+                    { level: 'c1', phrase: 'in the hands of sb', turkish: 'birinin elinde', example: 'The decision is now in the hands of the committee.' },
+                    { level: 'c1', phrase: 'in the light of sth', turkish: 'bir şeyin ışığında', example: 'In the light of recent events, we have changed our plans.' },
+                    { level: 'c1', phrase: 'in the meantime', turkish: 'bu arada, bu süre zarfında', example: 'The repair will take a week. In the meantime, use this laptop.' },
+                    { level: 'c1', phrase: 'in the midst of sth', turkish: 'bir şeyin ortasında', example: 'We are in the midst of a major transformation.' },
+                    { level: 'c1', phrase: 'in the presence of sb', turkish: 'birinin huzurunda', example: 'The contract was signed in the presence of witnesses.' },
+                    { level: 'c1', phrase: 'in the wake of sb/sth', turkish: 'birinin/bir şeyin ardından', example: 'New regulations were introduced in the wake of the scandal.' },
+                    { level: 'c1', phrase: 'involvement in sth', turkish: 'bir şeye katılım, dahlilik', example: 'His involvement in the project was crucial.' },
+                    { level: 'c1', phrase: 'let alone', turkish: 'bir yana, şöyle dursun', example: 'I can\'t afford a car, let alone a house.' },
+                    { level: 'c1', phrase: 'little more than…', turkish: '...den biraz fazla, sadece', example: 'The report is little more than a summary.' },
+                    { level: 'c1', phrase: 'live on sth', turkish: 'bir şeyle geçinmek', example: 'Many students live on a tight budget.' },
+                    { level: 'c1', phrase: 'may well', turkish: 'muhtemelen, gayet iyi ...olabilir', example: 'She may well be the best candidate for the job.' },
+                    { level: 'c1', phrase: 'not to mention', turkish: '...den bahsetmeye bile gerek yok', example: 'The hotel was expensive, not to mention the restaurant prices.' },
+                    { level: 'c1', phrase: 'nothing like', turkish: 'hiç benzemiyor, ...gibi bir şey değil', example: 'This is nothing like what I expected.' },
+                    { level: 'c1', phrase: 'on behalf of sb', turkish: 'birinin adına', example: 'I am writing on behalf of my colleagues.' },
+                    { level: 'c1', phrase: 'on the part of sb', turkish: 'birinin tarafından', example: 'There was no effort on the part of the management.' },
+                    { level: 'c1', phrase: 'over the course of…', turkish: '...boyunca, süresince', example: 'Over the course of the year, we made significant progress.' },
+                    { level: 'c1', phrase: 'put it', turkish: 'ifade etmek', example: 'To put it simply, we need more funding.' },
+                    { level: 'c1', phrase: 'seek to do sth', turkish: 'bir şey yapmaya çalışmak', example: 'The company seeks to expand into new markets.' },
+                    { level: 'c1', phrase: 'set to do sth', turkish: 'bir şey yapmak üzere olmak', example: 'The economy is set to grow by 3% this year.' },
+                    { level: 'c1', phrase: 'the extent to which…', turkish: '...ölçüsü, ne derece', example: 'The extent to which technology affects our lives is remarkable.' },
+                    { level: 'c1', phrase: 'to date', turkish: 'bugüne kadar', example: 'This is the most successful project to date.' },
+                    { level: 'c1', phrase: 'up against sth', turkish: 'bir şeyle karşı karşıya', example: 'We are up against a very tight deadline.' },
+                    { level: 'c1', phrase: 'with regard to sb/sth', turkish: 'biriyle/bir şeyle ilgili olarak', example: 'With regard to your question, I will respond shortly.' },
+                    { level: 'c1', phrase: 'with respect to sth', turkish: 'bir şeye ilişkin olarak', example: 'With respect to the budget, we have some concerns.' },
+                    { level: 'c1', phrase: 'with the exception of sb/sth', turkish: 'biri/bir şey hariç', example: 'Everyone passed, with the exception of two students.' }
+                ],
+
+                init() { },
+
+                get filteredPhrases() {
+                    let result = this.phrases;
+
+                    if (this.activeLevel !== 'all') {
+                        result = result.filter(p => p.level === this.activeLevel);
+                    }
+
+                    if (this.searchQuery.trim()) {
+                        const query = this.searchQuery.toLowerCase();
+                        result = result.filter(p =>
+                            p.phrase.toLowerCase().includes(query) ||
+                            p.turkish.toLowerCase().includes(query) ||
+                            p.example.toLowerCase().includes(query)
+                        );
+                    }
+
+                    return result;
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
