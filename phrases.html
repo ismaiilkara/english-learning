@@ -130,6 +130,11 @@
                             class="px-6 py-2 rounded-full font-semibold transition-all">
                             Tümü
                         </button>
+                        <button @click="activeLevel = 'b2'"
+                            :class="activeLevel === 'b2' ? 'bg-blue-500 text-white' : 'bg-blue-500/20 text-blue-300 hover:bg-blue-500/30'"
+                            class="px-6 py-2 rounded-full font-semibold transition-all">
+                            B2 Level
+                        </button>
                         <button @click="activeLevel = 'c1'"
                             :class="activeLevel === 'c1' ? 'bg-purple-500 text-white' : 'bg-purple-500/20 text-purple-300 hover:bg-purple-500/30'"
                             class="px-6 py-2 rounded-full font-semibold transition-all">
@@ -152,13 +157,16 @@
                 <!-- Phrases Grid -->
                 <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 px-4">
                     <template x-for="phrase in filteredPhrases" :key="phrase.phrase">
-                        <div class="phrase-card glass-card rounded-xl p-5 level-c1">
+                        <div class="phrase-card glass-card rounded-xl p-5" :class="'level-' + phrase.level">
                             <div class="flex items-start justify-between mb-3">
                                 <h3 class="text-lg font-bold text-white" x-text="phrase.phrase"></h3>
                                 <span
-                                    class="px-3 py-1 rounded-full bg-purple-500/20 text-purple-300 text-xs font-medium">C1</span>
+                                    :class="phrase.level === 'c1' ? 'bg-purple-500/20 text-purple-300' : 'bg-blue-500/20 text-blue-300'"
+                                    class="px-3 py-1 rounded-full text-xs font-medium"
+                                    x-text="phrase.level.toUpperCase()"></span>
                             </div>
-                            <p class="text-purple-300 font-medium mb-3" x-text="phrase.turkish"></p>
+                            <p :class="phrase.level === 'c1' ? 'text-purple-300' : 'text-blue-300'"
+                                class="font-medium mb-3" x-text="phrase.turkish"></p>
                             <div class="bg-white/10 rounded-lg p-3 mt-2">
                                 <p class="text-green-300 text-xs font-semibold mb-1">Example:</p>
                                 <p class="text-white text-sm" x-text="phrase.example"></p>
@@ -258,7 +266,134 @@
                     { level: 'c1', phrase: 'up against sth', turkish: 'bir şeyle karşı karşıya', example: 'We are up against a very tight deadline.' },
                     { level: 'c1', phrase: 'with regard to sb/sth', turkish: 'biriyle/bir şeyle ilgili olarak', example: 'With regard to your question, I will respond shortly.' },
                     { level: 'c1', phrase: 'with respect to sth', turkish: 'bir şeye ilişkin olarak', example: 'With respect to the budget, we have some concerns.' },
-                    { level: 'c1', phrase: 'with the exception of sb/sth', turkish: 'biri/bir şey hariç', example: 'Everyone passed, with the exception of two students.' }
+                    { level: 'c1', phrase: 'with the exception of sb/sth', turkish: 'biri/bir şey hariç', example: 'Everyone passed, with the exception of two students.' },
+
+                    // B2 Level Phrases
+                    { level: 'b2', phrase: 'a bit of a…', turkish: 'biraz, bir parça', example: 'It was a bit of a surprise to see him there.' },
+                    { level: 'b2', phrase: 'a means of sth', turkish: 'bir şeyin aracı', example: 'Social media is a means of communication.' },
+                    { level: 'b2', phrase: 'account for sth', turkish: 'açıklamak, oluşturmak', example: 'Tourism accounts for 20% of the country\'s income.' },
+                    { level: 'b2', phrase: 'accused of sth', turkish: 'bir şeyle suçlanmak', example: 'He was accused of stealing the money.' },
+                    { level: 'b2', phrase: 'act as sth', turkish: '...görevi görmek, ...olarak hareket etmek', example: 'She agreed to act as our interpreter.' },
+                    { level: 'b2', phrase: 'aimed at doing sth', turkish: 'bir şey yapmaya yönelik', example: 'The campaign is aimed at reducing pollution.' },
+                    { level: 'b2', phrase: 'aimed at sb', turkish: 'birine yönelik', example: 'This course is aimed at beginners.' },
+                    { level: 'b2', phrase: 'all the way', turkish: 'sonuna kadar, tamamen', example: 'I walked all the way home.' },
+                    { level: 'b2', phrase: 'appeal to sb', turkish: 'birine hitap etmek, çekmek', example: 'This type of music appeals to young people.' },
+                    { level: 'b2', phrase: 'apply to sb/sth', turkish: 'birine/bir şeye uygulanmak', example: 'These rules apply to everyone.' },
+                    { level: 'b2', phrase: 'as a whole', turkish: 'bir bütün olarak', example: 'The project, as a whole, was a success.' },
+                    { level: 'b2', phrase: 'as far as I am concerned', turkish: 'bana kalırsa, bence', example: 'As far as I am concerned, the matter is closed.' },
+                    { level: 'b2', phrase: 'as follows…', turkish: 'aşağıdaki gibi', example: 'The results are as follows: first place goes to Team A.' },
+                    { level: 'b2', phrase: 'as for sb/sth', turkish: 'birine/bir şeye gelince', example: 'As for the budget, we can discuss that later.' },
+                    { level: 'b2', phrase: 'as long as…', turkish: '...olduğu sürece', example: 'You can stay as long as you want.' },
+                    { level: 'b2', phrase: 'as though…', turkish: '...mış gibi, sanki', example: 'He acted as though nothing had happened.' },
+                    { level: 'b2', phrase: 'associated with sth', turkish: 'bir şeyle ilişkili', example: 'Smoking is associated with many health problems.' },
+                    { level: 'b2', phrase: 'at once', turkish: 'hemen, derhal', example: 'Please come here at once!' },
+                    { level: 'b2', phrase: 'at present', turkish: 'şu anda', example: 'At present, we have no plans to expand.' },
+                    { level: 'b2', phrase: 'at some point', turkish: 'bir noktada, bir ara', example: 'We will need to address this issue at some point.' },
+                    { level: 'b2', phrase: 'at the end of the day', turkish: 'sonuç olarak, günün sonunda', example: 'At the end of the day, it\'s your decision.' },
+                    { level: 'b2', phrase: 'at this point', turkish: 'bu noktada', example: 'At this point, we need to make a decision.' },
+                    { level: 'b2', phrase: 'at this stage', turkish: 'bu aşamada', example: 'At this stage, it\'s too early to say.' },
+                    { level: 'b2', phrase: 'awareness of sth', turkish: 'bir şeyin farkındalığı', example: 'There is growing awareness of environmental issues.' },
+                    { level: 'b2', phrase: 'back sb/sth up', turkish: 'desteklemek, yedeklemek', example: 'Can you back up your claims with evidence?' },
+                    { level: 'b2', phrase: 'be charged with sth', turkish: 'bir şeyle itham edilmek', example: 'He was charged with theft.' },
+                    { level: 'b2', phrase: 'be derived from sth', turkish: 'bir şeyden türemek', example: 'Many English words are derived from Latin.' },
+                    { level: 'b2', phrase: 'be expected to do sth', turkish: 'bir şey yapması beklenmek', example: 'Unemployment is expected to rise next year.' },
+                    { level: 'b2', phrase: 'be known to do sth', turkish: 'bir şey yaptığı bilinmek', example: 'He is known to be a hard worker.' },
+                    { level: 'b2', phrase: 'be made up of sth', turkish: 'bir şeyden oluşmak', example: 'The team is made up of experts from different fields.' },
+                    { level: 'b2', phrase: 'be surrounded by sb/sth', turkish: 'biriyle/bir şeyle çevrili olmak', example: 'The house is surrounded by beautiful gardens.' },
+                    { level: 'b2', phrase: 'be to blame', turkish: 'suçlu olmak', example: 'Who is to blame for this mistake?' },
+                    { level: 'b2', phrase: 'both sides', turkish: 'her iki taraf', example: 'Both sides agreed to the terms.' },
+                    { level: 'b2', phrase: 'bound to do sth', turkish: 'bir şey yapmaya mecbur, kesin yapacak', example: 'Prices are bound to increase next year.' },
+                    { level: 'b2', phrase: 'bring sb up', turkish: 'birini yetiştirmek, büyütmek', example: 'She was brought up by her grandparents.' },
+                    { level: 'b2', phrase: 'by now', turkish: 'şimdiye kadar', example: 'She should have arrived by now.' },
+                    { level: 'b2', phrase: 'call for sth', turkish: 'bir şeyi gerektirmek, talep etmek', example: 'The situation calls for immediate action.' },
+                    { level: 'b2', phrase: 'case study', turkish: 'vaka çalışması', example: 'We analyzed several case studies in class.' },
+                    { level: 'b2', phrase: 'come across sb/sth', turkish: 'biriyle/bir şeyle karşılaşmak', example: 'I came across an interesting article yesterday.' },
+                    { level: 'b2', phrase: 'come true', turkish: 'gerçekleşmek', example: 'Her dream of becoming a doctor came true.' },
+                    { level: 'b2', phrase: 'concerned about sth', turkish: 'bir şey hakkında endişeli', example: 'I am concerned about the rising costs.' },
+                    { level: 'b2', phrase: 'concerned with sth', turkish: 'bir şeyle ilgili', example: 'The article is mainly concerned with education.' },
+                    { level: 'b2', phrase: 'confidence in sb/sth', turkish: 'birine/bir şeye güven', example: 'I have complete confidence in her abilities.' },
+                    { level: 'b2', phrase: 'contribute to sth', turkish: 'bir şeye katkıda bulunmak', example: 'Regular exercise contributes to good health.' },
+                    { level: 'b2', phrase: 'control over sb/sth', turkish: 'biri/bir şey üzerinde kontrol', example: 'Parents need to have some control over their children.' },
+                    { level: 'b2', phrase: 'cope with sth', turkish: 'bir şeyle başa çıkmak', example: 'She learned to cope with stress.' },
+                    { level: 'b2', phrase: 'decline in sth', turkish: 'bir şeyde düşüş', example: 'There has been a decline in sales this year.' },
+                    { level: 'b2', phrase: 'dependent on sb/sth', turkish: 'birine/bir şeye bağımlı', example: 'The project is dependent on government funding.' },
+                    { level: 'b2', phrase: 'despite the fact that…', turkish: '...olmasına rağmen', example: 'Despite the fact that it was raining, we went out.' },
+                    { level: 'b2', phrase: 'draw attention to sb/sth', turkish: 'dikkat çekmek', example: 'I would like to draw attention to this issue.' },
+                    { level: 'b2', phrase: 'engage in sth', turkish: 'bir şeyle meşgul olmak, uğraşmak', example: 'Students should engage in extracurricular activities.' },
+                    { level: 'b2', phrase: 'engaged in sth', turkish: 'bir şeyle meşgul', example: 'She was engaged in a conversation.' },
+                    { level: 'b2', phrase: 'ever since', turkish: 'o zamandan beri', example: 'Ever since he moved, we haven\'t seen each other.' },
+                    { level: 'b2', phrase: 'exposure to sth', turkish: 'bir şeye maruz kalma', example: 'Exposure to sunlight can cause skin damage.' },
+                    { level: 'b2', phrase: 'far from sth', turkish: 'bir şeyden uzak, hiç de...değil', example: 'The results are far from satisfactory.' },
+                    { level: 'b2', phrase: 'figure sb/sth out', turkish: 'anlamak, çözmek', example: 'I can\'t figure out how to solve this problem.' },
+                    { level: 'b2', phrase: 'find yourself doing sth', turkish: 'kendini bir şey yaparken bulmak', example: 'I found myself agreeing with her.' },
+                    { level: 'b2', phrase: 'get in', turkish: 'girmek, varmak', example: 'What time does your train get in?' },
+                    { level: 'b2', phrase: 'get over sb/sth', turkish: 'birinden/bir şeyden kurtulmak, atlatmak', example: 'It took her months to get over the breakup.' },
+                    { level: 'b2', phrase: 'get rid of sb/sth', turkish: 'birinden/bir şeyden kurtulmak', example: 'I need to get rid of these old clothes.' },
+                    { level: 'b2', phrase: 'go off', turkish: 'patlamak, çalmak (alarm)', example: 'The alarm went off at 6 am.' },
+                    { level: 'b2', phrase: 'go on to do sth', turkish: 'devam etmek, sonra bir şey yapmak', example: 'She went on to become a famous writer.' },
+                    { level: 'b2', phrase: 'go through sth', turkish: 'bir şeyden geçmek, yaşamak', example: 'He is going through a difficult time.' },
+                    { level: 'b2', phrase: 'had better', turkish: '...sa iyi olur', example: 'You had better leave now or you\'ll be late.' },
+                    { level: 'b2', phrase: 'hang on', turkish: 'bekle, dur', example: 'Hang on, I\'ll check that for you.' },
+                    { level: 'b2', phrase: 'human being', turkish: 'insan, insanoğlu', example: 'Every human being deserves respect.' },
+                    { level: 'b2', phrase: 'human rights', turkish: 'insan hakları', example: 'We must protect human rights.' },
+                    { level: 'b2', phrase: 'I have to say…', turkish: 'söylemeliyim ki...', example: 'I have to say, I\'m impressed with your work.' },
+                    { level: 'b2', phrase: 'I would say…', turkish: 'derdim ki, söylerdim ki', example: 'I would say about 50 people attended.' },
+                    { level: 'b2', phrase: 'if only…', turkish: 'keşke', example: 'If only I had studied harder!' },
+                    { level: 'b2', phrase: 'in action', turkish: 'iş başında, hareket halinde', example: 'Would you like to see the machine in action?' },
+                    { level: 'b2', phrase: 'in advance', turkish: 'önceden', example: 'You need to book tickets in advance.' },
+                    { level: 'b2', phrase: 'in an attempt to do sth', turkish: 'bir şey yapmaya çalışarak', example: 'In an attempt to save money, we ate at home.' },
+                    { level: 'b2', phrase: 'in part', turkish: 'kısmen', example: 'The success was in part due to good planning.' },
+                    { level: 'b2', phrase: 'in place', turkish: 'yerinde, mevcut', example: 'Safety measures are now in place.' },
+                    { level: 'b2', phrase: 'in relation to sb/sth', turkish: 'biriyle/bir şeyle ilgili olarak', example: 'I have a question in relation to the project.' },
+                    { level: 'b2', phrase: 'in spite of sth', turkish: 'bir şeye rağmen', example: 'In spite of the rain, we enjoyed the trip.' },
+                    { level: 'b2', phrase: 'in the first place', turkish: 'ilk başta, her şeyden önce', example: 'I shouldn\'t have agreed to it in the first place.' },
+                    { level: 'b2', phrase: 'in the near future', turkish: 'yakın gelecekte', example: 'We expect changes in the near future.' },
+                    { level: 'b2', phrase: 'in turn', turkish: 'sırayla, bunun sonucunda', example: 'This will, in turn, lead to higher prices.' },
+                    { level: 'b2', phrase: 'investment in sth', turkish: 'bir şeye yatırım', example: 'Investment in education is important.' },
+                    { level: 'b2', phrase: 'loads of sb/sth', turkish: 'bir sürü', example: 'We had loads of fun at the party.' },
+                    { level: 'b2', phrase: 'mental health', turkish: 'ruh sağlığı', example: 'Mental health is just as important as physical health.' },
+                    { level: 'b2', phrase: 'more or less', turkish: 'aşağı yukarı', example: 'The project is more or less complete.' },
+                    { level: 'b2', phrase: 'no doubt', turkish: 'şüphesiz', example: 'No doubt he will succeed.' },
+                    { level: 'b2', phrase: 'no matter…', turkish: 'ne olursa olsun', example: 'No matter what happens, I\'ll support you.' },
+                    { level: 'b2', phrase: 'nothing but', turkish: 'sadece, ...den başka bir şey değil', example: 'He does nothing but complain.' },
+                    { level: 'b2', phrase: 'on board', turkish: 'gemide/uçakta, dahil', example: 'Is everyone on board with this plan?' },
+                    { level: 'b2', phrase: 'on the basis of sth', turkish: 'bir şeye dayanarak', example: 'Decisions are made on the basis of facts.' },
+                    { level: 'b2', phrase: 'on the one hand', turkish: 'bir taraftan', example: 'On the one hand, it\'s expensive; on the other hand, it\'s worth it.' },
+                    { level: 'b2', phrase: 'once again', turkish: 'bir kez daha', example: 'Once again, thank you for your help.' },
+                    { level: 'b2', phrase: 'one another', turkish: 'birbirini', example: 'They looked at one another in surprise.' },
+                    { level: 'b2', phrase: 'opposed to sth', turkish: 'bir şeye karşı', example: 'Many people are opposed to the new law.' },
+                    { level: 'b2', phrase: 'or so', turkish: 'civarında, kadar', example: 'It will take an hour or so.' },
+                    { level: 'b2', phrase: 'other than', turkish: '...dışında, ...den başka', example: 'I don\'t know anyone here other than you.' },
+                    { level: 'b2', phrase: 'potential for sth', turkish: 'bir şeyin potansiyeli', example: 'This area has great potential for development.' },
+                    { level: 'b2', phrase: 'pretty much', turkish: 'hemen hemen, neredeyse', example: 'I\'ve pretty much finished the report.' },
+                    { level: 'b2', phrase: 'prior to', turkish: '...den önce', example: 'Prior to joining this company, I worked abroad.' },
+                    { level: 'b2', phrase: 'prove to be sth', turkish: '...olduğu ortaya çıkmak', example: 'The decision proved to be correct.' },
+                    { level: 'b2', phrase: 'put sth forward', turkish: 'öne sürmek, teklif etmek', example: 'She put forward an interesting idea.' },
+                    { level: 'b2', phrase: 'put sth together', turkish: 'bir araya getirmek, hazırlamak', example: 'We need to put together a proposal.' },
+                    { level: 'b2', phrase: 'quality of life', turkish: 'yaşam kalitesi', example: 'Exercise improves quality of life.' },
+                    { level: 'b2', phrase: 'ranging from', turkish: '...den ...e kadar değişen', example: 'Prices range from $10 to $50.' },
+                    { level: 'b2', phrase: 'regarded as sth', turkish: '...olarak kabul edilmek', example: 'He is regarded as an expert in his field.' },
+                    { level: 'b2', phrase: 'relevant to sb/sth', turkish: 'biriyle/bir şeyle ilgili, alakalı', example: 'This information is relevant to your case.' },
+                    { level: 'b2', phrase: 'rely on sb/sth', turkish: 'birine/bir şeye güvenmek, bağlı olmak', example: 'You can rely on me for help.' },
+                    { level: 'b2', phrase: 'role model', turkish: 'rol model', example: 'Parents should be role models for their children.' },
+                    { level: 'b2', phrase: 'set out', turkish: 'yola çıkmak, belirlemek', example: 'We set out early in the morning.' },
+                    { level: 'b2', phrase: 'short of sth', turkish: 'bir şeyden yoksun, az', example: 'We are short of staff at the moment.' },
+                    { level: 'b2', phrase: 'so as to do sth', turkish: 'bir şey yapmak için', example: 'He left early so as to avoid the traffic.' },
+                    { level: 'b2', phrase: 'something like…', turkish: '...gibi bir şey, yaklaşık', example: 'It will cost something like $500.' },
+                    { level: 'b2', phrase: 'sort sb/sth/yourself out', turkish: 'halletmek, düzene sokmak', example: 'I need to sort out my schedule.' },
+                    { level: 'b2', phrase: 'stick to sth', turkish: 'bir şeye bağlı kalmak', example: 'You should stick to your original plan.' },
+                    { level: 'b2', phrase: 'subject to sth', turkish: 'bir şeye tabi, bağlı', example: 'Prices are subject to change without notice.' },
+                    { level: 'b2', phrase: 'sum up', turkish: 'özetlemek', example: 'To sum up, we need to work harder.' },
+                    { level: 'b2', phrase: 'take advantage of sb/sth', turkish: 'birini/bir şeyi kullanmak, yararlanmak', example: 'Take advantage of this opportunity.' },
+                    { level: 'b2', phrase: 'take over', turkish: 'devralmak', example: 'A new manager will take over next month.' },
+                    { level: 'b2', phrase: 'take sth into account', turkish: 'bir şeyi hesaba katmak', example: 'We should take all factors into account.' },
+                    { level: 'b2', phrase: 'that is', turkish: 'yani, demek ki', example: 'The meeting is next Monday, that is, in five days.' },
+                    { level: 'b2', phrase: 'the vast majority of sth', turkish: 'büyük çoğunluğu', example: 'The vast majority of students passed the exam.' },
+                    { level: 'b2', phrase: 'turn into sth', turkish: 'bir şeye dönüşmek', example: 'The discussion turned into an argument.' },
+                    { level: 'b2', phrase: 'up to sb', turkish: 'birine bağlı, birinin kararına kalmış', example: 'It\'s up to you to decide.' },
+                    { level: 'b2', phrase: 'when it comes to sth', turkish: 'bir şey söz konusu olduğunda', example: 'When it comes to cooking, she\'s an expert.' },
+                    { level: 'b2', phrase: 'whether or not…', turkish: '...olsun ya da olmasın', example: 'I\'m going whether or not you come with me.' },
+                    { level: 'b2', phrase: 'would rather', turkish: 'tercih etmek', example: 'I would rather stay home tonight.' }
                 ],
 
                 init() { },
