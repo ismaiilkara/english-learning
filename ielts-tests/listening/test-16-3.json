@@ -7,7 +7,7 @@
             {
                 "id": 1,
                 "title": "Part 1",
-                "audioUrl": "https://drive.google.com/file/d/13zeTXPC0d3WEQlEvTQ0XRNEEX73tNDka/view?usp=sharing",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test3_audio1.mp3",
                 "description": "Questions 1-10",
                 "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
                 "noteTitle": "Junior Cycle Camp",
@@ -267,7 +267,7 @@
             {
                 "id": 2,
                 "title": "Part 2",
-                "audioUrl": "https://drive.google.com/file/d/1Ax0JeLqcQB1go3E8iRJ9HqF9cVu20di_/view?usp=sharing",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test3_audio2.mp3",
                 "description": "Questions 11-20",
                 "type": "complex",
                 "items": [
@@ -435,7 +435,7 @@
             {
                 "id": 3,
                 "title": "Part 3",
-                "audioUrl": "https://drive.google.com/file/d/1Q-IeU8Yy6wniCaEuxhf3oIcFiSaYUDLN/view?usp=sharing",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test3_audio3.mp3",
                 "description": "Questions 21-30",
                 "type": "complex",
                 "items": [
@@ -650,7 +650,7 @@
             {
                 "id": 4,
                 "title": "Part 4",
-                "audioUrl": "https://drive.google.com/file/d/1zJNsTnp96mLp4M5CCNGqsbyPReTDqaiQ/view?usp=sharing",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/IELTS16_test3_audio4.mp3",
                 "description": "Questions 31-40",
                 "instructions": "Write ONE WORD ONLY for each answer.",
                 "noteTitle": "Hand knitting",
