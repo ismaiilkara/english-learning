@@ -477,7 +477,7 @@
 
                 async init() {
                     try {
-                        const response = await fetch('vocabulary-data.json');
+                        const response = await fetch('data/vocabulary/vocabulary-data.json');
                         const data = await response.json();
                         this.sets = data.sets;
                     } catch (error) {

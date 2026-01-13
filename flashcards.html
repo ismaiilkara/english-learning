@@ -701,7 +701,7 @@
                 async init() {
                     // Load AWL vocabulary
                     try {
-                        const response = await fetch('awl-vocabulary.json');
+                        const response = await fetch('data/vocabulary/awl-vocabulary.json');
                         const data = await response.json();
                         this.processAWLData(data);
                     } catch (error) {

@@ -443,7 +443,7 @@
                 allQuestions: [],
 
                 async init() {
-                    const response = await fetch('itu-prof-data.json');
+                    const response = await fetch('data/itu-prof/itu-prof-data.json');
                     const data = await response.json();
                     this.ituTests = data.tests;
 
