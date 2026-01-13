@@ -322,16 +322,6 @@
             box-shadow: 0 10px 30px rgba(239, 68, 68, 0.4);
         }
 
-        .action-btn.skip {
-            background: rgba(255, 255, 255, 0.1);
-            color: rgba(255, 255, 255, 0.7);
-            max-width: 120px;
-        }
-
-        .action-btn.skip:hover {
-            background: rgba(255, 255, 255, 0.15);
-        }
-
         /* Navigation */
         .nav-buttons {
             display: flex;
@@ -521,23 +511,33 @@
             <p>Learn 450+ academic words with spaced repetition</p>
         </div>
 
-        <!-- Stats Bar -->
+        <!-- Action Buttons (moved outside template) -->
+        <div class="action-buttons" x-show="!completed && currentCard" style="margin-bottom: 20px;">
+            <button class="action-btn dont-know" @click="markCard('difficult')">
+                <span>❌</span> Don't Know
+            </button>
+            <button class="action-btn know" @click="markCard('known')">
+                <span>✅</span> Know It
+            </button>
+        </div>
+
+        <!-- Session Stats Bar -->
         <div class="stats-bar">
             <div class="stat-item">
-                <div class="stat-value green" x-text="stats.mastered"></div>
-                <div class="stat-label">Mastered</div>
+                <div class="stat-value green" x-text="sessionStats.known"></div>
+                <div class="stat-label">Learned</div>
             </div>
             <div class="stat-item">
-                <div class="stat-value yellow" x-text="stats.learning"></div>
-                <div class="stat-label">Learning</div>
+                <div class="stat-value blue" x-text="studyDeck.length"></div>
+                <div class="stat-label">Remaining</div>
             </div>
             <div class="stat-item">
-                <div class="stat-value red" x-text="stats.toReview"></div>
+                <div class="stat-value yellow" x-text="reviewQueue.length"></div>
                 <div class="stat-label">To Review</div>
             </div>
             <div class="stat-item">
-                <div class="stat-value blue" x-text="stats.new"></div>
-                <div class="stat-label">New</div>
+                <div class="stat-value red" x-text="sessionStats.difficult"></div>
+                <div class="stat-label">Struggled</div>
             </div>
         </div>
 
@@ -576,11 +576,19 @@
             <div>
                 <!-- Progress -->
                 <div class="progress-container">
-                    <div class="progress-bar" :style="{ width: progressPercent + '%' }"></div>
+                    <div class="progress-bar" :style="{ width: ((sessionStats.known / sessionStats.totalCards) * 100) + '%' }"></div>
                 </div>
                 <p class="progress-text">
-                    Card <span x-text="currentIndex + 1"></span> of <span x-text="studyDeck.length"></span>
-                    <span x-show="studyMode !== 'all'" x-text="' (' + studyMode + ' mode)'"></span>
+                    <span x-show="!isReviewRound">
+                        <span x-text="studyDeck.length"></span> cards remaining
+                        <span style="color: #4ade80;">(<span x-text="sessionStats.known"></span> learned)</span>
+                    </span>
+                    <span x-show="isReviewRound" style="color: #fbbf24;">
+                        Review Round: <span x-text="studyDeck.length"></span> cards to review again
+                    </span>
+                    <span x-show="reviewQueue.length > 0" style="color: #f87171; margin-left: 10px;">
+                        (<span x-text="reviewQueue.length"></span> in review queue)
+                    </span>
                 </p>
 
                 <!-- Flashcard -->
@@ -611,44 +619,15 @@
                     </div>
                 </div>
 
-                <!-- Action Buttons -->
-                <div class="action-buttons">
-                    <button class="action-btn dont-know" @click="markCard('difficult')" :disabled="!isFlipped">
-                        <span>❌</span> Don't Know
-                    </button>
-                    <button class="action-btn skip" @click="skipCard">
-                        <span>⏭️</span> Skip
-                    </button>
-                    <button class="action-btn know" @click="markCard('known')" :disabled="!isFlipped">
-                        <span>✅</span> Know It
-                    </button>
-                </div>
-
-                <!-- Navigation -->
-                <div class="nav-buttons">
-                    <button class="nav-btn" @click="prevCard" :disabled="currentIndex === 0">
-                        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                        </svg>
-                        Previous
-                    </button>
-                    <button class="nav-btn" @click="shuffleDeck">
-                        🔀 Shuffle
-                    </button>
-                    <button class="nav-btn" @click="nextCard" :disabled="currentIndex >= studyDeck.length - 1">
-                        Next
-                        <svg width="18" height="18" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                        </svg>
-                    </button>
-                </div>
-
                 <div class="shortcuts-hint">
                     <kbd>Space</kbd> Flip &nbsp;
-                    <kbd>←</kbd> Previous &nbsp;
-                    <kbd>→</kbd> Next &nbsp;
                     <kbd>1</kbd> Don't Know &nbsp;
                     <kbd>2</kbd> Know
+                </div>
+
+                <!-- Review Round Indicator -->
+                <div x-show="isReviewRound" style="text-align: center; margin-top: 20px; padding: 15px; background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.3); border-radius: 12px;">
+                    <p style="color: #fbbf24; font-weight: 600;">Review Round - These are cards you didn't know. Keep going until you learn them all!</p>
                 </div>
             </div>
         </template>
@@ -671,18 +650,18 @@
         <template x-if="completed">
             <div class="completion-card">
                 <div class="completion-icon">🎉</div>
-                <h2 class="completion-title">Session Complete!</h2>
-                <p style="color: rgba(255,255,255,0.6);">Great job reviewing your flashcards!</p>
+                <h2 class="completion-title">All Cards Learned!</h2>
+                <p style="color: rgba(255,255,255,0.6);">You've mastered all the cards in this session!</p>
 
                 <div class="completion-stats">
                     <div class="completion-stat">
                         <div class="completion-stat-value" style="color: #4ade80;" x-text="sessionStats.known"></div>
-                        <div class="completion-stat-label">Known</div>
+                        <div class="completion-stat-label">Cards Learned</div>
                     </div>
                     <div class="completion-stat">
-                        <div class="completion-stat-value" style="color: #f87171;" x-text="sessionStats.difficult">
+                        <div class="completion-stat-value" style="color: #fbbf24;" x-text="sessionStats.difficult">
                         </div>
-                        <div class="completion-stat-label">Need Review</div>
+                        <div class="completion-stat-label">Review Rounds</div>
                     </div>
                     <div class="completion-stat">
                         <div class="completion-stat-value" style="color: #60a5fa;" x-text="sessionStats.skipped"></div>
@@ -691,10 +670,7 @@
                 </div>
 
                 <div>
-                    <button class="restart-btn" @click="reviewDifficult" x-show="sessionStats.difficult > 0">
-                        🔄 Review Difficult Cards
-                    </button>
-                    <button class="restart-btn secondary" @click="startNewSession">
+                    <button class="restart-btn" @click="startNewSession">
                         📚 Start New Session
                     </button>
                     <button class="restart-btn secondary" @click="resetAllProgress">
@@ -710,15 +686,17 @@
             return {
                 allCards: [],
                 studyDeck: [],
+                reviewQueue: [],  // Cards marked "Don't Know" go here
                 currentIndex: 0,
                 isFlipped: false,
                 completed: false,
                 studyMode: 'all',
                 selectedSet: 'all',
                 cardProgress: {},
-                sessionStats: { known: 0, difficult: 0, skipped: 0 },
+                sessionStats: { known: 0, difficult: 0, skipped: 0, totalCards: 0 },
                 categories: [],
                 awlCategories: [],
+                isReviewRound: false,
 
                 async init() {
                     // Load AWL vocabulary
@@ -791,8 +769,8 @@
                 },
 
                 get progressPercent() {
-                    if (this.studyDeck.length === 0) return 0;
-                    return ((this.currentIndex + 1) / this.studyDeck.length) * 100;
+                    if (this.sessionStats.totalCards === 0) return 0;
+                    return (this.sessionStats.known / this.sessionStats.totalCards) * 100;
                 },
 
                 buildStudyDeck() {
@@ -819,10 +797,12 @@
                     }
 
                     this.studyDeck = cards;
+                    this.reviewQueue = [];
                     this.currentIndex = 0;
                     this.isFlipped = false;
                     this.completed = false;
-                    this.sessionStats = { known: 0, difficult: 0, skipped: 0 };
+                    this.isReviewRound = false;
+                    this.sessionStats = { known: 0, difficult: 0, skipped: 0, totalCards: cards.length };
                 },
 
 
@@ -842,73 +822,74 @@
                 },
 
                 markCard(rating) {
-                    if (!this.isFlipped) return;
-
                     const card = this.currentCard;
                     if (!card) return;
 
                     let progress = this.cardProgress[card.id] || { level: 0, reviews: 0 };
 
                     if (rating === 'known') {
+                        // Card is known - remove from deck, won't show again this session
                         progress.level = Math.min(progress.level + 1, 5);
                         this.sessionStats.known++;
+
+                        // Add to review queue (will see again)
+                        this.reviewQueue = [...this.reviewQueue]; // Keep as is
                     } else {
+                        // Card is NOT known - add to review queue for later
                         progress.level = Math.max(progress.level - 1, -2);
                         this.sessionStats.difficult++;
+
+                        // Add to review queue (will see again)
+                        this.reviewQueue = [...this.reviewQueue, card];
                     }
 
+                    // Remove current card from deck (force reactivity with new array)
+                    this.studyDeck = this.studyDeck.filter((_, i) => i !== this.currentIndex);
+
+                    // Update progress
                     progress.reviews++;
                     progress.lastReview = Date.now();
-
                     this.cardProgress[card.id] = progress;
                     this.saveProgress();
 
-                    this.goToNext();
+                    // Reset flip state
+                    this.isFlipped = false;
+
+                    // Check if we need to start review round or complete
+                    if (this.studyDeck.length === 0) {
+                        this.checkForReviewRound();
+                    } else if (this.currentIndex >= this.studyDeck.length) {
+                        this.currentIndex = 0;
+                    }
                 },
 
-                skipCard() {
-                    this.sessionStats.skipped++;
-                    this.goToNext();
-                },
-
-                goToNext() {
-                    if (this.currentIndex < this.studyDeck.length - 1) {
-                        this.currentIndex++;
+                checkForReviewRound() {
+                    if (this.reviewQueue.length > 0) {
+                        // Start review round with cards that were marked "Don't Know"
+                        this.studyDeck = [...this.reviewQueue];
+                        this.reviewQueue = [];
+                        this.currentIndex = 0;
                         this.isFlipped = false;
+                        this.isReviewRound = true;
                     } else {
+                        // No more cards to review - session complete!
                         this.completed = true;
                     }
                 },
 
-                nextCard() {
-                    if (this.currentIndex < this.studyDeck.length - 1) {
-                        this.currentIndex++;
+                goToNext() {
+                    if (this.studyDeck.length > 0) {
+                        // Stay at current index since we removed the card
+                        if (this.currentIndex >= this.studyDeck.length) {
+                            this.currentIndex = 0;
+                        }
                         this.isFlipped = false;
+                    } else {
+                        this.checkForReviewRound();
                     }
-                },
-
-                prevCard() {
-                    if (this.currentIndex > 0) {
-                        this.currentIndex--;
-                        this.isFlipped = false;
-                    }
-                },
-
-                shuffleDeck() {
-                    for (let i = this.studyDeck.length - 1; i > 0; i--) {
-                        const j = Math.floor(Math.random() * (i + 1));
-                        [this.studyDeck[i], this.studyDeck[j]] = [this.studyDeck[j], this.studyDeck[i]];
-                    }
-                    this.currentIndex = 0;
-                    this.isFlipped = false;
                 },
 
                 startNewSession() {
-                    this.buildStudyDeck();
-                },
-
-                reviewDifficult() {
-                    this.studyMode = 'difficult';
                     this.buildStudyDeck();
                 },
 
@@ -943,18 +924,14 @@
                             event.preventDefault();
                             this.flipCard();
                             break;
-                        case 'ArrowLeft':
-                            this.prevCard();
-                            break;
-                        case 'ArrowRight':
-                            this.nextCard();
-                            break;
                         case 'Digit1':
                         case 'Numpad1':
+                        case 'ArrowLeft':
                             if (this.isFlipped) this.markCard('difficult');
                             break;
                         case 'Digit2':
                         case 'Numpad2':
+                        case 'ArrowRight':
                             if (this.isFlipped) this.markCard('known');
                             break;
                     }
