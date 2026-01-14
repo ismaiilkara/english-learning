@@ -537,36 +537,6 @@
             </button>
         </div>
 
-        <!-- Control Buttons -->
-        <div class="nav-buttons" x-show="!completed && studyDeck.length > 0" style="margin-bottom: 20px;">
-            <button class="nav-btn shuffle" @click="shuffleDeck()">
-                🔀 Shuffle
-            </button>
-        </div>
-
-        <!-- Action Buttons -->
-        <div class="action-buttons" x-show="!completed && currentCard" style="margin-bottom: 20px;">
-            <button class="action-btn dont-know" @click="markCard('difficult')">
-                <span>❌</span> Don't Know
-            </button>
-            <button class="action-btn know" @click="markCard('known')">
-                <span>✅</span> Know It
-            </button>
-        </div>
-
-        <!-- Navigation Buttons -->
-        <div class="nav-buttons" x-show="!completed && currentCard" style="margin-bottom: 20px;">
-            <button class="nav-btn" @click="prevCard()" :disabled="currentIndex === 0">
-                ⬅️ Previous
-            </button>
-            <span style="color: rgba(255,255,255,0.5); padding: 0 15px;">
-                <span x-text="currentIndex + 1"></span> / <span x-text="studyDeck.length"></span>
-            </span>
-            <button class="nav-btn" @click="nextCard()" :disabled="currentIndex >= studyDeck.length - 1">
-                Next ➡️
-            </button>
-        </div>
-
         <!-- Session Stats Bar -->
         <div class="stats-bar">
             <div class="stat-item">
@@ -664,6 +634,32 @@
                             <span class="tap-hint">Rate your knowledge below</span>
                         </div>
                     </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="action-buttons" style="margin-top: 25px;">
+                    <button class="action-btn dont-know" @click="markCard('difficult')">
+                        <span>❌</span> Don't Know
+                    </button>
+                    <button class="action-btn know" @click="markCard('known')">
+                        <span>✅</span> Know It
+                    </button>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="nav-buttons" style="margin-top: 15px;">
+                    <button class="nav-btn" @click="prevCard()" :disabled="currentIndex === 0">
+                        ⬅️ Previous
+                    </button>
+                    <button class="nav-btn shuffle" @click="shuffleDeck()">
+                        🔀 Shuffle
+                    </button>
+                    <span style="color: rgba(255,255,255,0.5); padding: 0 15px;">
+                        <span x-text="currentIndex + 1"></span> / <span x-text="studyDeck.length"></span>
+                    </span>
+                    <button class="nav-btn" @click="nextCard()" :disabled="currentIndex >= studyDeck.length - 1">
+                        Next ➡️
+                    </button>
                 </div>
 
                 <div class="shortcuts-hint">
