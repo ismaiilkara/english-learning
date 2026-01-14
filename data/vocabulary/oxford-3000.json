@@ -1,7 +1,7 @@
 {
     "title": "Oxford 3000-5000",
     "description": "Core vocabulary for English learners - A1 to B2 levels",
-    "totalWords": 2015,
+    "totalWords": 2165,
     "categories": [
         {
             "id": 1,
@@ -15063,6 +15063,362 @@
                     "definition": "To complete a degree",
                     "turkish": "mezun olmak",
                     "example": "---- from university."
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "A2 - Intermediate Words (Part 20)",
+            "words": [
+                {
+                    "word": "grain",
+                    "type": "noun",
+                    "definition": "A small seed; texture",
+                    "turkish": "tahıl, tane",
+                    "example": "Whole ----."
+                },
+                {
+                    "word": "grammar",
+                    "type": "noun",
+                    "definition": "Rules of language",
+                    "turkish": "gramer, dilbilgisi",
+                    "example": "English ----."
+                },
+                {
+                    "word": "grand",
+                    "type": "adjective",
+                    "definition": "Large and impressive",
+                    "turkish": "büyük, görkemli",
+                    "example": "---- total."
+                },
+                {
+                    "word": "grandfather",
+                    "type": "noun",
+                    "definition": "Father's or mother's father",
+                    "turkish": "dede, büyükbaba",
+                    "example": "My ----."
+                },
+                {
+                    "word": "grandmother",
+                    "type": "noun",
+                    "definition": "Father's or mother's mother",
+                    "turkish": "nine, büyükanne",
+                    "example": "My ----."
+                },
+                {
+                    "word": "grant",
+                    "type": "noun",
+                    "definition": "Money given for a purpose",
+                    "turkish": "hibe",
+                    "example": "Research ----."
+                },
+                {
+                    "word": "graph",
+                    "type": "noun",
+                    "definition": "A diagram showing data",
+                    "turkish": "grafik",
+                    "example": "Bar ----."
+                },
+                {
+                    "word": "graphic",
+                    "type": "adjective",
+                    "definition": "Relating to images; vivid",
+                    "turkish": "grafik, görsel",
+                    "example": "---- design."
+                },
+                {
+                    "word": "grasp",
+                    "type": "verb",
+                    "definition": "To hold; to understand",
+                    "turkish": "kavramak",
+                    "example": "---- the concept."
+                },
+                {
+                    "word": "grass",
+                    "type": "noun",
+                    "definition": "Green ground plants",
+                    "turkish": "çimen",
+                    "example": "Cut the ----."
+                },
+                {
+                    "word": "grateful",
+                    "type": "adjective",
+                    "definition": "Thankful",
+                    "turkish": "minnettar",
+                    "example": "I'm very ----!"
+                },
+                {
+                    "word": "grave",
+                    "type": "noun",
+                    "definition": "A place for burial",
+                    "turkish": "mezar",
+                    "example": "Visit the ----."
+                },
+                {
+                    "word": "gray",
+                    "type": "adjective",
+                    "definition": "A color between black and white",
+                    "turkish": "gri",
+                    "example": "---- hair."
+                },
+                {
+                    "word": "greet",
+                    "type": "verb",
+                    "definition": "To say hello",
+                    "turkish": "selamlamak",
+                    "example": "---- the guests."
+                },
+                {
+                    "word": "grey",
+                    "type": "adjective",
+                    "definition": "A color between black and white",
+                    "turkish": "gri",
+                    "example": "---- sky."
+                },
+                {
+                    "word": "grocery",
+                    "type": "noun",
+                    "definition": "Food shop items",
+                    "turkish": "bakkal, market",
+                    "example": "---- store."
+                },
+                {
+                    "word": "gross",
+                    "type": "adjective",
+                    "definition": "Total before deductions; disgusting",
+                    "turkish": "brüt, kaba",
+                    "example": "---- income."
+                },
+                {
+                    "word": "ground",
+                    "type": "noun",
+                    "definition": "The earth's surface",
+                    "turkish": "zemin, yer",
+                    "example": "On the ----."
+                },
+                {
+                    "word": "group",
+                    "type": "noun",
+                    "definition": "A number of things together",
+                    "turkish": "grup",
+                    "example": "A ---- of friends."
+                },
+                {
+                    "word": "grow",
+                    "type": "verb",
+                    "definition": "To increase in size",
+                    "turkish": "büyümek, yetiştirmek",
+                    "example": "---- up."
+                },
+                {
+                    "word": "growth",
+                    "type": "noun",
+                    "definition": "The process of growing",
+                    "turkish": "büyüme, gelişme",
+                    "example": "Economic ----."
+                },
+                {
+                    "word": "guarantee",
+                    "type": "noun",
+                    "definition": "A promise to fix/replace",
+                    "turkish": "garanti",
+                    "example": "Money-back ----."
+                },
+                {
+                    "word": "guard",
+                    "type": "noun",
+                    "definition": "A person who protects",
+                    "turkish": "koruma, muhafız",
+                    "example": "Security ----."
+                },
+                {
+                    "word": "guess",
+                    "type": "verb",
+                    "definition": "To estimate without knowing",
+                    "turkish": "tahmin etmek",
+                    "example": "---- what!"
+                },
+                {
+                    "word": "guest",
+                    "type": "noun",
+                    "definition": "A visitor",
+                    "turkish": "misafir, konuk",
+                    "example": "Hotel ----."
+                },
+                {
+                    "word": "guidance",
+                    "type": "noun",
+                    "definition": "Advice and help",
+                    "turkish": "rehberlik, yönlendirme",
+                    "example": "Career ----."
+                },
+                {
+                    "word": "guide",
+                    "type": "noun",
+                    "definition": "A person who shows the way",
+                    "turkish": "rehber, kılavuz",
+                    "example": "Tour ----."
+                },
+                {
+                    "word": "guideline",
+                    "type": "noun",
+                    "definition": "A general rule",
+                    "turkish": "yönerge, kılavuz",
+                    "example": "Follow the ----s."
+                },
+                {
+                    "word": "guilty",
+                    "type": "adjective",
+                    "definition": "Responsible for wrongdoing",
+                    "turkish": "suçlu",
+                    "example": "Feel ----."
+                },
+                {
+                    "word": "guitar",
+                    "type": "noun",
+                    "definition": "A musical instrument",
+                    "turkish": "gitar",
+                    "example": "Play the ----."
+                },
+                {
+                    "word": "gun",
+                    "type": "noun",
+                    "definition": "A weapon",
+                    "turkish": "silah",
+                    "example": "---- control."
+                },
+                {
+                    "word": "guy",
+                    "type": "noun",
+                    "definition": "A man (informal)",
+                    "turkish": "adam, erkek",
+                    "example": "Nice ----!"
+                },
+                {
+                    "word": "gym",
+                    "type": "noun",
+                    "definition": "A place for exercise",
+                    "turkish": "spor salonu",
+                    "example": "Go to the ----."
+                },
+                {
+                    "word": "habit",
+                    "type": "noun",
+                    "definition": "A regular practice",
+                    "turkish": "alışkanlık",
+                    "example": "Bad ----."
+                },
+                {
+                    "word": "hair",
+                    "type": "noun",
+                    "definition": "What grows on the head",
+                    "turkish": "saç",
+                    "example": "Long ----."
+                },
+                {
+                    "word": "hairdresser",
+                    "type": "noun",
+                    "definition": "A person who cuts hair",
+                    "turkish": "kuaför",
+                    "example": "Go to the ----."
+                },
+                {
+                    "word": "halfway",
+                    "type": "adverb",
+                    "definition": "At the middle point",
+                    "turkish": "yarı yolda",
+                    "example": "---- there."
+                },
+                {
+                    "word": "hall",
+                    "type": "noun",
+                    "definition": "A large room; corridor",
+                    "turkish": "salon, koridor",
+                    "example": "Entrance ----."
+                },
+                {
+                    "word": "ham",
+                    "type": "noun",
+                    "definition": "Meat from a pig's leg",
+                    "turkish": "jambon",
+                    "example": "---- sandwich."
+                },
+                {
+                    "word": "hammer",
+                    "type": "noun",
+                    "definition": "A tool for hitting",
+                    "turkish": "çekiç",
+                    "example": "Use a ----."
+                },
+                {
+                    "word": "handful",
+                    "type": "noun",
+                    "definition": "A small quantity",
+                    "turkish": "bir avuç",
+                    "example": "A ---- of people."
+                },
+                {
+                    "word": "handle",
+                    "type": "verb",
+                    "definition": "To deal with; to touch",
+                    "turkish": "kulp; halletmek",
+                    "example": "---- with care."
+                },
+                {
+                    "word": "handsome",
+                    "type": "adjective",
+                    "definition": "Good-looking (for men)",
+                    "turkish": "yakışıklı",
+                    "example": "Very ----!"
+                },
+                {
+                    "word": "hang",
+                    "type": "verb",
+                    "definition": "To suspend",
+                    "turkish": "asmak",
+                    "example": "---- a picture."
+                },
+                {
+                    "word": "happen",
+                    "type": "verb",
+                    "definition": "To occur",
+                    "turkish": "olmak, gerçekleşmek",
+                    "example": "What ----ed?"
+                },
+                {
+                    "word": "happiness",
+                    "type": "noun",
+                    "definition": "The state of being happy",
+                    "turkish": "mutluluk",
+                    "example": "True ----."
+                },
+                {
+                    "word": "harbour",
+                    "type": "noun",
+                    "definition": "A place for ships",
+                    "turkish": "liman",
+                    "example": "---- view."
+                },
+                {
+                    "word": "hard",
+                    "type": "adjective",
+                    "definition": "Solid; difficult",
+                    "turkish": "zor, sert",
+                    "example": "---- work."
+                },
+                {
+                    "word": "hardly",
+                    "type": "adverb",
+                    "definition": "Almost not",
+                    "turkish": "neredeyse hiç",
+                    "example": "---- ever."
+                },
+                {
+                    "word": "harm",
+                    "type": "noun",
+                    "definition": "Damage; injury",
+                    "turkish": "zarar",
+                    "example": "No ---- done."
                 }
             ]
         }
