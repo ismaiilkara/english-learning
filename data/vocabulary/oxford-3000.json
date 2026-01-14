@@ -1,7 +1,7 @@
 {
     "title": "Oxford 3000-5000",
     "description": "Core vocabulary for English learners - A1 to B2 levels",
-    "totalWords": 1615,
+    "totalWords": 1715,
     "categories": [
         {
             "id": 1,
@@ -11503,6 +11503,718 @@
                     "definition": "Present; of now",
                     "turkish": "şu anki, mevcut",
                     "example": "---- events."
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "A2 - Intermediate Words (Part 10)",
+            "words": [
+                {
+                    "word": "currently",
+                    "type": "adverb",
+                    "definition": "At this time",
+                    "turkish": "şu anda",
+                    "example": "---- working."
+                },
+                {
+                    "word": "curtain",
+                    "type": "noun",
+                    "definition": "Cloth covering a window",
+                    "turkish": "perde",
+                    "example": "Close the ----s."
+                },
+                {
+                    "word": "curve",
+                    "type": "noun",
+                    "definition": "A bend; a rounded line",
+                    "turkish": "eğri, kıvrım",
+                    "example": "A sharp ----."
+                },
+                {
+                    "word": "custom",
+                    "type": "noun",
+                    "definition": "A tradition",
+                    "turkish": "gelenek, adet",
+                    "example": "Local ----s."
+                },
+                {
+                    "word": "customer",
+                    "type": "noun",
+                    "definition": "A person who buys",
+                    "turkish": "müşteri",
+                    "example": "The ---- is always right."
+                },
+                {
+                    "word": "cut",
+                    "type": "verb",
+                    "definition": "To divide with a knife",
+                    "turkish": "kesmek",
+                    "example": "---- the cake."
+                },
+                {
+                    "word": "cycle",
+                    "type": "noun",
+                    "definition": "A series of events; a bike",
+                    "turkish": "döngü, bisiklet",
+                    "example": "Life ----."
+                },
+                {
+                    "word": "daily",
+                    "type": "adjective",
+                    "definition": "Every day",
+                    "turkish": "günlük",
+                    "example": "---- routine."
+                },
+                {
+                    "word": "damage",
+                    "type": "noun",
+                    "definition": "Harm",
+                    "turkish": "hasar, zarar",
+                    "example": "Serious ----."
+                },
+                {
+                    "word": "damp",
+                    "type": "adjective",
+                    "definition": "Slightly wet",
+                    "turkish": "nemli",
+                    "example": "The floor is ----."
+                },
+                {
+                    "word": "dancer",
+                    "type": "noun",
+                    "definition": "A person who dances",
+                    "turkish": "dansçı",
+                    "example": "A professional ----."
+                },
+                {
+                    "word": "danger",
+                    "type": "noun",
+                    "definition": "Risk of harm",
+                    "turkish": "tehlike",
+                    "example": "In ----!"
+                },
+                {
+                    "word": "dangerous",
+                    "type": "adjective",
+                    "definition": "Risky; harmful",
+                    "turkish": "tehlikeli",
+                    "example": "Very ----!"
+                },
+                {
+                    "word": "dare",
+                    "type": "verb",
+                    "definition": "To have the courage",
+                    "turkish": "cesaret etmek",
+                    "example": "How ---- you!"
+                },
+                {
+                    "word": "data",
+                    "type": "noun",
+                    "definition": "Information",
+                    "turkish": "veri",
+                    "example": "Collect ----."
+                },
+                {
+                    "word": "database",
+                    "type": "noun",
+                    "definition": "A collection of data",
+                    "turkish": "veritabanı",
+                    "example": "Search the ----."
+                },
+                {
+                    "word": "date",
+                    "type": "noun",
+                    "definition": "A day; a romantic meeting",
+                    "turkish": "tarih, randevu",
+                    "example": "What's the ----?"
+                },
+                {
+                    "word": "deal",
+                    "type": "noun",
+                    "definition": "An agreement; a lot",
+                    "turkish": "anlaşma",
+                    "example": "A good ----."
+                },
+                {
+                    "word": "dear",
+                    "type": "adjective",
+                    "definition": "Loved; expensive",
+                    "turkish": "sevgili, pahalı",
+                    "example": "---- friend."
+                },
+                {
+                    "word": "death",
+                    "type": "noun",
+                    "definition": "The end of life",
+                    "turkish": "ölüm",
+                    "example": "Fear of ----."
+                },
+                {
+                    "word": "debate",
+                    "type": "noun",
+                    "definition": "A formal discussion",
+                    "turkish": "tartışma",
+                    "example": "A political ----."
+                },
+                {
+                    "word": "debt",
+                    "type": "noun",
+                    "definition": "Money owed",
+                    "turkish": "borç",
+                    "example": "Pay your ----s."
+                },
+                {
+                    "word": "decade",
+                    "type": "noun",
+                    "definition": "Ten years",
+                    "turkish": "on yıl",
+                    "example": "The last ----."
+                },
+                {
+                    "word": "decent",
+                    "type": "adjective",
+                    "definition": "Acceptable; respectable",
+                    "turkish": "düzgün, iyi",
+                    "example": "A ---- salary."
+                },
+                {
+                    "word": "decide",
+                    "type": "verb",
+                    "definition": "To make a choice",
+                    "turkish": "karar vermek",
+                    "example": "---- quickly."
+                },
+                {
+                    "word": "decision",
+                    "type": "noun",
+                    "definition": "A choice made",
+                    "turkish": "karar",
+                    "example": "Make a ----."
+                },
+                {
+                    "word": "declare",
+                    "type": "verb",
+                    "definition": "To state officially",
+                    "turkish": "ilan etmek, beyan etmek",
+                    "example": "---- war."
+                },
+                {
+                    "word": "decline",
+                    "type": "verb",
+                    "definition": "To decrease; to refuse",
+                    "turkish": "düşmek, reddetmek",
+                    "example": "Sales ----d."
+                },
+                {
+                    "word": "decorate",
+                    "type": "verb",
+                    "definition": "To make beautiful",
+                    "turkish": "süslemek, dekore etmek",
+                    "example": "---- the room."
+                },
+                {
+                    "word": "decoration",
+                    "type": "noun",
+                    "definition": "Something that decorates",
+                    "turkish": "dekorasyon, süs",
+                    "example": "Christmas ----s."
+                },
+                {
+                    "word": "decrease",
+                    "type": "verb",
+                    "definition": "To become smaller",
+                    "turkish": "azalmak",
+                    "example": "Prices ----d."
+                },
+                {
+                    "word": "deep",
+                    "type": "adjective",
+                    "definition": "Going far down",
+                    "turkish": "derin",
+                    "example": "A ---- pool."
+                },
+                {
+                    "word": "deeply",
+                    "type": "adverb",
+                    "definition": "Very much",
+                    "turkish": "derinden, çok",
+                    "example": "---- sorry."
+                },
+                {
+                    "word": "defeat",
+                    "type": "verb",
+                    "definition": "To win against",
+                    "turkish": "yenmek",
+                    "example": "---- the enemy."
+                },
+                {
+                    "word": "defend",
+                    "type": "verb",
+                    "definition": "To protect",
+                    "turkish": "savunmak",
+                    "example": "---- yourself."
+                },
+                {
+                    "word": "define",
+                    "type": "verb",
+                    "definition": "To explain the meaning",
+                    "turkish": "tanımlamak",
+                    "example": "---- the word."
+                },
+                {
+                    "word": "definite",
+                    "type": "adjective",
+                    "definition": "Certain; clear",
+                    "turkish": "kesin, belirli",
+                    "example": "A ---- answer."
+                },
+                {
+                    "word": "definitely",
+                    "type": "adverb",
+                    "definition": "Certainly",
+                    "turkish": "kesinlikle",
+                    "example": "---- yes!"
+                },
+                {
+                    "word": "definition",
+                    "type": "noun",
+                    "definition": "The meaning of a word",
+                    "turkish": "tanım",
+                    "example": "The ---- is..."
+                },
+                {
+                    "word": "degree",
+                    "type": "noun",
+                    "definition": "A level; a qualification",
+                    "turkish": "derece, diploma",
+                    "example": "A university ----."
+                },
+                {
+                    "word": "delay",
+                    "type": "noun",
+                    "definition": "A wait; being late",
+                    "turkish": "gecikme",
+                    "example": "A long ----."
+                },
+                {
+                    "word": "delete",
+                    "type": "verb",
+                    "definition": "To remove",
+                    "turkish": "silmek",
+                    "example": "---- the file."
+                },
+                {
+                    "word": "deliberate",
+                    "type": "adjective",
+                    "definition": "Done on purpose",
+                    "turkish": "kasıtlı",
+                    "example": "A ---- act."
+                },
+                {
+                    "word": "delicious",
+                    "type": "adjective",
+                    "definition": "Tasting very good",
+                    "turkish": "lezzetli",
+                    "example": "---- food!"
+                },
+                {
+                    "word": "delight",
+                    "type": "noun",
+                    "definition": "Great pleasure",
+                    "turkish": "zevk, sevinç",
+                    "example": "A ---- to meet you."
+                },
+                {
+                    "word": "delighted",
+                    "type": "adjective",
+                    "definition": "Very pleased",
+                    "turkish": "çok memnun",
+                    "example": "I'm ----!"
+                },
+                {
+                    "word": "deliver",
+                    "type": "verb",
+                    "definition": "To bring to a place",
+                    "turkish": "teslim etmek",
+                    "example": "---- the package."
+                },
+                {
+                    "word": "delivery",
+                    "type": "noun",
+                    "definition": "Bringing goods",
+                    "turkish": "teslimat",
+                    "example": "Free ----."
+                },
+                {
+                    "word": "demand",
+                    "type": "noun",
+                    "definition": "A strong request; need",
+                    "turkish": "talep",
+                    "example": "High ----."
+                },
+                {
+                    "word": "democracy",
+                    "type": "noun",
+                    "definition": "Government by the people",
+                    "turkish": "demokrasi",
+                    "example": "Fight for ----."
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "A2 - Intermediate Words (Part 11)",
+            "words": [
+                {
+                    "word": "demonstrate",
+                    "type": "verb",
+                    "definition": "To show; to protest",
+                    "turkish": "göstermek, kanıtlamak",
+                    "example": "---- how it works."
+                },
+                {
+                    "word": "dentist",
+                    "type": "noun",
+                    "definition": "A tooth doctor",
+                    "turkish": "diş doktoru",
+                    "example": "See the ----."
+                },
+                {
+                    "word": "deny",
+                    "type": "verb",
+                    "definition": "To say something is not true",
+                    "turkish": "inkar etmek, reddetmek",
+                    "example": "---- the accusation."
+                },
+                {
+                    "word": "department",
+                    "type": "noun",
+                    "definition": "A section of an organization",
+                    "turkish": "bölüm, departman",
+                    "example": "HR ----."
+                },
+                {
+                    "word": "departure",
+                    "type": "noun",
+                    "definition": "Leaving",
+                    "turkish": "kalkış, ayrılış",
+                    "example": "---- time."
+                },
+                {
+                    "word": "depend",
+                    "type": "verb",
+                    "definition": "To rely on",
+                    "turkish": "bağlı olmak, güvenmek",
+                    "example": "It ----s."
+                },
+                {
+                    "word": "deposit",
+                    "type": "noun",
+                    "definition": "Money paid in advance",
+                    "turkish": "depozito, kapora",
+                    "example": "Pay a ----."
+                },
+                {
+                    "word": "depress",
+                    "type": "verb",
+                    "definition": "To make sad",
+                    "turkish": "bunaltmak",
+                    "example": "This ----es me."
+                },
+                {
+                    "word": "depressed",
+                    "type": "adjective",
+                    "definition": "Very sad",
+                    "turkish": "depresif, üzgün",
+                    "example": "Feeling ----."
+                },
+                {
+                    "word": "depth",
+                    "type": "noun",
+                    "definition": "How deep something is",
+                    "turkish": "derinlik",
+                    "example": "The ---- of the pool."
+                },
+                {
+                    "word": "describe",
+                    "type": "verb",
+                    "definition": "To tell about",
+                    "turkish": "tanımlamak, betimlemek",
+                    "example": "---- the person."
+                },
+                {
+                    "word": "description",
+                    "type": "noun",
+                    "definition": "Telling what something is like",
+                    "turkish": "tanım, betimleme",
+                    "example": "Job ----."
+                },
+                {
+                    "word": "desert",
+                    "type": "noun",
+                    "definition": "A dry sandy area",
+                    "turkish": "çöl",
+                    "example": "The Sahara ----."
+                },
+                {
+                    "word": "deserve",
+                    "type": "verb",
+                    "definition": "To be worthy of",
+                    "turkish": "hak etmek",
+                    "example": "You ---- it!"
+                },
+                {
+                    "word": "design",
+                    "type": "noun",
+                    "definition": "A plan; a pattern",
+                    "turkish": "tasarım, dizayn",
+                    "example": "Beautiful ----."
+                },
+                {
+                    "word": "designer",
+                    "type": "noun",
+                    "definition": "A person who designs",
+                    "turkish": "tasarımcı",
+                    "example": "A fashion ----."
+                },
+                {
+                    "word": "desire",
+                    "type": "noun",
+                    "definition": "A strong wish",
+                    "turkish": "arzu, istek",
+                    "example": "My ---- is..."
+                },
+                {
+                    "word": "desk",
+                    "type": "noun",
+                    "definition": "A table for work",
+                    "turkish": "masa, çalışma masası",
+                    "example": "At my ----."
+                },
+                {
+                    "word": "desperate",
+                    "type": "adjective",
+                    "definition": "Having no hope",
+                    "turkish": "çaresiz, umutsuz",
+                    "example": "I'm ----!"
+                },
+                {
+                    "word": "despite",
+                    "type": "preposition",
+                    "definition": "In spite of",
+                    "turkish": "-e rağmen",
+                    "example": "---- the rain."
+                },
+                {
+                    "word": "destination",
+                    "type": "noun",
+                    "definition": "The place you go to",
+                    "turkish": "varış noktası",
+                    "example": "Final ----."
+                },
+                {
+                    "word": "destroy",
+                    "type": "verb",
+                    "definition": "To ruin completely",
+                    "turkish": "yok etmek",
+                    "example": "---- the evidence."
+                },
+                {
+                    "word": "destruction",
+                    "type": "noun",
+                    "definition": "Complete ruin",
+                    "turkish": "yıkım, tahribat",
+                    "example": "Total ----."
+                },
+                {
+                    "word": "detail",
+                    "type": "noun",
+                    "definition": "A small part",
+                    "turkish": "detay, ayrıntı",
+                    "example": "In ----."
+                },
+                {
+                    "word": "detailed",
+                    "type": "adjective",
+                    "definition": "With many details",
+                    "turkish": "detaylı, ayrıntılı",
+                    "example": "A ---- report."
+                },
+                {
+                    "word": "detect",
+                    "type": "verb",
+                    "definition": "To discover",
+                    "turkish": "tespit etmek, saptamak",
+                    "example": "---- the problem."
+                },
+                {
+                    "word": "detective",
+                    "type": "noun",
+                    "definition": "A person who investigates",
+                    "turkish": "dedektif",
+                    "example": "A private ----."
+                },
+                {
+                    "word": "determine",
+                    "type": "verb",
+                    "definition": "To decide; to find out",
+                    "turkish": "belirlemek, tespit etmek",
+                    "example": "---- the cause."
+                },
+                {
+                    "word": "determined",
+                    "type": "adjective",
+                    "definition": "Having decided firmly",
+                    "turkish": "kararlı",
+                    "example": "I'm ----!"
+                },
+                {
+                    "word": "develop",
+                    "type": "verb",
+                    "definition": "To grow; to create",
+                    "turkish": "geliştirmek, büyütmek",
+                    "example": "---- new skills."
+                },
+                {
+                    "word": "development",
+                    "type": "noun",
+                    "definition": "Growth; progress",
+                    "turkish": "gelişim, gelişme",
+                    "example": "Economic ----."
+                },
+                {
+                    "word": "device",
+                    "type": "noun",
+                    "definition": "A piece of equipment",
+                    "turkish": "cihaz, alet",
+                    "example": "Electronic ----."
+                },
+                {
+                    "word": "devil",
+                    "type": "noun",
+                    "definition": "An evil spirit",
+                    "turkish": "şeytan",
+                    "example": "The ----."
+                },
+                {
+                    "word": "diagram",
+                    "type": "noun",
+                    "definition": "A drawing showing information",
+                    "turkish": "diyagram, şema",
+                    "example": "Draw a ----."
+                },
+                {
+                    "word": "diamond",
+                    "type": "noun",
+                    "definition": "A precious stone",
+                    "turkish": "elmas",
+                    "example": "A ---- ring."
+                },
+                {
+                    "word": "diary",
+                    "type": "noun",
+                    "definition": "A book for daily notes",
+                    "turkish": "günlük",
+                    "example": "Write in my ----."
+                },
+                {
+                    "word": "dictionary",
+                    "type": "noun",
+                    "definition": "A book of words",
+                    "turkish": "sözlük",
+                    "example": "Use a ----."
+                },
+                {
+                    "word": "diet",
+                    "type": "noun",
+                    "definition": "The food you eat; eating less",
+                    "turkish": "diyet",
+                    "example": "Go on a ----."
+                },
+                {
+                    "word": "differ",
+                    "type": "verb",
+                    "definition": "To be different",
+                    "turkish": "farklı olmak",
+                    "example": "Opinions ----."
+                },
+                {
+                    "word": "difference",
+                    "type": "noun",
+                    "definition": "A way things are not the same",
+                    "turkish": "fark",
+                    "example": "What's the ----?"
+                },
+                {
+                    "word": "digital",
+                    "type": "adjective",
+                    "definition": "Using electronic technology",
+                    "turkish": "dijital",
+                    "example": "---- camera."
+                },
+                {
+                    "word": "dimension",
+                    "type": "noun",
+                    "definition": "A measurement",
+                    "turkish": "boyut",
+                    "example": "Three ----s."
+                },
+                {
+                    "word": "dining",
+                    "type": "noun",
+                    "definition": "Eating",
+                    "turkish": "yemek yeme",
+                    "example": "---- room."
+                },
+                {
+                    "word": "dinner",
+                    "type": "noun",
+                    "definition": "The evening meal",
+                    "turkish": "akşam yemeği",
+                    "example": "Have ----."
+                },
+                {
+                    "word": "direct",
+                    "type": "adjective",
+                    "definition": "Straight; honest",
+                    "turkish": "doğrudan, direkt",
+                    "example": "Be ----!"
+                },
+                {
+                    "word": "direction",
+                    "type": "noun",
+                    "definition": "The way to go",
+                    "turkish": "yön, istikamet",
+                    "example": "Which ----?"
+                },
+                {
+                    "word": "directly",
+                    "type": "adverb",
+                    "definition": "Straight; immediately",
+                    "turkish": "doğrudan",
+                    "example": "Go ----!"
+                },
+                {
+                    "word": "director",
+                    "type": "noun",
+                    "definition": "A person who directs",
+                    "turkish": "müdür, yönetmen",
+                    "example": "Film ----."
+                },
+                {
+                    "word": "dirt",
+                    "type": "noun",
+                    "definition": "Earth; filth",
+                    "turkish": "kir, toprak",
+                    "example": "Wash off the ----."
+                },
+                {
+                    "word": "dirty",
+                    "type": "adjective",
+                    "definition": "Not clean",
+                    "turkish": "kirli",
+                    "example": "---- clothes."
                 }
             ]
         }
