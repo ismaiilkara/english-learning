@@ -1,7 +1,7 @@
 {
     "title": "Oxford 3000-5000",
     "description": "Core vocabulary for English learners - A1 to B2 levels",
-    "totalWords": 800,
+    "totalWords": 1165,
     "categories": [
         {
             "id": 1,
@@ -5696,6 +5696,2609 @@
                     "definition": "Selling something; a discount",
                     "turkish": "satış, indirim",
                     "example": "There's a ---- today!"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "A1 - Basic Words (Part 17)",
+            "words": [
+                {
+                    "word": "same",
+                    "type": "adjective",
+                    "definition": "Not different; identical",
+                    "turkish": "aynı",
+                    "example": "We have the ---- teacher."
+                },
+                {
+                    "word": "sand",
+                    "type": "noun",
+                    "definition": "Tiny grains found on beaches",
+                    "turkish": "kum",
+                    "example": "The ---- is hot."
+                },
+                {
+                    "word": "sandwich",
+                    "type": "noun",
+                    "definition": "Bread with filling",
+                    "turkish": "sandviç",
+                    "example": "I want a cheese ----."
+                },
+                {
+                    "word": "Saturday",
+                    "type": "noun",
+                    "definition": "The sixth day of the week",
+                    "turkish": "Cumartesi",
+                    "example": "I rest on ----."
+                },
+                {
+                    "word": "save",
+                    "type": "verb",
+                    "definition": "To keep safe; to keep money",
+                    "turkish": "kurtarmak, biriktirmek",
+                    "example": "---- the document."
+                },
+                {
+                    "word": "say",
+                    "type": "verb",
+                    "definition": "To speak words",
+                    "turkish": "söylemek, demek",
+                    "example": "What did you ----?"
+                },
+                {
+                    "word": "scared",
+                    "type": "adjective",
+                    "definition": "Afraid",
+                    "turkish": "korkmuş",
+                    "example": "I'm ---- of spiders."
+                },
+                {
+                    "word": "school",
+                    "type": "noun",
+                    "definition": "A place for learning",
+                    "turkish": "okul",
+                    "example": "I go to ---- every day."
+                },
+                {
+                    "word": "science",
+                    "type": "noun",
+                    "definition": "The study of the natural world",
+                    "turkish": "bilim, fen",
+                    "example": "I love ---- class."
+                },
+                {
+                    "word": "screen",
+                    "type": "noun",
+                    "definition": "The display on a device",
+                    "turkish": "ekran",
+                    "example": "Look at the ----."
+                },
+                {
+                    "word": "sea",
+                    "type": "noun",
+                    "definition": "Salt water that covers earth",
+                    "turkish": "deniz",
+                    "example": "Let's go to the ----."
+                },
+                {
+                    "word": "search",
+                    "type": "verb",
+                    "definition": "To look for something",
+                    "turkish": "aramak",
+                    "example": "---- on Google."
+                },
+                {
+                    "word": "season",
+                    "type": "noun",
+                    "definition": "Spring, summer, autumn or winter",
+                    "turkish": "mevsim",
+                    "example": "What's your favorite ----?"
+                },
+                {
+                    "word": "seat",
+                    "type": "noun",
+                    "definition": "Something to sit on",
+                    "turkish": "koltuk, oturma yeri",
+                    "example": "Take a ----."
+                },
+                {
+                    "word": "second",
+                    "type": "number",
+                    "definition": "Coming after first; 1/60 of a minute",
+                    "turkish": "ikinci, saniye",
+                    "example": "Wait a ----."
+                },
+                {
+                    "word": "secret",
+                    "type": "noun",
+                    "definition": "Something kept hidden",
+                    "turkish": "sır",
+                    "example": "Don't tell my ----."
+                },
+                {
+                    "word": "section",
+                    "type": "noun",
+                    "definition": "A part of something",
+                    "turkish": "bölüm",
+                    "example": "Read this ----."
+                },
+                {
+                    "word": "see",
+                    "type": "verb",
+                    "definition": "To look at with your eyes",
+                    "turkish": "görmek",
+                    "example": "I can ---- you."
+                },
+                {
+                    "word": "seem",
+                    "type": "verb",
+                    "definition": "To appear to be",
+                    "turkish": "görünmek, gibi gelmek",
+                    "example": "You ---- happy."
+                },
+                {
+                    "word": "sell",
+                    "type": "verb",
+                    "definition": "To exchange for money",
+                    "turkish": "satmak",
+                    "example": "I want to ---- my car."
+                },
+                {
+                    "word": "send",
+                    "type": "verb",
+                    "definition": "To cause to go",
+                    "turkish": "göndermek",
+                    "example": "---- me a message."
+                },
+                {
+                    "word": "sense",
+                    "type": "noun",
+                    "definition": "A feeling; meaning",
+                    "turkish": "duyu, anlam",
+                    "example": "That makes ----."
+                },
+                {
+                    "word": "sentence",
+                    "type": "noun",
+                    "definition": "A group of words with meaning",
+                    "turkish": "cümle",
+                    "example": "Write a ----."
+                },
+                {
+                    "word": "September",
+                    "type": "noun",
+                    "definition": "The ninth month",
+                    "turkish": "Eylül",
+                    "example": "School starts in ----."
+                },
+                {
+                    "word": "serious",
+                    "type": "adjective",
+                    "definition": "Not joking; important",
+                    "turkish": "ciddi",
+                    "example": "This is ----."
+                },
+                {
+                    "word": "serve",
+                    "type": "verb",
+                    "definition": "To give food or help",
+                    "turkish": "servis yapmak, hizmet etmek",
+                    "example": "They ---- good food."
+                },
+                {
+                    "word": "service",
+                    "type": "noun",
+                    "definition": "Help provided to customers",
+                    "turkish": "hizmet, servis",
+                    "example": "The ---- here is great."
+                },
+                {
+                    "word": "set",
+                    "type": "verb",
+                    "definition": "To put in a position",
+                    "turkish": "koymak, ayarlamak",
+                    "example": "---- the alarm."
+                },
+                {
+                    "word": "seven",
+                    "type": "number",
+                    "definition": "The number 7",
+                    "turkish": "yedi",
+                    "example": "I have ---- books."
+                },
+                {
+                    "word": "seventeen",
+                    "type": "number",
+                    "definition": "The number 17",
+                    "turkish": "on yedi",
+                    "example": "She is ---- years old."
+                },
+                {
+                    "word": "seventy",
+                    "type": "number",
+                    "definition": "The number 70",
+                    "turkish": "yetmiş",
+                    "example": "My grandpa is ----."
+                },
+                {
+                    "word": "several",
+                    "type": "determiner",
+                    "definition": "More than two but not many",
+                    "turkish": "birkaç",
+                    "example": "I have ---- friends."
+                },
+                {
+                    "word": "shall",
+                    "type": "verb",
+                    "definition": "Used to make suggestions",
+                    "turkish": "-ecek, -acak",
+                    "example": "---- we go?"
+                },
+                {
+                    "word": "shape",
+                    "type": "noun",
+                    "definition": "The form of something",
+                    "turkish": "şekil",
+                    "example": "What ---- is it?"
+                },
+                {
+                    "word": "share",
+                    "type": "verb",
+                    "definition": "To use with others",
+                    "turkish": "paylaşmak",
+                    "example": "Let's ---- the pizza."
+                },
+                {
+                    "word": "she",
+                    "type": "pronoun",
+                    "definition": "That female person",
+                    "turkish": "o (dişi)",
+                    "example": "---- is my sister."
+                },
+                {
+                    "word": "ship",
+                    "type": "noun",
+                    "definition": "A large boat",
+                    "turkish": "gemi",
+                    "example": "The ---- sailed away."
+                },
+                {
+                    "word": "shirt",
+                    "type": "noun",
+                    "definition": "Clothing for upper body",
+                    "turkish": "gömlek",
+                    "example": "Wear a white ----."
+                },
+                {
+                    "word": "shoe",
+                    "type": "noun",
+                    "definition": "Covering for the foot",
+                    "turkish": "ayakkabı",
+                    "example": "I need new ----s."
+                },
+                {
+                    "word": "shop",
+                    "type": "noun",
+                    "definition": "A place for buying things",
+                    "turkish": "dükkan, mağaza",
+                    "example": "I work in a ----."
+                },
+                {
+                    "word": "shopping",
+                    "type": "noun",
+                    "definition": "Buying things from shops",
+                    "turkish": "alışveriş",
+                    "example": "Let's go ----."
+                },
+                {
+                    "word": "short",
+                    "type": "adjective",
+                    "definition": "Not tall; not long",
+                    "turkish": "kısa",
+                    "example": "She has ---- hair."
+                },
+                {
+                    "word": "should",
+                    "type": "verb",
+                    "definition": "Used to give advice",
+                    "turkish": "-meli, -malı",
+                    "example": "You ---- study."
+                },
+                {
+                    "word": "shoulder",
+                    "type": "noun",
+                    "definition": "Part of body between neck and arm",
+                    "turkish": "omuz",
+                    "example": "My ---- hurts."
+                },
+                {
+                    "word": "shout",
+                    "type": "verb",
+                    "definition": "To speak loudly",
+                    "turkish": "bağırmak",
+                    "example": "Don't ----!"
+                },
+                {
+                    "word": "show",
+                    "type": "verb",
+                    "definition": "To let someone see",
+                    "turkish": "göstermek",
+                    "example": "---- me your work."
+                },
+                {
+                    "word": "show",
+                    "type": "noun",
+                    "definition": "A performance; a TV program",
+                    "turkish": "gösteri, şov",
+                    "example": "I watched a great ----."
+                },
+                {
+                    "word": "shower",
+                    "type": "noun",
+                    "definition": "Washing with water spray",
+                    "turkish": "duş",
+                    "example": "I take a ---- every day."
+                },
+                {
+                    "word": "shut",
+                    "type": "verb",
+                    "definition": "To close",
+                    "turkish": "kapatmak",
+                    "example": "---- the door."
+                },
+                {
+                    "word": "sick",
+                    "type": "adjective",
+                    "definition": "Not well; ill",
+                    "turkish": "hasta",
+                    "example": "I feel ----."
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "A1 - Basic Words (Part 18)",
+            "words": [
+                {
+                    "word": "side",
+                    "type": "noun",
+                    "definition": "One of the surfaces",
+                    "turkish": "taraf, yan",
+                    "example": "On the right ----."
+                },
+                {
+                    "word": "sign",
+                    "type": "noun",
+                    "definition": "A notice; a symbol",
+                    "turkish": "işaret, tabela",
+                    "example": "Follow the ----s."
+                },
+                {
+                    "word": "sign",
+                    "type": "verb",
+                    "definition": "To write your name",
+                    "turkish": "imzalamak",
+                    "example": "---- here please."
+                },
+                {
+                    "word": "similar",
+                    "type": "adjective",
+                    "definition": "Like something else",
+                    "turkish": "benzer",
+                    "example": "They are very ----."
+                },
+                {
+                    "word": "simple",
+                    "type": "adjective",
+                    "definition": "Easy; not complicated",
+                    "turkish": "basit",
+                    "example": "It's a ---- question."
+                },
+                {
+                    "word": "since",
+                    "type": "preposition",
+                    "definition": "From a time in the past",
+                    "turkish": "-den beri",
+                    "example": "I've been here ---- 9am."
+                },
+                {
+                    "word": "sing",
+                    "type": "verb",
+                    "definition": "To make music with voice",
+                    "turkish": "şarkı söylemek",
+                    "example": "I love to ----."
+                },
+                {
+                    "word": "singer",
+                    "type": "noun",
+                    "definition": "A person who sings",
+                    "turkish": "şarkıcı",
+                    "example": "She's a famous ----."
+                },
+                {
+                    "word": "single",
+                    "type": "adjective",
+                    "definition": "Only one; not married",
+                    "turkish": "tek, bekar",
+                    "example": "A ---- ticket please."
+                },
+                {
+                    "word": "sister",
+                    "type": "noun",
+                    "definition": "A female sibling",
+                    "turkish": "kız kardeş, abla",
+                    "example": "This is my ----."
+                },
+                {
+                    "word": "sit",
+                    "type": "verb",
+                    "definition": "To rest on a seat",
+                    "turkish": "oturmak",
+                    "example": "Please ---- down."
+                },
+                {
+                    "word": "situation",
+                    "type": "noun",
+                    "definition": "The state of affairs",
+                    "turkish": "durum",
+                    "example": "This is a difficult ----."
+                },
+                {
+                    "word": "six",
+                    "type": "number",
+                    "definition": "The number 6",
+                    "turkish": "altı",
+                    "example": "I have ---- books."
+                },
+                {
+                    "word": "sixteen",
+                    "type": "number",
+                    "definition": "The number 16",
+                    "turkish": "on altı",
+                    "example": "She is ---- years old."
+                },
+                {
+                    "word": "sixty",
+                    "type": "number",
+                    "definition": "The number 60",
+                    "turkish": "altmış",
+                    "example": "My dad is ----."
+                },
+                {
+                    "word": "size",
+                    "type": "noun",
+                    "definition": "How big something is",
+                    "turkish": "boyut, beden",
+                    "example": "What ---- do you wear?"
+                },
+                {
+                    "word": "skill",
+                    "type": "noun",
+                    "definition": "An ability to do well",
+                    "turkish": "beceri, yetenek",
+                    "example": "Reading is a useful ----."
+                },
+                {
+                    "word": "skin",
+                    "type": "noun",
+                    "definition": "The outer covering of body",
+                    "turkish": "cilt, deri",
+                    "example": "She has nice ----."
+                },
+                {
+                    "word": "skirt",
+                    "type": "noun",
+                    "definition": "Women's clothing for lower body",
+                    "turkish": "etek",
+                    "example": "She wears a blue ----."
+                },
+                {
+                    "word": "sky",
+                    "type": "noun",
+                    "definition": "The space above earth",
+                    "turkish": "gökyüzü",
+                    "example": "The ---- is blue."
+                },
+                {
+                    "word": "sleep",
+                    "type": "verb",
+                    "definition": "To rest with eyes closed",
+                    "turkish": "uyumak",
+                    "example": "I need to ----."
+                },
+                {
+                    "word": "slow",
+                    "type": "adjective",
+                    "definition": "Not fast",
+                    "turkish": "yavaş",
+                    "example": "The car is too ----."
+                },
+                {
+                    "word": "slowly",
+                    "type": "adverb",
+                    "definition": "At a slow speed",
+                    "turkish": "yavaşça",
+                    "example": "Walk ----."
+                },
+                {
+                    "word": "small",
+                    "type": "adjective",
+                    "definition": "Little in size",
+                    "turkish": "küçük",
+                    "example": "I live in a ---- house."
+                },
+                {
+                    "word": "smart",
+                    "type": "adjective",
+                    "definition": "Intelligent; stylish",
+                    "turkish": "akıllı, şık",
+                    "example": "She's very ----."
+                },
+                {
+                    "word": "smell",
+                    "type": "verb",
+                    "definition": "To sense with the nose",
+                    "turkish": "koklamak, kokmak",
+                    "example": "---- this flower."
+                },
+                {
+                    "word": "smile",
+                    "type": "verb",
+                    "definition": "To look happy with mouth",
+                    "turkish": "gülümsemek",
+                    "example": "---- for the photo!"
+                },
+                {
+                    "word": "smoke",
+                    "type": "noun",
+                    "definition": "Gas from burning",
+                    "turkish": "duman",
+                    "example": "There's ---- everywhere."
+                },
+                {
+                    "word": "snow",
+                    "type": "noun",
+                    "definition": "Frozen water from sky",
+                    "turkish": "kar",
+                    "example": "I love ----!"
+                },
+                {
+                    "word": "so",
+                    "type": "adverb",
+                    "definition": "To such a degree",
+                    "turkish": "çok, bu yüzden",
+                    "example": "I'm ---- tired."
+                },
+                {
+                    "word": "social",
+                    "type": "adjective",
+                    "definition": "Relating to society",
+                    "turkish": "sosyal",
+                    "example": "---- media is popular."
+                },
+                {
+                    "word": "society",
+                    "type": "noun",
+                    "definition": "People living together",
+                    "turkish": "toplum",
+                    "example": "We live in ----."
+                },
+                {
+                    "word": "sock",
+                    "type": "noun",
+                    "definition": "Covering for foot",
+                    "turkish": "çorap",
+                    "example": "Put on your ----s."
+                },
+                {
+                    "word": "sofa",
+                    "type": "noun",
+                    "definition": "A long comfortable seat",
+                    "turkish": "kanepe",
+                    "example": "Sit on the ----."
+                },
+                {
+                    "word": "soft",
+                    "type": "adjective",
+                    "definition": "Not hard; gentle",
+                    "turkish": "yumuşak",
+                    "example": "This pillow is ----."
+                },
+                {
+                    "word": "some",
+                    "type": "determiner",
+                    "definition": "An amount of",
+                    "turkish": "biraz, bazı",
+                    "example": "I want ---- water."
+                },
+                {
+                    "word": "somebody",
+                    "type": "pronoun",
+                    "definition": "Some person",
+                    "turkish": "biri",
+                    "example": "---- is calling."
+                },
+                {
+                    "word": "someone",
+                    "type": "pronoun",
+                    "definition": "Some person",
+                    "turkish": "biri",
+                    "example": "---- left this here."
+                },
+                {
+                    "word": "something",
+                    "type": "pronoun",
+                    "definition": "Some thing",
+                    "turkish": "bir şey",
+                    "example": "I want ---- to eat."
+                },
+                {
+                    "word": "sometimes",
+                    "type": "adverb",
+                    "definition": "Occasionally",
+                    "turkish": "bazen",
+                    "example": "I ---- walk to work."
+                },
+                {
+                    "word": "somewhere",
+                    "type": "adverb",
+                    "definition": "In some place",
+                    "turkish": "bir yerde",
+                    "example": "Let's go ----."
+                },
+                {
+                    "word": "son",
+                    "type": "noun",
+                    "definition": "A male child",
+                    "turkish": "oğul",
+                    "example": "This is my ----."
+                },
+                {
+                    "word": "song",
+                    "type": "noun",
+                    "definition": "Music with words",
+                    "turkish": "şarkı",
+                    "example": "I love this ----."
+                },
+                {
+                    "word": "soon",
+                    "type": "adverb",
+                    "definition": "In a short time",
+                    "turkish": "yakında",
+                    "example": "See you ----!"
+                },
+                {
+                    "word": "sorry",
+                    "type": "adjective",
+                    "definition": "Feeling regret",
+                    "turkish": "üzgün, özür dilerim",
+                    "example": "I'm ---- I'm late."
+                },
+                {
+                    "word": "sort",
+                    "type": "noun",
+                    "definition": "A type or kind",
+                    "turkish": "tür, çeşit",
+                    "example": "What ---- of food?"
+                },
+                {
+                    "word": "sound",
+                    "type": "noun",
+                    "definition": "Something you hear",
+                    "turkish": "ses",
+                    "example": "What's that ----?"
+                },
+                {
+                    "word": "soup",
+                    "type": "noun",
+                    "definition": "Liquid food",
+                    "turkish": "çorba",
+                    "example": "I love tomato ----."
+                },
+                {
+                    "word": "south",
+                    "type": "noun",
+                    "definition": "The direction opposite to north",
+                    "turkish": "güney",
+                    "example": "Go ----."
+                },
+                {
+                    "word": "space",
+                    "type": "noun",
+                    "definition": "An empty area; the universe",
+                    "turkish": "boşluk, uzay",
+                    "example": "There's no ----."
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "A1 - Basic Words (Part 19)",
+            "words": [
+                {
+                    "word": "speak",
+                    "type": "verb",
+                    "definition": "To talk; to say words",
+                    "turkish": "konuşmak",
+                    "example": "Can you ---- English?"
+                },
+                {
+                    "word": "special",
+                    "type": "adjective",
+                    "definition": "Not ordinary; important",
+                    "turkish": "özel",
+                    "example": "Today is a ---- day."
+                },
+                {
+                    "word": "speed",
+                    "type": "noun",
+                    "definition": "How fast something moves",
+                    "turkish": "hız",
+                    "example": "Reduce your ----."
+                },
+                {
+                    "word": "spell",
+                    "type": "verb",
+                    "definition": "To say the letters of a word",
+                    "turkish": "hecelemek",
+                    "example": "How do you ---- that?"
+                },
+                {
+                    "word": "spend",
+                    "type": "verb",
+                    "definition": "To use money or time",
+                    "turkish": "harcamak, geçirmek",
+                    "example": "Don't ---- too much."
+                },
+                {
+                    "word": "spoon",
+                    "type": "noun",
+                    "definition": "An eating utensil",
+                    "turkish": "kaşık",
+                    "example": "Give me a ----."
+                },
+                {
+                    "word": "sport",
+                    "type": "noun",
+                    "definition": "Physical activity for fun",
+                    "turkish": "spor",
+                    "example": "What ---- do you play?"
+                },
+                {
+                    "word": "spring",
+                    "type": "noun",
+                    "definition": "The season after winter",
+                    "turkish": "ilkbahar",
+                    "example": "Flowers bloom in ----."
+                },
+                {
+                    "word": "square",
+                    "type": "noun",
+                    "definition": "A shape with 4 equal sides",
+                    "turkish": "kare, meydan",
+                    "example": "Draw a ----."
+                },
+                {
+                    "word": "stadium",
+                    "type": "noun",
+                    "definition": "A place for sports events",
+                    "turkish": "stadyum",
+                    "example": "The ---- is full."
+                },
+                {
+                    "word": "staff",
+                    "type": "noun",
+                    "definition": "The workers in a company",
+                    "turkish": "personel",
+                    "example": "The ---- is helpful."
+                },
+                {
+                    "word": "stage",
+                    "type": "noun",
+                    "definition": "A platform for performances",
+                    "turkish": "sahne",
+                    "example": "Go on ----."
+                },
+                {
+                    "word": "stair",
+                    "type": "noun",
+                    "definition": "A step for climbing",
+                    "turkish": "merdiven",
+                    "example": "Take the ----s."
+                },
+                {
+                    "word": "stand",
+                    "type": "verb",
+                    "definition": "To be on your feet",
+                    "turkish": "ayakta durmak",
+                    "example": "---- up please."
+                },
+                {
+                    "word": "star",
+                    "type": "noun",
+                    "definition": "A light in the night sky",
+                    "turkish": "yıldız",
+                    "example": "Look at the ----s!"
+                },
+                {
+                    "word": "start",
+                    "type": "verb",
+                    "definition": "To begin",
+                    "turkish": "başlamak",
+                    "example": "Let's ----!"
+                },
+                {
+                    "word": "state",
+                    "type": "noun",
+                    "definition": "A condition; a country's part",
+                    "turkish": "durum, eyalet",
+                    "example": "What ---- is this?"
+                },
+                {
+                    "word": "statement",
+                    "type": "noun",
+                    "definition": "Something that is said",
+                    "turkish": "ifade, beyan",
+                    "example": "Make a ----."
+                },
+                {
+                    "word": "station",
+                    "type": "noun",
+                    "definition": "A place for trains/buses",
+                    "turkish": "istasyon",
+                    "example": "The ---- is near."
+                },
+                {
+                    "word": "stay",
+                    "type": "verb",
+                    "definition": "To remain in a place",
+                    "turkish": "kalmak",
+                    "example": "---- here!"
+                },
+                {
+                    "word": "steal",
+                    "type": "verb",
+                    "definition": "To take without permission",
+                    "turkish": "çalmak",
+                    "example": "Don't ----!"
+                },
+                {
+                    "word": "step",
+                    "type": "noun",
+                    "definition": "A foot movement; a stair",
+                    "turkish": "adım, basamak",
+                    "example": "Take one ---- forward."
+                },
+                {
+                    "word": "still",
+                    "type": "adverb",
+                    "definition": "Up to now; even so",
+                    "turkish": "hala, yine de",
+                    "example": "I ---- love you."
+                },
+                {
+                    "word": "stomach",
+                    "type": "noun",
+                    "definition": "Part of body for digestion",
+                    "turkish": "mide, karın",
+                    "example": "My ---- hurts."
+                },
+                {
+                    "word": "stop",
+                    "type": "verb",
+                    "definition": "To not continue",
+                    "turkish": "durmak",
+                    "example": "---- the car!"
+                },
+                {
+                    "word": "store",
+                    "type": "noun",
+                    "definition": "A shop",
+                    "turkish": "mağaza, dükkan",
+                    "example": "I work at a ----."
+                },
+                {
+                    "word": "storm",
+                    "type": "noun",
+                    "definition": "Bad weather with wind/rain",
+                    "turkish": "fırtına",
+                    "example": "A ---- is coming."
+                },
+                {
+                    "word": "story",
+                    "type": "noun",
+                    "definition": "A tale; a narrative",
+                    "turkish": "hikaye",
+                    "example": "Tell me a ----."
+                },
+                {
+                    "word": "straight",
+                    "type": "adjective",
+                    "definition": "Not curved; direct",
+                    "turkish": "düz, doğru",
+                    "example": "Go ----."
+                },
+                {
+                    "word": "strange",
+                    "type": "adjective",
+                    "definition": "Unusual; odd",
+                    "turkish": "garip, tuhaf",
+                    "example": "That's ----."
+                },
+                {
+                    "word": "street",
+                    "type": "noun",
+                    "definition": "A road in a town",
+                    "turkish": "sokak, cadde",
+                    "example": "I live on this ----."
+                },
+                {
+                    "word": "strong",
+                    "type": "adjective",
+                    "definition": "Having power; not weak",
+                    "turkish": "güçlü, kuvvetli",
+                    "example": "He is very ----."
+                },
+                {
+                    "word": "student",
+                    "type": "noun",
+                    "definition": "A person who studies",
+                    "turkish": "öğrenci",
+                    "example": "I'm a university ----."
+                },
+                {
+                    "word": "study",
+                    "type": "verb",
+                    "definition": "To learn about a subject",
+                    "turkish": "çalışmak, okumak",
+                    "example": "I ---- English."
+                },
+                {
+                    "word": "stuff",
+                    "type": "noun",
+                    "definition": "Things (informal)",
+                    "turkish": "eşya, malzeme",
+                    "example": "What's this ----?"
+                },
+                {
+                    "word": "stupid",
+                    "type": "adjective",
+                    "definition": "Not intelligent",
+                    "turkish": "aptal",
+                    "example": "That was ----!"
+                },
+                {
+                    "word": "style",
+                    "type": "noun",
+                    "definition": "A way of doing things",
+                    "turkish": "stil, tarz",
+                    "example": "I like your ----."
+                },
+                {
+                    "word": "subject",
+                    "type": "noun",
+                    "definition": "A topic; a school subject",
+                    "turkish": "konu, ders",
+                    "example": "What's your favorite ----?"
+                },
+                {
+                    "word": "success",
+                    "type": "noun",
+                    "definition": "Achieving what you wanted",
+                    "turkish": "başarı",
+                    "example": "I wish you ----!"
+                },
+                {
+                    "word": "successful",
+                    "type": "adjective",
+                    "definition": "Having success",
+                    "turkish": "başarılı",
+                    "example": "She is very ----."
+                },
+                {
+                    "word": "such",
+                    "type": "determiner",
+                    "definition": "Of that type",
+                    "turkish": "böyle, öyle",
+                    "example": "---- a nice day!"
+                },
+                {
+                    "word": "suddenly",
+                    "type": "adverb",
+                    "definition": "Quickly and unexpectedly",
+                    "turkish": "aniden",
+                    "example": "----, it rained."
+                },
+                {
+                    "word": "sugar",
+                    "type": "noun",
+                    "definition": "A sweet substance",
+                    "turkish": "şeker",
+                    "example": "I don't want ----."
+                },
+                {
+                    "word": "suggest",
+                    "type": "verb",
+                    "definition": "To propose an idea",
+                    "turkish": "önermek",
+                    "example": "I ---- we leave."
+                },
+                {
+                    "word": "suit",
+                    "type": "noun",
+                    "definition": "Formal clothes",
+                    "turkish": "takım elbise",
+                    "example": "Wear a ----."
+                },
+                {
+                    "word": "summer",
+                    "type": "noun",
+                    "definition": "The hottest season",
+                    "turkish": "yaz",
+                    "example": "I love ----!"
+                },
+                {
+                    "word": "sun",
+                    "type": "noun",
+                    "definition": "The star that lights earth",
+                    "turkish": "güneş",
+                    "example": "The ---- is shining."
+                },
+                {
+                    "word": "Sunday",
+                    "type": "noun",
+                    "definition": "The seventh day of the week",
+                    "turkish": "Pazar",
+                    "example": "I rest on ----."
+                },
+                {
+                    "word": "supermarket",
+                    "type": "noun",
+                    "definition": "A large food shop",
+                    "turkish": "süpermarket",
+                    "example": "I go to the ----."
+                },
+                {
+                    "word": "support",
+                    "type": "verb",
+                    "definition": "To help; to encourage",
+                    "turkish": "desteklemek",
+                    "example": "I ---- you!"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "A1 - Basic Words (Part 20)",
+            "words": [
+                {
+                    "word": "suppose",
+                    "type": "verb",
+                    "definition": "To think; to assume",
+                    "turkish": "sanmak, varsaymak",
+                    "example": "I ---- so."
+                },
+                {
+                    "word": "sure",
+                    "type": "adjective",
+                    "definition": "Certain; confident",
+                    "turkish": "emin",
+                    "example": "Are you ----?"
+                },
+                {
+                    "word": "surprise",
+                    "type": "noun",
+                    "definition": "Something unexpected",
+                    "turkish": "sürpriz",
+                    "example": "What a ----!"
+                },
+                {
+                    "word": "surprised",
+                    "type": "adjective",
+                    "definition": "Feeling surprise",
+                    "turkish": "şaşırmış",
+                    "example": "I'm ----!"
+                },
+                {
+                    "word": "sweet",
+                    "type": "adjective",
+                    "definition": "Tasting like sugar",
+                    "turkish": "tatlı",
+                    "example": "This cake is ----."
+                },
+                {
+                    "word": "swim",
+                    "type": "verb",
+                    "definition": "To move through water",
+                    "turkish": "yüzmek",
+                    "example": "I can ----."
+                },
+                {
+                    "word": "system",
+                    "type": "noun",
+                    "definition": "A set of connected things",
+                    "turkish": "sistem",
+                    "example": "The ---- is down."
+                },
+                {
+                    "word": "table",
+                    "type": "noun",
+                    "definition": "Furniture with a flat top",
+                    "turkish": "masa",
+                    "example": "Put it on the ----."
+                },
+                {
+                    "word": "take",
+                    "type": "verb",
+                    "definition": "To get hold of; to carry",
+                    "turkish": "almak, götürmek",
+                    "example": "---- this book."
+                },
+                {
+                    "word": "talk",
+                    "type": "verb",
+                    "definition": "To speak to someone",
+                    "turkish": "konuşmak",
+                    "example": "Let's ----."
+                },
+                {
+                    "word": "tall",
+                    "type": "adjective",
+                    "definition": "Having great height",
+                    "turkish": "uzun (boylu)",
+                    "example": "He is very ----."
+                },
+                {
+                    "word": "taste",
+                    "type": "verb",
+                    "definition": "To sense with the tongue",
+                    "turkish": "tatmak",
+                    "example": "---- this soup."
+                },
+                {
+                    "word": "taxi",
+                    "type": "noun",
+                    "definition": "A car you pay to ride in",
+                    "turkish": "taksi",
+                    "example": "Call a ----."
+                },
+                {
+                    "word": "tea",
+                    "type": "noun",
+                    "definition": "A hot drink made from leaves",
+                    "turkish": "çay",
+                    "example": "I love Turkish ----."
+                },
+                {
+                    "word": "teach",
+                    "type": "verb",
+                    "definition": "To give lessons",
+                    "turkish": "öğretmek",
+                    "example": "I ---- English."
+                },
+                {
+                    "word": "teacher",
+                    "type": "noun",
+                    "definition": "A person who teaches",
+                    "turkish": "öğretmen",
+                    "example": "My ---- is great."
+                },
+                {
+                    "word": "team",
+                    "type": "noun",
+                    "definition": "A group working together",
+                    "turkish": "takım",
+                    "example": "Join our ----."
+                },
+                {
+                    "word": "technology",
+                    "type": "noun",
+                    "definition": "Scientific knowledge for practical use",
+                    "turkish": "teknoloji",
+                    "example": "I love ----!"
+                },
+                {
+                    "word": "telephone",
+                    "type": "noun",
+                    "definition": "A device for talking over distance",
+                    "turkish": "telefon",
+                    "example": "Answer the ----."
+                },
+                {
+                    "word": "television",
+                    "type": "noun",
+                    "definition": "A device for watching shows",
+                    "turkish": "televizyon",
+                    "example": "Watch ----."
+                },
+                {
+                    "word": "tell",
+                    "type": "verb",
+                    "definition": "To say to someone",
+                    "turkish": "söylemek, anlatmak",
+                    "example": "---- me the truth."
+                },
+                {
+                    "word": "temperature",
+                    "type": "noun",
+                    "definition": "How hot or cold something is",
+                    "turkish": "sıcaklık",
+                    "example": "What's the ----?"
+                },
+                {
+                    "word": "ten",
+                    "type": "number",
+                    "definition": "The number 10",
+                    "turkish": "on",
+                    "example": "I have ---- books."
+                },
+                {
+                    "word": "term",
+                    "type": "noun",
+                    "definition": "A word; a school period",
+                    "turkish": "terim, dönem",
+                    "example": "What does this ---- mean?"
+                },
+                {
+                    "word": "terrible",
+                    "type": "adjective",
+                    "definition": "Very bad",
+                    "turkish": "korkunç, berbat",
+                    "example": "The weather is ----."
+                },
+                {
+                    "word": "test",
+                    "type": "noun",
+                    "definition": "An examination",
+                    "turkish": "sınav, test",
+                    "example": "I have a ---- tomorrow."
+                },
+                {
+                    "word": "text",
+                    "type": "noun",
+                    "definition": "Written words; a message",
+                    "turkish": "metin, mesaj",
+                    "example": "Send me a ----."
+                },
+                {
+                    "word": "than",
+                    "type": "conjunction",
+                    "definition": "Used for comparing",
+                    "turkish": "-den, -dan",
+                    "example": "I'm taller ---- you."
+                },
+                {
+                    "word": "thank",
+                    "type": "verb",
+                    "definition": "To express gratitude",
+                    "turkish": "teşekkür etmek",
+                    "example": "---- you!"
+                },
+                {
+                    "word": "that",
+                    "type": "determiner",
+                    "definition": "Used to identify something",
+                    "turkish": "o, şu",
+                    "example": "What's ----?"
+                },
+                {
+                    "word": "the",
+                    "type": "determiner",
+                    "definition": "Used before a specific noun",
+                    "turkish": "belirli tanımlık",
+                    "example": "---- book is on ---- table."
+                },
+                {
+                    "word": "theatre",
+                    "type": "noun",
+                    "definition": "A place for watching plays",
+                    "turkish": "tiyatro",
+                    "example": "Let's go to the ----."
+                },
+                {
+                    "word": "their",
+                    "type": "determiner",
+                    "definition": "Belonging to them",
+                    "turkish": "onların",
+                    "example": "This is ---- house."
+                },
+                {
+                    "word": "them",
+                    "type": "pronoun",
+                    "definition": "Object form of they",
+                    "turkish": "onları, onlara",
+                    "example": "I saw ----."
+                },
+                {
+                    "word": "themselves",
+                    "type": "pronoun",
+                    "definition": "Reflexive of they",
+                    "turkish": "kendileri",
+                    "example": "They did it ----."
+                },
+                {
+                    "word": "then",
+                    "type": "adverb",
+                    "definition": "At that time; next",
+                    "turkish": "o zaman, sonra",
+                    "example": "I was young ----."
+                },
+                {
+                    "word": "there",
+                    "type": "adverb",
+                    "definition": "In that place",
+                    "turkish": "orada",
+                    "example": "Go ----."
+                },
+                {
+                    "word": "these",
+                    "type": "determiner",
+                    "definition": "Plural of this",
+                    "turkish": "bunlar",
+                    "example": "---- are mine."
+                },
+                {
+                    "word": "they",
+                    "type": "pronoun",
+                    "definition": "Those people",
+                    "turkish": "onlar",
+                    "example": "---- are coming."
+                },
+                {
+                    "word": "thick",
+                    "type": "adjective",
+                    "definition": "Not thin",
+                    "turkish": "kalın",
+                    "example": "This book is ----."
+                },
+                {
+                    "word": "thin",
+                    "type": "adjective",
+                    "definition": "Not thick; slim",
+                    "turkish": "ince, zayıf",
+                    "example": "She is very ----."
+                },
+                {
+                    "word": "thing",
+                    "type": "noun",
+                    "definition": "An object or idea",
+                    "turkish": "şey",
+                    "example": "What's this ----?"
+                },
+                {
+                    "word": "think",
+                    "type": "verb",
+                    "definition": "To use your mind",
+                    "turkish": "düşünmek",
+                    "example": "I ---- it's good."
+                },
+                {
+                    "word": "third",
+                    "type": "number",
+                    "definition": "Coming after second",
+                    "turkish": "üçüncü",
+                    "example": "I came ----."
+                },
+                {
+                    "word": "thirsty",
+                    "type": "adjective",
+                    "definition": "Wanting a drink",
+                    "turkish": "susamış",
+                    "example": "I'm so ----."
+                },
+                {
+                    "word": "thirteen",
+                    "type": "number",
+                    "definition": "The number 13",
+                    "turkish": "on üç",
+                    "example": "I have ---- books."
+                },
+                {
+                    "word": "thirty",
+                    "type": "number",
+                    "definition": "The number 30",
+                    "turkish": "otuz",
+                    "example": "I'm ----."
+                },
+                {
+                    "word": "this",
+                    "type": "determiner",
+                    "definition": "Referring to something near",
+                    "turkish": "bu",
+                    "example": "---- is my book."
+                },
+                {
+                    "word": "those",
+                    "type": "determiner",
+                    "definition": "Plural of that",
+                    "turkish": "onlar, şunlar",
+                    "example": "---- are yours."
+                },
+                {
+                    "word": "though",
+                    "type": "conjunction",
+                    "definition": "Although; however",
+                    "turkish": "rağmen, ama",
+                    "example": "I'll try, ----."
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "A1 - Basic Words (Part 21)",
+            "words": [
+                {
+                    "word": "thought",
+                    "type": "noun",
+                    "definition": "An idea in your mind",
+                    "turkish": "düşünce",
+                    "example": "Just a ----."
+                },
+                {
+                    "word": "thousand",
+                    "type": "number",
+                    "definition": "The number 1000",
+                    "turkish": "bin",
+                    "example": "A ---- people came."
+                },
+                {
+                    "word": "three",
+                    "type": "number",
+                    "definition": "The number 3",
+                    "turkish": "üç",
+                    "example": "I have ---- sisters."
+                },
+                {
+                    "word": "through",
+                    "type": "preposition",
+                    "definition": "From one end to another",
+                    "turkish": "aracılığıyla, boyunca",
+                    "example": "Walk ---- the door."
+                },
+                {
+                    "word": "throw",
+                    "type": "verb",
+                    "definition": "To send through the air",
+                    "turkish": "fırlatmak, atmak",
+                    "example": "---- the ball!"
+                },
+                {
+                    "word": "Thursday",
+                    "type": "noun",
+                    "definition": "The fourth day of the week",
+                    "turkish": "Perşembe",
+                    "example": "See you on ----."
+                },
+                {
+                    "word": "ticket",
+                    "type": "noun",
+                    "definition": "A paper for entry",
+                    "turkish": "bilet",
+                    "example": "Buy a ----."
+                },
+                {
+                    "word": "tidy",
+                    "type": "adjective",
+                    "definition": "Neat and organized",
+                    "turkish": "düzenli, temiz",
+                    "example": "Keep your room ----."
+                },
+                {
+                    "word": "tie",
+                    "type": "noun",
+                    "definition": "Clothing worn around neck",
+                    "turkish": "kravat",
+                    "example": "Wear a ----."
+                },
+                {
+                    "word": "time",
+                    "type": "noun",
+                    "definition": "Hours, minutes, seconds",
+                    "turkish": "zaman, vakit",
+                    "example": "What ---- is it?"
+                },
+                {
+                    "word": "tiny",
+                    "type": "adjective",
+                    "definition": "Very small",
+                    "turkish": "minik, çok küçük",
+                    "example": "A ---- baby."
+                },
+                {
+                    "word": "tip",
+                    "type": "noun",
+                    "definition": "Extra money for service",
+                    "turkish": "bahşiş, ipucu",
+                    "example": "Leave a ----."
+                },
+                {
+                    "word": "tired",
+                    "type": "adjective",
+                    "definition": "Needing sleep or rest",
+                    "turkish": "yorgun",
+                    "example": "I'm so ----."
+                },
+                {
+                    "word": "title",
+                    "type": "noun",
+                    "definition": "The name of something",
+                    "turkish": "başlık, unvan",
+                    "example": "What's the ----?"
+                },
+                {
+                    "word": "to",
+                    "type": "preposition",
+                    "definition": "In the direction of",
+                    "turkish": "-e, -a, -ye, -ya",
+                    "example": "Go ---- school."
+                },
+                {
+                    "word": "today",
+                    "type": "adverb",
+                    "definition": "On this day",
+                    "turkish": "bugün",
+                    "example": "What's ----'s date?"
+                },
+                {
+                    "word": "toe",
+                    "type": "noun",
+                    "definition": "Part of the foot",
+                    "turkish": "ayak parmağı",
+                    "example": "I hurt my ----."
+                },
+                {
+                    "word": "together",
+                    "type": "adverb",
+                    "definition": "With each other",
+                    "turkish": "birlikte",
+                    "example": "Let's work ----."
+                },
+                {
+                    "word": "toilet",
+                    "type": "noun",
+                    "definition": "A bathroom fixture",
+                    "turkish": "tuvalet",
+                    "example": "Where's the ----?"
+                },
+                {
+                    "word": "tomato",
+                    "type": "noun",
+                    "definition": "A red fruit/vegetable",
+                    "turkish": "domates",
+                    "example": "I love ----es."
+                },
+                {
+                    "word": "tomorrow",
+                    "type": "adverb",
+                    "definition": "The day after today",
+                    "turkish": "yarın",
+                    "example": "See you ----!"
+                },
+                {
+                    "word": "tonight",
+                    "type": "adverb",
+                    "definition": "This night",
+                    "turkish": "bu gece",
+                    "example": "What's on ----?"
+                },
+                {
+                    "word": "too",
+                    "type": "adverb",
+                    "definition": "Also; excessively",
+                    "turkish": "de, da, çok",
+                    "example": "Me ----!"
+                },
+                {
+                    "word": "tool",
+                    "type": "noun",
+                    "definition": "Equipment for work",
+                    "turkish": "alet",
+                    "example": "Use the right ----."
+                },
+                {
+                    "word": "tooth",
+                    "type": "noun",
+                    "definition": "Hard part in mouth for biting",
+                    "turkish": "diş",
+                    "example": "Brush your ----!"
+                },
+                {
+                    "word": "top",
+                    "type": "noun",
+                    "definition": "The highest part",
+                    "turkish": "üst, tepe",
+                    "example": "At the ---- of the hill."
+                },
+                {
+                    "word": "total",
+                    "type": "adjective",
+                    "definition": "Complete; whole",
+                    "turkish": "toplam",
+                    "example": "What's the ----?"
+                },
+                {
+                    "word": "touch",
+                    "type": "verb",
+                    "definition": "To feel with hands",
+                    "turkish": "dokunmak",
+                    "example": "Don't ---- that!"
+                },
+                {
+                    "word": "tour",
+                    "type": "noun",
+                    "definition": "A trip to see places",
+                    "turkish": "tur",
+                    "example": "Take a ---- of the city."
+                },
+                {
+                    "word": "tourist",
+                    "type": "noun",
+                    "definition": "A person traveling for fun",
+                    "turkish": "turist",
+                    "example": "Many ----s visit here."
+                },
+                {
+                    "word": "towards",
+                    "type": "preposition",
+                    "definition": "In the direction of",
+                    "turkish": "doğru, -e doğru",
+                    "example": "Walk ---- the park."
+                },
+                {
+                    "word": "towel",
+                    "type": "noun",
+                    "definition": "Cloth for drying",
+                    "turkish": "havlu",
+                    "example": "Bring a ----."
+                },
+                {
+                    "word": "tower",
+                    "type": "noun",
+                    "definition": "A tall narrow building",
+                    "turkish": "kule",
+                    "example": "Look at that ----!"
+                },
+                {
+                    "word": "town",
+                    "type": "noun",
+                    "definition": "A small city",
+                    "turkish": "kasaba",
+                    "example": "I live in a small ----."
+                },
+                {
+                    "word": "toy",
+                    "type": "noun",
+                    "definition": "Something to play with",
+                    "turkish": "oyuncak",
+                    "example": "Buy a ---- for the kid."
+                },
+                {
+                    "word": "track",
+                    "type": "noun",
+                    "definition": "A path; a song",
+                    "turkish": "iz, parça",
+                    "example": "Play the next ----."
+                },
+                {
+                    "word": "traffic",
+                    "type": "noun",
+                    "definition": "Vehicles on roads",
+                    "turkish": "trafik",
+                    "example": "There's a lot of ----."
+                },
+                {
+                    "word": "train",
+                    "type": "noun",
+                    "definition": "A railway vehicle",
+                    "turkish": "tren",
+                    "example": "Take the ----."
+                },
+                {
+                    "word": "train",
+                    "type": "verb",
+                    "definition": "To teach skills",
+                    "turkish": "eğitmek, antrenman yapmak",
+                    "example": "I ---- every day."
+                },
+                {
+                    "word": "translate",
+                    "type": "verb",
+                    "definition": "To change to another language",
+                    "turkish": "tercüme etmek",
+                    "example": "---- this sentence."
+                },
+                {
+                    "word": "travel",
+                    "type": "verb",
+                    "definition": "To go from place to place",
+                    "turkish": "seyahat etmek",
+                    "example": "I love to ----."
+                },
+                {
+                    "word": "tree",
+                    "type": "noun",
+                    "definition": "A tall plant with branches",
+                    "turkish": "ağaç",
+                    "example": "Climb the ----."
+                },
+                {
+                    "word": "trip",
+                    "type": "noun",
+                    "definition": "A journey",
+                    "turkish": "gezi, yolculuk",
+                    "example": "Have a nice ----!"
+                },
+                {
+                    "word": "trouble",
+                    "type": "noun",
+                    "definition": "Problems; difficulty",
+                    "turkish": "sorun, bela",
+                    "example": "I'm in ----."
+                },
+                {
+                    "word": "trousers",
+                    "type": "noun",
+                    "definition": "Pants (British)",
+                    "turkish": "pantolon",
+                    "example": "Wear ---- to work."
+                },
+                {
+                    "word": "true",
+                    "type": "adjective",
+                    "definition": "Correct; real",
+                    "turkish": "doğru, gerçek",
+                    "example": "Is it ----?"
+                },
+                {
+                    "word": "trust",
+                    "type": "verb",
+                    "definition": "To believe someone",
+                    "turkish": "güvenmek",
+                    "example": "I ---- you."
+                },
+                {
+                    "word": "truth",
+                    "type": "noun",
+                    "definition": "What is true",
+                    "turkish": "gerçek, doğru",
+                    "example": "Tell me the ----."
+                },
+                {
+                    "word": "try",
+                    "type": "verb",
+                    "definition": "To attempt; to test",
+                    "turkish": "denemek",
+                    "example": "---- again!"
+                },
+                {
+                    "word": "Tuesday",
+                    "type": "noun",
+                    "definition": "The second day of the week",
+                    "turkish": "Salı",
+                    "example": "See you on ----."
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "A1 - Basic Words (Part 22)",
+            "words": [
+                {
+                    "word": "turn",
+                    "type": "verb",
+                    "definition": "To change direction",
+                    "turkish": "dönmek",
+                    "example": "---- left here."
+                },
+                {
+                    "word": "TV",
+                    "type": "noun",
+                    "definition": "Television",
+                    "turkish": "televizyon",
+                    "example": "Watch ----."
+                },
+                {
+                    "word": "twelve",
+                    "type": "number",
+                    "definition": "The number 12",
+                    "turkish": "on iki",
+                    "example": "I have ---- books."
+                },
+                {
+                    "word": "twenty",
+                    "type": "number",
+                    "definition": "The number 20",
+                    "turkish": "yirmi",
+                    "example": "I'm ---- years old."
+                },
+                {
+                    "word": "twice",
+                    "type": "adverb",
+                    "definition": "Two times",
+                    "turkish": "iki kez",
+                    "example": "I called ----."
+                },
+                {
+                    "word": "two",
+                    "type": "number",
+                    "definition": "The number 2",
+                    "turkish": "iki",
+                    "example": "I have ---- sisters."
+                },
+                {
+                    "word": "type",
+                    "type": "noun",
+                    "definition": "A kind or category",
+                    "turkish": "tür, çeşit",
+                    "example": "What ---- do you want?"
+                },
+                {
+                    "word": "typical",
+                    "type": "adjective",
+                    "definition": "Normal; usual",
+                    "turkish": "tipik",
+                    "example": "That's ----."
+                },
+                {
+                    "word": "ugly",
+                    "type": "adjective",
+                    "definition": "Not beautiful",
+                    "turkish": "çirkin",
+                    "example": "That's an ---- building."
+                },
+                {
+                    "word": "umbrella",
+                    "type": "noun",
+                    "definition": "Protection from rain",
+                    "turkish": "şemsiye",
+                    "example": "Bring an ----."
+                },
+                {
+                    "word": "uncle",
+                    "type": "noun",
+                    "definition": "Parent's brother",
+                    "turkish": "amca, dayı",
+                    "example": "My ---- is funny."
+                },
+                {
+                    "word": "under",
+                    "type": "preposition",
+                    "definition": "Below",
+                    "turkish": "altında",
+                    "example": "Look ---- the bed."
+                },
+                {
+                    "word": "understand",
+                    "type": "verb",
+                    "definition": "To comprehend",
+                    "turkish": "anlamak",
+                    "example": "I ---- you."
+                },
+                {
+                    "word": "unfortunately",
+                    "type": "adverb",
+                    "definition": "Sadly",
+                    "turkish": "maalesef",
+                    "example": "----, I can't come."
+                },
+                {
+                    "word": "unhappy",
+                    "type": "adjective",
+                    "definition": "Not happy; sad",
+                    "turkish": "mutsuz",
+                    "example": "Don't be ----."
+                },
+                {
+                    "word": "uniform",
+                    "type": "noun",
+                    "definition": "Special clothes for work/school",
+                    "turkish": "üniforma",
+                    "example": "Wear your ----."
+                },
+                {
+                    "word": "university",
+                    "type": "noun",
+                    "definition": "A place for higher education",
+                    "turkish": "üniversite",
+                    "example": "I go to ----."
+                },
+                {
+                    "word": "until",
+                    "type": "preposition",
+                    "definition": "Up to a time",
+                    "turkish": "-e kadar",
+                    "example": "Wait ---- I come."
+                },
+                {
+                    "word": "up",
+                    "type": "adverb",
+                    "definition": "To a higher position",
+                    "turkish": "yukarı",
+                    "example": "Wake ----!"
+                },
+                {
+                    "word": "us",
+                    "type": "pronoun",
+                    "definition": "Object form of we",
+                    "turkish": "bizi, bize",
+                    "example": "Come with ----."
+                },
+                {
+                    "word": "use",
+                    "type": "verb",
+                    "definition": "To put into action",
+                    "turkish": "kullanmak",
+                    "example": "---- a pen."
+                },
+                {
+                    "word": "useful",
+                    "type": "adjective",
+                    "definition": "Helpful; valuable",
+                    "turkish": "yararlı, faydalı",
+                    "example": "This is very ----."
+                },
+                {
+                    "word": "usual",
+                    "type": "adjective",
+                    "definition": "Normal; typical",
+                    "turkish": "olağan, alışılmış",
+                    "example": "As ----!"
+                },
+                {
+                    "word": "usually",
+                    "type": "adverb",
+                    "definition": "Normally; typically",
+                    "turkish": "genellikle",
+                    "example": "I ---- walk."
+                },
+                {
+                    "word": "vacation",
+                    "type": "noun",
+                    "definition": "A holiday",
+                    "turkish": "tatil",
+                    "example": "I'm on ----."
+                },
+                {
+                    "word": "vegetable",
+                    "type": "noun",
+                    "definition": "Plants for food",
+                    "turkish": "sebze",
+                    "example": "Eat your ----s."
+                },
+                {
+                    "word": "very",
+                    "type": "adverb",
+                    "definition": "Extremely",
+                    "turkish": "çok",
+                    "example": "I'm ---- happy."
+                },
+                {
+                    "word": "video",
+                    "type": "noun",
+                    "definition": "A recording of images",
+                    "turkish": "video",
+                    "example": "Watch this ----."
+                },
+                {
+                    "word": "view",
+                    "type": "noun",
+                    "definition": "What you can see",
+                    "turkish": "manzara, görüş",
+                    "example": "Nice ----!"
+                },
+                {
+                    "word": "village",
+                    "type": "noun",
+                    "definition": "A small community",
+                    "turkish": "köy",
+                    "example": "I live in a ----."
+                },
+                {
+                    "word": "visit",
+                    "type": "verb",
+                    "definition": "To go to see",
+                    "turkish": "ziyaret etmek",
+                    "example": "---- me sometime."
+                },
+                {
+                    "word": "visitor",
+                    "type": "noun",
+                    "definition": "A person who visits",
+                    "turkish": "ziyaretçi",
+                    "example": "We have ----s."
+                },
+                {
+                    "word": "voice",
+                    "type": "noun",
+                    "definition": "The sound from mouth",
+                    "turkish": "ses",
+                    "example": "I love your ----."
+                },
+                {
+                    "word": "wait",
+                    "type": "verb",
+                    "definition": "To stay until something happens",
+                    "turkish": "beklemek",
+                    "example": "---- for me!"
+                },
+                {
+                    "word": "wake",
+                    "type": "verb",
+                    "definition": "To stop sleeping",
+                    "turkish": "uyanmak, uyandırmak",
+                    "example": "---- up!"
+                },
+                {
+                    "word": "walk",
+                    "type": "verb",
+                    "definition": "To move on foot",
+                    "turkish": "yürümek",
+                    "example": "Let's ----."
+                },
+                {
+                    "word": "wall",
+                    "type": "noun",
+                    "definition": "A vertical structure",
+                    "turkish": "duvar",
+                    "example": "Hang it on the ----."
+                },
+                {
+                    "word": "want",
+                    "type": "verb",
+                    "definition": "To wish for",
+                    "turkish": "istemek",
+                    "example": "I ---- coffee."
+                },
+                {
+                    "word": "war",
+                    "type": "noun",
+                    "definition": "Armed fighting between countries",
+                    "turkish": "savaş",
+                    "example": "---- is terrible."
+                },
+                {
+                    "word": "warm",
+                    "type": "adjective",
+                    "definition": "Slightly hot",
+                    "turkish": "ılık, sıcak",
+                    "example": "It's ---- today."
+                },
+                {
+                    "word": "wash",
+                    "type": "verb",
+                    "definition": "To clean with water",
+                    "turkish": "yıkamak",
+                    "example": "---- your hands."
+                },
+                {
+                    "word": "waste",
+                    "type": "verb",
+                    "definition": "To use badly",
+                    "turkish": "israf etmek",
+                    "example": "Don't ---- time."
+                },
+                {
+                    "word": "watch",
+                    "type": "verb",
+                    "definition": "To look at",
+                    "turkish": "izlemek",
+                    "example": "---- a movie."
+                },
+                {
+                    "word": "watch",
+                    "type": "noun",
+                    "definition": "A device for time on wrist",
+                    "turkish": "kol saati",
+                    "example": "Nice ----!"
+                },
+                {
+                    "word": "water",
+                    "type": "noun",
+                    "definition": "A clear liquid for drinking",
+                    "turkish": "su",
+                    "example": "Drink more ----."
+                },
+                {
+                    "word": "way",
+                    "type": "noun",
+                    "definition": "A method; a path",
+                    "turkish": "yol, yöntem",
+                    "example": "This ---- please."
+                },
+                {
+                    "word": "we",
+                    "type": "pronoun",
+                    "definition": "The speaker and others",
+                    "turkish": "biz",
+                    "example": "---- are friends."
+                },
+                {
+                    "word": "weak",
+                    "type": "adjective",
+                    "definition": "Not strong",
+                    "turkish": "zayıf",
+                    "example": "I feel ----."
+                },
+                {
+                    "word": "wear",
+                    "type": "verb",
+                    "definition": "To have on body",
+                    "turkish": "giymek",
+                    "example": "---- a jacket."
+                },
+                {
+                    "word": "weather",
+                    "type": "noun",
+                    "definition": "Rain, sun, wind, etc.",
+                    "turkish": "hava durumu",
+                    "example": "Nice ---- today!"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "A1 - Basic Words (Part 23)",
+            "words": [
+                {
+                    "word": "website",
+                    "type": "noun",
+                    "definition": "A place on the internet",
+                    "turkish": "web sitesi",
+                    "example": "Visit our ----."
+                },
+                {
+                    "word": "wedding",
+                    "type": "noun",
+                    "definition": "A marriage ceremony",
+                    "turkish": "düğün",
+                    "example": "I'm going to a ----."
+                },
+                {
+                    "word": "Wednesday",
+                    "type": "noun",
+                    "definition": "The third day of the week",
+                    "turkish": "Çarşamba",
+                    "example": "See you on ----."
+                },
+                {
+                    "word": "week",
+                    "type": "noun",
+                    "definition": "Seven days",
+                    "turkish": "hafta",
+                    "example": "See you next ----."
+                },
+                {
+                    "word": "weekend",
+                    "type": "noun",
+                    "definition": "Saturday and Sunday",
+                    "turkish": "hafta sonu",
+                    "example": "Have a nice ----!"
+                },
+                {
+                    "word": "weight",
+                    "type": "noun",
+                    "definition": "How heavy something is",
+                    "turkish": "ağırlık, kilo",
+                    "example": "What's your ----?"
+                },
+                {
+                    "word": "welcome",
+                    "type": "exclamation",
+                    "definition": "Greeting for arrivals",
+                    "turkish": "hoş geldiniz",
+                    "example": "---- to Turkey!"
+                },
+                {
+                    "word": "well",
+                    "type": "adverb",
+                    "definition": "In a good way",
+                    "turkish": "iyi",
+                    "example": "She speaks ---- English."
+                },
+                {
+                    "word": "west",
+                    "type": "noun",
+                    "definition": "The direction of sunset",
+                    "turkish": "batı",
+                    "example": "Go ----."
+                },
+                {
+                    "word": "wet",
+                    "type": "adjective",
+                    "definition": "Covered with water",
+                    "turkish": "ıslak",
+                    "example": "The floor is ----."
+                },
+                {
+                    "word": "what",
+                    "type": "determiner",
+                    "definition": "Asking about something",
+                    "turkish": "ne",
+                    "example": "---- is that?"
+                },
+                {
+                    "word": "wheel",
+                    "type": "noun",
+                    "definition": "A circular object that turns",
+                    "turkish": "tekerlek",
+                    "example": "The ---- is broken."
+                },
+                {
+                    "word": "when",
+                    "type": "adverb",
+                    "definition": "At what time",
+                    "turkish": "ne zaman",
+                    "example": "---- are you coming?"
+                },
+                {
+                    "word": "where",
+                    "type": "adverb",
+                    "definition": "In what place",
+                    "turkish": "nerede",
+                    "example": "---- do you live?"
+                },
+                {
+                    "word": "whether",
+                    "type": "conjunction",
+                    "definition": "If",
+                    "turkish": "-ip -imediğini",
+                    "example": "I don't know ---- to go."
+                },
+                {
+                    "word": "which",
+                    "type": "determiner",
+                    "definition": "What one",
+                    "turkish": "hangi",
+                    "example": "---- one do you want?"
+                },
+                {
+                    "word": "while",
+                    "type": "conjunction",
+                    "definition": "During the time that",
+                    "turkish": "iken, -rken",
+                    "example": "---- I was sleeping..."
+                },
+                {
+                    "word": "white",
+                    "type": "adjective",
+                    "definition": "The lightest color",
+                    "turkish": "beyaz",
+                    "example": "Wear a ---- shirt."
+                },
+                {
+                    "word": "who",
+                    "type": "pronoun",
+                    "definition": "What person",
+                    "turkish": "kim",
+                    "example": "---- is that?"
+                },
+                {
+                    "word": "whole",
+                    "type": "adjective",
+                    "definition": "Complete; entire",
+                    "turkish": "bütün, tam",
+                    "example": "The ---- day."
+                },
+                {
+                    "word": "whose",
+                    "type": "determiner",
+                    "definition": "Belonging to whom",
+                    "turkish": "kimin",
+                    "example": "---- book is this?"
+                },
+                {
+                    "word": "why",
+                    "type": "adverb",
+                    "definition": "For what reason",
+                    "turkish": "neden, niçin",
+                    "example": "---- are you late?"
+                },
+                {
+                    "word": "wide",
+                    "type": "adjective",
+                    "definition": "Having great width",
+                    "turkish": "geniş",
+                    "example": "A ---- road."
+                },
+                {
+                    "word": "wife",
+                    "type": "noun",
+                    "definition": "A married woman",
+                    "turkish": "eş, karı",
+                    "example": "This is my ----."
+                },
+                {
+                    "word": "wild",
+                    "type": "adjective",
+                    "definition": "Living in nature",
+                    "turkish": "vahşi, yabani",
+                    "example": "---- animals."
+                },
+                {
+                    "word": "will",
+                    "type": "verb",
+                    "definition": "Used for future",
+                    "turkish": "-ecek, -acak",
+                    "example": "I ---- come."
+                },
+                {
+                    "word": "win",
+                    "type": "verb",
+                    "definition": "To be the best in a contest",
+                    "turkish": "kazanmak",
+                    "example": "I want to ----!"
+                },
+                {
+                    "word": "wind",
+                    "type": "noun",
+                    "definition": "Air moving",
+                    "turkish": "rüzgar",
+                    "example": "The ---- is strong."
+                },
+                {
+                    "word": "window",
+                    "type": "noun",
+                    "definition": "An opening in a wall for light",
+                    "turkish": "pencere",
+                    "example": "Open the ----."
+                },
+                {
+                    "word": "wine",
+                    "type": "noun",
+                    "definition": "An alcoholic drink from grapes",
+                    "turkish": "şarap",
+                    "example": "Red or white ----?"
+                },
+                {
+                    "word": "winter",
+                    "type": "noun",
+                    "definition": "The coldest season",
+                    "turkish": "kış",
+                    "example": "I love ----!"
+                },
+                {
+                    "word": "wish",
+                    "type": "verb",
+                    "definition": "To want something to happen",
+                    "turkish": "dilemek",
+                    "example": "I ---- you luck."
+                },
+                {
+                    "word": "with",
+                    "type": "preposition",
+                    "definition": "Together; using",
+                    "turkish": "ile, -la, -le",
+                    "example": "Come ---- me."
+                },
+                {
+                    "word": "within",
+                    "type": "preposition",
+                    "definition": "Inside",
+                    "turkish": "içinde",
+                    "example": "---- an hour."
+                },
+                {
+                    "word": "without",
+                    "type": "preposition",
+                    "definition": "Not having",
+                    "turkish": "olmadan, -siz",
+                    "example": "Coffee ---- sugar."
+                },
+                {
+                    "word": "woman",
+                    "type": "noun",
+                    "definition": "An adult female",
+                    "turkish": "kadın",
+                    "example": "That ---- is my mom."
+                },
+                {
+                    "word": "wonder",
+                    "type": "verb",
+                    "definition": "To want to know",
+                    "turkish": "merak etmek",
+                    "example": "I ---- why."
+                },
+                {
+                    "word": "wonderful",
+                    "type": "adjective",
+                    "definition": "Very good; amazing",
+                    "turkish": "harika",
+                    "example": "That's ----!"
+                },
+                {
+                    "word": "wood",
+                    "type": "noun",
+                    "definition": "Material from trees",
+                    "turkish": "ahşap, odun",
+                    "example": "Made of ----."
+                },
+                {
+                    "word": "word",
+                    "type": "noun",
+                    "definition": "A unit of language",
+                    "turkish": "kelime",
+                    "example": "What does this ---- mean?"
+                },
+                {
+                    "word": "work",
+                    "type": "verb",
+                    "definition": "To do a job",
+                    "turkish": "çalışmak",
+                    "example": "I ---- at a bank."
+                },
+                {
+                    "word": "world",
+                    "type": "noun",
+                    "definition": "The earth and its people",
+                    "turkish": "dünya",
+                    "example": "Around the ----."
+                },
+                {
+                    "word": "worried",
+                    "type": "adjective",
+                    "definition": "Feeling anxious",
+                    "turkish": "endişeli",
+                    "example": "Don't be ----."
+                },
+                {
+                    "word": "worry",
+                    "type": "verb",
+                    "definition": "To feel anxious",
+                    "turkish": "endişelenmek",
+                    "example": "Don't ----!"
+                },
+                {
+                    "word": "worse",
+                    "type": "adjective",
+                    "definition": "More bad",
+                    "turkish": "daha kötü",
+                    "example": "It got ----."
+                },
+                {
+                    "word": "worst",
+                    "type": "adjective",
+                    "definition": "Most bad",
+                    "turkish": "en kötü",
+                    "example": "The ---- day ever."
+                },
+                {
+                    "word": "worth",
+                    "type": "adjective",
+                    "definition": "Having a value of",
+                    "turkish": "değerinde",
+                    "example": "It's ---- $100."
+                },
+                {
+                    "word": "would",
+                    "type": "verb",
+                    "definition": "Used for conditionals",
+                    "turkish": "-irdi, -ardı",
+                    "example": "I ---- like coffee."
+                },
+                {
+                    "word": "write",
+                    "type": "verb",
+                    "definition": "To put words on paper",
+                    "turkish": "yazmak",
+                    "example": "---- your name."
+                },
+                {
+                    "word": "writer",
+                    "type": "noun",
+                    "definition": "A person who writes",
+                    "turkish": "yazar",
+                    "example": "She's a famous ----."
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "A1 - Basic Words (Part 24)",
+            "words": [
+                {
+                    "word": "writing",
+                    "type": "noun",
+                    "definition": "The activity of writing",
+                    "turkish": "yazı, yazarlık",
+                    "example": "I love ----!"
+                },
+                {
+                    "word": "wrong",
+                    "type": "adjective",
+                    "definition": "Not correct",
+                    "turkish": "yanlış",
+                    "example": "That's ----!"
+                },
+                {
+                    "word": "yard",
+                    "type": "noun",
+                    "definition": "An area of ground",
+                    "turkish": "avlu",
+                    "example": "Play in the ----."
+                },
+                {
+                    "word": "yeah",
+                    "type": "exclamation",
+                    "definition": "Yes (informal)",
+                    "turkish": "evet",
+                    "example": "----, I know."
+                },
+                {
+                    "word": "year",
+                    "type": "noun",
+                    "definition": "12 months",
+                    "turkish": "yıl",
+                    "example": "Happy New ----!"
+                },
+                {
+                    "word": "yellow",
+                    "type": "adjective",
+                    "definition": "The color of the sun",
+                    "turkish": "sarı",
+                    "example": "A ---- flower."
+                },
+                {
+                    "word": "yes",
+                    "type": "exclamation",
+                    "definition": "Used to agree",
+                    "turkish": "evet",
+                    "example": "----, I do."
+                },
+                {
+                    "word": "yesterday",
+                    "type": "adverb",
+                    "definition": "The day before today",
+                    "turkish": "dün",
+                    "example": "---- was fun."
+                },
+                {
+                    "word": "yet",
+                    "type": "adverb",
+                    "definition": "Until now; still",
+                    "turkish": "henüz, daha",
+                    "example": "Not ----!"
+                },
+                {
+                    "word": "you",
+                    "type": "pronoun",
+                    "definition": "The person being spoken to",
+                    "turkish": "sen, siz",
+                    "example": "I love ----."
+                },
+                {
+                    "word": "young",
+                    "type": "adjective",
+                    "definition": "Not old",
+                    "turkish": "genç",
+                    "example": "She's very ----."
+                },
+                {
+                    "word": "your",
+                    "type": "determiner",
+                    "definition": "Belonging to you",
+                    "turkish": "senin, sizin",
+                    "example": "This is ---- book."
+                },
+                {
+                    "word": "yours",
+                    "type": "pronoun",
+                    "definition": "That which belongs to you",
+                    "turkish": "seninki, sizinki",
+                    "example": "Is this ----?"
+                },
+                {
+                    "word": "yourself",
+                    "type": "pronoun",
+                    "definition": "You and no one else",
+                    "turkish": "kendin",
+                    "example": "Do it ----!"
+                },
+                {
+                    "word": "zero",
+                    "type": "number",
+                    "definition": "The number 0",
+                    "turkish": "sıfır",
+                    "example": "Start from ----."
                 }
             ]
         }
