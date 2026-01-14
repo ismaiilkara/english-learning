@@ -353,6 +353,17 @@
             cursor: not-allowed;
         }
 
+        .nav-btn.shuffle {
+            background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+            border-color: transparent;
+            color: #fff;
+        }
+
+        .nav-btn.shuffle:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
+        }
+
         /* Completion Screen */
         .completion-card {
             background: rgba(255, 255, 255, 0.05);
@@ -508,16 +519,51 @@
 
         <div class="header">
             <h1>🃏 Vocabulary Flashcards</h1>
-            <p>Learn 450+ academic words with spaced repetition</p>
+            <p>Learn vocabulary with spaced repetition</p>
         </div>
 
-        <!-- Action Buttons (moved outside template) -->
+        <!-- Source Selector -->
+        <div class="source-selector" style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;">
+            <button class="source-btn" :class="{ 'active': selectedSource === 'awl' }" @click="selectSource('awl')"
+                style="padding: 12px 24px; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s;"
+                :style="selectedSource === 'awl' ? 'background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none;' : 'background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);'">
+                📚 AWL (570 words)
+            </button>
+            <button class="source-btn" :class="{ 'active': selectedSource === 'oxford' }"
+                @click="selectSource('oxford')"
+                style="padding: 12px 24px; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s;"
+                :style="selectedSource === 'oxford' ? 'background: linear-gradient(135deg, #11998e, #38ef7d); color: white; border: none;' : 'background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);'">
+                🌐 Oxford 3000 (<span x-text="oxfordCards.length"></span> words)
+            </button>
+        </div>
+
+        <!-- Control Buttons -->
+        <div class="nav-buttons" x-show="!completed && studyDeck.length > 0" style="margin-bottom: 20px;">
+            <button class="nav-btn shuffle" @click="shuffleDeck()">
+                🔀 Shuffle
+            </button>
+        </div>
+
+        <!-- Action Buttons -->
         <div class="action-buttons" x-show="!completed && currentCard" style="margin-bottom: 20px;">
             <button class="action-btn dont-know" @click="markCard('difficult')">
                 <span>❌</span> Don't Know
             </button>
             <button class="action-btn know" @click="markCard('known')">
                 <span>✅</span> Know It
+            </button>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <div class="nav-buttons" x-show="!completed && currentCard" style="margin-bottom: 20px;">
+            <button class="nav-btn" @click="prevCard()" :disabled="currentIndex === 0">
+                ⬅️ Previous
+            </button>
+            <span style="color: rgba(255,255,255,0.5); padding: 0 15px;">
+                <span x-text="currentIndex + 1"></span> / <span x-text="studyDeck.length"></span>
+            </span>
+            <button class="nav-btn" @click="nextCard()" :disabled="currentIndex >= studyDeck.length - 1">
+                Next ➡️
             </button>
         </div>
 
@@ -563,7 +609,7 @@
             <button class="filter-btn" :class="{ 'active': selectedSet === 'all' }" @click="selectSet('all')">
                 All Categories
             </button>
-            <template x-for="cat in awlCategories" :key="cat.id">
+            <template x-for="cat in currentCategories" :key="cat.id">
                 <button class="filter-btn" :class="{ 'active': selectedSet === cat.id }" @click="selectSet(cat.id)"
                     x-text="cat.name"></button>
             </template>
@@ -576,7 +622,8 @@
             <div>
                 <!-- Progress -->
                 <div class="progress-container">
-                    <div class="progress-bar" :style="{ width: ((sessionStats.known / sessionStats.totalCards) * 100) + '%' }"></div>
+                    <div class="progress-bar"
+                        :style="{ width: ((sessionStats.known / sessionStats.totalCards) * 100) + '%' }"></div>
                 </div>
                 <p class="progress-text">
                     <span x-show="!isReviewRound">
@@ -622,12 +669,16 @@
                 <div class="shortcuts-hint">
                     <kbd>Space</kbd> Flip &nbsp;
                     <kbd>1</kbd> Don't Know &nbsp;
-                    <kbd>2</kbd> Know
+                    <kbd>2</kbd> Know &nbsp;
+                    <kbd>←</kbd> Prev &nbsp;
+                    <kbd>→</kbd> Next
                 </div>
 
                 <!-- Review Round Indicator -->
-                <div x-show="isReviewRound" style="text-align: center; margin-top: 20px; padding: 15px; background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.3); border-radius: 12px;">
-                    <p style="color: #fbbf24; font-weight: 600;">Review Round - These are cards you didn't know. Keep going until you learn them all!</p>
+                <div x-show="isReviewRound"
+                    style="text-align: center; margin-top: 20px; padding: 15px; background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.3); border-radius: 12px;">
+                    <p style="color: #fbbf24; font-weight: 600;">Review Round - These are cards you didn't know. Keep
+                        going until you learn them all!</p>
                 </div>
             </div>
         </template>
@@ -692,10 +743,14 @@
                 completed: false,
                 studyMode: 'all',
                 selectedSet: 'all',
+                selectedSource: 'awl',
                 cardProgress: {},
                 sessionStats: { known: 0, difficult: 0, skipped: 0, totalCards: 0 },
                 categories: [],
                 awlCategories: [],
+                oxfordCategories: [],
+                awlCards: [],
+                oxfordCards: [],
                 isReviewRound: false,
 
                 async init() {
@@ -705,7 +760,16 @@
                         const data = await response.json();
                         this.processAWLData(data);
                     } catch (error) {
-                        console.error('Error loading vocabulary data:', error);
+                        console.error('Error loading AWL vocabulary:', error);
+                    }
+
+                    // Load Oxford 3000 vocabulary
+                    try {
+                        const response = await fetch('data/vocabulary/oxford-3000.json');
+                        const data = await response.json();
+                        this.processOxfordData(data);
+                    } catch (error) {
+                        console.error('Error loading Oxford vocabulary:', error);
                     }
 
                     // Load progress from localStorage
@@ -716,10 +780,10 @@
                 },
 
                 processAWLData(data) {
-                    this.allCards = [];
+                    this.awlCards = [];
                     data.categories.forEach(cat => {
                         cat.words.forEach((w, idx) => {
-                            this.allCards.push({
+                            this.awlCards.push({
                                 id: `awl-${cat.id}-${idx}`,
                                 setId: cat.id,
                                 category: cat.name,
@@ -732,6 +796,42 @@
                         });
                     });
                     this.awlCategories = data.categories.map(c => ({ id: c.id, name: c.name }));
+                    // Initialize allCards with AWL by default
+                    this.allCards = [...this.awlCards];
+                },
+
+                processOxfordData(data) {
+                    this.oxfordCards = [];
+                    data.categories.forEach(cat => {
+                        cat.words.forEach((w, idx) => {
+                            this.oxfordCards.push({
+                                id: `oxford-${cat.id}-${idx}`,
+                                setId: cat.id,
+                                category: cat.name,
+                                word: w.word,
+                                sentence: w.example,
+                                definition: w.definition,
+                                turkish: w.turkish,
+                                type: w.type
+                            });
+                        });
+                    });
+                    this.oxfordCategories = data.categories.map(c => ({ id: c.id, name: c.name }));
+                },
+
+                selectSource(source) {
+                    this.selectedSource = source;
+                    this.selectedSet = 'all';
+                    if (source === 'awl') {
+                        this.allCards = [...this.awlCards];
+                    } else {
+                        this.allCards = [...this.oxfordCards];
+                    }
+                    this.buildStudyDeck();
+                },
+
+                get currentCategories() {
+                    return this.selectedSource === 'awl' ? this.awlCategories : this.oxfordCategories;
                 },
 
                 loadProgress() {
@@ -819,6 +919,32 @@
 
                 flipCard() {
                     this.isFlipped = !this.isFlipped;
+                },
+
+                shuffleDeck() {
+                    // Fisher-Yates shuffle algorithm
+                    for (let i = this.studyDeck.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [this.studyDeck[i], this.studyDeck[j]] = [this.studyDeck[j], this.studyDeck[i]];
+                    }
+                    // Force reactivity
+                    this.studyDeck = [...this.studyDeck];
+                    this.currentIndex = 0;
+                    this.isFlipped = false;
+                },
+
+                nextCard() {
+                    if (this.currentIndex < this.studyDeck.length - 1) {
+                        this.currentIndex++;
+                        this.isFlipped = false;
+                    }
+                },
+
+                prevCard() {
+                    if (this.currentIndex > 0) {
+                        this.currentIndex--;
+                        this.isFlipped = false;
+                    }
                 },
 
                 markCard(rating) {
@@ -926,13 +1052,19 @@
                             break;
                         case 'Digit1':
                         case 'Numpad1':
-                        case 'ArrowLeft':
-                            if (this.isFlipped) this.markCard('difficult');
+                            this.markCard('difficult');
                             break;
                         case 'Digit2':
                         case 'Numpad2':
+                            this.markCard('known');
+                            break;
+                        case 'ArrowLeft':
+                            event.preventDefault();
+                            this.prevCard();
+                            break;
                         case 'ArrowRight':
-                            if (this.isFlipped) this.markCard('known');
+                            event.preventDefault();
+                            this.nextCard();
                             break;
                     }
                 }
