@@ -1,7 +1,7 @@
 {
     "title": "Oxford 3000-5000",
     "description": "Core vocabulary for English learners - A1 to B2 levels",
-    "totalWords": 2465,
+    "totalWords": 2565,
     "categories": [
         {
             "id": 1,
@@ -17555,6 +17555,718 @@
                     "definition": "Written works",
                     "turkish": "edebiyat",
                     "example": "English ----."
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "name": "A2 - Intermediate Words (Part 27)",
+            "words": [
+                {
+                    "word": "little",
+                    "type": "adjective",
+                    "definition": "Small in size or amount",
+                    "turkish": "küçük, az",
+                    "example": "A ---- bit."
+                },
+                {
+                    "word": "live",
+                    "type": "verb",
+                    "definition": "To be alive; to reside",
+                    "turkish": "yaşamak",
+                    "example": "---- in London."
+                },
+                {
+                    "word": "lively",
+                    "type": "adjective",
+                    "definition": "Full of energy",
+                    "turkish": "canlı, hareketli",
+                    "example": "Very ----!"
+                },
+                {
+                    "word": "living",
+                    "type": "noun",
+                    "definition": "Being alive; lifestyle",
+                    "turkish": "yaşam, geçim",
+                    "example": "Make a ----."
+                },
+                {
+                    "word": "load",
+                    "type": "noun",
+                    "definition": "Something carried",
+                    "turkish": "yük",
+                    "example": "Heavy ----."
+                },
+                {
+                    "word": "loan",
+                    "type": "noun",
+                    "definition": "Money borrowed",
+                    "turkish": "borç, kredi",
+                    "example": "Bank ----."
+                },
+                {
+                    "word": "local",
+                    "type": "adjective",
+                    "definition": "In a particular area",
+                    "turkish": "yerel",
+                    "example": "---- news."
+                },
+                {
+                    "word": "locate",
+                    "type": "verb",
+                    "definition": "To find; to place",
+                    "turkish": "bulmak, yerleştirmek",
+                    "example": "---- the file."
+                },
+                {
+                    "word": "location",
+                    "type": "noun",
+                    "definition": "A place",
+                    "turkish": "konum, yer",
+                    "example": "Perfect ----."
+                },
+                {
+                    "word": "lock",
+                    "type": "verb",
+                    "definition": "To secure with a key",
+                    "turkish": "kilitlemek",
+                    "example": "---- the door."
+                },
+                {
+                    "word": "logic",
+                    "type": "noun",
+                    "definition": "Reasoning",
+                    "turkish": "mantık",
+                    "example": "Follow the ----."
+                },
+                {
+                    "word": "logical",
+                    "type": "adjective",
+                    "definition": "Making sense",
+                    "turkish": "mantıklı",
+                    "example": "That's ----!"
+                },
+                {
+                    "word": "lonely",
+                    "type": "adjective",
+                    "definition": "Feeling alone",
+                    "turkish": "yalnız",
+                    "example": "So ----!"
+                },
+                {
+                    "word": "long",
+                    "type": "adjective",
+                    "definition": "Great in length",
+                    "turkish": "uzun",
+                    "example": "---- time no see!"
+                },
+                {
+                    "word": "look",
+                    "type": "verb",
+                    "definition": "To use eyes to see",
+                    "turkish": "bakmak",
+                    "example": "---- at me!"
+                },
+                {
+                    "word": "loose",
+                    "type": "adjective",
+                    "definition": "Not tight",
+                    "turkish": "gevşek, bol",
+                    "example": "---- clothes."
+                },
+                {
+                    "word": "lord",
+                    "type": "noun",
+                    "definition": "A title; a master",
+                    "turkish": "lord, efendi",
+                    "example": "The ----."
+                },
+                {
+                    "word": "lose",
+                    "type": "verb",
+                    "definition": "To not be able to find",
+                    "turkish": "kaybetmek",
+                    "example": "---- weight."
+                },
+                {
+                    "word": "loss",
+                    "type": "noun",
+                    "definition": "The act of losing",
+                    "turkish": "kayıp",
+                    "example": "Job ----."
+                },
+                {
+                    "word": "lost",
+                    "type": "adjective",
+                    "definition": "Unable to find the way",
+                    "turkish": "kaybolmuş",
+                    "example": "I'm ----!"
+                },
+                {
+                    "word": "lot",
+                    "type": "noun",
+                    "definition": "A large amount",
+                    "turkish": "çok",
+                    "example": "A ---- of work."
+                },
+                {
+                    "word": "loud",
+                    "type": "adjective",
+                    "definition": "Making much noise",
+                    "turkish": "gürültülü, yüksek sesli",
+                    "example": "Too ----!"
+                },
+                {
+                    "word": "loudly",
+                    "type": "adverb",
+                    "definition": "In a loud way",
+                    "turkish": "yüksek sesle",
+                    "example": "Speak ----!"
+                },
+                {
+                    "word": "love",
+                    "type": "noun",
+                    "definition": "A strong feeling of affection",
+                    "turkish": "aşk, sevgi",
+                    "example": "I ---- you!"
+                },
+                {
+                    "word": "lovely",
+                    "type": "adjective",
+                    "definition": "Beautiful; pleasant",
+                    "turkish": "güzel, hoş",
+                    "example": "---- weather!"
+                },
+                {
+                    "word": "lover",
+                    "type": "noun",
+                    "definition": "A person who loves",
+                    "turkish": "aşık, sevgili",
+                    "example": "Food ----."
+                },
+                {
+                    "word": "low",
+                    "type": "adjective",
+                    "definition": "Not high",
+                    "turkish": "düşük, alçak",
+                    "example": "---- price."
+                },
+                {
+                    "word": "lower",
+                    "type": "verb",
+                    "definition": "To make less",
+                    "turkish": "indirmek, azaltmak",
+                    "example": "---- the price."
+                },
+                {
+                    "word": "luck",
+                    "type": "noun",
+                    "definition": "Good fortune",
+                    "turkish": "şans",
+                    "example": "Good ----!"
+                },
+                {
+                    "word": "lucky",
+                    "type": "adjective",
+                    "definition": "Having good luck",
+                    "turkish": "şanslı",
+                    "example": "So ----!"
+                },
+                {
+                    "word": "",
+                    "type": "noun",
+                    "definition": "Bags and suitcases",
+                    "turkish": "bagaj",
+                    "example": "Hand ----."
+                },
+                {
+                    "word": "lunch",
+                    "type": "noun",
+                    "definition": "Midday meal",
+                    "turkish": "öğle yemeği",
+                    "example": "---- break."
+                },
+                {
+                    "word": "lung",
+                    "type": "noun",
+                    "definition": "Breathing organ",
+                    "turkish": "akciğer",
+                    "example": "---- cancer."
+                },
+                {
+                    "word": "luxury",
+                    "type": "noun",
+                    "definition": "Great comfort",
+                    "turkish": "lüks",
+                    "example": "---- hotel."
+                },
+                {
+                    "word": "machine",
+                    "type": "noun",
+                    "definition": "A device with moving parts",
+                    "turkish": "makine",
+                    "example": "Washing ----."
+                },
+                {
+                    "word": "mad",
+                    "type": "adjective",
+                    "definition": "Crazy; angry",
+                    "turkish": "deli, kızgın",
+                    "example": "He's ----!"
+                },
+                {
+                    "word": "magazine",
+                    "type": "noun",
+                    "definition": "A periodic publication",
+                    "turkish": "dergi",
+                    "example": "Fashion ----."
+                },
+                {
+                    "word": "magic",
+                    "type": "noun",
+                    "definition": "Supernatural power",
+                    "turkish": "sihir, büyü",
+                    "example": "Like ----!"
+                },
+                {
+                    "word": "mail",
+                    "type": "noun",
+                    "definition": "Letters; postal system",
+                    "turkish": "posta",
+                    "example": "E----!"
+                },
+                {
+                    "word": "main",
+                    "type": "adjective",
+                    "definition": "Most important",
+                    "turkish": "ana, asıl",
+                    "example": "---- course."
+                },
+                {
+                    "word": "mainly",
+                    "type": "adverb",
+                    "definition": "Mostly",
+                    "turkish": "esas olarak",
+                    "example": "---- English."
+                },
+                {
+                    "word": "mainstream",
+                    "type": "adjective",
+                    "definition": "Normal; conventional",
+                    "turkish": "ana akım",
+                    "example": "---- media."
+                },
+                {
+                    "word": "maintain",
+                    "type": "verb",
+                    "definition": "To keep in good condition",
+                    "turkish": "sürdürmek, bakım yapmak",
+                    "example": "---- the car."
+                },
+                {
+                    "word": "maintenance",
+                    "type": "noun",
+                    "definition": "Keeping in good condition",
+                    "turkish": "bakım",
+                    "example": "Car ----."
+                },
+                {
+                    "word": "major",
+                    "type": "adjective",
+                    "definition": "Important; large",
+                    "turkish": "büyük, önemli",
+                    "example": "---- problem."
+                },
+                {
+                    "word": "majority",
+                    "type": "noun",
+                    "definition": "More than half",
+                    "turkish": "çoğunluk",
+                    "example": "The ----."
+                },
+                {
+                    "word": "male",
+                    "type": "adjective",
+                    "definition": "Of the sex that does not give birth",
+                    "turkish": "erkek",
+                    "example": "---- students."
+                },
+                {
+                    "word": "mall",
+                    "type": "noun",
+                    "definition": "A shopping center",
+                    "turkish": "alışveriş merkezi",
+                    "example": "Shopping ----."
+                },
+                {
+                    "word": "manage",
+                    "type": "verb",
+                    "definition": "To be in charge of",
+                    "turkish": "yönetmek, idare etmek",
+                    "example": "---- the team."
+                },
+                {
+                    "word": "management",
+                    "type": "noun",
+                    "definition": "The act of managing",
+                    "turkish": "yönetim",
+                    "example": "Time ----."
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "name": "A2 - Intermediate Words (Part 28)",
+            "words": [
+                {
+                    "word": "manager",
+                    "type": "noun",
+                    "definition": "A person who manages",
+                    "turkish": "müdür, yönetici",
+                    "example": "Store ----."
+                },
+                {
+                    "word": "manner",
+                    "type": "noun",
+                    "definition": "A way of doing",
+                    "turkish": "tarz, tutum",
+                    "example": "Good ----s."
+                },
+                {
+                    "word": "manufacture",
+                    "type": "verb",
+                    "definition": "To make in a factory",
+                    "turkish": "üretmek, imal etmek",
+                    "example": "---- goods."
+                },
+                {
+                    "word": "manufacturer",
+                    "type": "noun",
+                    "definition": "A company that makes goods",
+                    "turkish": "üretici",
+                    "example": "Car ----."
+                },
+                {
+                    "word": "map",
+                    "type": "noun",
+                    "definition": "A picture of an area",
+                    "turkish": "harita",
+                    "example": "World ----."
+                },
+                {
+                    "word": "march",
+                    "type": "verb",
+                    "definition": "To walk with purpose",
+                    "turkish": "yürümek",
+                    "example": "---- on!"
+                },
+                {
+                    "word": "margin",
+                    "type": "noun",
+                    "definition": "An edge; extra amount",
+                    "turkish": "kenar, marj",
+                    "example": "Profit ----."
+                },
+                {
+                    "word": "mark",
+                    "type": "noun",
+                    "definition": "A sign; a grade",
+                    "turkish": "işaret, not",
+                    "example": "High ----s."
+                },
+                {
+                    "word": "market",
+                    "type": "noun",
+                    "definition": "A place for buying/selling",
+                    "turkish": "pazar, piyasa",
+                    "example": "Stock ----."
+                },
+                {
+                    "word": "marketing",
+                    "type": "noun",
+                    "definition": "Promoting products",
+                    "turkish": "pazarlama",
+                    "example": "---- strategy."
+                },
+                {
+                    "word": "marriage",
+                    "type": "noun",
+                    "definition": "The state of being married",
+                    "turkish": "evlilik",
+                    "example": "Happy ----!"
+                },
+                {
+                    "word": "married",
+                    "type": "adjective",
+                    "definition": "Having a husband/wife",
+                    "turkish": "evli",
+                    "example": "Get ----."
+                },
+                {
+                    "word": "marry",
+                    "type": "verb",
+                    "definition": "To become husband/wife",
+                    "turkish": "evlenmek",
+                    "example": "---- me!"
+                },
+                {
+                    "word": "mask",
+                    "type": "noun",
+                    "definition": "A face covering",
+                    "turkish": "maske",
+                    "example": "Wear a ----."
+                },
+                {
+                    "word": "mass",
+                    "type": "noun",
+                    "definition": "A large amount",
+                    "turkish": "kütle, yığın",
+                    "example": "---- production."
+                },
+                {
+                    "word": "massive",
+                    "type": "adjective",
+                    "definition": "Very large",
+                    "turkish": "devasa",
+                    "example": "---- building."
+                },
+                {
+                    "word": "master",
+                    "type": "noun",
+                    "definition": "An expert; a teacher",
+                    "turkish": "usta, efendi",
+                    "example": "---- chef."
+                },
+                {
+                    "word": "match",
+                    "type": "noun",
+                    "definition": "A game; something equal",
+                    "turkish": "maç, kibrit",
+                    "example": "Football ----."
+                },
+                {
+                    "word": "mate",
+                    "type": "noun",
+                    "definition": "A friend (informal)",
+                    "turkish": "arkadaş",
+                    "example": "Hi ----!"
+                },
+                {
+                    "word": "material",
+                    "type": "noun",
+                    "definition": "Substance; fabric",
+                    "turkish": "malzeme, madde",
+                    "example": "Raw ----."
+                },
+                {
+                    "word": "math",
+                    "type": "noun",
+                    "definition": "Mathematics (informal)",
+                    "turkish": "matematik",
+                    "example": "---- class."
+                },
+                {
+                    "word": "mathematics",
+                    "type": "noun",
+                    "definition": "The study of numbers",
+                    "turkish": "matematik",
+                    "example": "Study ----."
+                },
+                {
+                    "word": "matter",
+                    "type": "noun",
+                    "definition": "A subject; substance",
+                    "turkish": "mesele, madde",
+                    "example": "What's the ----?"
+                },
+                {
+                    "word": "maximum",
+                    "type": "adjective",
+                    "definition": "The greatest possible",
+                    "turkish": "maksimum, azami",
+                    "example": "---- speed."
+                },
+                {
+                    "word": "maybe",
+                    "type": "adverb",
+                    "definition": "Perhaps",
+                    "turkish": "belki",
+                    "example": "---- later."
+                },
+                {
+                    "word": "mayor",
+                    "type": "noun",
+                    "definition": "Head of a city",
+                    "turkish": "belediye başkanı",
+                    "example": "The ----."
+                },
+                {
+                    "word": "meal",
+                    "type": "noun",
+                    "definition": "Food eaten at a time",
+                    "turkish": "öğün, yemek",
+                    "example": "Enjoy your ----!"
+                },
+                {
+                    "word": "mean",
+                    "type": "verb",
+                    "definition": "To signify; to intend",
+                    "turkish": "anlamına gelmek, demek istemek",
+                    "example": "What do you ----?"
+                },
+                {
+                    "word": "meaning",
+                    "type": "noun",
+                    "definition": "What something signifies",
+                    "turkish": "anlam",
+                    "example": "Deep ----."
+                },
+                {
+                    "word": "meaningful",
+                    "type": "adjective",
+                    "definition": "Having meaning",
+                    "turkish": "anlamlı",
+                    "example": "---- conversation."
+                },
+                {
+                    "word": "means",
+                    "type": "noun",
+                    "definition": "A method; resources",
+                    "turkish": "araç, yol",
+                    "example": "By all ----!"
+                },
+                {
+                    "word": "meanwhile",
+                    "type": "adverb",
+                    "definition": "At the same time",
+                    "turkish": "bu arada",
+                    "example": "----..."
+                },
+                {
+                    "word": "measure",
+                    "type": "verb",
+                    "definition": "To find the size of",
+                    "turkish": "ölçmek",
+                    "example": "---- twice."
+                },
+                {
+                    "word": "measurement",
+                    "type": "noun",
+                    "definition": "A size found by measuring",
+                    "turkish": "ölçüm",
+                    "example": "Take ----s."
+                },
+                {
+                    "word": "meat",
+                    "type": "noun",
+                    "definition": "Animal flesh as food",
+                    "turkish": "et",
+                    "example": "---- and vegetables."
+                },
+                {
+                    "word": "mechanism",
+                    "type": "noun",
+                    "definition": "A system of parts",
+                    "turkish": "mekanizma",
+                    "example": "Defense ----."
+                },
+                {
+                    "word": "medal",
+                    "type": "noun",
+                    "definition": "An award",
+                    "turkish": "madalya",
+                    "example": "Gold ----."
+                },
+                {
+                    "word": "media",
+                    "type": "noun",
+                    "definition": "News organizations",
+                    "turkish": "medya",
+                    "example": "Social ----."
+                },
+                {
+                    "word": "medical",
+                    "type": "adjective",
+                    "definition": "Related to medicine",
+                    "turkish": "tıbbi",
+                    "example": "---- care."
+                },
+                {
+                    "word": "medicine",
+                    "type": "noun",
+                    "definition": "Treatment for illness",
+                    "turkish": "ilaç, tıp",
+                    "example": "Take your ----."
+                },
+                {
+                    "word": "medium",
+                    "type": "adjective",
+                    "definition": "Middle in size",
+                    "turkish": "orta",
+                    "example": "---- size."
+                },
+                {
+                    "word": "meet",
+                    "type": "verb",
+                    "definition": "To come together",
+                    "turkish": "buluşmak, tanışmak",
+                    "example": "Nice to ---- you!"
+                },
+                {
+                    "word": "meeting",
+                    "type": "noun",
+                    "definition": "A gathering of people",
+                    "turkish": "toplantı",
+                    "example": "---- room."
+                },
+                {
+                    "word": "melt",
+                    "type": "verb",
+                    "definition": "To become liquid",
+                    "turkish": "erimek",
+                    "example": "Ice ----s."
+                },
+                {
+                    "word": "member",
+                    "type": "noun",
+                    "definition": "A person in a group",
+                    "turkish": "üye",
+                    "example": "Team ----."
+                },
+                {
+                    "word": "membership",
+                    "type": "noun",
+                    "definition": "Being a member",
+                    "turkish": "üyelik",
+                    "example": "---- fee."
+                },
+                {
+                    "word": "memory",
+                    "type": "noun",
+                    "definition": "The ability to remember",
+                    "turkish": "hafıza, anı",
+                    "example": "Good ----!"
+                },
+                {
+                    "word": "mental",
+                    "type": "adjective",
+                    "definition": "Of the mind",
+                    "turkish": "zihinsel",
+                    "example": "---- health."
+                },
+                {
+                    "word": "mention",
+                    "type": "verb",
+                    "definition": "To refer to briefly",
+                    "turkish": "bahsetmek",
+                    "example": "Don't ---- it!"
+                },
+                {
+                    "word": "menu",
+                    "type": "noun",
+                    "definition": "A list of food options",
+                    "turkish": "menü",
+                    "example": "The ----, please."
                 }
             ]
         }
