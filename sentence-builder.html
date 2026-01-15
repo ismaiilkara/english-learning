@@ -152,6 +152,11 @@
                     class="px-6 py-2 rounded-full text-white font-semibold transition-all">
                     All
                 </button>
+                <button @click="filterDifficulty = 'easy'; filterSentences()"
+                    :class="filterDifficulty === 'easy' ? 'bg-green-500' : 'bg-white/10 hover:bg-white/20'"
+                    class="px-6 py-2 rounded-full text-white font-semibold transition-all">
+                    🟢 Easy
+                </button>
                 <button @click="filterDifficulty = 'medium'; filterSentences()"
                     :class="filterDifficulty === 'medium' ? 'bg-yellow-500' : 'bg-white/10 hover:bg-white/20'"
                     class="px-6 py-2 rounded-full text-white font-semibold transition-all">
@@ -173,8 +178,12 @@
             <p class="text-white/60 text-sm text-center mb-8">
                 Sentence <span x-text="currentIndex + 1"></span> of <span x-text="filteredSentences.length"></span>
                 <span class="ml-2 px-2 py-1 rounded-full text-xs"
-                    :class="currentSentence?.difficulty === 'hard' ? 'bg-red-500/30 text-red-300' : 'bg-yellow-500/30 text-yellow-300'"
-                    x-text="currentSentence?.difficulty === 'hard' ? '🔴 Hard' : '🟡 Medium'">
+                    :class="{
+                        'bg-green-500/30 text-green-300': currentSentence?.difficulty === 'easy',
+                        'bg-yellow-500/30 text-yellow-300': currentSentence?.difficulty === 'medium',
+                        'bg-red-500/30 text-red-300': currentSentence?.difficulty === 'hard'
+                    }"
+                    x-text="currentSentence?.difficulty === 'easy' ? '🟢 Easy' : (currentSentence?.difficulty === 'hard' ? '🔴 Hard' : '🟡 Medium')">
                 </span>
                 <span class="ml-4 text-green-400">Score: <span x-text="score"></span></span>
             </p>
@@ -299,7 +308,109 @@
         function sentenceBuilderApp() {
             return {
                 sentences: [
-                    // 25 Sentences - Mixed Grammar Topics
+                    // ============== EASY LEVEL (A1-A2) ==============
+                    // Present Simple
+                    {
+                        question: "A: What does your brother do?",
+                        answer: ["He", "works", "in", "a", "hospital."],
+                        shuffled: ["works", "He", "hospital.", "in", "a"],
+                        difficulty: "easy"
+                    },
+                    {
+                        question: "A: Do you like coffee?",
+                        answer: ["Yes,", "I", "drink", "coffee", "every", "morning."],
+                        shuffled: ["I", "Yes,", "morning.", "drink", "every", "coffee"],
+                        difficulty: "easy"
+                    },
+                    {
+                        question: "A: Where is the supermarket?",
+                        answer: ["It", "is", "next", "to", "the", "bank."],
+                        shuffled: ["is", "It", "bank.", "next", "the", "to"],
+                        difficulty: "easy"
+                    },
+                    // Present Continuous
+                    {
+                        question: "A: What are you doing right now?",
+                        answer: ["I", "am", "studying", "for", "my", "exam."],
+                        shuffled: ["am", "I", "exam.", "studying", "my", "for"],
+                        difficulty: "easy"
+                    },
+                    {
+                        question: "A: Is it raining outside?",
+                        answer: ["No,", "the", "sun", "is", "shining", "brightly."],
+                        shuffled: ["the", "No,", "brightly.", "sun", "shining", "is"],
+                        difficulty: "easy"
+                    },
+                    // Past Simple
+                    {
+                        question: "A: What did you do yesterday?",
+                        answer: ["I", "went", "to", "the", "cinema", "with", "friends."],
+                        shuffled: ["went", "I", "friends.", "to", "cinema", "the", "with"],
+                        difficulty: "easy"
+                    },
+                    {
+                        question: "A: Did you finish your homework?",
+                        answer: ["Yes,", "I", "finished", "it", "last", "night."],
+                        shuffled: ["I", "Yes,", "night.", "finished", "last", "it"],
+                        difficulty: "easy"
+                    },
+                    // Future (going to / will)
+                    {
+                        question: "A: What are your plans for the weekend?",
+                        answer: ["I", "am", "going", "to", "visit", "my", "grandparents."],
+                        shuffled: ["am", "I", "grandparents.", "going", "visit", "to", "my"],
+                        difficulty: "easy"
+                    },
+                    {
+                        question: "A: The phone is ringing!",
+                        answer: ["I", "will", "answer", "it", "for", "you."],
+                        shuffled: ["will", "I", "you.", "answer", "for", "it"],
+                        difficulty: "easy"
+                    },
+                    // Can / Can't
+                    {
+                        question: "A: Can you speak any foreign languages?",
+                        answer: ["I", "can", "speak", "English", "and", "Spanish."],
+                        shuffled: ["can", "I", "Spanish.", "speak", "and", "English"],
+                        difficulty: "easy"
+                    },
+                    // There is / There are
+                    {
+                        question: "A: What is in your bag?",
+                        answer: ["There", "are", "some", "books", "and", "a", "laptop."],
+                        shuffled: ["are", "There", "laptop.", "some", "and", "books", "a"],
+                        difficulty: "easy"
+                    },
+                    // Comparatives
+                    {
+                        question: "A: Is your new apartment big?",
+                        answer: ["It", "is", "bigger", "than", "my", "old", "one."],
+                        shuffled: ["is", "It", "one.", "bigger", "my", "than", "old"],
+                        difficulty: "easy"
+                    },
+                    // Have to / Must
+                    {
+                        question: "A: Why are you leaving so early?",
+                        answer: ["I", "have", "to", "catch", "the", "last", "bus."],
+                        shuffled: ["have", "I", "bus.", "to", "the", "catch", "last"],
+                        difficulty: "easy"
+                    },
+                    // Prepositions of time
+                    {
+                        question: "A: When is your birthday?",
+                        answer: ["My", "birthday", "is", "on", "the", "15th", "of", "March."],
+                        shuffled: ["birthday", "My", "March.", "is", "the", "on", "of", "15th"],
+                        difficulty: "easy"
+                    },
+                    // Would like
+                    {
+                        question: "A: What would you like to order?",
+                        answer: ["I", "would", "like", "a", "cup", "of", "tea."],
+                        shuffled: ["would", "I", "tea.", "like", "cup", "a", "of"],
+                        difficulty: "easy"
+                    },
+
+                    // ============== MEDIUM LEVEL (B1-B2) ==============
                     // Conditionals & Hypotheticals
                     {
                         question: "A: Why didn't you call me when you arrived?",
@@ -460,6 +571,104 @@
                         answer: ["I", "am", "confident", "that", "I", "can", "manage", "it", "without", "any", "help."],
                         shuffled: ["am", "I", "help.", "confident", "I", "that", "manage", "can", "without", "it", "any"],
                         difficulty: "medium"
+                    },
+                    // More Medium Level Sentences
+                    {
+                        question: "A: Why do you look so tired today?",
+                        answer: ["I", "couldn't", "sleep", "well", "because", "of", "the", "noise", "outside."],
+                        shuffled: ["couldn't", "I", "outside.", "sleep", "because", "well", "the", "of", "noise"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: Have you ever been to Japan?",
+                        answer: ["No,", "but", "I", "have", "always", "wanted", "to", "visit", "Tokyo."],
+                        shuffled: ["but", "No,", "Tokyo.", "I", "always", "have", "to", "wanted", "visit"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: What would you do if you lost your job?",
+                        answer: ["I", "would", "start", "looking", "for", "another", "one", "immediately."],
+                        shuffled: ["would", "I", "immediately.", "start", "for", "looking", "one", "another"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: Did you remember to lock the door?",
+                        answer: ["I", "think", "so,", "but", "let", "me", "check", "just", "in", "case."],
+                        shuffled: ["think", "I", "case.", "so,", "let", "but", "check", "me", "in", "just"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: How often do you exercise?",
+                        answer: ["I", "try", "to", "go", "to", "the", "gym", "at", "least", "three", "times", "a", "week."],
+                        shuffled: ["try", "I", "week.", "to", "to", "go", "gym", "the", "least", "at", "times", "three", "a"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: Should I tell him the truth?",
+                        answer: ["It", "depends", "on", "how", "you", "think", "he", "will", "react."],
+                        shuffled: ["depends", "It", "react.", "on", "you", "how", "he", "think", "will"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: When did you realize you had made a mistake?",
+                        answer: ["It", "wasn't", "until", "later", "that", "I", "noticed", "the", "error."],
+                        shuffled: ["wasn't", "It", "error.", "until", "that", "later", "noticed", "I", "the"],
+                        difficulty: "medium"
+                    },
+                    {
+                        question: "A: Why didn't Sarah come to the party?",
+                        answer: ["She", "said", "she", "wasn't", "feeling", "well", "enough", "to", "go", "out."],
+                        shuffled: ["said", "She", "out.", "she", "feeling", "wasn't", "enough", "well", "go", "to"],
+                        difficulty: "medium"
+                    },
+                    // More Hard Level Sentences
+                    {
+                        question: "A: Don't you think the policy is unfair?",
+                        answer: ["Whether", "or", "not", "it", "is", "fair", "is", "a", "matter", "of", "perspective."],
+                        shuffled: ["or", "Whether", "perspective.", "not", "is", "it", "is", "fair", "matter", "a", "of"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: How did the company achieve such rapid growth?",
+                        answer: ["It", "was", "their", "innovative", "approach", "that", "set", "them", "apart", "from", "competitors."],
+                        shuffled: ["was", "It", "competitors.", "their", "approach", "innovative", "set", "that", "apart", "them", "from"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: Why do you think she resigned so suddenly?",
+                        answer: ["Had", "she", "not", "been", "offered", "a", "better", "position,", "she", "would", "have", "stayed."],
+                        shuffled: ["she", "Had", "stayed.", "not", "offered", "been", "better", "a", "she", "position,", "have", "would"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: Is it true that the project was cancelled?",
+                        answer: ["Not", "only", "was", "it", "cancelled,", "but", "all", "funding", "was", "also", "withdrawn."],
+                        shuffled: ["only", "Not", "withdrawn.", "was", "cancelled,", "it", "all", "but", "was", "funding", "also"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: Could you have predicted this outcome?",
+                        answer: ["Under", "no", "circumstances", "could", "anyone", "have", "foreseen", "such", "a", "dramatic", "change."],
+                        shuffled: ["no", "Under", "change.", "circumstances", "anyone", "could", "foreseen", "have", "a", "such", "dramatic"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: What makes this university so prestigious?",
+                        answer: ["It", "is", "not", "so", "much", "the", "facilities", "as", "the", "quality", "of", "teaching."],
+                        shuffled: ["is", "It", "teaching.", "not", "much", "so", "facilities", "the", "the", "as", "of", "quality"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: Why did they reject your proposal?",
+                        answer: ["The", "proposal", "was", "rejected", "on", "the", "grounds", "that", "it", "was", "too", "expensive."],
+                        shuffled: ["proposal", "The", "expensive.", "was", "on", "rejected", "grounds", "the", "it", "that", "too", "was"],
+                        difficulty: "hard"
+                    },
+                    {
+                        question: "A: Should I have accepted their offer?",
+                        answer: ["In", "hindsight,", "you", "probably", "should", "have", "given", "it", "more", "serious", "consideration."],
+                        shuffled: ["hindsight,", "In", "consideration.", "you", "should", "probably", "given", "have", "more", "it", "serious"],
+                        difficulty: "hard"
                     }
                 ],
                 filteredSentences: [],
