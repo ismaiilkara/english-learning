@@ -1,7 +1,7 @@
 {
     "title": "Oxford 3000-5000",
     "description": "Core vocabulary for English learners - A1 to B2 levels",
-    "totalWords": 4250,
+    "totalWords": 4600,
     "categories": [
         {
             "id": 1,
@@ -30622,6 +30622,2498 @@
                     "definition": "Mistake",
                     "turkish": "pot kırmak",
                     "example": "Social ----."
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "name": "B2 - Upper-Intermediate Words (Part 16)",
+            "words": [
+                {
+                    "word": "establish",
+                    "type": "verb",
+                    "definition": "To create",
+                    "turkish": "kurmak",
+                    "example": "---- a business."
+                },
+                {
+                    "word": "establishment",
+                    "type": "noun",
+                    "definition": "Institution",
+                    "turkish": "kuruluş",
+                    "example": "The ----."
+                },
+                {
+                    "word": "estate",
+                    "type": "noun",
+                    "definition": "Property",
+                    "turkish": "mülk",
+                    "example": "Real ----."
+                },
+                {
+                    "word": "estimate",
+                    "type": "verb",
+                    "definition": "To guess",
+                    "turkish": "tahmin etmek",
+                    "example": "---- the cost."
+                },
+                {
+                    "word": "eternal",
+                    "type": "adjective",
+                    "definition": "Forever",
+                    "turkish": "ebedi",
+                    "example": "---- life."
+                },
+                {
+                    "word": "ethical",
+                    "type": "adjective",
+                    "definition": "Moral",
+                    "turkish": "etik",
+                    "example": "---- issues."
+                },
+                {
+                    "word": "ethics",
+                    "type": "noun",
+                    "definition": "Morals",
+                    "turkish": "etik",
+                    "example": "Business ----."
+                },
+                {
+                    "word": "ethnic",
+                    "type": "adjective",
+                    "definition": "Cultural group",
+                    "turkish": "etnik",
+                    "example": "---- minority."
+                },
+                {
+                    "word": "evaluate",
+                    "type": "verb",
+                    "definition": "To assess",
+                    "turkish": "değerlendirmek",
+                    "example": "---- performance."
+                },
+                {
+                    "word": "evaluation",
+                    "type": "noun",
+                    "definition": "Assessment",
+                    "turkish": "değerlendirme",
+                    "example": "Job ----."
+                },
+                {
+                    "word": "eventual",
+                    "type": "adjective",
+                    "definition": "Final",
+                    "turkish": "nihai",
+                    "example": "---- outcome."
+                },
+                {
+                    "word": "eventually",
+                    "type": "adverb",
+                    "definition": "Finally",
+                    "turkish": "sonunda",
+                    "example": "---- succeeded."
+                },
+                {
+                    "word": "everyday",
+                    "type": "adjective",
+                    "definition": "Daily",
+                    "turkish": "günlük",
+                    "example": "---- life."
+                },
+                {
+                    "word": "evident",
+                    "type": "adjective",
+                    "definition": "Obvious",
+                    "turkish": "açık",
+                    "example": "---- from..."
+                },
+                {
+                    "word": "evil",
+                    "type": "adjective",
+                    "definition": "Wicked",
+                    "turkish": "kötü",
+                    "example": "---- plan."
+                },
+                {
+                    "word": "evolution",
+                    "type": "noun",
+                    "definition": "Development",
+                    "turkish": "evrim",
+                    "example": "Theory of ----."
+                },
+                {
+                    "word": "evolutionary",
+                    "type": "adjective",
+                    "definition": "Gradual change",
+                    "turkish": "evrimsel",
+                    "example": "---- process."
+                },
+                {
+                    "word": "evolve",
+                    "type": "verb",
+                    "definition": "To develop",
+                    "turkish": "evrimleşmek",
+                    "example": "---- over time."
+                },
+                {
+                    "word": "exaggerate",
+                    "type": "verb",
+                    "definition": "To overstate",
+                    "turkish": "abartmak",
+                    "example": "Don't ----!"
+                },
+                {
+                    "word": "examination",
+                    "type": "noun",
+                    "definition": "Test",
+                    "turkish": "sınav",
+                    "example": "Medical ----."
+                },
+                {
+                    "word": "exceed",
+                    "type": "verb",
+                    "definition": "To go beyond",
+                    "turkish": "aşmak",
+                    "example": "---- expectations."
+                },
+                {
+                    "word": "excellent",
+                    "type": "adjective",
+                    "definition": "Very good",
+                    "turkish": "mükemmel",
+                    "example": "---- work!"
+                },
+                {
+                    "word": "exception",
+                    "type": "noun",
+                    "definition": "Exclusion",
+                    "turkish": "istisna",
+                    "example": "Make an ----."
+                },
+                {
+                    "word": "exceptional",
+                    "type": "adjective",
+                    "definition": "Outstanding",
+                    "turkish": "olağanüstü",
+                    "example": "---- talent."
+                },
+                {
+                    "word": "excess",
+                    "type": "noun",
+                    "definition": "Too much",
+                    "turkish": "fazla",
+                    "example": "In ----."
+                },
+                {
+                    "word": "excessive",
+                    "type": "adjective",
+                    "definition": "Too much",
+                    "turkish": "aşırı",
+                    "example": "---- force."
+                },
+                {
+                    "word": "exchange",
+                    "type": "noun",
+                    "definition": "Trade",
+                    "turkish": "değişim",
+                    "example": "Stock ----."
+                },
+                {
+                    "word": "exclaim",
+                    "type": "verb",
+                    "definition": "To cry out",
+                    "turkish": "haykırmak",
+                    "example": "She ----ed!"
+                },
+                {
+                    "word": "exclude",
+                    "type": "verb",
+                    "definition": "To leave out",
+                    "turkish": "hariç tutmak",
+                    "example": "---- from..."
+                },
+                {
+                    "word": "exclusion",
+                    "type": "noun",
+                    "definition": "Leaving out",
+                    "turkish": "dışlama",
+                    "example": "Social ----."
+                },
+                {
+                    "word": "exclusive",
+                    "type": "adjective",
+                    "definition": "Limited",
+                    "turkish": "münhasır",
+                    "example": "---- access."
+                },
+                {
+                    "word": "exclusively",
+                    "type": "adverb",
+                    "definition": "Only",
+                    "turkish": "münhasıran",
+                    "example": "---- for members."
+                },
+                {
+                    "word": "excuse",
+                    "type": "noun",
+                    "definition": "Reason",
+                    "turkish": "bahane",
+                    "example": "No ----!"
+                },
+                {
+                    "word": "execute",
+                    "type": "verb",
+                    "definition": "To carry out",
+                    "turkish": "yürütmek",
+                    "example": "---- the plan."
+                },
+                {
+                    "word": "execution",
+                    "type": "noun",
+                    "definition": "Carrying out",
+                    "turkish": "uygulama",
+                    "example": "Perfect ----."
+                },
+                {
+                    "word": "executive",
+                    "type": "noun",
+                    "definition": "Manager",
+                    "turkish": "yönetici",
+                    "example": "Top ----."
+                },
+                {
+                    "word": "exhibit",
+                    "type": "verb",
+                    "definition": "To display",
+                    "turkish": "sergilemek",
+                    "example": "---- artwork."
+                },
+                {
+                    "word": "exhibition",
+                    "type": "noun",
+                    "definition": "Display",
+                    "turkish": "sergi",
+                    "example": "Art ----."
+                },
+                {
+                    "word": "exile",
+                    "type": "noun",
+                    "definition": "Banishment",
+                    "turkish": "sürgün",
+                    "example": "In ----."
+                },
+                {
+                    "word": "exist",
+                    "type": "verb",
+                    "definition": "To be",
+                    "turkish": "var olmak",
+                    "example": "Still ----s."
+                },
+                {
+                    "word": "existence",
+                    "type": "noun",
+                    "definition": "Being",
+                    "turkish": "varlık",
+                    "example": "In ----."
+                },
+                {
+                    "word": "existing",
+                    "type": "adjective",
+                    "definition": "Current",
+                    "turkish": "mevcut",
+                    "example": "---- system."
+                },
+                {
+                    "word": "expand",
+                    "type": "verb",
+                    "definition": "To grow",
+                    "turkish": "genişletmek",
+                    "example": "---- operations."
+                },
+                {
+                    "word": "expansion",
+                    "type": "noun",
+                    "definition": "Growth",
+                    "turkish": "genişleme",
+                    "example": "Market ----."
+                },
+                {
+                    "word": "expectation",
+                    "type": "noun",
+                    "definition": "Hope",
+                    "turkish": "beklenti",
+                    "example": "High ----s."
+                },
+                {
+                    "word": "expedition",
+                    "type": "noun",
+                    "definition": "Journey",
+                    "turkish": "sefer",
+                    "example": "Scientific ----."
+                },
+                {
+                    "word": "expenditure",
+                    "type": "noun",
+                    "definition": "Spending",
+                    "turkish": "harcama",
+                    "example": "Government ----."
+                },
+                {
+                    "word": "expense",
+                    "type": "noun",
+                    "definition": "Cost",
+                    "turkish": "masraf",
+                    "example": "At my ----."
+                },
+                {
+                    "word": "experimental",
+                    "type": "adjective",
+                    "definition": "Trial",
+                    "turkish": "deneysel",
+                    "example": "---- phase."
+                },
+                {
+                    "word": "expertise",
+                    "type": "noun",
+                    "definition": "Skill",
+                    "turkish": "uzmanlık",
+                    "example": "Technical ----."
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "name": "B2 - Upper-Intermediate Words (Part 17)",
+            "words": [
+                {
+                    "word": "expiration",
+                    "type": "noun",
+                    "definition": "Ending",
+                    "turkish": "bitiş",
+                    "example": "---- date."
+                },
+                {
+                    "word": "expire",
+                    "type": "verb",
+                    "definition": "To end",
+                    "turkish": "sona ermek",
+                    "example": "Contract ----d."
+                },
+                {
+                    "word": "explanation",
+                    "type": "noun",
+                    "definition": "Reason",
+                    "turkish": "açıklama",
+                    "example": "Clear ----."
+                },
+                {
+                    "word": "explode",
+                    "type": "verb",
+                    "definition": "To blow up",
+                    "turkish": "patlamak",
+                    "example": "Bomb ----d."
+                },
+                {
+                    "word": "exploit",
+                    "type": "noun",
+                    "definition": "Achievement",
+                    "turkish": "başarı",
+                    "example": "Great ----s."
+                },
+                {
+                    "word": "exploitation",
+                    "type": "noun",
+                    "definition": "Using unfairly",
+                    "turkish": "sömürü",
+                    "example": "Labor ----."
+                },
+                {
+                    "word": "exploration",
+                    "type": "noun",
+                    "definition": "Investigation",
+                    "turkish": "keşif",
+                    "example": "Space ----."
+                },
+                {
+                    "word": "explore",
+                    "type": "verb",
+                    "definition": "To investigate",
+                    "turkish": "keşfetmek",
+                    "example": "---- options."
+                },
+                {
+                    "word": "explosion",
+                    "type": "noun",
+                    "definition": "Blast",
+                    "turkish": "patlama",
+                    "example": "Huge ----."
+                },
+                {
+                    "word": "explosive",
+                    "type": "adjective",
+                    "definition": "Volatile",
+                    "turkish": "patlayıcı",
+                    "example": "---- device."
+                },
+                {
+                    "word": "export",
+                    "type": "verb",
+                    "definition": "To sell abroad",
+                    "turkish": "ihraç etmek",
+                    "example": "---- goods."
+                },
+                {
+                    "word": "expose",
+                    "type": "verb",
+                    "definition": "To reveal",
+                    "turkish": "maruz bırakmak",
+                    "example": "---- the truth."
+                },
+                {
+                    "word": "exposure",
+                    "type": "noun",
+                    "definition": "Being exposed",
+                    "turkish": "maruz kalma",
+                    "example": "Sun ----."
+                },
+                {
+                    "word": "express",
+                    "type": "verb",
+                    "definition": "To show",
+                    "turkish": "ifade etmek",
+                    "example": "---- feelings."
+                },
+                {
+                    "word": "expression",
+                    "type": "noun",
+                    "definition": "Showing",
+                    "turkish": "ifade",
+                    "example": "Facial ----."
+                },
+                {
+                    "word": "extend",
+                    "type": "verb",
+                    "definition": "To stretch",
+                    "turkish": "uzatmak",
+                    "example": "---- deadline."
+                },
+                {
+                    "word": "extension",
+                    "type": "noun",
+                    "definition": "Addition",
+                    "turkish": "uzatma",
+                    "example": "File ----."
+                },
+                {
+                    "word": "extensive",
+                    "type": "adjective",
+                    "definition": "Wide",
+                    "turkish": "geniş",
+                    "example": "---- research."
+                },
+                {
+                    "word": "extent",
+                    "type": "noun",
+                    "definition": "Degree",
+                    "turkish": "derece",
+                    "example": "To some ----."
+                },
+                {
+                    "word": "exterior",
+                    "type": "noun",
+                    "definition": "Outside",
+                    "turkish": "dış",
+                    "example": "Building ----."
+                },
+                {
+                    "word": "external",
+                    "type": "adjective",
+                    "definition": "Outer",
+                    "turkish": "dış",
+                    "example": "---- factors."
+                },
+                {
+                    "word": "extinct",
+                    "type": "adjective",
+                    "definition": "No longer existing",
+                    "turkish": "soyu tükenmiş",
+                    "example": "---- species."
+                },
+                {
+                    "word": "extract",
+                    "type": "verb",
+                    "definition": "To remove",
+                    "turkish": "çıkarmak",
+                    "example": "---- data."
+                },
+                {
+                    "word": "extreme",
+                    "type": "adjective",
+                    "definition": "Intense",
+                    "turkish": "aşırı",
+                    "example": "---- weather."
+                },
+                {
+                    "word": "extremely",
+                    "type": "adverb",
+                    "definition": "Very",
+                    "turkish": "son derece",
+                    "example": "---- difficult."
+                },
+                {
+                    "word": "fabric",
+                    "type": "noun",
+                    "definition": "Cloth",
+                    "turkish": "kumaş",
+                    "example": "Cotton ----."
+                },
+                {
+                    "word": "facial",
+                    "type": "adjective",
+                    "definition": "Face-related",
+                    "turkish": "yüz",
+                    "example": "---- expression."
+                },
+                {
+                    "word": "facilitate",
+                    "type": "verb",
+                    "definition": "To make easy",
+                    "turkish": "kolaylaştırmak",
+                    "example": "---- discussion."
+                },
+                {
+                    "word": "facility",
+                    "type": "noun",
+                    "definition": "Building",
+                    "turkish": "tesis",
+                    "example": "Sports ----."
+                },
+                {
+                    "word": "faction",
+                    "type": "noun",
+                    "definition": "Group",
+                    "turkish": "hizip",
+                    "example": "Political ----."
+                },
+                {
+                    "word": "factory",
+                    "type": "noun",
+                    "definition": "Manufacturing place",
+                    "turkish": "fabrika",
+                    "example": "Car ----."
+                },
+                {
+                    "word": "faculty",
+                    "type": "noun",
+                    "definition": "Ability; staff",
+                    "turkish": "fakülte",
+                    "example": "University ----."
+                },
+                {
+                    "word": "fade",
+                    "type": "verb",
+                    "definition": "To lose color",
+                    "turkish": "solmak",
+                    "example": "---- away."
+                },
+                {
+                    "word": "failure",
+                    "type": "noun",
+                    "definition": "Lack of success",
+                    "turkish": "başarısızlık",
+                    "example": "Complete ----."
+                },
+                {
+                    "word": "faint",
+                    "type": "adjective",
+                    "definition": "Weak",
+                    "turkish": "hafif",
+                    "example": "---- sound."
+                },
+                {
+                    "word": "fairly",
+                    "type": "adverb",
+                    "definition": "Quite",
+                    "turkish": "oldukça",
+                    "example": "---- good."
+                },
+                {
+                    "word": "fairy",
+                    "type": "noun",
+                    "definition": "Magical being",
+                    "turkish": "peri",
+                    "example": "---- tale."
+                },
+                {
+                    "word": "faith",
+                    "type": "noun",
+                    "definition": "Belief",
+                    "turkish": "inanç",
+                    "example": "Blind ----."
+                },
+                {
+                    "word": "faithful",
+                    "type": "adjective",
+                    "definition": "Loyal",
+                    "turkish": "sadık",
+                    "example": "---- friend."
+                },
+                {
+                    "word": "fame",
+                    "type": "noun",
+                    "definition": "Renown",
+                    "turkish": "şöhret",
+                    "example": "World ----."
+                },
+                {
+                    "word": "familiar",
+                    "type": "adjective",
+                    "definition": "Known",
+                    "turkish": "tanıdık",
+                    "example": "---- face."
+                },
+                {
+                    "word": "famine",
+                    "type": "noun",
+                    "definition": "Hunger crisis",
+                    "turkish": "kıtlık",
+                    "example": "Global ----."
+                },
+                {
+                    "word": "fancy",
+                    "type": "adjective",
+                    "definition": "Elaborate",
+                    "turkish": "süslü",
+                    "example": "---- dress."
+                },
+                {
+                    "word": "fantastic",
+                    "type": "adjective",
+                    "definition": "Great",
+                    "turkish": "harika",
+                    "example": "---- news!"
+                },
+                {
+                    "word": "fantasy",
+                    "type": "noun",
+                    "definition": "Imagination",
+                    "turkish": "fantazi",
+                    "example": "Pure ----."
+                },
+                {
+                    "word": "fare",
+                    "type": "noun",
+                    "definition": "Ticket price",
+                    "turkish": "ücret",
+                    "example": "Bus ----."
+                },
+                {
+                    "word": "farewell",
+                    "type": "noun",
+                    "definition": "Goodbye",
+                    "turkish": "veda",
+                    "example": "---- party."
+                },
+                {
+                    "word": "farming",
+                    "type": "noun",
+                    "definition": "Agriculture",
+                    "turkish": "çiftçilik",
+                    "example": "Organic ----."
+                },
+                {
+                    "word": "fascinating",
+                    "type": "adjective",
+                    "definition": "Very interesting",
+                    "turkish": "büyüleyici",
+                    "example": "---- story."
+                },
+                {
+                    "word": "fascination",
+                    "type": "noun",
+                    "definition": "Great interest",
+                    "turkish": "hayranlık",
+                    "example": "Deep ----."
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "name": "B2 - Upper-Intermediate Words (Part 18)",
+            "words": [
+                {
+                    "word": "fashion",
+                    "type": "noun",
+                    "definition": "Style",
+                    "turkish": "moda",
+                    "example": "In ----."
+                },
+                {
+                    "word": "fashionable",
+                    "type": "adjective",
+                    "definition": "Stylish",
+                    "turkish": "modaya uygun",
+                    "example": "Very ----!"
+                },
+                {
+                    "word": "fatal",
+                    "type": "adjective",
+                    "definition": "Deadly",
+                    "turkish": "ölümcül",
+                    "example": "---- accident."
+                },
+                {
+                    "word": "fate",
+                    "type": "noun",
+                    "definition": "Destiny",
+                    "turkish": "kader",
+                    "example": "Accept ----."
+                },
+                {
+                    "word": "fatigue",
+                    "type": "noun",
+                    "definition": "Tiredness",
+                    "turkish": "yorgunluk",
+                    "example": "Mental ----."
+                },
+                {
+                    "word": "fault",
+                    "type": "noun",
+                    "definition": "Mistake",
+                    "turkish": "hata",
+                    "example": "My ----!"
+                },
+                {
+                    "word": "favor",
+                    "type": "noun",
+                    "definition": "Kindness",
+                    "turkish": "iyilik",
+                    "example": "Do a ----."
+                },
+                {
+                    "word": "favorable",
+                    "type": "adjective",
+                    "definition": "Positive",
+                    "turkish": "olumlu",
+                    "example": "---- conditions."
+                },
+                {
+                    "word": "favorite",
+                    "type": "noun",
+                    "definition": "Preferred",
+                    "turkish": "favori",
+                    "example": "My ----."
+                },
+                {
+                    "word": "fax",
+                    "type": "noun",
+                    "definition": "Document transmission",
+                    "turkish": "faks",
+                    "example": "Send a ----."
+                },
+                {
+                    "word": "feast",
+                    "type": "noun",
+                    "definition": "Large meal",
+                    "turkish": "ziyafet",
+                    "example": "---- day."
+                },
+                {
+                    "word": "feat",
+                    "type": "noun",
+                    "definition": "Achievement",
+                    "turkish": "başarı",
+                    "example": "Amazing ----."
+                },
+                {
+                    "word": "feather",
+                    "type": "noun",
+                    "definition": "Bird covering",
+                    "turkish": "tüy",
+                    "example": "Light as a ----."
+                },
+                {
+                    "word": "feature",
+                    "type": "noun",
+                    "definition": "Characteristic",
+                    "turkish": "özellik",
+                    "example": "Key ----."
+                },
+                {
+                    "word": "federal",
+                    "type": "adjective",
+                    "definition": "Central government",
+                    "turkish": "federal",
+                    "example": "---- law."
+                },
+                {
+                    "word": "federation",
+                    "type": "noun",
+                    "definition": "Union",
+                    "turkish": "federasyon",
+                    "example": "Sports ----."
+                },
+                {
+                    "word": "fee",
+                    "type": "noun",
+                    "definition": "Charge",
+                    "turkish": "ücret",
+                    "example": "Entrance ----."
+                },
+                {
+                    "word": "feedback",
+                    "type": "noun",
+                    "definition": "Response",
+                    "turkish": "geri bildirim",
+                    "example": "Get ----."
+                },
+                {
+                    "word": "feeling",
+                    "type": "noun",
+                    "definition": "Emotion",
+                    "turkish": "duygu",
+                    "example": "Strange ----."
+                },
+                {
+                    "word": "fellow",
+                    "type": "noun",
+                    "definition": "Person",
+                    "turkish": "arkadaş",
+                    "example": "Good ----."
+                },
+                {
+                    "word": "fellowship",
+                    "type": "noun",
+                    "definition": "Companionship",
+                    "turkish": "dostluk",
+                    "example": "Research ----."
+                },
+                {
+                    "word": "female",
+                    "type": "adjective",
+                    "definition": "Woman",
+                    "turkish": "kadın",
+                    "example": "---- candidate."
+                },
+                {
+                    "word": "feminine",
+                    "type": "adjective",
+                    "definition": "Womanly",
+                    "turkish": "kadınsı",
+                    "example": "---- touch."
+                },
+                {
+                    "word": "fence",
+                    "type": "noun",
+                    "definition": "Barrier",
+                    "turkish": "çit",
+                    "example": "Garden ----."
+                },
+                {
+                    "word": "ferry",
+                    "type": "noun",
+                    "definition": "Boat",
+                    "turkish": "feribot",
+                    "example": "---- crossing."
+                },
+                {
+                    "word": "fertile",
+                    "type": "adjective",
+                    "definition": "Productive",
+                    "turkish": "verimli",
+                    "example": "---- land."
+                },
+                {
+                    "word": "festival",
+                    "type": "noun",
+                    "definition": "Celebration",
+                    "turkish": "festival",
+                    "example": "Music ----."
+                },
+                {
+                    "word": "fever",
+                    "type": "noun",
+                    "definition": "High temperature",
+                    "turkish": "ateş",
+                    "example": "High ----."
+                },
+                {
+                    "word": "fiber",
+                    "type": "noun",
+                    "definition": "Thread",
+                    "turkish": "lif",
+                    "example": "Optical ----."
+                },
+                {
+                    "word": "fiction",
+                    "type": "noun",
+                    "definition": "Made-up story",
+                    "turkish": "kurgu",
+                    "example": "Science ----."
+                },
+                {
+                    "word": "fierce",
+                    "type": "adjective",
+                    "definition": "Violent",
+                    "turkish": "şiddetli",
+                    "example": "---- competition."
+                },
+                {
+                    "word": "fifteen",
+                    "type": "number",
+                    "definition": "15",
+                    "turkish": "on beş",
+                    "example": "---- minutes."
+                },
+                {
+                    "word": "fifth",
+                    "type": "number",
+                    "definition": "5th",
+                    "turkish": "beşinci",
+                    "example": "---- place."
+                },
+                {
+                    "word": "fifty",
+                    "type": "number",
+                    "definition": "50",
+                    "turkish": "elli",
+                    "example": "---- years."
+                },
+                {
+                    "word": "fighter",
+                    "type": "noun",
+                    "definition": "Warrior",
+                    "turkish": "savaşçı",
+                    "example": "Freedom ----."
+                },
+                {
+                    "word": "figure",
+                    "type": "noun",
+                    "definition": "Number; person",
+                    "turkish": "rakam, figür",
+                    "example": "Public ----."
+                },
+                {
+                    "word": "file",
+                    "type": "noun",
+                    "definition": "Document",
+                    "turkish": "dosya",
+                    "example": "Computer ----."
+                },
+                {
+                    "word": "filing",
+                    "type": "noun",
+                    "definition": "Organizing documents",
+                    "turkish": "dosyalama",
+                    "example": "---- cabinet."
+                },
+                {
+                    "word": "filter",
+                    "type": "noun",
+                    "definition": "Strainer",
+                    "turkish": "filtre",
+                    "example": "Water ----."
+                },
+                {
+                    "word": "final",
+                    "type": "adjective",
+                    "definition": "Last",
+                    "turkish": "son",
+                    "example": "---- decision."
+                },
+                {
+                    "word": "finally",
+                    "type": "adverb",
+                    "definition": "At last",
+                    "turkish": "sonunda",
+                    "example": "---- arrived."
+                },
+                {
+                    "word": "finance",
+                    "type": "noun",
+                    "definition": "Money management",
+                    "turkish": "finans",
+                    "example": "Personal ----."
+                },
+                {
+                    "word": "financial",
+                    "type": "adjective",
+                    "definition": "Money-related",
+                    "turkish": "mali",
+                    "example": "---- crisis."
+                },
+                {
+                    "word": "fine",
+                    "type": "adjective",
+                    "definition": "Good; thin",
+                    "turkish": "iyi, ince",
+                    "example": "---- art."
+                },
+                {
+                    "word": "finger",
+                    "type": "noun",
+                    "definition": "Hand digit",
+                    "turkish": "parmak",
+                    "example": "Point a ----."
+                },
+                {
+                    "word": "finishing",
+                    "type": "noun",
+                    "definition": "Completion",
+                    "turkish": "bitiş",
+                    "example": "---- line."
+                },
+                {
+                    "word": "finite",
+                    "type": "adjective",
+                    "definition": "Limited",
+                    "turkish": "sınırlı",
+                    "example": "---- resources."
+                },
+                {
+                    "word": "fireplace",
+                    "type": "noun",
+                    "definition": "Hearth",
+                    "turkish": "şömine",
+                    "example": "By the ----."
+                },
+                {
+                    "word": "firework",
+                    "type": "noun",
+                    "definition": "Explosive display",
+                    "turkish": "havai fişek",
+                    "example": "---- show."
+                },
+                {
+                    "word": "firm",
+                    "type": "noun",
+                    "definition": "Company",
+                    "turkish": "firma",
+                    "example": "Law ----."
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "name": "C1 - Advanced Words (Part 11)",
+            "words": [
+                {
+                    "word": "gait",
+                    "type": "noun",
+                    "definition": "Way of walking",
+                    "turkish": "yürüyüş",
+                    "example": "Steady ----."
+                },
+                {
+                    "word": "gallant",
+                    "type": "adjective",
+                    "definition": "Brave",
+                    "turkish": "cesur",
+                    "example": "---- effort."
+                },
+                {
+                    "word": "galvanize",
+                    "type": "verb",
+                    "definition": "To stimulate",
+                    "turkish": "harekete geçirmek",
+                    "example": "---- into action."
+                },
+                {
+                    "word": "gambit",
+                    "type": "noun",
+                    "definition": "Opening move",
+                    "turkish": "hamle",
+                    "example": "Opening ----."
+                },
+                {
+                    "word": "garble",
+                    "type": "verb",
+                    "definition": "To distort",
+                    "turkish": "bozmak",
+                    "example": "---- the message."
+                },
+                {
+                    "word": "garish",
+                    "type": "adjective",
+                    "definition": "Too bright",
+                    "turkish": "gösterişli",
+                    "example": "---- colors."
+                },
+                {
+                    "word": "garner",
+                    "type": "verb",
+                    "definition": "To gather",
+                    "turkish": "toplamak",
+                    "example": "---- support."
+                },
+                {
+                    "word": "garrulous",
+                    "type": "adjective",
+                    "definition": "Talkative",
+                    "turkish": "geveze",
+                    "example": "---- person."
+                },
+                {
+                    "word": "gauge",
+                    "type": "verb",
+                    "definition": "To measure",
+                    "turkish": "ölçmek",
+                    "example": "---- reaction."
+                },
+                {
+                    "word": "genesis",
+                    "type": "noun",
+                    "definition": "Origin",
+                    "turkish": "başlangıç",
+                    "example": "---- of the idea."
+                },
+                {
+                    "word": "genteel",
+                    "type": "adjective",
+                    "definition": "Refined",
+                    "turkish": "kibar",
+                    "example": "---- manners."
+                },
+                {
+                    "word": "germane",
+                    "type": "adjective",
+                    "definition": "Relevant",
+                    "turkish": "ilgili",
+                    "example": "---- to the topic."
+                },
+                {
+                    "word": "germinate",
+                    "type": "verb",
+                    "definition": "To grow",
+                    "turkish": "filizlenmek",
+                    "example": "Seeds ----."
+                },
+                {
+                    "word": "gesticulate",
+                    "type": "verb",
+                    "definition": "To gesture",
+                    "turkish": "el kol hareketi yapmak",
+                    "example": "---- wildly."
+                },
+                {
+                    "word": "ghastly",
+                    "type": "adjective",
+                    "definition": "Horrible",
+                    "turkish": "korkunç",
+                    "example": "---- sight."
+                },
+                {
+                    "word": "gibe",
+                    "type": "noun",
+                    "definition": "Taunt",
+                    "turkish": "alay",
+                    "example": "Cruel ----."
+                },
+                {
+                    "word": "gist",
+                    "type": "noun",
+                    "definition": "Main idea",
+                    "turkish": "ana fikir",
+                    "example": "Get the ----."
+                },
+                {
+                    "word": "glaring",
+                    "type": "adjective",
+                    "definition": "Obvious",
+                    "turkish": "göze batan",
+                    "example": "---- error."
+                },
+                {
+                    "word": "glean",
+                    "type": "verb",
+                    "definition": "To gather",
+                    "turkish": "toplamak",
+                    "example": "---- information."
+                },
+                {
+                    "word": "glib",
+                    "type": "adjective",
+                    "definition": "Superficial",
+                    "turkish": "yüzeysel",
+                    "example": "---- answer."
+                },
+                {
+                    "word": "glimmer",
+                    "type": "noun",
+                    "definition": "Faint light",
+                    "turkish": "parıltı",
+                    "example": "---- of hope."
+                },
+                {
+                    "word": "glitch",
+                    "type": "noun",
+                    "definition": "Problem",
+                    "turkish": "aksaklık",
+                    "example": "Technical ----."
+                },
+                {
+                    "word": "gloat",
+                    "type": "verb",
+                    "definition": "To brag",
+                    "turkish": "zafer kazanmış gibi bakmak",
+                    "example": "---- over victory."
+                },
+                {
+                    "word": "gloom",
+                    "type": "noun",
+                    "definition": "Darkness",
+                    "turkish": "kasvet",
+                    "example": "Spread ----."
+                },
+                {
+                    "word": "gloss",
+                    "type": "verb",
+                    "definition": "To explain",
+                    "turkish": "açıklamak",
+                    "example": "---- over errors."
+                },
+                {
+                    "word": "glower",
+                    "type": "verb",
+                    "definition": "To stare angrily",
+                    "turkish": "öfkeyle bakmak",
+                    "example": "---- at someone."
+                },
+                {
+                    "word": "glut",
+                    "type": "noun",
+                    "definition": "Excess",
+                    "turkish": "bolluk",
+                    "example": "---- of oil."
+                },
+                {
+                    "word": "goad",
+                    "type": "verb",
+                    "definition": "To provoke",
+                    "turkish": "kışkırtmak",
+                    "example": "---- into action."
+                },
+                {
+                    "word": "gossamer",
+                    "type": "adjective",
+                    "definition": "Delicate",
+                    "turkish": "ince",
+                    "example": "---- fabric."
+                },
+                {
+                    "word": "gouge",
+                    "type": "verb",
+                    "definition": "To overcharge",
+                    "turkish": "kazıklamak",
+                    "example": "---- customers."
+                },
+                {
+                    "word": "governance",
+                    "type": "noun",
+                    "definition": "Ruling",
+                    "turkish": "yönetişim",
+                    "example": "Corporate ----."
+                },
+                {
+                    "word": "gradation",
+                    "type": "noun",
+                    "definition": "Scale of change",
+                    "turkish": "derecelendirme",
+                    "example": "Color ----."
+                },
+                {
+                    "word": "gradient",
+                    "type": "noun",
+                    "definition": "Slope",
+                    "turkish": "eğim",
+                    "example": "Steep ----."
+                },
+                {
+                    "word": "grandeur",
+                    "type": "noun",
+                    "definition": "Magnificence",
+                    "turkish": "ihtişam",
+                    "example": "Natural ----."
+                },
+                {
+                    "word": "grandiose",
+                    "type": "adjective",
+                    "definition": "Impressive",
+                    "turkish": "görkemli",
+                    "example": "---- plans."
+                },
+                {
+                    "word": "grapple",
+                    "type": "verb",
+                    "definition": "To struggle",
+                    "turkish": "boğuşmak",
+                    "example": "---- with issues."
+                },
+                {
+                    "word": "gratify",
+                    "type": "verb",
+                    "definition": "To please",
+                    "turkish": "memnun etmek",
+                    "example": "---- desires."
+                },
+                {
+                    "word": "gratitude",
+                    "type": "noun",
+                    "definition": "Thankfulness",
+                    "turkish": "minnettarlık",
+                    "example": "Express ----."
+                },
+                {
+                    "word": "gratuitous",
+                    "type": "adjective",
+                    "definition": "Unnecessary",
+                    "turkish": "gereksiz",
+                    "example": "---- violence."
+                },
+                {
+                    "word": "gravitate",
+                    "type": "verb",
+                    "definition": "To be drawn to",
+                    "turkish": "çekilmek",
+                    "example": "---- toward..."
+                },
+                {
+                    "word": "gravity",
+                    "type": "noun",
+                    "definition": "Seriousness",
+                    "turkish": "ciddiyet",
+                    "example": "---- of the situation."
+                },
+                {
+                    "word": "gregarious",
+                    "type": "adjective",
+                    "definition": "Sociable",
+                    "turkish": "sosyal",
+                    "example": "---- person."
+                },
+                {
+                    "word": "grievance",
+                    "type": "noun",
+                    "definition": "Complaint",
+                    "turkish": "şikayet",
+                    "example": "File a ----."
+                },
+                {
+                    "word": "grievous",
+                    "type": "adjective",
+                    "definition": "Serious",
+                    "turkish": "ağır",
+                    "example": "---- harm."
+                },
+                {
+                    "word": "grim",
+                    "type": "adjective",
+                    "definition": "Harsh",
+                    "turkish": "kasvetli",
+                    "example": "---- reality."
+                },
+                {
+                    "word": "grimace",
+                    "type": "noun",
+                    "definition": "Facial expression",
+                    "turkish": "yüz buruşturma",
+                    "example": "Make a ----."
+                },
+                {
+                    "word": "grisly",
+                    "type": "adjective",
+                    "definition": "Gruesome",
+                    "turkish": "korkunç",
+                    "example": "---- murder."
+                },
+                {
+                    "word": "grovel",
+                    "type": "verb",
+                    "definition": "To beg",
+                    "turkish": "yerlere kapanmak",
+                    "example": "---- for forgiveness."
+                },
+                {
+                    "word": "grudge",
+                    "type": "noun",
+                    "definition": "Resentment",
+                    "turkish": "kin",
+                    "example": "Hold a ----."
+                },
+                {
+                    "word": "grueling",
+                    "type": "adjective",
+                    "definition": "Exhausting",
+                    "turkish": "yorucu",
+                    "example": "---- schedule."
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "name": "C1 - Advanced Words (Part 12)",
+            "words": [
+                {
+                    "word": "guile",
+                    "type": "noun",
+                    "definition": "Cunning",
+                    "turkish": "kurnazlık",
+                    "example": "Without ----."
+                },
+                {
+                    "word": "guise",
+                    "type": "noun",
+                    "definition": "Appearance",
+                    "turkish": "kılık",
+                    "example": "Under the ---- of."
+                },
+                {
+                    "word": "gullible",
+                    "type": "adjective",
+                    "definition": "Easily fooled",
+                    "turkish": "saf",
+                    "example": "Too ----."
+                },
+                {
+                    "word": "gumption",
+                    "type": "noun",
+                    "definition": "Initiative",
+                    "turkish": "cesaret",
+                    "example": "Have ----."
+                },
+                {
+                    "word": "guru",
+                    "type": "noun",
+                    "definition": "Expert",
+                    "turkish": "uzman",
+                    "example": "Tech ----."
+                },
+                {
+                    "word": "gust",
+                    "type": "noun",
+                    "definition": "Wind burst",
+                    "turkish": "ani rüzgar",
+                    "example": "---- of wind."
+                },
+                {
+                    "word": "gusto",
+                    "type": "noun",
+                    "definition": "Enthusiasm",
+                    "turkish": "şevk",
+                    "example": "With ----."
+                },
+                {
+                    "word": "habitual",
+                    "type": "adjective",
+                    "definition": "Regular",
+                    "turkish": "alışılmış",
+                    "example": "---- behavior."
+                },
+                {
+                    "word": "hackneyed",
+                    "type": "adjective",
+                    "definition": "Overused",
+                    "turkish": "bayat",
+                    "example": "---- phrase."
+                },
+                {
+                    "word": "hallmark",
+                    "type": "noun",
+                    "definition": "Distinguishing feature",
+                    "turkish": "ayırt edici özellik",
+                    "example": "---- of quality."
+                },
+                {
+                    "word": "hallow",
+                    "type": "verb",
+                    "definition": "To make holy",
+                    "turkish": "kutsamak",
+                    "example": "---- the ground."
+                },
+                {
+                    "word": "hamper",
+                    "type": "verb",
+                    "definition": "To hinder",
+                    "turkish": "engellemek",
+                    "example": "---- progress."
+                },
+                {
+                    "word": "haphazard",
+                    "type": "adjective",
+                    "definition": "Random",
+                    "turkish": "gelişigüzel",
+                    "example": "---- approach."
+                },
+                {
+                    "word": "hapless",
+                    "type": "adjective",
+                    "definition": "Unfortunate",
+                    "turkish": "talihsiz",
+                    "example": "---- victim."
+                },
+                {
+                    "word": "harangue",
+                    "type": "noun",
+                    "definition": "Long speech",
+                    "turkish": "nutuk",
+                    "example": "Long ----."
+                },
+                {
+                    "word": "harass",
+                    "type": "verb",
+                    "definition": "To annoy",
+                    "turkish": "taciz etmek",
+                    "example": "---- someone."
+                },
+                {
+                    "word": "harbinger",
+                    "type": "noun",
+                    "definition": "Sign",
+                    "turkish": "müjdeci",
+                    "example": "---- of change."
+                },
+                {
+                    "word": "harbor",
+                    "type": "verb",
+                    "definition": "To shelter",
+                    "turkish": "barındırmak",
+                    "example": "---- doubts."
+                },
+                {
+                    "word": "hardy",
+                    "type": "adjective",
+                    "definition": "Tough",
+                    "turkish": "dayanıklı",
+                    "example": "---- plant."
+                },
+                {
+                    "word": "harmonious",
+                    "type": "adjective",
+                    "definition": "Agreeable",
+                    "turkish": "uyumlu",
+                    "example": "---- relationship."
+                },
+                {
+                    "word": "harness",
+                    "type": "verb",
+                    "definition": "To control",
+                    "turkish": "kontrol altına almak",
+                    "example": "---- energy."
+                },
+                {
+                    "word": "harrowing",
+                    "type": "adjective",
+                    "definition": "Distressing",
+                    "turkish": "yürek parçalayıcı",
+                    "example": "---- experience."
+                },
+                {
+                    "word": "harry",
+                    "type": "verb",
+                    "definition": "To harass",
+                    "turkish": "rahatsız etmek",
+                    "example": "---- the enemy."
+                },
+                {
+                    "word": "harsh",
+                    "type": "adjective",
+                    "definition": "Severe",
+                    "turkish": "sert",
+                    "example": "---- criticism."
+                },
+                {
+                    "word": "hasty",
+                    "type": "adjective",
+                    "definition": "Quick",
+                    "turkish": "acele",
+                    "example": "---- decision."
+                },
+                {
+                    "word": "haughty",
+                    "type": "adjective",
+                    "definition": "Arrogant",
+                    "turkish": "kibirli",
+                    "example": "---- attitude."
+                },
+                {
+                    "word": "haven",
+                    "type": "noun",
+                    "definition": "Refuge",
+                    "turkish": "sığınak",
+                    "example": "Safe ----."
+                },
+                {
+                    "word": "havoc",
+                    "type": "noun",
+                    "definition": "Chaos",
+                    "turkish": "tahribat",
+                    "example": "Wreak ----."
+                },
+                {
+                    "word": "hazardous",
+                    "type": "adjective",
+                    "definition": "Dangerous",
+                    "turkish": "tehlikeli",
+                    "example": "---- materials."
+                },
+                {
+                    "word": "headway",
+                    "type": "noun",
+                    "definition": "Progress",
+                    "turkish": "ilerleme",
+                    "example": "Make ----."
+                },
+                {
+                    "word": "hearken",
+                    "type": "verb",
+                    "definition": "To listen",
+                    "turkish": "dinlemek",
+                    "example": "---- back to..."
+                },
+                {
+                    "word": "heartfelt",
+                    "type": "adjective",
+                    "definition": "Sincere",
+                    "turkish": "içten",
+                    "example": "---- apology."
+                },
+                {
+                    "word": "heartrending",
+                    "type": "adjective",
+                    "definition": "Very sad",
+                    "turkish": "yürek parçalayıcı",
+                    "example": "---- story."
+                },
+                {
+                    "word": "heckle",
+                    "type": "verb",
+                    "definition": "To interrupt",
+                    "turkish": "laf atmak",
+                    "example": "---- a speaker."
+                },
+                {
+                    "word": "heed",
+                    "type": "verb",
+                    "definition": "To pay attention",
+                    "turkish": "dikkat etmek",
+                    "example": "---- the warning."
+                },
+                {
+                    "word": "hegemony",
+                    "type": "noun",
+                    "definition": "Dominance",
+                    "turkish": "hegemonya",
+                    "example": "Cultural ----."
+                },
+                {
+                    "word": "heinous",
+                    "type": "adjective",
+                    "definition": "Wicked",
+                    "turkish": "iğrenç",
+                    "example": "---- crime."
+                },
+                {
+                    "word": "herald",
+                    "type": "verb",
+                    "definition": "To announce",
+                    "turkish": "müjdelemek",
+                    "example": "---- a new era."
+                },
+                {
+                    "word": "heresy",
+                    "type": "noun",
+                    "definition": "Unorthodox belief",
+                    "turkish": "sapkınlık",
+                    "example": "Commit ----."
+                },
+                {
+                    "word": "heretic",
+                    "type": "noun",
+                    "definition": "Dissenter",
+                    "turkish": "sapkın",
+                    "example": "Branded a ----."
+                },
+                {
+                    "word": "hermit",
+                    "type": "noun",
+                    "definition": "Recluse",
+                    "turkish": "münzevi",
+                    "example": "Live as a ----."
+                },
+                {
+                    "word": "heterogeneous",
+                    "type": "adjective",
+                    "definition": "Diverse",
+                    "turkish": "heterojen",
+                    "example": "---- group."
+                },
+                {
+                    "word": "heuristic",
+                    "type": "adjective",
+                    "definition": "Problem-solving",
+                    "turkish": "sezgisel",
+                    "example": "---- approach."
+                },
+                {
+                    "word": "hiatus",
+                    "type": "noun",
+                    "definition": "Break",
+                    "turkish": "ara",
+                    "example": "Go on ----."
+                },
+                {
+                    "word": "hierarchy",
+                    "type": "noun",
+                    "definition": "Ranking system",
+                    "turkish": "hiyerarşi",
+                    "example": "Social ----."
+                },
+                {
+                    "word": "hindsight",
+                    "type": "noun",
+                    "definition": "Looking back",
+                    "turkish": "sonradan farkına varma",
+                    "example": "In ----."
+                },
+                {
+                    "word": "hinge",
+                    "type": "verb",
+                    "definition": "To depend on",
+                    "turkish": "bağlı olmak",
+                    "example": "---- on success."
+                },
+                {
+                    "word": "hoard",
+                    "type": "verb",
+                    "definition": "To accumulate",
+                    "turkish": "biriktirmek",
+                    "example": "---- supplies."
+                },
+                {
+                    "word": "hoax",
+                    "type": "noun",
+                    "definition": "Trick",
+                    "turkish": "aldatmaca",
+                    "example": "Complete ----."
+                },
+                {
+                    "word": "holistic",
+                    "type": "adjective",
+                    "definition": "Comprehensive",
+                    "turkish": "bütüncül",
+                    "example": "---- approach."
+                }
+            ]
+        },
+        {
+            "id": 93,
+            "name": "C1 - Advanced Words (Part 13)",
+            "words": [
+                {
+                    "word": "homage",
+                    "type": "noun",
+                    "definition": "Respect",
+                    "turkish": "saygı",
+                    "example": "Pay ----."
+                },
+                {
+                    "word": "homogeneous",
+                    "type": "adjective",
+                    "definition": "Uniform",
+                    "turkish": "homojen",
+                    "example": "---- mixture."
+                },
+                {
+                    "word": "hone",
+                    "type": "verb",
+                    "definition": "To sharpen",
+                    "turkish": "bilemek",
+                    "example": "---- skills."
+                },
+                {
+                    "word": "hoodwink",
+                    "type": "verb",
+                    "definition": "To deceive",
+                    "turkish": "kandırmak",
+                    "example": "---- someone."
+                },
+                {
+                    "word": "hypothetical",
+                    "type": "adjective",
+                    "definition": "Supposed",
+                    "turkish": "varsayımsal",
+                    "example": "---- question."
+                },
+                {
+                    "word": "iconoclast",
+                    "type": "noun",
+                    "definition": "Rebel",
+                    "turkish": "putları yıkan",
+                    "example": "Cultural ----."
+                },
+                {
+                    "word": "idiosyncrasy",
+                    "type": "noun",
+                    "definition": "Peculiarity",
+                    "turkish": "özel davranış",
+                    "example": "Personal ----."
+                },
+                {
+                    "word": "idyllic",
+                    "type": "adjective",
+                    "definition": "Perfect",
+                    "turkish": "pastoral",
+                    "example": "---- setting."
+                },
+                {
+                    "word": "ignite",
+                    "type": "verb",
+                    "definition": "To set fire",
+                    "turkish": "ateşlemek",
+                    "example": "---- the flame."
+                },
+                {
+                    "word": "ignominious",
+                    "type": "adjective",
+                    "definition": "Shameful",
+                    "turkish": "utanç verici",
+                    "example": "---- defeat."
+                },
+                {
+                    "word": "illicit",
+                    "type": "adjective",
+                    "definition": "Illegal",
+                    "turkish": "yasadışı",
+                    "example": "---- trade."
+                },
+                {
+                    "word": "illuminate",
+                    "type": "verb",
+                    "definition": "To light up",
+                    "turkish": "aydınlatmak",
+                    "example": "---- the room."
+                },
+                {
+                    "word": "illusion",
+                    "type": "noun",
+                    "definition": "False impression",
+                    "turkish": "yanılsama",
+                    "example": "Optical ----."
+                },
+                {
+                    "word": "illustrate",
+                    "type": "verb",
+                    "definition": "To explain",
+                    "turkish": "göstermek",
+                    "example": "---- a point."
+                },
+                {
+                    "word": "imbue",
+                    "type": "verb",
+                    "definition": "To fill",
+                    "turkish": "aşılamak",
+                    "example": "---- with values."
+                },
+                {
+                    "word": "immaculate",
+                    "type": "adjective",
+                    "definition": "Perfect",
+                    "turkish": "kusursuz",
+                    "example": "---- appearance."
+                },
+                {
+                    "word": "immaterial",
+                    "type": "adjective",
+                    "definition": "Irrelevant",
+                    "turkish": "önemsiz",
+                    "example": "---- details."
+                },
+                {
+                    "word": "immense",
+                    "type": "adjective",
+                    "definition": "Huge",
+                    "turkish": "muazzam",
+                    "example": "---- pressure."
+                },
+                {
+                    "word": "immerse",
+                    "type": "verb",
+                    "definition": "To submerge",
+                    "turkish": "daldırmak",
+                    "example": "---- in water."
+                },
+                {
+                    "word": "imminent",
+                    "type": "adjective",
+                    "definition": "About to happen",
+                    "turkish": "yakın",
+                    "example": "---- danger."
+                },
+                {
+                    "word": "immutable",
+                    "type": "adjective",
+                    "definition": "Unchangeable",
+                    "turkish": "değişmez",
+                    "example": "---- laws."
+                },
+                {
+                    "word": "impair",
+                    "type": "verb",
+                    "definition": "To damage",
+                    "turkish": "bozmak",
+                    "example": "---- vision."
+                },
+                {
+                    "word": "impart",
+                    "type": "verb",
+                    "definition": "To give",
+                    "turkish": "vermek",
+                    "example": "---- knowledge."
+                },
+                {
+                    "word": "impartial",
+                    "type": "adjective",
+                    "definition": "Unbiased",
+                    "turkish": "tarafsız",
+                    "example": "---- judge."
+                },
+                {
+                    "word": "impasse",
+                    "type": "noun",
+                    "definition": "Deadlock",
+                    "turkish": "çıkmaz",
+                    "example": "Reach an ----."
+                },
+                {
+                    "word": "impassioned",
+                    "type": "adjective",
+                    "definition": "Passionate",
+                    "turkish": "tutkulu",
+                    "example": "---- speech."
+                },
+                {
+                    "word": "impeach",
+                    "type": "verb",
+                    "definition": "To accuse",
+                    "turkish": "itham etmek",
+                    "example": "---- the president."
+                },
+                {
+                    "word": "impeccable",
+                    "type": "adjective",
+                    "definition": "Flawless",
+                    "turkish": "kusursuz",
+                    "example": "---- taste."
+                },
+                {
+                    "word": "impede",
+                    "type": "verb",
+                    "definition": "To hinder",
+                    "turkish": "engellemek",
+                    "example": "---- progress."
+                },
+                {
+                    "word": "impediment",
+                    "type": "noun",
+                    "definition": "Obstacle",
+                    "turkish": "engel",
+                    "example": "Speech ----."
+                },
+                {
+                    "word": "impel",
+                    "type": "verb",
+                    "definition": "To drive",
+                    "turkish": "zorlamak",
+                    "example": "---- to action."
+                },
+                {
+                    "word": "impending",
+                    "type": "adjective",
+                    "definition": "Approaching",
+                    "turkish": "yaklaşan",
+                    "example": "---- doom."
+                },
+                {
+                    "word": "imperative",
+                    "type": "adjective",
+                    "definition": "Essential",
+                    "turkish": "zorunlu",
+                    "example": "---- need."
+                },
+                {
+                    "word": "imperceptible",
+                    "type": "adjective",
+                    "definition": "Unnoticeable",
+                    "turkish": "algılanamaz",
+                    "example": "---- change."
+                },
+                {
+                    "word": "imperial",
+                    "type": "adjective",
+                    "definition": "Royal",
+                    "turkish": "imparatorluk",
+                    "example": "---- palace."
+                },
+                {
+                    "word": "imperious",
+                    "type": "adjective",
+                    "definition": "Domineering",
+                    "turkish": "buyurgan",
+                    "example": "---- tone."
+                },
+                {
+                    "word": "impervious",
+                    "type": "adjective",
+                    "definition": "Resistant",
+                    "turkish": "etkilenmeyen",
+                    "example": "---- to criticism."
+                },
+                {
+                    "word": "impetuous",
+                    "type": "adjective",
+                    "definition": "Impulsive",
+                    "turkish": "aceleci",
+                    "example": "---- decision."
+                },
+                {
+                    "word": "impetus",
+                    "type": "noun",
+                    "definition": "Stimulus",
+                    "turkish": "dürtü",
+                    "example": "Give an ----."
+                },
+                {
+                    "word": "impinge",
+                    "type": "verb",
+                    "definition": "To affect",
+                    "turkish": "etkilemek",
+                    "example": "---- on rights."
+                },
+                {
+                    "word": "implausible",
+                    "type": "adjective",
+                    "definition": "Unlikely",
+                    "turkish": "akla yatkın olmayan",
+                    "example": "---- story."
+                },
+                {
+                    "word": "implement",
+                    "type": "verb",
+                    "definition": "To carry out",
+                    "turkish": "uygulamak",
+                    "example": "---- the plan."
+                },
+                {
+                    "word": "implicate",
+                    "type": "verb",
+                    "definition": "To involve",
+                    "turkish": "suç ortağı etmek",
+                    "example": "---- in crime."
+                },
+                {
+                    "word": "implication",
+                    "type": "noun",
+                    "definition": "Consequence",
+                    "turkish": "ima",
+                    "example": "Serious ----s."
+                },
+                {
+                    "word": "implicit",
+                    "type": "adjective",
+                    "definition": "Implied",
+                    "turkish": "örtük",
+                    "example": "---- meaning."
+                },
+                {
+                    "word": "implore",
+                    "type": "verb",
+                    "definition": "To beg",
+                    "turkish": "yalvarmak",
+                    "example": "---- for mercy."
+                },
+                {
+                    "word": "imply",
+                    "type": "verb",
+                    "definition": "To suggest",
+                    "turkish": "ima etmek",
+                    "example": "---- meaning."
+                },
+                {
+                    "word": "import",
+                    "type": "noun",
+                    "definition": "Significance",
+                    "turkish": "önem",
+                    "example": "Of great ----."
+                },
+                {
+                    "word": "impose",
+                    "type": "verb",
+                    "definition": "To force",
+                    "turkish": "dayatmak",
+                    "example": "---- sanctions."
+                },
+                {
+                    "word": "imposing",
+                    "type": "adjective",
+                    "definition": "Impressive",
+                    "turkish": "heybetli",
+                    "example": "---- building."
+                }
+            ]
+        },
+        {
+            "id": 94,
+            "name": "C1 - Advanced Words (Part 14)",
+            "words": [
+                {
+                    "word": "impoverish",
+                    "type": "verb",
+                    "definition": "To make poor",
+                    "turkish": "yoksullaştırmak",
+                    "example": "---- the people."
+                },
+                {
+                    "word": "impregnable",
+                    "type": "adjective",
+                    "definition": "Unbreakable",
+                    "turkish": "aşılmaz",
+                    "example": "---- fortress."
+                },
+                {
+                    "word": "imprint",
+                    "type": "noun",
+                    "definition": "Mark",
+                    "turkish": "iz",
+                    "example": "Leave an ----."
+                },
+                {
+                    "word": "improvise",
+                    "type": "verb",
+                    "definition": "To make up",
+                    "turkish": "doğaçlama yapmak",
+                    "example": "---- a speech."
+                },
+                {
+                    "word": "imprudent",
+                    "type": "adjective",
+                    "definition": "Unwise",
+                    "turkish": "tedbirsiz",
+                    "example": "---- decision."
+                },
+                {
+                    "word": "impudent",
+                    "type": "adjective",
+                    "definition": "Rude",
+                    "turkish": "küstah",
+                    "example": "---- remark."
+                },
+                {
+                    "word": "impugn",
+                    "type": "verb",
+                    "definition": "To attack",
+                    "turkish": "itiraz etmek",
+                    "example": "---- motives."
+                },
+                {
+                    "word": "impunity",
+                    "type": "noun",
+                    "definition": "Freedom from punishment",
+                    "turkish": "cezasızlık",
+                    "example": "With ----."
+                },
+                {
+                    "word": "impute",
+                    "type": "verb",
+                    "definition": "To attribute",
+                    "turkish": "atfetmek",
+                    "example": "---- blame."
+                },
+                {
+                    "word": "inadvertent",
+                    "type": "adjective",
+                    "definition": "Unintentional",
+                    "turkish": "kasıtsız",
+                    "example": "---- error."
+                },
+                {
+                    "word": "inalienable",
+                    "type": "adjective",
+                    "definition": "Cannot be taken",
+                    "turkish": "devredilmez",
+                    "example": "---- rights."
+                },
+                {
+                    "word": "inanimate",
+                    "type": "adjective",
+                    "definition": "Lifeless",
+                    "turkish": "cansız",
+                    "example": "---- object."
+                },
+                {
+                    "word": "inane",
+                    "type": "adjective",
+                    "definition": "Silly",
+                    "turkish": "saçma",
+                    "example": "---- comment."
+                },
+                {
+                    "word": "inaugurate",
+                    "type": "verb",
+                    "definition": "To begin",
+                    "turkish": "açılış yapmak",
+                    "example": "---- the term."
+                },
+                {
+                    "word": "incandescent",
+                    "type": "adjective",
+                    "definition": "Glowing",
+                    "turkish": "akkor",
+                    "example": "---- light."
+                },
+                {
+                    "word": "incapacitate",
+                    "type": "verb",
+                    "definition": "To disable",
+                    "turkish": "etkisiz hale getirmek",
+                    "example": "---- the enemy."
+                },
+                {
+                    "word": "incarcerate",
+                    "type": "verb",
+                    "definition": "To imprison",
+                    "turkish": "hapse atmak",
+                    "example": "---- criminals."
+                },
+                {
+                    "word": "incarnate",
+                    "type": "adjective",
+                    "definition": "In human form",
+                    "turkish": "somut",
+                    "example": "Evil ----."
+                },
+                {
+                    "word": "incendiary",
+                    "type": "adjective",
+                    "definition": "Inflammatory",
+                    "turkish": "kışkırtıcı",
+                    "example": "---- remarks."
+                },
+                {
+                    "word": "incense",
+                    "type": "verb",
+                    "definition": "To anger",
+                    "turkish": "öfkelendirmek",
+                    "example": "---- the crowd."
+                },
+                {
+                    "word": "incentive",
+                    "type": "noun",
+                    "definition": "Motivation",
+                    "turkish": "teşvik",
+                    "example": "Financial ----."
+                },
+                {
+                    "word": "incessant",
+                    "type": "adjective",
+                    "definition": "Constant",
+                    "turkish": "sürekli",
+                    "example": "---- noise."
+                },
+                {
+                    "word": "inchoate",
+                    "type": "adjective",
+                    "definition": "Beginning",
+                    "turkish": "başlangıç aşamasında",
+                    "example": "---- ideas."
+                },
+                {
+                    "word": "incidental",
+                    "type": "adjective",
+                    "definition": "Minor",
+                    "turkish": "ikincil",
+                    "example": "---- costs."
+                },
+                {
+                    "word": "incipient",
+                    "type": "adjective",
+                    "definition": "Beginning",
+                    "turkish": "başlangıç",
+                    "example": "---- stages."
+                },
+                {
+                    "word": "incisive",
+                    "type": "adjective",
+                    "definition": "Sharp",
+                    "turkish": "keskin",
+                    "example": "---- analysis."
+                },
+                {
+                    "word": "incite",
+                    "type": "verb",
+                    "definition": "To provoke",
+                    "turkish": "kışkırtmak",
+                    "example": "---- violence."
+                },
+                {
+                    "word": "inclement",
+                    "type": "adjective",
+                    "definition": "Harsh",
+                    "turkish": "sert",
+                    "example": "---- weather."
+                },
+                {
+                    "word": "inclination",
+                    "type": "noun",
+                    "definition": "Tendency",
+                    "turkish": "eğilim",
+                    "example": "Natural ----."
+                },
+                {
+                    "word": "inclusive",
+                    "type": "adjective",
+                    "definition": "Including all",
+                    "turkish": "kapsayıcı",
+                    "example": "---- language."
+                },
+                {
+                    "word": "incognito",
+                    "type": "adverb",
+                    "definition": "In disguise",
+                    "turkish": "gizli",
+                    "example": "Travel ----."
+                },
+                {
+                    "word": "incoherent",
+                    "type": "adjective",
+                    "definition": "Unclear",
+                    "turkish": "tutarsız",
+                    "example": "---- speech."
+                },
+                {
+                    "word": "incompatible",
+                    "type": "adjective",
+                    "definition": "Not matching",
+                    "turkish": "uyumsuz",
+                    "example": "---- systems."
+                },
+                {
+                    "word": "incongruous",
+                    "type": "adjective",
+                    "definition": "Out of place",
+                    "turkish": "uyumsuz",
+                    "example": "---- setting."
+                },
+                {
+                    "word": "inconsequential",
+                    "type": "adjective",
+                    "definition": "Unimportant",
+                    "turkish": "önemsiz",
+                    "example": "---- details."
+                },
+                {
+                    "word": "incorporate",
+                    "type": "verb",
+                    "definition": "To include",
+                    "turkish": "dahil etmek",
+                    "example": "---- changes."
+                },
+                {
+                    "word": "incorrigible",
+                    "type": "adjective",
+                    "definition": "Unchangeable",
+                    "turkish": "ıslah olmaz",
+                    "example": "---- liar."
+                },
+                {
+                    "word": "increment",
+                    "type": "noun",
+                    "definition": "Increase",
+                    "turkish": "artış",
+                    "example": "Small ----."
+                },
+                {
+                    "word": "incriminate",
+                    "type": "verb",
+                    "definition": "To accuse",
+                    "turkish": "suçlamak",
+                    "example": "---- someone."
+                },
+                {
+                    "word": "incumbent",
+                    "type": "adjective",
+                    "definition": "Required",
+                    "turkish": "görevde olan",
+                    "example": "---- upon..."
+                },
+                {
+                    "word": "incur",
+                    "type": "verb",
+                    "definition": "To bring upon",
+                    "turkish": "maruz kalmak",
+                    "example": "---- expenses."
+                },
+                {
+                    "word": "indebted",
+                    "type": "adjective",
+                    "definition": "Owing",
+                    "turkish": "borçlu",
+                    "example": "---- to someone."
+                },
+                {
+                    "word": "indefatigable",
+                    "type": "adjective",
+                    "definition": "Tireless",
+                    "turkish": "yorulmaz",
+                    "example": "---- worker."
+                },
+                {
+                    "word": "indelible",
+                    "type": "adjective",
+                    "definition": "Permanent",
+                    "turkish": "silinmez",
+                    "example": "---- mark."
+                },
+                {
+                    "word": "indemnify",
+                    "type": "verb",
+                    "definition": "To compensate",
+                    "turkish": "tazmin etmek",
+                    "example": "---- for loss."
+                },
+                {
+                    "word": "indeterminate",
+                    "type": "adjective",
+                    "definition": "Uncertain",
+                    "turkish": "belirsiz",
+                    "example": "---- outcome."
+                },
+                {
+                    "word": "indigenous",
+                    "type": "adjective",
+                    "definition": "Native",
+                    "turkish": "yerli",
+                    "example": "---- people."
+                },
+                {
+                    "word": "indignant",
+                    "type": "adjective",
+                    "definition": "Angry",
+                    "turkish": "öfkeli",
+                    "example": "---- response."
+                },
+                {
+                    "word": "indispensable",
+                    "type": "adjective",
+                    "definition": "Essential",
+                    "turkish": "vazgeçilmez",
+                    "example": "---- tool."
+                },
+                {
+                    "word": "indolent",
+                    "type": "adjective",
+                    "definition": "Lazy",
+                    "turkish": "tembel",
+                    "example": "---- lifestyle."
                 }
             ]
         }
