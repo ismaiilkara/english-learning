@@ -165,6 +165,48 @@
             color: #4ade80;
         }
 
+        /* CEFR Level Colors */
+        .filter-btn.level-a1 {
+            border-color: rgba(34, 197, 94, 0.4);
+        }
+        .filter-btn.level-a1.active {
+            background: rgba(34, 197, 94, 0.25);
+            border-color: #22c55e;
+            color: #4ade80;
+        }
+        .filter-btn.level-a2 {
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+        .filter-btn.level-a2.active {
+            background: rgba(59, 130, 246, 0.25);
+            border-color: #3b82f6;
+            color: #60a5fa;
+        }
+        .filter-btn.level-b1 {
+            border-color: rgba(251, 191, 36, 0.4);
+        }
+        .filter-btn.level-b1.active {
+            background: rgba(251, 191, 36, 0.25);
+            border-color: #fbbf24;
+            color: #fcd34d;
+        }
+        .filter-btn.level-b2 {
+            border-color: rgba(249, 115, 22, 0.4);
+        }
+        .filter-btn.level-b2.active {
+            background: rgba(249, 115, 22, 0.25);
+            border-color: #f97316;
+            color: #fb923c;
+        }
+        .filter-btn.level-c1 {
+            border-color: rgba(239, 68, 68, 0.4);
+        }
+        .filter-btn.level-c1.active {
+            background: rgba(239, 68, 68, 0.25);
+            border-color: #ef4444;
+            color: #f87171;
+        }
+
         /* Progress Bar */
         .progress-container {
             background: rgba(255, 255, 255, 0.1);
@@ -574,13 +616,22 @@
             </button>
         </div>
 
-        <!-- Category Filter for AWL -->
+        <!-- Category Filter -->
         <div class="set-filter">
             <button class="filter-btn" :class="{ 'active': selectedSet === 'all' }" @click="selectSet('all')">
-                All Categories
+                All Levels
             </button>
             <template x-for="cat in currentCategories" :key="cat.id">
-                <button class="filter-btn" :class="{ 'active': selectedSet === cat.id }" @click="selectSet(cat.id)"
+                <button class="filter-btn"
+                    :class="{
+                        'active': selectedSet === cat.id,
+                        'level-a1': cat.name.includes('A1'),
+                        'level-a2': cat.name.includes('A2'),
+                        'level-b1': cat.name.includes('B1'),
+                        'level-b2': cat.name.includes('B2'),
+                        'level-c1': cat.name.includes('C1')
+                    }"
+                    @click="selectSet(cat.id)"
                     x-text="cat.name"></button>
             </template>
         </div>
@@ -613,7 +664,15 @@
                     <div class="flashcard" :class="{ 'flipped': isFlipped }" @click="flipCard">
                         <!-- Front -->
                         <div class="flashcard-face flashcard-front">
-                            <span class="card-label" x-text="currentCard.category || 'Word'"></span>
+                            <span class="card-label"
+                                :class="{
+                                    'text-green-400': currentCard.category?.includes('A1'),
+                                    'text-blue-400': currentCard.category?.includes('A2'),
+                                    'text-yellow-400': currentCard.category?.includes('B1'),
+                                    'text-orange-400': currentCard.category?.includes('B2'),
+                                    'text-red-400': currentCard.category?.includes('C1')
+                                }"
+                                x-text="currentCard.category || 'Word'"></span>
                             <div class="word" x-text="currentCard.word"></div>
                             <div class="word-type" x-text="currentCard.type || getWordType(currentCard.word)"></div>
                             <span class="tap-hint">Click or press Space to flip</span>
