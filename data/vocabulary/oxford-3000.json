@@ -1,7 +1,7 @@
 {
     "title": "Oxford 3000-5000",
     "description": "Core vocabulary for English learners - A1 to B2 levels",
-    "totalWords": 4900,
+    "totalWords": 5000,
     "categories": [
         {
             "id": 1,
@@ -35250,6 +35250,718 @@
                     "definition": "To ridicule",
                     "turkish": "alay etmek",
                     "example": "---- someone."
+                }
+            ]
+        },
+        {
+            "id": 101,
+            "name": "C1 - Advanced Words (Part 19)",
+            "words": [
+                {
+                    "word": "modicum",
+                    "type": "noun",
+                    "definition": "Small amount",
+                    "turkish": "azıcık",
+                    "example": "A ---- of truth."
+                },
+                {
+                    "word": "mollify",
+                    "type": "verb",
+                    "definition": "To calm",
+                    "turkish": "yatıştırmak",
+                    "example": "---- the crowd."
+                },
+                {
+                    "word": "momentous",
+                    "type": "adjective",
+                    "definition": "Important",
+                    "turkish": "önemli",
+                    "example": "---- occasion."
+                },
+                {
+                    "word": "monotonous",
+                    "type": "adjective",
+                    "definition": "Boring",
+                    "turkish": "monoton",
+                    "example": "---- routine."
+                },
+                {
+                    "word": "morbid",
+                    "type": "adjective",
+                    "definition": "Unhealthy",
+                    "turkish": "hastalıklı",
+                    "example": "---- curiosity."
+                },
+                {
+                    "word": "morose",
+                    "type": "adjective",
+                    "definition": "Gloomy",
+                    "turkish": "somurtkan",
+                    "example": "---- mood."
+                },
+                {
+                    "word": "mortify",
+                    "type": "verb",
+                    "definition": "To embarrass",
+                    "turkish": "utandırmak",
+                    "example": "---- someone."
+                },
+                {
+                    "word": "mundane",
+                    "type": "adjective",
+                    "definition": "Ordinary",
+                    "turkish": "sıradan",
+                    "example": "---- tasks."
+                },
+                {
+                    "word": "munificent",
+                    "type": "adjective",
+                    "definition": "Generous",
+                    "turkish": "eli açık",
+                    "example": "---- donation."
+                },
+                {
+                    "word": "murky",
+                    "type": "adjective",
+                    "definition": "Dark",
+                    "turkish": "bulanık",
+                    "example": "---- water."
+                },
+                {
+                    "word": "muse",
+                    "type": "verb",
+                    "definition": "To think",
+                    "turkish": "düşünmek",
+                    "example": "---- over..."
+                },
+                {
+                    "word": "muster",
+                    "type": "verb",
+                    "definition": "To gather",
+                    "turkish": "toplamak",
+                    "example": "---- courage."
+                },
+                {
+                    "word": "myriad",
+                    "type": "noun",
+                    "definition": "Many",
+                    "turkish": "sayısız",
+                    "example": "---- options."
+                },
+                {
+                    "word": "naive",
+                    "type": "adjective",
+                    "definition": "Innocent",
+                    "turkish": "saf",
+                    "example": "---- belief."
+                },
+                {
+                    "word": "narcissistic",
+                    "type": "adjective",
+                    "definition": "Self-loving",
+                    "turkish": "narsist",
+                    "example": "---- personality."
+                },
+                {
+                    "word": "nascent",
+                    "type": "adjective",
+                    "definition": "Beginning",
+                    "turkish": "doğmakta olan",
+                    "example": "---- democracy."
+                },
+                {
+                    "word": "navigate",
+                    "type": "verb",
+                    "definition": "To steer",
+                    "turkish": "gezinmek",
+                    "example": "---- the waters."
+                },
+                {
+                    "word": "nebulous",
+                    "type": "adjective",
+                    "definition": "Vague",
+                    "turkish": "belirsiz",
+                    "example": "---- concept."
+                },
+                {
+                    "word": "negate",
+                    "type": "verb",
+                    "definition": "To deny",
+                    "turkish": "olumsuzlamak",
+                    "example": "---- the effect."
+                },
+                {
+                    "word": "negligent",
+                    "type": "adjective",
+                    "definition": "Careless",
+                    "turkish": "ihmalkar",
+                    "example": "---- behavior."
+                },
+                {
+                    "word": "negotiate",
+                    "type": "verb",
+                    "definition": "To bargain",
+                    "turkish": "müzakere etmek",
+                    "example": "---- terms."
+                },
+                {
+                    "word": "niche",
+                    "type": "noun",
+                    "definition": "Specialty",
+                    "turkish": "niş",
+                    "example": "Find your ----."
+                },
+                {
+                    "word": "nocturnal",
+                    "type": "adjective",
+                    "definition": "Night-active",
+                    "turkish": "gece aktif",
+                    "example": "---- animal."
+                },
+                {
+                    "word": "nomadic",
+                    "type": "adjective",
+                    "definition": "Wandering",
+                    "turkish": "göçebe",
+                    "example": "---- lifestyle."
+                },
+                {
+                    "word": "nominal",
+                    "type": "adjective",
+                    "definition": "In name only",
+                    "turkish": "nominal",
+                    "example": "---- fee."
+                },
+                {
+                    "word": "nonchalant",
+                    "type": "adjective",
+                    "definition": "Casual",
+                    "turkish": "kayıtsız",
+                    "example": "---- attitude."
+                },
+                {
+                    "word": "nostalgia",
+                    "type": "noun",
+                    "definition": "Longing",
+                    "turkish": "nostalji",
+                    "example": "Feel ----."
+                },
+                {
+                    "word": "notorious",
+                    "type": "adjective",
+                    "definition": "Famous (bad)",
+                    "turkish": "kötü şöhretli",
+                    "example": "---- criminal."
+                },
+                {
+                    "word": "novel",
+                    "type": "adjective",
+                    "definition": "New",
+                    "turkish": "yeni",
+                    "example": "---- approach."
+                },
+                {
+                    "word": "novice",
+                    "type": "noun",
+                    "definition": "Beginner",
+                    "turkish": "acemi",
+                    "example": "Complete ----."
+                },
+                {
+                    "word": "nuance",
+                    "type": "noun",
+                    "definition": "Subtle difference",
+                    "turkish": "nüans",
+                    "example": "Subtle ----."
+                },
+                {
+                    "word": "nullify",
+                    "type": "verb",
+                    "definition": "To cancel",
+                    "turkish": "geçersiz kılmak",
+                    "example": "---- the contract."
+                },
+                {
+                    "word": "nurture",
+                    "type": "verb",
+                    "definition": "To care for",
+                    "turkish": "beslemek",
+                    "example": "---- talent."
+                },
+                {
+                    "word": "obdurate",
+                    "type": "adjective",
+                    "definition": "Stubborn",
+                    "turkish": "inatçı",
+                    "example": "---- refusal."
+                },
+                {
+                    "word": "obfuscate",
+                    "type": "verb",
+                    "definition": "To confuse",
+                    "turkish": "bulandırmak",
+                    "example": "---- the truth."
+                },
+                {
+                    "word": "objective",
+                    "type": "adjective",
+                    "definition": "Unbiased",
+                    "turkish": "nesnel",
+                    "example": "---- analysis."
+                },
+                {
+                    "word": "obligate",
+                    "type": "verb",
+                    "definition": "To require",
+                    "turkish": "zorunlu kılmak",
+                    "example": "---- payment."
+                },
+                {
+                    "word": "oblique",
+                    "type": "adjective",
+                    "definition": "Indirect",
+                    "turkish": "dolaylı",
+                    "example": "---- reference."
+                },
+                {
+                    "word": "obliterate",
+                    "type": "verb",
+                    "definition": "To destroy",
+                    "turkish": "yok etmek",
+                    "example": "---- all traces."
+                },
+                {
+                    "word": "oblivious",
+                    "type": "adjective",
+                    "definition": "Unaware",
+                    "turkish": "farkında olmayan",
+                    "example": "---- to the danger."
+                },
+                {
+                    "word": "obscure",
+                    "type": "adjective",
+                    "definition": "Unknown",
+                    "turkish": "belirsiz",
+                    "example": "---- reference."
+                },
+                {
+                    "word": "obsequious",
+                    "type": "adjective",
+                    "definition": "Overly submissive",
+                    "turkish": "yağcı",
+                    "example": "---- behavior."
+                },
+                {
+                    "word": "obsolete",
+                    "type": "adjective",
+                    "definition": "Outdated",
+                    "turkish": "modası geçmiş",
+                    "example": "---- technology."
+                },
+                {
+                    "word": "obstinate",
+                    "type": "adjective",
+                    "definition": "Stubborn",
+                    "turkish": "inatçı",
+                    "example": "---- child."
+                },
+                {
+                    "word": "obstruct",
+                    "type": "verb",
+                    "definition": "To block",
+                    "turkish": "engellemek",
+                    "example": "---- justice."
+                },
+                {
+                    "word": "obtuse",
+                    "type": "adjective",
+                    "definition": "Slow to understand",
+                    "turkish": "anlayışsız",
+                    "example": "---- remark."
+                },
+                {
+                    "word": "obviate",
+                    "type": "verb",
+                    "definition": "To prevent",
+                    "turkish": "önlemek",
+                    "example": "---- the need."
+                },
+                {
+                    "word": "occlude",
+                    "type": "verb",
+                    "definition": "To block",
+                    "turkish": "tıkamak",
+                    "example": "---- the artery."
+                },
+                {
+                    "word": "ominous",
+                    "type": "adjective",
+                    "definition": "Threatening",
+                    "turkish": "uğursuz",
+                    "example": "---- sign."
+                },
+                {
+                    "word": "omnipotent",
+                    "type": "adjective",
+                    "definition": "All-powerful",
+                    "turkish": "her şeye kadir",
+                    "example": "---- ruler."
+                }
+            ]
+        },
+        {
+            "id": 102,
+            "name": "C1 - Advanced Words (Part 20)",
+            "words": [
+                {
+                    "word": "onerous",
+                    "type": "adjective",
+                    "definition": "Burdensome",
+                    "turkish": "zahmetli",
+                    "example": "---- task."
+                },
+                {
+                    "word": "opaque",
+                    "type": "adjective",
+                    "definition": "Not transparent",
+                    "turkish": "opak",
+                    "example": "---- glass."
+                },
+                {
+                    "word": "opportune",
+                    "type": "adjective",
+                    "definition": "Timely",
+                    "turkish": "uygun",
+                    "example": "---- moment."
+                },
+                {
+                    "word": "oppressive",
+                    "type": "adjective",
+                    "definition": "Harsh",
+                    "turkish": "baskıcı",
+                    "example": "---- regime."
+                },
+                {
+                    "word": "optimal",
+                    "type": "adjective",
+                    "definition": "Best",
+                    "turkish": "optimal",
+                    "example": "---- conditions."
+                },
+                {
+                    "word": "opulent",
+                    "type": "adjective",
+                    "definition": "Luxurious",
+                    "turkish": "zengin",
+                    "example": "---- lifestyle."
+                },
+                {
+                    "word": "orate",
+                    "type": "verb",
+                    "definition": "To speak",
+                    "turkish": "konuşma yapmak",
+                    "example": "---- eloquently."
+                },
+                {
+                    "word": "orchestrate",
+                    "type": "verb",
+                    "definition": "To organize",
+                    "turkish": "organize etmek",
+                    "example": "---- the event."
+                },
+                {
+                    "word": "orthodox",
+                    "type": "adjective",
+                    "definition": "Traditional",
+                    "turkish": "geleneksel",
+                    "example": "---- beliefs."
+                },
+                {
+                    "word": "oscillate",
+                    "type": "verb",
+                    "definition": "To swing",
+                    "turkish": "salınmak",
+                    "example": "---- between..."
+                },
+                {
+                    "word": "ostentatious",
+                    "type": "adjective",
+                    "definition": "Showy",
+                    "turkish": "gösterişli",
+                    "example": "---- display."
+                },
+                {
+                    "word": "ostracize",
+                    "type": "verb",
+                    "definition": "To exclude",
+                    "turkish": "dışlamak",
+                    "example": "---- from society."
+                },
+                {
+                    "word": "oust",
+                    "type": "verb",
+                    "definition": "To remove",
+                    "turkish": "görevden almak",
+                    "example": "---- the leader."
+                },
+                {
+                    "word": "outlandish",
+                    "type": "adjective",
+                    "definition": "Strange",
+                    "turkish": "tuhaf",
+                    "example": "---- idea."
+                },
+                {
+                    "word": "outspoken",
+                    "type": "adjective",
+                    "definition": "Frank",
+                    "turkish": "açık sözlü",
+                    "example": "---- critic."
+                },
+                {
+                    "word": "overt",
+                    "type": "adjective",
+                    "definition": "Open",
+                    "turkish": "açık",
+                    "example": "---- hostility."
+                },
+                {
+                    "word": "overwrought",
+                    "type": "adjective",
+                    "definition": "Very upset",
+                    "turkish": "aşırı heyecanlı",
+                    "example": "---- emotions."
+                },
+                {
+                    "word": "pacify",
+                    "type": "verb",
+                    "definition": "To calm",
+                    "turkish": "yatıştırmak",
+                    "example": "---- the baby."
+                },
+                {
+                    "word": "painstaking",
+                    "type": "adjective",
+                    "definition": "Careful",
+                    "turkish": "titiz",
+                    "example": "---- research."
+                },
+                {
+                    "word": "palatable",
+                    "type": "adjective",
+                    "definition": "Acceptable",
+                    "turkish": "kabul edilebilir",
+                    "example": "---- option."
+                },
+                {
+                    "word": "palpable",
+                    "type": "adjective",
+                    "definition": "Obvious",
+                    "turkish": "elle tutulur",
+                    "example": "---- tension."
+                },
+                {
+                    "word": "paltry",
+                    "type": "adjective",
+                    "definition": "Small",
+                    "turkish": "önemsiz",
+                    "example": "---- sum."
+                },
+                {
+                    "word": "panacea",
+                    "type": "noun",
+                    "definition": "Cure-all",
+                    "turkish": "her derde deva",
+                    "example": "Not a ----."
+                },
+                {
+                    "word": "paradigm",
+                    "type": "noun",
+                    "definition": "Model",
+                    "turkish": "paradigma",
+                    "example": "---- shift."
+                },
+                {
+                    "word": "paradox",
+                    "type": "noun",
+                    "definition": "Contradiction",
+                    "turkish": "paradoks",
+                    "example": "Strange ----."
+                },
+                {
+                    "word": "paragon",
+                    "type": "noun",
+                    "definition": "Model of excellence",
+                    "turkish": "kusursuz örnek",
+                    "example": "---- of virtue."
+                },
+                {
+                    "word": "paramount",
+                    "type": "adjective",
+                    "definition": "Most important",
+                    "turkish": "en önemli",
+                    "example": "---- importance."
+                },
+                {
+                    "word": "paranoia",
+                    "type": "noun",
+                    "definition": "Extreme suspicion",
+                    "turkish": "paranoya",
+                    "example": "Suffer from ----."
+                },
+                {
+                    "word": "paraphrase",
+                    "type": "verb",
+                    "definition": "To restate",
+                    "turkish": "başka kelimelerle anlatmak",
+                    "example": "---- the text."
+                },
+                {
+                    "word": "pariah",
+                    "type": "noun",
+                    "definition": "Outcast",
+                    "turkish": "aforoz edilmiş",
+                    "example": "Social ----."
+                },
+                {
+                    "word": "parody",
+                    "type": "noun",
+                    "definition": "Imitation",
+                    "turkish": "parodi",
+                    "example": "Political ----."
+                },
+                {
+                    "word": "parsimonious",
+                    "type": "adjective",
+                    "definition": "Stingy",
+                    "turkish": "cimri",
+                    "example": "---- with money."
+                },
+                {
+                    "word": "partisan",
+                    "type": "adjective",
+                    "definition": "Biased",
+                    "turkish": "taraflı",
+                    "example": "---- politics."
+                },
+                {
+                    "word": "passive",
+                    "type": "adjective",
+                    "definition": "Inactive",
+                    "turkish": "pasif",
+                    "example": "---- role."
+                },
+                {
+                    "word": "pastoral",
+                    "type": "adjective",
+                    "definition": "Rural",
+                    "turkish": "kırsal",
+                    "example": "---- scene."
+                },
+                {
+                    "word": "patent",
+                    "type": "adjective",
+                    "definition": "Obvious",
+                    "turkish": "aşikar",
+                    "example": "---- lie."
+                },
+                {
+                    "word": "pathetic",
+                    "type": "adjective",
+                    "definition": "Pitiful",
+                    "turkish": "acınası",
+                    "example": "---- attempt."
+                },
+                {
+                    "word": "patronize",
+                    "type": "verb",
+                    "definition": "To condescend",
+                    "turkish": "küçümsemek",
+                    "example": "---- someone."
+                },
+                {
+                    "word": "paucity",
+                    "type": "noun",
+                    "definition": "Scarcity",
+                    "turkish": "kıtlık",
+                    "example": "---- of evidence."
+                },
+                {
+                    "word": "peculiar",
+                    "type": "adjective",
+                    "definition": "Strange",
+                    "turkish": "tuhaf",
+                    "example": "---- behavior."
+                },
+                {
+                    "word": "pedantic",
+                    "type": "adjective",
+                    "definition": "Overly formal",
+                    "turkish": "bilgiçlik taslayan",
+                    "example": "---- approach."
+                },
+                {
+                    "word": "pedestrian",
+                    "type": "adjective",
+                    "definition": "Ordinary",
+                    "turkish": "sıradan",
+                    "example": "---- prose."
+                },
+                {
+                    "word": "penchant",
+                    "type": "noun",
+                    "definition": "Liking",
+                    "turkish": "düşkünlük",
+                    "example": "---- for drama."
+                },
+                {
+                    "word": "penitent",
+                    "type": "adjective",
+                    "definition": "Regretful",
+                    "turkish": "pişman",
+                    "example": "---- sinner."
+                },
+                {
+                    "word": "pensive",
+                    "type": "adjective",
+                    "definition": "Thoughtful",
+                    "turkish": "dalgın",
+                    "example": "---- mood."
+                },
+                {
+                    "word": "perceptive",
+                    "type": "adjective",
+                    "definition": "Observant",
+                    "turkish": "algılaması keskin",
+                    "example": "---- analysis."
+                },
+                {
+                    "word": "peremptory",
+                    "type": "adjective",
+                    "definition": "Commanding",
+                    "turkish": "kesin",
+                    "example": "---- tone."
+                },
+                {
+                    "word": "perennial",
+                    "type": "adjective",
+                    "definition": "Lasting",
+                    "turkish": "sürekli",
+                    "example": "---- favorite."
+                },
+                {
+                    "word": "perfunctory",
+                    "type": "adjective",
+                    "definition": "Superficial",
+                    "turkish": "göstermelik",
+                    "example": "---- glance."
+                },
+                {
+                    "word": "perilous",
+                    "type": "adjective",
+                    "definition": "Dangerous",
+                    "turkish": "tehlikeli",
+                    "example": "---- journey."
                 }
             ]
         }
