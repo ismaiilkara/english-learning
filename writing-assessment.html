@@ -1237,11 +1237,18 @@ Example format:
 Provide 5-7 key improvement points, prioritized by impact on band score.
 
 ## OUTPUT REQUIREMENTS
-Provide detailed, actionable feedback. Be specific with examples from the essay. The goal is to help this student improve to the next band level.`;
+Provide detailed, actionable feedback. Be specific with examples from the essay. The goal is to help this student improve to the next band level.
+
+## CRITICAL: WHAT TO EVALUATE
+- ONLY evaluate the STUDENT'S ESSAY/REPORT text
+- The essay question/prompt is provided ONLY as context to assess Task Achievement (did they answer the question?)
+- Do NOT include any text from the question in your error analysis, vocabulary upgrades, or grammar improvements
+- Do NOT correct or comment on the question itself
+- All errors, vocabulary, and grammar feedback must come from the student's writing ONLY`;
 
                     const userPrompt = this.essayQuestion
-                        ? `## ESSAY QUESTION/PROMPT:\n${this.essayQuestion}\n\n## STUDENT'S ${this.taskType === 'task2' ? 'ESSAY' : 'REPORT'} (${this.wordCount} words):\n${this.essay}`
-                        : `## STUDENT'S IELTS ${this.taskType === 'task2' ? 'Task 2 Essay' : 'Task 1 Report'} (${this.wordCount} words):\n${this.essay}`;
+                        ? `## ESSAY QUESTION/PROMPT (for context only - DO NOT EVALUATE THIS):\n${this.essayQuestion}\n\n---\n\n## STUDENT'S ${this.taskType === 'task2' ? 'ESSAY' : 'REPORT'} TO EVALUATE (${this.wordCount} words):\n${this.essay}`
+                        : `## STUDENT'S IELTS ${this.taskType === 'task2' ? 'Task 2 Essay' : 'Task 1 Report'} TO EVALUATE (${this.wordCount} words):\n${this.essay}`;
 
                     // JSON Schema for structured output
                     const jsonSchema = {
