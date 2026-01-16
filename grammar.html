@@ -230,22 +230,6 @@
                     </template>
                 </div>
 
-                <!-- Drive Link Notice -->
-                <div class="max-w-3xl mx-auto mt-12 px-4">
-                    <div class="glass-card rounded-2xl p-6 text-center">
-                        <p class="text-white/60 mb-3">
-                            📁 Tüm ders videolarına Google Drive'dan da ulaşabilirsiniz:
-                        </p>
-                        <a href="https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3"
-                            target="_blank"
-                            class="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-3 px-6 rounded-full transition-all">
-                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-                                <path d="M12 0L1.75 6v12L12 24l10.25-6V6L12 0zm0 3.5l6.5 3.75L12 11 5.5 7.25 12 3.5z" />
-                            </svg>
-                            Google Drive'ı Aç
-                        </a>
-                    </div>
-                </div>
             </div>
 
             <!-- Topic Detail View -->
@@ -302,16 +286,6 @@
                                         </div>
                                     </template>
 
-                                    <template x-if="!currentVideoUrl && currentTopic.driveUrl">
-                                        <div class="text-center py-8">
-                                            <div class="text-6xl mb-4">🎬</div>
-                                            <p class="text-white/60 mb-4">Video Google Drive'da barındırılmaktadır</p>
-                                            <a :href="currentTopic.driveUrl" target="_blank"
-                                                class="inline-flex items-center gap-2 bg-gradient-to-r from-red-500 to-pink-500 hover:from-red-600 hover:to-pink-600 text-white font-bold py-3 px-8 rounded-full transition-all">
-                                                ▶️ Videoyu İzle
-                                            </a>
-                                        </div>
-                                    </template>
                                 </div>
                             </div>
 
@@ -385,9 +359,6 @@
                 currentTopic: null,
                 selectedVideoIndex: 0,
 
-                // Google Drive folder base URL
-                driveFolder: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3',
-
                 topics: [
                     // TENSES
                     {
@@ -400,7 +371,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1wYBAp-6UMUPgqJcDR4JwYU5j-W0hrm-K/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1wYBAp-6UMUPgqJcDR4JwYU5j-W0hrm-K/view?usp=sharing'
                     },
                     {
                         id: 'past-continuous',
@@ -412,7 +382,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1PQoVAzGwLE0EDRYGZL0EOZitvGUlKwE6/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1PQoVAzGwLE0EDRYGZL0EOZitvGUlKwE6/view?usp=sharing'
                     },
                     {
                         id: 'present-perfect',
@@ -424,7 +393,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1UyjWBQqBaix743vOjExUviTS2ezX4GpY/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1UyjWBQqBaix743vOjExUviTS2ezX4GpY/view?usp=sharing'
                     },
                     {
                         id: 'present-perfect-continuous',
@@ -436,7 +404,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1J4QpbNfSP2Ko0AhreLvsREliXVd8GkPl/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1J4QpbNfSP2Ko0AhreLvsREliXVd8GkPl/view?usp=sharing'
                     },
                     {
                         id: 'past-perfect',
@@ -448,7 +415,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1t43E_t0Et3OxixOLojhlanRvw3eAqWyw/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1t43E_t0Et3OxixOLojhlanRvw3eAqWyw/view?usp=sharing'
                     },
                     {
                         id: 'past-perfect-continuous',
@@ -460,7 +426,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1fb5B8OkZRsHEr2ygBaGieXK_m8_ytGLZ/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1fb5B8OkZRsHEr2ygBaGieXK_m8_ytGLZ/view?usp=sharing'
                     },
 
                     // CLAUSES & STRUCTURES
@@ -477,7 +442,6 @@
                             { label: 'Part 1', embedUrl: 'https://drive.google.com/file/d/14SAkJIaA64iHONtnz78y0rQyE0UBIM6a/preview' },
                             { label: 'Part 2', embedUrl: 'https://drive.google.com/file/d/1ADEAy2P-Lg8PuUIR0RSmbt4YWuVrkFwS/preview' }
                         ],
-                        driveUrl: 'https://drive.google.com/file/d/14SAkJIaA64iHONtnz78y0rQyE0UBIM6a/view?usp=sharing'
                     },
                     {
                         id: 'conditionals',
@@ -489,7 +453,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1GJbGef2PGHa_j_ls9rNNU4fd2LWKQVxY/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1GJbGef2PGHa_j_ls9rNNU4fd2LWKQVxY/view?usp=sharing'
                     },
                     {
                         id: 'relative-clauses',
@@ -501,7 +464,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/11eGK66MdhY0sy-cu3paL0lJ-za26S7ij/preview',
-                        driveUrl: 'https://drive.google.com/file/d/11eGK66MdhY0sy-cu3paL0lJ-za26S7ij/view?usp=sharing'
                     },
                     {
                         id: 'noun-clauses',
@@ -513,7 +475,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/18ZOKmdceJiOfBijzalAfI9nWUbQCcc5K/preview',
-                        driveUrl: 'https://drive.google.com/file/d/18ZOKmdceJiOfBijzalAfI9nWUbQCcc5K/view?usp=sharing'
                     },
                     {
                         id: 'reduced-relative-clauses',
@@ -525,7 +486,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/178TnQ4IqBLauiCEJI_gtVDq559sM9XMz/preview',
-                        driveUrl: 'https://drive.google.com/file/d/178TnQ4IqBLauiCEJI_gtVDq559sM9XMz/view?usp=sharing'
                     },
                     {
                         id: 'participle-clauses',
@@ -537,7 +497,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/10fvljlqjKvRvyQ6PpB77cM0tbmdRJ7D1/preview',
-                        driveUrl: 'https://drive.google.com/file/d/10fvljlqjKvRvyQ6PpB77cM0tbmdRJ7D1/view?usp=sharing'
                     },
                     {
                         id: 'conjunctions',
@@ -554,7 +513,6 @@
                             { label: 'Part 3', embedUrl: 'https://drive.google.com/file/d/1zZi9391sF0CuDbGRTcZCITSvhr0QCtvS/preview' },
                             { label: 'Practice', embedUrl: 'https://drive.google.com/file/d/1JJk4Cn5njyrPRN6xSbBkWlEZM3TZsPyd/preview' }
                         ],
-                        driveUrl: 'https://drive.google.com/file/d/1pAIiU42E8BWGZI6BHEX5TWMvPaWOxDaR/view?usp=sharing'
                     },
                     {
                         id: 'comparatives-superlatives',
@@ -566,7 +524,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1a4CbSYwAPACWH_uXqzcsMzLbj0A8PlBI/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1a4CbSYwAPACWH_uXqzcsMzLbj0A8PlBI/view?usp=sharing'
                     },
 
                     // MODALS & OTHERS
@@ -583,7 +540,6 @@
                             { label: 'Explanation', embedUrl: 'https://drive.google.com/file/d/1iUXj3RuxOEAKLqz9Ok3JbLrziBBMUgPn/preview' },
                             { label: 'Practice', embedUrl: 'https://drive.google.com/file/d/1sfKDh5jcNXar1bibzXi2mwP8URfQLPlX/preview' }
                         ],
-                        driveUrl: 'https://drive.google.com/file/d/1iUXj3RuxOEAKLqz9Ok3JbLrziBBMUgPn/view?usp=sharing'
                     },
                     {
                         id: 'would',
@@ -595,7 +551,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1jQXhjUUCXrDHcDM-ZKEWIigv6nOFHpHP/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1jQXhjUUCXrDHcDM-ZKEWIigv6nOFHpHP/view?usp=sharing'
                     },
                     {
                         id: 'used-to',
@@ -610,7 +565,6 @@
                             { label: 'Explanation', embedUrl: 'https://drive.google.com/file/d/1jQXhjUUCXrDHcDM-ZKEWIigv6nOFHpHP/preview' },
                             { label: 'Practice', embedUrl: 'https://drive.google.com/file/d/1FQ8YeE6Dr0XTxv-uxxu4A3Ys44NSu9HF/preview' }
                         ],
-                        driveUrl: 'https://drive.google.com/file/d/1jQXhjUUCXrDHcDM-ZKEWIigv6nOFHpHP/view?usp=sharing'
                     },
                     {
                         id: 'quantifiers',
@@ -622,7 +576,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1TmzSrT6IKEMZ0Hd3RftaHY4TzeuXH7Eq/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1TmzSrT6IKEMZ0Hd3RftaHY4TzeuXH7Eq/view?usp=sharing'
                     },
                     {
                         id: 'pronouns',
@@ -634,7 +587,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/12_sbEItaTAsVVzIaCkhKR88KrgJDnPQZ/preview',
-                        driveUrl: 'https://drive.google.com/file/d/12_sbEItaTAsVVzIaCkhKR88KrgJDnPQZ/view?usp=sharing'
                     },
                     {
                         id: 'reflexive-pronouns',
@@ -646,7 +598,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1lBmvlwrtchw-ijYw-3o8yy-YQ0qE6bHH/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1lBmvlwrtchw-ijYw-3o8yy-YQ0qE6bHH/view?usp=sharing'
                     },
                     {
                         id: 'prepositions-place',
@@ -658,7 +609,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1QPiCqiZQZAifZx-RaZxrrHVhnAT2MWoV/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1QPiCqiZQZAifZx-RaZxrrHVhnAT2MWoV/view?usp=sharing'
                     },
                     {
                         id: 'prepositions-time',
@@ -670,7 +620,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1COen1OZ83Suuw0ksVCsDFGNwZQipOMXK/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1COen1OZ83Suuw0ksVCsDFGNwZQipOMXK/view?usp=sharing'
                     },
                     {
                         id: 'gerund-infinitives',
@@ -682,7 +631,6 @@
                         hasVideo: true,
                         hasPdf: false,
                         embedUrl: 'https://drive.google.com/file/d/1x72hkIMVg-uU_RVavGjiGh5AdxT-dYJp/preview',
-                        driveUrl: 'https://drive.google.com/file/d/1x72hkIMVg-uU_RVavGjiGh5AdxT-dYJp/view?usp=sharing'
                     },
 
                     // PDF Only Resources
@@ -695,7 +643,18 @@
                         categoryLabel: 'Reference',
                         hasVideo: false,
                         hasPdf: true,
-                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                        pdfUrl: 'pdfs/IRREGULAR VERBS(PAST)  (2).pdf'
+                    },
+                    {
+                        id: 'comparatives-superlatives-pdf',
+                        title: 'Comparatives & Superlatives',
+                        subtitle: 'Karşılaştırma yapıları PDF',
+                        icon: '📊',
+                        category: 'clauses',
+                        categoryLabel: 'Reference',
+                        hasVideo: false,
+                        hasPdf: true,
+                        pdfUrl: 'pdfs/Comparatives and Superlatives (3).pdf'
                     },
                     {
                         id: 'phrasal-verbs',
@@ -706,7 +665,7 @@
                         categoryLabel: 'Reference',
                         hasVideo: false,
                         hasPdf: true,
-                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                        pdfUrl: 'pdfs/Phrasal Verbs (1) (1).pdf'
                     },
                     {
                         id: 'verbs-with-prepositions',
@@ -717,7 +676,7 @@
                         categoryLabel: 'Reference',
                         hasVideo: false,
                         hasPdf: true,
-                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                        pdfUrl: 'pdfs/Verbs With Prepositions (1).pdf'
                     },
                     {
                         id: 'grammar-structures',
@@ -728,7 +687,7 @@
                         categoryLabel: 'Reference',
                         hasVideo: false,
                         hasPdf: true,
-                        pdfUrl: 'https://drive.google.com/drive/folders/1s09KWTS1i97WjRMwPzBmPK1rVAGtkPG3'
+                        pdfUrl: 'pdfs/Grammar Structures (1).pdf'
                     }
                 ],
 
