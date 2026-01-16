@@ -565,17 +565,17 @@
         </div>
 
         <!-- Source Selector -->
-        <div class="source-selector" style="display: flex; gap: 10px; justify-content: center; margin-bottom: 20px;">
+        <div class="source-selector" style="display: flex; gap: 16px; justify-content: center; margin-bottom: 24px; flex-wrap: wrap;">
             <button class="source-btn" :class="{ 'active': selectedSource === 'awl' }" @click="selectSource('awl')"
-                style="padding: 12px 24px; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s;"
-                :style="selectedSource === 'awl' ? 'background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none;' : 'background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);'">
-                📚 AWL (570 words)
+                style="padding: 16px 32px; border-radius: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s; font-size: 1.1rem; min-width: 280px;"
+                :style="selectedSource === 'awl' ? 'background: linear-gradient(135deg, #667eea, #764ba2); color: white; border: none; box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4); transform: translateY(-2px);' : 'background: rgba(102, 126, 234, 0.15); color: #a5b4fc; border: 2px solid rgba(102, 126, 234, 0.4);'">
+                📚 Academic Word List (570 words)
             </button>
             <button class="source-btn" :class="{ 'active': selectedSource === 'oxford' }"
                 @click="selectSource('oxford')"
-                style="padding: 12px 24px; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s;"
-                :style="selectedSource === 'oxford' ? 'background: linear-gradient(135deg, #11998e, #38ef7d); color: white; border: none;' : 'background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);'">
-                🌐 Oxford 3000 (<span x-text="oxfordCards.length"></span> words)
+                style="padding: 16px 32px; border-radius: 16px; font-weight: 700; cursor: pointer; transition: all 0.3s; font-size: 1.1rem; min-width: 280px;"
+                :style="selectedSource === 'oxford' ? 'background: linear-gradient(135deg, #11998e, #38ef7d); color: white; border: none; box-shadow: 0 8px 25px rgba(17, 153, 142, 0.4); transform: translateY(-2px);' : 'background: rgba(17, 153, 142, 0.15); color: #6ee7b7; border: 2px solid rgba(17, 153, 142, 0.4);'">
+                🌐 Oxford 5000 (<span x-text="oxfordCards.length"></span> words)
             </button>
         </div>
 
@@ -616,8 +616,8 @@
             </button>
         </div>
 
-        <!-- Category Filter -->
-        <div class="set-filter">
+        <!-- Category Filter (only for Oxford) -->
+        <div class="set-filter" x-show="selectedSource === 'oxford'">
             <button class="filter-btn" :class="{ 'active': selectedSet === 'all' }" @click="selectSet('all')">
                 All Levels
             </button>
