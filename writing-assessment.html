@@ -179,9 +179,17 @@
             font-weight: 600;
         }
 
-        .word-count.warning { color: #f59e0b; }
-        .word-count.success { color: #22c55e; }
-        .word-count.error { color: #ef4444; }
+        .word-count.warning {
+            color: #f59e0b;
+        }
+
+        .word-count.success {
+            color: #22c55e;
+        }
+
+        .word-count.error {
+            color: #ef4444;
+        }
 
         /* Submit Button */
         .submit-btn {
@@ -314,9 +322,17 @@
             border-left: 4px solid;
         }
 
-        .correction-item.error { border-left-color: #ef4444; }
-        .correction-item.vocabulary { border-left-color: #3b82f6; }
-        .correction-item.grammar { border-left-color: #a855f7; }
+        .correction-item.error {
+            border-left-color: #ef4444;
+        }
+
+        .correction-item.vocabulary {
+            border-left-color: #3b82f6;
+        }
+
+        .correction-item.grammar {
+            border-left-color: #a855f7;
+        }
 
         .correction-type {
             font-size: 0.75rem;
@@ -326,9 +342,17 @@
             margin-bottom: 8px;
         }
 
-        .correction-type.error { color: #ef4444; }
-        .correction-type.vocabulary { color: #3b82f6; }
-        .correction-type.grammar { color: #a855f7; }
+        .correction-type.error {
+            color: #ef4444;
+        }
+
+        .correction-type.vocabulary {
+            color: #3b82f6;
+        }
+
+        .correction-type.grammar {
+            color: #a855f7;
+        }
 
         .correction-original {
             color: #ef4444;
@@ -489,8 +513,13 @@
             gap: 8px;
         }
 
-        .feedback-box.strengths .feedback-box-title { color: #22c55e; }
-        .feedback-box.weaknesses .feedback-box-title { color: #ef4444; }
+        .feedback-box.strengths .feedback-box-title {
+            color: #22c55e;
+        }
+
+        .feedback-box.weaknesses .feedback-box-title {
+            color: #ef4444;
+        }
 
         .feedback-list {
             list-style: none;
@@ -549,7 +578,9 @@
         }
 
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
 
         /* Summary Stats */
@@ -572,10 +603,21 @@
             font-weight: 700;
         }
 
-        .stat-value.errors { color: #ef4444; }
-        .stat-value.vocab { color: #3b82f6; }
-        .stat-value.grammar { color: #a855f7; }
-        .stat-value.level { color: #22c55e; }
+        .stat-value.errors {
+            color: #ef4444;
+        }
+
+        .stat-value.vocab {
+            color: #3b82f6;
+        }
+
+        .stat-value.grammar {
+            color: #a855f7;
+        }
+
+        .stat-value.level {
+            color: #22c55e;
+        }
 
         .stat-label {
             font-size: 0.75rem;
@@ -622,7 +664,9 @@
             color: rgba(255, 255, 255, 0.5);
         }
 
-        [x-cloak] { display: none !important; }
+        [x-cloak] {
+            display: none !important;
+        }
     </style>
 </head>
 
@@ -644,7 +688,8 @@
         <div class="loading-overlay" x-show="isLoading" x-cloak>
             <div class="loading-spinner"></div>
             <p style="margin-top: 20px; color: rgba(255,255,255,0.7);">Analyzing your essay...</p>
-            <p style="margin-top: 8px; font-size: 0.85rem; color: rgba(255,255,255,0.5);">This may take 15-30 seconds</p>
+            <p style="margin-top: 8px; font-size: 0.85rem; color: rgba(255,255,255,0.5);">This may take 15-30 seconds
+            </p>
         </div>
 
         <div class="main-grid">
@@ -657,17 +702,21 @@
 
                     <!-- API Key Section -->
                     <div class="api-key-section">
-                        <label style="font-size: 0.9rem; color: rgba(255,255,255,0.7); display: flex; align-items: center; gap: 8px;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
-                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        <label
+                            style="font-size: 0.9rem; color: rgba(255,255,255,0.7); display: flex; align-items: center; gap: 8px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
                             </svg>
                             OpenAI API Key
                         </label>
-                        <input type="password" class="api-key-input" x-model="apiKey"
-                            placeholder="sk-..." @change="saveApiKey()">
+                        <input type="password" class="api-key-input" x-model="apiKey" placeholder="sk-..."
+                            @change="saveApiKey()">
                         <p style="font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 8px;">
-                            Your key is stored locally in your browser only. <a href="https://platform.openai.com/api-keys" target="_blank" style="color: #3b82f6;">Get API Key</a>
+                            Your key is stored locally in your browser only. <a
+                                href="https://platform.openai.com/api-keys" target="_blank" style="color: #3b82f6;">Get
+                                API Key</a>
                         </p>
                     </div>
 
@@ -685,7 +734,8 @@
 
                     <!-- Essay Question -->
                     <div style="margin-bottom: 16px;">
-                        <label style="font-size: 0.9rem; color: rgba(255,255,255,0.7); display: block; margin-bottom: 8px;">
+                        <label
+                            style="font-size: 0.9rem; color: rgba(255,255,255,0.7); display: block; margin-bottom: 8px;">
                             Essay Question/Topic
                         </label>
                         <textarea x-model="essayQuestion"
@@ -713,8 +763,9 @@
 
                     <!-- Submit Button -->
                     <button class="submit-btn" @click="assessEssay()" :disabled="!canSubmit || isLoading">
-                        <svg x-show="!isLoading" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+                        <svg x-show="!isLoading" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" />
                         </svg>
                         <span x-show="!isLoading">Send to AI Examiner</span>
                         <span x-show="isLoading">Analyzing...</span>
@@ -728,7 +779,8 @@
                     <div class="card-header">
                         <h2 class="card-title">Assessment Results</h2>
                         <span style="font-size: 0.8rem; color: rgba(255,255,255,0.5);">
-                            Level: <span x-text="results.summary?.estimatedCurrentLevel || '-'" style="color: #22c55e; font-weight: 600;"></span>
+                            Level: <span x-text="results.summary?.estimatedCurrentLevel || '-'"
+                                style="color: #22c55e; font-weight: 600;"></span>
                         </span>
                     </div>
 
@@ -813,7 +865,8 @@
                                 Copy Improved Essay
                             </button>
                         </div>
-                        <div class="improved-essay" x-text="results.improvedEssay || 'No improved essay available'"></div>
+                        <div class="improved-essay" x-text="results.improvedEssay || 'No improved essay available'">
+                        </div>
                     </div>
 
                     <!-- Tab: Errors -->
@@ -836,7 +889,8 @@
                                 </div>
                             </div>
                         </template>
-                        <div x-show="!results.errors?.length" style="text-align: center; padding: 40px; color: rgba(255,255,255,0.5);">
+                        <div x-show="!results.errors?.length"
+                            style="text-align: center; padding: 40px; color: rgba(255,255,255,0.5);">
                             No errors found - great job!
                         </div>
                     </div>
@@ -854,7 +908,8 @@
                                 <div class="correction-explanation">
                                     <span x-text="vocab.explanation"></span>
                                     <template x-if="vocab.alternatives?.length">
-                                        <span><br><strong>Alternatives:</strong> <span x-text="vocab.alternatives.join(', ')"></span></span>
+                                        <span><br><strong>Alternatives:</strong> <span
+                                                x-text="vocab.alternatives.join(', ')"></span></span>
                                     </template>
                                 </div>
                             </div>
@@ -897,9 +952,10 @@
                         <div class="feedback-grid">
                             <div class="feedback-box strengths">
                                 <div class="feedback-box-title">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-                                        <polyline points="22 4 12 14.01 9 11.01"/>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                        <polyline points="22 4 12 14.01 9 11.01" />
                                     </svg>
                                     Strengths
                                 </div>
@@ -911,10 +967,11 @@
                             </div>
                             <div class="feedback-box weaknesses">
                                 <div class="feedback-box-title">
-                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <circle cx="12" cy="12" r="10"/>
-                                        <line x1="12" y1="8" x2="12" y2="12"/>
-                                        <line x1="12" y1="16" x2="12.01" y2="16"/>
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="12" y1="8" x2="12" y2="12" />
+                                        <line x1="12" y1="16" x2="12.01" y2="16" />
                                     </svg>
                                     Areas to Improve
                                 </div>
@@ -930,16 +987,20 @@
                         <template x-for="(para, index) in results.paragraphFeedback || []" :key="index">
                             <div class="paragraph-feedback">
                                 <div class="paragraph-header">
-                                    <span style="font-weight: 600;">Paragraph <span x-text="para.paragraphNumber"></span></span>
+                                    <span style="font-weight: 600;">Paragraph <span
+                                            x-text="para.paragraphNumber"></span></span>
                                     <div style="display: flex; gap: 8px;">
                                         <span class="paragraph-type" x-text="para.type"></span>
-                                        <span class="topic-sentence-badge" :class="para.topicSentence?.toLowerCase().replace(' ', '-')" x-text="'Topic: ' + para.topicSentence"></span>
+                                        <span class="topic-sentence-badge"
+                                            :class="para.topicSentence?.toLowerCase().replace(' ', '-')"
+                                            x-text="'Topic: ' + para.topicSentence"></span>
                                     </div>
                                 </div>
                                 <p style="font-size: 0.9rem; color: rgba(255,255,255,0.8);" x-text="para.feedback"></p>
                                 <template x-if="para.topicSentenceSuggestion">
                                     <p style="font-size: 0.85rem; color: #22c55e; margin-top: 10px;">
-                                        <strong>Suggested topic sentence:</strong> <span x-text="para.topicSentenceSuggestion"></span>
+                                        <strong>Suggested topic sentence:</strong> <span
+                                            x-text="para.topicSentenceSuggestion"></span>
                                     </p>
                                 </template>
                                 <div class="cohesive-devices">
@@ -958,14 +1019,16 @@
                 <!-- No Results Yet -->
                 <div class="card" x-show="!hasResults">
                     <div class="no-results">
-                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" style="margin: 0 auto 20px;">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
-                            <polyline points="14 2 14 8 20 8"/>
-                            <line x1="16" y1="13" x2="8" y2="13"/>
-                            <line x1="16" y1="17" x2="8" y2="17"/>
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1" style="margin: 0 auto 20px;">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                            <polyline points="14 2 14 8 20 8" />
+                            <line x1="16" y1="13" x2="8" y2="13" />
+                            <line x1="16" y1="17" x2="8" y2="17" />
                         </svg>
                         <p style="font-size: 1.1rem; margin-bottom: 8px;">Ready to assess your essay</p>
-                        <p style="font-size: 0.9rem;">Enter your essay and click "Send to AI Examiner" to get detailed feedback</p>
+                        <p style="font-size: 0.9rem;">Enter your essay and click "Send to AI Examiner" to get detailed
+                            feedback</p>
                     </div>
                 </div>
             </div>
@@ -1015,101 +1078,242 @@
                     this.hasResults = false;
                     this.selectedScore = null;
 
-                    const systemPrompt = `You are a certified IELTS Writing Examiner with 15+ years of experience. Assess essays according to official IELTS band descriptors.
+                    // Task-specific criteria
+                    const taskCriteria = this.taskType === 'task2' ? `
+## TASK 2 SPECIFIC REQUIREMENTS
+- Clear position throughout the response
+- Main ideas extended and supported with relevant examples
+- All parts of the prompt addressed
+- Minimum 250 words (penalize if under)
+- 4-5 paragraph structure expected (intro, 2-3 body, conclusion)` : `
+## TASK 1 SPECIFIC REQUIREMENTS
+- Clear overview of main trends/features (CRITICAL - Band 7+ requires this)
+- Key features selected and described accurately
+- Data/process described with precision
+- Comparison and contrast where relevant
+- Minimum 150 words (penalize if under)
+- NO personal opinion (this is a report, not an essay)
+- 3-4 paragraph structure (intro with overview, 2-3 body paragraphs)`;
 
-## ASSESSMENT REQUIREMENTS
+                    const systemPrompt = `You are a Senior IELTS Writing Examiner and band score calibrator with 20+ years of experience. You have trained other examiners and your assessments are used as benchmarks.
 
-### 1. BAND SCORES (use 0.5 increments: 5.0, 5.5, 6.0, 6.5, 7.0, etc.)
-Score these 4 criteria with detailed feedback:
-- Task Achievement: Does it address all parts? Clear position? Supported ideas?
-- Coherence & Cohesion: Logical organization? Good paragraphing? Cohesive devices?
-- Lexical Resource: Vocabulary range? Less common words? Spelling/word formation?
-- Grammatical Range: Sentence variety? Complex structures? Error frequency?
+## YOUR ROLE
+Assess this IELTS ${this.taskType === 'task2' ? 'Task 2 Essay' : 'Task 1 Report'} using the OFFICIAL IELTS band descriptors below. Be precise and consistent.
 
-### 2. ERROR ANALYSIS
-Find ALL errors: grammar, spelling, punctuation, word form, word choice, structure.
-Each error needs: original text, correction, explanation, and the rule violated.
+${taskCriteria}
 
-### 3. VOCABULARY UPGRADES
-For EVERY basic word, suggest academic alternatives:
-- good → beneficial, advantageous
-- bad → detrimental, adverse
-- important → crucial, vital, essential
-- show → demonstrate, illustrate
-- think → believe, consider, argue
-- a lot of → numerous, considerable
-- get → obtain, acquire
-- big → substantial, significant
-- problem → issue, challenge
-- people → individuals, citizens
+## OFFICIAL IELTS BAND DESCRIPTORS
 
-### 4. IMPROVED ESSAY
-Rewrite the entire essay with:
-- All errors fixed
-- Vocabulary upgraded
-- Better sentence structures
-- Enhanced cohesive devices
-- SAME argument and meaning
+### TASK ACHIEVEMENT / TASK RESPONSE
+**Band 9**: Fully addresses all parts with a fully developed position. Ideas are relevant, fully extended and well supported.
+**Band 8**: Sufficiently addresses all parts. Presents a well-developed response with relevant, extended and supported ideas.
+**Band 7**: Addresses all parts. Presents a clear position throughout. Main ideas are extended and supported but there may be a tendency to over-generalize or lack focus.
+**Band 6**: Addresses all parts though some parts may be more fully covered than others. Presents a relevant position but conclusions may be unclear or repetitive. Main ideas are relevant but some may be inadequately developed or unclear.
+**Band 5**: Addresses the task only partially. Format may be inappropriate in places. Position is not always clear. Main ideas are limited and not sufficiently developed; irrelevant detail may be present.
 
-### 5. KEY IMPROVEMENT POINTS
-5-7 specific actionable points with:
-- Area (Grammar/Vocabulary/Coherence/Task)
-- Specific advice
-- Examples from essay
-- How to practice
+### COHERENCE AND COHESION
+**Band 9**: Uses cohesion in such a way that it attracts no attention. Skilfully manages paragraphing.
+**Band 8**: Sequences information and ideas logically. Manages all aspects of cohesion well. Uses paragraphing sufficiently and appropriately.
+**Band 7**: Logically organizes information and ideas; clear progression throughout. Uses a range of cohesive devices appropriately although there may be some under/over-use. Presents a clear central topic within each paragraph.
+**Band 6**: Arranges information coherently and there is clear overall progression. Uses cohesive devices effectively but cohesion within/between sentences may be faulty or mechanical. May not always use referencing clearly or appropriately.
+**Band 5**: Presents information with some organization but no overall progression. Uses cohesive devices but not always appropriately. May be repetitive. Paragraphing may be inadequate.
 
-### 6. PARAGRAPH FEEDBACK
-For each paragraph:
-- Type (intro/body/conclusion)
-- Topic sentence quality
-- Cohesive devices used
-- Suggested devices to add
+### LEXICAL RESOURCE
+**Band 9**: Uses a wide range of vocabulary with very natural and sophisticated control of lexical features; rare minor errors occur only as 'slips'.
+**Band 8**: Uses a wide range of vocabulary fluently and flexibly. Skilfully uses uncommon lexical items with occasional inaccuracies in word choice and collocation. Rare errors in spelling/word formation.
+**Band 7**: Uses a sufficient range of vocabulary to allow some flexibility and precision. Uses less common lexical items with some awareness of style and collocation. May produce occasional errors in word choice, spelling and/or word formation.
+**Band 6**: Uses an adequate range of vocabulary for the task. Attempts to use less common vocabulary but with some inaccuracy. Makes some errors in spelling and/or word formation but they do not impede communication.
+**Band 5**: Uses a limited range of vocabulary, but minimally adequate for the task. May make noticeable errors in spelling and/or word formation that may cause some difficulty for the reader.
 
-## RESPONSE FORMAT (JSON only, no markdown):
-{
-  "taskType": "${this.taskType}",
-  "wordCount": ${this.wordCount},
-  "isMinimumMet": ${this.wordCount >= this.minWords},
-  "bandScores": {
-    "taskAchievement": number,
-    "taskAchievementFeedback": "explanation",
-    "coherenceCohesion": number,
-    "coherenceCohesionFeedback": "explanation",
-    "lexicalResource": number,
-    "lexicalResourceFeedback": "explanation",
-    "grammaticalRange": number,
-    "grammaticalRangeFeedback": "explanation",
-    "overall": number
-  },
-  "errors": [
-    {"type": "grammar|spelling|punctuation|word_form|word_choice|structure", "original": "", "correction": "", "explanation": "", "rule": ""}
-  ],
-  "vocabularyUpgrades": [
-    {"original": "", "upgraded": "", "explanation": "", "alternatives": []}
-  ],
-  "grammarImprovements": [
-    {"original": "", "improved": "", "technique": "", "explanation": ""}
-  ],
-  "improvedEssay": "full rewritten essay",
-  "keyImprovementPoints": [
-    {"area": "", "point": "", "examples": "", "practice": ""}
-  ],
-  "paragraphFeedback": [
-    {"paragraphNumber": 1, "type": "", "topicSentence": "good|needs improvement|missing", "topicSentenceSuggestion": "", "cohesiveDevices": [], "suggestedDevices": [], "feedback": ""}
-  ],
-  "strengths": [],
-  "summary": {
-    "totalErrors": number,
-    "vocabularyUpgrades": number,
-    "grammarImprovements": number,
-    "estimatedCurrentLevel": "A2|B1|B2|C1",
-    "mainFocus": ""
-  }
-}`;
+### GRAMMATICAL RANGE AND ACCURACY
+**Band 9**: Uses a wide range of structures with full flexibility and accuracy; rare minor errors occur only as 'slips'.
+**Band 8**: Uses a wide range of structures. Most sentences are error-free. Makes only very occasional errors or inappropriacies.
+**Band 7**: Uses a variety of complex structures. Produces frequent error-free sentences. Has good control of grammar and punctuation but may make a few errors.
+**Band 6**: Uses a mix of simple and complex sentence forms. Makes some errors in grammar and punctuation but they rarely reduce communication.
+**Band 5**: Uses only a limited range of structures. Attempts complex sentences but these tend to be less accurate than simple sentences. May make frequent grammatical errors; punctuation may be faulty.
+
+## SCORING CALIBRATION GUIDANCE
+
+**Be strict but fair.** Most IELTS candidates score between 5.5-7.0. Here's how to calibrate:
+
+- **Band 7.0+**: Reserved for essays with clear strengths across all criteria. Few errors, good vocabulary range, clear organization.
+- **Band 6.0-6.5**: The "competent" range. Essay communicates effectively but has noticeable weaknesses. Some vocabulary attempts, some grammatical errors.
+- **Band 5.0-5.5**: Basic competence. Message gets across but with limitations. Repetitive vocabulary, frequent errors, weak organization.
+- **Below 5.0**: Significant difficulties. Hard to follow, many errors impeding communication.
+
+**Common scoring mistakes to avoid:**
+- Don't inflate scores for "good effort" - assess what's actually written
+- Don't penalize too harshly for a few errors if overall communication is effective
+- Band 6.5 is NOT "average" - it represents competent English
+- Word count matters: Under minimum = automatic ceiling of Band 6 for Task Achievement
+
+## ERROR ANALYSIS REQUIREMENTS
+Identify ALL errors in these categories:
+- **Article errors**: missing/wrong a/an/the
+- **Subject-verb agreement**: singular/plural mismatches
+- **Tense errors**: wrong tense or tense inconsistency
+- **Word form**: wrong part of speech (noun/verb/adj/adv)
+- **Word choice**: wrong word or collocation error
+- **Preposition**: wrong or missing preposition
+- **Punctuation**: comma splices, run-ons, missing commas
+- **Spelling**: misspelled words
+- **Structure**: awkward or incorrect sentence structure
+
+## VOCABULARY UPGRADE REQUIREMENTS
+Identify EVERY basic/overused word and provide academic alternatives:
+- good/nice → beneficial, advantageous, favorable, positive
+- bad → detrimental, adverse, harmful, negative
+- important → crucial, vital, essential, significant, paramount
+- very → highly, extremely, considerably, remarkably
+- show → demonstrate, illustrate, indicate, reveal
+- think/believe → argue, contend, maintain, assert
+- a lot of/many → numerous, considerable, substantial, extensive
+- get → obtain, acquire, gain, receive
+- big/large → substantial, significant, considerable, extensive
+- problem → issue, challenge, concern, difficulty
+- people → individuals, citizens, population, members of society
+- thing → aspect, factor, element, component
+- use → utilize, employ, implement, apply
+- make → create, generate, produce, establish
+- way → method, approach, means, manner
+
+## IMPROVED ESSAY REQUIREMENTS
+Rewrite maintaining the EXACT same argument and ideas, but with:
+- All errors corrected
+- Basic vocabulary upgraded to academic alternatives
+- Simple sentences combined into complex structures where appropriate
+- Better paragraph transitions and cohesive devices
+- Aim for approximately 0.5-1.0 band improvement potential
+
+## OUTPUT REQUIREMENTS
+Provide detailed, actionable feedback. Be specific with examples from the essay. The goal is to help this student improve to the next band level.`;
 
                     const userPrompt = this.essayQuestion
-                        ? `IELTS ${this.taskType === 'task2' ? 'Task 2' : 'Task 1'} Question:\n${this.essayQuestion}\n\nStudent's Essay (${this.wordCount} words):\n${this.essay}`
-                        : `IELTS ${this.taskType === 'task2' ? 'Task 2' : 'Task 1'} Essay (${this.wordCount} words):\n${this.essay}`;
+                        ? `## ESSAY QUESTION/PROMPT:\n${this.essayQuestion}\n\n## STUDENT'S ${this.taskType === 'task2' ? 'ESSAY' : 'REPORT'} (${this.wordCount} words):\n${this.essay}`
+                        : `## STUDENT'S IELTS ${this.taskType === 'task2' ? 'Task 2 Essay' : 'Task 1 Report'} (${this.wordCount} words):\n${this.essay}`;
+
+                    // JSON Schema for structured output
+                    const jsonSchema = {
+                        type: "json_schema",
+                        json_schema: {
+                            name: "ielts_assessment",
+                            strict: true,
+                            schema: {
+                                type: "object",
+                                properties: {
+                                    taskType: { type: "string", enum: ["task1", "task2"] },
+                                    wordCount: { type: "integer" },
+                                    isMinimumMet: { type: "boolean" },
+                                    bandScores: {
+                                        type: "object",
+                                        properties: {
+                                            taskAchievement: { type: "number" },
+                                            taskAchievementFeedback: { type: "string" },
+                                            coherenceCohesion: { type: "number" },
+                                            coherenceCohesionFeedback: { type: "string" },
+                                            lexicalResource: { type: "number" },
+                                            lexicalResourceFeedback: { type: "string" },
+                                            grammaticalRange: { type: "number" },
+                                            grammaticalRangeFeedback: { type: "string" },
+                                            overall: { type: "number" }
+                                        },
+                                        required: ["taskAchievement", "taskAchievementFeedback", "coherenceCohesion", "coherenceCohesionFeedback", "lexicalResource", "lexicalResourceFeedback", "grammaticalRange", "grammaticalRangeFeedback", "overall"],
+                                        additionalProperties: false
+                                    },
+                                    errors: {
+                                        type: "array",
+                                        items: {
+                                            type: "object",
+                                            properties: {
+                                                type: { type: "string" },
+                                                original: { type: "string" },
+                                                correction: { type: "string" },
+                                                explanation: { type: "string" },
+                                                rule: { type: "string" }
+                                            },
+                                            required: ["type", "original", "correction", "explanation", "rule"],
+                                            additionalProperties: false
+                                        }
+                                    },
+                                    vocabularyUpgrades: {
+                                        type: "array",
+                                        items: {
+                                            type: "object",
+                                            properties: {
+                                                original: { type: "string" },
+                                                upgraded: { type: "string" },
+                                                explanation: { type: "string" },
+                                                alternatives: { type: "array", items: { type: "string" } }
+                                            },
+                                            required: ["original", "upgraded", "explanation", "alternatives"],
+                                            additionalProperties: false
+                                        }
+                                    },
+                                    grammarImprovements: {
+                                        type: "array",
+                                        items: {
+                                            type: "object",
+                                            properties: {
+                                                original: { type: "string" },
+                                                improved: { type: "string" },
+                                                technique: { type: "string" },
+                                                explanation: { type: "string" }
+                                            },
+                                            required: ["original", "improved", "technique", "explanation"],
+                                            additionalProperties: false
+                                        }
+                                    },
+                                    improvedEssay: { type: "string" },
+                                    keyImprovementPoints: {
+                                        type: "array",
+                                        items: {
+                                            type: "object",
+                                            properties: {
+                                                area: { type: "string" },
+                                                point: { type: "string" },
+                                                examples: { type: "string" },
+                                                practice: { type: "string" }
+                                            },
+                                            required: ["area", "point", "examples", "practice"],
+                                            additionalProperties: false
+                                        }
+                                    },
+                                    paragraphFeedback: {
+                                        type: "array",
+                                        items: {
+                                            type: "object",
+                                            properties: {
+                                                paragraphNumber: { type: "integer" },
+                                                type: { type: "string" },
+                                                topicSentence: { type: "string", enum: ["good", "needs improvement", "missing"] },
+                                                topicSentenceSuggestion: { type: "string" },
+                                                cohesiveDevices: { type: "array", items: { type: "string" } },
+                                                suggestedDevices: { type: "array", items: { type: "string" } },
+                                                feedback: { type: "string" }
+                                            },
+                                            required: ["paragraphNumber", "type", "topicSentence", "topicSentenceSuggestion", "cohesiveDevices", "suggestedDevices", "feedback"],
+                                            additionalProperties: false
+                                        }
+                                    },
+                                    strengths: { type: "array", items: { type: "string" } },
+                                    summary: {
+                                        type: "object",
+                                        properties: {
+                                            totalErrors: { type: "integer" },
+                                            vocabularyUpgrades: { type: "integer" },
+                                            grammarImprovements: { type: "integer" },
+                                            estimatedCurrentLevel: { type: "string", enum: ["A2", "B1", "B2", "C1"] },
+                                            mainFocus: { type: "string" }
+                                        },
+                                        required: ["totalErrors", "vocabularyUpgrades", "grammarImprovements", "estimatedCurrentLevel", "mainFocus"],
+                                        additionalProperties: false
+                                    }
+                                },
+                                required: ["taskType", "wordCount", "isMinimumMet", "bandScores", "errors", "vocabularyUpgrades", "grammarImprovements", "improvedEssay", "keyImprovementPoints", "paragraphFeedback", "strengths", "summary"],
+                                additionalProperties: false
+                            }
+                        }
+                    };
 
                     try {
                         const response = await fetch('https://api.openai.com/v1/chat/completions', {
@@ -1124,8 +1328,9 @@ For each paragraph:
                                     { role: 'system', content: systemPrompt },
                                     { role: 'user', content: userPrompt }
                                 ],
+                                response_format: jsonSchema,
                                 temperature: 0.3,
-                                max_tokens: 8000
+                                max_tokens: 12000
                             })
                         });
 
@@ -1137,14 +1342,9 @@ For each paragraph:
                         const data = await response.json();
                         const content = data.choices[0].message.content;
 
-                        // Parse JSON from response
-                        const jsonMatch = content.match(/\{[\s\S]*\}/);
-                        if (jsonMatch) {
-                            this.results = JSON.parse(jsonMatch[0]);
-                            this.hasResults = true;
-                        } else {
-                            throw new Error('Invalid response format');
-                        }
+                        // With structured output, response is guaranteed valid JSON
+                        this.results = JSON.parse(content);
+                        this.hasResults = true;
                     } catch (error) {
                         console.error('Assessment error:', error);
                         alert('Error: ' + error.message);
