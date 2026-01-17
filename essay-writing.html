@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essay Writing Guide - English Learning Hub</title>
+    <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        [x-cloak] {
+            display: none !important;
+        }
+
+        body {
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0d0d0d 100%);
+            min-height: 100vh;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .template-box {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 12px;
+            padding: 1.5rem;
+            font-family: 'Georgia', serif;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        .placeholder {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .section-card {
+            transition: all 0.3s ease;
+        }
+
+        .section-card:hover {
+            transform: translateY(-4px);
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .floating {
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div x-data="essayGuide()" x-cloak class="min-h-screen flex flex-col">
+
+        <!-- Navigation -->
+        <nav class="bg-black/40 backdrop-blur-xl border-b border-white/10 p-3 sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 flex items-center justify-between">
+                <a href="index.html" class="text-xl font-bold text-white flex items-center gap-2">
+                    <span class="bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text text-transparent">English
+                        Learning Hub</span>
+                </a>
+                <div class="flex gap-2 flex-wrap">
+                    <a href="ielts.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">
+                        IELTS</a>
+                    <a href="itu-prof.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">
+                        ITU PROF</a>
+                    <a href="grammar.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold text-white/70 hover:bg-white/10 transition-all">
+                        Grammar</a>
+                    <a href="essay-writing.html"
+                        class="px-4 py-2 rounded-full text-sm font-semibold bg-orange-500/20 text-orange-400 border border-orange-500/50">
+                        Essay Writing</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-auto">
+
+            <!-- Hero Section -->
+            <div class="py-12 px-6">
+                <div class="max-w-4xl mx-auto text-center mb-12">
+                    <div class="text-7xl mb-4 floating">✍️</div>
+                    <h1 class="text-5xl font-extrabold text-white mb-4">
+                        <span class="bg-gradient-to-r from-orange-400 via-amber-400 to-yellow-400 bg-clip-text text-transparent">
+                            Essay Writing Guide
+                        </span>
+                    </h1>
+                    <p class="text-xl text-white/60 max-w-2xl mx-auto">
+                        IELTS Writing Task 2 için essay yazma teknikleri ve kalıplar
+                    </p>
+                </div>
+
+                <!-- Section Navigation -->
+                <div class="max-w-4xl mx-auto mb-12">
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <button @click="activeSection = 'introduction'"
+                            :class="activeSection === 'introduction' ? 'bg-green-500 text-white' : 'bg-green-500/20 text-green-300 hover:bg-green-500/30'"
+                            class="px-6 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                            <span class="text-xl">1️⃣</span> Introduction
+                        </button>
+                        <button @click="activeSection = 'body'"
+                            :class="activeSection === 'body' ? 'bg-blue-500 text-white' : 'bg-blue-500/20 text-blue-300 hover:bg-blue-500/30'"
+                            class="px-6 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                            <span class="text-xl">2️⃣</span> Body Paragraphs
+                        </button>
+                        <button @click="activeSection = 'conclusion'"
+                            :class="activeSection === 'conclusion' ? 'bg-purple-500 text-white' : 'bg-purple-500/20 text-purple-300 hover:bg-purple-500/30'"
+                            class="px-6 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                            <span class="text-xl">3️⃣</span> Conclusion
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Introduction Section -->
+                <div x-show="activeSection === 'introduction'" x-cloak class="max-w-4xl mx-auto space-y-8">
+
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl font-bold text-green-400 mb-2">Introduction Yazma</h2>
+                        <p class="text-white/60">Essay'e nasıl güçlü bir giriş yapılır?</p>
+                    </div>
+
+                    <!-- Tip 1 -->
+                    <div class="glass-card rounded-2xl p-6 section-card border-l-4 border-green-500">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-3xl">💡</span>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Tip 1: "Do the advantages outweigh the disadvantages?"</h3>
+                                <p class="text-amber-400 font-medium">(Ağır basıyor mu?)</p>
+                            </div>
+                        </div>
+
+                        <p class="text-white/70 mb-4">
+                            Bu kalıp, sizin <strong class="text-white">bir tarafı daha ağır bastırmanız</strong> (fikrinizi belirtmeniz) gereken sorular içindir.
+                        </p>
+
+                        <div class="template-box">
+                            <p class="text-white/90">
+                                "It is undeniable fact that <span class="placeholder">[Konunun Paraphrase Hali]</span> has generated significant discourse regarding its consequences. In my opinion, although there are some drawbacks to this trend such as <span class="placeholder">[Küçük Bir Dezavantaj]</span>, I believe that benefits including <span class="placeholder">[Ana Avantaj]</span> are far more significant."
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-4 bg-white/5 rounded-xl">
+                            <p class="text-sm text-white/50 mb-2">Örnek Kullanım:</p>
+                            <p class="text-white/80 italic">
+                                "It is undeniable fact that <span class="text-amber-400">the increasing use of technology in education</span> has generated significant discourse regarding its consequences. In my opinion, although there are some drawbacks to this trend such as <span class="text-amber-400">reduced face-to-face interaction</span>, I believe that benefits including <span class="text-amber-400">improved access to information</span> are far more significant."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tip 2 -->
+                    <div class="glass-card rounded-2xl p-6 section-card border-l-4 border-blue-500">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-3xl">💡</span>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Tip 2: "What are the advantages and disadvantages?"</h3>
+                                <p class="text-amber-400 font-medium">(Nelerdir?)</p>
+                            </div>
+                        </div>
+
+                        <p class="text-white/70 mb-4">
+                            Bu kalıp, sadece avantaj ve dezavantajları <strong class="text-white">tarafsız bir şekilde listeleyeceğiniz</strong> sorular içindir.
+                        </p>
+
+                        <div class="template-box">
+                            <p class="text-white/90">
+                                "It is undeniable fact that <span class="placeholder">[Konunun Paraphrase Hali]</span> has generated significant discourse regarding its consequences. This essay will explore the merits including <span class="placeholder">[Avantaj Örneği]</span> as well as its potential pitfalls such as <span class="placeholder">[Dezavantaj Örneği]</span>."
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-4 bg-white/5 rounded-xl">
+                            <p class="text-sm text-white/50 mb-2">Örnek Kullanım:</p>
+                            <p class="text-white/80 italic">
+                                "It is undeniable fact that <span class="text-amber-400">remote working</span> has generated significant discourse regarding its consequences. This essay will explore the merits including <span class="text-amber-400">flexibility and work-life balance</span> as well as its potential pitfalls such as <span class="text-amber-400">isolation and reduced team collaboration</span>."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tip 3: Opinion Essay -->
+                    <div class="glass-card rounded-2xl p-6 section-card border-l-4 border-purple-500">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-3xl">💡</span>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Tip 3: Opinion (Agree/Disagree) Essay</h3>
+                                <p class="text-amber-400 font-medium">(To what extent do you agree/disagree?)</p>
+                            </div>
+                        </div>
+
+                        <p class="text-white/70 mb-4">
+                            Bu taslak, bir görüşe <strong class="text-white">ne kadar katıldığınızı</strong> soran sorularda kullanılır.
+                        </p>
+
+                        <div class="template-box space-y-3">
+                            <p class="text-white/90">
+                                <span class="text-purple-400 font-semibold">1. Cümle (Restatement):</span><br>
+                                "While some people question whether <span class="placeholder">[Görüş A]</span>, others believe that <span class="placeholder">[Görüş B]</span>."
+                            </p>
+                            <p class="text-white/90">
+                                <span class="text-purple-400 font-semibold">2. Cümle (Thesis):</span><br>
+                                "I completely agree with the view that <span class="placeholder">[Kendi Görüşün]</span>."
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-4 bg-purple-500/10 rounded-xl border border-purple-500/30">
+                            <p class="text-sm text-purple-300 flex items-start gap-2">
+                                <span>💎</span>
+                                <span><strong>İpucu:</strong> "scientific research" yerine "scientific investigations" veya "government" yerine "state" gibi eş anlamlı kelimeler (paraphrase) kullanın. Pasif yapılar da (should be organized/conducted) puanınızı artırır.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tip 4: Discussion Essay -->
+                    <div class="glass-card rounded-2xl p-6 section-card border-l-4 border-pink-500">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-3xl">💡</span>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Tip 4: Discussion Essay</h3>
+                                <p class="text-amber-400 font-medium">(Discuss both views and give your opinion)</p>
+                            </div>
+                        </div>
+
+                        <p class="text-white/70 mb-4">
+                            Bu taslak, iki farklı görüşü tartışıp <strong class="text-white">kendi fikrinizi vermeniz</strong> istenen sorularda kullanılır.
+                        </p>
+
+                        <div class="template-box space-y-3">
+                            <p class="text-white/90">
+                                <span class="text-pink-400 font-semibold">1. Cümle (Görüşleri Tanıtma):</span><br>
+                                "While some individuals believe that <span class="placeholder">[1. Görüş]</span>, others argue that <span class="placeholder">[2. Görüş]</span>."
+                            </p>
+                            <p class="text-white/90">
+                                <span class="text-pink-400 font-semibold">2. Cümle (Kendi Fikriniz):</span><br>
+                                "In my opinion, although <span class="placeholder">[Katılmadığınız Görüş]</span>, I believe that <span class="placeholder">[Savunduğunuz Görüş]</span> is more essential for <span class="placeholder">[İlgili Alan/Gelecek]</span>."
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-4 bg-pink-500/10 rounded-xl border border-pink-500/30">
+                            <p class="text-sm text-pink-300 flex items-start gap-2">
+                                <span>💎</span>
+                                <span><strong>İpucu:</strong> "Although" (Rağmen) kısmına katılmadığınız tarafı yazarak, cümlenin ana kısmında kendi fikrinizi parlatmanız puanınızı artırır.</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tip 5: Problem-Solution Essay -->
+                    <div class="glass-card rounded-2xl p-6 section-card border-l-4 border-red-500">
+                        <div class="flex items-start gap-4 mb-4">
+                            <span class="text-3xl">💡</span>
+                            <div>
+                                <h3 class="text-xl font-bold text-white">Tip 5: Problem-Solution Essay</h3>
+                                <p class="text-amber-400 font-medium">(What are the causes and what are the solutions?)</p>
+                            </div>
+                        </div>
+
+                        <p class="text-white/70 mb-4">
+                            Bir sorunun <strong class="text-white">nedenlerini ve çözümlerini</strong> soran sorularda kullanılır.
+                        </p>
+
+                        <div class="template-box space-y-3">
+                            <p class="text-white/90">
+                                <span class="text-red-400 font-semibold">1. Cümle (Sorunu Tanıtma):</span><br>
+                                "In recent years, <span class="placeholder">[Sorun]</span> has become a major concern in <span class="placeholder">[Birçok Alan/Şehir]</span>."
+                            </p>
+                            <p class="text-white/90">
+                                <span class="text-red-400 font-semibold">2. Cümle (Kapsam Belirtme):</span><br>
+                                "This essay will discuss the primary causes of this issue, such as <span class="placeholder">[Ana Neden]</span>, and suggest viable solutions, including <span class="placeholder">[Ana Çözüm]</span>, to mitigate it."
+                            </p>
+                        </div>
+
+                        <div class="mt-4 p-4 bg-red-500/10 rounded-xl border border-red-500/30">
+                            <p class="text-sm text-red-300 flex items-start gap-2">
+                                <span>💎</span>
+                                <span><strong>İpucu:</strong> İkinci cümlede "such as" ve "including" yapılarından sonra tam cümle değil, isim grubu kullanmaya dikkat edin. Örnek: "over-reliance on private cars"</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Key Difference -->
+                    <div class="glass-card rounded-2xl p-6 bg-gradient-to-r from-orange-500/10 to-amber-500/10 border border-orange-500/30">
+                        <h3 class="text-xl font-bold text-orange-400 mb-4 flex items-center gap-2">
+                            <span>⚡</span> Farkı Anla!
+                        </h3>
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="p-4 bg-black/20 rounded-xl">
+                                <p class="text-green-400 font-semibold mb-2">"Outweigh" Sorusu:</p>
+                                <p class="text-white/70 text-sm">Fikrini belirt + bir tarafı savun</p>
+                                <p class="text-white/50 text-xs mt-2">"I believe that benefits are far more significant"</p>
+                            </div>
+                            <div class="p-4 bg-black/20 rounded-xl">
+                                <p class="text-blue-400 font-semibold mb-2">"What are" Sorusu:</p>
+                                <p class="text-white/70 text-sm">Tarafsız kal + ikisini de listele</p>
+                                <p class="text-white/50 text-xs mt-2">"This essay will explore..."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Body Section (Placeholder) -->
+                <div x-show="activeSection === 'body'" x-cloak class="max-w-4xl mx-auto">
+                    <div class="glass-card rounded-2xl p-12 text-center">
+                        <div class="text-6xl mb-4">🚧</div>
+                        <h2 class="text-2xl font-bold text-white mb-2">Body Paragraphs</h2>
+                        <p class="text-white/60">Bu bölüm yakında eklenecek...</p>
+                    </div>
+                </div>
+
+                <!-- Conclusion Section (Placeholder) -->
+                <div x-show="activeSection === 'conclusion'" x-cloak class="max-w-4xl mx-auto">
+                    <div class="glass-card rounded-2xl p-12 text-center">
+                        <div class="text-6xl mb-4">🚧</div>
+                        <h2 class="text-2xl font-bold text-white mb-2">Conclusion</h2>
+                        <p class="text-white/60">Bu bölüm yakında eklenecek...</p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-black/30 border-t border-white/10 p-4 text-center">
+            <p class="text-white/40 text-sm">
+                Made with 💚 for English Learners
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        function essayGuide() {
+            return {
+                activeSection: 'introduction'
+            }
+        }
+    </script>
+
+</body>
+
+</html>

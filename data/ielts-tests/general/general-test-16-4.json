@@ -1,7 +1,7 @@
 {
     "id": 5,
     "name": "IELTS General Training - Cambridge 16 Test 4",
-    "subtitle": "Cambridge IELTS 16 General Training Test 4",
+    "subtitle": "Cambridge IELTS 16 General Training Test ",
     "type": "general",
     "reading": {
         "title": "General Training Reading Test",
@@ -13,67 +13,13 @@
                 "passages": [
                     {
                         "id": "1a",
-                        "title": "How to choose your builder",
-                        "content": "<p>Building a new home is a significant investment, and it's essential to find the right builder for the job. Before you look for a builder, it's important to develop a comprehensive budget and have clear plans. Once you have a design in mind, it is time to start narrowing down your builder shortlist, and this starts with assessing how qualified each builder is. In Australia, this means checking that the builder holds a residential building licence. Most states have their own building authority who you can contact to check a builder's licence.</p><p>You can also check if the builder is a member of an industry association such as the Housing Industry Association (HIA), and whether they have won any industry awards. For instance, the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers.</p><p>Most experts agree that display homes (homes constructed by the builder that are open to the public) offer a great opportunity to study their work up close. Display homes are usually offered by major project builders who work on a large scale and can deliver good quality and value. You can also talk to the salesperson and find out about the home design and what is and isn't included in the sale price. And it may be possible to talk to other customers you meet there and ask their opinion of the workmanship in the display home.</p><p>Finally, avoid signing any business contract before you have read and understood it thoroughly. Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act, and to be fair to both client and builder. You have five business days within which you may withdraw from the contract after signing it.</p>",
-                        "questions": [
-                            {
-                                "type": "trueFalseNotGiven",
-                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
-                                "items": [
-                                    {
-                                        "number": 1,
-                                        "statement": "After selecting a builder, you should decide on the design of your new house.",
-                                        "answer": "FALSE",
-                                        "explanation": "The text states 'Once you have a design in mind, it is time to start narrowing down your builder shortlist.' This means you should have the design BEFORE selecting a builder, not after. The statement reverses the correct order."
-                                    },
-                                    {
-                                        "number": 2,
-                                        "statement": "In Australia, you can make sure that a builder has the appropriate licence.",
-                                        "answer": "TRUE",
-                                        "explanation": "The text states 'In Australia, this means checking that the builder holds a residential building licence. Most states have their own building authority who you can contact to check a builder's licence.' This confirms you can verify a builder's licence."
-                                    },
-                                    {
-                                        "number": 3,
-                                        "statement": "The best builders usually belong to the Housing Industry Association.",
-                                        "answer": "NOT GIVEN",
-                                        "explanation": "The text mentions you 'can also check if the builder is a member of an industry association such as the Housing Industry Association (HIA)' but does not state that the best builders belong to it. It's presented as one option to consider, not a mark of the best builders."
-                                    },
-                                    {
-                                        "number": 4,
-                                        "statement": "The HIA gives an award to builders whose standards of customer service are very high.",
-                                        "answer": "TRUE",
-                                        "explanation": "The text states 'the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers.' This confirms HIA has awards for customer service excellence."
-                                    },
-                                    {
-                                        "number": 5,
-                                        "statement": "Builders who work on smaller projects are more likely to have display homes.",
-                                        "answer": "FALSE",
-                                        "explanation": "The text states 'Display homes are usually offered by major project builders who work on a large scale.' This directly contradicts the statement - it's MAJOR builders (not smaller ones) who typically have display homes."
-                                    },
-                                    {
-                                        "number": 6,
-                                        "statement": "It is advisable to have a contract which is in accordance with the Domestic Building Contracts Act.",
-                                        "answer": "TRUE",
-                                        "explanation": "The text advises: 'Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act.' The word 'ask' implies this is recommended/advisable."
-                                    },
-                                    {
-                                        "number": 7,
-                                        "statement": "A contract is legally binding from the time it has been signed.",
-                                        "answer": "FALSE",
-                                        "explanation": "The text states 'You have five business days within which you may withdraw from the contract after signing it.' This means the contract is NOT immediately binding - you have a cooling-off period to withdraw."
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "1b",
-                        "title": "Island adventure activities",
-                        "content": "<p><strong>A. Rib riding</strong><br>Conquer stormy seas on a high-speed ride in an RIB (Rigid Inflatable Boat). These powerful boats cut through choppy waters with ease. You'll need to hold on tight as the boat bounces across the wake of awesome cruise liners in one of the world's busiest shipping lanes.</p><p><strong>B. Horse riding</strong><br>Experience the thrill of riding on horseback along peaceful country lanes and secluded bridleways with the help of expert guides. Even a novice can quickly take the reins and feel the thrill of riding one of nature's most magnificent beasts.</p><p><strong>C. Kayaking</strong><br>Test your kayak nerves paddling around a deserted military fort built on a rocky outcrop out at sea, then explore the island's busy harbours before gliding back to dry land where a hot shower and a cup of tea await.</p><p><strong>D. Cycling</strong><br>Test your endurance on the famous Round the Island Cycle Route. Grit your teeth and tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks on former railway lines.</p><p><strong>E. Segway riding</strong><br>Have you got what it takes to master a Segway? In theory, these quirky electric machines are simple to control, with users leaning forwards to go faster and back to slow down. In reality, you'll need some practice before you can master the skill and glide around the island.</p><p><strong>F. Tree climbing</strong><br>A climb into the canopy of a 25-metre oak tree is an amazing experience. Supported by a rope and harness, you can stand on branches no bigger than your wrist, and swing out between the boughs, or simply take the opportunity to lie in a tree-top hammock and absorb the stunning bird's eye views.</p><p><strong>G. Coasteering</strong><br>Tackle the spectacular coast in the north of the island. Scrabble over the rocks around cliff edges as the waves crash around you, dive through submerged caves and emerge onto a beach once used by smugglers. This is a thrilling experience, but not an adventure to attempt alone.</p><p><strong>H. Mountain boarding</strong><br>First developed as an off-season alternative to winter sports and now a sport in its own right, mountain boarding has the speed of snowboarding but with a harder landing when you fall. After a bit of practice and a few bruises, you'll learn to control the ride and can join the few people who can call themselves mountain boarders.</p>",
+                        "title": "The Best Hiking Boots",
+                        "content": "<p>Whether you're climbing a mountain or walking in the country, be sure to buy the right boots, writes Sian Lewis</p><p><strong>A. Hanwag Tatra Boots</strong></p><p>These boots are expensive but will give you a lifetime of wear. They are a wide fit and offer excellent ankle support. They passed our waterproof test when worn on long, rainy walks, although they are a bit heavy.</p><p><strong>B. Scarpa Peak Gore-tex Boots</strong></p><p>These are good all-round boots that have kept our feet dry in heavy rain, snow and mud. They are warm and comfortable to wear straight out of the box and continue to be so even after many kilometres. A great choice for all seasons.</p><p><strong>C. Keen Terradora Ethos</strong></p><p>These are meant for spring and summer walks and for putting in your backpack for treks in hot climates. They will never weigh you down. Their soles grip well and despite not being waterproof, they are quick-drying when they get wet.</p><p><strong>D. Danner Jag</strong></p><p>Danner's retro boots are one of the heavier ones we reviewed. They take a week or two for your feet to get used to them, but we found them waterproof even in heavy rain. These are boots for the style conscious, but still suitable for demanding walks.</p><p><strong>E. Merrell Siren Sport Q2 Mid Boots</strong></p><p>We've worn these boots in freezing cold conditions and our feet felt comfortable. Remember to pull the laces firmly when you put these boots on as they are rather wide around the ankles.</p><p><strong>F. Teva Arrowood Mid WP</strong></p><p>The soft leather might not be tough enough for extreme environments, but these boots get top marks for comfort. They're waterproof, but we found this wore off after about 20 wet walks. You can, however, get round this problem by using a protective spray on them.</p><p><strong>G. Regatta Clydebank Mid Boots</strong></p><p>These boots are reasonably priced and they performed well in heavy rain. They don't grip the ground as well as some other boots and aren't very warm in cold winter weather so we'd say they're best for country walks in spring and summer.</p>",
                         "questions": [
                             {
                                 "type": "matching",
-                                "instructions": "Look at the eight advertisements for adventure sports on an island. For which adventure sport are the following statements true? Write the correct letter, A-H. NB You may use any letter more than once.",
+                                "title": "Questions 1-8",
+                                "instructions": "Look at the seven reviews of hiking boots, A-G. For which hiking boots are the following statements true? Write the correct letter, A-G. NB You may use any letter more than once.",
                                 "options": [
                                     "A",
                                     "B",
@@ -81,51 +27,106 @@
                                     "D",
                                     "E",
                                     "F",
-                                    "G",
-                                    "H"
+                                    "G"
                                 ],
                                 "items": [
                                     {
-                                        "number": 8,
-                                        "statement": "You will be provided with safety equipment.",
-                                        "answer": "F",
-                                        "explanation": "In Tree climbing (F), the text states 'Supported by a rope and harness' - these are safety equipment provided for the activity."
+                                        "number": 1,
+                                        "statement": "These boots are a good choice for people who want to look smart when they are walking.",
+                                        "answer": "D",
+                                        "explanation": "Boot D (Danner Jag) states 'These are boots for the style conscious.' Style conscious = wanting to look smart."
                                     },
                                     {
+                                        "number": 2,
+                                        "statement": "People do not need to spend time getting their feet accustomed to these boots.",
+                                        "answer": "B",
+                                        "explanation": "Boot B (Scarpa) are 'comfortable to wear straight out of the box' - no breaking-in time needed. Boot D requires 'a week or two for your feet to get used to them,' so B is the answer."
+                                    },
+                                    {
+                                        "number": 3,
+                                        "statement": "These boots should last for many years.",
+                                        "answer": "A",
+                                        "explanation": "Boot A (Hanwag) 'will give you a lifetime of wear.' A lifetime = many years."
+                                    },
+                                    {
+                                        "number": 4,
+                                        "statement": "People find these boots useful when travelling as they are not heavy.",
+                                        "answer": "C",
+                                        "explanation": "Boot C (Keen) are for 'putting in your backpack for treks' and 'will never weigh you down.' Not heavy = useful for travel."
+                                    },
+                                    {
+                                        "number": 5,
+                                        "statement": "One feature of these boots does not continue to be effective for very long.",
+                                        "answer": "F",
+                                        "explanation": "Boot F (Teva) are waterproof 'but we found this wore off after about 20 wet walks.' The waterproof feature doesn't last long."
+                                    },
+                                    {
+                                        "number": 6,
+                                        "statement": "These boots do not keep the rain out.",
+                                        "answer": "C",
+                                        "explanation": "Boot C (Keen) states 'despite not being waterproof' - they don't keep rain out."
+                                    },
+                                    {
+                                        "number": 7,
+                                        "statement": "It is important to make sure these boots are done up tightly before starting a walk.",
+                                        "answer": "E",
+                                        "explanation": "Boot E (Merrell) advises 'Remember to pull the laces firmly when you put these boots on.' Done up tightly = pull laces firmly."
+                                    },
+                                    {
+                                        "number": 8,
+                                        "statement": "These boots should suit people who don't want to spend a lot.",
+                                        "answer": "G",
+                                        "explanation": "Boot G (Regatta) are 'reasonably priced' - suitable for people who don't want to spend a lot."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1b",
+                        "title": "Beekeeping workshop at Elm Farm",
+                        "content": "<p>If you've ever wanted to keep bees and have your own delicious honey, there's no better time to begin!</p><p>Whether you're keen to learn everything you need to know to get you started, or simply extremely interested in the idea of keeping bees, this one-day interactive workshop will teach you the fascinating secrets of the honeybee and how to care for and keep bees.</p><p>Our day begins here on the farm, getting to know about the honeybee, specifically the kind we keep here, and their fascinating history. You will find out about and try for yourself the equipment beekeepers use to care for their bees and discover the many different types of hives bee colonies live in and their different uses. You'll learn about the life cycle of a colony, disease prevention and caring for bees and of course how to harvest honey for your personal use or for sale.</p><p>Then it's time to try on your bee suit and meet our bees. We'll teach you how to open the hive, recognise the different bees in it (including how to spot the queen!) and explain what they're doing in different parts of the hive.</p><p><strong>What's included in the price?</strong></p><p>We'll provide everything you need, including unlimited organic tea or coffee, lunch cooked in our outdoor, wood-fired oven and beekeeping suits for the day. Just bring a pair of thick boots with you. You'll leave with plenty of notes and resources, including a packet of bee-friendly wildflower seeds and, courtesy of BJ Sherriff, the leading supplier of beekeeping clothing, an exclusive 25% discount for anything in their online store.</p><p>We like to run our workshops fairly and honestly. Your booking secures a very limited place, so is non-refundable – if you can't make it, you can send a friend or colleague instead though. If at the end of any of our workshops, you don't believe that it has helped you to achieve what it set out to, we will gladly provide a full refund.</p><p>Places are strictly limited so please do book early to avoid disappointment.</p>",
+                        "questions": [
+                            {
+                                "type": "trueFalseNotGiven",
+                                "title": "Questions 9-14",
+                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "items": [
+                                    {
                                         "number": 9,
-                                        "statement": "You may get some minor injuries doing this activity.",
-                                        "answer": "H",
-                                        "explanation": "In Mountain boarding (H), the text mentions 'a harder landing when you fall' and 'After a bit of practice and a few bruises' - bruises are minor injuries."
+                                        "statement": "The workshop is only suitable for people who already keep their own bees.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text says it's for those 'keen to learn everything you need to know to get you started' OR 'simply extremely interested in the idea.' This shows it's for beginners too, not only current beekeepers."
                                     },
                                     {
                                         "number": 10,
-                                        "statement": "You can see a disused, isolated building.",
-                                        "answer": "C",
-                                        "explanation": "In Kayaking (C), the text mentions 'paddling around a deserted military fort built on a rocky outcrop out at sea.' A deserted fort is a disused, isolated building."
+                                        "statement": "Participants will meet people who are involved in selling honey to the public.",
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions learning about harvesting honey 'for your personal use or for sale' but doesn't say participants will meet honey sellers."
                                     },
                                     {
                                         "number": 11,
-                                        "statement": "You can relax and look down from above in an unusual location.",
-                                        "answer": "F",
-                                        "explanation": "In Tree climbing (F), the text states 'take the opportunity to lie in a tree-top hammock and absorb the stunning bird's eye views.' Lying in a hammock = relaxing; bird's eye views = looking down from above; tree-top = unusual location."
+                                        "statement": "Vegetarian refreshments are available if requested in advance.",
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text mentions 'organic tea or coffee' and 'lunch cooked in our outdoor, wood-fired oven' but says nothing about vegetarian options or advance requests."
                                     },
                                     {
                                         "number": 12,
-                                        "statement": "You will take an exciting trip in rough water close to big ships.",
-                                        "answer": "A",
-                                        "explanation": "In Rib riding (A), the text mentions 'stormy seas,' 'choppy waters,' and 'the boat bounces across the wake of awesome cruise liners' - rough water near big ships."
+                                        "statement": "Participants will need to pay extra to hire appropriate clothes for the workshop.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'beekeeping suits for the day' are provided and included in the price. No extra payment needed."
                                     },
                                     {
                                         "number": 13,
-                                        "statement": "You can choose easy options or more difficult ones.",
-                                        "answer": "D",
-                                        "explanation": "In Cycling (D), the text offers 'tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks.' This presents both difficult and easy options."
+                                        "statement": "Protective footwear will be required during the workshop.",
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'Just bring a pair of thick boots with you.' Thick boots = protective footwear that is required."
                                     },
                                     {
                                         "number": 14,
-                                        "statement": "You may find this more difficult than you expect.",
-                                        "answer": "E",
-                                        "explanation": "In Segway riding (E), the text states 'In theory, these quirky electric machines are simple to control... In reality, you'll need some practice before you can master the skill.' The contrast between theory and reality suggests it's harder than expected."
+                                        "statement": "If someone has to cancel before the workshop, the fee will be repaid.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'Your booking secures a very limited place, so is non-refundable.' Non-refundable means the fee will NOT be repaid if you cancel."
                                     }
                                 ]
                             }
@@ -140,190 +141,55 @@
                 "passages": [
                     {
                         "id": "2a",
-                        "title": "Barrington Music Service: Business and Development Manager",
-                        "content": "<p>Barrington Music Service organises a wide range of music activities for children and young people resident in and around Barrington. It provides singing and specialist instrumental lessons in schools, and it owns a collection of instruments for use in schools, some of which are available for hire by the parents of children having lessons. The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas. The Music Service provides administrative and financial support for the Barrington Youth Orchestra, which takes part in workshops with professional artists and gives performances.</p><p>Barrington Music Service is seeking to recruit a Business and Development Manager to manage the administrative function and build on the success of the Service. We are looking for an individual with a passion for delivering the best possible music provision for the benefit of our children and young people.</p><p>As the Business and Development Manager, you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget, which is currently around £1m a year. You will take the lead on marketing the Service and ensuring the generation of new income. The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising. The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity. You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service.</p><p>The person appointed will have experience of a supervisory role and the skills to motivate members of a team. You will have an understanding of accounting, at a non-specialist level, and of standard financial procedures. High-level IT skills and excellent verbal and written communication skills are essential. Although experience in music education is not crucial, good knowledge of the field, or of other areas of arts management, would be an advantage.</p>",
+                        "title": "Should you pay someone to write your CV?",
+                        "content": "<p>In my view, the belief that the individual is the best person to write their own CV is not always true. Although many people can write their own CVs, and do it well, others struggle with a variety of problems initially, such as not knowing how to structure a CV or how to highlight their most relevant strengths.</p><p>Through in-depth consultation, a professional CV writer can help identify exactly what is necessary for a particular role, cut out unnecessary or irrelevant details, and pinpoint what makes the individual stand out. This level of objectivity is one of the major benefits of working with a professional writer. It's often difficult to stand back from your own career history to assess what's relevant or not, or to choose the most appropriate qualities.</p><p>If you do choose to work with a professional CV writer, here are some tips:</p><p>Ask for a CV writer who has experience in your sector. HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for.</p><p>Look for someone who's prepared to take the time to find out your core qualities, who can choose exactly the right words for maximum impact and who understands what and where to edit. Ask to see samples of their work or use personal recommendations before you choose a CV writing service.</p><p>You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts. The more you can give your CV writer to work with, the better, so the promise of a quick turnaround time isn't always going to result in the best possible CV. Take the time to think about and jot down your career aims, your past successes, and the value you bring, before you start the whole process. Your CV will probably be used as a springboard for questions at interview, so you need to make sure you feel happy with the way it's being written and with the choice of words. Being involved in the writing process means your CV sounds authentic.</p>",
                         "questions": [
                             {
-                                "type": "notes",
+                                "type": "sentenceCompletion",
                                 "title": "Questions 15-20",
-                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
-                                "noteTitle": "Barrington Music Service",
-                                "answers": {
-                                    "15": "festivals",
-                                    "16": "budget",
-                                    "17": "partnerships",
-                                    "18": "diversity",
-                                    "19": "database",
-                                    "20": "accounting"
-                                },
-                                "explanations": {
-                                    "15": "The text states 'The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas.'",
-                                    "16": "The text states 'ensuring it does not exceed its budget, which is currently around £1m a year.' Keeping to the budget means not exceeding it.",
-                                    "17": "The text states 'The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these.'",
-                                    "18": "The text states 'The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity.'",
-                                    "19": "The text states 'maintain a database of all music teachers, students, and instruments belonging to the Service.'",
-                                    "20": "The text states 'You will have an understanding of accounting, at a non-specialist level.' Non-specialist level = basic knowledge."
-                                },
+                                "instructions": "Complete the sentences below. Choose ONE WORD ONLY from the text for each answer.",
                                 "items": [
                                     {
-                                        "isHeader": true,
-                                        "text": "Activities"
+                                        "number": 15,
+                                        "textBefore": "Some jobseekers have difficulty with their CV because they have not learnt which qualities they should",
+                                        "textAfter": ".",
+                                        "answer": "highlight",
+                                        "explanation": "The text states jobseekers 'struggle with... not knowing how to highlight their most relevant strengths.' Highlight fits the blank perfectly."
                                     },
                                     {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "organises music lessons"
-                                            }
-                                        ]
+                                        "number": 16,
+                                        "textBefore": "Professional CV writers know which",
+                                        "textAfter": "are best left out of the CV.",
+                                        "answer": "details",
+                                        "explanation": "The text states professional writers can 'cut out unnecessary or irrelevant details.' Details that are unnecessary should be left out."
                                     },
                                     {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "enables the hire of instruments"
-                                            }
-                                        ]
+                                        "number": 17,
+                                        "textBefore": "CV writers with knowledge of a particular field of work often provide useful",
+                                        "textAfter": "about the skills firms expect from job applicants.",
+                                        "answer": "insights",
+                                        "explanation": "The text states 'HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for.'"
                                     },
                                     {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "events such as"
-                                            },
-                                            {
-                                                "type": "blank",
-                                                "number": 15
-                                            },
-                                            {
-                                                "type": "text",
-                                                "value": "for local and visiting schools"
-                                            }
-                                        ]
+                                        "number": 18,
+                                        "textBefore": "It is advisable to request",
+                                        "textAfter": "of what a professional CV writer has previously produced.",
+                                        "answer": "samples",
+                                        "explanation": "The text advises 'Ask to see samples of their work or use personal recommendations before you choose a CV writing service.'"
                                     },
                                     {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "supports Barrington Youth Orchestra"
-                                            }
-                                        ]
+                                        "number": 19,
+                                        "textBefore": "Professional CV writers often ask jobseekers to work through a",
+                                        "textAfter": "as a first step.",
+                                        "answer": "questionnaire",
+                                        "explanation": "The text states 'You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts.'"
                                     },
                                     {
-                                        "isHeader": true,
-                                        "text": "Post of Business and Development Manager"
-                                    },
-                                    {
-                                        "isSubHeader": true,
-                                        "text": "Person appointed will:"
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "manage the administration of the Service"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "be responsible for keeping to the"
-                                            },
-                                            {
-                                                "type": "blank",
-                                                "number": 16
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "build"
-                                            },
-                                            {
-                                                "type": "blank",
-                                                "number": 17
-                                            },
-                                            {
-                                                "type": "text",
-                                                "value": "with other organisations"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "be proactive in fundraising"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "increase the focus on"
-                                            },
-                                            {
-                                                "type": "blank",
-                                                "number": 18
-                                            },
-                                            {
-                                                "type": "text",
-                                                "value": "in school music lessons (e.g., international styles)"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "make sure records and a"
-                                            },
-                                            {
-                                                "type": "blank",
-                                                "number": 19
-                                            },
-                                            {
-                                                "type": "text",
-                                                "value": "is kept up-to-date"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isSubHeader": true,
-                                        "text": "Person appointed must have:"
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "ability to supervise and motivate others"
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "basic knowledge of"
-                                            },
-                                            {
-                                                "type": "blank",
-                                                "number": 20
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "parts": [
-                                            {
-                                                "type": "text",
-                                                "value": "other relevant skills"
-                                            }
-                                        ]
+                                        "number": 20,
+                                        "textBefore": "If the jobseeker assists the professional writer, the tone of the CV will be",
+                                        "textAfter": ".",
+                                        "answer": "authentic",
+                                        "explanation": "The text states 'Being involved in the writing process means your CV sounds authentic.' Assisting = being involved."
                                     }
                                 ]
                             }
@@ -331,54 +197,156 @@
                     },
                     {
                         "id": "2b",
-                        "title": "Health and safety in small businesses",
-                        "content": "<p>The rate of accidents at work is almost 75% higher in small businesses than in larger companies. One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues. Many managers of small businesses claim their situation is made worse by bureaucracy, arguing that the huge number of regulations – not just on health and safety but also on tax, the minimum wage, and much, much more – makes their work difficult.</p><p>Many managers are simply not aware of their responsibilities. They are too busy running their companies to read manuals, employ consultants or go to seminars. Moreover, the average business person doesn't know where and how to get information. The Federation of Small Businesses argues that the special nature of small businesses should be recognised by health and safety inspectors, with an emphasis on education and how to comply with the law, rather than simply on enforcement. For instance, inspectors could make employers aware of what they really need to know, rather than swamping them with mountains of leaflets which may not be relevant.</p><p>Improvements are being made, however. The Health and Safety Executive has issued a free guide to the most important health and safety laws for employers. All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing. It should be specific to the business and clear about the arrangements for and organisation of health and safety at work.</p><p>It should state a strategy, detail how it will be implemented and by whom, and say when it will be reviewed and updated. It is advisable to involve employees in this process, as they have direct experience. Assessing and identifying risks is the starting point. But to comply with the law, businesses must train their employees about health and safety, and provide information to others who need to know, such as the contractors working for them. These are often smaller companies that carry out most of the dangerous work. Helping them to get into good safety habits makes it easier for them to tender for work from big companies. Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress.</p>",
+                        "title": "Starting a new job",
+                        "content": "<p>First impressions really do last, so it's important you perform well on your first day in the new job. Here are our top tips that will help you sail through your first day with ease. A new job is a great opportunity to hit the reset button. If you got into the habit of skipping breakfast at your last job, fit it in now or experiment with getting a workout in before going to the office. Having a routine you like and sticking to it definitely impacts on your overall happiness.</p><p>You've probably already been into the office for an interview, so you'll have some idea of what the dress code is. While you definitely want to feel comfortable, it's best to play it safe, leaning towards a smarter and more polished look on your first day.</p><p>You don't want to be late, but getting to the office way too early can also potentially upset not only your schedule but other people's too. A good rule of thumb is to try and arrive 15 minutes ahead of the agreed start time. Accepting an invite to lunch with your boss and co-workers will allow you to get to know the people you'll be working with on a more personal level. It will also help you get a handle on personalities and work styles. To ensure the lunch goes well, have a few conversation starters in mind. That way, if the talk dries up, you can get it going again.</p><p>One of the big outcomes of going through a job search is you learn loads about yourself. In particular, you learn what you want and don't want, and what skills you bring to the table. With this new-found understanding, take some time over the initial period to think about what goals you have for your new role. In identifying these early on, you'll be one step closer to positioning yourself for success.</p><p>It's important that you approach your new job with an open mind, and that you're ready to soak it all in. Be patient with yourself as you figure out how you fit in, and make sure you understand the way things are done before rushing into giving suggestions on improvements. Remember they hired you for a reason, so smile, relax a little and enjoy the first day of your next big thing.</p>",
                         "questions": [
                             {
-                                "type": "sentenceCompletion",
-                                "instructions": "Complete the sentences below. Write NO MORE THAN TWO WORDS from the passage for each answer.",
+                                "type": "notes",
+                                "title": "Questions 21-27",
+                                "instructions": "Complete the notes below. Choose NO MORE THAN TWO WORDS from the text for each answer.",
+                                "noteTitle": "How best to tackle a new job",
+                                "answers": {
+                                    "21": "routine",
+                                    "22": "dress code",
+                                    "23": "personalities",
+                                    "24": "conversation starters",
+                                    "25": "goals",
+                                    "26": "open mind",
+                                    "27": "improvements"
+                                },
+                                "explanations": {
+                                    "21": "The text states 'Having a routine you like and sticking to it definitely impacts on your overall happiness.' Try out a routine = having a routine.",
+                                    "22": "The text states 'you'll have some idea of what the dress code is.' Make sure your outfit conforms to the dress code.",
+                                    "23": "The text states lunch 'will also help you get a handle on personalities and work styles.' Personalities = their personalities.",
+                                    "24": "The text advises 'have a few conversation starters in mind. That way, if the talk dries up, you can get it going again.'",
+                                    "25": "The text states 'take some time over the initial period to think about what goals you have for your new role.' Work out some goals.",
+                                    "26": "The text states 'It's important that you approach your new job with an open mind.' Keep an open mind = approach with an open mind.",
+                                    "27": "The text advises 'make sure you understand the way things are done before rushing into giving suggestions on improvements.' Avoid making proposals at improvements too soon."
+                                },
                                 "items": [
                                     {
-                                        "number": 21,
-                                        "sentence": "One cause of health and safety problems in small businesses is that managers do not have enough relevant ....................",
-                                        "answer": "knowledge",
-                                        "explanation": "The text states 'One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues.' Inadequate = not enough; relevant knowledge = knowledge of health and safety."
+                                        "isHeader": true,
+                                        "text": "The first day"
                                     },
                                     {
-                                        "number": 22,
-                                        "sentence": "Managers complain they have too many .................... to deal with.",
-                                        "answer": "regulations",
-                                        "explanation": "The text states managers argue 'that the huge number of regulations – not just on health and safety but also on tax, the minimum wage, and much, much more – makes their work difficult.'"
+                                        "isSubHeader": true,
+                                        "text": "Before arriving at work:"
                                     },
                                     {
-                                        "number": 23,
-                                        "sentence": "Managers may not fully understand their ....................",
-                                        "answer": "responsibilities",
-                                        "explanation": "The text states 'Many managers are simply not aware of their responsibilities.' Not aware = not fully understand."
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Try out a different morning"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 21
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "that will create a sense of well-being"
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 24,
-                                        "sentence": "Businesses sometimes feel that inspectors give them far too many ....................",
-                                        "answer": "leaflets",
-                                        "explanation": "The text states inspectors are 'swamping them with mountains of leaflets which may not be relevant.' Mountains of = far too many."
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Make sure your chosen outfit conforms to the company's"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 22
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 25,
-                                        "sentence": "Businesses above a certain size must produce a written .................... of their health and safety policy.",
-                                        "answer": "policy statement",
-                                        "explanation": "The text states 'All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing.' Note: 'statement' alone is also acceptable."
+                                        "isSubHeader": true,
+                                        "text": "If you eat with colleagues at midday:"
                                     },
                                     {
-                                        "number": 26,
-                                        "sentence": "A company's health and safety policy is relevant to both its employees and its ....................",
-                                        "answer": "contractors",
-                                        "explanation": "The text states businesses must 'provide information to others who need to know, such as the contractors working for them.' Both employees (mentioned earlier) and contractors need to know."
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "It will provide information on their"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 23
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "and the way they operate"
+                                            }
+                                        ]
                                     },
                                     {
-                                        "number": 27,
-                                        "sentence": "The Health and Safety Executive can advise small businesses on problems of .................... among their employees.",
-                                        "answer": "stress",
-                                        "explanation": "The text states 'Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress.'"
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "It may be wise to prepare some"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 24
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "to help the interaction flow"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isHeader": true,
+                                        "text": "During the first few weeks:"
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Work out some"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 25
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "and how to go about fulfilling them"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Try to keep a completely"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 26
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "as you settle into the post"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Avoid making proposals at"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 27
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "too soon"
+                                            }
+                                        ]
                                     }
                                 ]
                             }
@@ -393,210 +361,189 @@
                 "passages": [
                     {
                         "id": "3",
-                        "title": "Jobs in ancient Egypt",
-                        "content": "<p>In order to be engaged in the higher professions in ancient Egypt, a person had to be literate and so first had to become a scribe. The apprenticeship for this job lasted many years and was tough and challenging. It principally involved memorizing hieroglyphic symbols and practicing handwritten lettering. Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records. Therefore, most of our information on this rich culture comes from their records. Most scribes were men from privileged backgrounds. The occupation of scribe was among the most sought-after in ancient Egypt. Craftspeople endeavored to get their sons into the school for scribes, but they were rarely successful.</p><p>As in many civilizations, the lower classes provided the means for those above them to live comfortable lives. You needed to work if you wanted to eat, but there was no shortage of jobs at any time in Egypt's history. The commonplace items taken for granted today, such as a brush or bowl, had to be made by hand; laundry had to be washed by hand, clothing sewn, and sandals made from papyrus and palm leaves. In order to make these and have paper to write on, papyrus plants had to be harvested, processed, and distributed and all these jobs needed workers. There were rewards and sometimes difficulties. The reed cutter, for example, who harvested papyrus plants along the Nile, had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.</p><p>At the bottom rung of all these jobs were the people who served as the basis for the entire economy; the farmers. Farmers usually did not own the land they worked. They were given food, implements, and living quarters as payment for their labor. Although there were many more glamorous jobs than farming, farmers were the backbone of the Egyptian economy and sustained everyone else.</p><p>The details of lower-class jobs are known from medical reports on the treatment of injuries, letters, and documents written on various professions, literary works, tomb inscriptions, and artistic representations. This evidence presents a comprehensive view of daily work in ancient Egypt – how the jobs were done, and sometimes how people felt about the work. In general, the Egyptians seem to have felt pride in their work no matter what their occupation. Everyone had something to contribute to the community, and no skills seem to have been considered non-essential. The potter who produced cups and bowls was as important to the community as the scribe, and the amulet-maker as vital as the pharmacist.</p><p>Part of making a living, regardless of one's special skills, was taking part in the king's monumental building projects. Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this. The pyramids and other monuments were built by Egyptian laborers who either donated their time as community service or were paid for their labor, and Egyptians from every occupation could be called on to do this.</p><p>Stone had to first be quarried and this required workers to split the blocks from the rock cliffs. It was done by inserting wooden wedges in the rock which would swell and cause the stone to break from the face. The often huge blocks were then pushed onto sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand. They were then rolled to a different location where they could be cut and shaped. This job was done by skilled stonemasons working with copper chisels and wooden mallets. As the chisels could get blunt, a specialist in sharpening would take the tool, sharpen it, and bring it back. This would have been constant daily work as the masons could wear down their tools on a single block.</p><p>The blocks were then moved into position by unskilled laborers. These people were mostly farmers who could do nothing with their land during the months when the Nile River overflowed its banks. Egyptologists Bob Brier and Hoyt Hobbs explain: 'For two months annually, workmen gathered by the tens of thousands from all over the country to transport the blocks a permanent crew had quarried during the rest of the year. Overseers organized the men into teams to transport the stones on the sleds.' Once the pyramid was complete, the inner chambers needed to be decorated by scribes who painted elaborate images on the walls. Interior work on tombs and temples also required sculptors who could expertly cut away the stone around certain figures or scenes that had been painted.</p><p>While these artists were highly skilled, everyone – no matter what their job for the rest of the year – was expected to contribute to communal projects. This practice was in keeping with the value of ma'at (harmony and balance) which was central to Egyptian culture. One was expected to care for others as much as oneself and contributing to the common good was an expression of this. There is no doubt there were many people who did not love their job every day, but the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.</p>",
+                        "title": "History of women's football in Britain",
+                        "content": "<p>Women's football in Britain has deeper roots than might be expected. In one town in 18th-century Scotland, single women played an annual match against their married counterparts, though the motives behind the contest were not purely sporting. Some accounts say that the games were watched by a crowd of single men, who hoped to pick out a potential bride based on her footballing ability.</p><p>By the late 19th century, with the men's game spreading across Britain like wildfire, women also began to take up association football. Early pioneers included Nettie J Honeyball, who founded the British Ladies' Football Club (BLFC) in 1895. Honeyball was an alias: like many of the middle- and upper-class women who played in the late 19th century, she was not keen to publicise her involvement with a contact sport played on muddy fields. We know more about Lady Florence Dixie, who was appointed president of the BLFC in 1895 and who was an ardent believer in equality between the sexes.</p><p>The BLFC arranged games between teams representing the north and the south of England, where money would be raised for those in need. These initially attracted healthy numbers of supporters although early newspaper reports were not particularly generous, with one reporter suggesting 'when the novelty has worn off, I do not think women's football will attract the crowds'. And crowds did drop off as the growing popularity of the men's game came to dominate public interest. In a country where women were not yet allowed to vote, it would take extraordinary circumstances for their efforts on the football pitch to attract widespread attention.</p><p>Those circumstances arose in 1914 with the outbreak of the First World War. With many men leaving their jobs to join the army, women started to work in factories and just as men had done before them, they began to play informal games of football during their lunch breaks. After some initial uncertainty, their superiors came to see these games as a means to boost morale and thus increase productivity. Teams soon formed and friendly matches were arranged.</p><p>In the town of Preston in the north of England, the female workers at a manufacturing company called Dick, Kerr & Co showed a particular aptitude for the game. Watching from a window above the yard where they played, office worker Alfred Frankland spotted their talent and he set about forming a team. Under Frankland's management, they soon drew significant crowds to see their games. Known as Dick, Kerr's Ladies, they beat rival factory Arundel Coulthard 4-0 on Christmas Day 1917, with 10,000 watching at Preston stadium.</p><p>After the war ended in 1918 the Dick, Kerr's side and other women's teams continued to draw large crowds. In 1920 there were around 150 women's sides in England and Dick, Kerr's Ladies packed 53,000 into Everton's Goodison Park stadium. The same year, the team found their one true genius: Lily Parr. Parr grew up playing football with her brothers, and began her career with her town's ladies' team at the age of 14. When they played against the Dick, Kerr's side, she caught Frankland's eye and was offered a job at the factory – as well as a spot on the team. Close to six-feet tall and with jet-black hair, she had a ferocious appetite and a fierce left foot. She is credited with 43 goals during her first season playing for Dick, Kerr's Ladies and around 1,000 in total.</p><p>By 1921 Dick, Kerr's Ladies were regularly attracting crowds in the tens of thousands. But the year ended in catastrophe for the women's game. The Football Association (FA) – officially the governing body for the sport as a whole, but really only concerned with men's competitions – had always taken a poor view of female participation. Women's football was tolerated during the war, but in the years that followed, driven by the fear that the women's game could affect Football League attendances, the FA sought to assert itself.</p><p>Its solution was decisive and brutal. On 5 December 1921, the FA banned its members from allowing women's football to be played at its grounds, saying that football was 'quite unsuitable for females'. The FA also forbade its members from acting as referees at women's games. To all intents and purposes, women's football in England was outlawed.</p><p>The FA also suggested that an excessive proportion of the gate receipts were absorbed in expenses and an inadequate percentage devoted to charity. No such obligation to donate profits existed for men's clubs and no proof of financial mismanagement was presented, but there was little the women's clubs could do in response. There was outrage from players, with the captain of Plymouth Ladies remarking that the FA was 'a hundred years behind the times' and calling its decision 'purely sex prejudice'.</p><p>It was not until 1966 that serious efforts to revive the women's game began, but progress remained painfully slow. It took pressure from the Union of European Football Associations (UEFA), to finally force the FA to end restrictions on women's football in 1971. By this time, half a century of progress had been lost.</p>",
                         "questions": [
                             {
                                 "type": "multipleChoice",
+                                "title": "Questions 28-31",
+                                "instructions": "Choose the correct letter, A, B, C or D.",
                                 "items": [
                                     {
                                         "number": 28,
-                                        "question": "What does the writer say about scribes in ancient Egypt?",
+                                        "text": "In the first paragraph, the writer says that in 18th-century Scotland",
                                         "options": [
                                             {
                                                 "letter": "A",
-                                                "text": "Their working days were very long."
+                                                "text": "only unmarried women were allowed to play football."
                                             },
                                             {
                                                 "letter": "B",
-                                                "text": "The topics they wrote about were very varied."
+                                                "text": "women's football was more common than men's football."
                                             },
                                             {
                                                 "letter": "C",
-                                                "text": "Many of them were once ordinary working people."
+                                                "text": "women were sometimes forbidden to watch football matches."
                                             },
                                             {
                                                 "letter": "D",
-                                                "text": "Few of them realised the true value of their occupation."
-                                            }
-                                        ],
-                                        "answer": "B",
-                                        "explanation": "The text states 'Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records.' The phrase 'everything from... to...' indicates a wide variety of topics. Option C is wrong because 'Most scribes were men from privileged backgrounds.'"
-                                    },
-                                    {
-                                        "number": 29,
-                                        "question": "What is the writer doing in the second paragraph?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "explaining why jobs were plentiful in ancient Egypt"
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "pointing out how honest workers were in ancient Egypt"
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "comparing manual and professional work in ancient Egypt"
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "noting the range of duties an individual worker had in ancient Egypt"
-                                            }
-                                        ],
-                                        "answer": "A",
-                                        "explanation": "The paragraph explains that 'there was no shortage of jobs' because everyday items 'had to be made by hand' - listing examples like brushes, bowls, laundry, clothing, sandals, and papyrus processing. It explains WHY there were so many jobs available."
-                                    },
-                                    {
-                                        "number": 30,
-                                        "question": "What is the writer doing in the fifth paragraph?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "explaining a problem"
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "describing a change"
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "rejecting a popular view"
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "criticising a past activity"
-                                            }
-                                        ],
-                                        "answer": "C",
-                                        "explanation": "The paragraph states 'Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this.' The writer is rejecting/contradicting the popular belief about slave labor."
-                                    },
-                                    {
-                                        "number": 31,
-                                        "question": "The writer refers to the value of ma'at in order to explain",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "how the work of artists reflected beliefs in ancient Egypt."
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "how ancient Egyptians viewed their role in society."
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "why the opinions of certain people were valued in ancient Egypt."
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "why ancient Egyptians expressed their views so readily."
-                                            }
-                                        ],
-                                        "answer": "B",
-                                        "explanation": "The text explains ma'at as 'harmony and balance' and states 'One was expected to care for others as much as oneself and contributing to the common good was an expression of this.' This describes how Egyptians saw their role/responsibility in society."
-                                    },
-                                    {
-                                        "number": 32,
-                                        "question": "Which word best describes the attitude of the Egyptian government toward its workers?",
-                                        "options": [
-                                            {
-                                                "letter": "A",
-                                                "text": "strict"
-                                            },
-                                            {
-                                                "letter": "B",
-                                                "text": "patient"
-                                            },
-                                            {
-                                                "letter": "C",
-                                                "text": "negligent"
-                                            },
-                                            {
-                                                "letter": "D",
-                                                "text": "appreciative"
+                                                "text": "skill at football might be considered when choosing a wife."
                                             }
                                         ],
                                         "answer": "D",
-                                        "explanation": "The text states 'the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.' Showing gratitude = appreciative."
+                                        "explanation": "The text states 'the games were watched by a crowd of single men, who hoped to pick out a potential bride based on her footballing ability.' Footballing ability = skill at football used when choosing a wife."
+                                    },
+                                    {
+                                        "number": 29,
+                                        "text": "The writer says that Nettie J Honeyball was unwilling to",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "take an active part in team sports."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "mix with people she considered lower class."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "let the public know of her involvement in football."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "take a leadership role in the British Ladies' Football Club."
+                                            }
+                                        ],
+                                        "answer": "C",
+                                        "explanation": "The text states 'Honeyball was an alias' and she 'was not keen to publicise her involvement with a contact sport.' Using an alias = not wanting public to know; publicise = let the public know."
+                                    },
+                                    {
+                                        "number": 30,
+                                        "text": "The writer suggests that in Britain, between 1895 and 1914",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "society was not yet ready for women's football."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "there were false reports of the decline of women's football."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "the media felt that women's football should not be allowed."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "women's football mainly attracted people because it was unusual."
+                                            }
+                                        ],
+                                        "answer": "A",
+                                        "explanation": "The text states 'In a country where women were not yet allowed to vote, it would take extraordinary circumstances for their efforts on the football pitch to attract widespread attention.' Not allowed to vote = society not ready for women's football."
+                                    },
+                                    {
+                                        "number": 31,
+                                        "text": "After the First World War broke out in 1914, factory managers",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "were initially unwilling to employ women."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "played in matches against female employees."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "allowed extra time for their employees to play football."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "decided that women's football might have positive effects."
+                                            }
+                                        ],
+                                        "answer": "D",
+                                        "explanation": "The text states 'After some initial uncertainty, their superiors came to see these games as a means to boost morale and thus increase productivity.' Boost morale and productivity = positive effects."
                                     }
                                 ]
                             },
                             {
                                 "type": "matching",
-                                "title": "Questions 33-36",
-                                "instructions": "Look at the following statements and the list of jobs below. Match each statement with the correct job, A-G.",
-                                "optionLabelsTitle": "List of Jobs:",
+                                "title": "Questions 32-37",
+                                "instructions": "Look at the following statements (Questions 32-37) and the list of football organisations below. Match each statement with the correct organisation, A, B, C or D. NB You may use any letter more than once.",
                                 "options": [
                                     "A",
                                     "B",
                                     "C",
-                                    "D",
-                                    "E",
-                                    "F",
-                                    "G"
+                                    "D"
                                 ],
+                                "optionLabelsTitle": "List of Football Organisations:",
                                 "optionLabels": {
-                                    "A": "scribe",
-                                    "B": "reed cutter",
-                                    "C": "farmer",
-                                    "D": "potter",
-                                    "E": "stonemason",
-                                    "F": "overseer",
-                                    "G": "sculptor"
+                                    "A": "the British Ladies' Football Club (BLFC)",
+                                    "B": "the Dick, Kerr's Ladies team",
+                                    "C": "the Football Association (FA)",
+                                    "D": "the Union of European Football Associations (UEFA)"
                                 },
                                 "items": [
                                     {
-                                        "number": 33,
-                                        "statement": "was unable to work at certain times",
+                                        "number": 32,
+                                        "statement": "It felt threatened by the rise of women's football.",
                                         "answer": "C",
-                                        "explanation": "The text states farmers 'could do nothing with their land during the months when the Nile River overflowed its banks.' They were unable to farm during flood season."
+                                        "explanation": "The text states the FA was 'driven by the fear that the women's game could affect Football League attendances.' Fear = feeling threatened."
+                                    },
+                                    {
+                                        "number": 33,
+                                        "statement": "It was established by a male office worker.",
+                                        "answer": "B",
+                                        "explanation": "The text states 'office worker Alfred Frankland spotted their talent and he set about forming a team' - Dick, Kerr's Ladies. Frankland was a male office worker."
                                     },
                                     {
                                         "number": 34,
-                                        "statement": "divided workers into groups",
-                                        "answer": "F",
-                                        "explanation": "The text states 'Overseers organized the men into teams to transport the stones on the sleds.' Organizing into teams = dividing into groups."
+                                        "statement": "It donated money from football matches to good causes.",
+                                        "answer": "A",
+                                        "explanation": "The text states BLFC 'arranged games... where money would be raised for those in need.' Those in need = good causes."
                                     },
                                     {
                                         "number": 35,
-                                        "statement": "faced daily hazards",
-                                        "answer": "B",
-                                        "explanation": "The text states the reed cutter 'had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.' Fatal wildlife = daily hazards/dangers."
+                                        "statement": "It called for the ending of the ban on women's football in Britain.",
+                                        "answer": "D",
+                                        "explanation": "The text states 'It took pressure from the Union of European Football Associations (UEFA), to finally force the FA to end restrictions on women's football in 1971.' Pressure to force ending = calling for ending."
                                     },
                                     {
                                         "number": 36,
-                                        "statement": "underwent a long period of training",
+                                        "statement": "It was accused of being old-fashioned.",
+                                        "answer": "C",
+                                        "explanation": "The text states 'the captain of Plymouth Ladies remarking that the FA was \"a hundred years behind the times\".' Behind the times = old-fashioned."
+                                    },
+                                    {
+                                        "number": 37,
+                                        "statement": "It was led by a believer in women's rights.",
                                         "answer": "A",
-                                        "explanation": "The text states 'The apprenticeship for this job [scribe] lasted many years and was tough and challenging.' Many years = long period of training."
+                                        "explanation": "The text states 'Lady Florence Dixie, who was appointed president of the BLFC' and was 'an ardent believer in equality between the sexes.' Equality between sexes = women's rights."
                                     }
                                 ]
                             },
                             {
                                 "type": "summaryCompletion",
-                                "title": "Questions 37-40",
-                                "instructions": "Complete the summary below. Choose NO MORE THAN TWO WORDS from the text for each answer.",
-                                "summaryTitle": "The king's building projects",
-                                "summary": "Labourers who worked on the king's buildings were local people who chose to participate in {37} or who received payment. The work involved breaking up stone cliffs using wooden wedges. The large pieces of stone were then transported to another site on sleds, which moved easily over the {38}. Here, the blocks could be cut and shaped using tools made of {39} and wood. Some of these had to be sharpened regularly. Eventually, the stone was moved into place to create a building. The job of moving the stone was often done by {40} or other unskilled workers.",
+                                "title": "Questions 38-40",
+                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
+                                "summaryTitle": "A catastrophic year for women's football",
+                                "summary": "At the end of 1921, women's football teams were forbidden to use the {38} of the Football Association, and were not allowed to have Football Association members as {39}. The FA said that women's clubs did not give enough to charity, and that there had been mismanagement of funds. Female workers accused the FA of {40} against women, but the ban continued until 1971.",
                                 "items": [
                                     {
-                                        "number": 37,
-                                        "answer": "community service",
-                                        "explanation": "The text states laborers 'either donated their time as community service or were paid for their labor.'"
-                                    },
-                                    {
                                         "number": 38,
-                                        "answer": "shifting sand",
-                                        "explanation": "The text states sleds were 'devices better suited than wheeled vehicles to moving weighty objects over shifting sand.'"
+                                        "answer": "grounds",
+                                        "explanation": "The text states 'the FA banned its members from allowing women's football to be played at its grounds.'"
                                     },
                                     {
                                         "number": 39,
-                                        "answer": "copper",
-                                        "explanation": "The text states 'This job was done by skilled stonemasons working with copper chisels and wooden mallets.' Tools made of copper (chisels) and wood (mallets)."
+                                        "answer": "referees",
+                                        "explanation": "The text states 'The FA also forbade its members from acting as referees at women's games.'"
                                     },
                                     {
                                         "number": 40,
-                                        "answer": "farmers",
-                                        "explanation": "The text states 'The blocks were then moved into position by unskilled laborers. These people were mostly farmers.'"
+                                        "answer": "prejudice",
+                                        "explanation": "The text states the captain of Plymouth Ladies was 'calling its decision \"purely sex prejudice\".'"
                                     }
                                 ]
                             }
