@@ -1,0 +1,686 @@
+{
+    "id": 7,
+    "name": "IELTS General Training - Cambridge 15 Test 2",
+    "subtitle": "Cambridge IELTS 15 General Training Test 2",
+    "type": "general",
+    "reading": {
+        "title": "General Training Reading Test",
+        "sections": [
+            {
+                "id": 1,
+                "title": "Section 1",
+                "questionRange": "Questions 1-14",
+                "passages": [
+                    {
+                        "id": "1a",
+                        "title": "Harvey's Storage",
+                        "content": "<p>Harvey's Storage is a well-established independent company. We are centrally located in the city and provide excellent facilities for all your storage requirements.</p><p>We provide safe and secure units for both long- and short-term storage dependent on your needs. Our rates are competitive and tailored to your specific requirements and your choice of storage unit. Heavy-duty locks and keys are provided to all of our customers and included in the prices listed. You can hire the unit with the storage capacity you need, for the period of time that the storage is required, in a sound and secure environment, monitored by CCTV. With 24-hour access, customers can deliver and collect items when it is convenient to do so, unrestricted by business or office hours. Tarmac roadways allow customers to park cars and lorries immediately outside their units, minimising the effort required to collect or drop items off.</p><p><strong>Household storage</strong></p><p>Self-storage is ideal for families or individuals with either a short- or long-term need to store their belongings. Some of our clients are de-cluttering, or they may be getting their property decorated, or planning to go abroad for a time.</p><p><strong>Student storage</strong></p><p>You may be travelling or going home to see family and friends in the vacation, or need time to find a place to stay. You may want to store all your books and personal items, or just a few boxes or a musical instrument. We offer no-nonsense competitive pricing with flexible hire periods and with no hidden extras. We can provide you with short- or long-term affordable hire in a safe and secure environment. You are responsible for organising transport but we can also recommend local van and driver hire companies.</p><p><strong>Business storage</strong></p><p>Free up your expensive retail space with affordable self-storage. We have three different business storage centres to choose from so you can choose the location that is most convenient for you.</p>",
+                        "questions": [
+                            {
+                                "type": "trueFalseNotGiven",
+                                "title": "Questions 1-6",
+                                "instructions": "Do the following statements agree with the information given in the text? Write TRUE if the statement agrees with the information, FALSE if the statement contradicts the information, NOT GIVEN if there is no information on this.",
+                                "items": [
+                                    {
+                                        "number": 1,
+                                        "statement": "There is an extra charge for locks and keys.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'Heavy-duty locks and keys are provided to all of our customers and included in the prices listed.' Included in the prices = no extra charge."
+                                    },
+                                    {
+                                        "number": 2,
+                                        "statement": "It is possible to arrange to share a storage unit with someone else.",
+                                        "answer": "NOT GIVEN",
+                                        "explanation": "The text does not mention anything about sharing storage units with other people."
+                                    },
+                                    {
+                                        "number": 3,
+                                        "statement": "You can pick up your property from the storage unit during the night-time.",
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'With 24-hour access, customers can deliver and collect items when it is convenient to do so, unrestricted by business or office hours.' 24-hour access includes night-time."
+                                    },
+                                    {
+                                        "number": 4,
+                                        "statement": "You can drive your vehicle right next to your storage unit.",
+                                        "answer": "TRUE",
+                                        "explanation": "The text states 'Tarmac roadways allow customers to park cars and lorries immediately outside their units.' Immediately outside = right next to."
+                                    },
+                                    {
+                                        "number": 5,
+                                        "statement": "Students' possessions can only be stored during vacation periods.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'We can provide you with short- or long-term affordable hire' for students, not just during vacations. The vacation is mentioned as one reason students might need storage, not a restriction."
+                                    },
+                                    {
+                                        "number": 6,
+                                        "statement": "The storage company will collect and deliver students' property.",
+                                        "answer": "FALSE",
+                                        "explanation": "The text states 'You are responsible for organising transport' - the company does not collect or deliver, students must arrange their own transport."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "1b",
+                        "title": "Local museums",
+                        "content": "<p><strong>A. Whittlesey Museum</strong></p><p>The museum is located in the Old Town Hall, which was originally built to house horse-drawn fire engines. It has eight rooms, and the exhibits cover topics such as archive photographs, costume, domestic life and local celebrities.</p><p><strong>B. Octavia Hill's Birthplace House</strong></p><p>Built in 1740, this is the birthplace of pioneer social reformer Octavia Hill, who was active in the late 19th and early 20th centuries in social housing and the arts, as well as in conservation issues. Visitors are taken on a guided tour and are then free to explore the gardens.</p><p><strong>C. Chatteris Museum</strong></p><p>The old market town of Chatteris was largely rebuilt, after two serious fires in 1706 and 1864 destroyed many of the town's ancient buildings. The museum's exhibits illustrate traditional aspects of the life of local farmers as well as the railway boom of the 19th century. The museum has a touch-screen kiosk which contains over 9,000 historic photographs and texts, reproductions of which can be made on request.</p><p><strong>D. March and District Museum</strong></p><p>Located in the middle of the market town of March, the museum is housed in a former school built in 1851. Its wide-ranging collections include reconstructions of an early 20th-century kitchen, sitting room and nursery. There is also an interesting display of historic cameras and radios, and a medal which was awarded to train driver Ben Gimbert for his bravery in preventing loss of life when a train full of explosives caught fire in 1944.</p><p><strong>E. Wisbech and Fenland Museum</strong></p><p>This 19th-century gem holds collections from around the world including Ancient Egypt. Its library, which is open to the public on the first Saturday of each month, contains the manuscript of <em>Great Expectations</em> by the 19th-century novelist Charles Dickens, and the Research Room can be booked for researching local records.</p>",
+                        "questions": [
+                            {
+                                "type": "matching",
+                                "title": "Questions 7-14",
+                                "instructions": "Look at the five descriptions of museums, A-E, in one area of England. For which museum are the following statements true? Write the correct letter, A-E. NB You may use any letter more than once.",
+                                "options": [
+                                    "A",
+                                    "B",
+                                    "C",
+                                    "D",
+                                    "E"
+                                ],
+                                "optionLabelsTitle": "Museums:",
+                                "optionLabels": {
+                                    "A": "Whittlesey Museum",
+                                    "B": "Octavia Hill's Birthplace House",
+                                    "C": "Chatteris Museum",
+                                    "D": "March and District Museum",
+                                    "E": "Wisbech and Fenland Museum"
+                                },
+                                "items": [
+                                    {
+                                        "number": 7,
+                                        "statement": "There are exhibits related to the history of agriculture in the region.",
+                                        "answer": "C",
+                                        "explanation": "Museum C (Chatteris Museum) mentions 'exhibits illustrate traditional aspects of the life of local farmers.' Farmers = agriculture."
+                                    },
+                                    {
+                                        "number": 8,
+                                        "statement": "Equipment for putting out fires used to be kept in this building.",
+                                        "answer": "A",
+                                        "explanation": "Museum A (Whittlesey Museum) is 'located in the Old Town Hall, which was originally built to house horse-drawn fire engines.' Fire engines = equipment for putting out fires."
+                                    },
+                                    {
+                                        "number": 9,
+                                        "statement": "You can find information on the rise of one type of transport.",
+                                        "answer": "C",
+                                        "explanation": "Museum C (Chatteris Museum) has exhibits about 'the railway boom of the 19th century.' Railway boom = rise of one type of transport (trains)."
+                                    },
+                                    {
+                                        "number": 10,
+                                        "statement": "There are things to see both inside and outside.",
+                                        "answer": "B",
+                                        "explanation": "Museum B (Octavia Hill's Birthplace House) offers 'a guided tour and are then free to explore the gardens.' Inside (guided tour) + outside (gardens)."
+                                    },
+                                    {
+                                        "number": 11,
+                                        "statement": "It is possible to obtain copies of old pictures and documents.",
+                                        "answer": "C",
+                                        "explanation": "Museum C (Chatteris Museum) has 'over 9,000 historic photographs and texts, reproductions of which can be made on request.' Reproductions = copies."
+                                    },
+                                    {
+                                        "number": 12,
+                                        "statement": "On certain days you can see an original work by a writer of fiction.",
+                                        "answer": "E",
+                                        "explanation": "Museum E (Wisbech and Fenland Museum) has 'the manuscript of Great Expectations by the 19th-century novelist Charles Dickens' in its library 'which is open to the public on the first Saturday of each month.' Certain days = first Saturday of each month."
+                                    },
+                                    {
+                                        "number": 13,
+                                        "statement": "Someone who was interested in environmental matters lived here for a time.",
+                                        "answer": "B",
+                                        "explanation": "Museum B (Octavia Hill's Birthplace House) is 'the birthplace of pioneer social reformer Octavia Hill, who was active... in conservation issues.' Conservation = environmental matters; birthplace = lived here."
+                                    },
+                                    {
+                                        "number": 14,
+                                        "statement": "This museum has an exhibit related to a heroic achievement.",
+                                        "answer": "D",
+                                        "explanation": "Museum D (March and District Museum) has 'a medal which was awarded to train driver Ben Gimbert for his bravery in preventing loss of life when a train full of explosives caught fire in 1944.' Bravery = heroic achievement."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Section 2",
+                "questionRange": "Questions 15-27",
+                "passages": [
+                    {
+                        "id": "2a",
+                        "title": "Workplace health and safety considerations for plumbers",
+                        "content": "<p>Like many trades, plumbing can be a dangerous job. It is important to take all reasonably practicable measure to keep customers and yourself incident and injury free.</p><p><strong>Biohazard waste</strong></p><p>Plumbers regularly come into contact with biohazard waste. It's the nature of the job, but that doesn't mean you should be complacent about it. According to Safe Work Australia, communicable diseases from work-related exposures to biological hazards such as sewage have been estimated to cause 320,000 deaths across the globe each year. In addition to this, plumbers are regularly exposed to other biohazards such as mould, bacteria and algae. Don't risk it – make sure appropriate clothing and equipment is used.</p><p><strong>Confined spaces</strong></p><p>Plumbers may spend much of their time working in confined spaces, where they are at risk from contaminants, including airborne gases, vapours and dusts, that may cause injury from fire or explosion. They may also be exposed to high concentration of airborne contaminants that may be harmful to health. For example, one plumber was fined $220,000 after an employee suffered from carbon-monoxide poisoning. Another potential hazard for plumbers in confined spaces is that of drowning, if water sources are not adequately cut off.</p><p>The Safe Work Australia confined spaces code of practice outlines the necessary steps and precautions for avoiding illness and injury.</p><p><strong>Electricity</strong></p><p>The Master Plumbers' Association calls electricity 'plumbing's hidden killer'. Metal pipes are often conductive and so gloves which provide insulation should form part of a plumber's tool kit, as should a plumbing voltage monitor and a volt tester. Gloves should be checked prior to every use and replaced every 12 to 14 months. Electrical equipment like bridging conductors should be regularly checked, with appropriate tags on the equipment to verify its safety. The project should be stopped immediately if there is any sign of electricity, so that the power can be disconnected by a qualified electrician prior to continuing work.</p>",
+                        "questions": [
+                            {
+                                "type": "tableCompletion",
+                                "title": "Questions 15-20",
+                                "instructions": "Complete the table below. Choose ONE WORD ONLY from the text for each answer.",
+                                "tableTitle": "Workplace hazards for plumbers",
+                                "headers": [
+                                    "Type of danger",
+                                    "Examples",
+                                    "Risks involved",
+                                    "Necessary action"
+                                ],
+                                "answers": {
+                                    "15": "sewage",
+                                    "16": "poisoning",
+                                    "17": "drowning",
+                                    "18": "gloves",
+                                    "19": "tags",
+                                    "20": "disconnected"
+                                },
+                                "explanations": {
+                                    "15": "The text mentions 'biological hazards such as sewage' as an example of biohazard waste.",
+                                    "16": "The text states 'an employee suffered from carbon-monoxide poisoning' as a risk from high concentrations of harmful airborne contaminants.",
+                                    "17": "The text states 'Another potential hazard for plumbers in confined spaces is that of drowning' as a risk from water.",
+                                    "18": "The text states 'gloves which provide insulation should form part of a plumber's tool kit' - these are insulated gloves.",
+                                    "19": "The text states 'appropriate tags on the equipment to verify its safety' - equipment should have tags to show it is safe.",
+                                    "20": "The text states 'the power can be disconnected by a qualified electrician' - electricity must be disconnected."
+                                },
+                                "items": [
+                                    {
+                                        "isHeader": true,
+                                        "text": "Types of workplace danger for plumbers"
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Biohazard:"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 15
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": ", mould, bacteria, algae – can lead to disease and death – use protective clothing and equipment"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Confined spaces: Contaminants e.g. gases, vapours and dusts – injury from fire or explosion – follow Safe Work code of practice"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Confined spaces: high concentrations of harmful airborne contaminants e.g. carbon monoxide –"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 16
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "– follow Safe Work code of practice"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Confined spaces: water –"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 17
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "– cut off water sources"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "Electricity: metal pipes which are conductive – death from electrocution – use insulated"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 18
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "and appropriate equipment"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "– ensure equipment has"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 19
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "on to show it is safe"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "– make sure electricity has been"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 20
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "2b",
+                        "title": "How to manage flexible working with your employees",
+                        "content": "<p>There is no denying that flexible working has grown enormously in recent years. It does, however, require careful management.</p><p>When it comes to implementing flexible working one word is key: trust. All flexible workers should be trusted and given well-defined objectives from the start and their contribution should be assessed according to their output, as opposed to the time they spend on the job. It can be a big step to implement such as change in your business, so if you are slightly cautious then I recommend perhaps setting up an end-of-the-day review to see how much progress has been made. As all parties find their feet with the new set-up, this contact can slowly be reduced.</p><p>In my eyes, it is also vital that there is shared calendar access for everyone so that people can see where their colleagues are each day. This way if they need to catch up with someone they can plan when to do so. Technology now exists to enable employees to stay in touch with other members of staff and external partners. iMeet, for example, is a tool which allows all forms of collaboration for remote working, from video conferencing, live chat and file sharing to screen sharing. The new breed of worker is therefore fully equipped to work productively away from the office, and can still feel like they're in the same room as others when necessary.</p><p>In my experience, employees are often more productive working at home as they can work the exact hours they want and do not have to cope with distraction caused by other employees. Being outside the confines of the office walls also appears to foster creativity. In addition, we find staff are more motivated as they have a better work-life balance. In terms of the business, we find this helps with top talent recruitment and staff retention, and a happy workforce is a more successful one.</p>",
+                        "questions": [
+                            {
+                                "type": "noteCompletion",
+                                "title": "Questions 21-27",
+                                "instructions": "Complete the notes below. Choose ONE WORD ONLY from the text for each answer.",
+                                "noteTitle": "Flexible working",
+                                "answers": {
+                                    "21": "objectives",
+                                    "22": "review",
+                                    "23": "calendar",
+                                    "24": "collaboration",
+                                    "25": "distraction",
+                                    "26": "creativity",
+                                    "27": "retention"
+                                },
+                                "explanations": {
+                                    "21": "The text states employees should be 'given well-defined objectives from the start.' Objectives = clear goals.",
+                                    "22": "The text recommends 'setting up an end-of-the-day review to see how much progress has been made.' A review of progress each day.",
+                                    "23": "The text states 'there is shared calendar access for everyone' so people can see colleague locations.",
+                                    "24": "The text mentions iMeet 'allows all forms of collaboration for remote working.' Collaboration between workers.",
+                                    "25": "The text states employees 'do not have to cope with distraction caused by other employees.' Less distraction from colleagues.",
+                                    "26": "The text states 'Being outside the confines of the office walls also appears to foster creativity.' Increase in creativity.",
+                                    "27": "The text states flexible working 'helps with top talent recruitment and staff retention.' Staff retention = keeping employees."
+                                },
+                                "items": [
+                                    {
+                                        "isHeader": true,
+                                        "text": "How to organise flexible working"
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "trust your employees"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "provide them with clear"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 21
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "base measurements of performance on their output"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "initially, have a"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 22
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "of progress each day"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "make sure a"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 23
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "is accessible to give details of colleague locations"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "use a program such as iMeet to encourage different types of"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 24
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "between workers"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isHeader": true,
+                                        "text": "Benefits of flexibility"
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "greater productivity"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "less"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 25
+                                            },
+                                            {
+                                                "type": "text",
+                                                "value": "from colleagues"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "increase in"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 26
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "more motivated staff"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "parts": [
+                                            {
+                                                "type": "text",
+                                                "value": "greater success for the company with staff recruitment and"
+                                            },
+                                            {
+                                                "type": "blank",
+                                                "number": 27
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Section 3",
+                "questionRange": "Questions 28-40",
+                "passages": [
+                    {
+                        "id": "3",
+                        "title": "Preventing the theft of turtle eggs",
+                        "content": "<p><em>Conservationists and law enforcement have struggled to prevent wildlife trafficking. But could some plastic eggs and GPS trackers change the game?</em></p><p><strong>A</strong></p><p>Humans have been eating sea turtle eggs (and killing adult turtles for meat) for millennia. However, as human populations exploded and as sea turtles began to confront additional threats such as intensive fishing, beach development and climate change, sea turtle populations declined precipitously. Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN* Red List. And the one that's not – the flatback turtle – is listed as data deficient, which means scientists simply don't know how it's doing.</p><p><strong>B</strong></p><p>One major problem is that every year millions of sea turtle eggs are illegally taken by poachers for sale on the black market. The situation is particularly serious in Nicaragua, in Central America, which is home to four sea turtle species.</p><p>Kim Williams-Guillen, who works for conservation body Paso Pacifico, described the poaching of sea turtle nests on the beaches of Nicaragua as 'uncontrolled, unregulated, extensive and contested'. Even the best-protected beaches are plundered to some extent and it's not uncommon to see poachers digging up nests just meters from tourists watching sea turtles laying their clutch at night, she said. This poaching becomes particularly frenzied during the <em>arribadas</em> – mass laying events where thousands of turtles nest on the same beach for a single night in a biological strategy to overwhelm natural predators.</p><p><strong>C</strong></p><p>'Even with armed guards, the numbers of poachers overwhelm military personnel by ten to twenty to one,' Williams-Guillen said. 'Although many poachers are locals with limited resources, during these <em>arribadas</em> there are influxes of gangs of poachers from larger cities outside local communities. These are not just local poor people without other options.'</p><p>But to protect the country's sea turtles, Williams-Guillen said conservationists shouldn't just depend on catching low-level operators. 'If one poacher decides to stop, another one will just step into his place… we need to know more about the middlemen and people higher up in the distribution chain,' she said.</p><p><strong>D</strong></p><p>Paso Pacifico's solution is the creation of high-tech sea turtle eggs: fake eggs convincingly crafted to look like the real thing, but which contain GPS tracking devices. These have the potential to reveal the destination markets for trafficked sea turtle eggs.</p><p>Making convincing sea turtle eggs is not easy, and Paso Pacifico is still working on perfecting a prototype. In particular, it's proving quite problematic to create the right texture, since sea turtle eggs are not covered in a hard shell like those of birds, but are quite flexible.</p><p>So Paso Pacifico brought in Lauren Wilde, a special effects artist in the US, to create a convincing outer shell. First, Wilde had to get her hands on the real thing. Since it's illegal to send sea turtle eggs over the border, Wilde is using land turtle eggs from California. 'It was really eye opening and important for me to feel these eggs and how the shell bends a little,' she said.</p><p>To get the GPS device inside the shell, Paso Pacifico is using 3D printers to make a plastic ball which will then have a GPS transmitter fitted inside. This will take the place of the embryo inside the shell. Lastly the fake shells will be sealed with silicone, waterproofing them.</p><p><strong>E</strong></p><p>Sea turtles on average lay around 100 eggs in a nest, and once the fake eggs are finished they will be slipped in with the real ones. Williams-Guillen said it might even be possible to deliver fake eggs into nests while poachers are at work. Wary of tourists, poachers will often back off if strangers come near and then return when they have gone. 'It would be pretty easy to drop an egg in the dark into a nest they have been digging up,' she said.</p><p>Once the poacher picks up the fake egg along with the real ones, conservationists and law enforcement agents will be able to track them. Experts believe most of the stolen eggs eventually make their way out of Nicaragua, possibly to El Salvador or Guatemala. However, there is also growing concern that sea turtle eggs from Central America are actually heading to the USA, from where they are sold on to other countries around the world.</p><p><strong>F</strong></p><p>To date, Paso Pacifico has yet to put a single fake egg in a nest. But Williams-Guillen said she isn't too concerned that publicity for their scheme will result in poachers looking for the eggs. 'The vast majority of the poaching is happening at night, so already it is hard to tell [the eggs] apart, and at this point, poachers and middlemen are not closely inspecting eggs, but rather shoving them into a sack as quickly as possible.'</p><p>Of course, poachers will eventually become aware of the prospect of fake eggs among the real ones – especially when customers try to bite into an egg and break their teeth on the GPS transmitter instead. So, Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise.</p><p>Knowing where the eggs go will allow conservationists and law enforcement agents to focus their resources on the right places – whether it be through awareness-building campaigns or crackdowns on illegal sellers. And eventually Paso Pacifico hopes to share the technology with interested parties around the world.</p><p><em>*IUCN: International Union for Conservation of Nature</em></p>",
+                        "questions": [
+                            {
+                                "type": "headingMatching",
+                                "title": "Questions 28-33",
+                                "instructions": "The text has six sections, A-F. Choose the correct heading for each section from the list of headings below.",
+                                "headings": [
+                                    {
+                                        "number": "i",
+                                        "text": "Developing an item that appears true to life"
+                                    },
+                                    {
+                                        "number": "ii",
+                                        "text": "Extending the project to other endangered species"
+                                    },
+                                    {
+                                        "number": "iii",
+                                        "text": "A short but intensive investigation with longer-term follow-up"
+                                    },
+                                    {
+                                        "number": "iv",
+                                        "text": "Problems facing sea turtles at a global level"
+                                    },
+                                    {
+                                        "number": "v",
+                                        "text": "Collection of eggs and their possible onward routes"
+                                    },
+                                    {
+                                        "number": "vi",
+                                        "text": "Intensive and large-scale poaching in one location"
+                                    },
+                                    {
+                                        "number": "vii",
+                                        "text": "Why catching the poachers may not solve the problem"
+                                    }
+                                ],
+                                "items": [
+                                    {
+                                        "number": 28,
+                                        "statement": "Section A",
+                                        "answer": "iv",
+                                        "explanation": "Section A discusses global threats to sea turtles including 'intensive fishing, beach development and climate change' and states 'all but one of the world's seven species of sea turtles are considered threatened.' These are problems facing sea turtles at a global level."
+                                    },
+                                    {
+                                        "number": 29,
+                                        "statement": "Section B",
+                                        "answer": "vi",
+                                        "explanation": "Section B describes poaching in Nicaragua as 'uncontrolled, unregulated, extensive' with 'frenzied' poaching during mass laying events. This is intensive and large-scale poaching in one location (Nicaragua)."
+                                    },
+                                    {
+                                        "number": 30,
+                                        "statement": "Section C",
+                                        "answer": "vii",
+                                        "explanation": "Section C explains that 'If one poacher decides to stop, another one will just step into his place' and they need to focus on 'middlemen and people higher up in the distribution chain.' This explains why catching poachers may not solve the problem."
+                                    },
+                                    {
+                                        "number": 31,
+                                        "statement": "Section D",
+                                        "answer": "i",
+                                        "explanation": "Section D describes making 'fake eggs convincingly crafted to look like the real thing' and the challenges of creating 'the right texture' and a 'convincing outer shell.' This is developing an item that appears true to life."
+                                    },
+                                    {
+                                        "number": 32,
+                                        "statement": "Section E",
+                                        "answer": "v",
+                                        "explanation": "Section E describes how the fake eggs will be 'slipped in with the real ones' and how eggs 'make their way out of Nicaragua, possibly to El Salvador or Guatemala' and even 'to the USA.' This is about collection of eggs and their possible onward routes."
+                                    },
+                                    {
+                                        "number": 33,
+                                        "statement": "Section F",
+                                        "answer": "iii",
+                                        "explanation": "Section F describes plans for 'a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise' (short but intensive) and then hopes 'to share the technology with interested parties around the world' (longer-term follow-up)."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "multipleChoice",
+                                "title": "Questions 34-37",
+                                "instructions": "Choose the correct letter, A, B, C or D.",
+                                "items": [
+                                    {
+                                        "number": 34,
+                                        "text": "What does the writer suggest about the flatback turtle?",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "It could be as severely threatened as other turtles."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "It has been neglected by scientists in the past."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "It is in less danger than some other species."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "It should be removed from the IUCN Red List."
+                                            }
+                                        ],
+                                        "answer": "A",
+                                        "explanation": "The text says the flatback turtle 'is listed as data deficient, which means scientists simply don't know how it's doing.' If they don't know, it could be as threatened as others - we just don't have the data."
+                                    },
+                                    {
+                                        "number": 35,
+                                        "text": "Williams-Guillen says that the poaching of sea turtle eggs in Nicaragua",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "is mainly carried out by local people."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "may be encouraged by the presence of tourists."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "sometimes has a highly organised structure."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "can only be controlled by the use of armed guards."
+                                            }
+                                        ],
+                                        "answer": "C",
+                                        "explanation": "The text states 'during these arribadas there are influxes of gangs of poachers from larger cities outside local communities. These are not just local poor people without other options.' Gangs from cities = highly organised structure."
+                                    },
+                                    {
+                                        "number": 36,
+                                        "text": "In Section E, Williams-Guillen says that one way to encourage poachers to take the fake eggs is to",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "make fake nests and put the eggs into them."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "put them in nests with just a few real eggs."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "distract the poachers after the fake eggs have been put in the nests."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "put them in nests that the poachers have started to dig up."
+                                            }
+                                        ],
+                                        "answer": "D",
+                                        "explanation": "The text states 'It would be pretty easy to drop an egg in the dark into a nest they have been digging up.' Put them in nests that poachers have started to dig up."
+                                    },
+                                    {
+                                        "number": 37,
+                                        "text": "It is planned to use a large number of fake eggs at the beginning because",
+                                        "options": [
+                                            {
+                                                "letter": "A",
+                                                "text": "some of the fake eggs may be missed by the poachers."
+                                            },
+                                            {
+                                                "letter": "B",
+                                                "text": "it may not be possible to continue the project indefinitely."
+                                            },
+                                            {
+                                                "letter": "C",
+                                                "text": "some eggs may be hidden in the sand."
+                                            },
+                                            {
+                                                "letter": "D",
+                                                "text": "it may not be feasible to fund long-term research."
+                                            }
+                                        ],
+                                        "answer": "B",
+                                        "explanation": "The text states 'Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise.' They need to act fast because poachers will eventually know - so it may not be possible to continue indefinitely."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "summaryCompletion",
+                                "title": "Questions 38-40",
+                                "instructions": "Complete the summary below. Choose ONE WORD ONLY from the text for each answer.",
+                                "summaryTitle": "Making convincing sea turtle eggs",
+                                "summary": "One difficulty in creating a fake sea turtle egg is to get the appropriate texture for the shell. Unlike a bird's egg, a turtle's egg has a shell which is {38}. Lauren Wilde has studied eggs from Californian turtles that live on {39} to create a realistic reproduction of the shell. A GPS device will then be placed inside a {40} in the fake shell. Finally, silicone will be applied to the shell to make it waterproof.",
+                                "items": [
+                                    {
+                                        "number": 38,
+                                        "textBefore": "a turtle's egg has a shell which is",
+                                        "textAfter": "",
+                                        "answer": "flexible",
+                                        "explanation": "The text states 'sea turtle eggs are not covered in a hard shell like those of birds, but are quite flexible.' The shell is flexible."
+                                    },
+                                    {
+                                        "number": 39,
+                                        "textBefore": "eggs from Californian turtles that live on",
+                                        "textAfter": "",
+                                        "answer": "land",
+                                        "explanation": "The text states 'Wilde is using land turtle eggs from California.' Land turtles = turtles that live on land."
+                                    },
+                                    {
+                                        "number": 40,
+                                        "textBefore": "A GPS device will then be placed inside a",
+                                        "textAfter": "",
+                                        "answer": "ball",
+                                        "explanation": "The text states 'Paso Pacifico is using 3D printers to make a plastic ball which will then have a GPS transmitter fitted inside.' The GPS goes inside a ball."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
