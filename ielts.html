@@ -105,12 +105,19 @@
                 <h2 class="text-4xl font-bold text-white mb-4">Cambridge IELTS Tests</h2>
                 <p class="text-white/50 text-lg mb-8">Seç ve pratik yapmaya başla</p>
 
-                <!-- Category Tabs - Only General Training visible -->
+                <!-- Category Tabs -->
                 <div class="flex justify-center gap-3 mb-6">
-                    <button
-                        class="bg-gradient-to-r from-green-500 to-teal-500 text-white px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                    <button @click="selectedCategory = 'general'"
+                        :class="selectedCategory === 'general' ? 'bg-gradient-to-r from-green-500 to-teal-500 text-white' : 'bg-white/5 text-white/60 hover:bg-white/10'"
+                        class="px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
                         📋 General Training
                         <span class="text-xs bg-white/20 px-2 py-0.5 rounded-full" x-text="generalTests.length"></span>
+                    </button>
+                    <button @click="selectedCategory = 'academic'"
+                        :class="selectedCategory === 'academic' ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white' : 'bg-white/5 text-white/60 hover:bg-white/10'"
+                        class="px-8 py-3 rounded-full font-semibold transition-all flex items-center gap-2">
+                        🎓 Academic
+                        <span class="text-xs bg-white/20 px-2 py-0.5 rounded-full" x-text="academicTests.length"></span>
                     </button>
                 </div>
             </div>
@@ -216,6 +223,13 @@
                         { id: 3, name: 'Cambridge 16 Test 2', file: 'data/ielts-tests/general/general-test-16-2.json', listeningFile: 'data/ielts-tests/listening/test-16-2.json', type: 'general' },
                         { id: 4, name: 'Cambridge 16 Test 3', file: 'data/ielts-tests/general/general-test-16-3.json', listeningFile: 'data/ielts-tests/listening/test-16-3.json', type: 'general' },
                         { id: 5, name: 'Cambridge 16 Test 4', file: 'data/ielts-tests/general/general-test-16-4.json', listeningFile: 'data/ielts-tests/listening/test-16-4.json', type: 'general' }
+                    ];
+
+                    this.academicTests = [
+                        { id: 1, name: 'Academic Test 1', file: 'data/ielts-tests/academic/academic-test1.json', type: 'academic' },
+                        { id: 2, name: 'Cambridge 19 Test 3', file: 'data/ielts-tests/academic/academic-test2.json', type: 'academic' },
+                        { id: 3, name: 'Cambridge 20 Test 2', file: 'data/ielts-tests/academic/academic-test3.json', type: 'academic' },
+                        { id: 4, name: 'Cambridge 20 Test 3', file: 'data/ielts-tests/academic/academic-test4.json', type: 'academic' }
                     ];
                 },
 

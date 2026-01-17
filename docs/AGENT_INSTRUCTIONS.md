@@ -40,6 +40,19 @@
 - Copy the style from example files (general-test1.json, test1.json) EXACTLY
 - Same field names, same nesting, same order
 
+### 6. NO TYPOS OR SPELLING ERRORS - ZERO TOLERANCE
+- You MUST copy text EXACTLY as provided - character by character
+- Double-check every word you write before submitting
+- If you make a typo, the entire test becomes UNUSABLE
+- Common mistakes to avoid:
+  - Missing letters (e.g., "th" instead of "the")
+  - Swapped letters (e.g., "teh" instead of "the")
+  - Extra spaces or missing spaces
+  - Wrong punctuation
+- This is an ENGLISH LEARNING platform - spelling errors are UNACCEPTABLE
+- If you're unsure about a word's spelling, copy it DIRECTLY from the source
+- Re-read your output before finishing to catch any errors
+
 ---
 
 ## General Rules
@@ -244,7 +257,7 @@
             {
                 "part": 1,
                 "title": "Part 1 Title",
-                "audioUrl": "https://drive.google.com/file/d/PART1_FILE_ID/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/ELT_IELTS[X]_t[Y]_audio1.mp3",
                 "type": "notes",
                 "instructions": "Write ONE WORD AND/OR A NUMBER for each answer.",
                 "items": [...],
@@ -254,21 +267,21 @@
             {
                 "part": 2,
                 "title": "Part 2 Title",
-                "audioUrl": "https://drive.google.com/file/d/PART2_FILE_ID/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/ELT_IELTS[X]_t[Y]_audio2.mp3",
                 "type": "...",
                 ...
             },
             {
                 "part": 3,
                 "title": "Part 3 Title",
-                "audioUrl": "https://drive.google.com/file/d/PART3_FILE_ID/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/ELT_IELTS[X]_t[Y]_audio3.mp3",
                 "type": "...",
                 ...
             },
             {
                 "part": 4,
                 "title": "Part 4 Title",
-                "audioUrl": "https://drive.google.com/file/d/PART4_FILE_ID/view?usp=drive_link",
+                "audioUrl": "https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/ELT_IELTS[X]_t[Y]_audio4.mp3",
                 "type": "...",
                 ...
             }
@@ -278,11 +291,11 @@
 ```
 
 ### IMPORTANT: Audio URL Format
-- We use Google Drive audio files, NOT YouTube videos
-- EACH PART has its own separate audio file
-- The user will provide 4 Google Drive links (one for each part)
+- We use Cloudflare R2 for hosting audio files
+- EACH PART has its own separate audio file (audio1.mp3, audio2.mp3, audio3.mp3, audio4.mp3)
 - Use `audioUrl` field inside EACH part object, NOT at the listening level
-- Format: `https://drive.google.com/file/d/FILE_ID/view?usp=drive_link`
+- Format: `https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/ELT_IELTS[BOOK]_t[TEST]_audio[PART].mp3`
+- Example: `https://pub-abcdc34fb0d6469f97657d9a699d2e28.r2.dev/ELT_IELTS17_t4_audio1.mp3` for IELTS 17 Test 4 Part 1
 - The audio changes automatically when user switches between parts
 
 ---
